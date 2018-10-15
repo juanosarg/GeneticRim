@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <ThingDef ParentName="GR_AmpouleBase">
+    <defName>GR_VirulentPoison</defName>
+    <label>virulent poison</label>
+    <description>This tiny vial is filled with a small amount of Thrumbolizard venom. When ingested, the whole system of the victim shuts down, akin to an anaphylactic reaction. There is no antidote, and no way to survive the poison.</description>
+    <graphicData>
+      <texPath>Things/Item/PoisonAmpoule</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+		<tradeability>Sellable</tradeability>
+
+    <statBases>
+      <MarketValue>60</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>GR_VirulentPoisonDrank</hediffDef>
+          <severity>1.00</severity>
+          
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>
+          <min>1.0</min>
+          <max>1.0</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <HediffDef>
+    <defName>GR_VirulentPoisonDrank</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>virulent poison</label>
+    <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+		
+    <stages>
+      <li>
+        
+        <lifeThreatening>true</lifeThreatening>
+        <deathMtbDays>.000001</deathMtbDays>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+</Defs>

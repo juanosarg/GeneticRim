@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<RecipeDef>
+		<defName>GR_PulpWood</defName>
+		<label>extract organic pulp from wood</label>
+		<description>Extract organic pulp from wood.</description>
+		<jobString>Extracting Pulp</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>GR_Pulper</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<GR_OrganicPulp>1</GR_OrganicPulp>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_PulpWoodExpensive</defName>
+		<label>extract organic pulp from wood</label>
+		<description>Extract organic pulp from wood. This recipe is more expensive than the one in the pulper, which can be built with the Genetic Engineering research.</description>
+		<jobString>Extracting Pulp</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>750</workAmount>
+		<recipeUsers>
+			<li>GR_AlphaSerumExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<GR_OrganicPulp>1</GR_OrganicPulp>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_PulpCorpse</defName>
+		<label>extract organic pulp from corpse</label>
+		<description>Extract organic pulp from corpse.</description>
+		<jobString>Extracting Pulp</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>GR_PulpRecycler</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Corpses</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Corpses</li>
+			</categories>
+			<disallowedCategories>
+				<li>CorpsesMechanoid</li>
+			</disallowedCategories>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>CorpsesAnimal</li>
+			</categories>
+		</defaultIngredientFilter>
+		<products>
+			<GR_OrganicPulp>2</GR_OrganicPulp>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_RecycleIncubator</defName>
+		<label>extract organic pulp from unwanted incubator</label>
+		<description>Extract organic pulp from unwanted incubator. Careful, this operation will grab the closest incubator. Plan accordingly.</description>
+		<jobString>Extracting Pulp</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>GR_PulpRecycler</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>GR_Incubators</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>GR_Incubators</li>
+			</categories>
+
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>GR_Incubators</li>
+			</categories>
+		</defaultIngredientFilter>
+		<products>
+			<GR_OrganicPulp>1</GR_OrganicPulp>
+		</products>
+	</RecipeDef>
+
+
+
+
+</Defs>

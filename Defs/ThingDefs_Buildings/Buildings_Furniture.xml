@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+
+
+  
+    <ThingDef ParentName="FurnitureBase">
+    <defName>GR_HugeBearRug</defName>
+    <label>huge bear rug</label>
+    <graphicData>
+      <texPath>Things/Building/HugeBearRug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>    
+		<drawSize>(2,2)</drawSize>	  
+    </graphicData>
+	<tradeability>Sellable</tradeability>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+	<pathCost>0</pathCost>
+    <castEdgeShadows>false</castEdgeShadows>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>495</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+	 
+			<Beauty>50</Beauty>
+			
+			<Cleanliness>0.6</Cleanliness>
+    </statBases>
+
+			<minifiedDef>MinifiedThing</minifiedDef>
+		<rotatable>true</rotatable>
+<building>    
+			<isEdifice>false</isEdifice>
+		</building>
+		<size>(2,2)</size>
+		    <costList>
+      <GR_HugeBearPelt>1</GR_HugeBearPelt>	
+    </costList>
+  </ThingDef>
+  
+      <ThingDef ParentName="FurnitureBase">
+    <defName>GR_WolfRug</defName>
+    <label>wolf rug</label>
+    <graphicData>
+      <texPath>Things/Building/WolfRug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>    
+		<drawSize>(2,2)</drawSize>	  
+    </graphicData>
+	<tradeability>Sellable</tradeability>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+	<pathCost>0</pathCost>
+    <castEdgeShadows>false</castEdgeShadows>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>495</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+	 
+			<Beauty>35</Beauty>
+			
+			<Cleanliness>0.7</Cleanliness>
+    </statBases>
+
+			<minifiedDef>MinifiedThing</minifiedDef>
+		<rotatable>true</rotatable>
+<building>    
+			<isEdifice>false</isEdifice>
+		</building>
+		<size>(2,2)</size>
+		    <costList>
+      <GR_WolfPelt>1</GR_WolfPelt>	
+    </costList>
+  </ThingDef>
+  
+  <ThingDef ParentName="FurnitureBase">
+    <defName>GR_MuffaloRug</defName>
+    <label>muffalo pelt rug</label>
+    <graphicData>
+      <texPath>Things/Building/MuffaloRug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>    
+		<drawSize>(2,2)</drawSize>	  
+    </graphicData>
+	<tradeability>Sellable</tradeability>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+	<pathCost>0</pathCost>
+    <castEdgeShadows>false</castEdgeShadows>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>495</WorkToBuild>
+      <Mass>8</Mass>
+      <Flammability>1.0</Flammability>
+	 
+			<Beauty>40</Beauty>
+			
+			<Cleanliness>0.6</Cleanliness>
+    </statBases>
+
+			<minifiedDef>MinifiedThing</minifiedDef>
+		<rotatable>true</rotatable>
+<building>    
+			<isEdifice>false</isEdifice>
+		</building>
+		<size>(2,2)</size>
+		    <costList>
+      <GR_MuffaloPelt>1</GR_MuffaloPelt>	
+    </costList>
+  </ThingDef>
+  
+  <ThingDef ParentName="FurnitureBase">
+    <defName>GR_BoarTuskStatuette</defName>
+    <label>small boar tusk statuette</label>
+    <description>A boar tusk carved into an artistic form.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/BoarTuskStatue</texPath>
+    </graphicData>
+	<tradeability>Sellable</tradeability>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <fillPercent>0.35</fillPercent>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Mass>2</Mass>
+      <Beauty>25</Beauty>
+      <Flammability>1.0</Flammability>
+	  <SellPriceFactor>1.02</SellPriceFactor>
+    </statBases>
+    
+    <thingClass>Building_Art</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <castEdgeShadows>true</castEdgeShadows>
+    <useHitPoints>true</useHitPoints>
+   
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtSculpture</nameMaker>
+        <descriptionMaker>ArtDescription_Sculpture</descriptionMaker>
+				<canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
+      </li>
+    </comps>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+	<costList>
+      <GR_AlphaBoarTusks>2</GR_AlphaBoarTusks>	
+    </costList>
+   
+  </ThingDef>
+
+
+
+</Defs>

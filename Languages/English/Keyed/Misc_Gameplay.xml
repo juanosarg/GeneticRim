@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Item Production -->
+
+  <IncubatorProgress>Incubator progress</IncubatorProgress>
+  <ResourceGrowth>Resource growth</ResourceGrowth>
+  <FeatherGrowth>Feather growth</FeatherGrowth>
+  <JellyGrowth>Royal jelly fullness</JellyGrowth>
+  <VanillaJellyGrowth>Insect jelly fullness</VanillaJellyGrowth>
+  <SacGrowth>Explosive sac growth</SacGrowth>
+  <SilkGrowth>Silk growth</SilkGrowth>
+  <PoisonGrowth>Poison fullness</PoisonGrowth>
+  <SkinShed>Skin shedding time</SkinShed>
+  <TentacleGrowth>Trimmable tentacle growth</TentacleGrowth>
+  <JellyGrowth2>Eldritch jelly fullness</JellyGrowth2>
+  <ChocolateEgg>Chocolate egg growth</ChocolateEgg>
+  <Cryofuel>Cryofuel production</Cryofuel>
+  <ChemfuelProd>Chemfuel production</ChemfuelProd>
+  <NeutroglycerinProd>Neutroglycerin production</NeutroglycerinProd>
+  <ComponentIndustrialDesc>Industrial Component production</ComponentIndustrialDesc>
+
+
+  
+  <!-- Gene Pods Control -->
+
+  <GR_ExtractGenes>Empty Tank 1</GR_ExtractGenes>
+  <GR_ExtractGenesDesc>Extract Genetic Material from tank #1</GR_ExtractGenesDesc>
+  
+  <GR_ExtractGenes2>Empty Tank 2</GR_ExtractGenes2>
+  <GR_ExtractGenes2Desc>Extract Genetic Material from tank #2</GR_ExtractGenes2Desc>
+  
+  <GR_InsertGenes>Insert on Tank 1</GR_InsertGenes>
+  <GR_InsertGenesDesc>Insert Genetic Material on tank #1</GR_InsertGenesDesc>
+  
+  <GR_InsertGenes2>Insert on Tank 2</GR_InsertGenes2>
+  <GR_InsertGenes2Desc>Insert Genetic Material on tank #2</GR_InsertGenes2Desc>
+  
+  <GR_NoGenes>No Genetic Material available!</GR_NoGenes>
+  
+  <GR_AllGenesNotPresent>Fill both tanks with genetic material to start processing</GR_AllGenesNotPresent>
+  <GR_MixingGenes>Mixing genetic material. Progress:</GR_MixingGenes>
+
+
+
+
+
+  <!-- Creature Control Commands -->
+  
+  <GR_CreatureMindControl>Mind control creature</GR_CreatureMindControl>
+  <GR_CreatureMindControlDesc>Use mind control to order this creature around the map</GR_CreatureMindControlDesc>
+  <GR_CreatureRageAttack>Rage attack</GR_CreatureRageAttack>
+  <GR_CreatureRageAttackDesc>Send the creature in a bloodthristy rage against its target</GR_CreatureRageAttackDesc>
+  <GR_DetonateChemfuel>Detonate Chemfuel</GR_DetonateChemfuel>
+  <GR_DetonateChemfuelDesc>Remotely detonate the chemfuel reservoirs of this creature. This kills the poor beast, obviously</GR_DetonateChemfuelDesc>
+  <GR_InflictChickenRimPox>Inflict Chicken RimPox</GR_InflictChickenRimPox>
+  <GR_InflictChickenRimPoxDesc>Attacks a target and inflicts Chicken RimPox, a debilitating disease</GR_InflictChickenRimPoxDesc>
+  <GR_CarryMore>Carrying more weight</GR_CarryMore>
+  <GR_CarryMoreDesc>This hybrid is carrying more weight than usual due to the influence of the animal control hub</GR_CarryMoreDesc>
+  <GR_StartAdrenalineBurst>Adrenaline Burst</GR_StartAdrenalineBurst>
+  <GR_StartAdrenalineBurstDesc>Causes the creature to move much faster for a while, at the cost of getting tired afterwards for almost half a day</GR_StartAdrenalineBurstDesc>
+  <GR_ReleaseInsectClouds>Release Insect Clouds</GR_ReleaseInsectClouds>
+  <GR_ReleaseInsectCloudsDesc>Causes the creature to release insect clouds around it, damaging every pawn that isn't an insect hybrid</GR_ReleaseInsectCloudsDesc>
+  <GR_StartStampede>Start Stampede</GR_StartStampede>
+  <GR_StartStampedeDesc>Stampedes, moving faster and creating dust clouds that block line of view for projectile weapons. Gets the creature tired after a while</GR_StartStampedeDesc>
+  <GR_CreatePoisonousCloud>Release a poisonous cloud</GR_CreatePoisonousCloud>
+  <GR_CreatePoisonousCloudDesc>Creates a cloud of poison at a target's location</GR_CreatePoisonousCloudDesc>
+  <GR_StartBurrowing>Start Burrowing</GR_StartBurrowing>
+  <GR_StartBurrowingDesc>Sends the creature underground into burrowing mode, making it very resistant to damage for a while</GR_StartBurrowingDesc>
+  <GR_StartStamina>Increase Stamina</GR_StartStamina>
+  <GR_StartStaminaDesc>Makes the creature more resistant to damage for a while</GR_StartStaminaDesc>
+  <GR_StartInvokingInsanity>Invoke Insanity</GR_StartInvokingInsanity>
+  <GR_StartInvokingInsanityDesc>Invokes the insanity of That Which Man Is Not Meant to Know</GR_StartInvokingInsanityDesc>
+  <GR_StartMechaBlast>Mecha Blast</GR_StartMechaBlast>
+  <GR_StartMechaBlastDesc>Vents exhaust in the tiles surounding the mechanoid hybrid, burning anything close to it</GR_StartMechaBlastDesc> 
+  
+  <GR_AbilityRecharging>Ability is rechaging. Check animal's health tab</GR_AbilityRecharging>
+  <GR_PoisonCloudRange>Poison cloud has a maximum range of 10. Get closer to the target!</GR_PoisonCloudRange>
+  <GR_InvokingInsanityRange>Invoking insanity has a maximum range of 10. Get closer to the target!</GR_InvokingInsanityRange>
+
+  
+  
+  <!-- Misc -->
+  
+  <GR_ANewCreatureWasBorn>An incubator has hatched!</GR_ANewCreatureWasBorn> 
+  <GR_ANewCreatureWasBornMutant>An incubator has hatc... Wait, what is THAT thing???</GR_ANewCreatureWasBornMutant> 
+
+  
+  <!-- This isn't used for now -->
+
+  <AccAgeProg>Accelerated aging progress</AccAgeProg>
+  <CannotCarryToAccelerationPod>Cannot carry to age acceleration pod</CannotCarryToAccelerationPod>
+  <NoAccelerationPod>No valid age acceleration pod found</NoAccelerationPod>
+ 
+
+</LanguageData>

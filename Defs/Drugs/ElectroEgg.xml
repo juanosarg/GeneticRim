@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="DrugPillBase">
+    <defName>GR_ElectroEgg</defName>
+    <label>mechanoid egg</label>
+    <description>This diminutive egg seems to be metallic in nature at first, yet it is soft enough to crush it between two fingers. Once thus crushed it can be swallowed normally, and the active mechanites inside have a reinvigorating effect on the consumer. This effect can be slightly addictive, though.</description>
+    <graphicData>
+      <texPath>Things/Item/GR_ElectroEgg</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.88</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <tradeability>Sellable</tradeability>
+	<statBases>
+      <MarketValue>10</MarketValue>
+      <Mass>0.05</Mass>
+      <DeteriorationRate>6</DeteriorationRate>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <foodType>Processed</foodType>
+      <joyKind>Chemical</joyKind>
+      <joy>0.5</joy>
+      <baseIngestTicks>240</baseIngestTicks>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Drink</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Consume {0}</ingestCommandString>
+      <ingestReportString>Consuming {0}.</ingestReportString>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>GR_ElectroEggHigh</hediffDef>
+          <severity>0.75</severity>
+          <toleranceChemical>GR_ElectroEgg</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.1</offset>
+          <toleranceChemical>GR_ElectroEgg</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>GR_ElectroEggTolerance</hediffDef>
+          <severity>0.03</severity>
+					<divideByBodySize>true</divideByBodySize>
+				</li>
+      </outcomeDoers>
+    </ingestible>
+  
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>GR_ElectroEgg</chemical>
+        <addictiveness>0.02</addictiveness>
+        <minToleranceToAddict>0.10</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.15</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>110</listOrder>
+			</li>
+    </comps>
+  </ThingDef>
+  
+  <HediffDef>
+    <defName>GR_ElectroEggHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>high on active mechanites</label>
+    <labelNoun>an active mechanites high</labelNoun>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-3.0</severityPerDay>
+      </li>
+    </comps>
+      <stages>
+        <li>
+          <painFactor>0.8</painFactor>
+		  <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.10</offset>
+          </li>
+         
+           <li>
+            <capacity>Metabolism</capacity>
+            <offset>0.10</offset>
+          </li>
+         
+        </capMods>
+        </li>
+      </stages>
+  </HediffDef>
+  
+  <ThoughtDef>
+    <defName>GR_ElectroEggHigh</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>GR_ElectroEggHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>active mechanites</label>
+        <description>Swallowing that mechanoid egg made me feel great. I can almost feel the mechanites in my stomach!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+   <!-- GR_ElectroEgg addiction -->
+  
+  <ChemicalDef>
+    <defName>GR_ElectroEgg</defName>
+    <label>active mechanites</label>
+    <addictionHediff>GR_ElectroEggAddiction</addictionHediff>
+    <toleranceHediff>GR_ElectroEggTolerance</toleranceHediff>
+    <onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>
+    <onGeneratedAddictedEvents>
+      <li>
+        <hediff>ChemicalDamageSevere</hediff>
+        <chance>0.15</chance>
+        <partsToAffect>
+          <li>Stomach</li>
+        </partsToAffect>
+      </li>
+    </onGeneratedAddictedEvents>
+  </ChemicalDef>
+  
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>GR_ElectroEgg</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>active mechanites</label>
+    <description>Because of an active mechanites addiction, this person needs to regularly consume mechanoid eggs, produced by mecha-chickens, to avoid withdrawal symptoms.</description>
+    <listPriority>50</listPriority>
+  </NeedDef>
+
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>GR_ElectroEggTolerance</defName>
+    <label>active mechanites tolerance</label>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.015</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_DrugEffectFactor">
+        <chemical>GR_ElectroEgg</chemical>
+      </li>
+    </comps>
+		<hediffGivers>
+			<li Class="HediffGiver_RandomDrugEffect">
+				<hediff>ChemicalDamageSevere</hediff>
+				<minSeverity>0.50</minSeverity>
+				<baseMtbDays>120</baseMtbDays>
+				<partsToAffect>
+					<li>Stomach</li>
+				</partsToAffect>
+			</li>
+		</hediffGivers>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddictionBase">
+    <defName>GR_ElectroEggAddiction</defName>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <label>active mechanites addiction</label>
+    <causesNeed>GR_ElectroEgg</causesNeed>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.0333</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+      </li>
+      <li>
+        <label>withdrawal</label>
+        <restFallFactorOffset>0.3</restFallFactorOffset>
+        <socialFightChanceFactor>3.0</socialFightChanceFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.20</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.20</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.20</offset>
+          </li>
+        </capMods>
+        <mentalStateGivers>
+					<li>
+						<mentalState>Binging_DrugExtreme</mentalState>
+						<mtbDays>40</mtbDays>
+					</li>
+          <li>
+            <mentalState>Wander_Psychotic</mentalState>
+            <mtbDays>10</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <ThoughtDef>
+    <defName>GR_ElectroEggWithdrawal</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>GR_ElectroEggAddiction</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>active mechanites withdrawal</label>
+        <description>All my body itches... It is as if the mechanites are turning against me.</description>
+        <baseMoodEffect>-35</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

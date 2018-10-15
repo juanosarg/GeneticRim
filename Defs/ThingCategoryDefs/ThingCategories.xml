@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+    <ThingCategoryDef>
+      <defName>GR_GeneticMaterial</defName>
+      <label>genetic materials</label>
+      <parent>Manufactured</parent>
+	  <iconPath>Things/Item/geneticmaterials</iconPath>
+      
+    </ThingCategoryDef>
+	<ThingCategoryDef>
+      <defName>GR_Incubators</defName>
+      <label>incubators</label>
+      <parent>GR_GeneticMaterial</parent>
+	  <iconPath>Things/Item/IncubatorCanister</iconPath>
+      
+    </ThingCategoryDef>
+	<ThingCategoryDef>
+      <defName>GR_AlphaSerums</defName>
+      <label>alpha serums</label>
+      <parent>GR_GeneticMaterial</parent>
+	  <iconPath>Things/Item/AlphaSerum</iconPath>
+      
+    </ThingCategoryDef>
+
+
+</Defs>

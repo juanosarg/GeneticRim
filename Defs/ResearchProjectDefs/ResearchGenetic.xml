@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>GR_GeneticEngineering</defName>
+    <label>genetic engineering</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Research the basics of genetic engineering. With this research you can begin experimenting on the most basic creatures (tier 1), and breed hybrids to conquer the world. The Genetic Extraction Table allows you to extract genetic samples from creatures, and build empty incubators. The GenePod is where this samples are combined into filled incubators. Reptiles and Insectoids are tier 2, and need more research. Thrumbos and mechanoids are tier 3, and need even more advanced research.</description>
+    <baseCost>1200</baseCost>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>GR_InsectoidGenome</defName>
+    <label>insectoid genome</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Research ways to extract genetic material from alien insectoid species. This opens up experimenting with insectoid hybrids (tier 2).</description>
+    <baseCost>1500</baseCost>
+    <prerequisites>
+      <li>GR_GeneticEngineering</li>
+    </prerequisites>
+    
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>GR_ReptilianGenome</defName>
+    <label>reptilian genome</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Research ways to extract genetic material from reptiles. This opens up experimenting with reptilian hybrids (tier 2).</description>
+    <baseCost>1500</baseCost>
+    <prerequisites>
+      <li>GR_GeneticEngineering</li>
+    </prerequisites>
+    
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>GR_HumanoidGeneticEngineering</defName>
+    <label>humanoid genetic engineering</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Allows humanoid gene extraction, and allows mixing of human and animal DNA to create animal implants. Also opens up experimenting with hybrid implants, used to improve your hybrid creatures with incredibly weird combinations.</description>
+    <baseCost>1250</baseCost>
+    <prerequisites>
+        <li>GR_GeneticEngineering</li>
+    </prerequisites>
+   
+    <researchViewX>0</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef>
+    <defName>GR_AdvancedGeneticEngineering</defName>
+    <label>advanced genetic engineering</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Unlocks the Advanced Gene Pod, and allows extraction and mixing of thrumbo genes with other creatures (tier 3).</description>
+    <baseCost>2500</baseCost>
+    <prerequisites>
+        <li>GR_GeneticEngineering</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>0</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>GR_AdvancedMechaniteBioIntegration</defName>
+    <label>advanced mechanite bio-integration</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Allows extraction of active mechanites from hostile mechanoids to mix them with genes with other creatures (tier 3).</description>
+    <baseCost>10000</baseCost>
+    <prerequisites>
+        <li>GR_AdvancedGeneticEngineering</li>
+		
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>0</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>GR_AnimalEnrichment</defName>
+    <label>animal enrichment</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Research ways to improve existing animals and create better adapted versions of them, known as Alphas. Unlocks the Alpha Serum Extraction Table, used to extract Alpha Serum from normal animals, as well as the Animal Enrichment Center, used to fill incubators with these serums.</description>
+    <baseCost>1500</baseCost>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    
+		<researchViewX>3</researchViewX>
+		<researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>GR_AgeDrugs</defName>
+    <label>age drugs</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Research ways to accelerate the growth of your animals. Age Pills can be fed to animals to increase their age significantly.</description>
+    <baseCost>500</baseCost>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+    
+		<researchViewX>3</researchViewX>
+		<researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>GR_AnimalControl</defName>
+    <label>animal control</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Mind control technology that allows you to directly interact with your creatures, unlocking player-controllable special abilities for each hybrid family.</description>
+    <baseCost>1000</baseCost>
+    <prerequisites>
+      <li>GR_AnimalEnrichment</li>
+    </prerequisites>
+    
+		<researchViewX>3</researchViewX>
+		<researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

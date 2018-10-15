@@ -1,0 +1,997 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Rodent - Bear -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>GR_Bearmole</defName>
+    <label>bearmole</label>
+    <description>A Bear / Mole hybrid. This blind animal has a very acute sense of vibrations, alllowing it to detect its prey even better than a sighted animal.\n\nUseful abilities: Good guard animal. Very fast breeding.</description>
+    <statBases>
+      <MoveSpeed>3.5</MoveSpeed>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <MarketValue>270</MarketValue>
+    </statBases>
+	 <tools>
+
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>18</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>18</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.1</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>28</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>      </li>
+    </tools>
+    <comps>
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<rage>true</rage>
+			<burrowing>true</burrowing>
+		</li>
+	</comps>
+ 
+    <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+      <body>QuadrupedAnimalWithPaws</body>
+      <predator>true</predator>
+      
+      <baseBodySize>2.5</baseBodySize>
+      <baseHungerRate>0.18</baseHungerRate>
+      <baseHealthScale>3</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+	  <mateMtbHours>3</mateMtbHours>
+      <gestationPeriodDays>8</gestationPeriodDays>
+      <nameOnTameChance>1</nameOnTameChance>
+      <trainability>Advanced</trainability>
+      <wildness>0.6</wildness>
+      <nuzzleMtbHours>120</nuzzleMtbHours>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
+	  <useLeatherFrom>Alphabeaver</useLeatherFrom>
+      <useMeatFrom>Alphabeaver</useMeatFrom>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 1.7)</li>
+          <li>(3, 0.7)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>12</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.15</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.35</minAge>
+          <soundWounded>Pawn_Bear_Injured</soundWounded>
+          <soundDeath>Pawn_Bear_Death</soundDeath>
+          <soundCall>Pawn_Bear_Call</soundCall>
+          <soundAngry>Pawn_Bear_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  <tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
+  </ThingDef>
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>GR_Bearmole</defName>
+    <label>bearmole</label>
+    <race>GR_Bearmole</race>
+    <combatPower>75</combatPower>
+    <canArriveManhunter>false</canArriveManhunter>
+    <ecoSystemWeight>1</ecoSystemWeight>
+	<lifeStages>
+      <li>
+        
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bears/Bearmole/Bearmole</texPath>
+          <drawSize>2.0</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bears/Bearmole/Dessicated_Bearmole</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bears/Bearmole/Bearmole</texPath>
+          <drawSize>2.5</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bears/Bearmole/Dessicated_Bearmole</texPath>
+          <drawSize>2.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bears/Bearmole/Bearmole</texPath>
+          <drawSize>3.0</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bears/Bearmole/Dessicated_Bearmole</texPath>
+          <drawSize>3</drawSize>
+        </dessicatedBodyGraphicData>
+		
+      </li>
+	  
+    </lifeStages>
+  </PawnKindDef>
+
+  <!-- Rodent - Boomalope -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>GR_Boomsquirrel</defName>
+    <label>boomsquirrel</label>
+    <description>A Squirrel / Boomalope hybrid. This small and fast rodent has several nodules of chemical mixture in its back.\n\nUseful abilities: Explodes on death. Produces small amounts of chemfuel quite fast. Very fast breeding.</description>
+    <statBases>
+      <MoveSpeed>6</MoveSpeed>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <MarketValue>125</MarketValue>
+    </statBases>
+	<tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.85</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.85</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>      </li>
+    </tools>
+    <comps>
+	   <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<resourceDef>Chemfuel</resourceDef>
+			<gatheringIntervalDays>1</gatheringIntervalDays>
+			<resourceAmount>5</resourceAmount>
+			<customResourceString>ChemfuelProd</customResourceString>
+
+      </li>
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<explodable>true</explodable>
+			<burrowing>true</burrowing>
+		</li>
+    </comps>  
+    <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+	  <deathActionWorkerClass>DeathActionWorker_SmallExplosion</deathActionWorkerClass>
+      <executionRange>4</executionRange>    
+      <baseBodySize>0.2</baseBodySize>
+      <baseHungerRate>0.1</baseHungerRate>
+      <baseHealthScale>0.25</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+	  <mateMtbHours>4</mateMtbHours>
+      <gestationPeriodDays>7</gestationPeriodDays>
+      <wildness>0.5</wildness>
+      <nuzzleMtbHours>120</nuzzleMtbHours>
+	  <useLeatherFrom>Squirrel</useLeatherFrom>
+      <useMeatFrom>Squirrel</useMeatFrom>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(5, 1)</li>
+          <li>(6, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>8</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.11</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.26</minAge>
+          <soundWounded>Pawn_Rodent_Wounded</soundWounded>
+          <soundDeath>Pawn_Rodent_Death</soundDeath>
+          <soundCall>Pawn_Rodent_Call</soundCall>
+          <soundAngry>Pawn_Rodent_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+  <tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
+  </ThingDef>
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>GR_Boomsquirrel</defName>
+    <label>boomsquirrel</label>
+    <race>GR_Boomsquirrel</race>
+    <combatPower>33</combatPower>
+    <canArriveManhunter>false</canArriveManhunter>
+    <ecoSystemWeight>1</ecoSystemWeight>
+	<lifeStages>
+      <li>
+        
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomalope/Boomsquirrel/Boomsquirrel</texPath>
+          <drawSize>1</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Squirrel/Dessicated_Squirrel</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomalope/Boomsquirrel/Boomsquirrel</texPath>
+          <drawSize>1.25</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Squirrel/Dessicated_Squirrel</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomalope/Boomsquirrel/Boomsquirrel</texPath>
+          <drawSize>1.5</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Squirrel/Dessicated_Squirrel</texPath>
+          <drawSize>1.95</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <!-- Rabbit - Chicken -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>GR_Chickenrabbit</defName>
+    <label>chickenrabbit</label>
+    <description>A Rabbit / Chicken hybrid. What happens when you artificially crossbreed two fast breeding creatures? The chickenrabbit is an ecological disaster waiting to happen.\n\nUseful abilities: Egg layer. EXTREMELY fast breeding.</description>
+    <statBases>
+      <MoveSpeed>2.1</MoveSpeed>
+      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <MarketValue>45</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <label>claws</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>      </li>
+    </tools>
+
+	<comps>
+      <li Class="CompProperties_EggLayer">
+        <eggUnfertilizedDef>GR_ChickenrabbitEggUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>GR_ChickenrabbitEggFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>1</eggLayIntervalDays>
+        <eggCountRange>
+          <min>1</min>
+          <max>2</max>
+        </eggCountRange>
+      </li>
+	 <li Class="DraftingPatcher.CompProperties_Draftable">
+			<chickenRimPox>true</chickenRimPox>
+			<burrowing>true</burrowing>
+		</li>
+    </comps>
+    <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+      <body>GR_BirdWithTeeth</body>
+	  
+      <predator>false</predator>
+      
+      <baseBodySize>0.18</baseBodySize>
+      <baseHungerRate>0.3</baseHungerRate>
+      <baseHealthScale>0.35</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+	  <mateMtbHours>1</mateMtbHours>
+      <gestationPeriodDays>5</gestationPeriodDays>
+      <trainability>None</trainability>
+      <wildness>0.47</wildness>
+
+	  <useLeatherFrom>Chicken</useLeatherFrom>
+      <useMeatFrom>Chicken</useMeatFrom>
+      <litterSizeCurve>
+        <points>
+          <li>(0.99, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>6</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+		  <soundWounded>Pawn_Chick_Call</soundWounded>
+		  <soundDeath>Pawn_Chick_Call</soundDeath>
+		  <soundCall>Pawn_Chick_Call</soundCall>
+		  <soundAngry>Pawn_Chick_Call</soundAngry>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.12</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.3</minAge>
+          <soundWounded>Pawn_Chicken_Wounded</soundWounded>
+          <soundDeath>Pawn_Chicken_Death</soundDeath>
+          <soundCall>Pawn_Chicken_Call</soundCall>
+          <soundAngry>Pawn_Chicken_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+  <tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
+  </ThingDef>
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>GR_Chickenrabbit</defName>
+    <label>chickenrabbit</label>
+    <race>GR_Chickenrabbit</race>
+    <combatPower>30</combatPower>
+    <canArriveManhunter>false</canArriveManhunter>
+    <ecoSystemWeight>1</ecoSystemWeight>
+	    <labelMale>chickenrabbit rooster</labelMale>
+    <labelFemale>chickenrabbit hen</labelFemale>
+	<lifeStages>
+      <li>
+        <label>chickenrabbit chick</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Chicken/Chickenrabbit/Chickenrabbit</texPath>
+          <drawSize>0.6</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+          <drawSize>.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Chicken/Chickenrabbit/Chickenrabbit</texPath>
+          <drawSize>1.1</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+          <drawSize>1.1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Chicken/Chickenrabbit/Chickenrabbit</texPath>
+          <drawSize>1.5</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <!-- Rat - Muffalo -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>GR_Muffalorat</defName>
+    <label>muffalorat</label>
+    <description>A Rat / Muffalo hybrid. A short-lived pack beast that breeds really fast.\n\nUseful abilities: Acts as a pack beast. Produces small amounts of milk and wool at a quite fast rate. Fast breeding.</description>
+    <statBases>
+      <MoveSpeed>5</MoveSpeed>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <MarketValue>105</MarketValue>
+    </statBases>
+	<tools>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.35</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      </li>
+    </tools>
+  
+	<comps>
+      <li Class="CompProperties_Milkable">
+        <milkDef>Milk</milkDef>
+        <milkIntervalDays>1</milkIntervalDays>
+        <milkAmount>6</milkAmount>
+      </li>
+      <li Class="CompProperties_Shearable">
+        <woolDef>WoolMuffalo</woolDef>
+        <shearIntervalDays>1</shearIntervalDays>
+        <woolAmount>5</woolAmount>
+      </li>
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<carrymore>true</carrymore>
+			<burrowing>true</burrowing>
+		</li>
+    </comps>
+    <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+	  
+      <predator>false</predator>
+     
+      <baseBodySize>2.15</baseBodySize>
+      <baseHungerRate>0.85</baseHungerRate>
+      <baseHealthScale>1.5</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+	  <mateMtbHours>3</mateMtbHours>
+      <gestationPeriodDays>6</gestationPeriodDays>
+      <wildness>0.5</wildness>
+	  <useLeatherFrom>Muffalo</useLeatherFrom>
+      <useMeatFrom>Muffalo</useMeatFrom>
+	  <packAnimal>true</packAnimal>
+      <lifeExpectancy>5</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.07</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.3</minAge>
+          <soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+          <soundDeath>Pawn_Muffalo_Death</soundDeath>
+          <soundCall>Pawn_Muffalo_Call</soundCall>
+          <soundAngry>Pawn_Muffalo_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+	  
+    </race>
+  <tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
+  </ThingDef>
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>GR_Muffalorat</defName>
+    <label>muffalorat</label>
+    <race>GR_Muffalorat</race>
+    <combatPower>90</combatPower>
+    <canArriveManhunter>false</canArriveManhunter>
+    <ecoSystemWeight>1</ecoSystemWeight>
+	<lifeStages>
+      <li>
+        <label>muffalorat calf</label>
+        <labelPlural>muffalorat calves</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/Muffalorat/Muffalorat</texPath>
+          <drawSize>2.5</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/Muffalorat/Dessicated_Muffalorat</texPath>
+          <drawSize>2.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/Muffalorat/Muffalorat</texPath>
+          <drawSize>2.9</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/Muffalorat/Dessicated_Muffalorat</texPath>
+          <drawSize>2.9</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/Muffalorat/Muffalorat</texPath>
+          <drawSize>4</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/Muffalorat/Dessicated_Muffalorat</texPath>
+          <drawSize>4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+    <!-- Rat - Thrumbo -->
+  
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>GR_Thrumborat</defName>
+    <label>thrumborat</label>
+    <description>A Rat / Thrumbo hybrid. What could be scarier than a fast-breeding thrumbo?\n\nUseful abilities: Fast breeding and fast maturing for a creature of this size. Not very long-lived, though.</description>
+    <statBases>
+      <MoveSpeed>5.25</MoveSpeed>
+      <ComfyTemperatureMin>-45</ComfyTemperatureMin>
+      <MarketValue>2400</MarketValue>
+      <MeatAmount>120</MeatAmount>
+      <!-- more than implied by body size -->
+    </statBases>
+    <tools>
+      <li>
+        <label>horn</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>1.85</cooldownTime>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>left paw</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right paw</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>      </li>
+    </tools>
+	<comps>
+	<li Class="DraftingPatcher.CompProperties_Draftable">
+			<stampede>true</stampede>
+			<burrowing>true</burrowing>
+		</li>
+	</comps>
+    <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+      <body>QuadrupedAnimalWithHoovesAndHorn</body>
+      <herdAnimal>true</herdAnimal>
+      <herdMigrationAllowed>false</herdMigrationAllowed>
+      <baseBodySize>3.2</baseBodySize>
+      <baseHungerRate>4.5</baseHungerRate>
+      <baseHealthScale>13.0</baseHealthScale>
+      <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
+      <useLeatherFrom>Rat</useLeatherFrom>
+      <useMeatFrom>Rat</useMeatFrom>
+      <trainability>Advanced</trainability>
+      <gestationPeriodDays>10</gestationPeriodDays>
+      <wildness>0.85</wildness>
+      <lifeExpectancy>10</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.1</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.3</minAge>
+          <soundCall>Pawn_Thrumbo_Call</soundCall>
+          <soundAngry>Pawn_Thrumbo_Angry</soundAngry>
+          <soundWounded>Pawn_Thrumbo_Pain</soundWounded>
+          <soundDeath>Pawn_Thrumbo_Death</soundDeath>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+	<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>GR_Thrumborat</defName>
+    <label>thrumborat</label>
+    <race>GR_Thrumborat</race>
+    <combatPower>400</combatPower>
+	<canArriveManhunter>false</canArriveManhunter>
+    <ecoSystemWeight>1</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <label>thrumborat calf</label>
+        <labelPlural>thrumborat calves</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumborat/Thrumborat</texPath>
+          <drawSize>2.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumborat/Dessicated_Thrumborat</texPath>
+          <drawSize>2.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumborat/Thrumborat</texPath>
+          <drawSize>4.0</drawSize>
+          <shadowData>
+            <volume>(0.7, 0.6, 0.4)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumborat/Dessicated_Thrumborat</texPath>
+          <drawSize>4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumborat/Thrumborat</texPath>
+          <drawSize>4.8</drawSize>
+          <shadowData>
+            <volume>(1, 0.8, 0.5)</volume>
+            <offset>(0,0,-0.5)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumborat/Dessicated_Thrumborat</texPath>
+          <drawSize>4.8</drawSize>
+        </dessicatedBodyGraphicData>
+        <butcherBodyPart>
+          <bodyPartGroup>HornAttackTool</bodyPartGroup>
+          <thing>ThrumboHorn</thing>
+        </butcherBodyPart>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+      <!-- Beaver - Wolf -->
+
+
+   <ThingDef ParentName="AnimalThingBase">
+    <defName>GR_Wolfbeaver</defName>
+    <label>wolfbeaver</label>
+    <description>A Beaver / Wolf hybrid. This fast breeding predator can be a drain on your tree reserves, unless you provide it with some fresh meat.\n\nUseful abilities: Fast breeding.</description>
+    <statBases>
+      <MoveSpeed>7.5</MoveSpeed>
+      <ComfyTemperatureMin>-45</ComfyTemperatureMin>
+      <MarketValue>275</MarketValue>
+    </statBases>
+	<comps>
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<adrenalineburst>true</adrenalineburst>
+			<burrowing>true</burrowing>
+		</li>
+	</comps>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2.1</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>      </li>
+    </tools>
+    <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <baseBodySize>0.85</baseBodySize>
+      <baseHungerRate>4</baseHungerRate>
+      <baseHealthScale>0.99</baseHealthScale>
+      <foodType>CarnivoreAnimal, DendrovoreAnimal</foodType>
+      <useLeatherFrom>Alphabeaver</useLeatherFrom>
+      <useMeatFrom>Alphabeaver</useMeatFrom>
+	  <mateMtbHours>6</mateMtbHours>
+      <gestationPeriodDays>6</gestationPeriodDays>
+      <trainability>Advanced</trainability>
+      <wildness>0.75</wildness>
+      <nuzzleMtbHours>120</nuzzleMtbHours>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 1.7)</li>
+          <li>(3, 0.7)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>8</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.15</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.35</minAge>
+          <soundWounded>Pawn_Dog_Injured</soundWounded>
+          <soundDeath>Pawn_Dog_Death</soundDeath>
+          <soundCall>Pawn_Dog_Call</soundCall>
+          <soundAngry>Pawn_Dog_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
+  </ThingDef>
+  
+   <PawnKindDef ParentName="AnimalKindBase">
+    <defName>GR_Wolfbeaver</defName>
+    <label>wolfbeaver</label>
+    <race>GR_Wolfbeaver</race>
+	<combatPower>75</combatPower>
+
+    <lifeStages>
+      <li>
+        <label>wolfbeaver puppy</label>
+        <labelPlural>wolfbeaver puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolf/Wolfbeaver/Wolfbeaver</texPath>
+          <drawSize>2.5</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolf/Wolfbeaver/Dessicated_Wolfbeaver</texPath>
+          <drawSize>2.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolf/Wolfbeaver/Wolfbeaver</texPath>
+          <drawSize>2.75</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolf/Wolfbeaver/Dessicated_Wolfbeaver</texPath>
+          <drawSize>2.75</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolf/Wolfbeaver/Wolfbeaver</texPath>
+          <drawSize>3</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolf/Wolfbeaver/Dessicated_Wolfbeaver</texPath>
+          <drawSize>3</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+	  
+</Defs>

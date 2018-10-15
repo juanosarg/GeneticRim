@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Infections -->
+
+  <HediffDef ParentName="InfectionBase">
+    <defName>GR_ChickenRimPox</defName>
+    <label>rimpox</label>
+    <taleOnVisible>IllnessRevealed</taleOnVisible>
+
+    <makesSickThought>true</makesSickThought>
+    <tendable>true</tendable>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <baseTendDurationHours>120</baseTendDurationHours>
+        <severityPerDayTended>-0.13</severityPerDayTended>
+      </li>
+      <li Class="HediffCompProperties_Immunizable">
+        <immunityPerDayNotSick>-0.06</immunityPerDayNotSick>
+        <immunityPerDaySick>0.173</immunityPerDaySick>
+        <severityPerDayNotImmune>0.166</severityPerDayNotImmune>
+        <severityPerDayImmune>-0.333</severityPerDayImmune>
+      </li>
+    </comps>
+    <stages>
+     
+      <li>
+       
+        <label>minor</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.1</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.3</offset>
+          </li>
+          
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.666</minSeverity>
+        <label>major</label>
+        <vomitMtbDays>1.5</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.5</offset>
+          </li>
+         
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.833</minSeverity>
+        <label>extreme</label>
+        <vomitMtbDays>0.75</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.25</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.75</offset>
+          </li>
+          
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

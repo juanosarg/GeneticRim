@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<RecipeDef>
+		<defName>GR_CryofuelToFuel</defName>
+		<label>make chemfuel from cryofuel</label>
+		<description>Make a batch of chemfuel by converting cryofuel.</description>
+		<jobString>Refining chemfuel from cryofuel.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>100</workAmount>
+		<recipeUsers>
+				<li>BiofuelRefinery</li>	  
+		</recipeUsers>	
+		<workSkill>Intellectual</workSkill>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>GR_Cryofuel</li>
+				  </thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_Cryofuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<Chemfuel>25</Chemfuel>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_ExtractMechaMilk</defName>
+		<label>process mechanoid milk</label>
+		<description>Extract useful materials from mechanoid milk.</description>
+		<jobString>Extracting useful materials from mechanoid milk.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>200</workAmount>
+		<recipeUsers>
+				<li>BiofuelRefinery</li>	  
+		</recipeUsers>	
+		<workSkill>Intellectual</workSkill>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>GR_MechaMilk</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_MechaMilk</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<Chemfuel>25</Chemfuel>
+			<Silver>5</Silver>
+			<Neutroamine>3</Neutroamine>
+
+		</products>
+		<researchPrerequisite>GR_AdvancedMechaniteBioIntegration</researchPrerequisite>
+	</RecipeDef>
+
+
+</Defs>

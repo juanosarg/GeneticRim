@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="GR_AmpouleBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>5</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+			<Beauty>-15</Beauty>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+		<tradeability>Sellable</tradeability>
+
+    <thingCategories>
+      <li>Drugs</li>
+    </thingCategories>
+    <alwaysHaulable>true</alwaysHaulable>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <ingestible>
+		      <foodType>Processed</foodType>
+ <baseIngestTicks>120</baseIngestTicks>
+      <chairSearchRadius>0</chairSearchRadius>
+      <ingestSound>Ingest_Pill</ingestSound>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Take {0}</ingestCommandString>
+      <ingestReportString>Taking {0}.</ingestReportString>
+      <preferability>NeverForNutrition</preferability>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+     
+    </ingestible>
+	 <socialPropernessMatters>true</socialPropernessMatters>
+   
+ 	
+  </ThingDef>
+
+  <ThingDef ParentName="GR_AmpouleBase">
+    <defName>GR_PoisonAmpoule</defName>
+    <label>poison ampoule</label>
+    <description>This tiny vial is filled with a concentrated solution of Muffalokomodo saliva, which acts as a powerful neuromuscular-blocking drug. This effectively paralyses anyone foolish enough to drink it, though it is not lethal. Useful for prisoner control.</description>
+    <graphicData>
+      <texPath>Things/Item/PoisonAmpoule</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>60</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>GR_PoisonAmpouleDrank</hediffDef>
+          <severity>1.00</severity>
+          
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.08</min>
+          <max>0.14</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <HediffDef>
+    <defName>GR_PoisonAmpouleDrank</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>poison ampoule</label>
+    <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+			<severityPerDay>-1.0</severityPerDay>
+			</li>
+		</comps>
+    <stages>
+      <li>
+        
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.30</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.90</offset>
+          </li>
+				
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+</Defs>

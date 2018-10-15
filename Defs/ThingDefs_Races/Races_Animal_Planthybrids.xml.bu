@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Wolf - Bear -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>GR_BearTree</defName>
+    <label>beartree</label>
+    <description>This is a Beartree. It's a beta creature, so it shouldn't ever appear in your map. If it does, tell me on either the Steam page or on the Ludeon forums ;)\n\nUseful abilities:.</description>
+	<tickerType>Rare</tickerType>
+
+    <statBases>
+      <MoveSpeed>0</MoveSpeed>
+      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <MarketValue>100</MarketValue>
+    </statBases>
+	 <tools>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2.1</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>     
+    </tools>
+	<comps>		
+		<li Class="NewAnimalSubproducts.CompProperties_Lightsustenance">
+			
+        </li>
+    </comps>
+    <race>
+	  <thinkTreeMain>GR_TreeAnimals</thinkTreeMain>
+	  <thinkTreeConstant>GR_TreeAnimalsConstant</thinkTreeConstant>
+
+	  <needsRest>false</needsRest>
+	  <foodType>VegetarianRoughAnimal</foodType>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHungerRate>0.18</baseHungerRate>
+      <baseHealthScale>1.5</baseHealthScale>
+      <gestationPeriodDays>22.5</gestationPeriodDays>
+      <nameOnTameChance>1</nameOnTameChance>
+	  <intelligence>ToolUser</intelligence>
+      <wildness>0.75</wildness>
+      <nuzzleMtbHours>120</nuzzleMtbHours>
+      <useLeatherFrom>WolfTimber</useLeatherFrom>
+      <useMeatFrom>WolfTimber</useMeatFrom>
+     
+      <lifeExpectancy>14</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.2</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.45</minAge>
+          <soundWounded>Pawn_Dog_Injured</soundWounded>
+          <soundDeath>Pawn_Dog_Death</soundDeath>
+          <soundCall>Pawn_Dog_Call</soundCall>
+          <soundAngry>Pawn_Dog_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+
+
+
+  
+  </ThingDef>
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>GR_BearTree</defName>
+    <label>beartree</label>
+    <race>GR_BearTree</race>
+    <combatPower>75</combatPower>
+    <canArriveManhunter>false</canArriveManhunter>
+    <ecoSystemWeight>1</ecoSystemWeight>
+	<lifeStages>
+      <li>
+        <label>wolfbear puppy</label>
+        <labelPlural>wolfbear puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Plant/TreeOak</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+          <drawSize>3</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Plant/TreeOak</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+          <drawSize>2.5</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Plant/TreeOak</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+          <drawSize>3.0</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.95</drawSize>
+        </dessicatedBodyGraphicData>
+		<butcherBodyPart>
+          <bodyPartGroup>FrontRightPaw</bodyPartGroup>
+          <thing>GR_WolfbearPaws</thing>
+          <allowFemale>true</allowFemale>
+        </butcherBodyPart>
+      </li>
+	  
+    </lifeStages>
+  </PawnKindDef>
+
+ 
+
+</Defs>

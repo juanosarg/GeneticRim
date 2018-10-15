@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<ThingDef Abstract="True" Name="GR_IncubatorsBaseAlpha" ParentName="GR_IncubatorsBase">
+    <graphicData>
+	  <texPath>Things/Item/IncubatorCanisterAlpha</texPath>
+    </graphicData>
+</ThingDef>
+
+
+<ThingDef ParentName="GR_IncubatorsBaseAlpha">
+    <defName>GR_AlphaBearIncubator</defName>
+    <label>alpha bear incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha grizzly bear</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_AlphaBear</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseAlpha">
+    <defName>GR_AlphaBoarIncubator</defName>
+    <label>alpha wild boar incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha wild boar</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_AlphaWildBoar</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseAlpha">
+    <defName>GR_AlphaBoomalopeIncubator</defName>
+    <label>alpha boomalope incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha boomalope</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_AlphaBoomalope</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseAlpha">
+    <defName>GR_AlphaChickenIncubator</defName>
+    <label>alpha chicken incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha chicken</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_AlphaChicken</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseAlpha">
+    <defName>GR_AlphaEmuIncubator</defName>
+    <label>alpha emu incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha emu</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_AlphaEmu</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseAlpha">
+    <defName>GR_AlphaMuffaloIncubator</defName>
+    <label>alpha muffalo incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha muffalo</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_AlphaMuffalo</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseAlpha">
+    <defName>GR_AlphaOstrichIncubator</defName>
+    <label>alpha ostrich incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha ostrich</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_AlphaOstrich</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseAlpha">
+    <defName>GR_AlphaRhinoIncubator</defName>
+    <label>alpha rhino incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha rhino</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_AlphaRhinoceros</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseAlpha">
+    <defName>GR_AlphaWolfIncubator</defName>
+    <label>alpha wolf incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha timber wolf</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_AlphaWolfTimber</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseAlpha">
+    <defName>GR_AlphaHareIncubator</defName>
+    <label>alpha hare incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha hare</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_AlphaHare</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseAlpha">
+    <defName>GR_AlphaIguanaIncubator</defName>
+    <label>alpha iguana incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha iguana</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_AlphaIguana</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseAlpha">
+    <defName>GR_AlphaPigIncubator</defName>
+    <label>alpha pig incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha pig</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_AlphaPig</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseAlpha">
+    <defName>GR_AlphaRatIncubator</defName>
+    <label>alpha rat incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha rat</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_AlphaRat</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseAlpha">
+    <defName>GR_AlphaTortoiseIncubator</defName>
+    <label>alpha tortoise incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha tortoise</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_AlphaTortoise</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+ 
+
+</Defs>
