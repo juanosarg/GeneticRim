@@ -74,6 +74,8 @@
 		<race>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithPaws</body>
+			<fleshType>GR_Mechanoid</fleshType>
+
 			<herdAnimal>false</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<baseBodySize>2</baseBodySize>
@@ -207,7 +209,9 @@
 			</li>
 		</comps>
 		<race>
-		<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_BiggerExplosion</deathActionWorkerClass>
+			<fleshType>GR_Mechanoid</fleshType>
+
+			<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_BiggerExplosion</deathActionWorkerClass>
 			<executionRange>6</executionRange>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithHoovesAndHump</body>
@@ -347,6 +351,8 @@
 			</li>
 		</comps>
 		<race>
+			<fleshType>GR_Mechanoid</fleshType>
+
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>Bird</body>
 			<herdAnimal>false</herdAnimal>
@@ -475,6 +481,8 @@
 			</li>
 		</comps>
 		<race>
+			<fleshType>GR_Mechanoid</fleshType>
+
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>BeetleLikeWithClaw</body>
 			<herdAnimal>false</herdAnimal>
@@ -614,6 +622,8 @@
 			</li>
 		</comps>
 		<race>
+			<fleshType>GR_Mechanoid</fleshType>
+
 			<packAnimal>true</packAnimal>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithHooves</body>
@@ -744,6 +754,8 @@
 			</li>
 		</comps>
 		<race>
+			<fleshType>GR_Mechanoid</fleshType>
+
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<herdAnimal>false</herdAnimal>
@@ -872,6 +884,8 @@
 			</li>
 		</comps>
 		<race>
+			<fleshType>GR_Mechanoid</fleshType>
+
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>TurtleLike</body>
 			<herdAnimal>false</herdAnimal>
@@ -1000,6 +1014,8 @@
 			</li>
 		</comps>
 		<race>
+			<fleshType>GR_Mechanoid</fleshType>
+
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<herdAnimal>false</herdAnimal>
@@ -1130,6 +1146,8 @@
 			</li>
 		</comps>
 		<race>
+			<fleshType>GR_Mechanoid</fleshType>
+
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithHoovesAndHorn</body>
 			<herdAnimal>false</herdAnimal>

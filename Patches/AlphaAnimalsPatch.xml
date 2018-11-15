@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Alpha Animals</modName>
+				<yourMod>Genetic Rim</yourMod>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMechanoid"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AA_Slurrypede</li>
+					
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMechanoid"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AA_Slurrypede</li>
+				</value>
+			</li>
+			
+			
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesChicken"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AA_MeadowAve</li>
+					
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesChicken"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AA_MeadowAve</li>
+					
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesInsectoid"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AA_BlackScarab</li>
+					<li>Corpse_AA_BlackSpelopede</li>
+					<li>Corpse_AA_BlackSpider</li>
+					<li>Corpse_AA_Barbslinger</li>
+					<li>Corpse_AA_BedBug</li>
+					<li>Corpse_AA_Blizzarisk</li>
+					<li>Corpse_AA_BlizzariskClutchMother</li>
+					<li>Corpse_AA_Bumbledrone</li>
+					<li>Corpse_AA_Dunealisk</li>
+					<li>Corpse_AA_DunealiskClutchMother</li>
+					<li>Corpse_AA_Feralisk</li>
+					<li>Corpse_AA_FeraliskClutchMother</li>
+					<li>Corpse_AA_Frostmite</li>
+					<li>Corpse_AA_IronhuskBeetle</li>
+					<li>Corpse_AA_MammothWorm</li>
+					<li>Corpse_AA_MegaLouse</li>
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesInsectoid"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AA_BlackScarab</li>
+					<li>Corpse_AA_BlackSpelopede</li>
+					<li>Corpse_AA_BlackSpider</li>
+					<li>Corpse_AA_Barbslinger</li>
+					<li>Corpse_AA_BedBug</li>
+					<li>Corpse_AA_Blizzarisk</li>
+					<li>Corpse_AA_BlizzariskClutchMother</li>
+					<li>Corpse_AA_Bumbledrone</li>
+					<li>Corpse_AA_Dunealisk</li>
+					<li>Corpse_AA_DunealiskClutchMother</li>
+					<li>Corpse_AA_Feralisk</li>
+					<li>Corpse_AA_FeraliskClutchMother</li>
+					<li>Corpse_AA_Frostmite</li>
+					<li>Corpse_AA_IronhuskBeetle</li>
+					<li>Corpse_AA_MammothWorm</li>
+					<li>Corpse_AA_MegaLouse</li>
+
+				</value>
+			</li>	
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesReptilian"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AA_Lockjaw</li>
+				
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesReptilian"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AA_Lockjaw</li>
+					
+				</value>
+			</li>	
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesWolf"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AA_AnimusVox</li>
+					
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesWolf"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AA_AnimusVox</li>
+					
+
+
+				</value>
+			</li>	
+		
+		</operations>
+	</Operation>
+	
+	
+</Patch>

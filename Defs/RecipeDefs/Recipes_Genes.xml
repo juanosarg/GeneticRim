@@ -232,6 +232,9 @@
 						<li>Corpse_YorkshireTerrier</li>
 						<li>Corpse_Husky</li>
 						<li>Corpse_LabradorRetriever</li>
+						<li>Corpse_Fox_Fennec</li>
+						<li>Corpse_Fox_Red</li>
+						<li>Corpse_Fox_Arctic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -246,6 +249,9 @@
 				<li>Corpse_YorkshireTerrier</li>
 				<li>Corpse_Husky</li>
 				<li>Corpse_LabradorRetriever</li>
+				<li>Corpse_Fox_Fennec</li>
+				<li>Corpse_Fox_Red</li>
+				<li>Corpse_Fox_Arctic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>

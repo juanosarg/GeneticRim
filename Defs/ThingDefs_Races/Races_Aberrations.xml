@@ -34,7 +34,7 @@
 		</comps>
 		<race>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
-
+			<fleshType>GR_Insectoid</fleshType>
 			<needsRest>false</needsRest>
 			<hasGenders>false</hasGenders>
 			<body>Snake</body>	  

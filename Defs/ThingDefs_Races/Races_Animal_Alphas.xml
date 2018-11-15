@@ -84,6 +84,8 @@
 		</comps>
 
 		<race>
+					<fleshType>GR_Normal</fleshType>
+
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<useLeatherFrom>Bear_Grizzly</useLeatherFrom>
 			<useMeatFrom>Bear_Grizzly</useMeatFrom>
@@ -233,6 +235,8 @@
 		</tools>
 
 		<race>
+							<fleshType>GR_Normal</fleshType>
+
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithHoovesAndTusks</body>
 			<baseBodySize>1.5</baseBodySize>
@@ -377,6 +381,7 @@
 			<executionRange>6</executionRange>
 			<herdAnimal>true</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
+					<fleshType>GR_Normal</fleshType>
 
 			<baseBodySize>1.9</baseBodySize>
 			<baseHungerRate>1.1</baseHungerRate>
@@ -526,6 +531,8 @@
 			</li>
 		</comps>
 		<race>
+							<fleshType>GR_Normal</fleshType>
+
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>Bird</body>
 			<baseHungerRate>0.55</baseHungerRate>
@@ -637,6 +644,8 @@
 			<MarketValue>600</MarketValue>
 		</statBases>
 		<race>
+							<fleshType>GR_Normal</fleshType>
+
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>Bird</body>
 			<herdAnimal>false</herdAnimal>
@@ -826,6 +835,7 @@
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<herdAnimal>true</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
+					<fleshType>GR_Normal</fleshType>
 
 			<body>QuadrupedAnimalWithHooves</body>
 			<baseBodySize>2.5</baseBodySize>
@@ -936,6 +946,8 @@
 			<MarketValue>720</MarketValue>
 		</statBases>
 		<race>
+							<fleshType>GR_Normal</fleshType>
+
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<herdAnimal>false</herdAnimal>
 			<baseBodySize>1.5</baseBodySize>
@@ -1143,6 +1155,8 @@
 		</li>
 	</comps>
 	<race>
+						<fleshType>GR_Normal</fleshType>
+
 		<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 		<body>QuadrupedAnimalWithHoovesAndHorn</body>
 		<baseHungerRate>1.75</baseHungerRate>
@@ -1320,6 +1334,8 @@
 		</li>
 	</comps>
 	<race>
+						<fleshType>GR_Normal</fleshType>
+
 		<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 		<body>QuadrupedAnimalWithPawsAndTail</body>
 		<predator>true</predator>
@@ -1475,6 +1491,8 @@
 		</li>
 	</comps>
 	<race>
+						<fleshType>GR_Normal</fleshType>
+
 		<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 		<useLeatherFrom>Hare</useLeatherFrom>
 		<useMeatFrom>Hare</useMeatFrom>
@@ -1633,6 +1651,8 @@
 		</li>
 	</comps>
 	<race>
+						<fleshType>GR_Normal</fleshType>
+
 		<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 		<body>QuadrupedAnimalWithClawsTailAndJowl</body>
 		<baseBodySize>0.40</baseBodySize>
@@ -1760,6 +1780,8 @@
 		</li>
 	</comps>
 	<race>
+						<fleshType>GR_Normal</fleshType>
+
 		<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 		<body>QuadrupedAnimalWithHooves</body>
 		<baseBodySize>1.2</baseBodySize>
@@ -1943,6 +1965,8 @@
 		</li>
 	</comps>
 	<race>
+						<fleshType>GR_Normal</fleshType>
+
 		<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 		<body>QuadrupedAnimalWithPaws</body>
 		<baseBodySize>0.3</baseBodySize>
@@ -2085,6 +2109,8 @@
 		</li>
 	</comps>
 	<race>
+						<fleshType>GR_Normal</fleshType>
+
 		<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 		<body>TurtleLike</body>
 		<baseBodySize>0.75</baseBodySize>

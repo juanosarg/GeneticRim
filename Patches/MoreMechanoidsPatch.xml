@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>More Mechanoids</modName>
+				<yourMod>Genetic Rim</yourMod>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMechanoid"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_Mech_Crawler</li>
+					<li>Corpse_Mech_Skullywag</li>
+					<li>Corpse_Mech_Flamebot</li>
+					<li>Corpse_Mech_Mammoth</li>
+					<li>Corpse_Mech_Assaulter</li>
+
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMechanoid"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_Mech_Crawler</li>
+					<li>Corpse_Mech_Skullywag</li>
+					<li>Corpse_Mech_Flamebot</li>
+					<li>Corpse_Mech_Mammoth</li>
+					<li>Corpse_Mech_Assaulter</li>
+				</value>
+			</li>
+
+
+		</operations>
+	</Operation>
+
+
+</Patch>

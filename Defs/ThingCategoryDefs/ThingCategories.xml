@@ -23,6 +23,12 @@
 	  <iconPath>Things/Item/AlphaSerum</iconPath>
       
     </ThingCategoryDef>
+	
+	    <ThingCategoryDef>
+    <defName>GR_Corpses</defName>
+    <label>hybrid and alpha corpses</label>
+      <parent>Corpses</parent>
+    </ThingCategoryDef>
 
 
 </Defs>
