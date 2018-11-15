@@ -808,8 +808,8 @@
 	<ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>
       <li>
-        <label>timber wolf puppy</label>
-        <labelPlural>timber wolf puppies</labelPlural>
+        <label>wolfscarab puppy</label>
+        <labelPlural>wolfscarab puppies</labelPlural>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Wolf/Wolfscarab/Wolfscarab</texPath>
           <drawSize>1.5</drawSize>

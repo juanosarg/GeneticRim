@@ -6,7 +6,7 @@
 	<ThingDef ParentName="WoolBase">
 		<defName>GR_BearffaloWool</defName>
 		<label>bearffalo wool</label>
-		<description>Coarse, strong wool. Bearffalo wool provides excellent heat protection, and decent defense.</description>
+		<description>Coarse, strong wool. Bearffalo wool provides heat protection, and decent defense.</description>
 		<graphicData>
 			<color>(138,191,196)</color>
 		</graphicData>
@@ -15,10 +15,12 @@
 		<statBases>
 			<StuffPower_Insulation_Cold>22</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>      
-			<StuffPower_Armor_Sharp>0.25</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
 
 		</statBases>
 		<stuffProps>
+		      <commonality>0</commonality>
+
 			<color>(138,191,196)</color>
 		</stuffProps>
 	</ThingDef>
@@ -33,11 +35,13 @@
 		<tradeability>Sellable</tradeability>
 
 		<statBases>
-			<StuffPower_Insulation_Cold>19</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>      
 
 		</statBases>
 		<stuffProps>
+				      <commonality>0</commonality>
+
 			<color>(235,227,93)</color>
 		</stuffProps>
 	</ThingDef>
@@ -52,11 +56,13 @@
 		<tradeability>Sellable</tradeability>
 
 		<statBases>
-			<StuffPower_Insulation_Cold>19</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>      
 
 		</statBases>
 		<stuffProps>
+				      <commonality>0</commonality>
+
 			<color>(173,235,93)</color>
 		</stuffProps>
 	</ThingDef>
@@ -64,19 +70,21 @@
 	<ThingDef ParentName="WoolBase">
 		<defName>GR_ChickenffaloWool</defName>
 		<label>chickenffalo wool</label>
-		<description>The strands of this pure white wool are incredibly small and complex. Gives excellent defense against sharp attacks.</description>
+		<description>The strands of this pure white wool are incredibly small and complex. Gives good defense against sharp attacks for a wool.</description>
 		<graphicData>
 			<color>(240,240,240)</color>
 		</graphicData>
 		<tradeability>Sellable</tradeability>
 
 		<statBases>
-			<StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>      
-			<StuffPower_Armor_Sharp>0.225</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>26</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>      
+			<StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
 
 		</statBases>
 		<stuffProps>
+				      <commonality>0</commonality>
+
 			<color>(240,240,240)</color>
 		</stuffProps>
 	</ThingDef>
@@ -84,19 +92,21 @@
 	<ThingDef ParentName="WoolBase">
 		<defName>GR_MuffalochickenWool</defName>
 		<label>muffalochicken wool</label>
-		<description>This seems to be an amalgamation of feathers and wool, perfectly interweaved. Gives nice defense against blunt attacks.</description>
+		<description>This seems to be an amalgamation of feathers and wool, perfectly interweaved. Gives nice defense against blunt attacks, as well as insulation.</description>
 		<graphicData>
 			<color>(250,250,250)</color>
 		</graphicData>
 		<tradeability>Sellable</tradeability>
 
 		<statBases>
-			<StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Cold>27</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>      
-			<StuffPower_Armor_Blunt>0.15</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Blunt>0.25</StuffPower_Armor_Blunt>
 
 		</statBases>
 		<stuffProps>
+						      <commonality>0</commonality>
+
 			<color>(250,250,250)</color>
 		</stuffProps>
 	</ThingDef>
@@ -115,6 +125,8 @@
 			<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
 		</statBases>
 		<stuffProps>
+						      <commonality>0</commonality>
+
 			<color>(52,52,52)</color>
 		</stuffProps>
 	</ThingDef>
@@ -133,6 +145,8 @@
 			<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
 		</statBases>
 		<stuffProps>
+						      <commonality>0</commonality>
+
 			<color>(40,40,40)</color>
 		</stuffProps>
 	</ThingDef>
@@ -156,8 +170,8 @@
 			<Mass>0.025</Mass>
 			<Flammability>1.0</Flammability>
 			<DeteriorationRate>3</DeteriorationRate>
-			<StuffPower_Armor_Sharp>0.35</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>0.20</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.3</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
@@ -166,7 +180,7 @@
 			<categories>
 				<li>Fabric</li>
 			</categories>
-			<commonality>0.20</commonality>
+			<commonality>0</commonality>
 			<color>(218,201,168)</color>
 
 		</stuffProps>
@@ -189,7 +203,7 @@
 			<Mass>0.025</Mass>
 			<Flammability>1.0</Flammability>
 			<DeteriorationRate>3</DeteriorationRate>
-			<StuffPower_Armor_Sharp>0.25</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Blunt>0.25</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Heat>0.22</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
@@ -199,7 +213,7 @@
 			<categories>
 				<li>Fabric</li>
 			</categories>
-			<commonality>0.20</commonality>
+			<commonality>0</commonality>
 			<color>(210,255,254)</color>
 
 		</stuffProps>
@@ -220,11 +234,13 @@
 
 		</graphicData>
 		<statBases>
-			<StuffPower_Armor_Sharp>0.1</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Blunt>0.4</StuffPower_Armor_Blunt>
 
 		</statBases>
 		<stuffProps>
+						      <commonality>0</commonality>
+
 			<color>(88,88,88)</color>
 		</stuffProps>
 	</ThingDef>
@@ -243,7 +259,7 @@
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<MarketValue>5</MarketValue>
-			<Mass>0.02</Mass>
+			<Mass>0.01</Mass>
 			<Flammability>1.0</Flammability>
 			<DeteriorationRate>3</DeteriorationRate>
 
@@ -255,7 +271,7 @@
 			<categories>
 				<li>Fabric</li>
 			</categories>
-			<commonality>0.15</commonality>
+			<commonality>0</commonality>
 			<color>(0,116,6)</color>
 
 		</stuffProps>
@@ -267,17 +283,19 @@
 	<ThingDef ParentName="WoolBase">
 		<defName>GR_ThrumbearWool</defName>
 		<label>thrumbear wool</label>
-		<description>Thrumbear wool is thick, strong and warm. Probably the best wool in the animal kingdom.</description>
+		<description>Thrumbear wool is thick and warm. Probably the best wool in the animal kingdom.</description>
 		<graphicData>
 
 			<color>(233,233,233)</color>      
 		</graphicData>
 		<tradeability>Sellable</tradeability>
 		<statBases>
-			<StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<StuffPower_Insulation_Cold>36</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>28</StuffPower_Insulation_Heat>
 		</statBases>
 		<stuffProps>
+						      <commonality>0</commonality>
+
 			<color>(233,233,233)</color>
 
 
@@ -297,6 +315,8 @@
 		</statBases>
 		<tradeability>Sellable</tradeability>
 		<stuffProps>
+						      <commonality>0</commonality>
+
 			<color>(233,233,233)</color>
 
 		</stuffProps>
@@ -327,7 +347,7 @@
 			<categories>
 				<li>Fabric</li>
 			</categories>
-			<commonality>0.20</commonality>
+			<commonality>0</commonality>
 			<color>(202,202,202)</color>
 
 		</stuffProps>
