@@ -50,6 +50,8 @@
     <Compile Include="CompAnimalProduct.cs" />
     <Compile Include="CompProperties_Lightsustenance.cs" />
     <Compile Include="CompProperties_AnimalProduct.cs" />
+    <Compile Include="CompProperties_Regeneration.cs" />
+    <Compile Include="CompRegeneration.cs" />
     <Compile Include="JobDriver_AnimalResource.cs" />
     <Compile Include="LocalJobDefOf.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
