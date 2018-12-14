@@ -17,6 +17,8 @@ namespace DraftingPatcher
         public bool dinostamina = false;
         public bool horror = false;
         public bool mechablast = false;
+        public bool keensenses = false;
+
 
 
 

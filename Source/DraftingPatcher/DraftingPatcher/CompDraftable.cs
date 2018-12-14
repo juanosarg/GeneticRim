@@ -106,5 +106,12 @@ namespace DraftingPatcher
                 return this.Props.mechablast;
             }
         }
+        public bool GetKeenSenses
+        {
+            get
+            {
+                return this.Props.keensenses;
+            }
+        }
     }
 }

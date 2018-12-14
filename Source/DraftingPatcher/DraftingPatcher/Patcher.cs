@@ -84,6 +84,8 @@ namespace DraftingPatcher
             bool flagCanStamina = false;
             bool flagCanHorrorize = false;
             bool flagCanMechaBlast = false;
+            bool flagCanKeenSenses = false;
+
 
 
 
@@ -112,6 +114,7 @@ namespace DraftingPatcher
                         flagCanStamina = pawn.TryGetComp<CompDraftable>().HasDinoStamina;
                         flagCanHorrorize = pawn.TryGetComp<CompDraftable>().GetHorror;
                         flagCanMechaBlast = pawn.TryGetComp<CompDraftable>().GetMechablast;
+                        flagCanKeenSenses = pawn.TryGetComp<CompDraftable>().GetKeenSenses;
 
 
                         flagIsMindControlBuildingPresent = true;
@@ -390,6 +393,28 @@ namespace DraftingPatcher
                 GR_Gizmo_Stamina.defaultDesc = "GR_StartStaminaDesc".Translate();
                 GR_Gizmo_Stamina.icon = ContentFinder<Texture2D>.Get("ui/commands/GR_Stamina", true);
                 gizmos.Insert(1, GR_Gizmo_Stamina);
+            }
+
+            /*This gizmo makes the animal more aware (sight and consciousness) for a while
+          */
+            if ((pawn.drafter != null) && flagCanKeenSenses && flagIsCreatureMine && flagIsMindControlBuildingPresent)
+            {
+                Command_Action GR_Gizmo_KeenSenses = new Command_Action();
+                GR_Gizmo_KeenSenses.action = delegate
+                {
+                    if (!pawn.health.hediffSet.HasHediff(HediffDef.Named("GR_KeenSenses")))
+                    {
+                        pawn.health.AddHediff(HediffDef.Named("GR_KeenSenses"));
+                    }
+                    else
+                    {
+                        Messages.Message("GR_AbilityRecharging".Translate(), pawn, MessageTypeDefOf.NeutralEvent);
+                    }
+                };
+                GR_Gizmo_KeenSenses.defaultLabel = "GR_StartKeenSenses".Translate();
+                GR_Gizmo_KeenSenses.defaultDesc = "GR_StartKeenSensesDesc".Translate();
+                GR_Gizmo_KeenSenses.icon = ContentFinder<Texture2D>.Get("ui/commands/GR_KeenSenses", true);
+                gizmos.Insert(1, GR_Gizmo_KeenSenses);
             }
 
             /*This gizmo makes the animal cast a horror ability
