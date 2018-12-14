@@ -73,6 +73,8 @@
   <GR_StartInvokingInsanityDesc>Invokes the insanity of That Which Man Is Not Meant to Know</GR_StartInvokingInsanityDesc>
   <GR_StartMechaBlast>Mecha Blast</GR_StartMechaBlast>
   <GR_StartMechaBlastDesc>Vents exhaust in the tiles surounding the mechanoid hybrid, burning anything close to it</GR_StartMechaBlastDesc> 
+  <GR_StartKeenSenses>Keen Senses</GR_StartKeenSenses>
+  <GR_StartKeenSensesDesc>Makes the creature more aware of its surroundings, increasing its melee capacities (affects sight and consciousness)</GR_StartKeenSensesDesc>
   
   <GR_AbilityRecharging>Ability is rechaging. Check animal's health tab</GR_AbilityRecharging>
   <GR_PoisonCloudRange>Poison cloud has a maximum range of 10. Get closer to the target!</GR_PoisonCloudRange>
