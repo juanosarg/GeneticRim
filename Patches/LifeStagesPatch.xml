@@ -8,6 +8,15 @@
 			<shearable>true</shearable>
 		</value>
 	</Operation>
+	
+		<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/LifeStageDef[defName = "MechanoidFullyFormed"]</xpath>
+		<value>
+			<shearable>true</shearable>
+			<milkable>true</milkable>
+
+		</value>
+	</Operation>
 
 
 

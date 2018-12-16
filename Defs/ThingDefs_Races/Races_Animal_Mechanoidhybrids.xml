@@ -610,6 +610,8 @@
 				<milkDef>GR_MechaMilk</milkDef>
 				<milkIntervalDays>2</milkIntervalDays>
 				<milkAmount>1</milkAmount>
+				<milkFemaleOnly>false</milkFemaleOnly>
+
 			</li>
 			<li Class="CompProperties_Shearable">
 				<woolDef>GR_MechaWool</woolDef>
