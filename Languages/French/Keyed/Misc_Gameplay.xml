@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Item Production -->
+
+  <IncubatorProgress>Progrès de l'incubateur</IncubatorProgress>
+  <ResourceGrowth>Croissance des ressources</ResourceGrowth>
+  <FeatherGrowth>Croissance des plumes</FeatherGrowth>
+  <JellyGrowth>Abondance en gelée royale</JellyGrowth>
+  <VanillaJellyGrowth>Abondance en gelée d'insecte</VanillaJellyGrowth>
+  <SacGrowth>Croissance du sac explosif</SacGrowth>
+  <SilkGrowth>Croissance de la soie</SilkGrowth>
+  <PoisonGrowth>Abdondance du poison</PoisonGrowth>
+  <SkinShed>Temps de mue</SkinShed>
+  <TentacleGrowth>Croissance des tentacules taillables</TentacleGrowth>
+  <JellyGrowth2>Abondance en gelée Eldritch</JellyGrowth2>
+  <ChocolateEgg>Croissance des oeufs en chocola</ChocolateEgg>
+  <Cryofuel>Production de Cryofuel</Cryofuel>
+  <ChemfuelProd>Production de Chemfuel</ChemfuelProd>
+  <NeutroglycerinProd>Production de nitroglycérine</NeutroglycerinProd>
+  <ComponentIndustrialDesc>Production de composants industriels</ComponentIndustrialDesc>
+
+
+  
+  <!-- Gene Pods Control -->
+
+  <GR_ExtractGenes>Réservoir Vide 1</GR_ExtractGenes>
+  <GR_ExtractGenesDesc>Extraire du Matériel Génétique du réservoir #1</GR_ExtractGenesDesc>
+  
+  <GR_ExtractGenes2>Réservoir Vide 2</GR_ExtractGenes2>
+  <GR_ExtractGenes2Desc>Extraire du Matériel Génétique du réservoir #2</GR_ExtractGenes2Desc>
+  
+  <GR_InsertGenes>Insérer dans Réservoir 1</GR_InsertGenes>
+  <GR_InsertGenesDesc>Insérer Matériel Génétique dans réservoir #1</GR_InsertGenesDesc>
+  
+  <GR_InsertGenes2>Insérer dans Réservoir 2</GR_InsertGenes2>
+  <GR_InsertGenes2Desc>Insérer Matériel Génétique dans réservoir #2</GR_InsertGenes2Desc>
+  
+  <GR_NoGenes>Aucun Matériel Génétique disponible !</GR_NoGenes>
+  
+  <GR_AllGenesNotPresent>Remplissez les deux réservoirs avec du matériel génétique pour commencer le traitement.</GR_AllGenesNotPresent>
+  <GR_MixingGenes>Mélange des matériaux génétiques. Progrès:</GR_MixingGenes>
+
+
+
+
+
+  <!-- Creature Control Commands -->
+  
+  <GR_CreatureMindControl>Contrôle Mental</GR_CreatureMindControl>
+  <GR_CreatureMindControlDesc>Utiliser le contrôle mental pour donner des ordres directs à la créature sur la map</GR_CreatureMindControlDesc>
+  <GR_CreatureRageAttack>Attaque Enragée</GR_CreatureRageAttack>
+  <GR_CreatureRageAttackDesc>Envois la créature dans une rage sanguinaire contre sa cible</GR_CreatureRageAttackDesc>
+  <GR_DetonateChemfuel>Détonner le Chemfuel</GR_DetonateChemfuel>
+  <GR_DetonateChemfuelDesc>Fais exploser à distance le réservoir de chemfuel de la créature. Cela tuera la pauvre bête, évidemment</GR_DetonateChemfuelDesc>
+  <GR_InflictChickenRimPox>Inflige la Variole Aviaire</GR_InflictChickenRimPox>
+  <GR_InflictChickenRimPoxDesc>Attaque une cible et inflige la Variole Aviaire, une maladie débilitante</GR_InflictChickenRimPoxDesc>
+  <GR_CarryMore>Porter plus de poids</GR_CarryMore>
+  <GR_CarryMoreDesc>Cet hybride porte plus de poids que d'habitude dû à l'influence du hub de contrôle des animaux</GR_CarryMoreDesc>
+  <GR_StartAdrenalineBurst>Surge d'Adrénaline</GR_StartAdrenalineBurst>
+  <GR_StartAdrenalineBurstDesc>Permet à la créature de se déplacer beaucoup plus vite pendant un moment, en contrepartie d'être exténué pendant presque une demi-journée</GR_StartAdrenalineBurstDesc>
+  <GR_ReleaseInsectClouds>Nuée d'Insecte</GR_ReleaseInsectClouds>
+  <GR_ReleaseInsectCloudsDesc>Pousse la créature à libérer des nuages d'insectes autour d'elle, blessant tout pawn qui n'est pas un hybride d'insecte</GR_ReleaseInsectCloudsDesc>
+  <GR_StartStampede>Débâcle</GR_StartStampede>
+  <GR_StartStampedeDesc>La créature bouge de plus en plus vite et crée des nuages de fumée qui bloque la ligne de mire des armes à projectile. Fatigue la créature après un moment</GR_StartStampedeDesc>
+  <GR_CreatePoisonousCloud>Libérer un nuage de poison</GR_CreatePoisonousCloud>
+  <GR_CreatePoisonousCloudDesc>Crée un nuage de poison à l'emplacement de la cible</GR_CreatePoisonousCloudDesc>
+  <GR_StartBurrowing>Enfouissement</GR_StartBurrowing>
+  <GR_StartBurrowingDesc>Envois la créature sous terre en mode enfouissement, la rendant très résistante aux dégâts pendant un moment</GR_StartBurrowingDesc>
+  <GR_StartStamina>Augmentation de Vigueur</GR_StartStamina>
+  <GR_StartStaminaDesc>Rend temporairement la créature plus résistante aux dégâts</GR_StartStaminaDesc>
+  <GR_StartInvokingInsanity>Invocation de Démence</GR_StartInvokingInsanity>
+  <GR_StartInvokingInsanityDesc>Invoque la démence de Ce Que l'Humanité Ne Doit Pas Connaitre</GR_StartInvokingInsanityDesc>
+  <GR_StartMechaBlast>Souffle Mecha</GR_StartMechaBlast>
+  <GR_StartMechaBlastDesc>Les bouches d'aération crachent sur les cases entourrant l'hybride Méchanoïde, brûlant tout ce qui l'entoure</GR_StartMechaBlastDesc> 
+  <GR_StartKeenSenses>Sens Aiguisés</GR_StartKeenSenses>
+  <GR_StartKeenSensesDesc>Rend la créature plus sensible à son environnement, augmentant ses ccapaccité de mélée (affecte la vue et la conscience)</GR_StartKeenSensesDesc>
+  
+  <GR_AbilityRecharging>La capacité se recharge. Examinez l'onglet Santé de l'animal</GR_AbilityRecharging>
+  <GR_PoisonCloudRange>Le nuage de poison a une distance maximale de 10. Rapprochez-vous de votre cible!</GR_PoisonCloudRange>
+  <GR_InvokingInsanityRange>Invocation de Démence a une distance maximale de 10. Rapprochez-vous de votre cible!</GR_InvokingInsanityRange>
+
+  
+  
+  <!-- Misc -->
+  
+  <GR_ANewCreatureWasBorn>Un incubateur a éclos!</GR_ANewCreatureWasBorn> 
+  <GR_ANewCreatureWasBornMutant>Un incubateur a écl... Attendez, c'est quoi ce TRUC ???</GR_ANewCreatureWasBornMutant> 
+
+  
+  <!-- This isn't used for now -->
+
+  <AccAgeProg>Progression du vieillissement acccéléré</AccAgeProg>
+  <CannotCarryToAccelerationPod>Impossible de transporter jusqu'au caisson d'accélération</CannotCarryToAccelerationPod>
+  <NoAccelerationPod>Aucun caisson d'accélération valide trouvé</NoAccelerationPod>
+ 
+
+</LanguageData>
