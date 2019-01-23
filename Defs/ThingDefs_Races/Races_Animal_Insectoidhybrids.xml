@@ -602,6 +602,7 @@
 
 	<ThingDef ParentName="BaseInsect">
 		<defName>GR_Thrumbospider</defName>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 		<label>thrumbospider</label>
 		<description>A thrumbo / megaspider hybrid. The voracious appetite of the thrumbo, combined with the fast metabolism of the megaspider makes this creature very very difficult to maintain and take care of, but in combat power it is almost unbeatable, albeit slow. Unfortunately, they can't reproduce on their own.\n\nUseful abilities: If properly trained, this creature will utterly destroy your enemies.</description>
 		<statBases>
@@ -733,6 +734,7 @@
 	<ThingDef ParentName="BaseInsect">
 		<defName>GR_Wolfscarab</defName>
 		<label>wolfscarab</label>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 		<description>A wolf / megascarab hybrid. These ferocious creatures are faster than most animals, and really effective in combat. Unfortunately, they can't reproduce on their own.\n\nUseful abilities: Much faster than most other creatures.</description>
 		<statBases>
 			<MoveSpeed>9</MoveSpeed>

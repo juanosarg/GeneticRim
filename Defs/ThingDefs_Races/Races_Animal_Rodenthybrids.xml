@@ -764,6 +764,7 @@
 
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>GR_Thrumborat</defName>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 		<label>thrumborat</label>
 		<race>GR_Thrumborat</race>
 		<combatPower>400</combatPower>
@@ -827,6 +828,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Wolfbeaver</defName>
 		<label>wolfbeaver</label>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 		<description>A Beaver / Wolf hybrid. This fast breeding predator can be a drain on your tree reserves, unless you provide it with some fresh meat.\n\nUseful abilities: Fast breeding.</description>
 		<statBases>
 			<MoveSpeed>7.5</MoveSpeed>
