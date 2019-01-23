@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Rim of Madness - Bones</modName>
+				<yourMod>Genetic Rim</yourMod>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs</xpath>
+				<value>
+						<RecipeDef>
+		<defName>GR_PulpBones</defName>
+		<label>extract organic pulp from bones</label>
+		<description>Extract organic pulp from bones. You can get bones from butchering living creatures.</description>
+		<jobString>Extracting Pulp</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>GR_PulpRecycler</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BoneItem</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BoneItem</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>BoneItem</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<GR_OrganicPulp>1</GR_OrganicPulp>
+		</products>
+	</RecipeDef>
+
+				</value>
+			</li>
+
+		
+
+
+		</operations>
+	</Operation>
+
+
+</Patch>

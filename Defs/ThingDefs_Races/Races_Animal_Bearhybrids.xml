@@ -199,6 +199,7 @@
 	<!-- Bear - Chicken --> 
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Bearchicken</defName>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 		<label>bearchicken</label>
 		<description>A bear / chicken hybrid. Nicknamed "owlbear" by the colonists. Much weaker in melee than a bear, but it lays eggs, and can obviously defend itself in combat much better than a chicken.\n\nUseful abilities: Lays eggs and regularly produces feathers, which can be converted into Featherdust joints.</description>
 		<statBases>

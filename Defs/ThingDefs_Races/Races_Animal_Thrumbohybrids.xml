@@ -4,6 +4,7 @@
 	<!-- Bear - Thrumbo -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Thrumbear</defName>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 		<label>thrumbear</label>
 		<description>This gargantuan beast is the result of splicing bear genes in a standard thrumbo. As strong and resilient as it is easy to anger, a thrumbear attack is something to be VERY scared of.\n\nUseful abilities: Produces very high quality wool.</description>
 		<statBases>
@@ -358,6 +359,7 @@
 	<!-- Chicken - Thrumbo -->  
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Thrumbochicken</defName>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 		<label>thrumbochicken</label>
 		<description>The thrumbochicken is a thrumbo that has been spliced with avian genes. Although not very ravenous, these are lightning fast predators that could hunt any other creature with ease. These animals lay enormous eggs!\n\nUseful abilities: Biggest eggs of any animal.</description>
 		<statBases>

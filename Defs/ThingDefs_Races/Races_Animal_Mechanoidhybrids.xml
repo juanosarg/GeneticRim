@@ -414,6 +414,7 @@
 	<!-- Mechanoid - Insectoid -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Mechaspider</defName>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 		<label>mechaspider</label>
 		<description>This cybernetic organism has traits from both its insectoid and mechanoid origins. The mechaspider is armed with a powerful twin-coiled laser machine gun, perfect to obliterate enemies in a rain of laser fire. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components.\n\nUseful abilities: As long as a tamer is near to direct it, the mechaspider can rain death upon enemies. Like all mechanoid hybrids it produces industrial components every couple days.</description>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -544,6 +545,7 @@
 	<!-- Mechanoid - Muffalo -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Mechamuffalo</defName>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 		<label>mecha-muffalo</label>
 		<description>This hulking cybernetic organism has been reinforced with an adaptive plasteel mesh, enabling it to carry an incredible amount of stuff. The mecha-muffalo is the perfect pack animal, but it is quite useless in an offensive role. Defensively, however, it is armed with a smoke cannon that it can use to cover the battlefield in a dense cloud of dust. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components.\n\nUseful abilities: As long as a tamer is near to direct it, the mecha-muffalo can use its smoke cannon to scramble enemy sight. Like all mechanoid hybrids it produces industrial components every couple days. It also produces a weird metallic wool, and metallic tasting milk.</description>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -819,6 +821,7 @@
 	<!-- Mechanoid - Reptile -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Mechaturtle</defName>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 		<label>mechaturtle</label>
 		<description>This cybernetic beast is heavily armoured with a plasteel-encased biomechanical shell. It is armed with a poison spitting cannon. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components.\n\nUseful abilities: As long as a tamer is near to direct it, the mechaturtle can hurl poison projectiles to the enemy. Like all mechanoid hybrids it produces industrial components every couple days. It is, of course, quite slow.</description>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -949,6 +952,7 @@
 	<!-- Mechanoid - Wolf -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Mechawolf</defName>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 		<label>mechawolf</label>
 		<description>This cybernetic beast has been augmented with a powerful synthetic structure capable of generating waves of cryogenic liquid. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components.\n\nUseful abilities: As long as a tamer is near to direct it, the mechawolf can launch cryo projectiles that freeze the ground (and enemies!) in contact. Like all mechanoid hybrids it produces industrial components every couple days.</description>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -1080,6 +1084,7 @@
 	<!-- Mechanoid - Thrumbo -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Mechathrumbo</defName>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 		<label>mechathrumbo</label>
 		<description>This hulking cybernetic behemoth is why you don't need tanks in the Rim. Its huge plasteel carapace hides a miniaturized synchrotron that constantly generates small amounts of antimatter, which is instantly used to fill a miniature antigrain warhead. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components.\n\nUseful abilities: As long as a tamer is near to direct it, the mechathrumbo is like a mortar turret, armed with self-replenishing miniature antigrain warheads. This is SO end game... Like all mechanoid hybrids it produces industrial components every couple days.</description>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>

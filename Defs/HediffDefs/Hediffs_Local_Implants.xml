@@ -885,6 +885,8 @@
 	<HediffDef ParentName="GR_HybridPartsBase">
 		<defName>GR_Ovipositor</defName>
 		<label>ovipositor</label>
+				<hediffClass>Hediff_Implant</hediffClass>
+
 		<stages>
 			<li>
 				<painOffset>0.1</painOffset>
@@ -905,6 +907,8 @@
 		<HediffDef ParentName="GR_HybridPartsBase">
 		<defName>GR_MuffaloMammaries</defName>
 		<label>muffalo mammaries</label>
+				<hediffClass>Hediff_Implant</hediffClass>
+
 		<stages>
 			<li>
 				<painOffset>0.1</painOffset>
@@ -925,6 +929,8 @@
 	<HediffDef ParentName="GR_HybridPartsBase">
 		<defName>GR_MuffaloMuscles</defName>
 		<label>muffalo strengthened muscles</label>
+				<hediffClass>Hediff_Implant</hediffClass>
+
 		<stages>
 			<li>
 				<capMods>
@@ -945,6 +951,7 @@
 	<HediffDef ParentName="GR_HybridPartsBase">
 		<defName>GR_BoomalopeNodules</defName>
 		<label>boomalope nodules</label>
+		<hediffClass>Hediff_Implant</hediffClass>
 
 		<comps>
 
@@ -959,6 +966,7 @@
 
 	<HediffDef ParentName="GR_HybridPartsBase">
 		<defName>GR_WolfMuscularFibers</defName>
+		<hediffClass>Hediff_Implant</hediffClass>
 		<label>wolf muscular fibers</label>
 		<stages>
 			<li>
@@ -1021,6 +1029,7 @@
 
 	<HediffDef ParentName="GR_HybridPartsBase">
 		<defName>GR_HumanThrumboHorn</defName>
+		<hediffClass>Hediff_Implant</hediffClass>
 		<label>thrumbo horn</label>
 		<stages>
 			<li>

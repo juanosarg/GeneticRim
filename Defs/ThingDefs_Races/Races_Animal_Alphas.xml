@@ -2062,6 +2062,7 @@
 <ThingDef ParentName="AnimalThingBase">
 	<defName>GR_AlphaTortoise</defName>
 	<label>alpha tortoise</label>
+	<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 	<description>This heavily armored land-dwelling reptile is known for its slow moving speed and surprisingly vicious bite.</description>
 	<statBases>
 		<MoveSpeed>0.5</MoveSpeed>

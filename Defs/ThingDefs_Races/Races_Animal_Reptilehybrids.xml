@@ -4,6 +4,7 @@
 	<!-- Reptile - Bear -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Bearodile</defName>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 		<label>bearodile</label>
 		<description>A reptile / bear hybrid. The reptilian genes used to generate this hybrid have given it some ancient reptilian characteristics, with an appearance similar to reptiles in the Permian Period on Earth. It has also developed a venomous bite.\n\nUseful abilities: Highly intelligent and venomous. Excellent base defender if properly trained.</description>
 		<statBases>
@@ -338,6 +339,7 @@
 	<!-- Reptile - Chicken -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Chickenlizard</defName>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 		<label>chickenlizard</label>
 		<description>A reptile / chicken hybrid. This reptilian chicken has a slightly venomous bite. Not very powerful, but considering how fast chickens breed, a horde of chickenlizards might be enough to overpower a much bigger creature with their venom.\n\nUseful abilities: Small, fast breeding, venomous chickens.</description>
 		<statBases>

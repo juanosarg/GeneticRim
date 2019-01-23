@@ -3,6 +3,7 @@
 	<!-- Rodent - Bear -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Bearmole</defName>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 		<label>bearmole</label>
 		<description>A Bear / Mole hybrid. This blind animal has a very acute sense of vibrations, alllowing it to detect its prey even better than a sighted animal.\n\nUseful abilities: Good guard animal. Very fast breeding.</description>
 		<statBases>
@@ -191,6 +192,7 @@
 	<!-- Rodent - Boomalope -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Boomsquirrel</defName>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 		<label>boomsquirrel</label>
 		<description>A Squirrel / Boomalope hybrid. This small and fast rodent has several nodules of chemical mixture in its back.\n\nUseful abilities: Explodes on death. Produces small amounts of chemfuel quite fast. Very fast breeding.</description>
 		<statBases>

@@ -88,6 +88,11 @@
   <GR_ANewCreatureWasBornMutant>An incubator has hatc... Wait, what is THAT thing???</GR_ANewCreatureWasBornMutant> 
 
   
+  <!-- Settings -->
+  
+  <GR_useLeglessGraphics>Uncheck this to use alternate legless graphics for ALL Genetic hybrids and alphas</GR_useLeglessGraphics>
+
+  
   <!-- This isn't used for now -->
 
   <AccAgeProg>Accelerated aging progress</AccAgeProg>
