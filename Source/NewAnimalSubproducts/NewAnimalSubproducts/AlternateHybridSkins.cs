@@ -33,7 +33,6 @@ namespace NewAnimalSubproducts
 
         }
 
-        // AnimalVariations.AnimalMultiSkins
         public override void TickRare()
         {
             if (!LoadedModManager.GetMod<GeneticRim_Mod>().GetSettings<GeneticRim_Settings>().useLeglessGraphics)
@@ -41,8 +40,24 @@ namespace NewAnimalSubproducts
 
                 this.ChangeTheGraphics();
 
+            }else if (LoadedModManager.GetMod<GeneticRim_Mod>().GetSettings<GeneticRim_Settings>().useLeglessGraphics)
+            {
+
+                this.RestoreTheGraphics();
+
             }
             base.TickRare();
+        }
+
+        // AnimalVariations.AnimalMultiSkins
+        public override void Tick()
+        {
+            if (Find.TickManager.TicksGame % 250 == 0)
+            {
+                this.TickRare();
+            }
+           
+            base.Tick();
         }
 
         public void ChangeTheGraphics()
@@ -56,6 +71,23 @@ namespace NewAnimalSubproducts
                 Vector2 vector = this.ageTracker.CurKindLifeStage.bodyGraphicData.drawSize;
                 //Log.Message(this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath + "Alternate");
                 Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath + "Alternate", ShaderDatabase.Cutout, vector, Color.white);
+                this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
+                (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = this.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
+            });
+
+        }
+
+        public void RestoreTheGraphics()
+        {
+            this.main_graphic = this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath;
+            this.pawn_renderer = ((Pawn_DrawTracker)typeof(Pawn).GetField("drawer", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(this)).renderer;
+
+
+            LongEventHandler.ExecuteWhenFinished(delegate
+            {
+                Vector2 vector = this.ageTracker.CurKindLifeStage.bodyGraphicData.drawSize;
+                //Log.Message(this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath + "Alternate");
+                Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath, ShaderDatabase.Cutout, vector, Color.white);
                 this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
                 (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = this.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
             });

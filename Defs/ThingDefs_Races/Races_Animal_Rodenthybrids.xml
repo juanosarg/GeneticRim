@@ -656,6 +656,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Thrumborat</defName>
 		<label>thrumborat</label>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 		<description>A Rat / Thrumbo hybrid. What could be scarier than a fast-breeding thrumbo?\n\nUseful abilities: Fast breeding and fast maturing for a creature of this size. Not very long-lived, though.</description>
 		<statBases>
 			<MoveSpeed>5.25</MoveSpeed>
@@ -764,7 +765,7 @@
 
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>GR_Thrumborat</defName>
-		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		
 		<label>thrumborat</label>
 		<race>GR_Thrumborat</race>
 		<combatPower>400</combatPower>

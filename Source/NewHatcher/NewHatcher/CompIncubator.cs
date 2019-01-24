@@ -2,6 +2,7 @@
 using RimWorld.Planet;
 using UnityEngine;
 using Verse;
+using NewAnimalSubproducts;
 
 
 namespace NewHatcher
@@ -81,7 +82,8 @@ namespace NewHatcher
 
             for (int i = 0; i < this.parent.stackCount; i++)
             {
-                if (rand.NextDouble() < 0.9)
+                //Log.Message("Failure rate set to "+ GeneticRim_Settings.failureRate);
+                if (rand.NextDouble() < (1-(GeneticRim_Settings.failureRate / 100)))
                 {
                     request = new PawnGenerationRequest(this.Props.hatcherPawn, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, true, false, false, true, false, 1f, false, true, true, false, false);
                 }
