@@ -9,7 +9,7 @@
     <thingClass>Building_WorkTable</thingClass>
     <description>A genetic engineering workbench.</description>
     <graphicData>
-      <texPath>Things/Building/GeneticExtractionTable</texPath>
+      <texPath>Things/Building/GR_GeneticExtractionTable</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(3.5,2)</drawSize>
       <damageData>
@@ -68,9 +68,16 @@
     <defName>GR_GenePod</defName>
     <label>genepod</label>
     <thingClass>Building_WorkTable</thingClass>
+	<canOverlapZones>false</canOverlapZones>
+    <minifiedDef>MinifiedThing</minifiedDef>
+	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+   
     <description>Genetic material samples are combined and grown in this laboratory.</description>
     <graphicData>
-      <texPath>Things/Building/GenePod</texPath>
+      <texPath>Things/Building/GR_GenePod</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(2,3)</drawSize>
      
@@ -86,6 +93,7 @@
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
+		<Mass>75</Mass>
       <WorkToBuild>2000</WorkToBuild>
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
@@ -124,12 +132,18 @@
 <ThingDef ParentName="BuildingBase">
     <defName>GR_AdvancedGenePod</defName>
     <label>advanced genepod</label>
+<canOverlapZones>false</canOverlapZones>
+    <minifiedDef>MinifiedThing</minifiedDef>
+	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
     <thingClass>Building_WorkTable</thingClass>
     <description>Genetic material samples are combined and grown in this laboratory. The vats of growth compound accelerate some of the most difficult experiments.</description>
     <graphicData>
       <texPath>Things/Building/GR_NewGenePodFull</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(4,4)</drawSize>
+      <drawSize>(2,3)</drawSize>
      
     </graphicData>
 			<rotatable>false</rotatable>
@@ -145,11 +159,12 @@
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
+	<Mass>75</Mass>
       <WorkToBuild>3000</WorkToBuild>
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
-    <size>(4,4)</size>
+    <size>(2,2)</size>
     <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
@@ -180,19 +195,18 @@
 
 </ThingDef>
 
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="BenchBase">
     <defName>GR_Pulper</defName>
     <label>pulper</label>
     <thingClass>Building_WorkTable</thingClass>
     <description>Turns wood and organic resources into a pulp, useful as a base organic compound.</description>
     <graphicData>
-      <texPath>Things/Building/Pulper</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3,1)</drawSize>
+      <texPath>Things/Building/GR_Pulper</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,2)</drawSize>
      
     </graphicData>
-			<rotatable>false</rotatable>
-
+			
     <castEdgeShadows>false</castEdgeShadows>
     <costList>
       <Steel>50</Steel>
@@ -237,19 +251,18 @@
 
   </ThingDef>
   
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BenchBase">
     <defName>GR_PulpRecycler</defName>
     <label>recycler</label>
     <thingClass>Building_WorkTable</thingClass>
     <description>Turns corpses into a pulp, useful as a base organic compound.</description>
     <graphicData>
-      <texPath>Things/Building/PulpRecycler</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,2)</drawSize>
+      <texPath>Things/Building/GR_PulpRecycler</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,2)</drawSize>
      
     </graphicData>
-			<rotatable>false</rotatable>
-
+			
     <castEdgeShadows>false</castEdgeShadows>
     <costList>
       <Steel>75</Steel>
@@ -264,7 +277,7 @@
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
-    <size>(2,2)</size>
+    <size>(3,1)</size>
     <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
@@ -297,18 +310,25 @@
     <ThingDef ParentName="BuildingBase">
     <defName>GR_GeneRecombinator</defName>
     <label>gene recombinator</label>
+	<canOverlapZones>false</canOverlapZones>
+    <minifiedDef>MinifiedThing</minifiedDef>
+	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
     <thingClass>Building_WorkTable</thingClass>
     <description>Mixes genes from different species, and produces genes from other species at random. Or not. Also, be careful, you don't want to mix frogs with other things. Life finds a way.</description>
     <graphicData>
       <texPath>Things/Building/GR_GeneRecombinator</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,2)</drawSize>
+      <drawSize>(2,3)</drawSize>
      
     </graphicData>
 			<rotatable>false</rotatable>
 
     <castEdgeShadows>false</castEdgeShadows>
     <costList>
+	
       <Steel>75</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
 	  <GR_OrganicPulp>5</GR_OrganicPulp>
@@ -317,6 +337,7 @@
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
+	<Mass>56</Mass>
       <WorkToBuild>500</WorkToBuild>
       <MaxHitPoints>120</MaxHitPoints>
       <Flammability>1.0</Flammability>
@@ -355,16 +376,21 @@
   <ThingDef ParentName="BuildingBase">
     <defName>GR_TissueGrowingVat</defName>
     <label>tissue growing vat</label>
+	<canOverlapZones>false</canOverlapZones>
+    <minifiedDef>MinifiedThing</minifiedDef>
+	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
     <thingClass>Building_WorkTable</thingClass>
     <description>Accelerates growth of organic structures, allowing accelerated development of genetically manipulated hybrid implants.</description>
     <graphicData>
-      <texPath>Things/Building/TissueGrowingVat</texPath>
+      <texPath>Things/Building/GR_TissueGrowingVat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,4)</drawSize>
+      <drawSize>(2,3)</drawSize>
      
     </graphicData>
-			<rotatable>false</rotatable>
-
+	<rotatable>false</rotatable>
     <castEdgeShadows>false</castEdgeShadows>
     <costList>
       <Steel>150</Steel>
@@ -376,15 +402,16 @@
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
+	<Mass>50</Mass>
       <WorkToBuild>500</WorkToBuild>
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
-    <size>(2,3)</size>
+    <size>(2,2)</size>
     <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
-    <interactionCellOffset>(0,0,-2)</interactionCellOffset>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
    
     <inspectorTabs>
@@ -414,12 +441,13 @@
   <ThingDef ParentName="BenchBase">
     <defName>GR_AlphaSerumExtractionTable</defName>
     <label>alpha serum extraction table</label>
+	
     <thingClass>Building_WorkTable</thingClass>
     <description>This worktable allows you to refine animal genes and extract a concentrated essence called alpha serum, which can be used to raise more evolved versions of your animals in the animal enrichment center.</description>
     <graphicData>
-      <texPath>Things/Building/AlphaSerumTable</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3.5,1.5)</drawSize>
+      <texPath>Things/Building/GR_AlphaSerumTable</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,2)</drawSize>
       <damageData>
         <rect>(0.3,0,2.7,1)</rect>
         <cornerTR>Damage/Corner</cornerTR>
@@ -476,12 +504,18 @@
    <ThingDef ParentName="BuildingBase">
     <defName>GR_AnimalEnrichmentCenter</defName>
     <label>animal enrichment center</label>
+	<canOverlapZones>false</canOverlapZones>
+    <minifiedDef>MinifiedThing</minifiedDef>
+	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
     <thingClass>Building_WorkTable</thingClass>
     <description>This machine can fill an incubator with specific alpha serum and an organic base compound to create advanced versions of your base creatures.</description>
     <graphicData>
-      <texPath>Things/Building/AnimalEnrichmentCenter</texPath>
+      <texPath>Things/Building/GR_AnimalEnrichmentCenter</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,4)</drawSize>
+      <drawSize>(2,3)</drawSize>
      
     </graphicData>
     <castEdgeShadows>false</castEdgeShadows>
@@ -497,15 +531,17 @@
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
+		<Mass>75</Mass>
+
       <WorkToBuild>1000</WorkToBuild>
       <MaxHitPoints>150</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
-    <size>(2,4)</size>
+    <size>(2,2)</size>
     <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
-    <interactionCellOffset>(0,0,-2)</interactionCellOffset>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
    
     <inspectorTabs>

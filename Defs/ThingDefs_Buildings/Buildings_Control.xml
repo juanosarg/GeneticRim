@@ -4,9 +4,15 @@
 
 
   
-  <ThingDef ParentName="BenchBase">
+  <ThingDef ParentName="BuildingBase">
     <defName>GR_AnimalControlHub</defName>
     <label>animal control hub</label>
+		<canOverlapZones>false</canOverlapZones>
+    <minifiedDef>MinifiedThing</minifiedDef>
+	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
     <thingClass>Building_WorkTable</thingClass>
 	<description>Once the animal control hub is active in your map, you can access new abilities in your hybrids, allowing you to control them directly.</description>
     <graphicData>
@@ -25,6 +31,8 @@
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
+		<Mass>120</Mass>
+
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToBuild>1500</WorkToBuild>
       <Flammability>1.0</Flammability>
