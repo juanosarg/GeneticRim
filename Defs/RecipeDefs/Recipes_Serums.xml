@@ -7,9 +7,9 @@
 	
 	<RecipeDef>
 		<defName>GR_ExtractSerumBear</defName>
-		<label>extract alpha serum from a bear</label>
-		<description>Extract alpha serum from a bear corpse.</description>
-		<jobString>Extracting alpha serum</jobString>
+		<label>extract paragon serum from a bear</label>
+		<description>Extract paragon serum from a bear corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
@@ -44,9 +44,9 @@
 	
 	<RecipeDef>
 		<defName>GR_ExtractSerumBoar</defName>
-		<label>extract alpha serum from a wild boar</label>
-		<description>Extract alpha serum from a boar corpse.</description>
-		<jobString>Extracting alpha serum</jobString>
+		<label>extract paragon serum from a wild boar</label>
+		<description>Extract paragon serum from a boar corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
@@ -81,9 +81,9 @@
   
 	<RecipeDef>
 		<defName>GR_ExtractSerumBoomalope</defName>
-		<label>extract alpha serum from a boomalope</label>
-		<description>Extract alpha serum from a boomalope corpse.</description>
-		<jobString>Extracting alpha serum</jobString>
+		<label>extract paragon serum from a boomalope</label>
+		<description>Extract paragon serum from a boomalope corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
@@ -118,9 +118,9 @@
 	
 	<RecipeDef>
 		<defName>GR_ExtractSerumChicken</defName>
-		<label>extract alpha serum from a chicken</label>
-		<description>Extract alpha serum from a chicken corpse.</description>
-		<jobString>Extracting alpha serum</jobString>
+		<label>extract paragon serum from a chicken</label>
+		<description>Extract paragon serum from a chicken corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
@@ -155,9 +155,9 @@
 
 	<RecipeDef>
 		<defName>GR_ExtractSerumEmu</defName>
-		<label>extract alpha serum from an emu</label>
-		<description>Extract alpha serum from an emu corpse.</description>
-		<jobString>Extracting alpha serum</jobString>
+		<label>extract paragon serum from an emu</label>
+		<description>Extract paragon serum from an emu corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
@@ -192,9 +192,9 @@
  
 	<RecipeDef>
 		<defName>GR_ExtractSerumMuffalo</defName>
-		<label>extract alpha serum from a muffalo</label>
-		<description>Extract alpha serum from a muffalo corpse.</description>
-		<jobString>Extracting alpha serum</jobString>
+		<label>extract paragon serum from a muffalo</label>
+		<description>Extract paragon serum from a muffalo corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
@@ -229,9 +229,9 @@
 	
 	<RecipeDef>
 		<defName>GR_ExtractSerumOstrich</defName>
-		<label>extract alpha serum from an ostrich</label>
-		<description>Extract alpha serum from an ostrich corpse.</description>
-		<jobString>Extracting alpha serum</jobString>
+		<label>extract paragon serum from an ostrich</label>
+		<description>Extract paragon serum from an ostrich corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
@@ -266,9 +266,9 @@
 	
 	<RecipeDef>
 		<defName>GR_ExtractSerumRhino</defName>
-		<label>extract alpha serum from a rhino</label>
-		<description>Extract alpha serum from a rhino corpse.</description>
-		<jobString>Extracting alpha serum</jobString>
+		<label>extract paragon serum from a rhino</label>
+		<description>Extract paragon serum from a rhino corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
@@ -303,9 +303,9 @@
 
 	<RecipeDef>
 		<defName>GR_ExtractSerumWolf</defName>
-		<label>extract alpha serum from a wolf</label>
-		<description>Extract alpha serum from a wolf corpse.</description>
-		<jobString>Extracting alpha serum</jobString>
+		<label>extract paragon serum from a wolf</label>
+		<description>Extract paragon serum from a wolf corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
@@ -340,9 +340,9 @@
 	
 	<RecipeDef>
 		<defName>GR_ExtractSerumHare</defName>
-		<label>extract alpha serum from a hare</label>
-		<description>Extract alpha serum from a hare corpse.</description>
-		<jobString>Extracting alpha serum</jobString>
+		<label>extract paragon serum from a hare</label>
+		<description>Extract paragon serum from a hare corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
@@ -377,9 +377,9 @@
 	
 	<RecipeDef>
 		<defName>GR_ExtractSerumIguana</defName>
-		<label>extract alpha serum from an iguana</label>
-		<description>Extract alpha serum from an iguana corpse.</description>
-		<jobString>Extracting alpha serum</jobString>
+		<label>extract paragon serum from an iguana</label>
+		<description>Extract paragon serum from an iguana corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
@@ -414,9 +414,9 @@
 
 	<RecipeDef>
 		<defName>GR_ExtractSerumPig</defName>
-		<label>extract alpha serum from a pig</label>
-		<description>Extract alpha serum from a pig corpse.</description>
-		<jobString>Extracting alpha serum</jobString>
+		<label>extract paragon serum from a pig</label>
+		<description>Extract paragon serum from a pig corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
@@ -451,9 +451,9 @@
 	
 	<RecipeDef>
 		<defName>GR_ExtractSerumRat</defName>
-		<label>extract alpha serum from a rat</label>
-		<description>Extract alpha serum from a rat corpse.</description>
-		<jobString>Extracting alpha serum</jobString>
+		<label>extract paragon serum from a rat</label>
+		<description>Extract paragon serum from a rat corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
@@ -488,9 +488,9 @@
 	
 	<RecipeDef>
 		<defName>GR_ExtractSerumTortoise</defName>
-		<label>extract alpha serum from a tortoise</label>
-		<description>Extract alpha serum from a tortoise corpse.</description>
-		<jobString>Extracting alpha serum</jobString>
+		<label>extract paragon serum from a tortoise</label>
+		<description>Extract paragon serum from a tortoise corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>

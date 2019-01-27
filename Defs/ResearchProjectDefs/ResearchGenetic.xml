@@ -103,7 +103,7 @@
     <label>animal enrichment</label>
     <tab>GR_GeneticReseach</tab>
     <techLevel>Industrial</techLevel>
-    <description>Research ways to improve existing animals and create better adapted versions of them, known as Alphas. Unlocks the Alpha Serum Extraction Table, used to extract Alpha Serum from normal animals, as well as the Animal Enrichment Center, used to fill incubators with these serums.</description>
+    <description>Research ways to improve existing animals and create better adapted versions of them, known as Paragons. Unlocks the Paragon Serum Extraction Table, used to extract Paragon Serum from normal animals, as well as the Animal Enrichment Center, used to fill incubators with these serums.</description>
     <baseCost>1500</baseCost>
     <prerequisites>
       <li>Electricity</li>

@@ -55,7 +55,7 @@
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
-          <li>ToolCabinet</li>
+          <li>GR_NutrientVat</li>
         </linkableFacilities>
       </li>
       <li Class="CompProperties_Breakdownable"/>
@@ -78,12 +78,11 @@
     <description>Genetic material samples are combined and grown in this laboratory.</description>
     <graphicData>
       <texPath>Things/Building/GR_GenePod</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,3)</drawSize>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,3.5)</drawSize>
      
     </graphicData>
-		<rotatable>false</rotatable>
-
+		
     <castEdgeShadows>false</castEdgeShadows>
     <costList>
       <Steel>200</Steel>
@@ -120,7 +119,7 @@
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
-          <li>ToolCabinet</li>
+          <li>GR_NutrientVat</li>
         </linkableFacilities>
       </li>
     </comps>
@@ -141,13 +140,12 @@
     <thingClass>Building_WorkTable</thingClass>
     <description>Genetic material samples are combined and grown in this laboratory. The vats of growth compound accelerate some of the most difficult experiments.</description>
     <graphicData>
-      <texPath>Things/Building/GR_NewGenePodFull</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,3)</drawSize>
+      <texPath>Things/Building/GR_AdvancedGenePod</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,3.5)</drawSize>
      
     </graphicData>
-			<rotatable>false</rotatable>
-
+			
     <castEdgeShadows>false</castEdgeShadows>
     <costList>
       <Steel>300</Steel>
@@ -183,7 +181,7 @@
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
-          <li>ToolCabinet</li>
+          <li>GR_NutrientVat</li>
         </linkableFacilities>
       </li>
     </comps>
@@ -242,7 +240,7 @@
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
-          <li>ToolCabinet</li>
+          <li>GR_NutrientVat</li>
         </linkableFacilities>
       </li>
     </comps>
@@ -299,7 +297,7 @@
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
-          <li>ToolCabinet</li>
+          <li>GR_NutrientVat</li>
         </linkableFacilities>
       </li>
     </comps>
@@ -320,12 +318,11 @@
     <description>Mixes genes from different species, and produces genes from other species at random. Or not. Also, be careful, you don't want to mix frogs with other things. Life finds a way.</description>
     <graphicData>
       <texPath>Things/Building/GR_GeneRecombinator</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,3)</drawSize>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,3.5)</drawSize>
      
     </graphicData>
-			<rotatable>false</rotatable>
-
+		
     <castEdgeShadows>false</castEdgeShadows>
     <costList>
 	
@@ -364,7 +361,7 @@
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
-          <li>ToolCabinet</li>
+          <li>GR_NutrientVat</li>
         </linkableFacilities>
       </li>
     </comps>
@@ -386,11 +383,11 @@
     <description>Accelerates growth of organic structures, allowing accelerated development of genetically manipulated hybrid implants.</description>
     <graphicData>
       <texPath>Things/Building/GR_TissueGrowingVat</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,3)</drawSize>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,3.5)</drawSize>
      
     </graphicData>
-	<rotatable>false</rotatable>
+	
     <castEdgeShadows>false</castEdgeShadows>
     <costList>
       <Steel>150</Steel>
@@ -429,7 +426,7 @@
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
-          <li>ToolCabinet</li>
+          <li>GR_NutrientVat</li>
         </linkableFacilities>
       </li>
     </comps>
@@ -440,10 +437,10 @@
   
   <ThingDef ParentName="BenchBase">
     <defName>GR_AlphaSerumExtractionTable</defName>
-    <label>alpha serum extraction table</label>
+    <label>paragon serum extraction table</label>
 	
     <thingClass>Building_WorkTable</thingClass>
-    <description>This worktable allows you to refine animal genes and extract a concentrated essence called alpha serum, which can be used to raise more evolved versions of your animals in the animal enrichment center.</description>
+    <description>This worktable allows you to refine animal genes and extract a concentrated essence called paragon serum, which can be used to raise more evolved versions of your animals in the animal enrichment center.</description>
     <graphicData>
       <texPath>Things/Building/GR_AlphaSerumTable</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -490,7 +487,7 @@
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
-          <li>ToolCabinet</li>
+          <li>GR_NutrientVat</li>
         </linkableFacilities>
       </li>
       <li Class="CompProperties_Breakdownable"/>
@@ -511,11 +508,11 @@
       <li>BuildingsProduction</li>
     </thingCategories>
     <thingClass>Building_WorkTable</thingClass>
-    <description>This machine can fill an incubator with specific alpha serum and an organic base compound to create advanced versions of your base creatures.</description>
+    <description>This machine can fill an incubator with specific paragon serum and an organic base compound to create advanced versions of your base creatures.</description>
     <graphicData>
       <texPath>Things/Building/GR_AnimalEnrichmentCenter</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,3)</drawSize>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,3.5)</drawSize>
      
     </graphicData>
     <castEdgeShadows>false</castEdgeShadows>
@@ -525,8 +522,7 @@
 	 
 
     </costList>
-			<rotatable>false</rotatable>
-
+			
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
@@ -559,7 +555,7 @@
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
-          <li>ToolCabinet</li>
+          <li>GR_NutrientVat</li>
         </linkableFacilities>
       </li>
     </comps>

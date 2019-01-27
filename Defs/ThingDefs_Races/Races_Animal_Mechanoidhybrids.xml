@@ -128,6 +128,10 @@
 						<volume>(0.6, 0.8, 0.6)</volume>
 					</shadowData>
 				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Mechabear/GR_Dessicated_Mechanoid_Bear</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
@@ -267,6 +271,10 @@
 						<volume>(0.6, 0.8, 0.6)</volume>
 					</shadowData>
 				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Mechalope/GR_Dessicated_Mechanoid_Boomalope</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
@@ -407,6 +415,10 @@
 						<volume>(0.6, 0.8, 0.6)</volume>
 					</shadowData>
 				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Mechachicken/GR_Dessicated_Mechanoid_Chicken</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
@@ -538,6 +550,10 @@
 						<volume>(0.6, 0.8, 0.6)</volume>
 					</shadowData>
 				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Mechaspider/GR_Dessicated_Mechanoid_Megaspider</texPath>
+					<drawSize>4</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
@@ -683,6 +699,10 @@
 						<volume>(0.6, 0.8, 0.6)</volume>
 					</shadowData>
 				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Mechamuffalo/GR_Dessicated_Mechanoid_Muffalo</texPath>
+					<drawSize>4</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
@@ -814,6 +834,10 @@
 						<volume>(0.6, 0.8, 0.6)</volume>
 					</shadowData>
 				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Mecharat/GR_Dessicated_Mechanoid_Rat</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
@@ -945,6 +969,10 @@
 						<volume>(0.6, 0.8, 0.6)</volume>
 					</shadowData>
 				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Mechaturtle/GR_Dessicated_Mechanoid_Turtle</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
@@ -1076,6 +1104,10 @@
 						<volume>(0.6, 0.8, 0.6)</volume>
 					</shadowData>
 				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Mechawolf/GR_Dessicated_Mechanoid_Wolf</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
@@ -1209,6 +1241,10 @@
 						<volume>(0.6, 0.8, 0.6)</volume>
 					</shadowData>
 				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Mechathrumbo/GR_Dessicated_Mechanoid_Thrumbo</texPath>
+					<drawSize>5</drawSize>
+				</dessicatedBodyGraphicData>
 				<butcherBodyPart>
 					<bodyPartGroup>HornAttackTool</bodyPartGroup>
 					<thing>ThrumboHorn</thing>

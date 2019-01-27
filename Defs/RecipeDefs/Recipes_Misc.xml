@@ -43,7 +43,7 @@
 	<RecipeDef>
 		<defName>GR_CraftBoarTuskSculpture</defName>
 		<label>craft a boar tusk statuette</label>
-		<description>Alpha boar tusks can be carefully carved and crafted into a small statuette. Cozy!</description>
+		<description>Paragon boar tusks can be carefully carved and crafted into a small statuette. Cozy!</description>
 		<jobString>Crafting boar tusk statuette</jobString>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<workSkill>Artistic</workSkill>

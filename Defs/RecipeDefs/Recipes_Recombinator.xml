@@ -62,7 +62,7 @@
 	<RecipeDef>
 		<defName>GR_RecombineSerums</defName>
 		<label>recombine serums</label>
-		<description>Recombine genetic material from 5 animal serums to synthesize a random alpha serum.</description>
+		<description>Recombine genetic material from 5 animal serums to synthesize a random paragon serum.</description>
 		<jobString>Recombining Serums</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>

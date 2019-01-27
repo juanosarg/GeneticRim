@@ -5,8 +5,8 @@
   <!-- AlphaChicken Egg -->
   <ThingDef ParentName="EggUnfertBase">
     <defName>GR_AlphaChickenEggUnfertilized</defName>
-    <label>alpha chicken egg (unfert.)</label>
-    <description>Unfertilized alpha chicken egg. It can be eaten raw, but it's much, much better cooked. These eggs are pure, pristine, perfect examples of chicken eggs. Inmaculate eggness.</description>
+    <label>paragon chicken egg (unfert.)</label>
+    <description>Unfertilized paragon chicken egg. It can be eaten raw, but it's much, much better cooked. These eggs are pure, pristine, perfect examples of chicken eggs. Inmaculate eggness.</description>
    <tradeability>Sellable</tradeability>
     <statBases>
       <MarketValue>9.0</MarketValue>
@@ -18,8 +18,8 @@
 
   <ThingDef ParentName="EggFertBase">
     <defName>GR_AlphaChickenEggFertilized</defName>
-    <label>alpha chicken egg (fert.)</label>
-    <description>Fertilized alpha chicken egg. It can be eaten raw, but it's much, much better cooked. These eggs are pure, pristine, perfect examples of chicken eggs. Inmaculate eggness. If all goes well, it should hatch into an alpha chicken.</description>
+    <label>paragon chicken egg (fert.)</label>
+    <description>Fertilized paragon chicken egg. It can be eaten raw, but it's much, much better cooked. These eggs are pure, pristine, perfect examples of chicken eggs. Inmaculate eggness. If all goes well, it should hatch into a paragon chicken.</description>
 <tradeability>None</tradeability>
     <statBases>
       <MarketValue>9.0</MarketValue>
@@ -38,8 +38,8 @@
     <!-- AlphaEmu Egg -->
   <ThingDef ParentName="EggUnfertBase">
     <defName>GR_AlphaEmuEggUnfertilized</defName>
-    <label>alpha emu egg (unfert.)</label>
-    <description>Unfertilized alpha emu egg. It can be eaten raw, but it's much, much better cooked. This thing is huge.</description>
+    <label>paragon emu egg (unfert.)</label>
+    <description>Unfertilized paragon emu egg. It can be eaten raw, but it's much, much better cooked. This thing is huge.</description>
 	<tradeability>Sellable</tradeability>
     <graphicData>
 	  <texPath>Things/Item/EggLarge</texPath>
@@ -55,8 +55,8 @@
 
   <ThingDef ParentName="EggFertBase">
     <defName>GR_AlphaEmuEggFertilized</defName>
-    <label>alpha emu egg (fert.)</label>
-    <description>Fertilized alpha emu egg. It can be eaten raw, but it's much, much better cooked. This thing is huge. If all goes well, it should hatch into an alpha emu.</description>
+    <label>paragon emu egg (fert.)</label>
+    <description>Fertilized paragon emu egg. It can be eaten raw, but it's much, much better cooked. This thing is huge. If all goes well, it should hatch into a paragon emu.</description>
 	<tradeability>None</tradeability>
     <graphicData>
 	  <texPath>Things/Item/EggLarge</texPath>
@@ -79,8 +79,8 @@
       <!-- AlphaOstrich Egg -->
   <ThingDef ParentName="EggUnfertBase">
     <defName>GR_AlphaOstrichEggUnfertilized</defName>
-    <label>alpha ostrich egg (unfert.)</label>
-    <description>Unfertilized alpha ostrich egg. It can be eaten raw, but it's much, much better cooked. This thing is huge.</description>
+    <label>paragon ostrich egg (unfert.)</label>
+    <description>Unfertilized paragon ostrich egg. It can be eaten raw, but it's much, much better cooked. This thing is huge.</description>
 	<tradeability>Sellable</tradeability>
     <graphicData>
 	  <texPath>Things/Item/EggHuge</texPath>
@@ -97,8 +97,8 @@
 
   <ThingDef ParentName="EggFertBase">
     <defName>GR_AlphaOstrichEggFertilized</defName>
-    <label>alpha ostrich egg (fert.)</label>
-    <description>Fertilized alpha ostrich egg. It can be eaten raw, but it's much, much better cooked. This thing is huge. If all goes well, it should hatch into an alpha ostrich.</description>
+    <label>paragon ostrich egg (fert.)</label>
+    <description>Fertilized paragon ostrich egg. It can be eaten raw, but it's much, much better cooked. This thing is huge. If all goes well, it should hatch into a paragon ostrich.</description>
 	<tradeability>None</tradeability>
     <graphicData>
 	  <texPath>Things/Item/EggHuge</texPath>
@@ -122,8 +122,8 @@
       <!-- AlphaIguana Egg -->
   <ThingDef ParentName="EggUnfertBase">
     <defName>GR_AlphaIguanaEggUnfertilized</defName>
-    <label>alpha iguana egg (unfert.)</label>
-    <description>Unfertilized alpha iguana egg. It can be eaten raw, but it's much, much better cooked.</description>
+    <label>paragon iguana egg (unfert.)</label>
+    <description>Unfertilized paragon iguana egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
       <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
       <color>(245,245,245)</color>
@@ -141,8 +141,8 @@
 
   <ThingDef ParentName="EggFertBase">
     <defName>GR_AlphaIguanaEggFertilized</defName>
-    <label>alpha iguana egg (fert.)</label>
-    <description>Fertilized alpha iguana egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into an alpha iguana.</description>
+    <label>paragon iguana egg (fert.)</label>
+    <description>Fertilized paragon iguana egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a paragon iguana.</description>
     <graphicData>
       <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
       <color>(245,245,245)</color>
@@ -166,8 +166,8 @@
         <!-- AlphaTortoise Egg -->
   <ThingDef ParentName="EggUnfertBase">
     <defName>GR_AlphaTortoiseEggUnfertilized</defName>
-    <label>alpha tortoise egg (unfert.)</label>
-    <description>Unfertilized alpha tortoise egg. It can be eaten raw, but it's much, much better cooked.</description>
+    <label>paragon tortoise egg (unfert.)</label>
+    <description>Unfertilized paragon tortoise egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
       <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
       <drawSize>1.3</drawSize>
@@ -184,8 +184,8 @@
 
   <ThingDef ParentName="EggFertBase">
     <defName>GR_AlphaTortoiseEggFertilized</defName>
-    <label>alpha tortoise egg (fert.)</label>
-    <description>Fertilized alpha tortoise egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into an alpha tortoise.</description>
+    <label>paragon tortoise egg (fert.)</label>
+    <description>Fertilized paragon tortoise egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a paragon tortoise.</description>
     <graphicData>
       <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
       <drawSize>1.3</drawSize>

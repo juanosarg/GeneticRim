@@ -152,7 +152,7 @@
     </graphicData>
     
   </ThingDef>
-   <!--=============== Alpha Serums ====================-->
+   <!--=============== Paragon Serums ====================-->
 
   <ThingDef Name="GR_SerumsBase" ParentName="ResourceBase" Abstract="True">
     
@@ -187,8 +187,8 @@
 
   <ThingDef ParentName="GR_SerumsBase">
     <defName>GR_BearSerum</defName>
-    <label>bear alpha serum</label>
-    <description>A vial of alpha genes extracted from a bear's corpse.</description>
+    <label>bear paragon serum</label>
+    <description>A vial of paragon genes extracted from a bear's corpse.</description>
 	<graphicData>
       <color>(158,100,0)</color>
     </graphicData>   
@@ -196,8 +196,8 @@
   
   <ThingDef ParentName="GR_SerumsBase">
     <defName>GR_BoarSerum</defName>
-    <label>boar alpha serum</label>
-	<description>A vial of alpha genes extracted from a wild boar's corpse.</description>    
+    <label>boar paragon serum</label>
+	<description>A vial of paragon genes extracted from a wild boar's corpse.</description>    
 	<graphicData>
       <color>(112,103,90)</color>
     </graphicData>   
@@ -205,8 +205,8 @@
   
   <ThingDef ParentName="GR_SerumsBase">
     <defName>GR_BoomalopeSerum</defName>
-    <label>boomalope alpha serum</label>
-	<description>A vial of alpha genes extracted from a wild boomalope's corpse.</description>    
+    <label>boomalope paragon serum</label>
+	<description>A vial of paragon genes extracted from a wild boomalope's corpse.</description>    
 	<graphicData>
       <color>(165,139,112)</color>
     </graphicData>   
@@ -214,8 +214,8 @@
   
   <ThingDef ParentName="GR_SerumsBase">
     <defName>GR_ChickenSerum</defName>
-    <label>chicken alpha serum</label>
-	<description>A vial of alpha genes extracted from a chicken's corpse.</description>    
+    <label>chicken paragon serum</label>
+	<description>A vial of paragon genes extracted from a chicken's corpse.</description>    
 	<graphicData>
       <color>(247,247,247)</color>
     </graphicData>   
@@ -223,8 +223,8 @@
   
   <ThingDef ParentName="GR_SerumsBase">
     <defName>GR_EmuSerum</defName>
-    <label>emu alpha serum</label>
-	<description>A vial of alpha genes extracted from an emu's corpse.</description>    
+    <label>emu paragon serum</label>
+	<description>A vial of paragon genes extracted from an emu's corpse.</description>    
 	<graphicData>
       <color>(123,109,99)</color>
     </graphicData>   
@@ -232,8 +232,8 @@
 
   <ThingDef ParentName="GR_SerumsBase">
     <defName>GR_MuffaloSerum</defName>
-    <label>muffalo alpha serum</label>
-	<description>A vial of alpha genes extracted from a muffalo's corpse.</description>    
+    <label>muffalo paragon serum</label>
+	<description>A vial of paragon genes extracted from a muffalo's corpse.</description>    
 	<graphicData>
       <color>(175,195,200)</color>
     </graphicData>   
@@ -241,8 +241,8 @@
 
   <ThingDef ParentName="GR_SerumsBase">
     <defName>GR_OstrichSerum</defName>
-    <label>ostrich alpha serum</label>
-	<description>A vial of alpha genes extracted from an ostrich's corpse.</description>    
+    <label>ostrich paragon serum</label>
+	<description>A vial of paragon genes extracted from an ostrich's corpse.</description>    
 	<graphicData>
       <color>(234,174,164)</color>
     </graphicData>   
@@ -250,8 +250,8 @@
 
   <ThingDef ParentName="GR_SerumsBase">
     <defName>GR_RhinoSerum</defName>
-    <label>rhino alpha serum</label>
-	<description>A vial of alpha genes extracted from a rhino's corpse.</description>    
+    <label>rhino paragon serum</label>
+	<description>A vial of paragon genes extracted from a rhino's corpse.</description>    
 	<graphicData>
       <color>(148,148,148)</color>
     </graphicData>   
@@ -259,8 +259,8 @@
 
   <ThingDef ParentName="GR_SerumsBase">
     <defName>GR_WolfSerum</defName>
-    <label>wolf alpha serum</label>
-	<description>A vial of alpha genes extracted from a wolf's corpse.</description>    
+    <label>wolf paragon serum</label>
+	<description>A vial of paragon genes extracted from a wolf's corpse.</description>    
 	<graphicData>
       <color>(106,106,106)</color>
     </graphicData>   
@@ -268,8 +268,8 @@
 
   <ThingDef ParentName="GR_SerumsBase">
     <defName>GR_HareSerum</defName>
-    <label>hare alpha serum</label>
-	<description>A vial of alpha genes extracted from a hare's corpse.</description>    
+    <label>hare paragon serum</label>
+	<description>A vial of paragon genes extracted from a hare's corpse.</description>    
 	<graphicData>
       <color>(115,115,115)</color>
     </graphicData>   
@@ -277,8 +277,8 @@
   
   <ThingDef ParentName="GR_SerumsBase">
     <defName>GR_IguanaSerum</defName>
-    <label>iguana alpha serum</label>
-	<description>A vial of alpha genes extracted from an iguana's corpse.</description>    
+    <label>iguana paragon serum</label>
+	<description>A vial of paragon genes extracted from an iguana's corpse.</description>    
 	<graphicData>
       <color>(109,124,63)</color>
     </graphicData>   
@@ -286,8 +286,8 @@
   
   <ThingDef ParentName="GR_SerumsBase">
     <defName>GR_PigSerum</defName>
-    <label>pig alpha serum</label>
-	<description>A vial of alpha genes extracted from a pig's corpse.</description>    
+    <label>pig paragon serum</label>
+	<description>A vial of paragon genes extracted from a pig's corpse.</description>    
 	<graphicData>
       <color>(250,202,202)</color>
     </graphicData>   
@@ -295,8 +295,8 @@
   
   <ThingDef ParentName="GR_SerumsBase">
     <defName>GR_RatSerum</defName>
-    <label>rat alpha serum</label>
-	<description>A vial of alpha genes extracted from a rat's corpse.</description>    
+    <label>rat paragon serum</label>
+	<description>A vial of paragon genes extracted from a rat's corpse.</description>    
 	<graphicData>
       <color>(114,95,80)</color>
     </graphicData>   
@@ -304,8 +304,8 @@
   
   <ThingDef ParentName="GR_SerumsBase">
     <defName>GR_TortoiseSerum</defName>
-    <label>tortoise alpha serum</label>
-	<description>A vial of alpha genes extracted from a tortoise's corpse.</description>    
+    <label>tortoise paragon serum</label>
+	<description>A vial of paragon genes extracted from a tortoise's corpse.</description>    
 	<graphicData>
       <color>(109,90,54)</color>
     </graphicData>   
@@ -316,7 +316,7 @@
 <ThingDef ParentName="ResourceBase">
     <defName>GR_OrganicPulp</defName>
     <label>organic pulp</label>
-    <description>This organic pulp can be used as an organic growth compound to accelerate some of the genetic processes. Needed to upgrade the Gene Pod.</description>
+    <description>This organic pulp can be used as an organic growth compound to accelerate some of the genetic processes. Needed to upgrade the Gene Pod and to build many of Genetic Rim's buildings.</description>
     <graphicData>
       <texPath>Things/Item/OrganicPulp</texPath>
       <graphicClass>Graphic_Single</graphicClass>

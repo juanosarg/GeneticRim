@@ -127,7 +127,7 @@
 	
 	<ThingDef ParentName="ResourceBase">
 		<defName>GR_AlphaBoarTusks</defName>
-		<label>alpha boar tusks</label>
+		<label>paragon boar tusks</label>
 		<description>These boar tusks are hard and could probably be carved into a sculpture by someone artistically inclined in a stonecutter's table.</description>
 		<graphicData>
 			<texPath>Things/Item/AlphaBoarTusks</texPath>

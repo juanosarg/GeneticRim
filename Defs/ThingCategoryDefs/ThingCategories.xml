@@ -18,7 +18,7 @@
     </ThingCategoryDef>
 	<ThingCategoryDef>
       <defName>GR_AlphaSerums</defName>
-      <label>alpha serums</label>
+      <label>paragon serums</label>
       <parent>GR_GeneticMaterial</parent>
 	  <iconPath>Things/Item/AlphaSerum</iconPath>
       
@@ -26,7 +26,7 @@
 	
 	    <ThingCategoryDef>
     <defName>GR_Corpses</defName>
-    <label>hybrid and alpha corpses</label>
+    <label>hybrid and paragon corpses</label>
       <parent>Corpses</parent>
     </ThingCategoryDef>
 

@@ -11,8 +11,8 @@
 
 <ThingDef ParentName="GR_IncubatorsBaseAlpha">
     <defName>GR_AlphaBearIncubator</defName>
-    <label>alpha bear incubator</label>
-    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha grizzly bear</description>
+    <label>paragon bear incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a paragon grizzly bear</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
@@ -23,8 +23,8 @@
 
 <ThingDef ParentName="GR_IncubatorsBaseAlpha">
     <defName>GR_AlphaBoarIncubator</defName>
-    <label>alpha wild boar incubator</label>
-    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha wild boar</description>
+    <label>paragon wild boar incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a paragon wild boar</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
@@ -35,8 +35,8 @@
 
 <ThingDef ParentName="GR_IncubatorsBaseAlpha">
     <defName>GR_AlphaBoomalopeIncubator</defName>
-    <label>alpha boomalope incubator</label>
-    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha boomalope</description>
+    <label>paragon boomalope incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a paragon boomalope</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
@@ -47,8 +47,8 @@
 
 <ThingDef ParentName="GR_IncubatorsBaseAlpha">
     <defName>GR_AlphaChickenIncubator</defName>
-    <label>alpha chicken incubator</label>
-    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha chicken</description>
+    <label>paragon chicken incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a paragon chicken</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
@@ -59,8 +59,8 @@
 
 <ThingDef ParentName="GR_IncubatorsBaseAlpha">
     <defName>GR_AlphaEmuIncubator</defName>
-    <label>alpha emu incubator</label>
-    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha emu</description>
+    <label>paragon emu incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a paragon emu</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
@@ -71,8 +71,8 @@
 
 <ThingDef ParentName="GR_IncubatorsBaseAlpha">
     <defName>GR_AlphaMuffaloIncubator</defName>
-    <label>alpha muffalo incubator</label>
-    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha muffalo</description>
+    <label>paragon muffalo incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a paragon muffalo</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
@@ -83,8 +83,8 @@
 
 <ThingDef ParentName="GR_IncubatorsBaseAlpha">
     <defName>GR_AlphaOstrichIncubator</defName>
-    <label>alpha ostrich incubator</label>
-    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha ostrich</description>
+    <label>paragon ostrich incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a paragon ostrich</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
@@ -95,8 +95,8 @@
 
 <ThingDef ParentName="GR_IncubatorsBaseAlpha">
     <defName>GR_AlphaRhinoIncubator</defName>
-    <label>alpha rhino incubator</label>
-    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha rhino</description>
+    <label>paragon rhino incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a paragon rhino</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
@@ -107,8 +107,8 @@
 
 <ThingDef ParentName="GR_IncubatorsBaseAlpha">
     <defName>GR_AlphaWolfIncubator</defName>
-    <label>alpha wolf incubator</label>
-    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha timber wolf</description>
+    <label>paragon wolf incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a paragon timber wolf</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
@@ -119,8 +119,8 @@
 
 <ThingDef ParentName="GR_IncubatorsBaseAlpha">
     <defName>GR_AlphaHareIncubator</defName>
-    <label>alpha hare incubator</label>
-    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha hare</description>
+    <label>paragon hare incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a paragon hare</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
@@ -131,8 +131,8 @@
 
 <ThingDef ParentName="GR_IncubatorsBaseAlpha">
     <defName>GR_AlphaIguanaIncubator</defName>
-    <label>alpha iguana incubator</label>
-    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha iguana</description>
+    <label>paragon iguana incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a paragon iguana</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
@@ -143,8 +143,8 @@
 
 <ThingDef ParentName="GR_IncubatorsBaseAlpha">
     <defName>GR_AlphaPigIncubator</defName>
-    <label>alpha pig incubator</label>
-    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha pig</description>
+    <label>paragon pig incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a paragon pig</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
@@ -155,8 +155,8 @@
 
 <ThingDef ParentName="GR_IncubatorsBaseAlpha">
     <defName>GR_AlphaRatIncubator</defName>
-    <label>alpha rat incubator</label>
-    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha rat</description>
+    <label>paragon rat incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a paragon rat</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
@@ -167,8 +167,8 @@
 
 <ThingDef ParentName="GR_IncubatorsBaseAlpha">
     <defName>GR_AlphaTortoiseIncubator</defName>
-    <label>alpha tortoise incubator</label>
-    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into an alpha tortoise</description>
+    <label>paragon tortoise incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a paragon tortoise</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>

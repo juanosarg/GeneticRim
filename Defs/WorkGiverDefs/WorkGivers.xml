@@ -125,7 +125,7 @@
 	
 	<WorkGiverDef>
 		<defName>GR_DoBillsSerumTable</defName>
-		<label>works at alpha serum extraction table</label>
+		<label>works at paragon serum extraction table</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
 		<workType>Crafting</workType>
 		<priorityInType>100</priorityInType>
