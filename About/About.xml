@@ -6,11 +6,11 @@
 
 &lt;size=24&gt;Features&lt;/size&gt;
 
-- Hybridization: Extract genes from Bears, Chickens, Boomalopes, Muffalos, Wolves, Rodents, Reptiles, Insectoids and Thrumbos, and create hybrids of these species. Some combinations can go both ways, so for example a bearalope is different from a boombear, and you will get one at random. A total of 58 new creatures for you to play with. Some very useful, others... less so.
+- Hybridization: Extract genes from Bears, Chickens, Boomalopes, Muffalos, Wolves, Rodents, Reptiles, Insectoids, Mechanoids and Thrumbos, and create hybrids of these species. Some combinations can go both ways, so for example a bearalope is different from a boombear, and you will get one at random. A total of 58 new creatures for you to play with. Some very useful, others... less so.
 
 - Hybrid implants: The Growth Vat can be used to create either animal or human implants. Using different animal genes, you can create implants such as Thrumbo Legs, or Chitinous Hearts, and turn your scientific aberrations into even more bizarre creatures. By using humanoid genes, you can mix them with animal genes and create several hybrid implants to improve your colonists.
 
-- Alpha Creatures: With the Animal Enrichment research, you can turn regular animals into Alphas, more evolved versions of the base creature. A total of 9 new creatures for you to play with.
+- Paragon Creatures: With the Animal Enrichment research, you can turn regular animals into Paragons, more evolved versions of the base creature. A total of 14 new creatures for you to play with.
 
 - Animal Control: With the Animal Control research, you can directly control your animals. Draft them and move them at will! It also gives special abilities depending on the creature, so wolf hybrids can use Adrenaline Rush, thrumbo hybrids can stampede, and so on. 10 new abilities, and any combinations of them, open up fascinating new tactical possibilities.
 
@@ -28,8 +28,8 @@ How do I progress? Here is a mini-guide:
 - Results are sometimes random! If you mix Bear and Chicken, you might get a Bearchicken or a Chickenbear. Or the experiment can also go wrong...
 - Finally, research the Insectoid Genome, Reptilian Genome and the Advanced genetic engineering techs, build the Advanced Gene Pod and experiment with Insectoids, Reptiles and Thrumbos to get the strongest creatures in the game. The advanced mechanite bio-integration is end-game, and unlocks mechanoid experimentation.
 - On a different path, you can research humanoid genetic engineering, and develop hybrid implants to modify your colonists. Yeah, you can create a colonist that lays chicken eggs twice a day. It's hilarious and disgusting.
-- On yet another different path, you can research animal enrichment, which allow you to create Alpha animals with the alpha serum extraction table and the animal enrichment center.
-- Researching animal control gives you access to fascinating new abilities in all your hybrids and alphas. Just build the Animal Control Hub.
+- On yet another different path, you can research animal enrichment, which allow you to create Paragon animals with the Paragon serum extraction table and the animal enrichment center.
+- Researching animal control gives you access to fascinating new abilities in all your hybrids and paragons. Just build the Animal Control Hub.
 - Finally, the age drugs tech allows you to mature your animals much faster!
 
 &lt;size=24&gt;Plans for the future&lt;/size&gt;
@@ -38,14 +38,19 @@ How do I progress? Here is a mini-guide:
 
 &lt;size=24&gt;Compatibility&lt;/size&gt;
 Compatible with Animal Collab Project, Alpha Animals, Mechanoids Extraordinaire, More Mechanoids and Polarisbloc - Mechenemy for gene extraction
-Compatible with A Dog Said for implants on hybrids and alphas
+Compatible with A Dog Said for implants on hybrids and paragons
+Compatible with Rim of Madness - Bones for extraction of organic pulp from bones
+Aesthetically compatible with the High Tech Laboratory Facilities mod
 Uses Nightinggale's Modcheck mod (no need to download)
 Uses Harmony (no need to download)
 
 &lt;size=24&gt;Credit&lt;/size&gt;
 Some sounds by Mike Koenig, SoundBible.com 
+Some building textures modified from Textures by Pixel Art World, http://yms.main.jp
+Some building textures modified from Textures in the High Tech Laboratory Facilities mod
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v4.1: New building graphics. New options screen for legless creatures. Alphas renamed to Paragons (28/1/19)
 v4.05: Quick fix to mechanoid hybrids to make them properly produce milk and wool (16/12/18)
 v4.04: Added several functions for the upcoming Megafauna patch (14/12/18)
 v4.03: Disabled exotic wools on vendors, added gene extraction capabilities for several mods (15/11/18)
@@ -56,21 +61,7 @@ v3.101: Added special ability for eldritch hybrids using the Animal Control rese
 v3.1: LOTS of hybrid implants to modify your creatures added! You can now create implants that only work on hybrids and alphas, giving you a wide selection to improve your creatures. Also, there is no longer a need to have third party mods (30/08/18)
 v3.04: B19 Version (29/08/18)
 v3.0: Initial stages of updating to RimWorld B19 Version (18/06/18)
-v2.405: Bugfixes. Changelog can be seen on GitHub (03/03/18)
-v2.404: Adds compatibility with Dinosauria Patch. Incubators now send a message when they hatch. Animal control now has a mote effect and messages to adequately convey when the abilities are recharging. Recombinating serums now take 5 random serums instead of 10 random corpses (04/01/18)
-v2.4: Animal Control research: 9 new abilities for your animals. Also, you can now build empty incubators in the alpha serum extraction table. Also fixed the graphic in the Snakewolf. Finally, removed many mod things from traders (06/12/17)
-v2.301: Bugfix to make venomous animals work again. Also, incubators can now be recycled in the Pulp Recycler (29/11/17)
-v2.2: Added native compatibility with A Dog Said and Animal Collab Project. No need for patches now! (23/11/17)
-v2.1: Added rodent hybrids. 6 new creatures that breed very fast! (20/11/17)
 v2.0: Updated for Beta 18. Added possible compatibility with other mods by adding prefixes to defnames (18/11/17)
-v1.601: Modified Age Pills to be slower to craft, made Thrumbochickens pack beasts, and fixed a typo(28/9/17)
-v1.6: Added more Alpha Animals (hare, iguana, pig, rat and tortoise) and their animal products. (26/9/17)
-v1.48: Added Alpha Animals (first batch of 9, more to come). Added age drugs. Added recycler. Made taming unnecessary for all incubators. (15/9/17)
-v1.35: Added A LOT of animal byproducts, and general balancing changes. Most hybrids should be useful in some way now (6/9/17)
-v1.3: Added reptile hybrids and squashed many many bugs (25/8/17)
-v1.2: Added hybrid humanoid / animal implants (21/8/17)
-v1.1: Added the whole Insectoid hybrid family, with new tech. Added skill requirements and electricity requirements (20/8/17)
-v1.01: Compatibility with A Dog Said (18/8/17)
 v1.0: Release (17/8/17)
 
 
