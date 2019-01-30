@@ -288,5 +288,41 @@
       <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
   </ThingDef>
+  
+  	<ThingDef ParentName="OrganicProductBase">
+		<defName>GR_RatMilk</defName>
+		<label>ratfallo milk</label>
+		<description>This milk has a rich, thick quality to it. It's origins, however, might be a bit dubious... Unless you trust mafia guys called Tony.</description>
+		<graphicData>
+			<texPath>Things/Item/GR_RatMilk</texPath>
+			
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>3.1</MarketValue>
+			<Mass>0.045</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+			      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+				     	         <Nutrition>.06</Nutrition>
+
+
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>14</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+		 <tasteThought>GR_AteRatMilk</tasteThought>
+			<preferability>RawTasty</preferability>
+			<foodType>AnimalProduct, Fluid</foodType>
+		</ingestible>
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+	</ThingDef>
 
 </Defs>

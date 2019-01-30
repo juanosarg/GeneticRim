@@ -153,6 +153,9 @@
 	  <li Class="StockGenerator_BuySingleDef">
         <thingDef>GR_RuinedGenetic</thingDef>
       </li>	  
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_SquirralopeHorn</thingDef>
+      </li>	  
 	  
 			<li Class="StockGenerator_BuyArt" />
 			<li Class="StockGenerator_BuyExpensiveSimple" />

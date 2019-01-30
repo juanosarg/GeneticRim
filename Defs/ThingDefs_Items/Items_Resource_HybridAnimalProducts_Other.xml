@@ -151,6 +151,56 @@
 		</tradeTags>
 	</ThingDef>
 	
+		<ThingDef ParentName="ResourceBase">
+		<defName>GR_SquirralopeHorn</defName>
+		<label>squirralope horn</label>
+		<description>This horn could probably be used as an improvised melee weapon. It could probably be sold for a tiny profit too.</description>
+		<graphicData>
+			<texPath>Things/Item/GR_SquirralopeHorn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		    <equippedAngleOffset>-20</equippedAngleOffset>
+
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>50</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>150</MarketValue>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Mass>1</Mass>
+			
+      <Flammability>0.4</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+
+		</statBases>
+		 <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+		<tradeability>Sellable</tradeability>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+	</ThingDef>
+	
 	<ThingDef ParentName="ResourceBase">
 		<defName>GR_HugeRhinoHorn</defName>
 		<label>huge rhino horn</label>
@@ -452,6 +502,23 @@
       </statFactors>
       <smeltable>false</smeltable>
     </stuffProps>
+  </ThingDef>
+  
+    <ThingDef ParentName="PlantFoodRawBase">
+    <defName>GR_Castoreum</defName>
+    <label>beaverwolf castoreum</label>
+    <description>Castoreum is a yellowish exudate from the castor sacs of beavers. It is historically used as a food additive and natural flavour, often as a substitute vanilla flavour.</description>
+    <graphicData>
+      <texPath>Things/Item/GR_Castoreum</texPath>
+    </graphicData>
+    <statBases>
+		<Nutrition>0.5</Nutrition>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+   
   </ThingDef>
   
   

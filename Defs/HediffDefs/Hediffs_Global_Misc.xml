@@ -207,6 +207,8 @@
     </stages>
   </HediffDef>
   
+  
+  
   <HediffDef>
     <defName>GR_KeenSenses</defName>
     <label>keen senses</label>
@@ -513,6 +515,25 @@
 	 
      
     </stages>
+  </HediffDef>
+  
+  
+  <HediffDef>
+  <defName>GR_NoPain</defName>
+    
+    <label>no pain sensitivity</label>
+    <defaultLabelColor>(.8,0,0)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    
+      <stages>
+        <li>
+		 <painFactor>0.5</painFactor>
+		  <statOffsets>
+          <PainShockThreshold>1</PainShockThreshold>
+        </statOffsets>
+		</li>
+      </stages>
   </HediffDef>
 
 </Defs>

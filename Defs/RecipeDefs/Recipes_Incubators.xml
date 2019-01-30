@@ -591,7 +591,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<GR_BearmoleIncubator>1</GR_BearmoleIncubator>
+			<GR_BearRodentPre>1</GR_BearRodentPre>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -645,7 +645,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<GR_BoomsquirrelIncubator>1</GR_BoomsquirrelIncubator>
+			<GR_BoomalopeRodentPre>1</GR_BoomalopeRodentPre>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -699,7 +699,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<GR_ChickenrabbitIncubator>1</GR_ChickenrabbitIncubator>
+			<GR_ChickenRodentPre>1</GR_ChickenRodentPre>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -753,7 +753,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<GR_MuffaloratIncubator>1</GR_MuffaloratIncubator>
+			<GR_MuffaloRodentPre>1</GR_MuffaloRodentPre>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -807,7 +807,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<GR_WolfbeaverIncubator>1</GR_WolfbeaverIncubator>
+			<GR_WolfRodentPre>1</GR_WolfRodentPre>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>

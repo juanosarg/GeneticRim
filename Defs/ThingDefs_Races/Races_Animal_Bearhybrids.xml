@@ -783,5 +783,195 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
+	
+	<!-- Bear - Rodent -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Bearmole</defName>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		<label>bearmole</label>
+		<description>A Bear / Mole hybrid. This blind animal has a very acute sense of vibrations, alllowing it to detect its prey even better than a sighted animal.\n\nUseful abilities: Good guard animal. Very fast breeding.</description>
+		<statBases>
+			<MoveSpeed>3.5</MoveSpeed>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+			<MarketValue>270</MarketValue>
+		</statBases>
+		<tools>
+
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>18</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>18</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2.1</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>28</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+		<comps>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<rage>true</rage>
+				<burrowing>true</burrowing>
+			</li>
+		</comps>
+
+		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithPaws</body>
+			<predator>true</predator>
+			<fleshType>GR_Normal</fleshType>
+
+			<baseBodySize>2.5</baseBodySize>
+			<baseHungerRate>0.18</baseHungerRate>
+			<baseHealthScale>3</baseHealthScale>
+			<foodType>CarnivoreAnimal</foodType>
+			<mateMtbHours>3</mateMtbHours>
+			<gestationPeriodDays>8</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<trainability>Advanced</trainability>
+			<wildness>0.6</wildness>
+			<nuzzleMtbHours>120</nuzzleMtbHours>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
+			<useLeatherFrom>Alphabeaver</useLeatherFrom>
+			<useMeatFrom>Alphabeaver</useMeatFrom>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>12</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.35</minAge>
+					<soundWounded>Pawn_Bear_Injured</soundWounded>
+					<soundDeath>Pawn_Bear_Death</soundDeath>
+					<soundCall>Pawn_Bear_Call</soundCall>
+					<soundAngry>Pawn_Bear_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalExotic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+
+		<defName>GR_Bearmole</defName>
+		<label>bearmole</label>
+		<race>GR_Bearmole</race>
+		<combatPower>75</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bears/Bearmole/Bearmole</texPath>
+					<drawSize>2.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bears/Bearmole/Dessicated_Bearmole</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bears/Bearmole/Bearmole</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bears/Bearmole/Dessicated_Bearmole</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bears/Bearmole/Bearmole</texPath>
+					<drawSize>3.0</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bears/Bearmole/Dessicated_Bearmole</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+
+			</li>
+
+		</lifeStages>
+	</PawnKindDef>
 
 </Defs>

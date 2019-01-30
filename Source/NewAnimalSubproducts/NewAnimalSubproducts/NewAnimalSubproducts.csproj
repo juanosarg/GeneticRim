@@ -47,8 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlternateHybridSkins.cs" />
+    <Compile Include="CompInitialHediff.cs" />
     <Compile Include="CompLightsustenance.cs" />
     <Compile Include="CompAnimalProduct.cs" />
+    <Compile Include="CompProperties_InitialHediff.cs" />
     <Compile Include="CompProperties_Lightsustenance.cs" />
     <Compile Include="CompProperties_AnimalProduct.cs" />
     <Compile Include="CompProperties_Regeneration.cs" />

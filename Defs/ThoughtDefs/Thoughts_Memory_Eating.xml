@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ======= Basic quality thoughts ========= -->
+
+
+
+  <ThoughtDef>
+    <defName>GR_AteRatMilk</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>what was that milk?</label>
+        <description>Did I just drink rat milk? It can't be, can it?</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ 
+
+</Defs>

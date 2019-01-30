@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!-- Rodent - Bear -->
+	
+		<!-- Rodent - Bear -->
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>GR_Bearmole</defName>
-		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
-		<label>bearmole</label>
-		<description>A Bear / Mole hybrid. This blind animal has a very acute sense of vibrations, alllowing it to detect its prey even better than a sighted animal.\n\nUseful abilities: Good guard animal. Very fast breeding.</description>
+		<defName>GR_Molebear</defName>
+		
+		<label>molebear</label>
+		<description>A Mole / Bear hybrid. The molebear combines the resilience of a bear with the extremely low methabolic rate of a mole rat. These creatures lack pain sensitivity, so if you want to kill one, there is no "knocking it unconscious".\n\nUseful abilities: No pain sensitivity. Fast breeding.</description>
 		<statBases>
-			<MoveSpeed>3.5</MoveSpeed>
-			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
-			<MarketValue>270</MarketValue>
+			<MoveSpeed>3</MoveSpeed>
+			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
+			<MarketValue>275</MarketValue>
 		</statBases>
 		<tools>
 
@@ -18,14 +19,14 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>13</power>
+				<power>6</power>
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>18</amount>
+							<amount>10</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -35,14 +36,14 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>13</power>
+				<power>6</power>
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>18</amount>
+							<amount>10</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -51,14 +52,14 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>20</power>
+				<power>12</power>
 				<cooldownTime>2.1</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>28</amount>
+							<amount>15</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -79,6 +80,10 @@
 				<rage>true</rage>
 				<burrowing>true</burrowing>
 			</li>
+			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+				<hediffname>GR_NoPain</hediffname>
+				<hediffseverity>0.0f</hediffseverity>
+			</li>
 		</comps>
 
 		<race>
@@ -86,21 +91,20 @@
 			<body>QuadrupedAnimalWithPaws</body>
 			<predator>true</predator>
 			<fleshType>GR_Normal</fleshType>
-
-			<baseBodySize>2.5</baseBodySize>
-			<baseHungerRate>0.18</baseHungerRate>
-			<baseHealthScale>3</baseHealthScale>
+			<baseBodySize>2</baseBodySize>
+			<baseHungerRate>0.1</baseHungerRate>
+			<baseHealthScale>2.5</baseHealthScale>
 			<foodType>CarnivoreAnimal</foodType>
-			<mateMtbHours>3</mateMtbHours>
-			<gestationPeriodDays>8</gestationPeriodDays>
+			<mateMtbHours>5</mateMtbHours>
+			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Advanced</trainability>
 			<wildness>0.6</wildness>
-			<nuzzleMtbHours>120</nuzzleMtbHours>
+			<nuzzleMtbHours>180</nuzzleMtbHours>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
-			<useLeatherFrom>Alphabeaver</useLeatherFrom>
-			<useMeatFrom>Alphabeaver</useMeatFrom>
+			<useLeatherFrom>Rat</useLeatherFrom>
+			<useMeatFrom>Rat</useMeatFrom>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>
@@ -138,9 +142,10 @@
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>GR_Bearmole</defName>
-		<label>bearmole</label>
-		<race>GR_Bearmole</race>
+
+		<defName>GR_Molebear</defName>
+		<label>molebear</label>
+		<race>GR_Molebear</race>
 		<combatPower>75</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>1</ecoSystemWeight>
@@ -148,47 +153,49 @@
 			<li>
 
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Bears/Bearmole/Bearmole</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Molebear/GR_Molebear</texPath>
 					<drawSize>2.0</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Bears/Bearmole/Dessicated_Bearmole</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Molebear/GR_Dessicated_Molebear</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Bears/Bearmole/Bearmole</texPath>
-					<drawSize>2.5</drawSize>
+					<texPath>Things/Pawn/Animal/Rodent/Molebear/GR_Molebear</texPath>
+					<drawSize>2.2</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
 						<offset>(0,0,-0.15)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Bears/Bearmole/Dessicated_Bearmole</texPath>
-					<drawSize>2.5</drawSize>
+					<texPath>Things/Pawn/Animal/Rodent/Molebear/GR_Dessicated_Molebear</texPath>
+					<drawSize>2.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Bears/Bearmole/Bearmole</texPath>
-					<drawSize>3.0</drawSize>
+					<texPath>Things/Pawn/Animal/Rodent/Molebear/GR_Molebear</texPath>
+					<drawSize>2.5</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.4, 0.3)</volume>
 						<offset>(0,0,-0.15)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Bears/Bearmole/Dessicated_Bearmole</texPath>
-					<drawSize>3</drawSize>
+					<texPath>Things/Pawn/Animal/Rodent/Molebear/GR_Dessicated_Molebear</texPath>
+					<drawSize>2.5</drawSize>
 				</dessicatedBodyGraphicData>
 
 			</li>
 
 		</lifeStages>
 	</PawnKindDef>
-
+	
+	
+	
 	<!-- Rodent - Boomalope -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Boomsquirrel</defName>
@@ -355,55 +362,38 @@
 
 	<!-- Rabbit - Chicken -->
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>GR_Chickenrabbit</defName>
-		<label>chickenrabbit</label>
-		<description>A Rabbit / Chicken hybrid. What happens when you artificially crossbreed two fast breeding creatures? The chickenrabbit is an ecological disaster waiting to happen.\n\nUseful abilities: Egg layer. EXTREMELY fast breeding.</description>
+		<defName>GR_Rabbitchicken</defName>
+		<label>rabbitchicken</label>
+		<description>A Rabbit / Chicken hybrid. Isn't it adorable? Awwwww... Who's the sweetest genetic abomination in all the Rim? Actually, rabbitchickens are a pest, and they tend to breed very, very fast, even faster than other rodent hybrids, and they will consume all available food unless you have a system in place to avoid it.\n\nUseful abilities: Fastest breeding of all hybrids.</description>
 		<statBases>
-			<MoveSpeed>2.1</MoveSpeed>
-			<ComfyTemperatureMin>0</ComfyTemperatureMin>
-			<MarketValue>45</MarketValue>
+			<MoveSpeed>5.8</MoveSpeed>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+			<MarketValue>15</MarketValue>
 		</statBases>
 		<tools>
 			<li>
-				<label>claws</label>
-				<capacities>
-					<li>Scratch</li>
-				</capacities>
-				<power>2</power>
-				<cooldownTime>1.65</cooldownTime>
-				<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
-			</li>
-			<li>
-				<capacities>
-					<li>Bite</li>
-				</capacities>
-				<power>5</power>
-				<cooldownTime>1.65</cooldownTime>
-				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-			</li>
-			<li>
-				<label>head</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>1</power>
-				<cooldownTime>1.65</cooldownTime>
-				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>4.5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1.5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
 		</tools>
 
 		<comps>
-			<li Class="CompProperties_EggLayer">
-				<eggUnfertilizedDef>GR_ChickenrabbitEggUnfertilized</eggUnfertilizedDef>
-				<eggFertilizedDef>GR_ChickenrabbitEggFertilized</eggFertilizedDef>
-				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>1</eggLayIntervalDays>
-				<eggCountRange>
-					<min>1</min>
-					<max>2</max>
-				</eggCountRange>
-			</li>
+			
 			<li Class="DraftingPatcher.CompProperties_Draftable">
 				<chickenRimPox>true</chickenRimPox>
 				<burrowing>true</burrowing>
@@ -411,22 +401,22 @@
 		</comps>
 		<race>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
-			<body>GR_BirdWithTeeth</body>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
 
 			<predator>false</predator>
 			<fleshType>GR_Normal</fleshType>
 
-			<baseBodySize>0.18</baseBodySize>
-			<baseHungerRate>0.3</baseHungerRate>
-			<baseHealthScale>0.35</baseHealthScale>
+			<baseBodySize>0.2</baseBodySize>
+			<baseHungerRate>0.23</baseHungerRate>
+			<baseHealthScale>0.4</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<mateMtbHours>1</mateMtbHours>
-			<gestationPeriodDays>5</gestationPeriodDays>
+			<gestationPeriodDays>3</gestationPeriodDays>
 			<trainability>None</trainability>
-			<wildness>0.47</wildness>
+			<wildness>0.65</wildness>
 
-			<useLeatherFrom>Chicken</useLeatherFrom>
-			<useMeatFrom>Chicken</useMeatFrom>
+			<useLeatherFrom>Hare</useLeatherFrom>
+			<useMeatFrom>Hare</useMeatFrom>
 			<litterSizeCurve>
 				<points>
 					<li>(0.99, 0)</li>
@@ -434,7 +424,7 @@
 					<li>(1.01, 0)</li>
 				</points>
 			</litterSizeCurve>
-			<lifeExpectancy>6</lifeExpectancy>
+			<lifeExpectancy>4</lifeExpectancy>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -451,10 +441,10 @@
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>0.3</minAge>
-					<soundWounded>Pawn_Chicken_Wounded</soundWounded>
-					<soundDeath>Pawn_Chicken_Death</soundDeath>
-					<soundCall>Pawn_Chicken_Call</soundCall>
-					<soundAngry>Pawn_Chicken_Angry</soundAngry>
+					<soundWounded>Pawn_Hare_Wounded</soundWounded>
+          <soundDeath>Pawn_Hare_Death</soundDeath>
+          <soundCall>Pawn_Hare_Call</soundCall>
+          <soundAngry>Pawn_Hare_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
@@ -466,29 +456,28 @@
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>GR_Chickenrabbit</defName>
-		<label>chickenrabbit</label>
-		<race>GR_Chickenrabbit</race>
-		<combatPower>30</combatPower>
+		<defName>GR_Rabbitchicken</defName>
+		<label>rabbitchicken</label>
+		<race>GR_Rabbitchicken</race>
+		<combatPower>20</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>1</ecoSystemWeight>
-		<labelMale>chickenrabbit rooster</labelMale>
-		<labelFemale>chickenrabbit hen</labelFemale>
+		
 		<lifeStages>
 			<li>
-				<label>chickenrabbit chick</label>
+				
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Chicken/Chickenrabbit/Chickenrabbit</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Rabbitchicken/GR_Rabbitchicken</texPath>
 					<drawSize>0.6</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Rabbitchicken/GR_Dessicated_Rabbitchicken</texPath>
 					<drawSize>.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Chicken/Chickenrabbit/Chickenrabbit</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Rabbitchicken/GR_Rabbitchicken</texPath>
 					<drawSize>1.1</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
@@ -496,13 +485,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Rabbitchicken/GR_Dessicated_Rabbitchicken</texPath>
 					<drawSize>1.1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Chicken/Chickenrabbit/Chickenrabbit</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Rabbitchicken/GR_Rabbitchicken</texPath>
 					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.4, 0.3)</volume>
@@ -510,7 +499,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Rabbitchicken/GR_Dessicated_Rabbitchicken</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -519,15 +508,23 @@
 
 	<!-- Rat - Muffalo -->
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>GR_Muffalorat</defName>
-		<label>muffalorat</label>
-		<description>A Rat / Muffalo hybrid. A short-lived pack beast that breeds really fast.\n\nUseful abilities: Acts as a pack beast. Produces small amounts of milk and wool at a quite fast rate. Fast breeding.</description>
+		<defName>GR_Ratfallo</defName>
+		<label>ratfallo</label>
+		<description>A Rat / Muffalo hybrid. This is a very large, muscular and resilient rat. It can be used as a pack animal, and also produces some milk of questionable quality.\n\nUseful abilities: Acts as a pack beast. Produces small amounts of milk and wool at a quite fast rate. Fast breeding.</description>
 		<statBases>
-			<MoveSpeed>5</MoveSpeed>
+			<MoveSpeed>6</MoveSpeed>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
 			<MarketValue>105</MarketValue>
 		</statBases>
 		<tools>
+		<li>
+			<capacities>
+				<li>GR_PlagueBite</li>
+			</capacities>
+			<power>5</power>
+			<cooldownTime>1.65</cooldownTime>
+			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+		</li>
 			<li>
 				<label>head</label>
 				<capacities>
@@ -541,9 +538,9 @@
 
 		<comps>
 			<li Class="CompProperties_Milkable">
-				<milkDef>Milk</milkDef>
+				<milkDef>GR_RatMilk</milkDef>
 				<milkIntervalDays>1</milkIntervalDays>
-				<milkAmount>6</milkAmount>
+				<milkAmount>7</milkAmount>
 			</li>
 			<li Class="CompProperties_Shearable">
 				<woolDef>WoolMuffalo</woolDef>
@@ -562,15 +559,15 @@
 			<predator>false</predator>
 			<fleshType>GR_Normal</fleshType>
 
-			<baseBodySize>2.15</baseBodySize>
+			<baseBodySize>1.75</baseBodySize>
 			<baseHungerRate>0.85</baseHungerRate>
 			<baseHealthScale>1.5</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<mateMtbHours>3</mateMtbHours>
-			<gestationPeriodDays>6</gestationPeriodDays>
+			<gestationPeriodDays>7</gestationPeriodDays>
 			<wildness>0.5</wildness>
-			<useLeatherFrom>Muffalo</useLeatherFrom>
-			<useMeatFrom>Muffalo</useMeatFrom>
+			<useLeatherFrom>Rat</useLeatherFrom>
+			<useMeatFrom>Rat</useMeatFrom>
 			<packAnimal>true</packAnimal>
 			<lifeExpectancy>5</lifeExpectancy>
 			<lifeStageAges>
@@ -585,10 +582,10 @@
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>0.3</minAge>
-					<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
-					<soundDeath>Pawn_Muffalo_Death</soundDeath>
-					<soundCall>Pawn_Muffalo_Call</soundCall>
-					<soundAngry>Pawn_Muffalo_Angry</soundAngry>
+					 <soundWounded>Pawn_Boomrat_Wounded</soundWounded>
+          <soundDeath>Pawn_Boomrat_Death</soundDeath>
+          <soundCall>Pawn_Boomrat_Call</soundCall>
+          <soundAngry>Pawn_Boomrat_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
@@ -601,28 +598,28 @@
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>GR_Muffalorat</defName>
-		<label>muffalorat</label>
-		<race>GR_Muffalorat</race>
+		<defName>GR_Ratfallo</defName>
+		<label>ratfallo</label>
+		<race>GR_Ratfallo</race>
 		<combatPower>90</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>1</ecoSystemWeight>
 		<lifeStages>
 			<li>
-				<label>muffalorat calf</label>
-				<labelPlural>muffalorat calves</labelPlural>
+				
+				
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/Muffalorat/Muffalorat</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Ratfallo/GR_Ratfallo</texPath>
 					<drawSize>2.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/Muffalorat/Dessicated_Muffalorat</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Ratfallo/GR_Dessicated_Ratfallo</texPath>
 					<drawSize>2.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/Muffalorat/Muffalorat</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Ratfallo/GR_Ratfallo</texPath>
 					<drawSize>2.9</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
@@ -630,13 +627,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/Muffalorat/Dessicated_Muffalorat</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Ratfallo/GR_Dessicated_Ratfallo</texPath>
 					<drawSize>2.9</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/Muffalorat/Muffalorat</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Ratfallo/GR_Ratfallo</texPath>
 					<drawSize>4</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.4, 0.3)</volume>
@@ -644,7 +641,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/Muffalorat/Dessicated_Muffalorat</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Ratfallo/GR_Dessicated_Ratfallo</texPath>
 					<drawSize>4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -827,19 +824,26 @@
 
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>GR_Wolfbeaver</defName>
-		<label>wolfbeaver</label>
+		<defName>GR_Beaverwolf</defName>
+		<label>beaverwolf</label>
 		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
-		<description>A Beaver / Wolf hybrid. This fast breeding predator can be a drain on your tree reserves, unless you provide it with some fresh meat.\n\nUseful abilities: Fast breeding.</description>
+		<description>A Beaver / Wolf hybrid. Beaverwolves can eat either meat or trees, although they are not as voracious as the wolfbeaver hybrid. They are not as efficient in battle, but they produce castoreum, which can be used to cook.\n\nUseful abilities: Regularly produces a secretion called castoreum that can be used as a cooking ingredient. Fast breeding.</description>
 		<statBases>
-			<MoveSpeed>7.5</MoveSpeed>
-			<ComfyTemperatureMin>-45</ComfyTemperatureMin>
+			<MoveSpeed>6.5</MoveSpeed>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
 			<MarketValue>275</MarketValue>
 		</statBases>
 		<comps>
 			<li Class="DraftingPatcher.CompProperties_Draftable">
 				<adrenalineburst>true</adrenalineburst>
 				<burrowing>true</burrowing>
+			</li>
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>GR_Castoreum</resourceDef>
+				<gatheringIntervalDays>1</gatheringIntervalDays>
+				<resourceAmount>1</resourceAmount>
+				<customResourceString>CastoreumProd</customResourceString>
+
 			</li>
 		</comps>
 		<tools>
@@ -848,14 +852,14 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>9</power>
+				<power>8</power>
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>20</amount>
+							<amount>12</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -865,14 +869,14 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>9</power>
+				<power>8</power>
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>20</amount>
+							<amount>12</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -910,8 +914,8 @@
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
-			<baseBodySize>0.85</baseBodySize>
-			<baseHungerRate>4</baseHungerRate>
+			<baseBodySize>0.9</baseBodySize>
+			<baseHungerRate>.8</baseHungerRate>
 			<baseHealthScale>0.99</baseHealthScale>
 			<foodType>CarnivoreAnimal, DendrovoreAnimal</foodType>
 			<useLeatherFrom>Alphabeaver</useLeatherFrom>
@@ -959,27 +963,27 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>GR_Wolfbeaver</defName>
-		<label>wolfbeaver</label>
-		<race>GR_Wolfbeaver</race>
+		<defName>GR_Beaverwolf</defName>
+		<label>beaverwolf</label>
+		<race>GR_Beaverwolf</race>
 		<combatPower>75</combatPower>
 
 		<lifeStages>
 			<li>
-				<label>wolfbeaver puppy</label>
-				<labelPlural>wolfbeaver puppies</labelPlural>
+				<label>beaverwolf puppy</label>
+				<labelPlural>beaverwolf puppies</labelPlural>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Wolf/Wolfbeaver/Wolfbeaver</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Beaverwolf/GR_Beaverwolf</texPath>
 					<drawSize>2.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Wolf/Wolfbeaver/Dessicated_Wolfbeaver</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Beaverwolf/GR_Dessicated_Beaverwolf</texPath>
 					<drawSize>2.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Wolf/Wolfbeaver/Wolfbeaver</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Beaverwolf/GR_Beaverwolf</texPath>
 					<drawSize>2.75</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
@@ -987,13 +991,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Wolf/Wolfbeaver/Dessicated_Wolfbeaver</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Beaverwolf/GR_Dessicated_Beaverwolf</texPath>
 					<drawSize>2.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Wolf/Wolfbeaver/Wolfbeaver</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Beaverwolf/GR_Beaverwolf</texPath>
 					<drawSize>3</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.4, 0.3)</volume>
@@ -1001,7 +1005,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Wolf/Wolfbeaver/Dessicated_Wolfbeaver</texPath>
+					<texPath>Things/Pawn/Animal/Rodent/Beaverwolf/GR_Dessicated_Beaverwolf</texPath>
 					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
