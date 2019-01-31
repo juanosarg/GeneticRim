@@ -29,7 +29,8 @@ namespace NewAnimalSubproducts
             base.CompTickRare();
             
             if (addHediffOnce)
-            { Log.Message("Ticking");
+            {
+                //Log.Message("Ticking");
                 Pawn pawn = this.parent as Pawn;
                 pawn.health.AddHediff(HediffDef.Named(Props.hediffname));
                 //Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(HediffDef.Named(Props.hediffname), false);
