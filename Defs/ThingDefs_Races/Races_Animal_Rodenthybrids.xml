@@ -82,7 +82,7 @@
 			</li>
 			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
 				<hediffname>GR_NoPain</hediffname>
-				<hediffseverity>0.0f</hediffseverity>
+				<hediffseverity>1</hediffseverity>
 			</li>
 		</comps>
 
@@ -471,7 +471,7 @@
 					<drawSize>0.6</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Rodent/Rabbitchicken/GR_Dessicated_Rabbitchicken</texPath>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
 					<drawSize>.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -485,7 +485,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Rodent/Rabbitchicken/GR_Dessicated_Rabbitchicken</texPath>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
 					<drawSize>1.1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -499,7 +499,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Rodent/Rabbitchicken/GR_Dessicated_Rabbitchicken</texPath>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>

@@ -6,7 +6,7 @@
 
 &lt;size=24&gt;Features&lt;/size&gt;
 
-- Hybridization: Extract genes from Bears, Chickens, Boomalopes, Muffalos, Wolves, Rodents, Reptiles, Insectoids, Mechanoids and Thrumbos, and create hybrids of these species. Some combinations can go both ways, so for example a bearalope is different from a boombear, and you will get one at random. A total of 58 new creatures for you to play with. Some very useful, others... less so.
+- Hybridization: Extract genes from Bears, Chickens, Boomalopes, Muffalos, Wolves, Rodents, Reptiles, Insectoids, Mechanoids and Thrumbos, and create hybrids of these species. Some combinations can go both ways, so for example a bearalope is different from a boombear, and you will get one at random. A total of 63 new creatures for you to play with. Some very useful, others... less so.
 
 - Hybrid implants: The Growth Vat can be used to create either animal or human implants. Using different animal genes, you can create implants such as Thrumbo Legs, or Chitinous Hearts, and turn your scientific aberrations into even more bizarre creatures. By using humanoid genes, you can mix them with animal genes and create several hybrid implants to improve your colonists.
 
@@ -50,6 +50,7 @@ Some building textures modified from Textures by Pixel Art World, http://yms.mai
 Some building textures modified from Textures in the High Tech Laboratory Facilities mod
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v4.101: Added five new rodent hybrids (31/01/19)
 v4.1: New building graphics. New options screen for legless creatures. Alphas renamed to Paragons (28/1/19)
 v4.05: Quick fix to mechanoid hybrids to make them properly produce milk and wool (16/12/18)
 v4.04: Added several functions for the upcoming Megafauna patch (14/12/18)
