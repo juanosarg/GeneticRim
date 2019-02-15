@@ -826,7 +826,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Beaverwolf</defName>
 		<label>beaverwolf</label>
-		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		
 		<description>A Beaver / Wolf hybrid. Beaverwolves can eat either meat or trees, although they are not as voracious as the wolfbeaver hybrid. They are not as efficient in battle, but they produce castoreum, which can be used to cook.\n\nUseful abilities: Regularly produces a secretion called castoreum that can be used as a cooking ingredient. Fast breeding.</description>
 		<statBases>
 			<MoveSpeed>6.5</MoveSpeed>
