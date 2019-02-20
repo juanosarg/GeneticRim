@@ -75,7 +75,6 @@
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithPaws</body>
 			<fleshType>GR_Mechanoid</fleshType>
-
 			<herdAnimal>false</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<baseBodySize>2</baseBodySize>
@@ -89,6 +88,8 @@
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
 			<wildness>0.6</wildness>
 			<lifeExpectancy>2500</lifeExpectancy>
+			<mateMtbHours>10000</mateMtbHours>
+			<gestationPeriodDays>10000</gestationPeriodDays>
 			<lifeStageAges>
 				<li>
 					<def>AnimalAdult</def>
@@ -230,6 +231,8 @@
 			<hasGenders>false</hasGenders>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+			<mateMtbHours>10000</mateMtbHours>
+			<gestationPeriodDays>10000</gestationPeriodDays>
 			<wildness>0.6</wildness>
 			<lifeExpectancy>2500</lifeExpectancy>
 			<lifeStageAges>
@@ -376,6 +379,8 @@
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
 			<wildness>0.6</wildness>
 			<lifeExpectancy>2500</lifeExpectancy>
+			<mateMtbHours>10000</mateMtbHours>
+			<gestationPeriodDays>10000</gestationPeriodDays>
 			<lifeStageAges>
 				<li>
 					<def>AnimalAdult</def>
@@ -511,6 +516,8 @@
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
 			<wildness>0.6</wildness>
 			<lifeExpectancy>2500</lifeExpectancy>
+			<mateMtbHours>10000</mateMtbHours>
+			<gestationPeriodDays>10000</gestationPeriodDays>
 			<lifeStageAges>
 				<li>
 					<def>AnimalAdult</def>
@@ -660,6 +667,8 @@
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
 			<wildness>0.6</wildness>
 			<lifeExpectancy>2500</lifeExpectancy>
+			<mateMtbHours>10000</mateMtbHours>
+			<gestationPeriodDays>10000</gestationPeriodDays>
 			<lifeStageAges>
 				<li>
 					<def>AnimalAdult</def>
@@ -795,6 +804,8 @@
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
 			<wildness>0.6</wildness>
 			<lifeExpectancy>2500</lifeExpectancy>
+			<mateMtbHours>10000</mateMtbHours>
+			<gestationPeriodDays>10000</gestationPeriodDays>
 			<lifeStageAges>
 				<li>
 					<def>AnimalAdult</def>
@@ -930,6 +941,8 @@
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
 			<wildness>0.6</wildness>
 			<lifeExpectancy>2500</lifeExpectancy>
+			<mateMtbHours>10000</mateMtbHours>
+			<gestationPeriodDays>10000</gestationPeriodDays>
 			<lifeStageAges>
 				<li>
 					<def>AnimalAdult</def>
@@ -1065,6 +1078,8 @@
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
 			<wildness>0.6</wildness>
 			<lifeExpectancy>2500</lifeExpectancy>
+			<mateMtbHours>10000</mateMtbHours>
+			<gestationPeriodDays>10000</gestationPeriodDays>
 			<lifeStageAges>
 				<li>
 					<def>AnimalAdult</def>
@@ -1157,7 +1172,7 @@
 				<accuracyLong>0.8</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GR_Warhead</defaultProjectile>
-				<warmupTime>5</warmupTime>
+				<warmupTime>12</warmupTime>
 				<burstShotCount>1</burstShotCount>
 				<minRange>10</minRange>
 				<range>60</range>
@@ -1202,6 +1217,8 @@
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
 			<wildness>0.6</wildness>
 			<lifeExpectancy>2500</lifeExpectancy>
+			<mateMtbHours>10000</mateMtbHours>
+			<gestationPeriodDays>10000</gestationPeriodDays>
 			<lifeStageAges>
 				<li>
 					<def>AnimalAdult</def>

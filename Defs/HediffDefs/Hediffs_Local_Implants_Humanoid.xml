@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--=============== Human Hybrid Implants ====================-->
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_TestImplant</defName>
+		<label>test implant</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeatAmount>200</MeatAmount>
+					<CarryingCapacity>30</CarryingCapacity>
+					<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+					
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+			</li>
+
+		</stages>
+		<spawnThingOnRemoved>GR_TestImplant</spawnThingOnRemoved>
+		<addedPartProps>
+		
+			<partEfficiency>1.1</partEfficiency>
+		</addedPartProps>
+
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_BearClaws</defName>
+		<label>humanoid implant: bear claws</label>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>bear claws</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>25</power>
+						<cooldownTime>1</cooldownTime>
+					</li>
+				</tools>
+
+			</li>
+
+		</comps>
+		<spawnThingOnRemoved>GR_BearClaws</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<partEfficiency>1.1</partEfficiency>
+		</addedPartProps>
+
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_Ovipositor</defName>
+		<label>humanoid implant: ovipositor</label>
+				<hediffClass>Hediff_Implant</hediffClass>
+
+		<stages>
+			<li>
+				<painOffset>0.1</painOffset>
+				<painFactor>1.1</painFactor>
+			</li>
+		</stages>
+		<comps>
+
+			<li Class="NewHatcher.HediffCompProperties_Hatcher">
+				<hatcherDaystoHatch>.5</hatcherDaystoHatch>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>GR_Ovipositor</spawnThingOnRemoved>
+
+
+	</HediffDef>
+	
+		<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MuffaloMammaries</defName>
+		<label>humanoid implant: muffalo mammaries</label>
+				<hediffClass>Hediff_Implant</hediffClass>
+
+		<stages>
+			<li>
+				<painOffset>0.1</painOffset>
+				<painFactor>1.1</painFactor>
+			</li>
+		</stages>
+		<comps>
+
+			<li Class="NewHatcher.HediffCompProperties_Milker">
+				<hatcherDaystoHatch>.5</hatcherDaystoHatch>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>GR_MuffaloMammaries</spawnThingOnRemoved>
+
+
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MuffaloMuscles</defName>
+		<label>humanoid implant: muffalo strengthened muscles</label>
+				<hediffClass>Hediff_Implant</hediffClass>
+
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.2</offset>
+					</li>
+
+				</capMods>
+			</li>	 
+		</stages>
+
+		<spawnThingOnRemoved>GR_MuffaloMuscles</spawnThingOnRemoved>
+
+
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_BoomalopeNodules</defName>
+		<label>humanoid implant: boomalope nodules</label>
+		<hediffClass>Hediff_Implant</hediffClass>
+
+		<comps>
+
+			<li Class="NewHatcher.HediffCompProperties_Exploder">
+				<explosionForce>6</explosionForce>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>GR_BoomalopeNodules</spawnThingOnRemoved>
+
+
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_WolfMuscularFibers</defName>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<label>humanoid implant: wolf muscular fibers</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+			</li>	 
+		</stages>
+
+		<spawnThingOnRemoved>GR_WolfMuscularFibers</spawnThingOnRemoved>
+
+
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_BunnyEars</defName>
+		<label>humanoid implant: bunny ears</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>0.45</offset>
+					</li>
+				</capMods>
+			</li>	 
+		</stages>
+
+		<spawnThingOnRemoved>GR_BunnyEars</spawnThingOnRemoved>
+
+
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_InsectoidAntennae</defName>
+		<label>humanoid implant: insectoid antennae</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+			</li>
+
+		</stages>
+
+		<spawnThingOnRemoved>GR_InsectoidAntennae</spawnThingOnRemoved>
+
+
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_HumanThrumboHorn</defName>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<label>humanoid implant: thrumbo horn</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>-0.1</offset>
+					</li>
+
+				</capMods>
+			</li>
+
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>thrumbo horn</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>25</power>
+						<cooldownTime>.9</cooldownTime>
+					</li>
+				</tools>
+
+			</li>
+		</comps>
+
+		<spawnThingOnRemoved>GR_HumanThrumboHorn</spawnThingOnRemoved>
+
+
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_VenomousFangs</defName>
+		<label>humanoid implant: venomous fangs</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.1</offset>
+					</li>
+
+				</capMods>
+			</li>
+
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>venomous fangs</label>
+						<capacities>
+							<li>GR_VeryToxicBite</li>
+						</capacities>
+						<power>25</power>
+						<cooldownTime>1</cooldownTime>
+					</li>
+				</tools>
+
+			</li>
+		</comps>
+
+		<spawnThingOnRemoved>GR_VenomousFangs</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+		</addedPartProps>
+
+	</HediffDef>
+
+</Defs>

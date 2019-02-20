@@ -84,7 +84,7 @@
     <label>advanced mechanite bio-integration</label>
     <tab>GR_GeneticReseach</tab>
     <techLevel>Spacer</techLevel>
-    <description>Allows extraction of active mechanites from hostile mechanoids to mix them with genes with other creatures (tier 3).</description>
+    <description>Allows extraction of active mechanites from hostile mechanoids to mix them with genes with other creatures (tier 3). Mechanoid hybrids also need a mechanoid interface chips, which can be obtained from crashed mechanoid ships (both psychic and poison).</description>
     <baseCost>10000</baseCost>
     <prerequisites>
         <li>GR_AdvancedGeneticEngineering</li>

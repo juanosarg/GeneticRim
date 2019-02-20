@@ -70,6 +70,11 @@
 			<li>GR_Mechaturtle</li>
 			<li>GR_Mechawolf</li>
 			<li>GR_Mechathrumbo</li>
+			<li>GR_Molebear</li>
+			<li>GR_Squirralope</li>
+			<li>GR_Rabbitchicken</li>
+			<li>GR_Ratfallo</li>
+			<li>GR_Wolfbeaver</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Leg</li> 
@@ -106,6 +111,10 @@
 			<li>GR_Mechachicken</li>		
 			<li>GR_Mechaturtle</li>
 			<li>GR_Mechawolf</li>
+			<li>GR_Squirralope</li>
+			<li>GR_Rabbitchicken</li>
+			<li>GR_Ratfallo</li>
+			<li>GR_Wolfbeaver</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Tail</li> 
@@ -183,6 +192,11 @@
 			<li>GR_Mechaturtle</li>
 			<li>GR_Mechawolf</li>
 			<li>GR_Mechathrumbo</li>
+			<li>GR_Molebear</li>
+			<li>GR_Squirralope</li>
+			<li>GR_Rabbitchicken</li>
+			<li>GR_Ratfallo</li>
+			<li>GR_Wolfbeaver</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Eye</li> 
@@ -259,6 +273,11 @@
 			<li>GR_Mechaturtle</li>
 			<li>GR_Mechawolf</li>
 			<li>GR_Mechathrumbo</li>
+			<li>GR_Molebear</li>
+			<li>GR_Squirralope</li>
+			<li>GR_Rabbitchicken</li>
+			<li>GR_Ratfallo</li>
+			<li>GR_Wolfbeaver</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Ear</li> 
@@ -311,6 +330,11 @@
 			<li>GR_Mecharat</li>
 			<li>GR_Mechaturtle</li>
 			<li>GR_Mechawolf</li>
+			<li>GR_Molebear</li>
+			<li>GR_Squirralope</li>
+			<li>GR_Rabbitchicken</li>
+			<li>GR_Ratfallo</li>
+			<li>GR_Wolfbeaver</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Nose</li> 
@@ -388,6 +412,11 @@
 			<li>GR_Mechaturtle</li>
 			<li>GR_Mechawolf</li>
 			<li>GR_Mechathrumbo</li>
+			<li>GR_Molebear</li>
+			<li>GR_Squirralope</li>
+			<li>GR_Rabbitchicken</li>
+			<li>GR_Ratfallo</li>
+			<li>GR_Wolfbeaver</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>AnimalJaw</li>
@@ -458,6 +487,11 @@
 			<li>GR_Mechaturtle</li>
 			<li>GR_Mechawolf</li>
 			<li>GR_Mechathrumbo</li>
+			<li>GR_Molebear</li>
+			<li>GR_Squirralope</li>
+			<li>GR_Rabbitchicken</li>
+			<li>GR_Ratfallo</li>
+			<li>GR_Wolfbeaver</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Spine</li>
@@ -536,6 +570,11 @@
 			<li>GR_Mechaturtle</li>
 			<li>GR_Mechawolf</li>
 			<li>GR_Mechathrumbo</li>
+			<li>GR_Molebear</li>
+			<li>GR_Squirralope</li>
+			<li>GR_Rabbitchicken</li>
+			<li>GR_Ratfallo</li>
+			<li>GR_Wolfbeaver</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Brain</li>
@@ -614,6 +653,11 @@
 			<li>GR_Mechaturtle</li>
 			<li>GR_Mechawolf</li>
 			<li>GR_Mechathrumbo</li>
+			<li>GR_Molebear</li>
+			<li>GR_Squirralope</li>
+			<li>GR_Rabbitchicken</li>
+			<li>GR_Ratfallo</li>
+			<li>GR_Wolfbeaver</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Heart</li>
@@ -687,6 +731,11 @@
 			<li>GR_Mechaturtle</li>
 			<li>GR_Mechawolf</li>
 			<li>GR_Mechathrumbo</li>
+			<li>GR_Molebear</li>
+			<li>GR_Squirralope</li>
+			<li>GR_Rabbitchicken</li>
+			<li>GR_Ratfallo</li>
+			<li>GR_Wolfbeaver</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Lung</li>
@@ -758,6 +807,11 @@
 			<li>GR_Mechaturtle</li>
 			<li>GR_Mechawolf</li>
 			<li>GR_Mechathrumbo</li>
+			<li>GR_Molebear</li>
+			<li>GR_Squirralope</li>
+			<li>GR_Rabbitchicken</li>
+			<li>GR_Ratfallo</li>
+			<li>GR_Wolfbeaver</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Liver</li>
@@ -828,6 +882,11 @@
 			<li>GR_Mechaturtle</li>
 			<li>GR_Mechawolf</li>
 			<li>GR_Mechathrumbo</li>
+			<li>GR_Molebear</li>
+			<li>GR_Squirralope</li>
+			<li>GR_Rabbitchicken</li>
+			<li>GR_Ratfallo</li>
+			<li>GR_Wolfbeaver</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Kidney</li>
@@ -906,6 +965,11 @@
 			<li>GR_Mechaturtle</li>
 			<li>GR_Mechawolf</li>
 			<li>GR_Mechathrumbo</li>
+			<li>GR_Molebear</li>
+			<li>GR_Squirralope</li>
+			<li>GR_Rabbitchicken</li>
+			<li>GR_Ratfallo</li>
+			<li>GR_Wolfbeaver</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Stomach</li>
@@ -2029,429 +2093,6 @@
 
 		<addsHediff>GR_BoomalopeStomach</addsHediff>
 	</RecipeDef>
-	<!--=============== Human Hybrid Implants ====================-->
-
-	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>GR_InstallBearClaws</defName>
-		<label>install bear claws</label>
-		<description>Installs bear claws.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing bear claws.</jobString>
-		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>GR_BearClaws</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>GR_BearClaws</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Hand</li> 
-		</appliedOnFixedBodyParts>
-		<addsHediff>GR_BearClaws</addsHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>GR_InstallOvipositor</defName>
-		<label>install ovipositor</label>
-		<description>Installs ovipositor.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing ovipositor.</jobString>
-		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>GR_Ovipositor</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>GR_Ovipositor</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Waist</li> 
-		</appliedOnFixedBodyParts>
-		<addsHediff>GR_Ovipositor</addsHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>GR_InstallMuffaloMuscles</defName>
-		<label>install muffalo strengthened muscles</label>
-		<description>Installs muffalo strengthened muscles.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing muffalo strengthened muscles.</jobString>
-		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>GR_MuffaloMuscles</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>GR_MuffaloMuscles</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Spine</li> 
-		</appliedOnFixedBodyParts>
-		<addsHediff>GR_MuffaloMuscles</addsHediff>
-	</RecipeDef>
 	
-	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>GR_InstallMuffaloMammaries</defName>
-		<label>install muffalo mammaries</label>
-		<description>Installs muffalo mammaries.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing muffalo mammaries.</jobString>
-		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>GR_MuffaloMammaries</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>GR_MuffaloMammaries</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Waist</li> 
-		</appliedOnFixedBodyParts>
-		<addsHediff>GR_MuffaloMammaries</addsHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>GR_InstallBoomalopeNodules</defName>
-		<label>install boomalope nodules</label>
-		<description>Installs boomalope nodules.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing boomalope nodules.</jobString>
-		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>GR_BoomalopeNodules</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>GR_BoomalopeNodules</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Sternum</li> 
-		</appliedOnFixedBodyParts>
-		<addsHediff>GR_BoomalopeNodules</addsHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>GR_InstallWolfMuscularFibers</defName>
-		<label>install wolf muscular fibers</label>
-		<description>Installs wolf muscular fibers.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing wolf muscular fibers.</jobString>
-		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>GR_WolfMuscularFibers</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>GR_WolfMuscularFibers</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Tibia</li> 
-		</appliedOnFixedBodyParts>
-		<addsHediff>GR_WolfMuscularFibers</addsHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>GR_InstallBunnyEars</defName>
-		<label>install bunny ears</label>
-		<description>Installs bunny ears.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing bunny ears.</jobString>
-		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>GR_BunnyEars</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>GR_BunnyEars</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Ear</li> 
-		</appliedOnFixedBodyParts>
-		<addsHediff>GR_BunnyEars</addsHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>GR_InstallInsectoidAntennae</defName>
-		<label>install insectoid antennae</label>
-		<description>Installs insectoid antennae.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing insectoid antennae.</jobString>
-		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>GR_InsectoidAntennae</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>GR_InsectoidAntennae</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Nose</li> 
-
-		</appliedOnFixedBodyParts>
-		<addsHediff>GR_InsectoidAntennae</addsHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>GR_InstallHumanThrumboHorn</defName>
-		<label>install thrumbo horn</label>
-		<description>Installs thrumbo horn.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing thrumbo horn.</jobString>
-		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>GR_HumanThrumboHorn</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>GR_HumanThrumboHorn</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Skull</li> 
-
-		</appliedOnFixedBodyParts>
-		<addsHediff>GR_HumanThrumboHorn</addsHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>GR_InstallVenomousFangs</defName>
-		<label>install venomous fangs</label>
-		<description>Installs venomous fangs.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing venomous fangs.</jobString>
-		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>GR_VenomousFangs</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>GR_VenomousFangs</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Jaw</li> 
-
-		</appliedOnFixedBodyParts>
-		<addsHediff>GR_VenomousFangs</addsHediff>
-	</RecipeDef>
 
 </Defs>
