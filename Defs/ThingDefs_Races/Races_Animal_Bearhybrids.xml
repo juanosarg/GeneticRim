@@ -305,7 +305,7 @@
 			<body>GR_QuadrupedAnimalWithBeak</body>
 			<baseHungerRate>0.35</baseHungerRate>
 			<wildness>0.70</wildness>
-			<baseBodySize>0.5</baseBodySize>
+			<baseBodySize>0.81</baseBodySize>
 			<baseHealthScale>0.75</baseHealthScale>
 			<lifeExpectancy>15</lifeExpectancy>
 			<gestationPeriodDays>10</gestationPeriodDays>
