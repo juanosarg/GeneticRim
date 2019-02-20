@@ -2,37 +2,7 @@
 <Defs>
 
 	<!--=============== Human Hybrid Implants ====================-->
-	<HediffDef ParentName="GR_HybridPartsBase">
-		<defName>GR_TestImplant</defName>
-		<label>test implant</label>
-		<stages>
-			<li>
-				<statOffsets>
-					<MeatAmount>200</MeatAmount>
-					<CarryingCapacity>30</CarryingCapacity>
-					<ComfyTemperatureMin>-20</ComfyTemperatureMin>
-					
-				</statOffsets>
-				<capMods>
-					<li>
-						<capacity>Sight</capacity>
-						<offset>0.15</offset>
-					</li>
-					<li>
-						<capacity>Hearing</capacity>
-						<offset>0.15</offset>
-					</li>
-				</capMods>
-			</li>
-
-		</stages>
-		<spawnThingOnRemoved>GR_TestImplant</spawnThingOnRemoved>
-		<addedPartProps>
-		
-			<partEfficiency>1.1</partEfficiency>
-		</addedPartProps>
-
-	</HediffDef>
+	
 
 	<HediffDef ParentName="GR_HybridPartsBase">
 		<defName>GR_BearClaws</defName>
@@ -59,6 +29,24 @@
 			<partEfficiency>1.1</partEfficiency>
 		</addedPartProps>
 
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_BearMuscleTissue</defName>
+		<label>humanoid implant: bear muscle tissue</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<MaxHitPoints>50</MaxHitPoints>
+					<CarryingCapacity>15</CarryingCapacity>
+					
+				</statOffsets>
+				
+			</li>
+
+		</stages>
+		<spawnThingOnRemoved>GR_BearMuscleTissue</spawnThingOnRemoved>
+		
 	</HediffDef>
 
 	<HediffDef ParentName="GR_HybridPartsBase">
@@ -161,6 +149,24 @@
 		<spawnThingOnRemoved>GR_WolfMuscularFibers</spawnThingOnRemoved>
 
 
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_NeuronReinforcement</defName>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<label>humanoid implant: animal neuron reinforcement</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<MaxHitPoints>50</MaxHitPoints>
+					<CarryingCapacity>15</CarryingCapacity>
+					
+				</statOffsets>
+				
+			</li>	 
+		</stages>
+
+		<spawnThingOnRemoved>GR_WolfMuscularFibers</spawnThingOnRemoved>
 	</HediffDef>
 
 	<HediffDef ParentName="GR_HybridPartsBase">

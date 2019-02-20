@@ -54,6 +54,58 @@
 			<GR_BearClaws>1</GR_BearClaws>
 		</products>
 	</RecipeDef>
+	
+		<RecipeDef>
+		<defName>GR_CraftBearMuscleTissue</defName>
+		<label>Human Implant: bear muscle tissue</label>
+		<description>Craft bear muscle tissue, a hybrid implant containing humanoid and bear DNA that adds strength and stamina.</description>
+		<jobString>Crafting Bear Muscle Tissue</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>GR_TissueGrowingVat</li>	  
+		</recipeUsers>	
+		<ingredients>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BearGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_BearGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<products>
+			<GR_BearMuscleTissue>1</GR_BearMuscleTissue>
+		</products>
+	</RecipeDef>
 
 	<RecipeDef>
 		<defName>GR_CraftOvipositor</defName>

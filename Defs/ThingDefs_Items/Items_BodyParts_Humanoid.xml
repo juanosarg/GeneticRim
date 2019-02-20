@@ -38,6 +38,18 @@
 			<li>AdvancedWeapon</li>
 		</techHediffsTags>
 	</ThingDef>
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_BearMuscleTissue</defName>
+		<label>human Implant: bear muscle tissue</label>
+		<description>Grafts of bear muscle tissue on the subject's torso increase overall strength and stamina. These grafts however tend to stimulate the production of an abundance of body hair.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+		
+	</ThingDef>
 
 	<ThingDef ParentName="GR_HumanImplantBase">
 		<defName>GR_Ovipositor</defName>
