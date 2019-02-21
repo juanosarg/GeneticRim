@@ -368,8 +368,8 @@
 			<body>Bird</body>
 			<herdAnimal>false</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
-			<baseBodySize>1</baseBodySize>
-			<baseHealthScale>1</baseHealthScale>
+			<baseBodySize>0.75</baseBodySize>
+			<baseHealthScale>1.2</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<baseHungerRate>0.001</baseHungerRate>
 			<trainability>Advanced</trainability>

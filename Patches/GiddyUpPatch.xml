@@ -360,10 +360,426 @@
 				
 			</value>
 		</li>
-
 		
-
-
+		<li Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "GR_Boomabear"]/comps</xpath> 
+			<value>
+				<li Class="GiddyUpCore.CompProperties_Overlay">
+					<overlaySide> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Boomalope/Saddle_Boomalopes/GR_Saddle_Boomalopes_east</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlaySide>
+					<overlayFront> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Boomalope/Saddle_Boomalopes/GR_Saddle_Boomabear_south</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlayFront>
+					<overlayBack> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Boomalope/Saddle_Boomalopes/GR_Saddle_Boomalopes_north</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlayBack>
+					
+				</li>
+				
+			</value>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "GR_Boombeetle"]/comps</xpath> 
+			<value>
+				<li Class="GiddyUpCore.CompProperties_Overlay">
+					<overlaySide> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Boomalope/Saddle_Boomalopes/GR_Saddle_Boomalopes_east</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0.117,0,0.23,0)</offsetDefault>
+					</overlaySide>
+					<overlayFront> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Boomalope/Saddle_Boomalopes/GR_Saddle_Boombeetle_south</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlayFront>
+					<overlayBack> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Boomalope/Saddle_Boomalopes/GR_Saddle_Boomalopes_north</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0.23,0)</offsetDefault>
+					</overlayBack>
+					
+				</li>
+				
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "GR_Boomffalo"]/comps</xpath> 
+			<value>
+				<li Class="GiddyUpCore.CompProperties_Overlay">
+					<overlaySide> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Boomalope/Saddle_Boomalopes/GR_Saddle_Boomalopes_east</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlaySide>
+					<overlayFront> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Boomalope/Saddle_Boomalopes/GR_Saddle_Boomfallo_south</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlayFront>
+					<overlayBack> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Boomalope/Saddle_Boomalopes/GR_Saddle_Boomalopes_north</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlayBack>
+					
+				</li>
+				
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "GR_Boomsnake"]/comps</xpath> 
+			<value>
+				<li Class="GiddyUpCore.CompProperties_Overlay">
+					<overlaySide> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Boomalope/Saddle_Boomalopes/GR_Saddle_Boomalopes_east</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>2.5</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0.215,0)</offsetDefault>
+					</overlaySide>
+					<overlayFront> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Boomalope/Saddle_Boomalopes/GR_Saddle_Boomalopes_south</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>2.5</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlayFront>
+					<overlayBack> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Boomalope/Saddle_Boomalopes/GR_Saddle_Boomalopes_north</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>2.5</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlayBack>
+					
+				</li>
+				
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "GR_Boomwolf"]/comps</xpath> 
+			<value>
+				<li Class="GiddyUpCore.CompProperties_Overlay">
+					<overlaySide> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Boomalope/Saddle_Boomalopes/GR_Saddle_Boomalopes_east</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlaySide>
+					<overlayFront> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Boomalope/Saddle_Boomalopes/GR_Saddle_Boomwolf_south</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlayFront>
+					<overlayBack> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Boomalope/Saddle_Boomalopes/GR_Saddle_Boomalopes_north</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlayBack>
+					
+				</li>
+				
+			</value>
+		</li>
+		
+		
+		<li Class="PatchOperationAddModExtension">
+			<xpath>/Defs/ThingDef[defName = "GR_Chickenspider"]</xpath> 
+			<value>
+				<li Class="GiddyUpCore.DrawingOffsetPatch">
+					<eastOffsetCSV>-0.16,0,0.35</eastOffsetCSV>
+					<westOffsetCSV>0.16,0,0.35</westOffsetCSV>
+					<southOffsetCSV>0,0,0.25</southOffsetCSV>
+				</li>				
+			</value>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "GR_Chickenspider"]/comps</xpath> 
+			<value>
+				<li Class="GiddyUpCore.CompProperties_Overlay">
+					<overlaySide> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Chicken/Saddle_Chickens/GR_Saddle_Chickens_east</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>2.75</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlaySide>
+					<overlayFront> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Chicken/Saddle_Chickens/GR_Saddle_Chickenspider_south</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>2.75</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlayFront>
+					<overlayBack> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Chicken/Saddle_Chickens/GR_Saddle_Chickens_north</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>2.75</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlayBack>
+					
+				</li>
+				
+			</value>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "GR_Mechabear"]/comps</xpath> 
+			<value>
+				<li Class="GiddyUpCore.CompProperties_Overlay">
+					<overlaySide> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Mechanoid/Saddle_Mechanoids/GR_Saddle_Mechanoids_east</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlaySide>
+					<overlayFront> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Mechanoid/Saddle_Mechanoids/GR_Saddle_Mechanoids_south</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlayFront>
+					<overlayBack> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Mechanoid/Saddle_Mechanoids/GR_Saddle_Mechanoids_north</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlayBack>
+					
+				</li>
+				
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "GR_Mechalope"]/comps</xpath> 
+			<value>
+				<li Class="GiddyUpCore.CompProperties_Overlay">
+					<overlaySide> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Mechanoid/Saddle_Mechanoids/GR_Saddle_Mechanoids_east</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0.15,0,-0.68,0)</offsetDefault>
+					</overlaySide>
+					<overlayFront> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Mechanoid/Saddle_Mechanoids/GR_Saddle_Mechalope_south</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlayFront>
+					<overlayBack> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Mechanoid/Saddle_Mechanoids/GR_Saddle_Mechanoids_north</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,-0.68,0)</offsetDefault>
+					</overlayBack>
+					
+				</li>
+				
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "GR_Mechamuffalo"]/comps</xpath> 
+			<value>
+				<li Class="GiddyUpCore.CompProperties_Overlay">
+					<overlaySide> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Mechanoid/Saddle_Mechanoids/GR_Saddle_Mechanoids_east</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>4</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(-0.31,0,-0.2,0)</offsetDefault>
+					</overlaySide>
+					<overlayFront> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Mechanoid/Saddle_Mechanoids/GR_Saddle_Mechamuffalo_south</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>4</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlayFront>
+					<overlayBack> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Mechanoid/Saddle_Mechanoids/GR_Saddle_Mechanoids_north</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>4</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlayBack>
+					
+				</li>
+				
+			</value>
+		</li>
+		<li Class="PatchOperationAddModExtension">
+			<xpath>/Defs/ThingDef[defName = "GR_Mechaspider"]</xpath> 
+			<value>
+				<li Class="GiddyUpCore.DrawingOffsetPatch">
+					<eastOffsetCSV>0,0,2</eastOffsetCSV>
+					<westOffsetCSV>0,0,2</westOffsetCSV>
+					<northOffsetCSV>0,0,2</northOffsetCSV>
+					<southOffsetCSV>0,0,2</southOffsetCSV>
+					
+				</li>				
+			</value>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "GR_Mechaspider"]/comps</xpath> 
+			<value>
+				<li Class="GiddyUpCore.CompProperties_Overlay">
+					<overlaySide> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Mechanoid/Saddle_Mechanoids/GR_Saddle_Mechanoids_east</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>4</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0.93,0,0.4,0)</offsetDefault>
+					</overlaySide>
+					<overlayFront> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Mechanoid/Saddle_Mechanoids/GR_Saddle_Mechanoids_south</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>4</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlayFront>
+					<overlayBack> 
+						<graphicDataDefault>
+					<texPath>Things/Pawn/Animal/Mechanoid/Saddle_Mechanoids/GR_Saddle_Mechanoids_north</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>4</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0,0)</offsetDefault>
+					</overlayBack>
+					
+				</li>
+				
+			</value>
+		</li>
 
 		</operations>
 	</Operation>
