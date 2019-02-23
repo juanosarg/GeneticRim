@@ -1306,6 +1306,45 @@
 			</value>
 		</li>
 		
+		<li Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "GR_Beaverwolf"]/comps</xpath> 
+			<value>
+				<li Class="GiddyUpCore.CompProperties_Overlay">
+					<overlaySide> 
+						<graphicDataDefault>
+							<texPath>Things/Pawn/Animal/Rodent/Saddle_Rodents/GR_Saddle_Rodents_east</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0.1,0)</offsetDefault>
+					</overlaySide>
+					<overlayFront> 
+						<graphicDataDefault>
+							<texPath>Things/Pawn/Animal/Rodent/Saddle_Rodents/GR_Saddle_Squirralope_south</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0.1,0)</offsetDefault>
+					</overlayFront>
+					<overlayBack> 
+						<graphicDataDefault>
+							<texPath>Things/Pawn/Animal/Rodent/Saddle_Rodents/GR_Saddle_Rodents_north</texPath>
+						  <graphicClass>Graphic_Single</graphicClass>
+						  <drawSize>3</drawSize>
+						  <drawRotated>false</drawRotated>
+						  <shaderType>MetaOverlay</shaderType>
+						</graphicDataDefault>					
+					    <offsetDefault>(0,0,0.1,0)</offsetDefault>
+					</overlayBack>
+				</li>
+				
+			</value>
+		</li>
+		
 		
 		
 		</operations>
