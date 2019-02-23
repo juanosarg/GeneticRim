@@ -344,7 +344,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_AlphaBoomalope</defName>
 		<label>paragon boomalope</label>
-		<description>This tall, lean ungulate usually acts as the dominant individual on a herd of boomalopes. More resistant and stronger than regular boomalopes, the alpha boomalopes also carry greater quantities of unstable chemical filled sacs, so no predator wants to even get close to them.\n\nUseful abilities: Paragon boomalopes explode when killed, with greater force than regular boomalopes. They also produce large amounts of chemfuel.</description>
+		<description>This tall, lean ungulate usually acts as the dominant individual on a herd of boomalopes. More resistant and stronger than regular boomalopes, the paragon boomalopes also carry greater quantities of unstable chemical filled sacs, so no predator wants to even get close to them.\n\nUseful abilities: Paragon boomalopes explode when killed, with greater force than regular boomalopes. They also produce large amounts of chemfuel.</description>
 		<statBases>
 			<MoveSpeed>2.75</MoveSpeed>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
