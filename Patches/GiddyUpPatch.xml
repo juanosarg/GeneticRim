@@ -1588,6 +1588,54 @@
 
 				</value>
 			</li>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>/Defs/ThingDef[defName = "GR_Thrumbolizard"]</xpath> 
+				<value>
+					<li Class="GiddyUpCore.DrawingOffsetPatch">
+						<eastOffsetCSV>0.4,0,0</eastOffsetCSV>
+						<westOffsetCSV>-0.4,0,0</westOffsetCSV>
+						
+					</li>				
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "GR_Thrumbolizard"]/comps</xpath> 
+				<value>
+					<li Class="GiddyUpCore.CompProperties_Overlay">
+						<overlaySide> 
+							<graphicDataDefault>
+								<texPath>Things/Pawn/Animal/Thrumbos/Saddle_Thrumbos/GR_Saddle_Thrumbos_east</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+								<drawSize>4.8</drawSize>
+								<drawRotated>false</drawRotated>
+								<shaderType>MetaOverlay</shaderType>
+							</graphicDataDefault>					
+							<offsetDefault>(0,0,-0.92,0)</offsetDefault>
+						</overlaySide>
+						<overlayFront> 
+							<graphicDataDefault>
+								<texPath>Things/Pawn/Animal/Thrumbos/Saddle_Thrumbos/GR_Saddle_Thrumbos_south</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+								<drawSize>4.8</drawSize>
+								<drawRotated>false</drawRotated>
+								<shaderType>MetaOverlay</shaderType>
+							</graphicDataDefault>					
+							<offsetDefault>(0,0,-0.92,0)</offsetDefault>
+						</overlayFront>
+						<overlayBack> 
+							<graphicDataDefault>
+								<texPath>Things/Pawn/Animal/Thrumbos/Saddle_Thrumbos/GR_Saddle_Thrumbos_north</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+								<drawSize>4.8</drawSize>
+								<drawRotated>false</drawRotated>
+								<shaderType>MetaOverlay</shaderType>
+							</graphicDataDefault>					
+							<offsetDefault>(0,0,-0.92,0)</offsetDefault>
+						</overlayBack>
+					</li>
+
+				</value>
+			</li>
 
 		</operations>
 	</Operation>
