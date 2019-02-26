@@ -380,7 +380,7 @@
       <li>BuildingsProduction</li>
     </thingCategories>
     <thingClass>Building_WorkTable</thingClass>
-    <description>Accelerates growth of organic structures, allowing accelerated development of genetically manipulated hybrid implants.</description>
+    <description>Accelerates growth of organic structures, allowing accelerated development of genetically manipulated hybrid implants. This building is used for both hybrid animal implants and humanoid implants.</description>
     <graphicData>
       <texPath>Things/Building/GR_TissueGrowingVat</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -430,7 +430,7 @@
         </linkableFacilities>
       </li>
     </comps>
-    <researchPrerequisites><li>GR_HumanoidGeneticEngineering</li></researchPrerequisites>
+    <researchPrerequisites><li>GR_GeneticEngineering</li></researchPrerequisites>
 		<designationCategory>GR_GeneticsTab</designationCategory>
 
   </ThingDef>

@@ -172,6 +172,8 @@
 		<recipeUsers>
 			<li>GR_TissueGrowingVat</li>
 		</recipeUsers>
+		<researchPrerequisite>GR_HybridImplantology</researchPrerequisite>
+
 	</RecipeDef>
 
 	<!--=============== Legs ====================-->

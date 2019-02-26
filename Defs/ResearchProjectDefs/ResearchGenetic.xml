@@ -51,7 +51,7 @@
     <label>humanoid genetic engineering</label>
     <tab>GR_GeneticReseach</tab>
     <techLevel>Industrial</techLevel>
-    <description>Allows humanoid gene extraction, and allows mixing of human and animal DNA to create animal implants. Also opens up experimenting with hybrid implants, used to improve your hybrid creatures with incredibly weird combinations.</description>
+    <description>Allows humanoid gene extraction, and allows mixing of human and animal DNA to create hybrid human-animal implants. All these implants are created in a Tissue Growing Vat</description>
     <baseCost>1250</baseCost>
     <prerequisites>
         <li>GR_GeneticEngineering</li>
@@ -59,6 +59,21 @@
    
     <researchViewX>0</researchViewX>
     <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  
+    <ResearchProjectDef>
+    <defName>GR_HybridImplantology</defName>
+    <label>hybrid implantology</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Opens up experimenting with animal hybrid implants, used to improve your hybrid creatures with incredibly weird combinations. These hybrid implants are all created in a Tissue Growing Vat, and can be also used in base, non-hybrid animals (modded animals need a patch).</description>
+    <baseCost>1250</baseCost>
+    <prerequisites>
+        <li>GR_GeneticEngineering</li>
+    </prerequisites>
+   
+    <researchViewX>0</researchViewX>
+    <researchViewY>2</researchViewY>
   </ResearchProjectDef>
   
    <ResearchProjectDef>
@@ -76,7 +91,7 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
     <researchViewX>0</researchViewX>
-    <researchViewY>2</researchViewY>
+    <researchViewY>3</researchViewY>
   </ResearchProjectDef>
   
   <ResearchProjectDef>
@@ -95,7 +110,7 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
     <researchViewX>0</researchViewX>
-    <researchViewY>3</researchViewY>
+    <researchViewY>4</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>

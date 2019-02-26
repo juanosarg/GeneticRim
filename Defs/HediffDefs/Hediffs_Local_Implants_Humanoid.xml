@@ -19,16 +19,30 @@
 						<cooldownTime>1</cooldownTime>
 					</li>
 				</tools>
-
 			</li>
-
 		</comps>
 		<spawnThingOnRemoved>GR_BearClaws</spawnThingOnRemoved>
 		<addedPartProps>
 			<isGoodWeapon>true</isGoodWeapon>
 			<partEfficiency>1.1</partEfficiency>
 		</addedPartProps>
-
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_DiggingBearClaws</defName>
+		<label>humanoid implant: digging bear claws</label>
+		<spawnThingOnRemoved>GR_DiggingBearClaws</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MiningSpeed>0.25</MiningSpeed>
+					<MiningYield>0.15</MiningYield>					
+				</statOffsets>				
+			</li>
+		</stages>
 	</HediffDef>
 	
 	<HediffDef ParentName="GR_HybridPartsBase">
@@ -38,22 +52,36 @@
 			<li>
 				<statOffsets>
 					<MaxHitPoints>50</MaxHitPoints>
-					<CarryingCapacity>15</CarryingCapacity>
-					
-				</statOffsets>
-				
+					<CarryingCapacity>10</CarryingCapacity>					
+				</statOffsets>				
 			</li>
-
 		</stages>
-		<spawnThingOnRemoved>GR_BearMuscleTissue</spawnThingOnRemoved>
-		
+		<spawnThingOnRemoved>GR_BearMuscleTissue</spawnThingOnRemoved>		
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_HibernationModule</defName>
+		<label>humanoid implant: hibernation module</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<RestRateMultiplier>-0.5</RestRateMultiplier>				
+				</statOffsets>				
+			</li>
+		</stages>
+		<spawnThingOnRemoved>GR_HibernationModule</spawnThingOnRemoved>		
 	</HediffDef>
 
 	<HediffDef ParentName="GR_HybridPartsBase">
 		<defName>GR_Ovipositor</defName>
 		<label>humanoid implant: ovipositor</label>
 				<hediffClass>Hediff_Implant</hediffClass>
-
 		<stages>
 			<li>
 				<painOffset>0.1</painOffset>
@@ -61,21 +89,17 @@
 			</li>
 		</stages>
 		<comps>
-
 			<li Class="NewHatcher.HediffCompProperties_Hatcher">
 				<hatcherDaystoHatch>.5</hatcherDaystoHatch>
 			</li>
 		</comps>
 		<spawnThingOnRemoved>GR_Ovipositor</spawnThingOnRemoved>
-
-
 	</HediffDef>
 	
 		<HediffDef ParentName="GR_HybridPartsBase">
 		<defName>GR_MuffaloMammaries</defName>
 		<label>humanoid implant: muffalo mammaries</label>
 				<hediffClass>Hediff_Implant</hediffClass>
-
 		<stages>
 			<li>
 				<painOffset>0.1</painOffset>
@@ -83,52 +107,100 @@
 			</li>
 		</stages>
 		<comps>
-
 			<li Class="NewHatcher.HediffCompProperties_Milker">
 				<hatcherDaystoHatch>.5</hatcherDaystoHatch>
 			</li>
 		</comps>
 		<spawnThingOnRemoved>GR_MuffaloMammaries</spawnThingOnRemoved>
-
-
 	</HediffDef>
 
 	<HediffDef ParentName="GR_HybridPartsBase">
 		<defName>GR_MuffaloMuscles</defName>
 		<label>humanoid implant: muffalo strengthened muscles</label>
 				<hediffClass>Hediff_Implant</hediffClass>
-
 		<stages>
 			<li>
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
-						<offset>0.2</offset>
+						<offset>0.25</offset>
 					</li>
-
 				</capMods>
 			</li>	 
 		</stages>
-
 		<spawnThingOnRemoved>GR_MuffaloMuscles</spawnThingOnRemoved>
-
-
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MuffaloSkin</defName>
+		<label>humanoid implant: muffalo skin</label>
+				<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMin>-15</ComfyTemperatureMin>	
+					<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.05</ArmorRating_Heat>					
+				</statOffsets>
+			</li>	 
+		</stages>
+		<spawnThingOnRemoved>GR_MuffaloSkin</spawnThingOnRemoved>
 	</HediffDef>
 
 	<HediffDef ParentName="GR_HybridPartsBase">
 		<defName>GR_BoomalopeNodules</defName>
 		<label>humanoid implant: boomalope nodules</label>
 		<hediffClass>Hediff_Implant</hediffClass>
-
 		<comps>
-
 			<li Class="NewHatcher.HediffCompProperties_Exploder">
 				<explosionForce>6</explosionForce>
 			</li>
 		</comps>
 		<spawnThingOnRemoved>GR_BoomalopeNodules</spawnThingOnRemoved>
-
-
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_ChemfuelStomach</defName>
+		<label>humanoid implant: chemfuel stomach</label>
+		<hediffClass>Hediff_Implant</hediffClass>
+		
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<HungerRateMultiplier>-0.25</HungerRateMultiplier>					
+				</statOffsets>
+			</li>	 
+		</stages>
+		<spawnThingOnRemoved>GR_ChemfuelStomach</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_ChemfuelHeart</defName>
+		<label>humanoid implant: chemfuel heart</label>
+		<hediffClass>Hediff_Implant</hediffClass>
+		
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<WorkSpeedGlobal>0.1</WorkSpeedGlobal>					
+				</statOffsets>
+			</li>	 
+		</stages>
+		
+		<spawnThingOnRemoved>GR_ChemfuelHeart</spawnThingOnRemoved>
 	</HediffDef>
 
 	<HediffDef ParentName="GR_HybridPartsBase">
@@ -145,30 +217,87 @@
 				</capMods>
 			</li>	 
 		</stages>
-
 		<spawnThingOnRemoved>GR_WolfMuscularFibers</spawnThingOnRemoved>
-
-
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_DevouringJaws</defName>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<label>humanoid implant: devouring jaws</label>
+		
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<EatingSpeed>0.5</EatingSpeed>					
+				</statOffsets>
+			</li>	 
+		</stages>
+		<spawnThingOnRemoved>GR_DevouringJaws</spawnThingOnRemoved>
 	</HediffDef>
 	
 	<HediffDef ParentName="GR_HybridPartsBase">
 		<defName>GR_NeuronReinforcement</defName>
 		<hediffClass>Hediff_Implant</hediffClass>
-		<label>humanoid implant: animal neuron reinforcement</label>
+		
+		<label>humanoid implant: neuron reinforcement</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<GlobalLearningFactor>0.1</GlobalLearningFactor>
+					<ResearchSpeed>0.15</ResearchSpeed>					
+				</statOffsets>				
+			</li>	 
+		</stages>
+		<spawnThingOnRemoved>GR_NeuronReinforcement</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MousePheromones</defName>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<addedPartProps>
+			<partEfficiency>1.1</partEfficiency>
+		</addedPartProps>
+		<label>humanoid implant: mouse pheromones</label>
 		<stages>
 			<li>
 				<statOffsets>
-					<MaxHitPoints>50</MaxHitPoints>
-					<CarryingCapacity>15</CarryingCapacity>
-					
-				</statOffsets>
-				
+					<TameAnimalChance>0.1</TameAnimalChance>
+					<TrainAnimalChance>0.1</TrainAnimalChance>					
+				</statOffsets>				
 			</li>	 
 		</stages>
-
-		<spawnThingOnRemoved>GR_WolfMuscularFibers</spawnThingOnRemoved>
+		<spawnThingOnRemoved>GR_MousePheromones</spawnThingOnRemoved>
 	</HediffDef>
-
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MoleratNerveDampener</defName>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<addedPartProps>
+			<partEfficiency>1.1</partEfficiency>
+		</addedPartProps>
+		<label>humanoid implant: mole-rat nerve dampener</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<PainShockThreshold>0.1</PainShockThreshold>									
+				</statOffsets>				
+			</li>	 
+		</stages>
+		<spawnThingOnRemoved>GR_MoleratNerveDampener</spawnThingOnRemoved>
+	</HediffDef>
+	
 	<HediffDef ParentName="GR_HybridPartsBase">
 		<defName>GR_BunnyEars</defName>
 		<label>humanoid implant: bunny ears</label>
@@ -182,10 +311,7 @@
 				</capMods>
 			</li>	 
 		</stages>
-
 		<spawnThingOnRemoved>GR_BunnyEars</spawnThingOnRemoved>
-
-
 	</HediffDef>
 
 	<HediffDef ParentName="GR_HybridPartsBase">
@@ -204,12 +330,40 @@
 					</li>
 				</capMods>
 			</li>
-
 		</stages>
-
 		<spawnThingOnRemoved>GR_InsectoidAntennae</spawnThingOnRemoved>
-
-
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_PsychicDampeners</defName>
+		<label>humanoid implant: psychic dampeners</label>
+		<addedPartProps>
+			<partEfficiency>1.2</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<PsychicSensitivity>-0.25</PsychicSensitivity>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>GR_PsychicDampeners</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_KidneyToxicFilters</defName>
+		<label>humanoid implant: kidney toxic filters</label>
+		<addedPartProps>
+			<partEfficiency>1.2</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ToxicSensitivity>-0.25</ToxicSensitivity>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>GR_KidneyToxicFilters</spawnThingOnRemoved>
 	</HediffDef>
 
 	<HediffDef ParentName="GR_HybridPartsBase">
@@ -223,10 +377,8 @@
 						<capacity>Sight</capacity>
 						<offset>-0.1</offset>
 					</li>
-
 				</capMods>
 			</li>
-
 		</stages>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
@@ -240,13 +392,28 @@
 						<cooldownTime>.9</cooldownTime>
 					</li>
 				</tools>
-
 			</li>
 		</comps>
-
 		<spawnThingOnRemoved>GR_HumanThrumboHorn</spawnThingOnRemoved>
-
-
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_ThrumboSkin</defName>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<label>humanoid implant: thrumbo skin</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMax>15</ComfyTemperatureMax>	
+					<ComfyTemperatureMin>-15</ComfyTemperatureMin>	
+					<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.2</ArmorRating_Heat>					
+				</statOffsets>
+			</li>
+		</stages>
+		
+		<spawnThingOnRemoved>GR_ThrumboSkin</spawnThingOnRemoved>
 	</HediffDef>
 
 	<HediffDef ParentName="GR_HybridPartsBase">
@@ -259,10 +426,8 @@
 						<capacity>Talking</capacity>
 						<offset>-0.1</offset>
 					</li>
-
 				</capMods>
 			</li>
-
 		</stages>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
@@ -276,15 +441,29 @@
 						<cooldownTime>1</cooldownTime>
 					</li>
 				</tools>
-
 			</li>
 		</comps>
-
 		<spawnThingOnRemoved>GR_VenomousFangs</spawnThingOnRemoved>
 		<addedPartProps>
 			<isGoodWeapon>true</isGoodWeapon>
 		</addedPartProps>
-
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_IguanaScales</defName>
+		<label>humanoid implant: iguana scales</label>
+				<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMax>15</ComfyTemperatureMax>	
+					<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.05</ArmorRating_Heat>					
+				</statOffsets>
+			</li>	 
+		</stages>
+		<spawnThingOnRemoved>GR_IguanaScales</spawnThingOnRemoved>
 	</HediffDef>
 
 </Defs>
