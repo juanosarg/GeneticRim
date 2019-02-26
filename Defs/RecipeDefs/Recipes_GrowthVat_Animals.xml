@@ -1017,7 +1017,7 @@
 		<defName>GR_MechaSpine</defName>
 		<label>animal Implant: mechanoid spine (tier 3)</label>
 		<description>Craft a bionic implant adding a plasteel structure with active mechanites to the creature's skeletal system.</description>
-		<jobString>Making crocodile spine implant.</jobString>
+		<jobString>Making mechanoid spine implant.</jobString>
 		<ingredients>
 			<li>
 				<filter>
