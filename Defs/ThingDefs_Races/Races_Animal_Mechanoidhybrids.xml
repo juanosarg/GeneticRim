@@ -570,7 +570,7 @@
 		<defName>GR_Mechamuffalo</defName>
 		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
 		<label>mecha-muffalo</label>
-		<description>This hulking cybernetic organism has been reinforced with an adaptive plasteel mesh, enabling it to carry an incredible amount of stuff. The mecha-muffalo is the perfect pack animal, but it is quite useless in an offensive role. Defensively, however, it is armed with a smoke cannon that it can use to cover the battlefield in a dense cloud of dust. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components.\n\nUseful abilities: As long as a tamer is near to direct it, the mecha-muffalo can use its smoke cannon to scramble enemy sight. Like all mechanoid hybrids it produces industrial components every couple days. It also produces a weird metallic wool, and metallic tasting milk.</description>
+		<description>This hulking cybernetic organism has been reinforced with an adaptive plasteel mesh, enabling it to carry an incredible amount of stuff. The mecha-muffalo is the perfect pack animal, but it is quite useless in an offensive role. Defensively, however, it is armed with a smoke cannon that it can use to cover the battlefield in a dense cloud of dust. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components. (due to game limitations, the Mechamuffalo consumes around 0.01 nutrition, enough to avoid messing up caravan calculations)\n\nUseful abilities: As long as a tamer is near to direct it, the mecha-muffalo can use its smoke cannon to scramble enemy sight. Like all mechanoid hybrids it produces industrial components every couple days. It also produces a weird metallic wool, and metallic tasting milk.</description>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<statBases>
 			<MoveSpeed>3.2</MoveSpeed>
@@ -659,7 +659,7 @@
 			<baseBodySize>13</baseBodySize>
 			<baseHealthScale>6</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
-			<baseHungerRate>0.001</baseHungerRate>
+			<baseHungerRate>0.01</baseHungerRate>
 			<trainability>Advanced</trainability>
 			<needsRest>true</needsRest>
 			<hasGenders>false</hasGenders>

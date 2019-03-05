@@ -81,6 +81,71 @@
 		
 	</RecipeDef>
 	
+	  <RecipeDef>
+    <defName>GR_CraftMechanoidInterfaceChip</defName>
+    <label>make mechanoid interface chip</label>
+    <description>Make a mechanoid interface chip. This is a very wasteful and expensive method, but useful if you can't get any mechanoid ship parts dropping from the sky.</description>
+    <jobString>Making mechanoid interface chip.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>10000</workAmount>
+    <unfinishedThingDef>GR_UnfinishedMechanoidInterfaceChip</unfinishedThingDef>
+	<recipeUsers>
+				<li>FabricationBench</li>	  
+		</recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>600</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>250</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>150</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentSpacer</li>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>Gold</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <GR_MechanoidInterfaceChip>1</GR_MechanoidInterfaceChip>
+    </products>
+    <researchPrerequisite>AdvancedFabrication</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+	
 	
  
 

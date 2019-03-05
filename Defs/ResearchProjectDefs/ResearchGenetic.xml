@@ -95,11 +95,26 @@
   </ResearchProjectDef>
   
   <ResearchProjectDef>
+    <defName>GR_GeneDuplication</defName>
+    <label>gene duplication</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Allows construction of the gene duplicator, a building that can duplicate most genes in exchange for organic pulp, except Thrumbo and Mechanoid genes. It also won't work on Eldritch, Alpha, Megafauna or Dinosaur genes.</description>
+    <baseCost>2500</baseCost>
+    <prerequisites>
+      <li>GR_AdvancedGeneticEngineering</li>
+    </prerequisites>
+    
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
     <defName>GR_AdvancedMechaniteBioIntegration</defName>
     <label>advanced mechanite bio-integration</label>
     <tab>GR_GeneticReseach</tab>
     <techLevel>Spacer</techLevel>
-    <description>Allows extraction of active mechanites from hostile mechanoids to mix them with genes with other creatures (tier 3). Mechanoid hybrids also need a mechanoid interface chips, which can be obtained from crashed mechanoid ships (both psychic and poison).</description>
+    <description>Allows extraction of active mechanites from hostile mechanoids to mix them with genes with other creatures (tier 3). Mechanoid hybrids (except mecharats) also need a mechanoid interface chip, which can be obtained from crashed mechanoid ships (both psychic and poison) or very expensively built in a Fabrication Table if you research Advanced Fabrication.</description>
     <baseCost>10000</baseCost>
     <prerequisites>
         <li>GR_AdvancedGeneticEngineering</li>

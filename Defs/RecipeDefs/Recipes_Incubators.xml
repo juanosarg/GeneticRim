@@ -2210,16 +2210,9 @@
 						<li>GR_MechanoidGenetic</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>3</count>
 			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>GR_MechanoidInterfaceChip</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
+			
 		</ingredients>
 		<fixedIngredientFilter>
 
@@ -2227,7 +2220,7 @@
 				<li>GR_EmptyIncubator</li>
 				<li>GR_RodentGenetic</li>
 				<li>GR_MechanoidGenetic</li>
-				<li>GR_MechanoidInterfaceChip</li>
+				
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -2235,7 +2228,7 @@
 		</products>
 		<researchPrerequisite>GR_AdvancedMechaniteBioIntegration</researchPrerequisite>
 		<skillRequirements>
-			<Intellectual>10</Intellectual>
+			<Intellectual>8</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	

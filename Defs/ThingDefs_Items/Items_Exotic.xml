@@ -31,6 +31,19 @@
       <li>ExoticMisc</li>
     </tradeTags>
   </ThingDef>
+  
+    <ThingDef ParentName="UnfinishedBase">
+    <defName>GR_UnfinishedMechanoidInterfaceChip</defName>
+    <label>unfinished mechanoid interface chip</label>
+    <statBases>
+      <Flammability>0.6</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedComponent</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories Inherit="false" />
+  </ThingDef>
 
 
 

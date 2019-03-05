@@ -338,7 +338,7 @@
 		<defName>GR_CraftMuffaloSkin</defName>
 		<label>Human Implant: muffalo skin</label>
 		<description>Craft muffalo skin, a synthetic skin substitute that is much thicker and a much better insulator than human skin. This provides a measure of defense but, more importantly, makes the subject more resistant to low temperatures.</description>
-		<jobString>Crafting muffalo mammaries</jobString>		
+		<jobString>Crafting muffalo skin</jobString>		
 		<ingredients>
 			<li>
 				<filter>

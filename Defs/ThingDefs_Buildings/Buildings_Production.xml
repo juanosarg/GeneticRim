@@ -435,6 +435,71 @@
 
   </ThingDef>
   
+    <ThingDef ParentName="BuildingBase">
+    <defName>GR_GeneDuplicator</defName>
+    <label>gene duplicator</label>
+	<canOverlapZones>false</canOverlapZones>
+    <minifiedDef>MinifiedThing</minifiedDef>
+	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>This advanced machine can be used to grow and duplicate almost any kind of genetic material. It consumes a large amount of organic pulp and most of it is wasted on the process. Also, tt won't work on Thrumbo and Mechanoid genes.</description>
+    <graphicData>
+      <texPath>Things/Building/GR_GeneDuplicator</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,3.5)</drawSize>
+     
+    </graphicData>
+	
+    <castEdgeShadows>false</castEdgeShadows>
+    <costList>
+      <Steel>250</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+	  <GR_OrganicPulp>4</GR_OrganicPulp>
+
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+	<Mass>50</Mass>
+      <WorkToBuild>500</WorkToBuild>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(2,2)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+   
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+	<comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>120</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>GR_NutrientVat</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <researchPrerequisites><li>GR_GeneDuplication</li></researchPrerequisites>
+		<designationCategory>GR_GeneticsTab</designationCategory>
+
+  </ThingDef>
+  
   <ThingDef ParentName="BenchBase">
     <defName>GR_AlphaSerumExtractionTable</defName>
     <label>paragon serum extraction table</label>
