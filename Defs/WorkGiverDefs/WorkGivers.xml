@@ -107,6 +107,23 @@
 	</WorkGiverDef>
 	
 	<WorkGiverDef>
+		<defName>GR_DoBillsGeneDuplicator</defName>
+		<label>works at gene duplicator</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>GR_GeneDuplicator</li>
+		</fixedBillGiverDefs>
+		<verb>duplicating genes</verb>
+		<gerund>duplicating genes at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
 		<defName>GR_DoBillsVat</defName>
 		<label>works at tissue growing vat</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
