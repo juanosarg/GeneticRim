@@ -1172,7 +1172,7 @@
 				<accuracyLong>0.8</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GR_Warhead</defaultProjectile>
-				<warmupTime>12</warmupTime>
+				<warmupTime>5</warmupTime>
 				<burstShotCount>1</burstShotCount>
 				<minRange>10</minRange>
 				<range>60</range>
