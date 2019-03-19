@@ -50,12 +50,15 @@
     <Compile Include="CompInitialHediff.cs" />
     <Compile Include="CompLightsustenance.cs" />
     <Compile Include="CompAnimalProduct.cs" />
+    <Compile Include="CompProperties_HybridGenesUseEffect.cs" />
     <Compile Include="CompProperties_InitialHediff.cs" />
     <Compile Include="CompProperties_Lightsustenance.cs" />
     <Compile Include="CompProperties_AnimalProduct.cs" />
     <Compile Include="CompProperties_Regeneration.cs" />
     <Compile Include="CompRegeneration.cs" />
+    <Compile Include="CompUseEffect_ApplyHediff.cs" />
     <Compile Include="GeneticRim_Settings.cs" />
+    <Compile Include="Hediff_HumanHybrids.cs" />
     <Compile Include="JobDriver_AnimalResource.cs" />
     <Compile Include="LocalJobDefOf.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

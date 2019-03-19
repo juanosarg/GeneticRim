@@ -383,7 +383,7 @@
   
   <ThingDef ParentName="ResourceBase">
     <defName>GR_ImplantUraniumWireMesh</defName>
-    <label>hybrid implant uranium wire mesh (tier 2)</label>
+    <label>hybrid implant uranium wire mesh (tier 3)</label>
     <description>This uranium wire mesh acts as a sterile scaffold for tissue growth. It is used as the base for the most elite vat grown hybrid implants.</description>
     <graphicData>
       <texPath>Things/Item/GR_ImplantUraniumWireMesh</texPath>
