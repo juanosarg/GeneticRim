@@ -19,10 +19,17 @@
     <reportString>inserting genetic material on gene pod.</reportString>
   </JobDef>
   
-    <JobDef>
+  <JobDef>
     <defName>GR_InsertGenesIntoGenePodJob2</defName>
     <driverClass>NewMachinery.JobDriver_InsertGenesIntoGenePod2</driverClass>
     <reportString>inserting genetic material on gene pod.</reportString>
+  </JobDef>
+  
+  <JobDef>
+    <defName>GR_UseHybridInjector</defName>
+    <driverClass>JobDriver_UseItem</driverClass>
+    <reportString>using hybrid genes injector.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
   </JobDef>
   
 </Defs>

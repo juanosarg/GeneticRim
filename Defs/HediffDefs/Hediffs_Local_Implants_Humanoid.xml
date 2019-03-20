@@ -50,8 +50,14 @@
 		<label>humanoid implant: bear muscle tissue</label>
 		<stages>
 			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
 				<statOffsets>
-					<MaxHitPoints>50</MaxHitPoints>
+					
 					<CarryingCapacity>10</CarryingCapacity>					
 				</statOffsets>				
 			</li>

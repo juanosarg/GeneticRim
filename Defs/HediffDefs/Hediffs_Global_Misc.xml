@@ -535,5 +535,22 @@
 		</li>
       </stages>
   </HediffDef>
+  
+  <HediffDef>
+  <defName>GR_BearHybridGenes</defName>
+    <hediffClass>NewAnimalSubproducts.Hediff_HumanHybrids</hediffClass>
+    <label>bear hybrid genes</label>
+    <defaultLabelColor>(.8,0,0)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>   
+      <stages>
+        <li>
+		 <painFactor>0.5</painFactor>
+		  <statOffsets>
+          <PainShockThreshold>1</PainShockThreshold>
+        </statOffsets>
+		</li>
+      </stages>
+  </HediffDef>
 
 </Defs>
