@@ -512,7 +512,7 @@
       <texPath>Things/Item/GR_Castoreum</texPath>
     </graphicData>
     <statBases>
-		<Nutrition>0.5</Nutrition>
+		<Nutrition>0.05</Nutrition>
       <MarketValue>1.1</MarketValue>
     </statBases>
     <ingestible>
