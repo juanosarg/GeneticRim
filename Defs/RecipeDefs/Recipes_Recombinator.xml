@@ -27,10 +27,12 @@
 						<li>GR_BoomalopeGenetic</li>
 						<li>GR_MuffaloGenetic</li>
 						<li>GR_WolfGenetic</li>
+						<li>GR_FelineGenetic</li>
 						<li>GR_InsectoidGenetic</li>
 						<li>GR_ReptilianGenetic</li>
 						<li>GR_HumanoidGenetic</li>
 						<li>GR_ThrumboGenetic</li>
+						<li>GR_NonSpecializedGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -45,10 +47,12 @@
 						<li>GR_BoomalopeGenetic</li>
 						<li>GR_MuffaloGenetic</li>
 						<li>GR_WolfGenetic</li>
+						<li>GR_FelineGenetic</li>
 						<li>GR_InsectoidGenetic</li>
 						<li>GR_ReptilianGenetic</li>
 						<li>GR_HumanoidGenetic</li>
 						<li>GR_ThrumboGenetic</li>
+						<li>GR_NonSpecializedGenetic</li>
 					</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -62,7 +66,7 @@
 	<RecipeDef>
 		<defName>GR_RecombineSerums</defName>
 		<label>recombine serums</label>
-		<description>Recombine genetic material from 5 animal serums to synthesize a random paragon serum.</description>
+		<description>Recombine genetic material from 5 animal serums to synthesize a random paragon serum. Non-specialized genetic material can also be used for this recipe.</description>
 		<jobString>Recombining Serums</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
@@ -91,6 +95,7 @@
 						<li>GR_PigSerum</li>
 						<li>GR_RatSerum</li>
 						<li>GR_TortoiseSerum</li>
+						<li>GR_NonSpecializedGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -113,6 +118,7 @@
 						<li>GR_PigSerum</li>
 						<li>GR_RatSerum</li>
 						<li>GR_TortoiseSerum</li>
+						<li>GR_NonSpecializedGenetic</li>
 					</thingDefs>
 		</fixedIngredientFilter>
 		<products>

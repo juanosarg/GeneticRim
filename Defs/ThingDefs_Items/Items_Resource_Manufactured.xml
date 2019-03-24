@@ -91,6 +91,16 @@
     
   </ThingDef>
   <ThingDef ParentName="GR_GeneticsBase">
+    <defName>GR_FelineGenetic</defName>
+    <label>feline genetic material</label>
+    <description>A vial of genetic material extracted from a feline corpse.</description>
+    
+    <graphicData>
+      <texPath>Things/Item/GR_RedGreenGeneticMaterial</texPath>
+    </graphicData>
+    
+  </ThingDef>
+  <ThingDef ParentName="GR_GeneticsBase">
     <defName>GR_InsectoidGenetic</defName>
     <label>insectoid genetic material</label>
     <description>A vial of genetic material extracted from an insectoid's corpse.</description>
@@ -149,6 +159,19 @@
     </statBases>
     <graphicData>
        <texPath>Things/Item/GR_mechanites</texPath>
+    </graphicData>
+    
+  </ThingDef>
+  
+    <ThingDef ParentName="GR_GeneticsBase">
+    <defName>GR_NonSpecializedGenetic</defName>
+    <label>non-specialized genetic material</label>
+    <description>This vial of genetic material contains non-specialized cells that can't be used to create animal hybrids. They can probably be used in a gene recombinator to turn them into more useful genetic materials, though.</description>
+    <statBases>
+       <MarketValue>45</MarketValue>
+    </statBases>
+    <graphicData>
+       <texPath>Things/Item/GR_NonSpecializedGeneticMaterial</texPath>
     </graphicData>
     
   </ThingDef>

@@ -51,6 +51,9 @@
 
 	</RecipeDef>
 
+
+
+	
 	<RecipeDef>
 		<defName>GR_ExtractGenesBear</defName>
 		<label>extract genes from a bear</label>
@@ -313,6 +316,50 @@
 			<Intellectual>5</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_ExtractGenesFeline</defName>
+		<label>extract genes from a feline</label>
+		<description>Extract genetic material from a feline corpse.</description>
+		<jobString>Extracting Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>GR_GeneticExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+
+					<thingDefs>
+						<li>Corpse_Cougar</li>
+						<li>Corpse_Panther</li>
+						<li>Corpse_Lynx</li>
+						<li>Corpse_Cat</li>
+						
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+
+			<thingDefs>
+				<li>Corpse_Cougar</li>
+				<li>Corpse_Panther</li>
+				<li>Corpse_Lynx</li>
+				<li>Corpse_Cat</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_FelineGenetic>1</GR_FelineGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
 
 	<RecipeDef>
 		<defName>GR_ExtractGenesInsectoid</defName>
@@ -521,6 +568,53 @@
 		<researchPrerequisite>GR_AdvancedMechaniteBioIntegration</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_ExtractNonSpecializedGenes</defName>
+		<label>extract non-specialized genes from any animal</label>
+		<description>Extract non-specialized cells from any animal that can't be used to create animal hybrids. They can probably be used in a gene recombinator to turn them into more useful genetic materials, though.</description>
+		<jobString>Extracting Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>GR_GeneticExtractionTable</li>	  
+		</recipeUsers>	
+		 <ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Corpses</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		
+		<fixedIngredientFilter>
+			<categories>
+				<li>Corpses</li>
+			</categories>
+			<disallowedCategories>
+				<li>CorpsesMechanoid</li>
+			</disallowedCategories>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>CorpsesAnimal</li>
+			</categories>
+		</defaultIngredientFilter>
+		<products>
+			<GR_NonSpecializedGenetic>1</GR_NonSpecializedGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 

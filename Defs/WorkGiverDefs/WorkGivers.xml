@@ -157,6 +157,23 @@
 		<prioritizeSustains>true</prioritizeSustains>
 	</WorkGiverDef>
 	
+		<WorkGiverDef>
+		<defName>GR_DoBillsGenetrainerBench</defName>
+		<label>works at genetrainer bench</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>GR_GenetrainerBench</li>
+		</fixedBillGiverDefs>
+		<verb>crafting genetrainer</verb>
+		<gerund>crafting genetrainer at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
 	<WorkGiverDef>
 		<defName>GR_DoBillsAnimalEnrichment</defName>
 		<label>works at animal enrichment center</label>

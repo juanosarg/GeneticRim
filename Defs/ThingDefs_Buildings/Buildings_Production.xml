@@ -629,4 +629,66 @@
 
   </ThingDef>
   
+  <ThingDef ParentName="BenchBase">
+    <defName>GR_GenetrainerBench</defName>
+    <label>genetrainer bench</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>The Genetrainer bench allows jury rigging of mechserum neurotrainers, healers and resurrectors to craft genetrainers, single use artifacts that inject animal genetic material in a human being, acting as a powerful implant that doesn't take the place of any organ in the body.</description>
+    <graphicData>
+      <texPath>Things/Building/GR_GenetrainerBench</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,2)</drawSize>
+      <damageData>
+        <rect>(0.3,0,2.7,1)</rect>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+ 
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+	  <GR_OrganicPulp>4</GR_OrganicPulp>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>3500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-5</Beauty>
+    </statBases>
+    <size>(3,1)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+   
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+	<comps>
+		
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>100</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>GR_NutrientVat</li>
+        </linkableFacilities>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites><li>GR_GenetrainerRepurposing</li></researchPrerequisites>
+	<designationCategory>GR_GeneticsTab</designationCategory>
+  </ThingDef>
+  
 </Defs>
