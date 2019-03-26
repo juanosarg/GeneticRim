@@ -678,10 +678,10 @@
 	
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallBunnyEars</defName>
-		<label>install bunny ears</label>
-		<description>Installs bunny ears.</description>
+		<label>install bunny ear</label>
+		<description>Installs bunny ear.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing bunny ears.</jobString>
+		<jobString>Installing bunny ear.</jobString>
 		<workAmount>2000</workAmount>
 		<recipeUsers>
 			<li>Human</li>

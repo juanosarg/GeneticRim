@@ -113,5 +113,12 @@ namespace DraftingPatcher
                 return this.Props.keensenses;
             }
         }
+        public bool GetCatReflexes
+        {
+            get
+            {
+                return this.Props.catreflexes;
+            }
+        }
     }
 }

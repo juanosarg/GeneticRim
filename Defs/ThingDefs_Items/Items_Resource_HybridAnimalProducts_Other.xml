@@ -271,6 +271,28 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
+		<defName>GR_HugeBearCatPelt</defName>
+		<label>bearcat pelt</label>
+		<description>This enormous bear pelt is probably valuable as a trade good. Or it can also be repurposed as a huge rug.</description>
+		<graphicData>
+		  <texPath>Things/Item/GR_HugeBearCatPelt</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<stackLimit>1</stackLimit>
+		<statBases>
+		  <MaxHitPoints>30</MaxHitPoints>
+		  <MarketValue>150</MarketValue>
+		  <Mass>8</Mass>
+		  <Flammability>1.0</Flammability>
+		  <DeteriorationRate>1.0</DeteriorationRate>
+			</statBases>
+		<thingCategories>
+		  <li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
 		<defName>GR_WolfPelt</defName>
 		<label>wolf pelt</label>
 		<description>This wolf pelt can be used as a trade good. It can also be crafted into a decorative wolf rug.</description>

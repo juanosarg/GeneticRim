@@ -41,6 +41,25 @@
     </gas>
   </ThingDef>
   
+    <ThingDef ParentName="BaseGas">
+    <defName>GR_Hairballs</defName>
+    <label>hairballs</label>
+    <graphicData>
+      <texPath>Things/Gas/GR_Hairballs</texPath>
+      <drawSize>1</drawSize>
+      
+    </graphicData>
+    <gas>
+      <expireSeconds>
+        <min>29</min>
+        <max>31</max>
+      </expireSeconds>
+      <blockTurretTracking>true</blockTurretTracking>
+      <accuracyPenalty>0.7</accuracyPenalty>
+      <rotationSpeed>10</rotationSpeed>
+    </gas>
+  </ThingDef>
+  
    <ThingDef ParentName="BaseGas">
     <defName>GR_Poison_Cloud</defName>
     <label>poison cloud</label>

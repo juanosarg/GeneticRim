@@ -7,6 +7,8 @@
     <ThingDef ParentName="FurnitureBase">
     <defName>GR_HugeBearRug</defName>
     <label>huge bear rug</label>
+	<description>A bear pelt rug. Taxidermy seems to be in vogue on the Rim!</description>
+
     <graphicData>
       <texPath>Things/Building/HugeBearRug</texPath>
       <graphicClass>Graphic_Single</graphicClass>    
@@ -41,8 +43,48 @@
   </ThingDef>
   
       <ThingDef ParentName="FurnitureBase">
+    <defName>GR_HugeBearCatRug</defName>
+    <label>huge bearcat rug</label>
+	<description>A bearcat pelt rug. This thing seems to be quite more exotic than other pelt rugs!</description>
+
+    <graphicData>
+      <texPath>Things/Building/GR_HugeBearCatRug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>    
+		<drawSize>(2,2)</drawSize>	  
+    </graphicData>
+	<tradeability>Sellable</tradeability>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+	<pathCost>0</pathCost>
+    <castEdgeShadows>false</castEdgeShadows>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>495</WorkToBuild>
+      <Mass>15</Mass>
+      <Flammability>1.0</Flammability>
+	 
+			<Beauty>60</Beauty>
+			
+			<Cleanliness>0.4</Cleanliness>
+    </statBases>
+
+			<minifiedDef>MinifiedThing</minifiedDef>
+		<rotatable>true</rotatable>
+<building>    
+			<isEdifice>false</isEdifice>
+		</building>
+		<size>(2,2)</size>
+		    <costList>
+      <GR_HugeBearCatPelt>1</GR_HugeBearCatPelt>	
+    </costList>
+  </ThingDef>
+  
+      <ThingDef ParentName="FurnitureBase">
     <defName>GR_WolfRug</defName>
     <label>wolf rug</label>
+	<description>A wolf pelt rug. Taxidermy seems to be in vogue on the Rim!</description>
+
     <graphicData>
       <texPath>Things/Building/WolfRug</texPath>
       <graphicClass>Graphic_Single</graphicClass>    
@@ -79,6 +121,8 @@
   <ThingDef ParentName="FurnitureBase">
     <defName>GR_MuffaloRug</defName>
     <label>muffalo pelt rug</label>
+	<description>A muffalo pelt rug. Taxidermy seems to be in vogue on the Rim!</description>
+
     <graphicData>
       <texPath>Things/Building/MuffaloRug</texPath>
       <graphicClass>Graphic_Single</graphicClass>    

@@ -306,7 +306,7 @@
 	
 	<HediffDef ParentName="GR_HybridPartsBase">
 		<defName>GR_BunnyEars</defName>
-		<label>humanoid implant: bunny ears</label>
+		<label>humanoid implant: bunny ear</label>
 		<stages>
 			<li>
 				<capMods>

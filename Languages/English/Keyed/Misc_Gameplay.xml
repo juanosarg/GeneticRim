@@ -77,6 +77,8 @@
   <GR_StartMechaBlastDesc>Vents exhaust in the tiles surounding the mechanoid hybrid, burning anything close to it</GR_StartMechaBlastDesc> 
   <GR_StartKeenSenses>Keen Senses</GR_StartKeenSenses>
   <GR_StartKeenSensesDesc>Makes the creature more aware of its surroundings, increasing its melee capacities (affects sight and consciousness)</GR_StartKeenSensesDesc>
+  <GR_StartCatReflexes>Cat Reflexes</GR_StartCatReflexes>
+  <GR_StartCatReflexesDesc>Makes the creature much more agile, improving its chance to dodge melee attacks even further</GR_StartCatReflexesDesc>
   
   <GR_AbilityRecharging>Ability is rechaging. Check animal's health tab</GR_AbilityRecharging>
   <GR_PoisonCloudRange>Poison cloud has a maximum range of 10. Get closer to the target!</GR_PoisonCloudRange>

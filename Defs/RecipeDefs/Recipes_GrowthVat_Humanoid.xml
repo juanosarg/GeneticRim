@@ -740,9 +740,9 @@
 	
 	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
 		<defName>GR_CraftBunnyEars</defName>
-		<label>Human Implant: bunny ears</label>
-		<description>Craft bunny ears. These huge leporid ears give amazing enhanced hearing. Also, super kawaii!</description>
-		<jobString>Crafting bunny ears</jobString>		
+		<label>Human Implant: bunny ear</label>
+		<description>Craft bunny ear. This huge leporid ear gives amazing enhanced hearing. Also, super kawaii!</description>
+		<jobString>Crafting bunny ear</jobString>		
 		<ingredients>
 			<li>
 				<filter>

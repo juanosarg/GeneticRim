@@ -85,6 +85,7 @@ namespace DraftingPatcher
             bool flagCanHorrorize = false;
             bool flagCanMechaBlast = false;
             bool flagCanKeenSenses = false;
+            bool flagCanCatReflexes = false;
 
 
 
@@ -115,6 +116,7 @@ namespace DraftingPatcher
                         flagCanHorrorize = pawn.TryGetComp<CompDraftable>().GetHorror;
                         flagCanMechaBlast = pawn.TryGetComp<CompDraftable>().GetMechablast;
                         flagCanKeenSenses = pawn.TryGetComp<CompDraftable>().GetKeenSenses;
+                        flagCanCatReflexes = pawn.TryGetComp<CompDraftable>().GetCatReflexes;
 
 
                         flagIsMindControlBuildingPresent = true;
@@ -415,6 +417,28 @@ namespace DraftingPatcher
                 GR_Gizmo_KeenSenses.defaultDesc = "GR_StartKeenSensesDesc".Translate();
                 GR_Gizmo_KeenSenses.icon = ContentFinder<Texture2D>.Get("ui/commands/GR_KeenSenses", true);
                 gizmos.Insert(1, GR_Gizmo_KeenSenses);
+            }
+
+            /*This gizmo activates cat reflexes, improving melee combat
+       */
+            if ((pawn.drafter != null) && flagCanCatReflexes && flagIsCreatureMine && flagIsMindControlBuildingPresent)
+            {
+                Command_Action GR_Gizmo_CatReflexes = new Command_Action();
+                GR_Gizmo_CatReflexes.action = delegate
+                {
+                    if (!pawn.health.hediffSet.HasHediff(HediffDef.Named("GR_CatReflexes")))
+                    {
+                        pawn.health.AddHediff(HediffDef.Named("GR_CatReflexes"));
+                    }
+                    else
+                    {
+                        Messages.Message("GR_AbilityRecharging".Translate(), pawn, MessageTypeDefOf.NeutralEvent);
+                    }
+                };
+                GR_Gizmo_CatReflexes.defaultLabel = "GR_StartCatReflexes".Translate();
+                GR_Gizmo_CatReflexes.defaultDesc = "GR_StartCatReflexesDesc".Translate();
+                GR_Gizmo_CatReflexes.icon = ContentFinder<Texture2D>.Get("ui/commands/GR_CatReflexes", true);
+                gizmos.Insert(1, GR_Gizmo_CatReflexes);
             }
 
             /*This gizmo makes the animal cast a horror ability

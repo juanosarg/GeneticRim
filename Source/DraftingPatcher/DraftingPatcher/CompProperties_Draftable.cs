@@ -18,6 +18,8 @@ namespace DraftingPatcher
         public bool horror = false;
         public bool mechablast = false;
         public bool keensenses = false;
+        public bool catreflexes = false;
+
 
 
 

@@ -21,6 +21,7 @@
     <defName>GR_WearingBunnyEars</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>GR_BunnyEars</hediff>
+	<stackLimit>2</stackLimit>
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       

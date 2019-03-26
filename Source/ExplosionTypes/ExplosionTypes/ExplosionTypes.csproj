@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeathActionWorker_HairballExplosion.cs" />
     <Compile Include="DeathActionWorker_PsionicExplosion.cs" />
     <Compile Include="DeathActionWorker_EMPExplosion.cs" />
     <Compile Include="DeathActionWorker_ToxicExplosion.cs" />

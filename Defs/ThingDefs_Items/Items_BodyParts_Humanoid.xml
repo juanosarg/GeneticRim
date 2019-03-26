@@ -200,8 +200,8 @@
 	
 	<ThingDef ParentName="GR_HumanImplantBase">
 		<defName>GR_BunnyEars</defName>
-		<label>human Implant: bunny ears</label>
-		<description>These huge leporid ears give amazing enhanced hearing. Also, super kawaii!</description>
+		<label>human Implant: bunny ear</label>
+		<description>This huge leporid ear gives amazing enhanced hearing. Also, super kawaii!</description>
 		
 		<statBases>
 			<MarketValue>250</MarketValue>

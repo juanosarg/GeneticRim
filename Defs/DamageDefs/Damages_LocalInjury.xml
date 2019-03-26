@@ -51,6 +51,27 @@
     </additionalHediffs>
   </DamageDef>
   
+  <DamageDef>
+    <defName>GR_HairballExplosion</defName>
+	<workerClass>DamageWorker_AddInjury</workerClass>
+
+    <label>hairball explosion</label>
+	<hediff>Shredded</hediff>
+	<hasForcefulImpact>false</hasForcefulImpact>
+    <makesBlood>false</makesBlood>
+    <canInterruptJobs>false</canInterruptJobs>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been suffocated by cat hair to death.</deathMessage>
+
+    <additionalHediffs>
+      <li>
+        <hediff>GR_HairballDamage</hediff>
+        <severityPerDamageDealt>0.035</severityPerDamageDealt>
+
+      </li>
+    </additionalHediffs>
+  </DamageDef>
+  
   <DamageDef ParentName="Bite">
     <defName>GR_PlagueBite</defName>
     <label>plagued bite</label>

@@ -13,9 +13,10 @@ E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim-b19\Source\DraftingPat
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim-b19\Source\DraftingPatcher\DraftingPatcher\obj\Debug\DraftingPatcher.csproj.CoreCompileInputs.cache
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim-b19\Source\DraftingPatcher\DraftingPatcher\obj\Debug\DraftingPatcher.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim\Assemblies\DraftingPatcher.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim\Source\DraftingPatcher\DraftingPatcher\obj\Debug\DraftingPatcher.csprojResolveAssemblyReference.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim\Source\DraftingPatcher\DraftingPatcher\obj\Debug\DraftingPatcher.dll
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\Assemblies\DraftingPatcher.dll
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\Source\DraftingPatcher\DraftingPatcher\obj\Debug\DraftingPatcher.csprojAssemblyReference.cache
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\Source\DraftingPatcher\DraftingPatcher\obj\Debug\DraftingPatcher.csproj.CoreCompileInputs.cache
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\Source\DraftingPatcher\DraftingPatcher\obj\Debug\DraftingPatcher.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim\Source\DraftingPatcher\DraftingPatcher\obj\Debug\DraftingPatcher.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim\Source\DraftingPatcher\DraftingPatcher\obj\Debug\DraftingPatcher.csproj.CoreCompileInputs.cache
