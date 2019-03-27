@@ -257,6 +257,7 @@
     <defName>GR_NutrientVat</defName>
     <label>nutrient vat</label>
     <description>A slurry of liquefied organic pulp fills this reinforced glass vat. This solution is used by genetic experiments, and increases work speed when placed near a Genetic Rim machine. One workbench can use to up to two nutrient vats.</description>
+	<thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Things/Building/GR_NutrientVat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
