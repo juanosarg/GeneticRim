@@ -868,7 +868,7 @@
 		<defName>GR_Spidercat</defName>
 		<label>spidercat</label>
 		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
-		<description>A megaspider / cat hybrid. Spidercat, spidercat, does whatever a spider cat....... Sorry.\n\nUseful abilities: Like all cat hybrids, they have an improved melee dodge ability, making them perfect for the front lines, and a short nuzzle period.</description>
+		<description>A megaspider / cat hybrid. Spidercat, spidercat, does whatever a spider cat....... Sorry. This unnerving abomination will certainly keep your colony free from rats.\n\nUseful abilities: Like all cat hybrids, they have an improved melee dodge ability, making them perfect for the front lines, and a short nuzzle period. The spidercat also has the ability to attack from range, throwing disgusting hairball projectiles.</description>
 		<statBases>
 			<MoveSpeed>6</MoveSpeed>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
@@ -898,6 +898,29 @@
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.2</chanceFactor>      </li>
 		</tools>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>0.8</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>0.95</accuracyMedium>
+				<accuracyLong>0.8</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GR_HairballProjectile</defaultProjectile>
+				<warmupTime>2</warmupTime>
+				<burstShotCount>2</burstShotCount>
+				<minRange>4</minRange>
+				<range>22</range>
+				<forcedMissRadius>2</forcedMissRadius>
+				<soundCast>Bow_Recurve</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<!--Commanility determines how frequent this range verb is chosen.-->
+				<commonality>0.6</commonality>
+			</li>
+
+
+		</verbs>
+
 		<comps>
 			<li Class="DraftingPatcher.CompProperties_Draftable">
 				<catreflexes>true</catreflexes>
@@ -916,7 +939,7 @@
 			<baseHungerRate>0.25</baseHungerRate>
 			<baseBodySize>0.85</baseBodySize>
 			<baseHealthScale>1</baseHealthScale>
-			
+			<predator>true</predator>
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<wildness>0.75</wildness>
 			<lifeExpectancy>14</lifeExpectancy>

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
-		<!-- Rodent - Bear -->
+
+	<!-- Rodent - Bear -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Molebear</defName>
-		
+
 		<label>molebear</label>
 		<description>A Mole / Bear hybrid. The molebear combines the resilience of a bear with the extremely low methabolic rate of a mole rat. These creatures lack pain sensitivity, so if you want to kill one, there is no "knocking it unconscious".\n\nUseful abilities: No pain sensitivity. Fast breeding.</description>
 		<statBases>
@@ -193,9 +193,9 @@
 
 		</lifeStages>
 	</PawnKindDef>
-	
-	
-	
+
+
+
 	<!-- Rodent - Boomalope -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Boomsquirrel</defName>
@@ -372,28 +372,28 @@
 		</statBases>
 		<tools>
 			<li>
-        <capacities>
-          <li>Bite</li>
-        </capacities>
-        <power>4.5</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>1.5</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>
-      </li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>4.5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1.5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
-			
+
 			<li Class="DraftingPatcher.CompProperties_Draftable">
 				<chickenRimPox>true</chickenRimPox>
 				<burrowing>true</burrowing>
@@ -442,9 +442,9 @@
 					<def>AnimalAdult</def>
 					<minAge>0.3</minAge>
 					<soundWounded>Pawn_Hare_Wounded</soundWounded>
-          <soundDeath>Pawn_Hare_Death</soundDeath>
-          <soundCall>Pawn_Hare_Call</soundCall>
-          <soundAngry>Pawn_Hare_Angry</soundAngry>
+					<soundDeath>Pawn_Hare_Death</soundDeath>
+					<soundCall>Pawn_Hare_Call</soundCall>
+					<soundAngry>Pawn_Hare_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
@@ -462,10 +462,10 @@
 		<combatPower>20</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>1</ecoSystemWeight>
-		
+
 		<lifeStages>
 			<li>
-				
+
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/Rodent/Rabbitchicken/GR_Rabbitchicken</texPath>
 					<drawSize>0.6</drawSize>
@@ -517,14 +517,14 @@
 			<MarketValue>105</MarketValue>
 		</statBases>
 		<tools>
-		<li>
-			<capacities>
-				<li>GR_PlagueBite</li>
-			</capacities>
-			<power>5</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-		</li>
+			<li>
+				<capacities>
+					<li>GR_PlagueBite</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			</li>
 			<li>
 				<label>head</label>
 				<capacities>
@@ -582,10 +582,10 @@
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>0.3</minAge>
-					 <soundWounded>Pawn_Boomrat_Wounded</soundWounded>
-          <soundDeath>Pawn_Boomrat_Death</soundDeath>
-          <soundCall>Pawn_Boomrat_Call</soundCall>
-          <soundAngry>Pawn_Boomrat_Angry</soundAngry>
+					<soundWounded>Pawn_Boomrat_Wounded</soundWounded>
+					<soundDeath>Pawn_Boomrat_Death</soundDeath>
+					<soundCall>Pawn_Boomrat_Call</soundCall>
+					<soundAngry>Pawn_Boomrat_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
@@ -606,8 +606,8 @@
 		<ecoSystemWeight>1</ecoSystemWeight>
 		<lifeStages>
 			<li>
-				
-				
+
+
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/Rodent/Ratfallo/GR_Ratfallo</texPath>
 					<drawSize>2.5</drawSize>
@@ -762,7 +762,7 @@
 
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>GR_Thrumborat</defName>
-		
+
 		<label>thrumborat</label>
 		<race>GR_Thrumborat</race>
 		<combatPower>400</combatPower>
@@ -826,7 +826,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Beaverwolf</defName>
 		<label>beaverwolf</label>
-		
+
 		<description>A Beaver / Wolf hybrid. Beaverwolves can eat either meat or trees, although they are not as voracious as the wolfbeaver hybrid. They are not as efficient in battle, but they produce castoreum, which can be used to cook.\n\nUseful abilities: Regularly produces a secretion called castoreum that can be used as a cooking ingredient. Fast breeding.</description>
 		<statBases>
 			<MoveSpeed>6.5</MoveSpeed>
@@ -1008,6 +1008,163 @@
 					<texPath>Things/Pawn/Animal/Rodent/Beaverwolf/GR_Dessicated_Beaverwolf</texPath>
 					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Rabbit - Cat -->
+
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Rabbitcat</defName>
+		<label>rabbitcat</label>
+
+		<description>A Rabbit / Cat hybrid. The rabbitcat is a very efficient predator. Equipped with excellent hearing and a keen intelligence.\n\nUseful abilities: Like all cat hybrids, they have an improved melee dodge ability, making them perfect for the front lines, and a short nuzzle period. Fast breeding. Its fangs can be used as a trophy or sold for a profit.</description>
+		<statBases>
+			<MoveSpeed>5.75</MoveSpeed>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+			<MarketValue>575</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<catreflexes>true</catreflexes>
+				<burrowing>true</burrowing>
+			</li>
+			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+				<hediffname>GR_MeleeDodge</hediffname>
+				<hediffseverity>1</hediffseverity>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<cooldownTime>1.35</cooldownTime>
+				<power>16</power>
+				<capacities><li>Scratch</li></capacities>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right claw</label>
+				<cooldownTime>1.35</cooldownTime>
+				<power>16</power>
+				<capacities><li>Scratch</li></capacities>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<cooldownTime>1.6</cooldownTime>
+				<power>21</power>
+				<capacities><li>Bite</li></capacities>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>22</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</tools>
+		<race>
+			<fleshType>GR_Normal</fleshType>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>GR_QuadrupedAnimalWithPawsAndFangs</body>
+			<predator>true</predator>
+			<baseBodySize>2.5</baseBodySize>
+			<baseHungerRate>0.8</baseHungerRate>
+			<baseHealthScale>4</baseHealthScale>
+			<foodType>CarnivoreAnimal</foodType>
+			<useLeatherFrom>Cougar</useLeatherFrom>
+			<useMeatFrom>Cougar</useMeatFrom>
+			<mateMtbHours>6</mateMtbHours>
+			<gestationPeriodDays>6</gestationPeriodDays>
+			<trainability>Advanced</trainability>
+			<wildness>0.85</wildness>
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<litterSizeCurve>
+				<points>
+					<li>(0.99, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>7</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.8</minAge>
+					<soundAngry>Pawn_Cougar_Angry</soundAngry>
+					<soundWounded>Pawn_Cougar_Injured</soundWounded>
+					<soundDeath>Pawn_Cougar_Death</soundDeath>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalExotic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_Rabbitcat</defName>
+		<label>rabbitcat</label>
+		<race>GR_Rabbitcat</race>
+		<combatPower>375</combatPower>
+
+		<lifeStages>
+			<li>
+				<label>rabbitcat kitten</label>
+				<labelPlural>rabbitcat kittens</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Rodent/Rabbitcat/GR_Rabbitcat</texPath>
+					<drawSize>1</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Rodent/Rabbitcat/GR_Dessicated_Rabbitcat</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Rodent/Rabbitcat/GR_Rabbitcat</texPath>
+					<drawSize>2.1</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Rodent/Rabbitcat/GR_Dessicated_Rabbitcat</texPath>
+					<drawSize>2.1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Rodent/Rabbitcat/GR_Rabbitcat</texPath>
+					<drawSize>3.1</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Rodent/Rabbitcat/GR_Dessicated_Rabbitcat</texPath>
+					<drawSize>3.1</drawSize>
+				</dessicatedBodyGraphicData>
+				<butcherBodyPart>
+					<bodyPartGroup>GR_FangsAttackTool</bodyPartGroup>
+					<thing>GR_RabbitcatFangs</thing>
+				</butcherBodyPart>
 			</li>
 		</lifeStages>
 	</PawnKindDef>

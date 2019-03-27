@@ -19,9 +19,31 @@
 
 		</statBases>
 		<stuffProps>
-		      <commonality>0</commonality>
+			<commonality>0</commonality>
 
 			<color>(138,191,196)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_HairballWool</defName>
+		<label>hairball wool</label>
+		<description>This is a strange wool, very light, and covered with what seems to be a lattice of coarse hairs. It provides excellent heat insulation due to its thermostatic properties.</description>
+		<graphicData>
+			<texPath>Things/Item/GR_HairballWool</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(218,218,218)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+
+		<statBases>
+			<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>5</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>30</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+			<color>(218,218,218)</color>
 		</stuffProps>
 	</ThingDef>
 
@@ -40,7 +62,7 @@
 
 		</statBases>
 		<stuffProps>
-				      <commonality>0</commonality>
+			<commonality>0</commonality>
 
 			<color>(235,227,93)</color>
 		</stuffProps>
@@ -61,7 +83,7 @@
 
 		</statBases>
 		<stuffProps>
-				      <commonality>0</commonality>
+			<commonality>0</commonality>
 
 			<color>(173,235,93)</color>
 		</stuffProps>
@@ -83,7 +105,7 @@
 
 		</statBases>
 		<stuffProps>
-				      <commonality>0</commonality>
+			<commonality>0</commonality>
 
 			<color>(240,240,240)</color>
 		</stuffProps>
@@ -105,7 +127,7 @@
 
 		</statBases>
 		<stuffProps>
-						      <commonality>0</commonality>
+			<commonality>0</commonality>
 
 			<color>(250,250,250)</color>
 		</stuffProps>
@@ -125,7 +147,7 @@
 			<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
 		</statBases>
 		<stuffProps>
-						      <commonality>0</commonality>
+			<commonality>0</commonality>
 
 			<color>(52,52,52)</color>
 		</stuffProps>
@@ -145,7 +167,7 @@
 			<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
 		</statBases>
 		<stuffProps>
-						      <commonality>0</commonality>
+			<commonality>0</commonality>
 
 			<color>(40,40,40)</color>
 		</stuffProps>
@@ -239,7 +261,7 @@
 
 		</statBases>
 		<stuffProps>
-						      <commonality>0</commonality>
+			<commonality>0</commonality>
 
 			<color>(88,88,88)</color>
 		</stuffProps>
@@ -294,7 +316,7 @@
 			<StuffPower_Insulation_Heat>28</StuffPower_Insulation_Heat>
 		</statBases>
 		<stuffProps>
-						      <commonality>0</commonality>
+			<commonality>0</commonality>
 
 			<color>(233,233,233)</color>
 
@@ -315,7 +337,7 @@
 		</statBases>
 		<tradeability>Sellable</tradeability>
 		<stuffProps>
-						      <commonality>0</commonality>
+			<commonality>0</commonality>
 
 			<color>(233,233,233)</color>
 

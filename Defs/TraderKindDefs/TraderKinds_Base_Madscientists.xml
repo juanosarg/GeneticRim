@@ -118,6 +118,9 @@
         <thingDef>GR_HugeBearPelt</thingDef>
       </li>  
 	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_HugeBearCatPelt</thingDef>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
         <thingDef>GR_WolfPelt</thingDef>
       </li>
 	  <li Class="StockGenerator_BuySingleDef">
@@ -155,6 +158,9 @@
       </li>	  
 	  <li Class="StockGenerator_BuySingleDef">
         <thingDef>GR_SquirralopeHorn</thingDef>
+      </li>	  
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_RabbitcatFangs</thingDef>
       </li>	  
 	  
 			<li Class="StockGenerator_BuyArt" />

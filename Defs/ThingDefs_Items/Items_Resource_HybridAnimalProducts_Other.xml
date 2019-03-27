@@ -47,6 +47,33 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
+		<defName>GR_RabbitcatFangs</defName>
+		<label>rabbitcat fangs</label>
+		<description>The sharpened teeth of a rabbitcat. These teeth are essentially useless, but some primitive tribes in the Rimworlds tend to use animal teeth as currency, since they are durable. Someone might pay for these.</description>
+		<graphicData>
+			<texPath>Things/Item/GR_RabbitcatFangs</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>750</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>1.8</Mass>
+
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<drawGUIOverlay>false</drawGUIOverlay>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
 		<defName>GR_WolfchickenFeathers</defName>
 		<label>wolfchicken feathers</label>
 		<description>Wolfchicken feathers are colourful and pretty. Quite useless, but someone might pay for them as a decorative object.</description>
