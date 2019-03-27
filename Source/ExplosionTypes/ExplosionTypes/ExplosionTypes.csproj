@@ -49,6 +49,7 @@
     <Compile Include="DeathActionWorker_HairballExplosion.cs" />
     <Compile Include="DeathActionWorker_PsionicExplosion.cs" />
     <Compile Include="DeathActionWorker_EMPExplosion.cs" />
+    <Compile Include="DeathActionWorker_SmallHairballExplosion.cs" />
     <Compile Include="DeathActionWorker_ToxicExplosion.cs" />
     <Compile Include="DeathActionWorker_StunningExplosion.cs" />
     <Compile Include="DeathActionWorker_SmallBomb.cs" />

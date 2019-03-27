@@ -400,6 +400,39 @@
       </li>
     </comps>
   </ThingDef>
+  
+       <!-- Cat / Chicken Egg -->
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>GR_CatchickenEggUnfertilized</defName>
+    <label>catchicken egg (unfert.)</label>
+    <description>Unfertilized Catchicken egg. It can be eaten raw, but it's much, much better cooked.</description>
+    <graphicData>
+      <color>(222,222,222)</color>
+    </graphicData>
+	<tradeability>Sellable</tradeability>
+    <statBases>
+      <MarketValue>7.0</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="EggFertBase">
+    <defName>GR_CatchickenEggFertilized</defName>
+    <label>catchicken egg (fert.)</label>
+    <description>Fertilized Catchicken egg. If all goes well, it should hatch into one of these abominations. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(222,222,222)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.0</MarketValue>
+    </statBases>
+	<tradeability>None</tradeability>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>GR_Catchicken</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
     <!-- Muffalo / Chicken Egg -->
   <ThingDef ParentName="EggUnfertBase">
     <defName>GR_MuffalochickenEggUnfertilized</defName>
