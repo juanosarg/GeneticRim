@@ -1218,7 +1218,7 @@
 				</capacities>
 				<power>16</power>
 				<cooldownTime>1.65</cooldownTime>
-				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>

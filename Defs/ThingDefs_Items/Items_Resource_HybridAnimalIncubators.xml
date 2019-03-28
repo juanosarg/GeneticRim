@@ -842,6 +842,45 @@
     </comps>
 </ThingDef>
 
+<!-- Items handling Wolf / Cat hybrids -->
+ 
+  <ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_WolfCatPre</defName>
+    <label>wolf / cat incubator</label>
+    <description>An incubator filled with a mixture of animal genetic material</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+        
+        <hatcherItem>GR_WolfcatIncubator</hatcherItem>
+		<hatcherItemTwo>GR_CatwolfIncubator</hatcherItemTwo>
+      </li>
+    </comps>
+</ThingDef>
+ 
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_WolfcatIncubator</defName>
+    <label>wolf / cat incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Wolf / Cat or Cat / Wolf hybrid</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_Wolfcat</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_CatwolfIncubator</defName>
+    <label>wolf / cat incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Wolf / Cat or Cat / Wolf hybrid</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_Catwolf</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
 <!-- Items handling Thrumbo hybrids -->
 
  

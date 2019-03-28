@@ -44,6 +44,8 @@
     <ThingDef ParentName="BaseGas">
     <defName>GR_Hairballs</defName>
     <label>hairballs</label>
+		<thingClass>DraftingPatcher.Gas_Hairballs</thingClass>
+
     <graphicData>
       <texPath>Things/Gas/GR_Hairballs</texPath>
       <drawSize>1</drawSize>

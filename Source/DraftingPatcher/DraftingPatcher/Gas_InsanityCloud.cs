@@ -33,13 +33,13 @@ namespace DraftingPatcher
                                 {
                                     if (!pawn.TryGetComp<CompDraftable>().GetHorror)
                                     {
-                                        pawn.health.AddHediff(HediffDef.Named("ROM_SanityLoss"));
+                                        //pawn.health.AddHediff(HediffDef.Named("ROM_SanityLoss"));
                                         HealthUtility.AdjustSeverity(pawn, HediffDef.Named("ROM_SanityLoss"), (float)0.10);
                                         this.Destroy();
                                     }
                                 }
                                 else {
-                                    pawn.health.AddHediff(HediffDef.Named("ROM_SanityLoss"));
+                                    //pawn.health.AddHediff(HediffDef.Named("ROM_SanityLoss"));
                                     HealthUtility.AdjustSeverity(pawn, HediffDef.Named("ROM_SanityLoss"), (float)0.10);
 
                                     this.Destroy();

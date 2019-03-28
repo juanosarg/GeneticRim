@@ -75,6 +75,23 @@
 			<li>GR_Rabbitchicken</li>
 			<li>GR_Ratfallo</li>
 			<li>GR_Wolfbeaver</li>
+			<li>GR_Bearcat</li>
+			<li>GR_Boomacat</li>
+			<li>GR_Chickencat</li>
+			<li>GR_Muffalocat</li>
+			<li>GR_Rabbitcat</li>
+			<li>GR_Wolfcat</li>
+			<li>GR_Snakecat</li>
+			<li>GR_Spidercat</li>
+			<li>GR_Thrumbocat</li>
+			<li>GR_Mechacat</li>
+			<li>GR_Catbear</li>
+			<li>GR_Catalope</li>
+			<li>GR_Catchicken</li>
+			<li>GR_Catrabbit</li>
+			<li>GR_Catfallo</li>
+			<li>GR_Catwolf</li>
+
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Leg</li> 
@@ -115,6 +132,16 @@
 			<li>GR_Rabbitchicken</li>
 			<li>GR_Ratfallo</li>
 			<li>GR_Wolfbeaver</li>
+			<li>GR_Bearcat</li>
+			<li>GR_Boomacat</li>
+			<li>GR_Chickencat</li>			
+			<li>GR_Wolfcat</li>
+			<li>GR_Snakecat</li>			
+			<li>GR_Mechacat</li>
+			<li>GR_Catbear</li>
+			<li>GR_Catalope</li>			
+			<li>GR_Catrabbit</li>			
+			<li>GR_Catwolf</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Tail</li> 
@@ -197,6 +224,23 @@
 			<li>GR_Rabbitchicken</li>
 			<li>GR_Ratfallo</li>
 			<li>GR_Wolfbeaver</li>
+			<li>GR_Bearcat</li>
+			<li>GR_Boomacat</li>
+			<li>GR_Chickencat</li>
+			<li>GR_Muffalocat</li>
+			<li>GR_Rabbitcat</li>
+			<li>GR_Wolfcat</li>
+			<li>GR_Snakecat</li>
+			<li>GR_Spidercat</li>
+			<li>GR_Thrumbocat</li>
+			<li>GR_Mechacat</li>
+			<li>GR_Catbear</li>
+			<li>GR_Catalope</li>
+			<li>GR_Catchicken</li>
+			<li>GR_Catrabbit</li>
+			<li>GR_Catfallo</li>
+			<li>GR_Catwolf</li>
+
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Eye</li> 
@@ -278,6 +322,22 @@
 			<li>GR_Rabbitchicken</li>
 			<li>GR_Ratfallo</li>
 			<li>GR_Wolfbeaver</li>
+			<li>GR_Bearcat</li>
+			<li>GR_Boomacat</li>
+			<li>GR_Chickencat</li>
+			<li>GR_Muffalocat</li>
+			<li>GR_Rabbitcat</li>
+			<li>GR_Wolfcat</li>
+			<li>GR_Snakecat</li>
+			<li>GR_Thrumbocat</li>
+			<li>GR_Mechacat</li>
+			<li>GR_Catbear</li>
+			<li>GR_Catalope</li>
+			<li>GR_Catchicken</li>
+			<li>GR_Catrabbit</li>
+			<li>GR_Catfallo</li>
+			<li>GR_Catwolf</li>
+
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Ear</li> 
@@ -335,6 +395,22 @@
 			<li>GR_Rabbitchicken</li>
 			<li>GR_Ratfallo</li>
 			<li>GR_Wolfbeaver</li>
+			<li>GR_Bearcat</li>
+			<li>GR_Boomacat</li>
+			<li>GR_Muffalocat</li>
+			<li>GR_Rabbitcat</li>
+			<li>GR_Wolfcat</li>
+			<li>GR_Snakecat</li>
+			<li>GR_Spidercat</li>
+			<li>GR_Thrumbocat</li>
+			<li>GR_Mechacat</li>
+			<li>GR_Catbear</li>
+			<li>GR_Catalope</li>
+			<li>GR_Catchicken</li>
+			<li>GR_Catrabbit</li>
+			<li>GR_Catfallo</li>
+			<li>GR_Catwolf</li>
+
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Nose</li> 
@@ -417,6 +493,23 @@
 			<li>GR_Rabbitchicken</li>
 			<li>GR_Ratfallo</li>
 			<li>GR_Wolfbeaver</li>
+			<li>GR_Bearcat</li>
+			<li>GR_Boomacat</li>
+			<li>GR_Chickencat</li>
+			<li>GR_Muffalocat</li>
+			<li>GR_Rabbitcat</li>
+			<li>GR_Wolfcat</li>
+			<li>GR_Snakecat</li>
+			<li>GR_Spidercat</li>
+			<li>GR_Thrumbocat</li>
+			<li>GR_Mechacat</li>
+			<li>GR_Catbear</li>
+			<li>GR_Catalope</li>
+			<li>GR_Catchicken</li>
+			<li>GR_Catrabbit</li>
+			<li>GR_Catfallo</li>
+			<li>GR_Catwolf</li>
+
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>AnimalJaw</li>
@@ -492,6 +585,22 @@
 			<li>GR_Rabbitchicken</li>
 			<li>GR_Ratfallo</li>
 			<li>GR_Wolfbeaver</li>
+			<li>GR_Bearcat</li>
+			<li>GR_Boomacat</li>
+			<li>GR_Chickencat</li>
+			<li>GR_Muffalocat</li>
+			<li>GR_Rabbitcat</li>
+			<li>GR_Wolfcat</li>
+			<li>GR_Snakecat</li>
+			<li>GR_Thrumbocat</li>
+			<li>GR_Mechacat</li>
+			<li>GR_Catbear</li>
+			<li>GR_Catalope</li>
+			<li>GR_Catchicken</li>
+			<li>GR_Catrabbit</li>
+			<li>GR_Catfallo</li>
+			<li>GR_Catwolf</li>
+
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Spine</li>
@@ -575,6 +684,23 @@
 			<li>GR_Rabbitchicken</li>
 			<li>GR_Ratfallo</li>
 			<li>GR_Wolfbeaver</li>
+			<li>GR_Bearcat</li>
+			<li>GR_Boomacat</li>
+			<li>GR_Chickencat</li>
+			<li>GR_Muffalocat</li>
+			<li>GR_Rabbitcat</li>
+			<li>GR_Wolfcat</li>
+			<li>GR_Snakecat</li>
+			<li>GR_Spidercat</li>
+			<li>GR_Thrumbocat</li>
+			<li>GR_Mechacat</li>
+			<li>GR_Catbear</li>
+			<li>GR_Catalope</li>
+			<li>GR_Catchicken</li>
+			<li>GR_Catrabbit</li>
+			<li>GR_Catfallo</li>
+			<li>GR_Catwolf</li>
+
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Brain</li>
@@ -658,6 +784,23 @@
 			<li>GR_Rabbitchicken</li>
 			<li>GR_Ratfallo</li>
 			<li>GR_Wolfbeaver</li>
+			<li>GR_Bearcat</li>
+			<li>GR_Boomacat</li>
+			<li>GR_Chickencat</li>
+			<li>GR_Muffalocat</li>
+			<li>GR_Rabbitcat</li>
+			<li>GR_Wolfcat</li>
+			<li>GR_Snakecat</li>
+			<li>GR_Spidercat</li>
+			<li>GR_Thrumbocat</li>
+			<li>GR_Mechacat</li>
+			<li>GR_Catbear</li>
+			<li>GR_Catalope</li>
+			<li>GR_Catchicken</li>
+			<li>GR_Catrabbit</li>
+			<li>GR_Catfallo</li>
+			<li>GR_Catwolf</li>
+
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Heart</li>
@@ -736,6 +879,23 @@
 			<li>GR_Rabbitchicken</li>
 			<li>GR_Ratfallo</li>
 			<li>GR_Wolfbeaver</li>
+			<li>GR_Bearcat</li>
+			<li>GR_Boomacat</li>
+			<li>GR_Chickencat</li>
+			<li>GR_Muffalocat</li>
+			<li>GR_Rabbitcat</li>
+			<li>GR_Wolfcat</li>
+			<li>GR_Snakecat</li>
+			<li>GR_Spidercat</li>
+			<li>GR_Thrumbocat</li>
+			<li>GR_Mechacat</li>
+			<li>GR_Catbear</li>
+			<li>GR_Catalope</li>
+			<li>GR_Catchicken</li>
+			<li>GR_Catrabbit</li>
+			<li>GR_Catfallo</li>
+			<li>GR_Catwolf</li>
+
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Lung</li>
@@ -812,6 +972,23 @@
 			<li>GR_Rabbitchicken</li>
 			<li>GR_Ratfallo</li>
 			<li>GR_Wolfbeaver</li>
+			<li>GR_Bearcat</li>
+			<li>GR_Boomacat</li>
+			<li>GR_Chickencat</li>
+			<li>GR_Muffalocat</li>
+			<li>GR_Rabbitcat</li>
+			<li>GR_Wolfcat</li>
+			<li>GR_Snakecat</li>
+			<li>GR_Spidercat</li>
+			<li>GR_Thrumbocat</li>
+			<li>GR_Mechacat</li>
+			<li>GR_Catbear</li>
+			<li>GR_Catalope</li>
+			<li>GR_Catchicken</li>
+			<li>GR_Catrabbit</li>
+			<li>GR_Catfallo</li>
+			<li>GR_Catwolf</li>
+
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Liver</li>
@@ -887,6 +1064,23 @@
 			<li>GR_Rabbitchicken</li>
 			<li>GR_Ratfallo</li>
 			<li>GR_Wolfbeaver</li>
+			<li>GR_Bearcat</li>
+			<li>GR_Boomacat</li>
+			<li>GR_Chickencat</li>
+			<li>GR_Muffalocat</li>
+			<li>GR_Rabbitcat</li>
+			<li>GR_Wolfcat</li>
+			<li>GR_Snakecat</li>
+			<li>GR_Spidercat</li>
+			<li>GR_Thrumbocat</li>
+			<li>GR_Mechacat</li>
+			<li>GR_Catbear</li>
+			<li>GR_Catalope</li>
+			<li>GR_Catchicken</li>
+			<li>GR_Catrabbit</li>
+			<li>GR_Catfallo</li>
+			<li>GR_Catwolf</li>
+
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Kidney</li>
@@ -970,6 +1164,23 @@
 			<li>GR_Rabbitchicken</li>
 			<li>GR_Ratfallo</li>
 			<li>GR_Wolfbeaver</li>
+			<li>GR_Bearcat</li>
+			<li>GR_Boomacat</li>
+			<li>GR_Chickencat</li>
+			<li>GR_Muffalocat</li>
+			<li>GR_Rabbitcat</li>
+			<li>GR_Wolfcat</li>
+			<li>GR_Snakecat</li>
+			<li>GR_Spidercat</li>
+			<li>GR_Thrumbocat</li>
+			<li>GR_Mechacat</li>
+			<li>GR_Catbear</li>
+			<li>GR_Catalope</li>
+			<li>GR_Catchicken</li>
+			<li>GR_Catrabbit</li>
+			<li>GR_Catfallo</li>
+			<li>GR_Catwolf</li>
+
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Stomach</li>

@@ -20,6 +20,10 @@
     <defName>GR_PlagueBite</defName>
     <label>plagued bite</label>
   </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>GR_HairballBite</defName>
+    <label>hairball bite</label>
+  </ToolCapacityDef>
 
 
 </Defs>

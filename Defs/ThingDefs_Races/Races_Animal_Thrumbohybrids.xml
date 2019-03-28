@@ -879,7 +879,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Thrumbocat</defName>
 		<label>thrumbocat</label>
-		<description>A Thrumbo / Cat hybrid. The thrumbocat is a dangerous, agile predator. It can attack with its maws or its massive horn, as well as overpower its prey with a close range hairball attack.\n\nUseful abilities: Like all cat hybrids, they have an improved melee dodge ability, making them perfect for the front lines, and a short nuzzle period. Ranged hairball attack that suffocates its prey.</description>
+		<description>A Thrumbo / Cat hybrid. The thrumbocat is a dangerous, agile predator. It can attack with its maws or its massive horn, as well as overpower its prey with a close range hairball attack.\n\nUseful abilities: Like all cat hybrids, they have an improved melee dodge ability, making them perfect for the front lines, and a short nuzzle period. Hairball attack that suffocates its prey.</description>
 		<statBases>
 			<MoveSpeed>5.0</MoveSpeed>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
@@ -887,28 +887,7 @@
 			<MeatAmount>40</MeatAmount>
 			
 		</statBases>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<accuracyTouch>0.8</accuracyTouch>
-				<accuracyShort>1</accuracyShort>
-				<accuracyMedium>0.95</accuracyMedium>
-				<accuracyLong>0.8</accuracyLong>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GR_GreatHairballProjectile</defaultProjectile>
-				<warmupTime>2</warmupTime>
-				<burstShotCount>1</burstShotCount>
-				<minRange>0</minRange>
-				<range>4</range>
-				<forcedMissRadius>0</forcedMissRadius>
-				<soundCast>Bow_Recurve</soundCast>
-				<muzzleFlashScale>0</muzzleFlashScale>
-				<!--Commanility determines how frequent this range verb is chosen.-->
-				<commonality>0.6</commonality>
-			</li>
-
-
-		</verbs>
+	
 		<tools>
 			<li>
 				<label>horn</label>
@@ -922,7 +901,7 @@
 			</li>
 			<li>
 				<capacities>
-					<li>Bite</li>
+					<li>GR_HairballBite</li>
 				</capacities>
 				<power>18</power>
 				<cooldownTime>1.4</cooldownTime>

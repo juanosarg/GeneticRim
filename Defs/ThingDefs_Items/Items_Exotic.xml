@@ -45,38 +45,8 @@
     <stuffCategories Inherit="false" />
   </ThingDef>
   
-  	<ThingDef ParentName="MechSerumBase">
-    <defName>GR_HybridBearGenesInjector</defName>
-    <label>hybrid bear genes injector</label>
-    <description>Injects hybrid bear genes in an humanoid.</description>
-    <graphicData>
-      <texPath>Things/Item/GR_HybridGenesInjector</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <stackLimit>1</stackLimit>
-    <tradeability>Sellable</tradeability>
-    <statBases>
-      <MarketValue>100</MarketValue>
-    </statBases>
-    <drawGUIOverlay>false</drawGUIOverlay>
-    <comps>
-      <li Class="CompProperties_Usable">
-        <useJob>GR_UseHybridInjector</useJob>
-        <useLabel>Use hybrid bear genes injector</useLabel>
-		<useDuration>600</useDuration>
+  
 
-      </li>
-      <li Class="NewAnimalSubproducts.CompProperties_HybridGenesUseEffect">
-        <compClass>NewAnimalSubproducts.CompUseEffect_ApplyHediff</compClass>
-		<genes>GR_BearHybridGenes</genes>
-		
-      </li>
-      <li Class="CompProperties_UseEffect">
-        <compClass>CompUseEffect_DestroySelf</compClass>
-      </li>
-    </comps>
-   
-  </ThingDef>
 
 
 

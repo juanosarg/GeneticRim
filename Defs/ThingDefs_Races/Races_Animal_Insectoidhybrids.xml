@@ -911,7 +911,6 @@
 				<burstShotCount>2</burstShotCount>
 				<minRange>4</minRange>
 				<range>22</range>
-				<forcedMissRadius>2</forcedMissRadius>
 				<soundCast>Bow_Recurve</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
 				<!--Commanility determines how frequent this range verb is chosen.-->
@@ -936,6 +935,8 @@
 		<race>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>BeetleLike</body>
+			      <maxPreyBodySize>0.85</maxPreyBodySize>
+
 			<baseHungerRate>0.25</baseHungerRate>
 			<baseBodySize>0.85</baseBodySize>
 			<baseHealthScale>1</baseHealthScale>

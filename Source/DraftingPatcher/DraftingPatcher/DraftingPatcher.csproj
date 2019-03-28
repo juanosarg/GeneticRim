@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Gas_Hairballs.cs" />
     <Compile Include="Gas_InsanityCloud.cs" />
     <Compile Include="Hediff_Burrowing.cs" />
     <Compile Include="Gas_PoisonCloud.cs" />

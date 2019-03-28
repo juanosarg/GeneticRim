@@ -574,7 +574,7 @@
 	<RecipeDef>
 		<defName>GR_ExtractNonSpecializedGenes</defName>
 		<label>extract non-specialized genes from any animal</label>
-		<description>Extract non-specialized cells from any animal that can't be used to create animal hybrids. They can probably be used in a gene recombinator to turn them into more useful genetic materials, though.</description>
+		<description>Extract non-specialized cells from any animal. These genes can't be used to create animal hybrids. They can probably be used in a gene recombinator to turn them into more useful genetic materials, though.</description>
 		<jobString>Extracting Genetic Material</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>

@@ -83,12 +83,12 @@
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
     <label>hairball damage</label>
-    <lethalSeverity>1</lethalSeverity>
+    <maxSeverity>1.0</maxSeverity>
     <makesSickThought>true</makesSickThought>
     <scenarioCanAdd>true</scenarioCanAdd>
     <comps>
       <li Class="HediffCompProperties_Immunizable">
-        <severityPerDayNotImmune>-0.08</severityPerDayNotImmune>
+        <severityPerDayNotImmune>-1</severityPerDayNotImmune>
       </li>
     </comps>
     <stages>
@@ -146,7 +146,23 @@
         <capMods>
           <li>
             <capacity>Breathing</capacity>
-            <setMax>0.10</setMax>
+            <setMax>0.05</setMax>
+          </li>
+        </capMods>
+       
+      </li>
+	  <li>
+        <label>nauseating</label>
+        <minSeverity>0.95</minSeverity>
+        <vomitMtbDays>0.025</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Breathing</capacity>
+            <setMax>0.05</setMax>
+          </li>
+		  <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.5</setMax>
           </li>
         </capMods>
        
@@ -315,7 +331,7 @@
      
       <li>   
 	    <statOffsets>
-			<MeleeDodgeChance>0.5</MeleeDodgeChance>			
+			<MeleeDodgeChance>25</MeleeDodgeChance>			
 		</statOffsets>	
 		<capMods>
           <li>
@@ -676,27 +692,12 @@
         <li>
 		 
 		  <statOffsets>
-          <MeleeDodgeChance>0.25</MeleeDodgeChance>
+          <MeleeDodgeChance>25</MeleeDodgeChance>
         </statOffsets>
 		</li>
       </stages>
   </HediffDef>
   
-  <HediffDef>
-  <defName>GR_BearHybridGenes</defName>
-    <hediffClass>NewAnimalSubproducts.Hediff_HumanHybrids</hediffClass>
-    <label>bear hybrid genes</label>
-    <defaultLabelColor>(.8,0,0)</defaultLabelColor>
-    <scenarioCanAdd>false</scenarioCanAdd>
-    <maxSeverity>1.0</maxSeverity>   
-      <stages>
-        <li>
-		 <painFactor>0.5</painFactor>
-		  <statOffsets>
-          <PainShockThreshold>1</PainShockThreshold>
-        </statOffsets>
-		</li>
-      </stages>
-  </HediffDef>
+ 
 
 </Defs>

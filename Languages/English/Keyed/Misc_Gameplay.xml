@@ -90,6 +90,7 @@
   
   <GR_ANewCreatureWasBorn>An incubator has hatched!</GR_ANewCreatureWasBorn> 
   <GR_ANewCreatureWasBornMutant>An incubator has hatc... Wait, what is THAT thing???</GR_ANewCreatureWasBornMutant> 
+  <GR_CantUseMoreGenetrainers>A genetrainer has been wasted. This colonist already has a genetrainer applied.</GR_CantUseMoreGenetrainers> 
 
   
   <!-- Settings -->

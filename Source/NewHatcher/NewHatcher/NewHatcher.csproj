@@ -55,11 +55,13 @@
     <Compile Include="CompProperties_RecombinatorSerum.cs" />
     <Compile Include="CompProperties_Recombinator.cs" />
     <Compile Include="CompRecombinator.cs" />
+    <Compile Include="HediffCompProperties_GenericHatcher.cs" />
     <Compile Include="HediffCompProperties_Milker.cs" />
     <Compile Include="HediffComp_Ager.cs" />
     <Compile Include="HediffCompProperties_Ager.cs" />
     <Compile Include="HediffComp_Exploder.cs" />
     <Compile Include="HediffCompProperties_Exploder.cs" />
+    <Compile Include="HediffComp_GenericHatcher.cs" />
     <Compile Include="HediffComp_Milker.cs" />
     <Compile Include="HediffComp_Hatcher.cs" />
     <Compile Include="HediffCompProperties_Hatcher.cs" />
