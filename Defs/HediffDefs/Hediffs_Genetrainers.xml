@@ -33,7 +33,14 @@
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>   		
 		<stages>
+		
 			<li>
+			<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
 				<painOffset>0.1</painOffset>
 			</li>
 		</stages>
@@ -48,14 +55,15 @@
 	</HediffDef>
 
 	<HediffDef>
-		<defName>GR_ChickenHybridGenes</defName>
-		<label>chicken genes (eagle sight)</label>
+		<defName>GR_CatHybridGenes</defName>
+		<label>cat genes (keen sight)</label>
 		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>   		
 		<stages>
 			<li>
 				<statOffsets>
+					<MeleeDodgeChance>10</MeleeDodgeChance>
 					<ShootingAccuracyPawn>5</ShootingAccuracyPawn>							
 				</statOffsets>
 			</li>
@@ -65,15 +73,203 @@
 	</HediffDef>
 	
 	<HediffDef>
-		<defName>GR_MuffaloHybridGenes</defName>
-		<label>muffalo genes (muffalo strength)</label>
+		<defName>GR_ChickenHybridGenes</defName>
+		<label>chicken genes (birdlike curiosity)</label>
 		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>   		
 		<stages>
 			<li>
 				<statOffsets>
-					<ShootingAccuracyPawn>5</ShootingAccuracyPawn>							
+					<GlobalLearningFactor>0.15</GlobalLearningFactor>							
+				</statOffsets>
+			</li>
+		</stages>
+		
+
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>GR_MuffaloHybridGenes</defName>
+		<label>muffalo genes (wild attunement)</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>   		
+		<stages>
+			<li>
+				<statOffsets>
+					<CarryingCapacity>10</CarryingCapacity>		
+					<LeatherAmount>30</LeatherAmount>	
+					<ForagedNutritionPerDay>0.5</ForagedNutritionPerDay>
+					<PlantWorkSpeed>0.1</PlantWorkSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+		
+
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>GR_WolfHybridGenes</defName>
+		<label>wolf genes (wolf speed)</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>   		
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<EatingSpeed>0.2</EatingSpeed>	
+					<ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+		
+
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>GR_RodentHybridGenes</defName>
+		<label>rodent genes (gregarious)</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>   		
+		<stages>
+			<li>
+				
+				<statOffsets>
+					<NegotiationAbility>0.2</NegotiationAbility>	
+					<TradePriceImprovement>0.2</TradePriceImprovement>
+					<SocialImpact>0.2</SocialImpact>
+
+				</statOffsets>
+			</li>
+		</stages>
+		
+
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>GR_ReptileHybridGenes</defName>
+		<label>reptile genes (cold blood)</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>   		
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<HuntingStealth>0.5</HuntingStealth>	
+					<ComfyTemperatureMax>25</ComfyTemperatureMax>
+					
+				</statOffsets>
+			</li>
+		</stages>
+		
+
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>GR_InsectoidHybridGenes</defName>
+		<label>insectoid genes (eusocial mind)</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>   		
+		<stages>
+			<li>
+				
+				<statOffsets>
+					<SocialImpact>0.1</SocialImpact>
+					<ConstructionSpeed>0.35</ConstructionSpeed>	
+					<SmoothingSpeed>0.2</SmoothingSpeed>
+					<FixBrokenDownBuildingSuccessChance>0.2</FixBrokenDownBuildingSuccessChance>
+					<ConstructSuccessChance>0.2</ConstructSuccessChance>
+					<AnimalGatherSpeed>-0.2</AnimalGatherSpeed>
+					<TameAnimalChance>-0.2</TameAnimalChance>
+					<TrainAnimalChance>-0.2</TrainAnimalChance>
+					<PlantWorkSpeed>-0.2</PlantWorkSpeed>
+
+					
+				</statOffsets>
+			</li>
+		</stages>
+		
+
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>GR_ThrumboHybridGenes</defName>
+		<label>thrumbo genes (animal affinity)</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>   		
+		<stages>
+			<li>
+				
+				<statOffsets>
+					
+					<TameAnimalChance>0.2</TameAnimalChance>
+					<TrainAnimalChance>0.2</TrainAnimalChance>
+					<AnimalGatherSpeed>0.2</AnimalGatherSpeed>
+					<AnimalGatherYield>0.2</AnimalGatherYield>
+					
+					
+				</statOffsets>
+			</li>
+		</stages>
+		
+
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>GR_ThrumboHybridGenes</defName>
+		<label>thrumbo genes (animal affinity)</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>   		
+		<stages>
+			<li>
+				
+				<statOffsets>
+					
+					<TameAnimalChance>0.2</TameAnimalChance>
+					<TrainAnimalChance>0.2</TrainAnimalChance>
+					<AnimalGatherSpeed>0.2</AnimalGatherSpeed>
+					<AnimalGatherYield>0.2</AnimalGatherYield>
+					
+					
+				</statOffsets>
+			</li>
+		</stages>
+		
+
+	</HediffDef>
+	
+		
+	<HediffDef>
+		<defName>GR_MechanoidHybridGenes</defName>
+		<label>mechanoid genes (plasteel skin)</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>   		
+		<stages>
+			<li>
+				
+				<statOffsets>
+					
+					<Flammability>-1</Flammability>
+					
+					
 				</statOffsets>
 			</li>
 		</stages>

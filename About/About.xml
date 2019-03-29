@@ -6,13 +6,13 @@
 
 &lt;size=24&gt;Features&lt;/size&gt;
 
-- Hybridization: Extract genes from Bears, Chickens, Boomalopes, Muffalos, Wolves, Rodents, Reptiles, Insectoids, Mechanoids and Thrumbos, and create hybrids of these species. Some combinations can go both ways, so for example a bearalope is different from a boombear, and you will get one at random. A total of 63 new creatures for you to play with. Some very useful, others... less so.
+- Hybridization: Extract genes from Bears, Cats, Chickens, Boomalopes, Muffalos, Wolves, Rodents, Reptiles, Insectoids, Mechanoids and Thrumbos, and create hybrids of these species. Some combinations can go both ways, so for example a bearalope is different from a boombear, and you will get one at random. A total of 77 new creatures for you to play with. Some very useful, others... less so.
 
 - Hybrid implants: The Growth Vat can be used to create either animal or human implants. Using different animal genes, you can create implants such as Thrumbo Legs, or Chitinous Hearts, and turn your scientific aberrations into even more bizarre creatures. By using humanoid genes, you can mix them with animal genes and create several hybrid implants to improve your colonists.
 
 - Paragon Creatures: With the Animal Enrichment research, you can turn regular animals into Paragons, more evolved versions of the base creature. A total of 14 new creatures for you to play with.
 
-- Animal Control: With the Animal Control research, you can directly control your animals. Draft them and move them at will! It also gives special abilities depending on the creature, so wolf hybrids can use Adrenaline Rush, thrumbo hybrids can stampede, and so on. 10 new abilities, and any combinations of them, open up fascinating new tactical possibilities.
+- Animal Control: With the Animal Control research, you can directly control your animals. Draft them and move them at will! It also gives special abilities depending on the creature, so wolf hybrids can use Adrenaline Rush, thrumbo hybrids can stampede, and so on. 11 new abilities, and any combinations of them, open up fascinating new tactical possibilities.
 
 &lt;size=24&gt;Issues&lt;/size&gt;
 Some of the biggest animals might flicker. This is to be expected, since a few of them are bigger than Thrumbos!
@@ -38,7 +38,7 @@ How do I progress? Here is a mini-guide:
 
 &lt;size=24&gt;Compatibility&lt;/size&gt;
 Super compatible with Giddy-Up. Saddles included for all big enough hybrids and paragons
-Compatible with Animal Collab Project, Alpha Animals, Mechanoids Extraordinaire, More Mechanoids and Polarisbloc - Mechenemy for gene extraction
+Compatible with Animal Collab Project, Alpha Animals, Mechanoids Extraordinaire, More Mechanoids, Let's Have a Cat! and Polarisbloc - Mechenemy for gene extraction
 Compatible with A Dog Said for implants on hybrids and paragons
 Compatible with Rim of Madness - Bones for extraction of organic pulp from bones
 Aesthetically compatible with the High Tech Laboratory Facilities mod
@@ -51,6 +51,7 @@ Some building textures modified from Textures by Pixel Art World, http://yms.mai
 Some building textures modified from Textures in the High Tech Laboratory Facilities mod
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v4.3: New animal family: cats. Added non-specialized genes to extract from any animal. Added genetrainers (29/03/19)
 v4.2: New saddles for Giddy-Up. New mechanoid hybrid balance. Tons of new humanoid implants (26/02/19)
 v4.101: Added five new rodent hybrids (31/01/19)
 v4.1: New building graphics. New options screen for legless creatures. Alphas renamed to Paragons (28/1/19)

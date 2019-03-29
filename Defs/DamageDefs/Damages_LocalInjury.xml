@@ -10,6 +10,8 @@
 			<li>
 				<hediff>ToxicBuildup</hediff>
 				<severityPerDamageDealt>0.005</severityPerDamageDealt>
+				        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+
 			</li>
 		</additionalHediffs>
 	</DamageDef>
@@ -21,6 +23,8 @@
 			<li>
 				<hediff>ToxicBuildup</hediff>
 				<severityPerDamageDealt>0.0005</severityPerDamageDealt>
+				        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+
 			</li>
 		</additionalHediffs>
 	</DamageDef>
@@ -32,6 +36,8 @@
 			<li>
 				<hediff>GR_HairballDamage</hediff>
 				<severityPerDamageDealt>0.075</severityPerDamageDealt>
+				        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+
 			</li>
 		</additionalHediffs>
 	</DamageDef>
@@ -43,6 +49,8 @@
 			<li>
 				<hediff>GR_HairballDamage</hediff>
 				<severityPerDamageDealt>0.075</severityPerDamageDealt>
+				        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+
 			</li>
 		</additionalHediffs>
 	</DamageDef>
@@ -63,6 +71,8 @@
 			<li>
 				<hediff>GR_ToxicDamage</hediff>
 				<severityPerDamageDealt>0.035</severityPerDamageDealt>
+				        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+
 
 			</li>
 		</additionalHediffs>
@@ -84,6 +94,8 @@
 			<li>
 				<hediff>GR_HairballDamage</hediff>
 				<severityPerDamageDealt>0.0001</severityPerDamageDealt>
+				        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+
 
 			</li>
 		</additionalHediffs>
@@ -96,6 +108,8 @@
 			<li>
 				<hediff>Plague</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+				        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+
 			</li>
 		</additionalHediffs>
 	</DamageDef>

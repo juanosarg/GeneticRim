@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<RecipeDef>
+		<defName>GR_CraftBearGenetrainer</defName>
+		<label>craft hybrid bear genes genetrainer</label>
+		<description>Craft hybrid bear genes genetrainer. Genetrainers are implants that do not take the place of any given organ. This will require the repurposing of any mech serum.</description>
+		<jobString>Craft hybrid bear genes genetrainer.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>300</workAmount>
+				<workSkill>Intellectual</workSkill>
+
+		<recipeUsers>
+				<li>GR_GenetrainerBench</li>	  
+		</recipeUsers>	
+		
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>GR_BearGenetic</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>MechSerumNeurotrainer</li>
+					<li>MechSerumHealer</li>
+					<li>MechSerumResurrector</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_BearGenetic</li>
+				<li>MechSerumNeurotrainer</li>
+				<li>MechSerumHealer</li>
+				<li>MechSerumResurrector</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<GR_HybridBearGenesGenetrainer>1</GR_HybridBearGenesGenetrainer>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_CraftBoomalopeGenetrainer</defName>
+		<label>craft hybrid boomalope genes genetrainer</label>
+		<description>Craft hybrid boomalope genes genetrainer. Genetrainers are implants that do not take the place of any given organ. This will require the repurposing of any mech serum.</description>
+		<jobString>Craft hybrid boomalope genes genetrainer.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>300</workAmount>
+				<workSkill>Intellectual</workSkill>
+
+		<recipeUsers>
+				<li>GR_GenetrainerBench</li>	  
+		</recipeUsers>	
+		
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>GR_BoomalopeGenetic</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>MechSerumNeurotrainer</li>
+					<li>MechSerumHealer</li>
+					<li>MechSerumResurrector</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_BoomalopeGenetic</li>
+				<li>MechSerumNeurotrainer</li>
+				<li>MechSerumHealer</li>
+				<li>MechSerumResurrector</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<GR_HybridBoomalopeGenesGenetrainer>1</GR_HybridBoomalopeGenesGenetrainer>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_CraftCatGenetrainer</defName>
+		<label>craft hybrid cat genes genetrainer</label>
+		<description>Craft hybrid cat genes genetrainer. Genetrainers are implants that do not take the place of any given organ. This will require the repurposing of any mech serum.</description>
+		<jobString>Craft hybrid cat genes genetrainer.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>300</workAmount>
+				<workSkill>Intellectual</workSkill>
+
+		<recipeUsers>
+				<li>GR_GenetrainerBench</li>	  
+		</recipeUsers>	
+		
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>GR_FelineGenetic</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>MechSerumNeurotrainer</li>
+					<li>MechSerumHealer</li>
+					<li>MechSerumResurrector</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_FelineGenetic</li>
+				<li>MechSerumNeurotrainer</li>
+				<li>MechSerumHealer</li>
+				<li>MechSerumResurrector</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<GR_HybridCatGenesGenetrainer>1</GR_HybridCatGenesGenetrainer>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_CraftChickenGenetrainer</defName>
+		<label>craft hybrid chicken genes genetrainer</label>
+		<description>Craft hybrid chicken genes genetrainer. Genetrainers are implants that do not take the place of any given organ. This will require the repurposing of any mech serum.</description>
+		<jobString>Craft hybrid chicken genes genetrainer.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>300</workAmount>
+				<workSkill>Intellectual</workSkill>
+
+		<recipeUsers>
+				<li>GR_GenetrainerBench</li>	  
+		</recipeUsers>	
+		
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>GR_ChickenGenetic</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>MechSerumNeurotrainer</li>
+					<li>MechSerumHealer</li>
+					<li>MechSerumResurrector</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ChickenGenetic</li>
+				<li>MechSerumNeurotrainer</li>
+				<li>MechSerumHealer</li>
+				<li>MechSerumResurrector</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<GR_HybridChickenGenesGenetrainer>1</GR_HybridChickenGenesGenetrainer>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_CraftMuffaloGenetrainer</defName>
+		<label>craft hybrid muffalo genes genetrainer</label>
+		<description>Craft hybrid muffalo genes genetrainer. Genetrainers are implants that do not take the place of any given organ. This will require the repurposing of any mech serum.</description>
+		<jobString>Craft hybrid muffalo genes genetrainer.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>300</workAmount>
+				<workSkill>Intellectual</workSkill>
+
+		<recipeUsers>
+				<li>GR_GenetrainerBench</li>	  
+		</recipeUsers>	
+		
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>GR_MuffaloGenetic</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>MechSerumNeurotrainer</li>
+					<li>MechSerumHealer</li>
+					<li>MechSerumResurrector</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_MuffaloGenetic</li>
+				<li>MechSerumNeurotrainer</li>
+				<li>MechSerumHealer</li>
+				<li>MechSerumResurrector</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<GR_HybridMuffaloGenesGenetrainer>1</GR_HybridMuffaloGenesGenetrainer>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>GR_CraftRodentGenetrainer</defName>
+		<label>craft hybrid rodent genes genetrainer</label>
+		<description>Craft hybrid rodent genes genetrainer. Genetrainers are implants that do not take the place of any given organ. This will require the repurposing of any mech serum.</description>
+		<jobString>Craft hybrid rodent genes genetrainer.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>300</workAmount>
+				<workSkill>Intellectual</workSkill>
+
+		<recipeUsers>
+				<li>GR_GenetrainerBench</li>	  
+		</recipeUsers>	
+		
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>GR_RodentGenetic</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>MechSerumNeurotrainer</li>
+					<li>MechSerumHealer</li>
+					<li>MechSerumResurrector</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_RodentGenetic</li>
+				<li>MechSerumNeurotrainer</li>
+				<li>MechSerumHealer</li>
+				<li>MechSerumResurrector</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<GR_HybridRodentGenesGenetrainer>1</GR_HybridRodentGenesGenetrainer>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_CraftWolfGenetrainer</defName>
+		<label>craft hybrid wolf genes genetrainer</label>
+		<description>Craft hybrid wolf genes genetrainer. Genetrainers are implants that do not take the place of any given organ. This will require the repurposing of any mech serum.</description>
+		<jobString>Craft hybrid wolf genes genetrainer.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>300</workAmount>
+				<workSkill>Intellectual</workSkill>
+
+		<recipeUsers>
+				<li>GR_GenetrainerBench</li>	  
+		</recipeUsers>	
+		
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>GR_WolfGenetic</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>MechSerumNeurotrainer</li>
+					<li>MechSerumHealer</li>
+					<li>MechSerumResurrector</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_WolfGenetic</li>
+				<li>MechSerumNeurotrainer</li>
+				<li>MechSerumHealer</li>
+				<li>MechSerumResurrector</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<GR_HybridWolfGenesGenetrainer>1</GR_HybridWolfGenesGenetrainer>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>	
+	
+	<RecipeDef>
+		<defName>GR_CraftReptileGenetrainer</defName>
+		<label>craft hybrid reptile genes genetrainer</label>
+		<description>Craft hybrid reptile genes genetrainer. Genetrainers are implants that do not take the place of any given organ. This will require the repurposing of any mech serum.</description>
+		<jobString>Craft hybrid reptile genes genetrainer.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>300</workAmount>
+				<workSkill>Intellectual</workSkill>
+
+		<recipeUsers>
+				<li>GR_GenetrainerBench</li>	  
+		</recipeUsers>	
+		
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>GR_ReptilianGenetic</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>MechSerumNeurotrainer</li>
+					<li>MechSerumHealer</li>
+					<li>MechSerumResurrector</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ReptilianGenetic</li>
+				<li>MechSerumNeurotrainer</li>
+				<li>MechSerumHealer</li>
+				<li>MechSerumResurrector</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<GR_HybridReptileGenesGenetrainer>1</GR_HybridReptileGenesGenetrainer>
+		</products>
+		<researchPrerequisite>GR_ReptilianGenome</researchPrerequisite>
+		<skillRequirements>
+			<Intellectual>7</Intellectual>
+		</skillRequirements>
+	</RecipeDef>	
+	
+	<RecipeDef>
+		<defName>GR_CraftInsectoidGenetrainer</defName>
+		<label>craft hybrid insectoid genes genetrainer</label>
+		<description>Craft hybrid insectoid genes genetrainer. Genetrainers are implants that do not take the place of any given organ. This will require the repurposing of any mech serum.</description>
+		<jobString>Craft hybrid insectoid genes genetrainer.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>300</workAmount>
+				<workSkill>Intellectual</workSkill>
+
+		<recipeUsers>
+				<li>GR_GenetrainerBench</li>	  
+		</recipeUsers>	
+		
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>GR_InsectoidGenetic</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>MechSerumNeurotrainer</li>
+					<li>MechSerumHealer</li>
+					<li>MechSerumResurrector</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_InsectoidGenetic</li>
+				<li>MechSerumNeurotrainer</li>
+				<li>MechSerumHealer</li>
+				<li>MechSerumResurrector</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<GR_HybridInsectoidGenesGenetrainer>1</GR_HybridInsectoidGenesGenetrainer>
+		</products>
+		<researchPrerequisite>GR_InsectoidGenome</researchPrerequisite>
+		<skillRequirements>
+			<Intellectual>7</Intellectual>
+		</skillRequirements>
+	</RecipeDef>	
+	
+	<RecipeDef>
+		<defName>GR_CraftThrumboGenetrainer</defName>
+		<label>craft hybrid thrumbo genes genetrainer</label>
+		<description>Craft hybrid thrumbo genes genetrainer. Genetrainers are implants that do not take the place of any given organ. This will require the repurposing of any mech serum.</description>
+		<jobString>Craft hybrid thrumbo genes genetrainer.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>300</workAmount>
+				<workSkill>Intellectual</workSkill>
+
+		<recipeUsers>
+				<li>GR_GenetrainerBench</li>	  
+		</recipeUsers>	
+		
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>GR_ThrumboGenetic</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>MechSerumNeurotrainer</li>
+					<li>MechSerumHealer</li>
+					<li>MechSerumResurrector</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ThrumboGenetic</li>
+				<li>MechSerumNeurotrainer</li>
+				<li>MechSerumHealer</li>
+				<li>MechSerumResurrector</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<GR_HybridThrumboGenesGenetrainer>1</GR_HybridThrumboGenesGenetrainer>
+		</products>
+		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
+		<skillRequirements>
+			<Intellectual>10</Intellectual>
+		</skillRequirements>
+	</RecipeDef>	
+	
+	<RecipeDef>
+		<defName>GR_CraftMechanoidGenetrainer</defName>
+		<label>craft hybrid mechanoid genes genetrainer</label>
+		<description>Craft hybrid mechanoid genes genetrainer. Genetrainers are implants that do not take the place of any given organ. This will require the repurposing of any mech serum.</description>
+		<jobString>Craft hybrid mechanoid genes genetrainer.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>300</workAmount>
+				<workSkill>Intellectual</workSkill>
+
+		<recipeUsers>
+				<li>GR_GenetrainerBench</li>	  
+		</recipeUsers>	
+		
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>GR_MechanoidGenetic</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>MechSerumNeurotrainer</li>
+					<li>MechSerumHealer</li>
+					<li>MechSerumResurrector</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_MechanoidGenetic</li>
+				<li>MechSerumNeurotrainer</li>
+				<li>MechSerumHealer</li>
+				<li>MechSerumResurrector</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<GR_HybridMechanoidGenesGenetrainer>1</GR_HybridMechanoidGenesGenetrainer>
+		</products>
+		<researchPrerequisite>GR_AdvancedMechaniteBioIntegration</researchPrerequisite>
+		<skillRequirements>
+			<Intellectual>10</Intellectual>
+		</skillRequirements>
+	</RecipeDef>	
+
+</Defs>

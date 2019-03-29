@@ -633,7 +633,7 @@
     <defName>GR_GenetrainerBench</defName>
     <label>genetrainer bench</label>
     <thingClass>Building_WorkTable</thingClass>
-    <description>The Genetrainer bench allows jury rigging of mechserum neurotrainers, healers and resurrectors to craft genetrainers, single use artifacts that inject animal genetic material in a human being, acting as a powerful implant that doesn't take the place of any organ in the body.</description>
+    <description>The Genetrainer bench allows jury rigging of mech serum neurotrainers, healers and resurrectors to craft genetrainers, single use artifacts that inject animal genetic material in a human being, acting as a powerful implant that doesn't take the place of any organ in the body.</description>
     <graphicData>
       <texPath>Things/Building/GR_GenetrainerBench</texPath>
       <graphicClass>Graphic_Multi</graphicClass>

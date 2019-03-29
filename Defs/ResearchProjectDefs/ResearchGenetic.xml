@@ -114,7 +114,7 @@
     <label>genetrainer repurposing</label>
     <tab>GR_GeneticReseach</tab>
     <techLevel>Spacer</techLevel>
-    <description>Genetrainer repurposing unlocks the jury rigging of mechserum neurotrainers, healers and resurrectors to craft genetrainers, single use artifacts that inject animal genetic material in a human being, acting as a powerful implant that doesn't take the place of any organ in the body.</description>
+    <description>Genetrainer repurposing unlocks the jury rigging of mech serum neurotrainers, healers and resurrectors to craft genetrainers, single use artifacts that inject animal genetic material in a human being, acting as a powerful implant that doesn't take the place of any organ in the body.</description>
     <baseCost>2500</baseCost>
     <prerequisites>
       <li>GR_AdvancedGeneticEngineering</li>
