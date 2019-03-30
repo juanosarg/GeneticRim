@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+
+  <!-- Reactor -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>GR_GameEnder</defName>
+    <label>ship reactor</label>
+    <description>Powers a ship on its journey between stars. Takeoff requires a long powerup process that is likely to attract raiders.</description>
+    <thingClass>Building_ShipReactor</thingClass>
+    <graphicData>
+      <texPath>Things/Building/GR_CryostabilizedEngine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(8,8)</drawSize>
+      <shadowData>
+        <volume>(5.94, 1.0, 6.71)</volume>
+      </shadowData>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <researchPrerequisites><li>ShipReactor</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <fillPercent>1</fillPercent>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <WorkToBuild>65000</WorkToBuild>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <size>(6,7)</size>
+    <designationCategory>Ship</designationCategory>
+    <building>
+      <shipPart>true</shipPart>
+    </building>
+    <costList>
+      <Steel>350</Steel>
+      <Plasteel>280</Plasteel>
+			<Uranium>70</Uranium>
+      <ComponentSpacer>8</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-1000</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_ShipPart"/>
+      <li Class="CompProperties_Hibernatable">
+        <incidentTargetWhileStarting>Map_RaidBeacon</incidentTargetWhileStarting>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+    </placeWorkers>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationHotKey>Misc4</designationHotKey>
+    <defaultPlacingRot>East</defaultPlacingRot>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+  </ThingDef>
+
+
+ 
+
+
+
+</Defs>

@@ -16,7 +16,7 @@
       <MaxHitPoints>15</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>6</DeteriorationRate>
-	  <Mass>0.1</Mass>
+	  <Mass>10</Mass>
 	  <MarketValue>40</MarketValue>
     </statBases>
     <tickerType>Normal</tickerType>
@@ -51,7 +51,7 @@
       <MaxHitPoints>15</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>6</DeteriorationRate>
-	  <Mass>0.1</Mass>
+	  <Mass>10</Mass>
 	  <MarketValue>40</MarketValue>
     </statBases>
     <tickerType>Normal</tickerType>
