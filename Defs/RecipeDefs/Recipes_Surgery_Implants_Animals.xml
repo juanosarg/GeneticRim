@@ -5,94 +5,7 @@
 
 	<RecipeDef Name="GR_LegImplants" Abstract="True" ParentName="SurgeryFlesh">
 		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>GR_AlphaBear</li>
-			<li>GR_AlphaWildBoar</li>
-			<li>GR_AlphaBoomalope</li>
-			<li>GR_AlphaChicken</li>
-			<li>GR_AlphaEmu</li>
-			<li>GR_AlphaMuffalo</li>
-			<li>GR_AlphaOstrich</li>
-			<li>GR_AlphaRhinoceros</li>
-			<li>GR_AlphaWolfTimber</li>
-			<li>GR_AlphaHare</li>
-			<li>GR_AlphaIguana</li>
-			<li>GR_AlphaPig</li>
-			<li>GR_AlphaRat</li>
-			<li>GR_AlphaTortoise</li>
-			<li>GR_Bearalope</li>
-			<li>GR_Bearchicken</li>
-			<li>GR_Bearffalo</li>
-			<li>GR_Bearwolf</li>
-			<li>GR_Boomabear</li>
-			<li>GR_Boomachicken</li>
-			<li>GR_Boomffalo</li>
-			<li>GR_Boomwolf</li>
-			<li>GR_Chickenbear</li>
-			<li>GR_Chickenlope</li>
-			<li>GR_Chickenffalo</li>
-			<li>GR_Chickenwolf</li>
-			<li>GR_Bearscarab</li>
-			<li>GR_Boombeetle</li>
-			<li>GR_Chickenspider</li>
-			<li>GR_Thrumbospider</li>
-			<li>GR_Wolfscarab</li>
-			<li>GR_Muffalobear</li>
-			<li>GR_Muffalope</li>
-			<li>GR_Muffalochicken</li>
-			<li>GR_Muffalowolf</li>
-			<li>GR_Bearodile</li>
-			<li>GR_Chickenlizard</li>
-			<li>GR_Muffalokomodo</li>
-			<li>GR_Thrumbolizard</li>
-			<li>GR_Wolfsnake</li>
-			<li>GR_Bearmole</li>
-			<li>GR_Boomsquirrel</li>
-			<li>GR_Chickenrabbit</li>
-			<li>GR_Muffalorat</li>
-			<li>GR_Thrumborat</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Thrumbear</li>
-			<li>GR_Thrumbalope</li>
-			<li>GR_Thrumbochicken</li>
-			<li>GR_Thrumffalo</li>
-			<li>GR_Thrumwolf</li>
-			<li>GR_Wolfbear</li>
-			<li>GR_Wolfalope</li>
-			<li>GR_Wolfchicken</li>
-			<li>GR_Wolffalo</li>
-			<li>GR_Mechabear</li>
-			<li>GR_Mechalope</li>
-			<li>GR_Mechachicken</li>
-			<li>GR_Mechaspider</li>
-			<li>GR_Mechamuffalo</li>
-			<li>GR_Mecharat</li>
-			<li>GR_Mechaturtle</li>
-			<li>GR_Mechawolf</li>
-			<li>GR_Mechathrumbo</li>
-			<li>GR_Molebear</li>
-			<li>GR_Squirralope</li>
-			<li>GR_Rabbitchicken</li>
-			<li>GR_Ratfallo</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Bearcat</li>
-			<li>GR_Boomacat</li>
-			<li>GR_Chickencat</li>
-			<li>GR_Muffalocat</li>
-			<li>GR_Rabbitcat</li>
-			<li>GR_Wolfcat</li>
-			<li>GR_Snakecat</li>
-			<li>GR_Spidercat</li>
-			<li>GR_Thrumbocat</li>
-			<li>GR_Mechacat</li>
-			<li>GR_Catbear</li>
-			<li>GR_Catalope</li>
-			<li>GR_Catchicken</li>
-			<li>GR_Catrabbit</li>
-			<li>GR_Catfallo</li>
-			<li>GR_Catwolf</li>
-
-		</recipeUsers>
+		
 		<appliedOnFixedBodyParts>
 			<li>Leg</li> 
 			<li>InsectLeg</li>
@@ -101,48 +14,7 @@
 
 	<RecipeDef Name="GR_TailImplants" Abstract="True" ParentName="SurgeryFlesh">
 		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>GR_AlphaChicken</li>
-			<li>GR_AlphaEmu</li>
-			<li>GR_AlphaOstrich</li>
-			<li>GR_AlphaWolfTimber</li>
-			<li>GR_AlphaHare</li>
-			<li>GR_AlphaIguana</li>
-			<li>GR_AlphaTortoise</li>
-			<li>GR_Bearwolf</li>			
-			<li>GR_Chickenbear</li>
-			<li>GR_Chickenlope</li>
-			<li>GR_Chickenffalo</li>
-			<li>GR_Chickenwolf</li>
-       		<li>GR_Bearodile</li>
-			<li>GR_Chickenlizard</li>
-			<li>GR_Wolfsnake</li>
-			<li>GR_Boomsquirrel</li>
-			<li>GR_Chickenrabbit</li>
-			<li>GR_Muffalorat</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Thrumbochicken</li>
-			<li>GR_Wolfbear</li>
-			<li>GR_Wolfalope</li>
-			<li>GR_Wolffalo</li>			
-			<li>GR_Mechachicken</li>		
-			<li>GR_Mechaturtle</li>
-			<li>GR_Mechawolf</li>
-			<li>GR_Squirralope</li>
-			<li>GR_Rabbitchicken</li>
-			<li>GR_Ratfallo</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Bearcat</li>
-			<li>GR_Boomacat</li>
-			<li>GR_Chickencat</li>			
-			<li>GR_Wolfcat</li>
-			<li>GR_Snakecat</li>			
-			<li>GR_Mechacat</li>
-			<li>GR_Catbear</li>
-			<li>GR_Catalope</li>			
-			<li>GR_Catrabbit</li>			
-			<li>GR_Catwolf</li>
-		</recipeUsers>
+		
 		<appliedOnFixedBodyParts>
 			<li>Tail</li> 
 		</appliedOnFixedBodyParts>
@@ -150,98 +22,7 @@
 
 	<RecipeDef Name="GR_EyeImplants" Abstract="True" ParentName="SurgeryFlesh">
 		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>GR_AberrantFleshbeast</li>
-			<li>GR_AlphaBear</li>
-			<li>GR_AlphaWildBoar</li>
-			<li>GR_AlphaBoomalope</li>
-			<li>GR_AlphaChicken</li>
-			<li>GR_AlphaEmu</li>
-			<li>GR_AlphaMuffalo</li>
-			<li>GR_AlphaOstrich</li>
-			<li>GR_AlphaRhinoceros</li>
-			<li>GR_AlphaWolfTimber</li>
-			<li>GR_AlphaHare</li>
-			<li>GR_AlphaIguana</li>
-			<li>GR_AlphaPig</li>
-			<li>GR_AlphaRat</li>
-			<li>GR_AlphaTortoise</li>
-			<li>GR_Bearalope</li>
-			<li>GR_Bearchicken</li>
-			<li>GR_Bearffalo</li>
-			<li>GR_Bearwolf</li>
-			<li>GR_Boomabear</li>
-			<li>GR_Boomachicken</li>
-			<li>GR_Boomffalo</li>
-			<li>GR_Boomwolf</li>
-			<li>GR_Chickenbear</li>
-			<li>GR_Chickenlope</li>
-			<li>GR_Chickenffalo</li>
-			<li>GR_Chickenwolf</li>
-			<li>GR_Bearscarab</li>
-			<li>GR_Boombeetle</li>
-			<li>GR_Chickenspider</li>
-			<li>GR_Muffalopede</li>
-			<li>GR_Thrumbospider</li>
-			<li>GR_Wolfscarab</li>
-			<li>GR_Muffalobear</li>
-			<li>GR_Muffalope</li>
-			<li>GR_Muffalochicken</li>
-			<li>GR_Muffalowolf</li>
-			<li>GR_Bearodile</li>
-			<li>GR_Boomsnake</li>
-			<li>GR_Chickenlizard</li>
-			<li>GR_Muffalokomodo</li>
-			<li>GR_Spidersnake</li>
-			<li>GR_Thrumbolizard</li>
-			<li>GR_Wolfsnake</li>
-			<li>GR_Bearmole</li>
-			<li>GR_Boomsquirrel</li>
-			<li>GR_Chickenrabbit</li>
-			<li>GR_Muffalorat</li>
-			<li>GR_Thrumborat</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Thrumbear</li>
-			<li>GR_Thrumbalope</li>
-			<li>GR_Thrumbochicken</li>
-			<li>GR_Thrumffalo</li>
-			<li>GR_Thrumwolf</li>
-			<li>GR_Wolfbear</li>
-			<li>GR_Wolfalope</li>
-			<li>GR_Wolfchicken</li>
-			<li>GR_Wolffalo</li>
-			<li>GR_Mechabear</li>
-			<li>GR_Mechalope</li>
-			<li>GR_Mechachicken</li>
-			<li>GR_Mechaspider</li>
-			<li>GR_Mechamuffalo</li>
-			<li>GR_Mecharat</li>
-			<li>GR_Mechaturtle</li>
-			<li>GR_Mechawolf</li>
-			<li>GR_Mechathrumbo</li>
-			<li>GR_Molebear</li>
-			<li>GR_Squirralope</li>
-			<li>GR_Rabbitchicken</li>
-			<li>GR_Ratfallo</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Bearcat</li>
-			<li>GR_Boomacat</li>
-			<li>GR_Chickencat</li>
-			<li>GR_Muffalocat</li>
-			<li>GR_Rabbitcat</li>
-			<li>GR_Wolfcat</li>
-			<li>GR_Snakecat</li>
-			<li>GR_Spidercat</li>
-			<li>GR_Thrumbocat</li>
-			<li>GR_Mechacat</li>
-			<li>GR_Catbear</li>
-			<li>GR_Catalope</li>
-			<li>GR_Catchicken</li>
-			<li>GR_Catrabbit</li>
-			<li>GR_Catfallo</li>
-			<li>GR_Catwolf</li>
-
-		</recipeUsers>
+		
 		<appliedOnFixedBodyParts>
 			<li>Eye</li> 
 		</appliedOnFixedBodyParts>
@@ -249,96 +30,7 @@
 
 	<RecipeDef Name="GR_EarImplants" Abstract="True" ParentName="SurgeryFlesh">
 		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>GR_AberrantFleshbeast</li>
-			<li>GR_AlphaBear</li>
-			<li>GR_AlphaWildBoar</li>
-			<li>GR_AlphaBoomalope</li>
-			<li>GR_AlphaChicken</li>
-			<li>GR_AlphaEmu</li>
-			<li>GR_AlphaMuffalo</li>
-			<li>GR_AlphaOstrich</li>
-			<li>GR_AlphaRhinoceros</li>
-			<li>GR_AlphaWolfTimber</li>
-			<li>GR_AlphaHare</li>
-			<li>GR_AlphaIguana</li>
-			<li>GR_AlphaPig</li>
-			<li>GR_AlphaRat</li>
-			<li>GR_AlphaTortoise</li>
-			<li>GR_Bearalope</li>
-			<li>GR_Bearchicken</li>
-			<li>GR_Bearffalo</li>
-			<li>GR_Bearwolf</li>
-			<li>GR_Boomabear</li>
-			<li>GR_Boomachicken</li>
-			<li>GR_Boomffalo</li>
-			<li>GR_Boomwolf</li>
-			<li>GR_Chickenbear</li>
-			<li>GR_Chickenlope</li>
-			<li>GR_Chickenffalo</li>
-			<li>GR_Chickenwolf</li>
-			<li>GR_Bearscarab</li>
-			<li>GR_Boombeetle</li>
-			<li>GR_Chickenspider</li>
-			<li>GR_Muffalopede</li>
-			<li>GR_Thrumbospider</li>
-			<li>GR_Wolfscarab</li>
-			<li>GR_Muffalobear</li>
-			<li>GR_Muffalope</li>
-			<li>GR_Muffalochicken</li>
-			<li>GR_Muffalowolf</li>
-			<li>GR_Bearodile</li>
-			<li>GR_Boomsnake</li>
-			<li>GR_Chickenlizard</li>
-			<li>GR_Muffalokomodo</li>
-			<li>GR_Spidersnake</li>
-			<li>GR_Thrumbolizard</li>
-			<li>GR_Wolfsnake</li>
-			<li>GR_Bearmole</li>
-			<li>GR_Boomsquirrel</li>
-			<li>GR_Chickenrabbit</li>
-			<li>GR_Muffalorat</li>
-			<li>GR_Thrumborat</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Thrumbear</li>
-			<li>GR_Thrumbalope</li>
-			<li>GR_Thrumbochicken</li>
-			<li>GR_Thrumffalo</li>
-			<li>GR_Thrumwolf</li>
-			<li>GR_Wolfbear</li>
-			<li>GR_Wolfalope</li>
-			<li>GR_Wolfchicken</li>
-			<li>GR_Wolffalo</li>
-			<li>GR_Mechabear</li>
-			<li>GR_Mechalope</li>
-			<li>GR_Mechaspider</li>
-			<li>GR_Mechamuffalo</li>
-			<li>GR_Mecharat</li>
-			<li>GR_Mechaturtle</li>
-			<li>GR_Mechawolf</li>
-			<li>GR_Mechathrumbo</li>
-			<li>GR_Molebear</li>
-			<li>GR_Squirralope</li>
-			<li>GR_Rabbitchicken</li>
-			<li>GR_Ratfallo</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Bearcat</li>
-			<li>GR_Boomacat</li>
-			<li>GR_Chickencat</li>
-			<li>GR_Muffalocat</li>
-			<li>GR_Rabbitcat</li>
-			<li>GR_Wolfcat</li>
-			<li>GR_Snakecat</li>
-			<li>GR_Thrumbocat</li>
-			<li>GR_Mechacat</li>
-			<li>GR_Catbear</li>
-			<li>GR_Catalope</li>
-			<li>GR_Catchicken</li>
-			<li>GR_Catrabbit</li>
-			<li>GR_Catfallo</li>
-			<li>GR_Catwolf</li>
-
-		</recipeUsers>
+		
 		<appliedOnFixedBodyParts>
 			<li>Ear</li> 
 			<li>Antenna</li>
@@ -347,71 +39,7 @@
 
 	<RecipeDef Name="GR_NoseImplants" Abstract="True" ParentName="SurgeryFlesh">
 		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>GR_AlphaBear</li>
-			<li>GR_AlphaWildBoar</li>
-			<li>GR_AlphaBoomalope</li>
-			<li>GR_AlphaMuffalo</li>
-			<li>GR_AlphaRhinoceros</li>
-			<li>GR_AlphaWolfTimber</li>
-			<li>GR_AlphaHare</li>
-			<li>GR_AlphaIguana</li>
-			<li>GR_AlphaPig</li>
-			<li>GR_AlphaRat</li>
-			<li>GR_AlphaTortoise</li>
-			<li>GR_Bearalope</li>
-			<li>GR_Bearchicken</li>
-			<li>GR_Bearffalo</li>
-			<li>GR_Bearwolf</li>
-			<li>GR_Boomabear</li>
-			<li>GR_Boomachicken</li>
-			<li>GR_Boomffalo</li>
-			<li>GR_Boomwolf</li>
-			<li>GR_Muffalobear</li>
-			<li>GR_Muffalope</li>
-			<li>GR_Muffalochicken</li>
-			<li>GR_Muffalowolf</li>
-			<li>GR_Bearodile</li>
-			<li>GR_Boomsnake</li>
-			<li>GR_Muffalokomodo</li>
-			<li>GR_Spidersnake</li>		
-			<li>GR_Wolfsnake</li>
-			<li>GR_Bearmole</li>
-			<li>GR_Boomsquirrel</li>
-			<li>GR_Muffalorat</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Wolfbear</li>
-			<li>GR_Wolfalope</li>
-			<li>GR_Wolfchicken</li>
-			<li>GR_Wolffalo</li>
-			<li>GR_Mechabear</li>
-			<li>GR_Mechalope</li>
-			<li>GR_Mechamuffalo</li>
-			<li>GR_Mecharat</li>
-			<li>GR_Mechaturtle</li>
-			<li>GR_Mechawolf</li>
-			<li>GR_Molebear</li>
-			<li>GR_Squirralope</li>
-			<li>GR_Rabbitchicken</li>
-			<li>GR_Ratfallo</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Bearcat</li>
-			<li>GR_Boomacat</li>
-			<li>GR_Muffalocat</li>
-			<li>GR_Rabbitcat</li>
-			<li>GR_Wolfcat</li>
-			<li>GR_Snakecat</li>
-			<li>GR_Spidercat</li>
-			<li>GR_Thrumbocat</li>
-			<li>GR_Mechacat</li>
-			<li>GR_Catbear</li>
-			<li>GR_Catalope</li>
-			<li>GR_Catchicken</li>
-			<li>GR_Catrabbit</li>
-			<li>GR_Catfallo</li>
-			<li>GR_Catwolf</li>
-
-		</recipeUsers>
+		
 		<appliedOnFixedBodyParts>
 			<li>Nose</li> 
 		</appliedOnFixedBodyParts>
@@ -419,98 +47,7 @@
 
 	<RecipeDef Name="GR_JawImplants" Abstract="True" ParentName="SurgeryFlesh">
 		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>GR_AberrantFleshbeast</li>
-			<li>GR_AlphaBear</li>
-			<li>GR_AlphaWildBoar</li>
-			<li>GR_AlphaBoomalope</li>
-			<li>GR_AlphaChicken</li>
-			<li>GR_AlphaEmu</li>
-			<li>GR_AlphaMuffalo</li>
-			<li>GR_AlphaOstrich</li>
-			<li>GR_AlphaRhinoceros</li>
-			<li>GR_AlphaWolfTimber</li>
-			<li>GR_AlphaHare</li>
-			<li>GR_AlphaIguana</li>
-			<li>GR_AlphaPig</li>
-			<li>GR_AlphaRat</li>
-			<li>GR_AlphaTortoise</li>
-			<li>GR_Bearalope</li>
-			<li>GR_Bearchicken</li>
-			<li>GR_Bearffalo</li>
-			<li>GR_Bearwolf</li>
-			<li>GR_Boomabear</li>
-			<li>GR_Boomachicken</li>
-			<li>GR_Boomffalo</li>
-			<li>GR_Boomwolf</li>
-			<li>GR_Chickenbear</li>
-			<li>GR_Chickenlope</li>
-			<li>GR_Chickenffalo</li>
-			<li>GR_Chickenwolf</li>
-			<li>GR_Bearscarab</li>
-			<li>GR_Boombeetle</li>
-			<li>GR_Chickenspider</li>
-			<li>GR_Muffalopede</li>
-			<li>GR_Thrumbospider</li>
-			<li>GR_Wolfscarab</li>
-			<li>GR_Muffalobear</li>
-			<li>GR_Muffalope</li>
-			<li>GR_Muffalochicken</li>
-			<li>GR_Muffalowolf</li>
-			<li>GR_Bearodile</li>
-			<li>GR_Boomsnake</li>
-			<li>GR_Chickenlizard</li>
-			<li>GR_Muffalokomodo</li>
-			<li>GR_Spidersnake</li>
-			<li>GR_Thrumbolizard</li>
-			<li>GR_Wolfsnake</li>
-			<li>GR_Bearmole</li>
-			<li>GR_Boomsquirrel</li>
-			<li>GR_Chickenrabbit</li>
-			<li>GR_Muffalorat</li>
-			<li>GR_Thrumborat</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Thrumbear</li>
-			<li>GR_Thrumbalope</li>
-			<li>GR_Thrumbochicken</li>
-			<li>GR_Thrumffalo</li>
-			<li>GR_Thrumwolf</li>
-			<li>GR_Wolfbear</li>
-			<li>GR_Wolfalope</li>
-			<li>GR_Wolfchicken</li>
-			<li>GR_Wolffalo</li>
-			<li>GR_Mechabear</li>
-			<li>GR_Mechalope</li>
-			<li>GR_Mechachicken</li>
-			<li>GR_Mechaspider</li>
-			<li>GR_Mechamuffalo</li>
-			<li>GR_Mecharat</li>
-			<li>GR_Mechaturtle</li>
-			<li>GR_Mechawolf</li>
-			<li>GR_Mechathrumbo</li>
-			<li>GR_Molebear</li>
-			<li>GR_Squirralope</li>
-			<li>GR_Rabbitchicken</li>
-			<li>GR_Ratfallo</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Bearcat</li>
-			<li>GR_Boomacat</li>
-			<li>GR_Chickencat</li>
-			<li>GR_Muffalocat</li>
-			<li>GR_Rabbitcat</li>
-			<li>GR_Wolfcat</li>
-			<li>GR_Snakecat</li>
-			<li>GR_Spidercat</li>
-			<li>GR_Thrumbocat</li>
-			<li>GR_Mechacat</li>
-			<li>GR_Catbear</li>
-			<li>GR_Catalope</li>
-			<li>GR_Catchicken</li>
-			<li>GR_Catrabbit</li>
-			<li>GR_Catfallo</li>
-			<li>GR_Catwolf</li>
-
-		</recipeUsers>
+		
 		<appliedOnFixedBodyParts>
 			<li>AnimalJaw</li>
 			<li>Beak</li>
@@ -521,87 +58,7 @@
 
 	<RecipeDef Name="GR_SpineImplants" Abstract="True" ParentName="SurgeryFlesh">
 		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>GR_AlphaBear</li>
-			<li>GR_AlphaWildBoar</li>
-			<li>GR_AlphaBoomalope</li>
-			<li>GR_AlphaChicken</li>
-			<li>GR_AlphaEmu</li>
-			<li>GR_AlphaMuffalo</li>
-			<li>GR_AlphaOstrich</li>
-			<li>GR_AlphaRhinoceros</li>
-			<li>GR_AlphaWolfTimber</li>
-			<li>GR_AlphaHare</li>
-			<li>GR_AlphaIguana</li>
-			<li>GR_AlphaPig</li>
-			<li>GR_AlphaRat</li>
-			<li>GR_AlphaTortoise</li>
-			<li>GR_Bearalope</li>
-			<li>GR_Bearchicken</li>
-			<li>GR_Bearffalo</li>
-			<li>GR_Bearwolf</li>
-			<li>GR_Boomabear</li>
-			<li>GR_Boomachicken</li>
-			<li>GR_Boomffalo</li>
-			<li>GR_Boomwolf</li>
-			<li>GR_Chickenbear</li>
-			<li>GR_Chickenlope</li>
-			<li>GR_Chickenffalo</li>
-			<li>GR_Chickenwolf</li>
-			<li>GR_Muffalobear</li>
-			<li>GR_Muffalope</li>
-			<li>GR_Muffalochicken</li>
-			<li>GR_Muffalowolf</li>
-			<li>GR_Bearodile</li>
-			<li>GR_Chickenlizard</li>
-			<li>GR_Muffalokomodo</li>
-			<li>GR_Thrumbolizard</li>
-			<li>GR_Wolfsnake</li>
-			<li>GR_Bearmole</li>
-			<li>GR_Boomsquirrel</li>
-			<li>GR_Chickenrabbit</li>
-			<li>GR_Muffalorat</li>
-			<li>GR_Thrumborat</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Thrumbear</li>
-			<li>GR_Thrumbalope</li>
-			<li>GR_Thrumbochicken</li>
-			<li>GR_Thrumffalo</li>
-			<li>GR_Thrumwolf</li>
-			<li>GR_Wolfbear</li>
-			<li>GR_Wolfalope</li>
-			<li>GR_Wolfchicken</li>
-			<li>GR_Wolffalo</li>
-			<li>GR_Mechabear</li>
-			<li>GR_Mechalope</li>
-			<li>GR_Mechachicken</li>
-			<li>GR_Mechamuffalo</li>
-			<li>GR_Mecharat</li>
-			<li>GR_Mechaturtle</li>
-			<li>GR_Mechawolf</li>
-			<li>GR_Mechathrumbo</li>
-			<li>GR_Molebear</li>
-			<li>GR_Squirralope</li>
-			<li>GR_Rabbitchicken</li>
-			<li>GR_Ratfallo</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Bearcat</li>
-			<li>GR_Boomacat</li>
-			<li>GR_Chickencat</li>
-			<li>GR_Muffalocat</li>
-			<li>GR_Rabbitcat</li>
-			<li>GR_Wolfcat</li>
-			<li>GR_Snakecat</li>
-			<li>GR_Thrumbocat</li>
-			<li>GR_Mechacat</li>
-			<li>GR_Catbear</li>
-			<li>GR_Catalope</li>
-			<li>GR_Catchicken</li>
-			<li>GR_Catrabbit</li>
-			<li>GR_Catfallo</li>
-			<li>GR_Catwolf</li>
-
-		</recipeUsers>
+		
 		<appliedOnFixedBodyParts>
 			<li>Spine</li>
 
@@ -610,98 +67,7 @@
 
 	<RecipeDef Name="GR_BrainImplants" Abstract="True" ParentName="SurgeryFlesh">
 		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>GR_AberrantFleshbeast</li>
-			<li>GR_AlphaBear</li>
-			<li>GR_AlphaWildBoar</li>
-			<li>GR_AlphaBoomalope</li>
-			<li>GR_AlphaChicken</li>
-			<li>GR_AlphaEmu</li>
-			<li>GR_AlphaMuffalo</li>
-			<li>GR_AlphaOstrich</li>
-			<li>GR_AlphaRhinoceros</li>
-			<li>GR_AlphaWolfTimber</li>
-			<li>GR_AlphaHare</li>
-			<li>GR_AlphaIguana</li>
-			<li>GR_AlphaPig</li>
-			<li>GR_AlphaRat</li>
-			<li>GR_AlphaTortoise</li>
-			<li>GR_Bearalope</li>
-			<li>GR_Bearchicken</li>
-			<li>GR_Bearffalo</li>
-			<li>GR_Bearwolf</li>
-			<li>GR_Boomabear</li>
-			<li>GR_Boomachicken</li>
-			<li>GR_Boomffalo</li>
-			<li>GR_Boomwolf</li>
-			<li>GR_Chickenbear</li>
-			<li>GR_Chickenlope</li>
-			<li>GR_Chickenffalo</li>
-			<li>GR_Chickenwolf</li>
-			<li>GR_Bearscarab</li>
-			<li>GR_Boombeetle</li>
-			<li>GR_Chickenspider</li>
-			<li>GR_Muffalopede</li>
-			<li>GR_Thrumbospider</li>
-			<li>GR_Wolfscarab</li>
-			<li>GR_Muffalobear</li>
-			<li>GR_Muffalope</li>
-			<li>GR_Muffalochicken</li>
-			<li>GR_Muffalowolf</li>
-			<li>GR_Bearodile</li>
-			<li>GR_Boomsnake</li>
-			<li>GR_Chickenlizard</li>
-			<li>GR_Muffalokomodo</li>
-			<li>GR_Spidersnake</li>
-			<li>GR_Thrumbolizard</li>
-			<li>GR_Wolfsnake</li>
-			<li>GR_Bearmole</li>
-			<li>GR_Boomsquirrel</li>
-			<li>GR_Chickenrabbit</li>
-			<li>GR_Muffalorat</li>
-			<li>GR_Thrumborat</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Thrumbear</li>
-			<li>GR_Thrumbalope</li>
-			<li>GR_Thrumbochicken</li>
-			<li>GR_Thrumffalo</li>
-			<li>GR_Thrumwolf</li>
-			<li>GR_Wolfbear</li>
-			<li>GR_Wolfalope</li>
-			<li>GR_Wolfchicken</li>
-			<li>GR_Wolffalo</li>
-			<li>GR_Mechabear</li>
-			<li>GR_Mechalope</li>
-			<li>GR_Mechachicken</li>
-			<li>GR_Mechaspider</li>
-			<li>GR_Mechamuffalo</li>
-			<li>GR_Mecharat</li>
-			<li>GR_Mechaturtle</li>
-			<li>GR_Mechawolf</li>
-			<li>GR_Mechathrumbo</li>
-			<li>GR_Molebear</li>
-			<li>GR_Squirralope</li>
-			<li>GR_Rabbitchicken</li>
-			<li>GR_Ratfallo</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Bearcat</li>
-			<li>GR_Boomacat</li>
-			<li>GR_Chickencat</li>
-			<li>GR_Muffalocat</li>
-			<li>GR_Rabbitcat</li>
-			<li>GR_Wolfcat</li>
-			<li>GR_Snakecat</li>
-			<li>GR_Spidercat</li>
-			<li>GR_Thrumbocat</li>
-			<li>GR_Mechacat</li>
-			<li>GR_Catbear</li>
-			<li>GR_Catalope</li>
-			<li>GR_Catchicken</li>
-			<li>GR_Catrabbit</li>
-			<li>GR_Catfallo</li>
-			<li>GR_Catwolf</li>
-
-		</recipeUsers>
+		
 		<appliedOnFixedBodyParts>
 			<li>Brain</li>
 
@@ -710,98 +76,7 @@
 
 	<RecipeDef Name="GR_HeartImplants" Abstract="True" ParentName="SurgeryFlesh">
 		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>GR_AberrantFleshbeast</li>
-			<li>GR_AlphaBear</li>
-			<li>GR_AlphaWildBoar</li>
-			<li>GR_AlphaBoomalope</li>
-			<li>GR_AlphaChicken</li>
-			<li>GR_AlphaEmu</li>
-			<li>GR_AlphaMuffalo</li>
-			<li>GR_AlphaOstrich</li>
-			<li>GR_AlphaRhinoceros</li>
-			<li>GR_AlphaWolfTimber</li>
-			<li>GR_AlphaHare</li>
-			<li>GR_AlphaIguana</li>
-			<li>GR_AlphaPig</li>
-			<li>GR_AlphaRat</li>
-			<li>GR_AlphaTortoise</li>
-			<li>GR_Bearalope</li>
-			<li>GR_Bearchicken</li>
-			<li>GR_Bearffalo</li>
-			<li>GR_Bearwolf</li>
-			<li>GR_Boomabear</li>
-			<li>GR_Boomachicken</li>
-			<li>GR_Boomffalo</li>
-			<li>GR_Boomwolf</li>
-			<li>GR_Chickenbear</li>
-			<li>GR_Chickenlope</li>
-			<li>GR_Chickenffalo</li>
-			<li>GR_Chickenwolf</li>
-			<li>GR_Bearscarab</li>
-			<li>GR_Boombeetle</li>
-			<li>GR_Chickenspider</li>
-			<li>GR_Muffalopede</li>
-			<li>GR_Thrumbospider</li>
-			<li>GR_Wolfscarab</li>
-			<li>GR_Muffalobear</li>
-			<li>GR_Muffalope</li>
-			<li>GR_Muffalochicken</li>
-			<li>GR_Muffalowolf</li>
-			<li>GR_Bearodile</li>
-			<li>GR_Boomsnake</li>
-			<li>GR_Chickenlizard</li>
-			<li>GR_Muffalokomodo</li>
-			<li>GR_Spidersnake</li>
-			<li>GR_Thrumbolizard</li>
-			<li>GR_Wolfsnake</li>
-			<li>GR_Bearmole</li>
-			<li>GR_Boomsquirrel</li>
-			<li>GR_Chickenrabbit</li>
-			<li>GR_Muffalorat</li>
-			<li>GR_Thrumborat</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Thrumbear</li>
-			<li>GR_Thrumbalope</li>
-			<li>GR_Thrumbochicken</li>
-			<li>GR_Thrumffalo</li>
-			<li>GR_Thrumwolf</li>
-			<li>GR_Wolfbear</li>
-			<li>GR_Wolfalope</li>
-			<li>GR_Wolfchicken</li>
-			<li>GR_Wolffalo</li>
-			<li>GR_Mechabear</li>
-			<li>GR_Mechalope</li>
-			<li>GR_Mechachicken</li>
-			<li>GR_Mechaspider</li>
-			<li>GR_Mechamuffalo</li>
-			<li>GR_Mecharat</li>
-			<li>GR_Mechaturtle</li>
-			<li>GR_Mechawolf</li>
-			<li>GR_Mechathrumbo</li>
-			<li>GR_Molebear</li>
-			<li>GR_Squirralope</li>
-			<li>GR_Rabbitchicken</li>
-			<li>GR_Ratfallo</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Bearcat</li>
-			<li>GR_Boomacat</li>
-			<li>GR_Chickencat</li>
-			<li>GR_Muffalocat</li>
-			<li>GR_Rabbitcat</li>
-			<li>GR_Wolfcat</li>
-			<li>GR_Snakecat</li>
-			<li>GR_Spidercat</li>
-			<li>GR_Thrumbocat</li>
-			<li>GR_Mechacat</li>
-			<li>GR_Catbear</li>
-			<li>GR_Catalope</li>
-			<li>GR_Catchicken</li>
-			<li>GR_Catrabbit</li>
-			<li>GR_Catfallo</li>
-			<li>GR_Catwolf</li>
-
-		</recipeUsers>
+		
 		<appliedOnFixedBodyParts>
 			<li>Heart</li>
 			<li>InsectHeart</li>
@@ -812,91 +87,7 @@
 
 	<RecipeDef Name="GR_LungImplants" Abstract="True" ParentName="SurgeryFlesh">
 		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>GR_AberrantFleshbeast</li>
-			<li>GR_AlphaBear</li>
-			<li>GR_AlphaWildBoar</li>
-			<li>GR_AlphaBoomalope</li>
-			<li>GR_AlphaChicken</li>
-			<li>GR_AlphaEmu</li>
-			<li>GR_AlphaMuffalo</li>
-			<li>GR_AlphaOstrich</li>
-			<li>GR_AlphaRhinoceros</li>
-			<li>GR_AlphaWolfTimber</li>
-			<li>GR_AlphaHare</li>
-			<li>GR_AlphaIguana</li>
-			<li>GR_AlphaPig</li>
-			<li>GR_AlphaRat</li>
-			<li>GR_AlphaTortoise</li>
-			<li>GR_Bearalope</li>
-			<li>GR_Bearchicken</li>
-			<li>GR_Bearffalo</li>
-			<li>GR_Bearwolf</li>
-			<li>GR_Boomabear</li>
-			<li>GR_Boomachicken</li>
-			<li>GR_Boomffalo</li>
-			<li>GR_Boomwolf</li>
-			<li>GR_Chickenbear</li>
-			<li>GR_Chickenlope</li>
-			<li>GR_Chickenffalo</li>
-			<li>GR_Chickenwolf</li>
-			<li>GR_Muffalobear</li>
-			<li>GR_Muffalope</li>
-			<li>GR_Muffalochicken</li>
-			<li>GR_Muffalowolf</li>
-			<li>GR_Bearodile</li>
-			<li>GR_Boomsnake</li>
-			<li>GR_Chickenlizard</li>
-			<li>GR_Muffalokomodo</li>
-			<li>GR_Spidersnake</li>
-			<li>GR_Thrumbolizard</li>
-			<li>GR_Wolfsnake</li>
-			<li>GR_Bearmole</li>
-			<li>GR_Boomsquirrel</li>
-			<li>GR_Chickenrabbit</li>
-			<li>GR_Muffalorat</li>
-			<li>GR_Thrumborat</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Thrumbear</li>
-			<li>GR_Thrumbalope</li>
-			<li>GR_Thrumbochicken</li>
-			<li>GR_Thrumffalo</li>
-			<li>GR_Thrumwolf</li>
-			<li>GR_Wolfbear</li>
-			<li>GR_Wolfalope</li>
-			<li>GR_Wolfchicken</li>
-			<li>GR_Wolffalo</li>
-			<li>GR_Mechabear</li>
-			<li>GR_Mechalope</li>
-			<li>GR_Mechachicken</li>
-			<li>GR_Mechamuffalo</li>
-			<li>GR_Mecharat</li>
-			<li>GR_Mechaturtle</li>
-			<li>GR_Mechawolf</li>
-			<li>GR_Mechathrumbo</li>
-			<li>GR_Molebear</li>
-			<li>GR_Squirralope</li>
-			<li>GR_Rabbitchicken</li>
-			<li>GR_Ratfallo</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Bearcat</li>
-			<li>GR_Boomacat</li>
-			<li>GR_Chickencat</li>
-			<li>GR_Muffalocat</li>
-			<li>GR_Rabbitcat</li>
-			<li>GR_Wolfcat</li>
-			<li>GR_Snakecat</li>
-			<li>GR_Spidercat</li>
-			<li>GR_Thrumbocat</li>
-			<li>GR_Mechacat</li>
-			<li>GR_Catbear</li>
-			<li>GR_Catalope</li>
-			<li>GR_Catchicken</li>
-			<li>GR_Catrabbit</li>
-			<li>GR_Catfallo</li>
-			<li>GR_Catwolf</li>
-
-		</recipeUsers>
+		
 		<appliedOnFixedBodyParts>
 			<li>Lung</li>
 
@@ -905,91 +96,7 @@
 
 	<RecipeDef Name="GR_LiverImplants" Abstract="True" ParentName="SurgeryFlesh">
 		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>GR_AberrantFleshbeast</li>
-			<li>GR_AlphaBear</li>
-			<li>GR_AlphaWildBoar</li>
-			<li>GR_AlphaBoomalope</li>
-			<li>GR_AlphaChicken</li>
-			<li>GR_AlphaEmu</li>
-			<li>GR_AlphaMuffalo</li>
-			<li>GR_AlphaOstrich</li>
-			<li>GR_AlphaRhinoceros</li>
-			<li>GR_AlphaWolfTimber</li>
-			<li>GR_AlphaHare</li>
-			<li>GR_AlphaIguana</li>
-			<li>GR_AlphaPig</li>
-			<li>GR_AlphaRat</li>
-			<li>GR_AlphaTortoise</li>
-			<li>GR_Bearalope</li>
-			<li>GR_Bearchicken</li>
-			<li>GR_Bearffalo</li>
-			<li>GR_Bearwolf</li>
-			<li>GR_Boomabear</li>
-			<li>GR_Boomachicken</li>
-			<li>GR_Boomffalo</li>
-			<li>GR_Boomwolf</li>
-			<li>GR_Chickenbear</li>
-			<li>GR_Chickenlope</li>
-			<li>GR_Chickenffalo</li>
-			<li>GR_Chickenwolf</li>
-			<li>GR_Muffalobear</li>
-			<li>GR_Muffalope</li>
-			<li>GR_Muffalochicken</li>
-			<li>GR_Muffalowolf</li>
-			<li>GR_Bearodile</li>
-			<li>GR_Boomsnake</li>
-			<li>GR_Chickenlizard</li>
-			<li>GR_Muffalokomodo</li>
-			<li>GR_Spidersnake</li>
-			<li>GR_Thrumbolizard</li>
-			<li>GR_Wolfsnake</li>
-			<li>GR_Bearmole</li>
-			<li>GR_Boomsquirrel</li>
-			<li>GR_Chickenrabbit</li>
-			<li>GR_Muffalorat</li>
-			<li>GR_Thrumborat</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Thrumbear</li>
-			<li>GR_Thrumbalope</li>
-			<li>GR_Thrumbochicken</li>
-			<li>GR_Thrumffalo</li>
-			<li>GR_Thrumwolf</li>
-			<li>GR_Wolfbear</li>
-			<li>GR_Wolfalope</li>
-			<li>GR_Wolfchicken</li>
-			<li>GR_Wolffalo</li>
-			<li>GR_Mechabear</li>
-			<li>GR_Mechalope</li>
-			<li>GR_Mechachicken</li>
-			<li>GR_Mechamuffalo</li>
-			<li>GR_Mecharat</li>
-			<li>GR_Mechaturtle</li>
-			<li>GR_Mechawolf</li>
-			<li>GR_Mechathrumbo</li>
-			<li>GR_Molebear</li>
-			<li>GR_Squirralope</li>
-			<li>GR_Rabbitchicken</li>
-			<li>GR_Ratfallo</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Bearcat</li>
-			<li>GR_Boomacat</li>
-			<li>GR_Chickencat</li>
-			<li>GR_Muffalocat</li>
-			<li>GR_Rabbitcat</li>
-			<li>GR_Wolfcat</li>
-			<li>GR_Snakecat</li>
-			<li>GR_Spidercat</li>
-			<li>GR_Thrumbocat</li>
-			<li>GR_Mechacat</li>
-			<li>GR_Catbear</li>
-			<li>GR_Catalope</li>
-			<li>GR_Catchicken</li>
-			<li>GR_Catrabbit</li>
-			<li>GR_Catfallo</li>
-			<li>GR_Catwolf</li>
-
-		</recipeUsers>
+		
 		<appliedOnFixedBodyParts>
 			<li>Liver</li>
 
@@ -997,91 +104,7 @@
 	</RecipeDef>
 	<RecipeDef Name="GR_KidneyImplants" Abstract="True" ParentName="SurgeryFlesh">
 		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>GR_AberrantFleshbeast</li>
-			<li>GR_AlphaBear</li>
-			<li>GR_AlphaWildBoar</li>
-			<li>GR_AlphaBoomalope</li>
-			<li>GR_AlphaChicken</li>
-			<li>GR_AlphaEmu</li>
-			<li>GR_AlphaMuffalo</li>
-			<li>GR_AlphaOstrich</li>
-			<li>GR_AlphaRhinoceros</li>
-			<li>GR_AlphaWolfTimber</li>
-			<li>GR_AlphaHare</li>
-			<li>GR_AlphaIguana</li>
-			<li>GR_AlphaPig</li>
-			<li>GR_AlphaRat</li>
-			<li>GR_AlphaTortoise</li>
-			<li>GR_Bearalope</li>
-			<li>GR_Bearchicken</li>
-			<li>GR_Bearffalo</li>
-			<li>GR_Bearwolf</li>
-			<li>GR_Boomabear</li>
-			<li>GR_Boomachicken</li>
-			<li>GR_Boomffalo</li>
-			<li>GR_Boomwolf</li>
-			<li>GR_Chickenbear</li>
-			<li>GR_Chickenlope</li>
-			<li>GR_Chickenffalo</li>
-			<li>GR_Chickenwolf</li>
-			<li>GR_Muffalobear</li>
-			<li>GR_Muffalope</li>
-			<li>GR_Muffalochicken</li>
-			<li>GR_Muffalowolf</li>
-			<li>GR_Bearodile</li>
-			<li>GR_Boomsnake</li>
-			<li>GR_Chickenlizard</li>
-			<li>GR_Muffalokomodo</li>
-			<li>GR_Spidersnake</li>
-			<li>GR_Thrumbolizard</li>
-			<li>GR_Wolfsnake</li>
-			<li>GR_Bearmole</li>
-			<li>GR_Boomsquirrel</li>
-			<li>GR_Chickenrabbit</li>
-			<li>GR_Muffalorat</li>
-			<li>GR_Thrumborat</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Thrumbear</li>
-			<li>GR_Thrumbalope</li>
-			<li>GR_Thrumbochicken</li>
-			<li>GR_Thrumffalo</li>
-			<li>GR_Thrumwolf</li>
-			<li>GR_Wolfbear</li>
-			<li>GR_Wolfalope</li>
-			<li>GR_Wolfchicken</li>
-			<li>GR_Wolffalo</li>
-			<li>GR_Mechabear</li>
-			<li>GR_Mechalope</li>
-			<li>GR_Mechachicken</li>
-			<li>GR_Mechamuffalo</li>
-			<li>GR_Mecharat</li>
-			<li>GR_Mechaturtle</li>
-			<li>GR_Mechawolf</li>
-			<li>GR_Mechathrumbo</li>
-			<li>GR_Molebear</li>
-			<li>GR_Squirralope</li>
-			<li>GR_Rabbitchicken</li>
-			<li>GR_Ratfallo</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Bearcat</li>
-			<li>GR_Boomacat</li>
-			<li>GR_Chickencat</li>
-			<li>GR_Muffalocat</li>
-			<li>GR_Rabbitcat</li>
-			<li>GR_Wolfcat</li>
-			<li>GR_Snakecat</li>
-			<li>GR_Spidercat</li>
-			<li>GR_Thrumbocat</li>
-			<li>GR_Mechacat</li>
-			<li>GR_Catbear</li>
-			<li>GR_Catalope</li>
-			<li>GR_Catchicken</li>
-			<li>GR_Catrabbit</li>
-			<li>GR_Catfallo</li>
-			<li>GR_Catwolf</li>
-
-		</recipeUsers>
+		
 		<appliedOnFixedBodyParts>
 			<li>Kidney</li>
 
@@ -1090,98 +113,7 @@
 
 	<RecipeDef Name="GR_StomachImplants" Abstract="True" ParentName="SurgeryFlesh">
 		<workAmount>2000</workAmount>
-		<recipeUsers>
-			<li>GR_AberrantFleshbeast</li>
-			<li>GR_AlphaBear</li>
-			<li>GR_AlphaWildBoar</li>
-			<li>GR_AlphaBoomalope</li>
-			<li>GR_AlphaChicken</li>
-			<li>GR_AlphaEmu</li>
-			<li>GR_AlphaMuffalo</li>
-			<li>GR_AlphaOstrich</li>
-			<li>GR_AlphaRhinoceros</li>
-			<li>GR_AlphaWolfTimber</li>
-			<li>GR_AlphaHare</li>
-			<li>GR_AlphaIguana</li>
-			<li>GR_AlphaPig</li>
-			<li>GR_AlphaRat</li>
-			<li>GR_AlphaTortoise</li>
-			<li>GR_Bearalope</li>
-			<li>GR_Bearchicken</li>
-			<li>GR_Bearffalo</li>
-			<li>GR_Bearwolf</li>
-			<li>GR_Boomabear</li>
-			<li>GR_Boomachicken</li>
-			<li>GR_Boomffalo</li>
-			<li>GR_Boomwolf</li>
-			<li>GR_Chickenbear</li>
-			<li>GR_Chickenlope</li>
-			<li>GR_Chickenffalo</li>
-			<li>GR_Chickenwolf</li>
-			<li>GR_Bearscarab</li>
-			<li>GR_Boombeetle</li>
-			<li>GR_Chickenspider</li>
-			<li>GR_Muffalopede</li>
-			<li>GR_Thrumbospider</li>
-			<li>GR_Wolfscarab</li>
-			<li>GR_Muffalobear</li>
-			<li>GR_Muffalope</li>
-			<li>GR_Muffalochicken</li>
-			<li>GR_Muffalowolf</li>
-			<li>GR_Bearodile</li>
-			<li>GR_Boomsnake</li>
-			<li>GR_Chickenlizard</li>
-			<li>GR_Muffalokomodo</li>
-			<li>GR_Spidersnake</li>
-			<li>GR_Thrumbolizard</li>
-			<li>GR_Wolfsnake</li>
-			<li>GR_Bearmole</li>
-			<li>GR_Boomsquirrel</li>
-			<li>GR_Chickenrabbit</li>
-			<li>GR_Muffalorat</li>
-			<li>GR_Thrumborat</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Thrumbear</li>
-			<li>GR_Thrumbalope</li>
-			<li>GR_Thrumbochicken</li>
-			<li>GR_Thrumffalo</li>
-			<li>GR_Thrumwolf</li>
-			<li>GR_Wolfbear</li>
-			<li>GR_Wolfalope</li>
-			<li>GR_Wolfchicken</li>
-			<li>GR_Wolffalo</li>
-			<li>GR_Mechabear</li>
-			<li>GR_Mechalope</li>
-			<li>GR_Mechachicken</li>
-			<li>GR_Mechaspider</li>
-			<li>GR_Mechamuffalo</li>
-			<li>GR_Mecharat</li>
-			<li>GR_Mechaturtle</li>
-			<li>GR_Mechawolf</li>
-			<li>GR_Mechathrumbo</li>
-			<li>GR_Molebear</li>
-			<li>GR_Squirralope</li>
-			<li>GR_Rabbitchicken</li>
-			<li>GR_Ratfallo</li>
-			<li>GR_Wolfbeaver</li>
-			<li>GR_Bearcat</li>
-			<li>GR_Boomacat</li>
-			<li>GR_Chickencat</li>
-			<li>GR_Muffalocat</li>
-			<li>GR_Rabbitcat</li>
-			<li>GR_Wolfcat</li>
-			<li>GR_Snakecat</li>
-			<li>GR_Spidercat</li>
-			<li>GR_Thrumbocat</li>
-			<li>GR_Mechacat</li>
-			<li>GR_Catbear</li>
-			<li>GR_Catalope</li>
-			<li>GR_Catchicken</li>
-			<li>GR_Catrabbit</li>
-			<li>GR_Catfallo</li>
-			<li>GR_Catwolf</li>
-
-		</recipeUsers>
+		
 		<appliedOnFixedBodyParts>
 			<li>Stomach</li>
 
@@ -1194,7 +126,7 @@
 
 	<RecipeDef ParentName="GR_LegImplants">
 		<defName>GR_InstallBearLeg</defName>
-		<label>install animal Implant: bear leg (tier 1)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: bear leg (tier 1)&lt;/color&gt;</label>
 		<description>Installs bear leg.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing bear leg.</jobString>		
@@ -1230,7 +162,7 @@
 
 	<RecipeDef ParentName="GR_LegImplants">
 		<defName>GR_InstallLizardLeg</defName>
-		<label>install animal Implant: lizard leg (tier 2)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: lizard leg (tier 2)&lt;/color&gt;</label>
 		<description>Installs lizard leg.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing lizard leg.</jobString>		
@@ -1266,7 +198,7 @@
 
 	<RecipeDef ParentName="GR_LegImplants">
 		<defName>GR_InstallThrumboLeg</defName>
-		<label>install animal Implant: thrumbo leg (tier 3)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: thrumbo leg (tier 3)&lt;/color&gt;</label>
 		<description>Installs thrumbo leg.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing thrumbo leg.</jobString>		
@@ -1305,7 +237,7 @@
 
 	<RecipeDef ParentName="GR_TailImplants">
 		<defName>GR_InstallScytherTail</defName>
-		<label>install animal Implant: scyther tail (tier 2)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: scyther tail (tier 2)&lt;/color&gt;</label>
 		<description>Installs scyther tail.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing scyther tail.</jobString>		
@@ -1341,7 +273,7 @@
 	
 	<RecipeDef ParentName="GR_TailImplants">
 		<defName>GR_InstallMechaTail</defName>
-		<label>install animal Implant: mechanoid tail (tier 3)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: mechanoid tail (tier 3)&lt;/color&gt;</label>
 		<description>Installs mechanoid tail.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing mechanoid tail.</jobString>		
@@ -1380,7 +312,7 @@
 
 	<RecipeDef ParentName="GR_EyeImplants">
 		<defName>GR_InstallCanidEye</defName>
-		<label>install animal Implant: canid eye (tier 1)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: canid eye (tier 1)&lt;/color&gt;</label>
 		<description>Installs canid eye.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing canid eye.</jobString>		
@@ -1416,7 +348,7 @@
 
 	<RecipeDef ParentName="GR_EyeImplants">
 		<defName>GR_InstallInsectileEye</defName>
-		<label>install animal Implant: insectile eye (tier 2)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: insectile eye (tier 2)&lt;/color&gt;</label>
 		<description>Installs insectile eye.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing insectile eye.</jobString>		
@@ -1452,7 +384,7 @@
 
 	<RecipeDef ParentName="GR_EyeImplants">
 		<defName>GR_InstallThrumboEye</defName>
-		<label>install animal Implant: bionic thrumbo eye (tier 3)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: bionic thrumbo eye (tier 3)&lt;/color&gt;</label>
 		<description>Installs thrumbo eye.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing thrumbo eye.</jobString>		
@@ -1491,7 +423,7 @@
 
 	<RecipeDef ParentName="GR_EarImplants">
 		<defName>GR_InstallRodentEar</defName>
-		<label>install animal Implant: rodent ear (tier 1)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: rodent ear (tier 1)&lt;/color&gt;</label>
 		<description>Installs rodent ear.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing rodent ear.</jobString>		
@@ -1527,7 +459,7 @@
 
 	<RecipeDef ParentName="GR_EarImplants">
 		<defName>GR_InstallMothTympanalOrgan</defName>
-		<label>install animal Implant: moth tympanal organ (tier 2)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: moth tympanal organ (tier 2)&lt;/color&gt;</label>
 		<description>Installs moth tympanal organ.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing moth tympanal organ.</jobString>		
@@ -1563,7 +495,7 @@
 
 	<RecipeDef ParentName="GR_EarImplants">
 		<defName>GR_InstallMechaReceptors</defName>
-		<label>install animal Implant: mechanoid auditory receptors (tier 3)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: mechanoid auditory receptors (tier 3)&lt;/color&gt;</label>
 		<description>Installs mechanoid auditory receptors.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing mechanoid auditory receptors.</jobString>		
@@ -1602,7 +534,7 @@
 
 	<RecipeDef ParentName="GR_NoseImplants">
 		<defName>GR_InstallRodentNose</defName>
-		<label>install animal Implant: rodent nose (tier 1)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: rodent nose (tier 1)&lt;/color&gt;</label>
 		<description>Installs rodent nose.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing rodent nose.</jobString>		
@@ -1638,7 +570,7 @@
 	
 	<RecipeDef ParentName="GR_NoseImplants">
 		<defName>GR_InstallInsectoidPheromones</defName>
-		<label>install animal Implant: insectoid pheromones (tier 2)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: insectoid pheromones (tier 2)&lt;/color&gt;</label>
 		<description>Installs insectoid pheromones.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing insectoid pheromones.</jobString>		
@@ -1674,7 +606,7 @@
 
 	<RecipeDef ParentName="GR_NoseImplants">
 		<defName>GR_InstallMiniatureThrumboHorn</defName>
-		<label>install animal Implant: miniature thrumbo horn (tier 3)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: miniature thrumbo horn (tier 3)&lt;/color&gt;</label>
 		<description>Installs miniature thrumbo horn.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing miniature thrumbo horn.</jobString>		
@@ -1713,7 +645,7 @@
 
 	<RecipeDef ParentName="GR_JawImplants">
 		<defName>GR_InstallWolfJaws</defName>
-		<label>install animal Implant: wolf jaws (tier 1)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: wolf jaws (tier 1)&lt;/color&gt;</label>
 		<description>Installs wolf jaws.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing wolf jaws.</jobString>		
@@ -1749,7 +681,7 @@
 
 	<RecipeDef ParentName="GR_JawImplants">
 		<defName>GR_InstallInsectMandibles</defName>
-		<label>install animal Implant: insect mandibles (tier 2)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: insect mandibles (tier 2)&lt;/color&gt;</label>
 		<description>Installs insect mandibles.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing insect mandibles.</jobString>		
@@ -1785,7 +717,7 @@
 
 	<RecipeDef ParentName="GR_JawImplants">
 		<defName>GR_InstallThrumboJaws</defName>
-		<label>install animal Implant: bionic thrumbo jaws (tier 3)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: bionic thrumbo jaws (tier 3)&lt;/color&gt;</label>
 		<description>Installs bionic thrumbo jaws.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing bionic thrumbo jaws.</jobString>		
@@ -1824,7 +756,7 @@
 
 	<RecipeDef ParentName="GR_SpineImplants">
 		<defName>GR_InstallMuffaloSpine</defName>
-		<label>install animal Implant: muffalo spine (tier 1)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: muffalo spine (tier 1)&lt;/color&gt;</label>
 		<description>Installs muffalo spine.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing muffalo spine.</jobString>		
@@ -1860,7 +792,7 @@
 
 	<RecipeDef ParentName="GR_SpineImplants">
 		<defName>GR_InstallCrocodileSpine</defName>
-		<label>install animal Implant: crocodile spine (tier 2)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: crocodile spine (tier 2)&lt;/color&gt;</label>
 		<description>Installs crocodile spine.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing crocodile spine.</jobString>		
@@ -1896,7 +828,7 @@
 
 	<RecipeDef ParentName="GR_SpineImplants">
 		<defName>GR_InstallMechaSpine</defName>
-		<label>install animal Implant: mechanoid spine (tier 3)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: mechanoid spine (tier 3)&lt;/color&gt;</label>
 		<description>Installs mechanoid spine.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing mechanoid spine.</jobString>		
@@ -1935,7 +867,7 @@
 
 	<RecipeDef ParentName="GR_BrainImplants">
 		<defName>GR_InstallChickenBrains</defName>
-		<label>install animal Implant: chicken brains (tier 1)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: chicken brains (tier 1)&lt;/color&gt;</label>
 		<description>Installs chicken brains.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing chicken brains.</jobString>		
@@ -1971,7 +903,7 @@
 
 	<RecipeDef ParentName="GR_BrainImplants">
 		<defName>GR_InstallMonitorLizardBrain</defName>
-		<label>install animal Implant: monitor lizard brain (tier 2)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: monitor lizard brain (tier 2)&lt;/color&gt;</label>
 		<description>Installs monitor lizard brain.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing monitor lizard brain.</jobString>		
@@ -2007,7 +939,7 @@
 
 	<RecipeDef ParentName="GR_BrainImplants">
 		<defName>GR_InstallThrumboBrain</defName>
-		<label>install animal Implant: bionic thrumbo brain (tier 3)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: bionic thrumbo brain (tier 3)&lt;/color&gt;</label>
 		<description>Installs bionic thrumbo brain.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing bionic thrumbo brain.</jobString>		
@@ -2046,7 +978,7 @@
 
 	<RecipeDef ParentName="GR_HeartImplants">
 		<defName>GR_InstallBoomalopeHeart</defName>
-		<label>install animal Implant: boomalope heart (tier 1)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: boomalope heart (tier 1)&lt;/color&gt;</label>
 		<description>Installs boomalope heart.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing boomalope heart.</jobString>		
@@ -2082,7 +1014,7 @@
 
 	<RecipeDef ParentName="GR_HeartImplants">
 		<defName>GR_InstallChitinousHeart</defName>
-		<label>install animal Implant: chitinous heart (tier 2)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: chitinous heart (tier 2)&lt;/color&gt;</label>
 		<description>Installs chitinous heart.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing chitinous heart.</jobString>		
@@ -2118,7 +1050,7 @@
 	
 	<RecipeDef ParentName="GR_HeartImplants">
 		<defName>GR_InstallMechaHeart</defName>
-		<label>install animal Implant: mechanoid heart (tier 3)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: mechanoid heart (tier 3)&lt;/color&gt;</label>
 		<description>Installs mechanoid heart.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing mechanoid heart.</jobString>		
@@ -2157,7 +1089,7 @@
 
 	<RecipeDef ParentName="GR_LungImplants">
 		<defName>GR_InstallMuffaloLung</defName>
-		<label>install animal Implant: muffalo lung (tier 1)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: muffalo lung (tier 1)&lt;/color&gt;</label>
 		<description>Installs muffalo lung.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing muffalo lung.</jobString>		
@@ -2196,7 +1128,7 @@
 
 	<RecipeDef ParentName="GR_LiverImplants">
 		<defName>GR_InstallBearLiver</defName>
-		<label>install animal Implant: bear liver (tier 1)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: bear liver (tier 1)&lt;/color&gt;</label>
 		<description>Installs bear liver.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing bear liver.</jobString>		
@@ -2235,7 +1167,7 @@
 
 	<RecipeDef ParentName="GR_KidneyImplants">
 		<defName>GR_InstallChickenKidney</defName>
-		<label>install animal Implant: chicken kidney (tier 1)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: chicken kidney (tier 1)&lt;/color&gt;</label>
 		<description>Installs chicken kidney.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing chicken kidney.</jobString>		
@@ -2271,7 +1203,7 @@
 
 	<RecipeDef ParentName="GR_StomachImplants">
 		<defName>GR_InstallBoomalopeStomach</defName>
-		<label>install animal Implant: boomalope stomach (tier 1)</label>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: boomalope stomach (tier 1)&lt;/color&gt;</label>
 		<description>Installs boomalope stomach.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing boomalope stomach.</jobString>		

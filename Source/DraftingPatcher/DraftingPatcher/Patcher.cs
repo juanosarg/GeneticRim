@@ -607,7 +607,7 @@ namespace DraftingPatcher
     /*This Harmony postfix tries to add an endgame event
     * 
     */
-    [HarmonyPatch(typeof(MapParent))]
+   /* [HarmonyPatch(typeof(MapParent))]
     [HarmonyPatch("RecalculateHibernatableIncidentTargets")]
 
     static class MapParent_RecalculateHibernatableIncidentTargets_Patch
@@ -639,7 +639,7 @@ namespace DraftingPatcher
                 }
             }
         }
-    }
+    }*/
 
 
 

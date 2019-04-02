@@ -6,7 +6,7 @@
 
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallBearClaws</defName>
-		<label>install bear claws</label>
+		<label>&lt;color=#E89D1B&gt;install bear claws&lt;/color&gt;</label>
 		<description>Installs bear claws.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing bear claws.</jobString>
@@ -48,7 +48,7 @@
 	
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallDiggingBearClaws</defName>
-		<label>install digging bear claws</label>
+		<label>&lt;color=#E89D1B&gt;install digging bear claws&lt;/color&gt;</label>
 		<description>Installs digging bear claws.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing digging bear claws.</jobString>
@@ -90,7 +90,7 @@
 	
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallBearMuscleTissue</defName>
-		<label>install bear muscle tissue</label>
+		<label>&lt;color=#E89D1B&gt;install bear muscle tissue&lt;/color&gt;</label>
 		<description>Installs bear muscle tissue.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing bear muscle tissue.</jobString>
@@ -132,7 +132,7 @@
 	
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallHibernationModule</defName>
-		<label>install hibernation module</label>
+		<label>&lt;color=#E89D1B&gt;install hibernation module&lt;/color&gt;</label>
 		<description>Installs hibernation module.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing hibernation module.</jobString>
@@ -174,7 +174,7 @@
 
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallOvipositor</defName>
-		<label>install ovipositor</label>
+		<label>&lt;color=#E89D1B&gt;install ovipositor&lt;/color&gt;</label>
 		<description>Installs ovipositor.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing ovipositor.</jobString>
@@ -216,7 +216,7 @@
 
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallMuffaloMuscles</defName>
-		<label>install muffalo strengthened muscles</label>
+		<label>&lt;color=#E89D1B&gt;install muffalo strengthened muscles&lt;/color&gt;</label>
 		<description>Installs muffalo strengthened muscles.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing muffalo strengthened muscles.</jobString>
@@ -258,7 +258,7 @@
 	
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallMuffaloMammaries</defName>
-		<label>install muffalo mammaries</label>
+		<label>&lt;color=#E89D1B&gt;install muffalo mammaries&lt;/color&gt;</label>
 		<description>Installs muffalo mammaries.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing muffalo mammaries.</jobString>
@@ -300,7 +300,7 @@
 	
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallMuffaloSkin</defName>
-		<label>install muffalo skin</label>
+		<label>&lt;color=#E89D1B&gt;install muffalo skin&lt;/color&gt;</label>
 		<description>Installs muffalo skin.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing muffalo skin.</jobString>
@@ -342,7 +342,7 @@
 
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallBoomalopeNodules</defName>
-		<label>install boomalope nodules</label>
+		<label>&lt;color=#E89D1B&gt;install boomalope nodules&lt;/color&gt;</label>
 		<description>Installs boomalope nodules.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing boomalope nodules.</jobString>
@@ -384,7 +384,7 @@
 	
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallChemfuelStomach</defName>
-		<label>install chemfuel stomach</label>
+		<label>&lt;color=#E89D1B&gt;install chemfuel stomach&lt;/color&gt;</label>
 		<description>Installs chemfuel stomach.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing chemfuel stomach.</jobString>
@@ -426,7 +426,7 @@
 	
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallChemfuelHeart</defName>
-		<label>install chemfuel heart</label>
+		<label>&lt;color=#E89D1B&gt;install chemfuel heart&lt;/color&gt;</label>
 		<description>Installs chemfuel heart.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing chemfuel heart.</jobString>
@@ -468,7 +468,7 @@
 
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallWolfMuscularFibers</defName>
-		<label>install wolf muscular fibers</label>
+		<label>&lt;color=#E89D1B&gt;install wolf muscular fibers&lt;/color&gt;</label>
 		<description>Installs wolf muscular fibers.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing wolf muscular fibers.</jobString>
@@ -510,7 +510,7 @@
 	
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallDevouringJaws</defName>
-		<label>install devouring jaws</label>
+		<label>&lt;color=#E89D1B&gt;install devouring jaws&lt;/color&gt;</label>
 		<description>Installs devouring jaws.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing devouring jaws.</jobString>
@@ -552,7 +552,7 @@
 
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallNeuronReinforcement</defName>
-		<label>install neuron reinforcement</label>
+		<label>&lt;color=#E89D1B&gt;install neuron reinforcement&lt;/color&gt;</label>
 		<description>Installs neuron reinforcement.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing neuron reinforcement.</jobString>
@@ -594,7 +594,7 @@
 	
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallMousePheromones</defName>
-		<label>install mouse pheromones</label>
+		<label>&lt;color=#E89D1B&gt;install mouse pheromones&lt;/color&gt;</label>
 		<description>Installs mouse pheromones.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing mouse pheromones.</jobString>
@@ -636,7 +636,7 @@
 	
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallMoleratNerveDampener</defName>
-		<label>install mole-rat nerve dampener</label>
+		<label>&lt;color=#E89D1B&gt;install mole-rat nerve dampener&lt;/color&gt;</label>
 		<description>Installs mole-rat nerve dampener.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing mole-rat nerve dampener.</jobString>
@@ -678,7 +678,7 @@
 	
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallBunnyEars</defName>
-		<label>install bunny ear</label>
+		<label>&lt;color=#E89D1B&gt;install bunny ear&lt;/color&gt;</label>
 		<description>Installs bunny ear.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing bunny ear.</jobString>
@@ -720,7 +720,7 @@
 
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallInsectoidAntennae</defName>
-		<label>install insectoid antennae</label>
+		<label>&lt;color=#E89D1B&gt;install insectoid antennae&lt;/color&gt;</label>
 		<description>Installs insectoid antennae.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing insectoid antennae.</jobString>
@@ -763,7 +763,7 @@
 	
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallPsychicDampeners</defName>
-		<label>install psychic dampeners</label>
+		<label>&lt;color=#E89D1B&gt;install psychic dampeners&lt;/color&gt;</label>
 		<description>Installs psychic dampeners.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing psychic dampeners.</jobString>
@@ -805,7 +805,7 @@
 	
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallKidneyToxicFilters</defName>
-		<label>install kidney toxic filters</label>
+		<label>&lt;color=#E89D1B&gt;install kidney toxic filters&lt;/color&gt;</label>
 		<description>Installs kidney toxic filters.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing kidney toxic filters.</jobString>
@@ -847,7 +847,7 @@
 	
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallHumanThrumboHorn</defName>
-		<label>install thrumbo horn</label>
+		<label>&lt;color=#E89D1B&gt;install thrumbo horn&lt;/color&gt;</label>
 		<description>Installs thrumbo horn.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing thrumbo horn.</jobString>
@@ -889,7 +889,7 @@
 	
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallThrumboSkin</defName>
-		<label>install thrumbo skin</label>
+		<label>&lt;color=#E89D1B&gt;install thrumbo skin&lt;/color&gt;</label>
 		<description>Installs thrumbo skin.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing thrumbo skin.</jobString>
@@ -931,7 +931,7 @@
 
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallVenomousFangs</defName>
-		<label>install venomous fangs</label>
+		<label>&lt;color=#E89D1B&gt;install venomous fangs&lt;/color&gt;</label>
 		<description>Installs venomous fangs.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing venomous fangs.</jobString>
@@ -973,7 +973,7 @@
 	
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallIguanaScales</defName>
-		<label>install iguana scales</label>
+		<label>&lt;color=#E89D1B&gt;install iguana scales&lt;/color&gt;</label>
 		<description>Installs iguana scales.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing iguana scales.</jobString>
