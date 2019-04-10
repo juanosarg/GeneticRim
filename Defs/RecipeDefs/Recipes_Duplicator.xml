@@ -101,6 +101,55 @@
 	</RecipeDef>
 	
 	<RecipeDef>
+		<defName>GR_DuplicateFeline</defName>
+		<label>duplicate cat genes</label>
+		<description>Duplicate cat genetic material in exchange for a lot of organic pulp.</description>
+		<jobString>Duplicating Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>		
+		<recipeUsers>
+				<li>GR_GeneDuplicator</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_FelineGenetic</li>
+						
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_OrganicPulp</li>
+						
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>		
+			<thingDefs>
+								
+						<li>GR_FelineGenetic</li>						
+						<li>GR_OrganicPulp</li>
+					</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_FelineGenetic>2</GR_FelineGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef>
 		<defName>GR_DuplicateChicken</defName>
 		<label>duplicate chicken genes</label>
 		<description>Duplicate chicken genetic material in exchange for a lot of organic pulp.</description>
