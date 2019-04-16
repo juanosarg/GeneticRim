@@ -11,6 +11,8 @@
 				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesFeline"]/ingredients/li/filter/thingDefs</xpath>
 				<value>
 					<li>Corpse_AA_ArcticLion</li>
+					<li>Corpse_AA_SandLion</li>
+
 					
 				</value>
 			</li>
@@ -19,6 +21,8 @@
 				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesFeline"]/fixedIngredientFilter/thingDefs</xpath>
 				<value>
 					<li>Corpse_AA_ArcticLion</li>
+					<li>Corpse_AA_SandLion</li>
+					
 				</value>
 			</li>
 			
@@ -110,6 +114,7 @@
 				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesReptilian"]/ingredients/li/filter/thingDefs</xpath>
 				<value>
 					<li>Corpse_AA_Lockjaw</li>
+					<li>Corpse_AA_DecayDrake</li>
 				
 
 				</value>
@@ -119,6 +124,8 @@
 				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesReptilian"]/fixedIngredientFilter/thingDefs</xpath>
 				<value>
 					<li>Corpse_AA_Lockjaw</li>
+					<li>Corpse_AA_DecayDrake</li>
+
 					
 				</value>
 			</li>	
@@ -136,6 +143,29 @@
 				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesWolf"]/fixedIngredientFilter/thingDefs</xpath>
 				<value>
 					<li>Corpse_AA_AnimusVox</li>
+					
+
+
+				</value>
+			</li>	
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesRodent"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AA_FissionMouse</li>
+					<li>Corpse_AA_FissionMouseSecond</li>
+					<li>Corpse_AA_FissionMouseThird</li>
+					
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesRodent"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AA_FissionMouse</li>
+					<li>Corpse_AA_FissionMouseSecond</li>
+					<li>Corpse_AA_FissionMouseThird</li>
 					
 
 
