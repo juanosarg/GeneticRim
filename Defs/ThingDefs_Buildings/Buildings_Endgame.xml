@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+
+	<!-- Reactor - Platform -->
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>GR_ArchotechPlatform</defName>
+		<label>archotech construction platform</label>
+		<description>This construction platform houses the technology necessary to assemble an archotech centipede, a bio-mechanical creature powered by an archotech AI under the control of your colonists\n\nWhoever controls an archotech centipede controls the planet. Bear in mind however that activation of this project will attract A LOT of unwanted attention..</description>
+		<thingClass>Building_ShipReactor</thingClass>
+		<graphicData>
+			<texPath>Things/Building/GR_ArchotechPlatform</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(8,8)</drawSize>
+			<shadowData>
+				<volume>(5.94, 1.0, 6.71)</volume>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<researchPrerequisites><li>ShipReactor</li></researchPrerequisites>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>   
+		<blockWind>true</blockWind>
+		<fillPercent>0.5</fillPercent>
+		<surfaceType>Item</surfaceType>
+
+		<rotatable>false</rotatable>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<WorkToBuild>65000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(7,6)</size>
+		<designationCategory>GR_GeneticsTab</designationCategory>
+		<building>
+			<shipPart>true</shipPart>
+		</building>
+		<costList>
+			<Steel>350</Steel>
+			<Plasteel>280</Plasteel>
+			<Uranium>70</Uranium>
+			<ComponentSpacer>8</ComponentSpacer>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="NewMachinery.CompProperties_ArchotechPart"/>
+			<li Class="CompProperties_Hibernatable">
+				<incidentTargetWhileStarting>Map_RaidBeacon</incidentTargetWhileStarting>
+			</li>
+		</comps>
+
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationHotKey>Misc4</designationHotKey>
+
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<!-- Engine - Cryos -->
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>GR_TurboChargedCryostabilizedEngine</defName>
+		<label>turbocharged cryo-stabilized engine</label>
+		<description>This engine supplies the archotech platform with stabilized cryofuel to power the whole project.\n\nCryofuel is produced by Boomalope / Muffalo hybrids.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/GR_TurboChargedCryostabilizedEngine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3.5,3.5)</drawSize>
+
+		</graphicData>
+		<researchPrerequisites><li>ShipEngine</li></researchPrerequisites>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>1</fillPercent>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<WorkToBuild>50000</WorkToBuild>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(2,2)</size>
+
+		<designationCategory>Ship</designationCategory>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="NewMachinery.CompProperties_ArchotechPart"/>
+		</comps>
+
+		<building>
+			<shipPart>true</shipPart>
+		</building>
+		<costList>
+			<Steel>260</Steel>
+			<Plasteel>140</Plasteel>
+			<Uranium>70</Uranium>
+			<ComponentSpacer>6</ComponentSpacer>
+		</costList>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationHotKey>Misc5</designationHotKey>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+
+
+
+
+
+
+</Defs>

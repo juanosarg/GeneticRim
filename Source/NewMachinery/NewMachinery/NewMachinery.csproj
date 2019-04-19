@@ -49,6 +49,8 @@
     <Compile Include="Building_NewGenePod.cs" />
     <Compile Include="Command_SetGene2List.cs" />
     <Compile Include="Command_SetGeneList.cs" />
+    <Compile Include="CompArchotechPart.cs" />
+    <Compile Include="CompProperties_ArchotechPart.cs" />
     <Compile Include="GeneListSetupUtility.cs" />
     <Compile Include="JobDriver_InsertGenesIntoGenePod2.cs" />
     <Compile Include="JobDriver_InsertGenesIntoGenePod.cs" />
