@@ -11,7 +11,7 @@
 		<defName>GR_ArchotechPlatform</defName>
 		<label>archotech construction platform</label>
 		<description>This construction platform houses the technology necessary to assemble an archotech centipede, a bio-mechanical creature powered by an archotech AI under the control of your colonists\n\nWhoever controls an archotech centipede controls the planet. Bear in mind however that activation of this project will attract A LOT of unwanted attention..</description>
-		<thingClass>Building_ShipReactor</thingClass>
+		<thingClass>NewMachinery.Building_ArchotechPlatform</thingClass>
 		<graphicData>
 			<texPath>Things/Building/GR_ArchotechPlatform</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -45,9 +45,7 @@
 		<tickerType>Normal</tickerType>
 		<size>(7,6)</size>
 		<designationCategory>GR_GeneticsTab</designationCategory>
-		<building>
-			<shipPart>true</shipPart>
-		</building>
+		
 		<costList>
 			<Steel>350</Steel>
 			<Plasteel>280</Plasteel>
@@ -99,7 +97,7 @@
 		<tickerType>Normal</tickerType>
 		<size>(2,2)</size>
 
-		<designationCategory>Ship</designationCategory>
+		<designationCategory>GR_GeneticsTab</designationCategory>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTransmitter</compClass>
@@ -108,9 +106,7 @@
 			<li Class="NewMachinery.CompProperties_ArchotechPart"/>
 		</comps>
 
-		<building>
-			<shipPart>true</shipPart>
-		</building>
+		
 		<costList>
 			<Steel>260</Steel>
 			<Plasteel>140</Plasteel>

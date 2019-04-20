@@ -27,14 +27,14 @@ namespace NewMachinery
         public void ShowReport()
         {
             StringBuilder stringBuilder = new StringBuilder();
-            if (!ShipUtility.LaunchFailReasons((Building)this.parent).Any<string>())
+            if (!ArchotechUtility.LaunchFailReasons((Building)this.parent).Any<string>())
             {
                 stringBuilder.AppendLine("ShipReportCanLaunch".Translate());
             }
             else
             {
                 stringBuilder.AppendLine("ShipReportCannotLaunch".Translate());
-                foreach (string current in ShipUtility.LaunchFailReasons((Building)this.parent))
+                foreach (string current in ArchotechUtility.LaunchFailReasons((Building)this.parent))
                 {
                     stringBuilder.AppendLine();
                     stringBuilder.AppendLine(current);

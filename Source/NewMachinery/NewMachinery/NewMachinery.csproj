@@ -46,6 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArchotechUtility.cs" />
+    <Compile Include="Building_ArchotechPlatform.cs" />
     <Compile Include="Building_NewGenePod.cs" />
     <Compile Include="Command_SetGene2List.cs" />
     <Compile Include="Command_SetGeneList.cs" />

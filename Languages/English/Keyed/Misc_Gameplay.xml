@@ -93,6 +93,11 @@
   <GR_CantUseMoreGenetrainers>A genetrainer has been wasted. This colonist already has a genetrainer applied.</GR_CantUseMoreGenetrainers> 
   <GR_CommandArchotechReport>Show project report</GR_CommandArchotechReport>
   <GR_CommandArchotechReportDesc>Show a readiness report about the archotect centipede project.</GR_CommandArchotechReportDesc>
+  <GR_CommandArchotechStartup>Start archotech project</GR_CommandArchotechStartup>
+  <GR_CommandArchotechStartupDesc>Activate archotech construction platform to begin the archotech centipede project.</GR_CommandArchotechStartupDesc>
+  <GR_ArchotechProjectText>You are ready to start the archotech centipede project.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates that someone is meddling in technology that is far beyond human understanding, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first.\n\nBear in mind that you will still need to have all the project buildings connected to the platform to activate the archotech centipede.</GR_ArchotechProjectText>
+
+  
   
   <!-- Settings -->
   
