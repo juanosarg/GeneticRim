@@ -29,6 +29,18 @@
     <label>hybrid and paragon corpses</label>
       <parent>Corpses</parent>
     </ThingCategoryDef>
+	
+	<ThingCategoryDef>
+        <defName>GR_ImplantCategory</defName>
+        <label>hybrid implants</label>
+        <parent>BodyPartsArtificial</parent>
+      </ThingCategoryDef>
+	  
+	  <ThingCategoryDef>
+        <defName>GR_GenetrainersCategory</defName>
+        <label>genetrainers</label>
+        <parent>Items</parent>
+      </ThingCategoryDef>
 
 
 </Defs>

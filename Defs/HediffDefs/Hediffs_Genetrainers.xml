@@ -231,29 +231,7 @@
 
 	</HediffDef>
 	
-	<HediffDef>
-		<defName>GR_ThrumboHybridGenes</defName>
-		<label>thrumbo genes (animal affinity)</label>
-		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
-		<scenarioCanAdd>false</scenarioCanAdd>
-		<maxSeverity>1.0</maxSeverity>   		
-		<stages>
-			<li>
-				
-				<statOffsets>
-					
-					<TameAnimalChance>0.2</TameAnimalChance>
-					<TrainAnimalChance>0.2</TrainAnimalChance>
-					<AnimalGatherSpeed>0.2</AnimalGatherSpeed>
-					<AnimalGatherYield>0.2</AnimalGatherYield>
-					
-					
-				</statOffsets>
-			</li>
-		</stages>
-		
-
-	</HediffDef>
+	
 	
 		
 	<HediffDef>

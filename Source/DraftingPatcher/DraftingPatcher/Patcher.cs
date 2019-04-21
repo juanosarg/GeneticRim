@@ -607,7 +607,7 @@ namespace DraftingPatcher
     /*This Harmony postfix tries to add an endgame event
     * 
     */
-   /* [HarmonyPatch(typeof(MapParent))]
+    [HarmonyPatch(typeof(MapParent))]
     [HarmonyPatch("RecalculateHibernatableIncidentTargets")]
 
     static class MapParent_RecalculateHibernatableIncidentTargets_Patch
@@ -620,7 +620,7 @@ namespace DraftingPatcher
             theListToChange = (HashSet < IncidentTargetTagDef >)typeof(MapParent).GetField("hibernatableIncidentTargets", AccessTools.all).GetValue(__instance);
             //typeof(MapParent).GetField("hibernatableIncidentTargets", AccessTools.all).SetValue(__instance,null);
             //__instance.hibernatableIncidentTargets = null;
-            foreach (ThingWithComps current in __instance.Map.listerThings.ThingsOfDef(ThingDef.Named("GR_GameEnder")).OfType<ThingWithComps>())
+            foreach (ThingWithComps current in __instance.Map.listerThings.ThingsOfDef(ThingDef.Named("GR_ArchotechPlatform")).OfType<ThingWithComps>())
             {
                 CompHibernatable compHibernatable = current.TryGetComp<CompHibernatable>();
                 if (compHibernatable != null && compHibernatable.State == HibernatableStateDefOf.Starting && compHibernatable.Props.incidentTargetWhileStarting != null)
@@ -634,12 +634,13 @@ namespace DraftingPatcher
                     theListToChange = (HashSet<IncidentTargetTagDef>)typeof(MapParent).GetField("hibernatableIncidentTargets", AccessTools.all).GetValue(__instance);
                     theListToChange.Add(compHibernatable.Props.incidentTargetWhileStarting);
                     typeof(MapParent).GetField("hibernatableIncidentTargets", AccessTools.all).SetValue(__instance, theListToChange);
+                    Log.Message("Genetic Rim is starting the Archotech Project. Prepare for raids!");
 
                     // this.hibernatableIncidentTargets.Add(compHibernatable.Props.incidentTargetWhileStarting);
                 }
             }
         }
-    }*/
+    }
 
 
 

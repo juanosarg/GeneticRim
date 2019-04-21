@@ -68,6 +68,64 @@
 
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 	</ThingDef>
+	
+	 <!-- Beam - Refrigerated Coils -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>GR_RefrigeratedCoils</defName>
+    <label>refrigerated coils</label>
+    <description>Structural cryofuel coils to connect all the parts of the Archotech Centipede Project.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/GR_RefrigeratedCoils</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(8,2)</drawSize>
+      <shadowData>
+        <volume>(2.04, 1.0, 5.75)</volume>
+      </shadowData>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <fillPercent>1</fillPercent>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <WorkToBuild>8000</WorkToBuild>
+      <MaxHitPoints>400</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <size>(6,2)</size>
+    <designationCategory>GR_GeneticsTab</designationCategory>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTransmitter</compClass>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="NewMachinery.CompProperties_ArchotechPart"/>
+    </comps>
+   
+    <costList>
+      <Steel>200</Steel>
+      <Plasteel>40</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <researchPrerequisites>
+      <li>ShipBasics</li>
+    </researchPrerequisites>
+    <designationHotKey>Misc1</designationHotKey>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <uiIconScale>1.2</uiIconScale>
+  </ThingDef>
 
 	<!-- Engine - Cryos -->
 

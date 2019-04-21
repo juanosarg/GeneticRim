@@ -2,13 +2,19 @@
 <Defs>
 
 
-	<ThingDef Name="GR_HumanImplantBase" Abstract="True" ParentName="BodyPartArtificialBase">
+	<ThingDef Name="GR_HumanImplantBase" Abstract="True" ParentName="BodyPartBase">
 		<tradeability>Sellable</tradeability>
+		<thingCategories>
+      <li>GR_ImplantCategory</li>
+    </thingCategories>
 		<graphicData>
 			<texPath>Things/Item/GR_HumanGeneticHybridOrgan</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.80</drawSize>
 		</graphicData>
+		<statBases>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
 	</ThingDef>
 
 	<!--=============== Human Hybrid Implants ====================-->

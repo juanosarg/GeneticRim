@@ -880,7 +880,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Catwolf</defName>
 		<label>catwolf</label>
-		<description>A cat / wolf hybrid. Catwolves are extremely intelligent cat hybrids, and they can be trained to haul. Not much, mind you, since they are quite small, but if you have an army of them the net result will be the same. Another positive note is that you will have hauling cats without needing to delve into the depths of weird weeabo catgirl mods. NO SIR, we have enough weirdness here with the ovopositors and such.\n\nUseful abilities: Like all cat hybrids, they have an improved melee dodge ability, which in the case of these small animals is ideal to get out of a fight, and a short nuzzle period. Fast and intelligent.</description>
+		<description>A cat / wolf hybrid. Catwolves are extremely intelligent cat hybrids, and they can be trained to haul. Not much, mind you, since they are quite small, but if you have an army of them the net result will be the same. Another positive note is that you will have hauling cats without needing to delve into the depths of weird weeaboo catgirl mods. NO SIR, we have enough weirdness here with the ovipositors and such.\n\nUseful abilities: Like all cat hybrids, they have an improved melee dodge ability, which in the case of these small animals is ideal to get out of a fight, and a short nuzzle period. Fast and intelligent.</description>
 		<statBases>
 			<MoveSpeed>7</MoveSpeed>
 			<MarketValue>150</MarketValue>
@@ -966,7 +966,7 @@
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
-			<baseBodySize>0.35</baseBodySize>
+			<baseBodySize>0.4</baseBodySize>
 			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>0.75</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
