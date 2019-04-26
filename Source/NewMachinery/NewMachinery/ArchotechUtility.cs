@@ -24,10 +24,13 @@ namespace NewMachinery
                 ArchotechUtility.requiredParts = new Dictionary<ThingDef, int>();
                 ArchotechUtility.requiredParts[ThingDef.Named("GR_ArchotechPlatform")] = 1;
                 ArchotechUtility.requiredParts[ThingDef.Named("GR_TurboChargedCryostabilizedEngine")] = 3;
-               /* ArchotechUtility.requiredParts[ThingDefOf.Ship_Reactor] = 1;
-                ArchotechUtility.requiredParts[ThingDefOf.Ship_Engine] = 3;
-                ArchotechUtility.requiredParts[ThingDefOf.Ship_Beam] = 1;
-                ArchotechUtility.requiredParts[ThingDefOf.Ship_SensorCluster] = 1;*/
+                ArchotechUtility.requiredParts[ThingDef.Named("GR_RefrigeratedCoils")] = 1;
+                ArchotechUtility.requiredParts[ThingDef.Named("GR_ArchotechDatabase")] = 1;
+                ArchotechUtility.requiredParts[ThingDef.Named("GR_GeneticRepository")] = 5;
+                ArchotechUtility.requiredParts[ThingDef.Named("GR_MechanoidTinkeringTable")] = 1;
+
+
+
             }
             return ArchotechUtility.requiredParts;
         }
