@@ -66,7 +66,7 @@
     <label>hybrid implantology</label>
     <tab>GR_GeneticReseach</tab>
     <techLevel>Industrial</techLevel>
-    <description>Opens up experimenting with animal hybrid implants, used to improve your hybrid creatures with incredibly weird combinations. These hybrid implants are all created in a Tissue Growing Vat, and can be also used in base, non-hybrid animals (modded animals need a patch).</description>
+    <description>Opens up experimenting with animal hybrid implants, used to improve your hybrid creatures with incredibly weird combinations. These hybrid implants are all created in a Tissue Growing Vat, and can be also used in all base, non-hybrid animals (including modded animals).</description>
     <baseCost>1250</baseCost>
     <prerequisites>
         <li>GR_GeneticEngineering</li>
@@ -186,6 +186,115 @@
     
 		<researchViewX>3</researchViewX>
 		<researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+  
+    <ResearchProjectDef>
+    <defName>GR_ArchotechProject</defName>
+    <label>archotech project</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Your colony is a thriving mecca of genetic engineering, pushing the limits of what was previously thought to be possible. But... can you go even further? Your researchers have suggested that it may be possible to integrate one of the mechanoid bio-monstruosities with a subjugated archotech AI. Would it be wise? Probably not. Would it be cool? Hell yeah.</description>
+    <baseCost>4000</baseCost>
+	 <discoveredLetterTitle>About: The Archotech Project</discoveredLetterTitle>
+    <discoveredLetterText>Controlling this planet - who cares about freedom or home? The Archotech Project might allow you to finally call this planet home, with a freedom carved from the charred bones of your enemies.\n\nThe Archotech Project platform will take 15 days to charge up. Once you begin that process, the archotech AI will resist its subjugation, and will emit an energy signature detectable from thousands of kilometers away. Raiders will flock to attack you in waves, with an intensity you've never seen, scared out of their minds for the possibility of an archotech AI gaining control of the planet. Mechanoids are also known to be attracted to such energy signatures for their own mysterious reasons.\n\nIt won't start until you activate your contruction platform, but when it does, it'll be ferocious. You'll need to stockpile resources, weapons, and defenses for the onslaught if you hope to escape alive.</discoveredLetterText>
+    <discoveredLetterMinDifficulty>1</discoveredLetterMinDifficulty>
+    <prerequisites>
+        <li>GR_AdvancedMechaniteBioIntegration</li>
+		
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>0</researchViewX>
+    <researchViewY>5</researchViewY>
+	 <tags>
+      <li>ShipRelated</li>
+    </tags>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>GR_TurboChargedCryostabilizedEngines</defName>
+    <label>turbocharged cryo-stabilized engines</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Spacer</techLevel>
+    <description>The Archotech Project will need a source of coolant to refrigerate its delicate components to near absolute zero. These new engines can be used to circulate this coolant.\n\nCryofuel is produced by Boomalope / Muffalo hybrids.</description>
+    <baseCost>3000</baseCost>
+	<prerequisites>
+        <li>GR_ArchotechProject</li>
+	</prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>0</researchViewX>
+    <researchViewY>6</researchViewY>
+	 <tags>
+      <li>ShipRelated</li>
+    </tags>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>GR_ArchotechComputing</defName>
+    <label>archotech computing</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Archotech computing will be needed to stabilize and subjugate the Archotech AI inside a database, since having it go rogue would probably spell doom for everyone.</description>
+    <baseCost>2800</baseCost>
+	<prerequisites>
+        <li>GR_ArchotechProject</li>
+	</prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>1</researchViewX>
+    <researchViewY>6</researchViewY>
+	 <tags>
+      <li>ShipRelated</li>
+    </tags>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef>
+    <defName>GR_GeneticArchiving</defName>
+    <label>genetic archiving</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Several genetic repositories will need to be built, connected to the construction platform. These repositories will provide the project with a slurry of genetic materials, which will be re-sampled and turned it into a custom tailored genetic structure to fill the organic parts of the archotech centipede.</description>
+    <baseCost>6000</baseCost>
+	<prerequisites>
+        <li>GR_ArchotechProject</li>
+	</prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>2</researchViewX>
+    <researchViewY>6</researchViewY>
+	 <tags>
+      <li>ShipRelated</li>
+    </tags>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef>
+    <defName>GR_BioMechanicalManipulation</defName>
+    <label>bio-mechanical manipulation</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Spacer</techLevel>
+    <description>In order to truly interconnect the archotech AI with a bio-mechanical body, researchers need to understand how precisely mechanoids work internally. A tinkering station will be needed to disassemble and re-use mechanoid carcasses.</description>
+    <baseCost>6000</baseCost>
+	<prerequisites>
+        <li>GR_ArchotechProject</li>
+	</prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>3</researchViewX>
+    <researchViewY>6</researchViewY>
+	 <tags>
+      <li>ShipRelated</li>
+    </tags>
   </ResearchProjectDef>
 
 </Defs>

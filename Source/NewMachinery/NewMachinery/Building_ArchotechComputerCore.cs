@@ -50,7 +50,7 @@ namespace NewMachinery
         {
             if (this.CanLaunchNow)
             {
-                ShipCountdown.InitiateCountdown(this);
+                ArchotechCountdown.InitiateCountdown(this);
             }
         }
     }

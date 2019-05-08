@@ -149,6 +149,25 @@
 
 		</projectile>
 	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>GR_Disintegrator</defName>
+		<label>disintegrator beam</label>
+		<thingClass>AnimalRangeAttack.AnimalProjectile</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/GR_DisintegratorBeam</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,40)</drawSize>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>1500</damageAmountBase>
+			<speed>150</speed>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+
+		</projectile>
+	</ThingDef>
 
 
 	<ThingDef ParentName="BaseBullet">

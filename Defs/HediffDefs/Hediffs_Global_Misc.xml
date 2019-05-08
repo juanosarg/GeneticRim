@@ -626,6 +626,42 @@
     </stages>
   </HediffDef>
   
+  
+      <HediffDef>
+    <defName>GR_CausedPowerBeam</defName>
+    <label>recently called an orbital power beam</label>
+    <makesSickThought>false</makesSickThought>
+    <tendable>false</tendable>
+	<isBad>false</isBad>
+    <defaultLabelColor>(50,200,0)</defaultLabelColor>
+	<hediffClass>HediffWithComps</hediffClass>
+    <initialSeverity>0.001</initialSeverity>
+    <comps>
+
+
+      
+	  <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>4500</min>
+          <max>4500</max>
+        </disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+     
+      
+	  <li>
+        <label>recharging</label>
+		<minSeverity>1</minSeverity>
+	
+       
+        
+      </li>
+	 
+     
+    </stages>
+  </HediffDef>
+  
       <HediffDef>
     <defName>GR_VentedExhaust</defName>
     <label>recently vented exhaust gasses</label>

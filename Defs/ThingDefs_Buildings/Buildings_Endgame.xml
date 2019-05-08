@@ -10,7 +10,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>GR_ArchotechPlatform</defName>
 		<label>archotech construction platform</label>
-		<description>This construction platform houses the technology necessary to assemble an archotech centipede, a bio-mechanical creature powered by an archotech AI under the control of your colonists.\n\nWhoever controls an archotech centipede controls the planet. Bear in mind however that activation of this project will attract A LOT of unwanted attention.</description>
+		<description>This construction platform houses the technology necessary to assemble an Archotech Centipede, a bio-mechanical creature powered by an Archotech AI under the control of your colonists.\n\nWhoever controls an Archotech Centipede controls the planet. Bear in mind however that activation of this project will attract A LOT of unwanted attention.</description>
 		<thingClass>NewMachinery.Building_ArchotechPlatform</thingClass>
 		<graphicData>
 			<texPath>Things/Building/GR_ArchotechPlatform</texPath>
@@ -26,7 +26,7 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
-		<researchPrerequisites><li>ShipReactor</li></researchPrerequisites>
+		<researchPrerequisites><li>GR_ArchotechProject</li></researchPrerequisites>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>   
@@ -69,20 +69,70 @@
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 	</ThingDef>
 	
+	<ThingDef ParentName="BuildingBase">
+		<defName>GR_SpentArchotechPlatform</defName>
+		<label>archotech construction platform</label>
+		<description>This construction platform has already been used.</description>
+		<graphicData>
+			<texPath>Things/Building/GR_ArchotechPlatformEmpty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(8,8)</drawSize>
+			<shadowData>
+				<volume>(5.94, 1.0, 6.71)</volume>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>   
+		<blockWind>true</blockWind>
+		<fillPercent>0.5</fillPercent>
+		<surfaceType>Item</surfaceType>
+
+		<rotatable>false</rotatable>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(7,6)</size>
+		
+		
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			
+			
+		</comps>
+
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationHotKey>Misc4</designationHotKey>
+
+	</ThingDef>
+	
 	 <!-- Beam - Refrigerated Coils -->
 
   <ThingDef ParentName="BuildingBase">
     <defName>GR_RefrigeratedCoils</defName>
     <label>refrigerated coils</label>
-    <description>Structural cryofuel coils to connect all the parts of the Archotech Centipede Project. At least one needs to be built to keep the sensitive components properly refrigerated.</description>
+    <description>Structural cryofuel coils to connect all the parts of the Archotech Project. At least one needs to be built to keep the sensitive components properly refrigerated.</description>
     <thingClass>Building</thingClass>
     <graphicData>
       <texPath>Things/Building/GR_RefrigeratedCoils</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(8,2)</drawSize>
-      <shadowData>
-        <volume>(2.04, 1.0, 5.75)</volume>
-      </shadowData>
+     
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
@@ -120,7 +170,7 @@
     </costList>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <researchPrerequisites>
-      <li>ShipBasics</li>
+      <li>GR_ArchotechProject</li>
     </researchPrerequisites>
     <designationHotKey>Misc1</designationHotKey>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
@@ -140,7 +190,7 @@
 			<drawSize>(3.5,3.5)</drawSize>
 
 		</graphicData>
-		<researchPrerequisites><li>ShipEngine</li></researchPrerequisites>
+		<researchPrerequisites><li>GR_TurboChargedCryostabilizedEngines</li></researchPrerequisites>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<rotatable>false</rotatable>
@@ -169,8 +219,9 @@
 		<costList>
 			<Steel>260</Steel>
 			<Plasteel>140</Plasteel>
-			<Uranium>70</Uranium>
-			<ComponentSpacer>6</ComponentSpacer>
+			<Uranium>95</Uranium>
+			<ComponentSpacer>8</ComponentSpacer>
+			<GR_Cryofuel>100</GR_Cryofuel>
 		</costList>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<designationHotKey>Misc5</designationHotKey>
@@ -182,7 +233,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>GR_ArchotechDatabase</defName>
 		<label>master archotech database</label>
-		<description>This database stabilizes the archotech biochip, keeping it under control of the colonists. This technology is very advanced and has inherent risks, such as the archotech AI going rogue, killing everyone in the planet, and using their corpses as batteries to power a martial arts simulation. Or sending robots to the past.</description>
+		<description>This database stabilizes and subjugates the archotech AI, keeping it under control of the colonists. This technology is very advanced and has inherent risks, such as the archotech AI going rogue, killing everyone in the planet, and using their corpses as batteries to power a martial arts simulation. Or sending robots to the past.\n\nMechanoid interface chips, can be obtained from crashed mechanoid ships (both psychic and poison) or very expensively built in a Fabrication Table if you research Advanced Fabrication.</description>
     <thingClass>NewMachinery.Building_ArchotechComputerCore</thingClass>
 		<graphicData>
 			<texPath>Things/Building/GR_ArchotechDatabase</texPath>
@@ -191,7 +242,7 @@
 
 		</graphicData>
 		<rotatable>false</rotatable>
-		<researchPrerequisites><li>ShipEngine</li></researchPrerequisites>
+		<researchPrerequisites><li>GR_ArchotechComputing</li></researchPrerequisites>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<blockWind>true</blockWind>
@@ -217,10 +268,14 @@
 
 		
 		<costList>
-			<Steel>260</Steel>
-			<Plasteel>140</Plasteel>
-			<Uranium>70</Uranium>
+			<Steel>150</Steel>
+			<Gold>90</Gold>
+			<Uranium>100</Uranium>
 			<ComponentSpacer>6</ComponentSpacer>
+			<AIPersonaCore>1</AIPersonaCore>
+			<GR_MechanoidInterfaceChip>2</GR_MechanoidInterfaceChip>
+			
+
 		</costList>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<designationHotKey>Misc5</designationHotKey>
@@ -240,7 +295,7 @@
 			<drawSize>(3.5,3.5)</drawSize>
 
 		</graphicData>
-		<researchPrerequisites><li>ShipEngine</li></researchPrerequisites>
+		<researchPrerequisites><li>GR_GeneticArchiving</li></researchPrerequisites>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<rotatable>false</rotatable>
@@ -267,6 +322,10 @@
 
 		
 		<costList>
+			<Steel>210</Steel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentSpacer>8</ComponentSpacer>
+			<Gold>4</Gold>
 			<GR_OrganicPulp>20</GR_OrganicPulp>
 			<GR_BearGenetic>5</GR_BearGenetic>
 			<GR_BoomalopeGenetic>5</GR_BoomalopeGenetic>
@@ -293,7 +352,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>GR_MechanoidTinkeringTable</defName>
     <label>mechanoid tinkering table</label>
-    <description>A workbench equipped with advanced tools to dissasemble mechanoid and use the acquired knowledge to create the archotech centipede.\n\nNote: bear in mind that this building is not a real workbench!</description>
+    <description>A workbench equipped with advanced tools to dissasemble mechanoids and use the acquired knowledge to create the Archotech Centipede.\n\nNote: bear in mind that this building is not a real workbench!</description>
     <thingClass>Building</thingClass>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
@@ -307,7 +366,7 @@
     <size>(5,2)</size>
     <costList>
       <Steel>200</Steel>
-      <ComponentIndustrial>12</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <comps>
@@ -343,7 +402,7 @@
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
    
     <researchPrerequisites>
-      <li>ShipEngine</li>
+      <li>GR_BioMechanicalManipulation</li>
     </researchPrerequisites>
   </ThingDef>
 

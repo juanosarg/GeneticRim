@@ -79,6 +79,8 @@
   <GR_StartKeenSensesDesc>Makes the creature more aware of its surroundings, increasing its melee capacities (affects sight and consciousness)</GR_StartKeenSensesDesc>
   <GR_StartCatReflexes>Cat Reflexes</GR_StartCatReflexes>
   <GR_StartCatReflexesDesc>Makes the creature much more agile, improving its chance to dodge melee attacks even further</GR_StartCatReflexesDesc>
+  <GR_Orbital>Orbital power beam</GR_Orbital>
+  <GR_OrbitalDesc>That's a nice... existance you have there. It would be a shame if someone were to end it.</GR_OrbitalDesc>
   
   <GR_AbilityRecharging>Ability is rechaging. Check animal's health tab</GR_AbilityRecharging>
   <GR_PoisonCloudRange>Poison cloud has a maximum range of 10. Get closer to the target!</GR_PoisonCloudRange>
@@ -98,6 +100,8 @@
   <GR_ArchotechProjectText>You are ready to start the archotech centipede project.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates that someone is meddling in technology that is far beyond human understanding, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first.\n\nBear in mind that you will still need to have all the project buildings connected to the platform to activate the archotech centipede.</GR_ArchotechProjectText>
   <GR_ArchotechProjectLaunch>Activate archotech centipede</GR_ArchotechProjectLaunch>
   <GR_ArchotechProjectLaunchDesc>Activate the archotech centipede to destroy your enemies. Or kill everyone including all the colonists. It's fifty-fifty.</GR_ArchotechProjectLaunchDesc>
+  
+   <GR_GameOverArchotech>You've activated the Archotech Project! These colonists were present for the archotech awakening:\n\n{0}\n\nThe Archotech Centipede is now under their control, and you are free to decimate your enemies and control the planet unopposed.\n\nCongratulations, you have won the game with the Genetic Rim mod!</GR_GameOverArchotech>
 
   
   

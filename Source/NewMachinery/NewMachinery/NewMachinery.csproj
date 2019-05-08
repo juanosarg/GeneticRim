@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArchotechCountdown.cs" />
     <Compile Include="ArchotechUtility.cs" />
     <Compile Include="Building_ArchotechComputerCore.cs" />
     <Compile Include="Building_ArchotechPlatform.cs" />

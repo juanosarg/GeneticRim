@@ -520,6 +520,44 @@ namespace DraftingPatcher
                 gizmos.Insert(1, GR_Gizmo_MechaBlast);
             }
 
+            /*This gizmo makes the animal release a burning explosion
+         */
+            if ((pawn.drafter != null) &&flagIsCreatureMine && pawn.def.defName=="GR_ArchotechCentipede")
+            {
+                Command_Target GR_Gizmo_Orbital = new Command_Target();
+                GR_Gizmo_Orbital.defaultLabel = "GR_Orbital".Translate();
+                GR_Gizmo_Orbital.defaultDesc = "GR_OrbitalDesc".Translate();
+                GR_Gizmo_Orbital.targetingParams = TargetingParameters.ForAttackAny();
+                GR_Gizmo_Orbital.icon = ContentFinder<Texture2D>.Get("ui/commands/GR_Orbital", true);
+
+                GR_Gizmo_Orbital.action = delegate (Thing target)
+                {
+
+                    if (!pawn.health.hediffSet.HasHediff(HediffDef.Named("GR_CausedPowerBeam")))
+                    {
+                        if (target.Map == pawn.Map)
+                        {
+                            PowerBeam powerBeam = (PowerBeam)GenSpawn.Spawn(ThingDefOf.PowerBeam, target.Position, pawn.Map, WipeMode.Vanish);
+                            powerBeam.duration = 600;
+                            powerBeam.instigator = pawn;
+                            powerBeam.weaponDef = null;
+                            powerBeam.StartStrike();
+                            pawn.health.AddHediff(HediffDef.Named("GR_CausedPowerBeam"));
+
+                        }
+
+                    }
+                    else
+                    {
+                        Messages.Message("GR_AbilityRecharging".Translate(), pawn, MessageTypeDefOf.NeutralEvent);
+                    }
+
+                    
+
+                };
+                gizmos.Insert(1, GR_Gizmo_Orbital);
+            }
+
 
 
             __result = gizmos;
