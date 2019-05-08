@@ -9,6 +9,7 @@ using Verse.AI;
 using RimWorld.Planet;
 
 
+
 // So, let's comment this code, since it uses Harmony and has moderate complexity
 
 namespace DraftingPatcher
@@ -642,7 +643,7 @@ namespace DraftingPatcher
 
 
 
-    /*This Harmony postfix tries to add an endgame event
+    /*This Harmony postfix tries to add an endgame event. Specifically, it adds GR_ArchotechPlatform to a list of hibernatableIncidentTargets to increase raid commonality
     * 
     */
     [HarmonyPatch(typeof(MapParent))]
@@ -680,8 +681,27 @@ namespace DraftingPatcher
         }
     }
 
+    /*This Harmony postfix checks the Archotech Project countdown counter (why didn't Tynan do this with a tick counter??)
+   * 
+   */
+    [HarmonyPatch(typeof(Root_Play))]
+    [HarmonyPatch("Update")]
 
+    static class Root_Play_Update_Patch
+    {
+        [HarmonyPostfix]
 
-
-
+        public static void TickCountDown()
+        {
+           
+                NewMachinery.ArchotechCountdown.ShipCountdownUpdate();
+               
+            
         }
+    }
+
+
+
+
+
+}
