@@ -20,7 +20,7 @@ namespace NewMachinery
                 defaultLabel = "GR_CommandArchotechReport".Translate(),
                 defaultDesc = "GR_CommandArchotechReportDesc".Translate(),
                 hotKey = KeyBindingDefOf.Misc4,
-                icon = ContentFinder<Texture2D>.Get("UI/Commands/GR_ProjectDossier", true)
+                icon = ContentFinder<Texture2D>.Get("ui/commands/GR_ProjectDossier", true)
             };
         }
 
@@ -29,11 +29,11 @@ namespace NewMachinery
             StringBuilder stringBuilder = new StringBuilder();
             if (!ArchotechUtility.LaunchFailReasons((Building)this.parent).Any<string>())
             {
-                stringBuilder.AppendLine("ShipReportCanLaunch".Translate());
+                stringBuilder.AppendLine("GR_ArchotechReportCanLaunch".Translate());
             }
             else
             {
-                stringBuilder.AppendLine("ShipReportCannotLaunch".Translate());
+                stringBuilder.AppendLine("GR_ArchotechReportCannotLaunch".Translate());
                 foreach (string current in ArchotechUtility.LaunchFailReasons((Building)this.parent))
                 {
                     stringBuilder.AppendLine();

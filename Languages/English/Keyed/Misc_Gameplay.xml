@@ -101,6 +101,9 @@
   <GR_ArchotechProjectLaunch>Activate archotech centipede</GR_ArchotechProjectLaunch>
   <GR_ArchotechProjectLaunchDesc>Activate the archotech centipede to destroy your enemies. Or kill everyone including all the colonists. It's fifty-fifty.</GR_ArchotechProjectLaunchDesc>
   
+  <GR_ArchotechReportCannotLaunch>Cannot activate Archotech Centipede.</GR_ArchotechReportCannotLaunch>
+  <GR_ArchotechReportCanLaunch>Ready to activate the Archotech Centipede.</GR_ArchotechReportCanLaunch>
+  
    <GR_GameOverArchotech>You've activated the Archotech Project! These colonists were present for the archotech awakening:\n\n{0}\n\nThe Archotech Centipede is now under their control, and you are free to decimate your enemies and control the planet unopposed.\n\nCongratulations, you have won the game with the Genetic Rim mod!</GR_GameOverArchotech>
 
   
