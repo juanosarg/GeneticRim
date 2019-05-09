@@ -20,7 +20,7 @@ namespace NewMachinery
                 defaultLabel = "GR_CommandArchotechReport".Translate(),
                 defaultDesc = "GR_CommandArchotechReportDesc".Translate(),
                 hotKey = KeyBindingDefOf.Misc4,
-                icon = ContentFinder<Texture2D>.Get("UI/Commands/LaunchReport", true)
+                icon = ContentFinder<Texture2D>.Get("UI/Commands/GR_ProjectDossier", true)
             };
         }
 

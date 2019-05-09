@@ -149,7 +149,7 @@ namespace NewMachinery
                     defaultLabel = "GR_CommandArchotechStartup".Translate(),
                     defaultDesc = "GR_CommandArchotechStartupDesc".Translate(),
                     hotKey = KeyBindingDefOf.Misc1,
-                    icon = ContentFinder<Texture2D>.Get("UI/Commands/DesirePower", true)
+                    icon = ContentFinder<Texture2D>.Get("UI/Commands/GR_Microscope", true)
                 };
             }
         }

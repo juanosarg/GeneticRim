@@ -42,7 +42,7 @@ namespace NewMachinery
                 launch.Disable(null);
             }
             launch.hotKey = KeyBindingDefOf.Misc1;
-            launch.icon = ContentFinder<Texture2D>.Get("UI/Commands/LaunchShip", true);
+            launch.icon = ContentFinder<Texture2D>.Get("UI/Commands/GR_AwakenArchotech", true);
             yield return launch;
         }
 

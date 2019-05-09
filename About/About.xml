@@ -14,6 +14,8 @@
 
 - Animal Control: With the Animal Control research, you can directly control your animals. Draft them and move them at will! It also gives special abilities depending on the creature, so wolf hybrids can use Adrenaline Rush, thrumbo hybrids can stampede, and so on. 11 new abilities, and any combinations of them, open up fascinating new tactical possibilities.
 
+- The Archotech Project: Genetic Rim adds a new win condition for the game. Instead of building a spaceship and leaving the planet, you can research how to integrate and control an archotech AI inside a bio-mechanical body. Why would you leave when you can stay and kill all your enemies?
+
 &lt;size=24&gt;Issues&lt;/size&gt;
 Some of the biggest animals might flicker. This is to be expected, since a few of them are bigger than Thrumbos!
 The animal control research uses Harmony, so expect all kinds of bugs because I touched things that I maybe shouldn't have. Please report any bugs!
@@ -31,6 +33,7 @@ How do I progress? Here is a mini-guide:
 - On yet another different path, you can research animal enrichment, which allow you to create Paragon animals with the Paragon serum extraction table and the animal enrichment center.
 - Researching animal control gives you access to fascinating new abilities in all your hybrids and paragons. Just build the Animal Control Hub.
 - Finally, the age drugs tech allows you to mature your animals much faster!
+- You can win the game by starting the Archotech Project!
 
 &lt;size=24&gt;Plans for the future&lt;/size&gt;
 - Plant-like creatures
@@ -38,7 +41,7 @@ How do I progress? Here is a mini-guide:
 
 &lt;size=24&gt;Compatibility&lt;/size&gt;
 Super compatible with Giddy-Up. Saddles included for all big enough hybrids and paragons
-Compatible with Animal Collab Project, Alpha Animals, Mechanoids Extraordinaire, More Mechanoids, Let's Have a Cat! and Polarisbloc - Mechenemy for gene extraction
+Compatible with Animal Collab Project, Alpha Animals, Mechanoids Extraordinaire, TropickAPP, More Mechanoids, Let's Have a Cat! and Polarisbloc - Mechenemy for gene extraction
 Compatible with A Dog Said for implants on hybrids and paragons
 Compatible with Rim of Madness - Bones for extraction of organic pulp from bones
 Aesthetically compatible with the High Tech Laboratory Facilities mod
@@ -51,6 +54,7 @@ Some building textures modified from Textures by Pixel Art World, http://yms.mai
 Some building textures modified from Textures in the High Tech Laboratory Facilities mod
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v4.5: New win condition for the game. TropickAPP compat. Human implant medicine use fixes (09/05/19)
 v4.3: New animal family: cats. Added non-specialized genes to extract from any animal. Added genetrainers (29/03/19)
 v4.2: New saddles for Giddy-Up. New mechanoid hybrid balance. Tons of new humanoid implants (26/02/19)
 v4.101: Added five new rodent hybrids (31/01/19)

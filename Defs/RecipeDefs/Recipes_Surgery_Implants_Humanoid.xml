@@ -21,7 +21,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -63,7 +63,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -105,7 +105,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -137,6 +137,9 @@
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing hibernation module.</jobString>
 		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<Medicine>14</Medicine>
+		</skillRequirements>
 		<recipeUsers>
 			<li>Human</li>
 		</recipeUsers>
@@ -147,7 +150,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>4</count>
 			</li>
 			<li>
 				<filter>
@@ -231,7 +234,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -315,7 +318,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -399,7 +402,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -441,7 +444,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -483,7 +486,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -525,7 +528,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -560,6 +563,9 @@
 		<recipeUsers>
 			<li>Human</li>
 		</recipeUsers>
+		<skillRequirements>
+			<Medicine>14</Medicine>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -567,7 +573,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>4</count>
 			</li>
 			<li>
 				<filter>
@@ -609,7 +615,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -651,7 +657,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -778,7 +784,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -820,7 +826,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -862,7 +868,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -904,7 +910,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -946,7 +952,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -988,7 +994,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>1</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
