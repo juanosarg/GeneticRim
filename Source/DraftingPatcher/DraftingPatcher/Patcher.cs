@@ -131,7 +131,7 @@ namespace DraftingPatcher
              * Mind Control. It's action is just calling on toggle the Drafted method in the pawn's drafter, which
              * we initialized in the first Harmony Postfix
             */
-            if ((pawn.drafter != null) && flagIsCreatureMine && flagIsCreatureDraftable && flagIsMindControlBuildingPresent)
+            if ((pawn.drafter != null) && flagIsCreatureMine && flagIsCreatureDraftable && flagIsMindControlBuildingPresent || pawn.def.defName == "GR_ArchotechCentipede")
             {
                 Command_Action GR_Gizmo_MindControl = new Command_Action();
                 GR_Gizmo_MindControl.action = delegate
@@ -177,7 +177,7 @@ namespace DraftingPatcher
             }
             /*This adds a gizmo that makes the creature attack once, and then cause a Hediff disease (GR_ChickenRimPox), then cancels the draft. I used a custom Jobdriver class for that
             */
-            if ((pawn.drafter != null) && flagIsCreatureChickenRimPox && flagIsCreatureMine && pawn.drafter.Drafted && flagIsMindControlBuildingPresent)
+            if ((pawn.drafter != null) && flagIsCreatureChickenRimPox && flagIsCreatureMine && pawn.drafter.Drafted && flagIsMindControlBuildingPresent || pawn.def.defName == "GR_ArchotechCentipede")
             {
                 Command_Target GR_Gizmo_AttackPox = new Command_Target();
                 GR_Gizmo_AttackPox.defaultLabel = "GR_InflictChickenRimPox".Translate();
@@ -238,7 +238,7 @@ namespace DraftingPatcher
             }
             /*This gizmo applies a Hediff that makes the pawn move faster for a while
             */
-            if ((pawn.drafter != null) && flagCanCreatureAdrenalineBurst && flagIsCreatureMine  && flagIsMindControlBuildingPresent)
+            if ((pawn.drafter != null) && flagCanCreatureAdrenalineBurst && flagIsCreatureMine  && flagIsMindControlBuildingPresent || pawn.def.defName == "GR_ArchotechCentipede")
             {
                 Command_Action GR_Gizmo_AdrenalineBurst = new Command_Action();
                 GR_Gizmo_AdrenalineBurst.defaultLabel = "GR_StartAdrenalineBurst".Translate();
@@ -285,7 +285,7 @@ namespace DraftingPatcher
             }
             /*This gizmo applies a Hediff that makes the pawn generate stampede clouds for a while
             */
-            if ((pawn.drafter != null) && flagCanStampede && flagIsCreatureMine && flagIsMindControlBuildingPresent)
+            if ((pawn.drafter != null) && flagCanStampede && flagIsCreatureMine && flagIsMindControlBuildingPresent || pawn.def.defName == "GR_ArchotechCentipede")
             {
                 Command_Action GR_Gizmo_Stampede = new Command_Action();
                 GR_Gizmo_Stampede.defaultLabel = "GR_StartStampede".Translate();
@@ -359,7 +359,7 @@ namespace DraftingPatcher
             }
             /*This gizmo puts the creature into burrowing mode
            */
-            if ((pawn.drafter != null) && flagCanBurrow && flagIsCreatureMine && flagIsMindControlBuildingPresent)
+            if ((pawn.drafter != null) && flagCanBurrow && flagIsCreatureMine && flagIsMindControlBuildingPresent || pawn.def.defName == "GR_ArchotechCentipede")
             {
                 Command_Action GR_Gizmo_Burrowing = new Command_Action();
                 GR_Gizmo_Burrowing.action = delegate
@@ -423,7 +423,7 @@ namespace DraftingPatcher
 
             /*This gizmo activates cat reflexes, improving melee combat
        */
-            if ((pawn.drafter != null) && flagCanCatReflexes && flagIsCreatureMine && flagIsMindControlBuildingPresent)
+            if ((pawn.drafter != null) && flagCanCatReflexes && flagIsCreatureMine && flagIsMindControlBuildingPresent || pawn.def.defName == "GR_ArchotechCentipede")
             {
                 Command_Action GR_Gizmo_CatReflexes = new Command_Action();
                 GR_Gizmo_CatReflexes.action = delegate
@@ -494,7 +494,7 @@ namespace DraftingPatcher
 
             /*This gizmo makes the animal release a burning explosion
           */
-            if ((pawn.drafter != null) && flagCanMechaBlast && flagIsCreatureMine && flagIsMindControlBuildingPresent)
+            if ((pawn.drafter != null) && flagCanMechaBlast && flagIsCreatureMine && flagIsMindControlBuildingPresent || pawn.def.defName == "GR_ArchotechCentipede")
             {
                 Command_Action GR_Gizmo_MechaBlast = new Command_Action();
                 GR_Gizmo_MechaBlast.action = delegate
@@ -521,7 +521,7 @@ namespace DraftingPatcher
                 gizmos.Insert(1, GR_Gizmo_MechaBlast);
             }
 
-            /*This gizmo makes the animal release a burning explosion
+            /*This gizmo activates the orbital beam
          */
             if ((pawn.drafter != null) &&flagIsCreatureMine && pawn.def.defName=="GR_ArchotechCentipede")
             {

@@ -4,10 +4,11 @@ C:\Users\Sarg\Documents\Visual Studio 2017\Projects\NewMachinery\NewMachinery\ob
 C:\Program Files (x86)\Steam\steamapps\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim-release\Assemblies\NewMachinery.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim-release\Source\NewMachinery\NewMachinery\obj\Debug\NewMachinery.csprojResolveAssemblyReference.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim-release\Source\NewMachinery\NewMachinery\obj\Debug\NewMachinery.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim\Source\NewMachinery\NewMachinery\obj\Debug\NewMachinery.csprojResolveAssemblyReference.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim\Source\NewMachinery\NewMachinery\obj\Debug\NewMachinery.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim\Assemblies\NewMachinery.dll
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\Assemblies\NewMachinery.dll
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\Source\NewMachinery\NewMachinery\obj\Debug\NewMachinery.csprojAssemblyReference.cache
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\Source\NewMachinery\NewMachinery\obj\Debug\NewMachinery.csproj.CoreCompileInputs.cache
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\Source\NewMachinery\NewMachinery\obj\Debug\NewMachinery.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim\Source\NewMachinery\NewMachinery\obj\Debug\NewMachinery.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim\Source\NewMachinery\NewMachinery\obj\Debug\NewMachinery.csproj.CoreCompileInputs.cache

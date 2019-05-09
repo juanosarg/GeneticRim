@@ -54,18 +54,30 @@ namespace NewMachinery
         {
             List<Building> list = ArchotechUtility.ShipBuildingsAttachedTo(ArchotechCountdown.shipRoot).ToList<Building>();
             StringBuilder stringBuilder = new StringBuilder();
+            Pawn theFutureTamer = null;
             foreach (Pawn current in PawnsFinder.AllMaps_FreeColonistsSpawned)
             {
                 stringBuilder.AppendLine("   " + current.LabelCap);
+                theFutureTamer = current;
             }
             
             foreach (Building current in list)
             {
                 if (current.def.defName== "GR_ArchotechPlatform") {
+                    Map mapToPlaceAt = current.Map;
+                    IntVec3 positionToPlaceAt = current.Position;
                     current.Destroy(DestroyMode.Vanish);
                     Building new_Platform = (Building)ThingMaker.MakeThing(DefDatabase<ThingDef>.GetNamed("GR_SpentArchotechPlatform", true));
                     new_Platform.SetFaction(Faction.OfPlayer);
-                    GenSpawn.Spawn(new_Platform, current.Position, current.Map);
+                    GenSpawn.Spawn(new_Platform, positionToPlaceAt, mapToPlaceAt);
+
+                    PawnGenerationRequest request = new PawnGenerationRequest(PawnKindDef.Named("GR_ArchotechCentipede"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, true, false, false, true, false, 1f, false, true, true, false, false);
+                    Pawn pawn = PawnGenerator.GeneratePawn(request);
+                    pawn.training.Train(TrainableDefOf.Obedience, theFutureTamer, true);
+                    pawn.training.Train(TrainableDefOf.Release, theFutureTamer, true);
+                   
+
+                    PawnUtility.TrySpawnHatchedOrBornPawn(pawn, new_Platform);
 
                 }
                 
