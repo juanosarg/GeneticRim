@@ -21,6 +21,9 @@
 			<MarketValue>4000000</MarketValue>
 			<ArmorRating_Blunt>2</ArmorRating_Blunt>
 			<ArmorRating_Sharp>2</ArmorRating_Sharp>
+			<LeatherAmount>0</LeatherAmount>
+			<MeatAmount>0</MeatAmount>
+			
 		</statBases>
 		<tools>
 
