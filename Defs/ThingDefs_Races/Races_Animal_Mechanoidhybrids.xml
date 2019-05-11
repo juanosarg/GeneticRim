@@ -104,7 +104,7 @@
 			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalExotic</li>
+			<li>AnimalGenetic</li>
 		</tradeTags>
 		<butcherProducts>
 			<Steel>50</Steel>
@@ -249,7 +249,7 @@
 			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalExotic</li>
+			<li>AnimalGenetic</li>
 		</tradeTags>
 		<butcherProducts>
 			<Steel>50</Steel>
@@ -395,7 +395,7 @@
 			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalExotic</li>
+			<li>AnimalGenetic</li>
 		</tradeTags>
 		<butcherProducts>
 			<Steel>25</Steel>
@@ -532,7 +532,7 @@
 			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalExotic</li>
+			<li>AnimalGenetic</li>
 		</tradeTags>
 		<butcherProducts>
 			<Steel>50</Steel>
@@ -683,7 +683,7 @@
 			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalExotic</li>
+			<li>AnimalGenetic</li>
 		</tradeTags>
 		<butcherProducts>
 			<Steel>50</Steel>
@@ -820,7 +820,7 @@
 			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalExotic</li>
+			<li>AnimalGenetic</li>
 		</tradeTags>
 		<butcherProducts>
 			<Steel>10</Steel>
@@ -957,7 +957,7 @@
 			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalExotic</li>
+			<li>AnimalGenetic</li>
 		</tradeTags>
 		<butcherProducts>
 			<Steel>40</Steel>
@@ -1094,7 +1094,7 @@
 			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalExotic</li>
+			<li>AnimalGenetic</li>
 		</tradeTags>
 		<butcherProducts>
 			<Steel>35</Steel>
@@ -1233,7 +1233,7 @@
 			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalExotic</li>
+			<li>AnimalGenetic</li>
 		</tradeTags>
 		<butcherProducts>
 			<Steel>100</Steel>
@@ -1377,7 +1377,7 @@
 			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalExotic</li>
+			<li>AnimalGenetic</li>
 		</tradeTags>
 		<butcherProducts>
 			<Steel>30</Steel>

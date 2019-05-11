@@ -94,7 +94,7 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalExotic</li>
+			<li>AnimalGenetic</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -251,7 +251,7 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalExotic</li>
+			<li>AnimalGenetic</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -397,7 +397,7 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalExotic</li>
+			<li>AnimalGenetic</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -552,7 +552,7 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalExotic</li>
+			<li>AnimalGenetic</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -724,7 +724,7 @@
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalExotic</li>
+			<li>AnimalGenetic</li>
 		</tradeTags>
 			<butcherProducts>
 		<GR_SquirralopeHorn>1</GR_SquirralopeHorn>
@@ -877,7 +877,7 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalExotic</li>
+			<li>AnimalGenetic</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">

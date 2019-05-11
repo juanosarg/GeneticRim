@@ -114,7 +114,7 @@
 			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalExotic</li>
+			<li>AnimalGenetic</li>
 		</tradeTags>
 		<butcherProducts>
 			<Steel>1000</Steel>

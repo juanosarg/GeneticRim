@@ -126,7 +126,7 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 <tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -281,7 +281,7 @@
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
 <tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 	</ThingDef>  
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -416,7 +416,7 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 <tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 	</ThingDef> 
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -578,7 +578,7 @@
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
 <tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -678,7 +678,7 @@
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 		<butcherProducts>
 			<GR_EmuFatOintment>5</GR_EmuFatOintment>
@@ -872,7 +872,7 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 <tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -980,7 +980,7 @@
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 		<comps>
 			<li Class="CompProperties_EggLayer">
@@ -1194,7 +1194,7 @@
 		<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 	</race>
 <tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 </ThingDef>
 <PawnKindDef ParentName="AnimalKindBase">
@@ -1385,7 +1385,7 @@
 		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 	</race>
 	<tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 </ThingDef>
 
@@ -1537,7 +1537,7 @@
 		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 	</race>
 <tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 </ThingDef>
 <PawnKindDef ParentName="AnimalKindBase">
@@ -1695,7 +1695,7 @@
 		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 	</race>
 <tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 </ThingDef>
 <PawnKindDef ParentName="AnimalKindBase">
@@ -1827,7 +1827,7 @@
 		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 	</race>
 	<tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 	<butcherProducts>
 		<GR_BaconStrips>4</GR_BaconStrips>
@@ -2010,7 +2010,7 @@
 		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 	</race>
 	<tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 </ThingDef>
 <PawnKindDef ParentName="AnimalKindBase">
@@ -2154,7 +2154,7 @@
 		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 	</race>
 	<tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalGenetic</li>
     </tradeTags>
 	<butcherProducts>
 		<GR_TortoiseShell>50</GR_TortoiseShell>
