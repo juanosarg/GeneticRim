@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Spidercamp's Dog Pack (1.0)</modName>
+				<yourMod>Genetic Rim</yourMod>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesWolf"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_SCMiniatureDachshund</li>
+					<li>Corpse_MiniatureSchnauzer</li>
+					<li>Corpse_SCPug</li>
+					<li>Corpse_SCWelshCorgi</li>
+					<li>Corpse_SCAfghanHound</li>
+					<li>Corpse_BorderCollie</li>
+					<li>Corpse_SCBullTerrier</li>
+					<li>Corpse_Chowchow</li>
+					<li>Corpse_Collie</li>
+					<li>Corpse_Doberman</li>
+					<li>Corpse_GoldenRetriever</li>
+					<li>Corpse_SCGreyhound</li>
+					<li>Corpse_SCOldEnglishSheepdog</li>
+					<li>Corpse_SCStandardPoodle</li>
+					<li>Corpse_SCBorzoi</li>
+					<li>Corpse_Bullmastiff</li>
+					<li>Corpse_Caucasianshepherd</li>
+					<li>Corpse_Saintbernard</li>
+					<li>Corpse_SCNewfoundland</li>
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesWolf"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_SCMiniatureDachshund</li>
+					<li>Corpse_MiniatureSchnauzer</li>
+					<li>Corpse_SCPug</li>
+					<li>Corpse_SCWelshCorgi</li>
+					<li>Corpse_SCAfghanHound</li>
+					<li>Corpse_BorderCollie</li>
+					<li>Corpse_SCBullTerrier</li>
+					<li>Corpse_Chowchow</li>
+					<li>Corpse_Collie</li>
+					<li>Corpse_Doberman</li>
+					<li>Corpse_GoldenRetriever</li>
+					<li>Corpse_SCGreyhound</li>
+					<li>Corpse_SCOldEnglishSheepdog</li>
+					<li>Corpse_SCStandardPoodle</li>
+					<li>Corpse_SCBorzoi</li>
+					<li>Corpse_Bullmastiff</li>
+					<li>Corpse_Caucasianshepherd</li>
+					<li>Corpse_Saintbernard</li>
+					<li>Corpse_SCNewfoundland</li>
+
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	
+</Patch>

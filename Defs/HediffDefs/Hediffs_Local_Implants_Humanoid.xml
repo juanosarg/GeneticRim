@@ -115,6 +115,7 @@
 		<comps>
 			<li Class="NewHatcher.HediffCompProperties_Milker">
 				<hatcherDaystoHatch>.5</hatcherDaystoHatch>
+				<hatcherYield>1</hatcherYield>
 			</li>
 		</comps>
 		<spawnThingOnRemoved>GR_MuffaloMammaries</spawnThingOnRemoved>

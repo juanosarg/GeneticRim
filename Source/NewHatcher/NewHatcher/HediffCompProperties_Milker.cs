@@ -6,6 +6,8 @@ namespace NewHatcher
     {
 
         public float hatcherDaystoHatch = 1f;
+        public int hatcherYield = 1;
+
 
         public HediffCompProperties_Milker()
         {

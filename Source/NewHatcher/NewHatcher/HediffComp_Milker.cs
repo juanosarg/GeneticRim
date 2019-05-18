@@ -31,7 +31,10 @@ namespace NewHatcher
             {
                 if ((this.parent.pawn.Map != null) && ((this.parent.pawn.Faction == Faction.OfPlayer) || ((this.parent.pawn.IsPrisoner) && (this.parent.pawn.Map.IsPlayerHome))))
                 {
-                    GenSpawn.Spawn(ThingDef.Named("Milk"), this.parent.pawn.Position, this.parent.pawn.Map);
+                    Thing thing = ThingMaker.MakeThing(ThingDef.Named("Milk"), null);
+                    thing.stackCount = Props.hatcherYield;
+                    GenPlace.TryPlaceThing(thing, this.parent.pawn.Position, this.parent.pawn.Map, ThingPlaceMode.Near, null, null);
+                    //GenSpawn.Spawn(ThingDef.Named("Milk"), this.parent.pawn.Position, this.parent.pawn.Map);
                 }
                 HatchingTicker = 0;
 
