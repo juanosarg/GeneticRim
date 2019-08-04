@@ -14,7 +14,7 @@
       <li>BuildingsProduction</li>
     </thingCategories>
     <thingClass>Building_WorkTable</thingClass>
-	<description>Once the animal control hub is active in your map, you can access new abilities in your hybrids, allowing you to control them directly.</description>
+	<description>Once the animal control hub is active in your map, you can access new abilities in your hybrids, allowing you to control them directly. Note that the hub has a very limited range, and will only work in your main base.</description>
     <graphicData>
       <texPath>Things/Building/GR_AnimalControlHub</texPath>
       <graphicClass>Graphic_Single</graphicClass>    

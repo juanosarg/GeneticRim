@@ -724,6 +724,50 @@
 		<addsHediff>GR_BunnyEars</addsHediff>
 	</RecipeDef>
 
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallCompoundEye</defName>
+		<label>&lt;color=#E89D1B&gt;install compound eye&lt;/color&gt;</label>
+		<description>Installs compound eye.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing compound eye.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_CompoundEye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_CompoundEye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li> 
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_CompoundEye</addsHediff>
+	</RecipeDef>
+	
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallInsectoidAntennae</defName>
 		<label>&lt;color=#E89D1B&gt;install insectoid antennae&lt;/color&gt;</label>

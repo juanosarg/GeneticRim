@@ -172,19 +172,7 @@
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.2</chanceFactor>      </li>
 		</tools>
-		<!--<verbs>
-	  <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GR_Proj_ThrownSac</defaultProjectile>
-        <warmupTime>1</warmupTime>
-        <range>25</range>
-        <soundCast>ThrowGrenade</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-      </li>
-      
-    </verbs>-->
+		
 
 		<verbs>
 			<li>
@@ -212,7 +200,7 @@
 
 			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
 				<resourceDef>GR_Weapon_ThrownSac</resourceDef>
-				<gatheringIntervalDays>10</gatheringIntervalDays>
+				<gatheringIntervalDays>40</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
 				<customResourceString>SacGrowth</customResourceString>
 

@@ -342,6 +342,16 @@
 	</HediffDef>
 	
 	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_CompoundEye</defName>
+		<label>humanoid implant: compound insectoid eye</label>
+		<addedPartProps>
+		  <solid>true</solid>
+		  <partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+		<spawnThingOnRemoved>GR_CompoundEye</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
 		<defName>GR_PsychicDampeners</defName>
 		<label>humanoid implant: psychic dampeners</label>
 		<addedPartProps>

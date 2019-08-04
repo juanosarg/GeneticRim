@@ -224,6 +224,17 @@
 			<MarketValue>250</MarketValue>
 			<Mass>4</Mass>
 		</statBases>
+	</ThingDef>	
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_CompoundEye</defName>
+		<label>human Implant: compund eye</label>
+		<description>This hybrid humanoid / insectoid eye provides improved vision in a wide range of different wavelengths, including those usually outside the human range, completely modifying the way the subject perceives his surroundings.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
 	</ThingDef>
 
 	<ThingDef ParentName="GR_HumanImplantBase">

@@ -29,7 +29,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
-			<explosionRadius >1.9</explosionRadius >
+			<explosionRadius >2.9</explosionRadius >
 			<damageDef>Bomb</damageDef>
 			<damageAmountBase>20</damageAmountBase>
 			<explosionDelay>100</explosionDelay>
