@@ -782,6 +782,53 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftCompoundEye</defName>
+		<label>Human Implant: compound eye</label>
+		<description>Craft compound eye. This hybrid humanoid / insectoid eye provides improved vision in a wide range of different wavelengths, including those usually outside the human range, completely modifying the way the subject perceives his surroundings.</description>
+		<jobString>Crafting compound eye</jobString>
+		
+		<ingredients>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_InsectoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_InsectoidGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>GR_InsectoidGenome</researchPrerequisite>
+		<products>
+			<GR_CompoundEye>1</GR_CompoundEye>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
 		<defName>GR_CraftInsectoidAntennae</defName>
 		<label>Human Implant: insectoid antennae</label>
 		<description>Craft hybrid humanoid / insectoid feeling appendages that can be implanted in a subject's head, completely modifying the way the subject "sees" and feels the surrounding world. The experience may be slightly overwhelming due to sensorial overload.</description>

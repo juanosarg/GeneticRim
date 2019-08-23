@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Vanilla Animals Expanded — Arid Shrubland</modName>
+				<yourMod>Genetic Rim</yourMod>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesWolf"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_Coyote</li>
+					
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesWolf"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_Coyote</li>
+					
+
+
+				</value>
+			</li>	
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMuffalo"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_Wildebeest</li>
+					
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMuffalo"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_Wildebeest</li>
+					
+
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesReptilian"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_Crocodile</li>
+					
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesReptilian"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_Crocodile</li>
+					
+					
+				</value>
+			</li>	
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesFeline"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_Cheetah</li>
+					
+					
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesFeline"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_Cheetah</li>
+					
+				</value>
+			</li>
+			
+			
+			
+			
+		</operations>
+	</Operation>
+	
+	
+</Patch>

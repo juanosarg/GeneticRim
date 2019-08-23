@@ -35,6 +35,20 @@
 		<addedPartProps>
 			<partEfficiency>1</partEfficiency>
 		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>bear claws</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>10</power>
+						<cooldownTime>1</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
 		<stages>
 			<li>
 				<statOffsets>
