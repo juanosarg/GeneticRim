@@ -54,6 +54,7 @@ Some building textures modified from Textures by Pixel Art World, http://yms.mai
 Some building textures modified from Textures in the High Tech Laboratory Facilities mod
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v4.507: Added compat with new Alpha Animals. Preemptively adding compat to future animal mods from Oskar's Vanilla Animals Expanded (19/10/19)
 v4.506: Added Vanilla Animals Expanded — Desert and Extreme Desert compatibility (31/08/19)
 v4.505: Added Vanilla Animals Expanded — Arib Shrubland compatibility. Fixed Compound Eyes humanoid implant (23/08/19)
 v4.504: Added Vanilla Animals Expanded — Cats and Dogs compatibility. Added Compound Eyes humanoid implant. Modified the way the Boombeetles chemical sac works to make it more useful (works as improved vanilla grenades now) (31/05/19)
