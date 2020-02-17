@@ -1,0 +1,70 @@
+Changelog for ModCheck
+Updating ModCheck will not break existing xml files unless stated otherwise.
+
+v1.8.1
+- Fixed compatibility issue with updated Rimworld. Profiling works again.
+- Updated version URL for Fluffy's Mod Manager
+
+v1.8 (RW 1.0)
+Update to about only. The DLL file will not even have to be updated.
+
+- RimWorld 1.0 support
+- Added support for Fluffy's Mod Manager
+
+v1.8
+This is a significant update from a coding point of view. B19 vanilla changed completely regarding patching.
+While the code is significantly better, all Harmony calls from ModCheck had to be redesigned and rewritten.
+
+- Added B19 support
+- Added Search operation to speed up patching when the same object is patched multiple times in a row
+- Added Move operation to control cases where order matters (like order of building buttons)
+- Patch profiling now measures the time more accurately (less rounding errors)
+
+XML BREAKING ALERT!!!
+Removed FindFile operation (vanilla rewrite renders it both obsolete and impossible to implement)
+Any xml file with FindFile will need updating.
+
+v1.7
+- Speedboost: cached mod indexes for massive speed boost of some ModCheck internals
+- Rewritten the log writing system to give better control/more features to patch writers
+- Rewritten error messages to make it easier to find the error
+- Changed profiling output. Total on top, one entry for each mod
+- All PatchOperation names can now be used starting with both upper and lower case (fixes naming inconsistency)
+- Added new mode to LoadOrder. It can now use first and last strings instead of the old approach (which still works)
+- Added Sequence operation, which does the same as the vanilla operation, but with ModCheck specific options
+- Added logic operations AND, OR, IfElse, Loop and Once
+- Added warning/error if outdated versions of ModCheck are being loaded (risk of new vs old conflicts)
+- Added a preview logo (thanks to larSyn for drawing it)
+- Added support for ModSync RW
+- Fix: profiling now displays correct time if the hardware has a high precision timer
+- Fix: profiling will no longer cut off the output if you have a lot of patches
+- Removed the need to include yourMod and modName unless they are actually used
+
+v1.6
+- Added FindFile to greatly speed up patch files
+- Added patch operation profiling (with verbose logging only)
+
+v1.5
+- Added ModSync.xml
+- Added PatchOperation isModSyncVersion
+
+v1.4
+- Fixed issue where cache failed to update as needed
+
+v1.3
+- Fix: checks are now only executed once (massive performance boost)
+- Fix: writing to the log will now always only write one line and never repeat the same many times
+
+v1.2
+- Added custom message support (like logging: My mod detected modX and will patch itself accordingly)
+- Added ability to detect another mod by more than one name (like name v1.3 and name v1.4)
+- Major code redesign to greatly reduce the risk of bugs when adding new features
+
+Note: stopped releasing for A17 due to the release of stable B18.
+If you want to use A17, copying the v1.2 DLL will likely work, but it's untested.
+
+v1.1
+- Converted to mod layout for steam release
+
+v1.0
+- Initial release

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>GR_WearingThrumboHorn</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>GR_HumanThrumboHorn</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      
+      <li>
+        <label>wearing thrumbo horn</label>
+        <description>I'm so horny.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+     
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>GR_WearingBunnyEars</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>GR_BunnyEars</hediff>
+	<stackLimit>2</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      
+      <li>
+        <label>wearing bunny ears</label>
+        <description>Kawaii!!!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+     
+    </stages>
+  </ThoughtDef>
+  
+
+  
+   <ThoughtDef>
+    <defName>GR_HeWearsAntennae</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>GR_InsectoidAntennae</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      
+      <li>
+        <label>wearing insectoid antennae</label>
+        <description>So much information! Make it stop!</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+     
+    </stages>
+  </ThoughtDef>
+  
+     <ThoughtDef>
+    <defName>GR_DamnMammaries</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>GR_MuffaloMammaries</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      
+      <li>
+        <label>feeling like a fat cow</label>
+        <description>I'm being milked like an animal! This is really deeply humilliating!</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+     
+    </stages>
+  </ThoughtDef>
+
+</Defs>

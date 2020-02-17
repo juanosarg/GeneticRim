@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	
+	<RecipeDef>
+		<defName>GR_RecombineGenes</defName>
+		<label>recombine genes</label>
+		<description>Recombine genes from one or several species to get new ones.</description>
+		<jobString>Recombining Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<allowMixingIngredients>true</allowMixingIngredients>
+
+		<recipeUsers>
+				<li>GR_GeneRecombinator</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_RodentGenetic</li>
+						<li>GR_BearGenetic</li>
+						<li>GR_ChickenGenetic</li>
+						<li>GR_BoomalopeGenetic</li>
+						<li>GR_MuffaloGenetic</li>
+						<li>GR_WolfGenetic</li>
+						<li>GR_FelineGenetic</li>
+						<li>GR_InsectoidGenetic</li>
+						<li>GR_ReptilianGenetic</li>
+						<li>GR_HumanoidGenetic</li>
+						<li>GR_ThrumboGenetic</li>
+						<li>GR_NonSpecializedGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+						<li>GR_RodentGenetic</li>			
+						<li>GR_BearGenetic</li>
+						<li>GR_ChickenGenetic</li>
+						<li>GR_BoomalopeGenetic</li>
+						<li>GR_MuffaloGenetic</li>
+						<li>GR_WolfGenetic</li>
+						<li>GR_FelineGenetic</li>
+						<li>GR_InsectoidGenetic</li>
+						<li>GR_ReptilianGenetic</li>
+						<li>GR_HumanoidGenetic</li>
+						<li>GR_ThrumboGenetic</li>
+						<li>GR_NonSpecializedGenetic</li>
+					</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_StabilizingGenes>1</GR_StabilizingGenes>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_RecombineSerums</defName>
+		<label>recombine serums</label>
+		<description>Recombine genetic material from 5 animal serums to synthesize a random paragon serum. Non-specialized genetic material can also be used for this recipe.</description>
+		<jobString>Recombining Serums</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<allowMixingIngredients>true</allowMixingIngredients>
+
+		<recipeUsers>
+				<li>GR_GeneRecombinator</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BearSerum</li>
+						<li>GR_BoarSerum</li>
+						<li>GR_BoomalopeSerum</li>
+						<li>GR_ChickenSerum</li>
+						<li>GR_EmuSerum</li>
+						<li>GR_MuffaloSerum</li>
+						<li>GR_OstrichSerum</li>
+						<li>GR_RhinoSerum</li>
+						<li>GR_WolfSerum</li>
+						<li>GR_HareSerum</li>
+						<li>GR_IguanaSerum</li>
+						<li>GR_PigSerum</li>
+						<li>GR_RatSerum</li>
+						<li>GR_TortoiseSerum</li>
+						<li>GR_NonSpecializedGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+						<li>GR_BearSerum</li>
+						<li>GR_BoarSerum</li>
+						<li>GR_BoomalopeSerum</li>
+						<li>GR_ChickenSerum</li>
+						<li>GR_EmuSerum</li>
+						<li>GR_MuffaloSerum</li>
+						<li>GR_OstrichSerum</li>
+						<li>GR_RhinoSerum</li>
+						<li>GR_WolfSerum</li>
+						<li>GR_HareSerum</li>
+						<li>GR_IguanaSerum</li>
+						<li>GR_PigSerum</li>
+						<li>GR_RatSerum</li>
+						<li>GR_TortoiseSerum</li>
+						<li>GR_NonSpecializedGenetic</li>
+					</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_StabilizingSerum>1</GR_StabilizingSerum>
+		</products>
+				<researchPrerequisite>GR_AnimalEnrichment</researchPrerequisite>
+
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+ 
+
+
+  
+</Defs>

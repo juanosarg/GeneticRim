@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+
+
+
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[@Name="AnimalThingBase"]/recipes</xpath>
+				<value>
+					<li>GR_InstallBearLeg</li>
+					<li>GR_InstallLizardLeg</li>
+					<li>GR_InstallThrumboLeg</li>
+					<li>GR_InstallScytherTail</li>
+					<li>GR_InstallMechaTail</li>
+					<li>GR_InstallCanidEye</li>
+					<li>GR_InstallInsectileEye</li>
+					<li>GR_InstallThrumboEye</li>
+					<li>GR_InstallRodentEar</li>
+					<li>GR_InstallMothTympanalOrgan</li>
+					<li>GR_InstallMechaReceptors</li>
+					<li>GR_InstallRodentNose</li>
+					<li>GR_InstallInsectoidPheromones</li>
+					<li>GR_InstallMiniatureThrumboHorn</li>
+					<li>GR_InstallWolfJaws</li>
+					<li>GR_InstallInsectMandibles</li>
+					<li>GR_InstallThrumboJaws</li>
+					<li>GR_InstallMuffaloSpine</li>
+					<li>GR_InstallCrocodileSpine</li>
+					<li>GR_InstallMechaSpine</li>
+					<li>GR_InstallChickenBrains</li>
+					<li>GR_InstallMonitorLizardBrain</li>
+					<li>GR_InstallThrumboBrain</li>
+					<li>GR_InstallBoomalopeHeart</li>
+					<li>GR_InstallChitinousHeart</li>
+					<li>GR_InstallMechaHeart</li>
+					<li>GR_InstallMuffaloLung</li>
+					<li>GR_InstallBearLiver</li>
+					<li>GR_InstallChickenKidney</li>
+					<li>GR_InstallBoomalopeStomach</li>
+
+										
+
+				</value>
+			</li>
+
+		
+		
+
+
+
+		</operations>
+	</Operation>
+
+
+</Patch>
+

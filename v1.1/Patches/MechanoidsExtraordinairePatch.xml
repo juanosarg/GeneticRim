@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Mechanoids Extraordinaire</li>
+				</mods>
+
+				<match Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMechanoid"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Corpse_Mechanoid_Vespa</li>
+						<li>Corpse_Mechanoid_Hound</li>
+						<li>Corpse_Mechanoid_Chimera</li>
+						<li>Corpse_Mechanoid_Goliath</li>
+						<li>Corpse_Mechanoid_Kraken</li>
+
+
+					</value>
+				</match>
+			</li>
+
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Mechanoids Extraordinaire</li>
+				</mods>
+
+				<match Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMechanoid"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Corpse_Mechanoid_Vespa</li>
+						<li>Corpse_Mechanoid_Hound</li>
+						<li>Corpse_Mechanoid_Chimera</li>
+						<li>Corpse_Mechanoid_Goliath</li>
+						<li>Corpse_Mechanoid_Kraken</li>
+					</value>
+				</match>
+			</li>
+
+
+		</operations>
+	</Operation>
+
+
+</Patch>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@Name = "CrashedShipPartBase"]/killedLeavings</xpath>
+		<value>
+			<GR_MechanoidInterfaceChip>1</GR_MechanoidInterfaceChip>
+		</value>
+	</Operation>
+	
+		
+
+
+	
+
+</Patch>

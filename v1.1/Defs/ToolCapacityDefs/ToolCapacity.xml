@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+
+  <ToolCapacityDef>
+    <defName>GR_VeryToxicBite</defName>
+    <label>virulent toxic bite</label>
+  </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>GR_LightToxicBite</defName>
+    <label>light toxic bite</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>GR_ToxicExplosion</defName>
+    <label>toxic explosion</label>
+  </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>GR_PlagueBite</defName>
+    <label>plagued bite</label>
+  </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>GR_HairballBite</defName>
+    <label>hairball bite</label>
+  </ToolCapacityDef>
+
+
+</Defs>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>GR_EggBomb</defName>
+    <label>detonating unstable egg</label>
+    <description>This huge egg is filled with unstable chemicals. It is going to explode!</description>
+	<tradeability>None</tradeability>
+    <graphicData>
+      <texPath>Things/Item/EggBomb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <statBases>
+      <MaxHitPoints>5000</MaxHitPoints>
+      <MarketValue>45</MarketValue>
+      <Mass>0.35</Mass>
+      <Flammability>0.0</Flammability>
+      <DeteriorationRate>6</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="ExplosionTypes.CompProperties_Exploder">
+        <wickTimeSeconds>10</wickTimeSeconds>
+		<wickTimeVariance>10</wickTimeVariance>
+		<explosionForce>5</explosionForce>
+      </li>
+    </comps>
+  </ThingDef> 
+  
+
+
+
+ 
+</Defs>

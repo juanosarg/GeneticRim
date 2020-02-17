@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>GR_AgePills</defName>
+    <label>age pills</label>
+    <description>These capsules are filled with a mixture of chemicals and nanomachines, able to modify an organism's age by carefully manipulating its DNA. Every pill taken increases age by 1 year. Useful for animals to make them mature quickly.\n\nOnce consumed, the animal will be extremely dizzy for at least a day, and additional pills administered during that period won't be effective.\n\nOh, your colonists can also consume them...</description>
+    <graphicData>
+      <texPath>Things/Item/AgePills</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+		<tradeability>Sellable</tradeability>
+
+    <statBases>
+      <MarketValue>60</MarketValue>
+      <Mass>0.01</Mass>
+	  <WorkToMake>2500</WorkToMake>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>GR_AgePillsTaken</hediffDef>
+          <severity>1.00</severity>
+          
+        </li>
+      </outcomeDoers>
+    </ingestible>
+	 <recipeMaker>
+			<researchPrerequisite>GR_AgeDrugs</researchPrerequisite>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <PsychoidLeaves>6</PsychoidLeaves>
+	  <MedicineHerbal>3</MedicineHerbal>
+
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.08</min>
+          <max>0.14</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <HediffDef>
+    <defName>GR_AgePillsTaken</defName>
+	<description>Recovering from age pills. Age pills are hard on the body's metabolism, and it takes at least a day before other pill can take effect.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>age pills</label>
+    <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+			<severityPerDay>-1.0</severityPerDay>
+			</li>
+			
+			<li Class="NewHatcher.HediffCompProperties_Ager">
+				<daysToAdvance>1</daysToAdvance>
+			</li>
+		</comps>
+	
+		
+    <stages>
+      <li>
+        
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.65</offset>
+          </li>
+         
+				
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+</Defs>

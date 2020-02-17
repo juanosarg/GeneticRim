@@ -1,0 +1,1066 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<!--=============== Human Hybrid Implants ====================-->
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallBearClaws</defName>
+		<label>&lt;color=#E89D1B&gt;install bear claws&lt;/color&gt;</label>
+		<description>Installs bear claws.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bear claws.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BearClaws</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_BearClaws</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Hand</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_BearClaws</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallDiggingBearClaws</defName>
+		<label>&lt;color=#E89D1B&gt;install digging bear claws&lt;/color&gt;</label>
+		<description>Installs digging bear claws.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing digging bear claws.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_DiggingBearClaws</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_DiggingBearClaws</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Hand</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_DiggingBearClaws</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallBearMuscleTissue</defName>
+		<label>&lt;color=#E89D1B&gt;install bear muscle tissue&lt;/color&gt;</label>
+		<description>Installs bear muscle tissue.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bear muscle tissue.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BearMuscleTissue</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_BearMuscleTissue</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_BearMuscleTissue</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallHibernationModule</defName>
+		<label>&lt;color=#E89D1B&gt;install hibernation module&lt;/color&gt;</label>
+		<description>Installs hibernation module.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing hibernation module.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<Medicine>14</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HibernationModule</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_HibernationModule</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_HibernationModule</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallOvipositor</defName>
+		<label>&lt;color=#E89D1B&gt;install ovipositor&lt;/color&gt;</label>
+		<description>Installs ovipositor.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing ovipositor.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_Ovipositor</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_Ovipositor</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Waist</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_Ovipositor</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallMuffaloMuscles</defName>
+		<label>&lt;color=#E89D1B&gt;install muffalo strengthened muscles&lt;/color&gt;</label>
+		<description>Installs muffalo strengthened muscles.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing muffalo strengthened muscles.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MuffaloMuscles</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_MuffaloMuscles</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_MuffaloMuscles</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallMuffaloMammaries</defName>
+		<label>&lt;color=#E89D1B&gt;install muffalo mammaries&lt;/color&gt;</label>
+		<description>Installs muffalo mammaries.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing muffalo mammaries.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MuffaloMammaries</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_MuffaloMammaries</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Waist</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_MuffaloMammaries</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallMuffaloSkin</defName>
+		<label>&lt;color=#E89D1B&gt;install muffalo skin&lt;/color&gt;</label>
+		<description>Installs muffalo skin.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing muffalo skin.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MuffaloSkin</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_MuffaloSkin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Sternum</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_MuffaloSkin</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallBoomalopeNodules</defName>
+		<label>&lt;color=#E89D1B&gt;install boomalope nodules&lt;/color&gt;</label>
+		<description>Installs boomalope nodules.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing boomalope nodules.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BoomalopeNodules</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_BoomalopeNodules</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Sternum</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_BoomalopeNodules</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallChemfuelStomach</defName>
+		<label>&lt;color=#E89D1B&gt;install chemfuel stomach&lt;/color&gt;</label>
+		<description>Installs chemfuel stomach.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing chemfuel stomach.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ChemfuelStomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_ChemfuelStomach</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Stomach</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_ChemfuelStomach</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallChemfuelHeart</defName>
+		<label>&lt;color=#E89D1B&gt;install chemfuel heart&lt;/color&gt;</label>
+		<description>Installs chemfuel heart.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing chemfuel heart.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ChemfuelHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_ChemfuelHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_ChemfuelHeart</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallWolfMuscularFibers</defName>
+		<label>&lt;color=#E89D1B&gt;install wolf muscular fibers&lt;/color&gt;</label>
+		<description>Installs wolf muscular fibers.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing wolf muscular fibers.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_WolfMuscularFibers</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_WolfMuscularFibers</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Tibia</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_WolfMuscularFibers</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallDevouringJaws</defName>
+		<label>&lt;color=#E89D1B&gt;install devouring jaws&lt;/color&gt;</label>
+		<description>Installs devouring jaws.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing devouring jaws.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_DevouringJaws</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_DevouringJaws</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Jaw</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_DevouringJaws</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallNeuronReinforcement</defName>
+		<label>&lt;color=#E89D1B&gt;install neuron reinforcement&lt;/color&gt;</label>
+		<description>Installs neuron reinforcement.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing neuron reinforcement.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Medicine>14</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_NeuronReinforcement</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_NeuronReinforcement</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_NeuronReinforcement</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallMousePheromones</defName>
+		<label>&lt;color=#E89D1B&gt;install mouse pheromones&lt;/color&gt;</label>
+		<description>Installs mouse pheromones.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing mouse pheromones.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MousePheromones</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_MousePheromones</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Nose</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_MousePheromones</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallMoleratNerveDampener</defName>
+		<label>&lt;color=#E89D1B&gt;install mole-rat nerve dampener&lt;/color&gt;</label>
+		<description>Installs mole-rat nerve dampener.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing mole-rat nerve dampener.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MoleratNerveDampener</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_MoleratNerveDampener</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ear</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_MoleratNerveDampener</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallBunnyEars</defName>
+		<label>&lt;color=#E89D1B&gt;install bunny ear&lt;/color&gt;</label>
+		<description>Installs bunny ear.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bunny ear.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BunnyEars</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_BunnyEars</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ear</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_BunnyEars</addsHediff>
+	</RecipeDef>
+
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallCompoundEye</defName>
+		<label>&lt;color=#E89D1B&gt;install compound eye&lt;/color&gt;</label>
+		<description>Installs compound eye.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing compound eye.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_CompoundEye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_CompoundEye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li> 
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_CompoundEye</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallInsectoidAntennae</defName>
+		<label>&lt;color=#E89D1B&gt;install insectoid antennae&lt;/color&gt;</label>
+		<description>Installs insectoid antennae.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing insectoid antennae.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_InsectoidAntennae</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_InsectoidAntennae</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Nose</li> 
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_InsectoidAntennae</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallPsychicDampeners</defName>
+		<label>&lt;color=#E89D1B&gt;install psychic dampeners&lt;/color&gt;</label>
+		<description>Installs psychic dampeners.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing psychic dampeners.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_PsychicDampeners</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_PsychicDampeners</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ear</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_PsychicDampeners</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallKidneyToxicFilters</defName>
+		<label>&lt;color=#E89D1B&gt;install kidney toxic filters&lt;/color&gt;</label>
+		<description>Installs kidney toxic filters.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing kidney toxic filters.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_KidneyToxicFilters</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_KidneyToxicFilters</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Kidney</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_KidneyToxicFilters</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallHumanThrumboHorn</defName>
+		<label>&lt;color=#E89D1B&gt;install thrumbo horn&lt;/color&gt;</label>
+		<description>Installs thrumbo horn.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing thrumbo horn.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanThrumboHorn</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_HumanThrumboHorn</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Skull</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_HumanThrumboHorn</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallThrumboSkin</defName>
+		<label>&lt;color=#E89D1B&gt;install thrumbo skin&lt;/color&gt;</label>
+		<description>Installs thrumbo skin.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing thrumbo skin.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ThrumboSkin</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_ThrumboSkin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Sternum</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_ThrumboSkin</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallVenomousFangs</defName>
+		<label>&lt;color=#E89D1B&gt;install venomous fangs&lt;/color&gt;</label>
+		<description>Installs venomous fangs.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing venomous fangs.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_VenomousFangs</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_VenomousFangs</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Jaw</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_VenomousFangs</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallIguanaScales</defName>
+		<label>&lt;color=#E89D1B&gt;install iguana scales&lt;/color&gt;</label>
+		<description>Installs iguana scales.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing iguana scales.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_IguanaScales</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_IguanaScales</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Sternum</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_IguanaScales</addsHediff>
+	</RecipeDef>
+
+</Defs>

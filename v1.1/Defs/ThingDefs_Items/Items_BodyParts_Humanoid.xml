@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ThingDef Name="GR_HumanImplantBase" Abstract="True" ParentName="BodyPartBase">
+		<tradeability>Sellable</tradeability>
+		<thingCategories>
+      <li>GR_ImplantCategory</li>
+    </thingCategories>
+		<graphicData>
+			<texPath>Things/Item/GR_HumanGeneticHybridOrgan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+	</ThingDef>
+
+	<!--=============== Human Hybrid Implants ====================-->
+
+
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_BearClaws</defName>
+		<label>human Implant: bear claws</label>
+		<description>An improvement over the bionic Power Claw, these claws have been vat-grown with a mixture of human and bear DNA, and replace the subject's hand with versatile, non-retractable claws.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_DiggingBearClaws</defName>
+		<label>human Implant: digging bear claws</label>
+		<description>Grotesque but powerful hand blades that have been modified to be used in mining operations, increasing both speed and yield.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+		
+	</ThingDef>
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_BearMuscleTissue</defName>
+		<label>human Implant: bear muscle tissue</label>
+		<description>Grafts of bear muscle tissue on the subject's torso increase overall strength and stamina. These grafts however tend to stimulate the production of an abundance of body hair.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+		
+	</ThingDef>
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_HibernationModule</defName>
+		<label>human Implant: hibernation module</label>
+		<description>A biochip that modifies the brain to reduce the need for sleep.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+		
+	</ThingDef>
+
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_Ovipositor</defName>
+		<label>human Implant: ovipositor</label>
+		<description>You know you have gone too far in your scientific experiments when you are implanting a human being with an ovipositor. This will enable the colonist to lay chicken eggs twice a day. It hurts as hell, though. Also, yuck.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+
+	</ThingDef>
+
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_MuffaloMuscles</defName>
+		<label>human Implant: muffalo strengthened muscles</label>
+		<description>By weaving muffalo muscle strands with the subjects muscular system, strength, resilience and carrying capacity are greatly increased.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_MuffaloMammaries</defName>
+		<label>human Implant: muffalo mammaries</label>
+		<description>By implanting muffalo mammaries into a colonist... Wait, what??? Who came up with this idea????? Anyway... this implant allows your colonist to be milked... Ugh, I give up.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_MuffaloSkin</defName>
+		<label>human Implant: muffalo skin</label>
+		<description>A synthetic skin substitute that is much thicker and a much better insulator than human skin. This provides a measure of defense but, more importantly, makes the subject more resistant to low temperatures.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_BoomalopeNodules</defName>
+		<label>human Implant: boomalope nodules</label>
+		<description>These skin nodules can be integrated in a human's torso, causing a huge explosion if the subjects dies violently.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_ChemfuelStomach</defName>
+		<label>human Implant: chemfuel stomach</label>
+		<description>A reinforced bionic stomach that uses a combination of gastric acid and chemfuel to efficiently digest food.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_ChemfuelHeart</defName>
+		<label>human Implant: chemfuel heart</label>
+		<description>A reinforced bionic heart that acts like a miniature 4-stroke internal combustion engine powered by chemfuel to pump blood through the body.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>	
+
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_WolfMuscularFibers</defName>
+		<label>human Implant: wolf muscular fibers</label>
+		<description>The subjects legs can be modified by weaving hybrid human/wolf muscle fibers within the base tissue, giving her a significant strength and speed boost.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_DevouringJaws</defName>
+		<label>human Implant: devouring jaws</label>
+		<description>A set of improved teeth designed to rapidly chew and ingest any kind of food. Leaves kind of a mess, though...</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_NeuronReinforcement</defName>
+		<label>human Implant: neuron reinforcement</label>
+		<description>A biochip using animal stem cells to reinforce the natural abilities of human neurons, increasing learning and research speed.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_MousePheromones</defName>
+		<label>human Implant: mouse pheromones</label>
+		<description>A bionic vomeronasal organ that allows the subject pheromonal communication with other animals, increasing the chance of taming and training them successfully.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>	
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_MoleratNerveDampener</defName>
+		<label>human Implant: mole-rat nerve dampener</label>
+		<description>A biochip that reduces pain sensitivity, allowing the subject to survive pain shock.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>	
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_BunnyEars</defName>
+		<label>human Implant: bunny ear</label>
+		<description>This huge leporid ear gives amazing enhanced hearing. Also, super kawaii!</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_InsectoidAntennae</defName>
+		<label>human Implant: insectoid antennae</label>
+		<description>These hybrid humanoid / insectoid feeling appendages can be implanted in a subject's head, completely modifying the way the subject "sees" and feels the surrounding world. The experience may be slightly overwhelming due to sensorial overload.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>	
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_CompoundEye</defName>
+		<label>human Implant: compund eye</label>
+		<description>This hybrid humanoid / insectoid eye provides improved vision in a wide range of different wavelengths, including those usually outside the human range, completely modifying the way the subject perceives his surroundings.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_PsychicDampeners</defName>
+		<label>human Implant: psychic dampeners</label>
+		<description>Artificial hearing aids that block psychic emanations, providing considerable resistance to mechanoids' psychic attacks.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>	
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_KidneyToxicFilters</defName>
+		<label>human Implant: kidney toxic filters</label>
+		<description>This is a bioelectronic kidney prosthesis that greatly improves the efficiency of the subject's kidney by using insectoid tissue, providing resistence to toxic substances.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>	
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_HumanThrumboHorn</defName>
+		<label>human Implant: thrumbo horn</label>
+		<description>A genetically modified thrumbo horn that can be implanted in a subject's forehead. Nasty.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_ThrumboSkin</defName>
+		<label>human Implant: thrumbo skin</label>
+		<description>A synthetic skin substitute that is much thicker and a much better insulator than human skin. This provides a lot of defense and makes the subject more resistant to extremes of temperature.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_VenomousFangs</defName>
+		<label>human Implant: venomous fangs</label>
+		<description>This hybrid implant substitutes the subject's jaw with a set of venomous fangs. Useful in combat, but not very comfortable.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="GR_HumanImplantBase">
+		<defName>GR_IguanaScales</defName>
+		<label>human Implant: iguana scales</label>
+		<description>A synthetic skin substitute that is much thicker and a much better insulator than human skin. This provides a measure of defense but, more importantly, makes the subject more resistant to high temperatures.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+
+</Defs>

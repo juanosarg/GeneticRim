@@ -1,0 +1,1149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Wolf - Bear -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Wolfbear</defName>
+		<label>wolfbear</label>
+		<description>A Wolf / Bear hybrid. Very similar to the standard timber wolf, but with better stamina.\n\nUseful abilities: Good guard animal. Butchering gives Wolfbear paws, which can be sold.</description>
+		<statBases>
+			<MoveSpeed>5.0</MoveSpeed>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+			<MarketValue>370</MarketValue>
+		</statBases>
+		<tools>
+
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2.1</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+		<comps>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<adrenalineburst>true</adrenalineburst>
+				<rage>true</rage>
+			</li>
+		</comps>
+
+		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<predator>true</predator>
+			<fleshType>GR_Normal</fleshType>
+
+			<baseBodySize>1</baseBodySize>
+			<baseHungerRate>0.18</baseHungerRate>
+			<baseHealthScale>1.5</baseHealthScale>
+			<foodType>CarnivoreAnimal</foodType>
+			<gestationPeriodDays>22.5</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<trainability>Advanced</trainability>
+			<wildness>0.75</wildness>
+			<nuzzleMtbHours>120</nuzzleMtbHours>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
+			<useLeatherFrom>Wolf_Timber</useLeatherFrom>
+			<useMeatFrom>Wolf_Timber</useMeatFrom>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>14</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.45</minAge>
+					<soundWounded>Pawn_Dog_Injured</soundWounded>
+					<soundDeath>Pawn_Dog_Death</soundDeath>
+					<soundCall>Pawn_Dog_Call</soundCall>
+					<soundAngry>Pawn_Dog_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_Wolfbear</defName>
+		<label>wolfbear</label>
+		<race>GR_Wolfbear</race>
+		<combatPower>75</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>wolfbear puppy</label>
+				<labelPlural>wolfbear puppies</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfbear/Wolfbear</texPath>
+					<drawSize>2</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfbear/Dessicated_Wolfbear</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfbear/Wolfbear</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfbear/Dessicated_Wolfbear</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfbear/Wolfbear</texPath>
+					<drawSize>3.0</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfbear/Dessicated_Wolfbear</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+				<butcherBodyPart>
+					<bodyPartGroup>FrontRightPaw</bodyPartGroup>
+					<thing>GR_WolfbearPaws</thing>
+					<allowFemale>true</allowFemale>
+				</butcherBodyPart>
+			</li>
+
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Wolf - Boomalope -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Wolfalope</defName>
+		<label>wolfalope</label>
+		<description>A Wolf / Boomalope hybrid. A very dangerous predator that tends to explode when confronted with prey too large for them. Friction between the creature's pelt and the boomalope nodules constantly creates static electricity, which is suddenly liberated when the creature dies and the nodules explode.\n\nUseful abilities: Explodes on death in a dangerous electromagnetic pulse (EMP damage). Produces average amounts of chemfuel.</description>
+		<statBases>
+			<MoveSpeed>5.5</MoveSpeed>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+			<MarketValue>370</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2.1</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+		<comps>
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>Chemfuel</resourceDef>
+				<gatheringIntervalDays>2</gatheringIntervalDays>
+				<resourceAmount>17</resourceAmount>
+				<customResourceString>ChemfuelProd</customResourceString>
+
+			</li>
+
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<adrenalineburst>true</adrenalineburst>
+				<explodable>true</explodable>
+			</li>
+		</comps>  
+		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_EMPExplosion</deathActionWorkerClass>
+			<executionRange>6</executionRange>
+			<predator>true</predator>
+			<fleshType>GR_Normal</fleshType>
+
+			<baseBodySize>0.85</baseBodySize>
+			<baseHungerRate>0.18</baseHungerRate>
+			<baseHealthScale>0.99</baseHealthScale>
+			<foodType>CarnivoreAnimal</foodType>
+			<gestationPeriodDays>22.5</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<trainability>Intermediate</trainability>
+			<wildness>0.75</wildness>
+			<nuzzleMtbHours>120</nuzzleMtbHours>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
+			<useLeatherFrom>Wolf_Timber</useLeatherFrom>
+			<useMeatFrom>Wolf_Timber</useMeatFrom>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>14</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.45</minAge>
+					<soundWounded>Pawn_Dog_Injured</soundWounded>
+					<soundDeath>Pawn_Dog_Death</soundDeath>
+					<soundCall>Pawn_Dog_Call</soundCall>
+					<soundAngry>Pawn_Dog_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_Wolfalope</defName>
+		<label>wolfalope</label>
+		<race>GR_Wolfalope</race>
+		<combatPower>75</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>wolfalope puppy</label>
+				<labelPlural>wolfalope puppies</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfalope/Wolfalope</texPath>
+					<drawSize>1.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfalope/Dessicated_Wolfalope</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfalope/Wolfalope</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfalope/Dessicated_Wolfalope</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfalope/Wolfalope</texPath>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfalope/Dessicated_Wolfalope</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Wolf - Chicken -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Wolfchicken</defName>
+		<label>wolfchicken</label>
+		<description>A Wolf / Chicken hybrid. You know the saying: when you let the wolves guard the hen house, there's bound to be a few chicken dinners. Well, not anymore.\n\nUseful abilities: Egg layer. Regularly produces feathers that can be sold for a profit.</description>
+		<statBases>
+			<MoveSpeed>6</MoveSpeed>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<MarketValue>370</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2.1</cooldownTime>
+				<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>GR_WolfchickenEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>GR_WolfchickenEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>5</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+			</li>
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>GR_WolfchickenFeathers</resourceDef>
+				<gatheringIntervalDays>4</gatheringIntervalDays>
+				<resourceAmount>1</resourceAmount>
+				<customResourceString>FeatherGrowth</customResourceString>
+
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<adrenalineburst>true</adrenalineburst>
+				<chickenRimPox>true</chickenRimPox>
+			</li>
+		</comps>
+		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>GR_QuadrupedAnimalWithBeak</body>
+
+			<predator>false</predator>
+			<fleshType>GR_Normal</fleshType>
+
+			<baseBodySize>0.65</baseBodySize>
+			<baseHungerRate>0.18</baseHungerRate>
+			<baseHealthScale>0.79</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<gestationPeriodDays>15</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<trainability>Intermediate</trainability>
+			<wildness>0.75</wildness>
+			<nuzzleMtbHours>120</nuzzleMtbHours>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
+			<useLeatherFrom>Wolf_Timber</useLeatherFrom>
+			<useMeatFrom>Wolf_Timber</useMeatFrom>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>14</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.45</minAge>
+					<soundWounded>Pawn_Dog_Injured</soundWounded>
+					<soundDeath>Pawn_Dog_Death</soundDeath>
+					<soundCall>Pawn_Dog_Call</soundCall>
+					<soundAngry>Pawn_Dog_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_Wolfchicken</defName>
+		<label>wolfchicken</label>
+		<race>GR_Wolfchicken</race>
+		<combatPower>75</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>wolfchicken puppy</label>
+				<labelPlural>wolfchicken puppies</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfchicken/Wolfchicken</texPath>
+					<drawSize>1.05</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfchicken/Wolfchicken</texPath>
+					<drawSize>1.7</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+					<drawSize>1.7</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfchicken/Wolfchicken</texPath>
+					<drawSize>2.2</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+					<drawSize>2.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Wolf - Muffalo -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Wolffalo</defName>
+		<label>wolffalo</label>
+		<description>A Wolf / Muffalo hybrid. Not incredibly good as a pack beast, but a very fast wool producer.\n\nActs as a pack beast. Produces small amounts of milk and wool at a quite fast rate.</description>
+		<statBases>
+			<MoveSpeed>5.2</MoveSpeed>
+			<ComfyTemperatureMin>-60</ComfyTemperatureMin>
+			<MarketValue>370</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>16</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>16</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+			</li>
+		</tools>
+
+		<comps>
+			<li Class="CompProperties_Milkable">
+				<milkDef>GR_WolffaloMilk</milkDef>
+				<milkIntervalDays>1</milkIntervalDays>
+				<milkAmount>5</milkAmount>
+			</li>
+			<li Class="CompProperties_Shearable">
+				<woolDef>GR_WolffaloWool</woolDef>
+				<shearIntervalDays>3</shearIntervalDays>
+				<woolAmount>20</woolAmount>
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<adrenalineburst>true</adrenalineburst>
+				<carrymore>true</carrymore>
+			</li>
+		</comps>
+		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+
+			<predator>false</predator>
+			<fleshType>GR_Normal</fleshType>
+
+			<baseBodySize>1.5</baseBodySize>
+			<baseHungerRate>0.18</baseHungerRate>
+			<baseHealthScale>0.89</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<gestationPeriodDays>15</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<trainability>Advanced</trainability>
+			<wildness>0.75</wildness>
+			<nuzzleMtbHours>120</nuzzleMtbHours>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
+			<useLeatherFrom>Wolf_Timber</useLeatherFrom>
+			<useMeatFrom>Wolf_Timber</useMeatFrom>
+			<packAnimal>true</packAnimal>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>14</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.45</minAge>
+					<soundWounded>Pawn_Dog_Injured</soundWounded>
+					<soundDeath>Pawn_Dog_Death</soundDeath>
+					<soundCall>Pawn_Dog_Call</soundCall>
+					<soundAngry>Pawn_Dog_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_Wolffalo</defName>
+		<label>wolffalo</label>
+		<race>GR_Wolffalo</race>
+		<combatPower>75</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>wolffalo puppy</label>
+				<labelPlural>wolffalo puppies</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolffalo/Wolffalo</texPath>
+					<drawSize>1.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolffalo/Dessicated_Wolffalo</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolffalo/Wolffalo</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolffalo/Dessicated_Wolffalo</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolffalo/Wolffalo</texPath>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolffalo/Dessicated_Wolffalo</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+	<!-- Wolf - Rodent  -->
+
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Wolfbeaver</defName>
+		<label>wolfbeaver</label>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		<description>A Wolf / Beaver hybrid. This fast breeding predator can be a drain on your tree reserves, unless you provide it with some fresh meat.\n\nUseful abilities: Fast breeding.</description>
+		<statBases>
+			<MoveSpeed>7.5</MoveSpeed>
+			<ComfyTemperatureMin>-45</ComfyTemperatureMin>
+			<MarketValue>275</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<adrenalineburst>true</adrenalineburst>
+				<burrowing>true</burrowing>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2.1</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+		<race>
+			<fleshType>GR_Normal</fleshType>
+
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<predator>true</predator>
+			<baseBodySize>0.85</baseBodySize>
+			<baseHungerRate>4</baseHungerRate>
+			<baseHealthScale>0.99</baseHealthScale>
+			<foodType>CarnivoreAnimal, DendrovoreAnimal</foodType>
+			<useLeatherFrom>Wolf_Timber</useLeatherFrom>
+			<useMeatFrom>Wolf_Timber</useMeatFrom>
+			<mateMtbHours>6</mateMtbHours>
+			<gestationPeriodDays>6</gestationPeriodDays>
+			<trainability>Advanced</trainability>
+			<wildness>0.75</wildness>
+			<nuzzleMtbHours>120</nuzzleMtbHours>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>8</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.35</minAge>
+					<soundWounded>Pawn_Dog_Injured</soundWounded>
+					<soundDeath>Pawn_Dog_Death</soundDeath>
+					<soundCall>Pawn_Dog_Call</soundCall>
+					<soundAngry>Pawn_Dog_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_Wolfbeaver</defName>
+		<label>wolfbeaver</label>
+		<race>GR_Wolfbeaver</race>
+		<combatPower>75</combatPower>
+
+		<lifeStages>
+			<li>
+				<label>wolfbeaver puppy</label>
+				<labelPlural>wolfbeaver puppies</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfbeaver/Wolfbeaver</texPath>
+					<drawSize>1.75</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfbeaver/Dessicated_Wolfbeaver</texPath>
+					<drawSize>1.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfbeaver/Wolfbeaver</texPath>
+					<drawSize>2.2</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfbeaver/Dessicated_Wolfbeaver</texPath>
+					<drawSize>2.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfbeaver/Wolfbeaver</texPath>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfbeaver/Dessicated_Wolfbeaver</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+		<!-- Wolf - Cat -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Wolfcat</defName>
+		<label>wolfcat</label>
+		<description>A Wolf / Cat hybrid. This tiger-like predator is intelligent, fast and quite easy to train.\n\nUseful abilities: Like all cat hybrids, they have an improved melee dodge ability, making them perfect for the front lines, and a short nuzzle period.</description>
+		<statBases>
+			<MoveSpeed>6.5</MoveSpeed>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+			<MarketValue>370</MarketValue>
+		</statBases>
+		<tools>
+
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>13</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>13</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>15</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+		<comps>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<adrenalineburst>true</adrenalineburst>
+				<catreflexes>true</catreflexes>
+			</li>
+			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+				<hediffname>GR_MeleeDodge</hediffname>
+				<hediffseverity>1</hediffseverity>
+			</li>
+		</comps>
+
+		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<predator>true</predator>
+			<fleshType>GR_Normal</fleshType>
+			      <maxPreyBodySize>2.3</maxPreyBodySize>
+
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<baseBodySize>1</baseBodySize>
+			<baseHungerRate>0.18</baseHungerRate>
+			<baseHealthScale>1.5</baseHealthScale>
+			<foodType>CarnivoreAnimal</foodType>
+			<gestationPeriodDays>22.5</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<trainability>Advanced</trainability>
+			<wildness>0.46</wildness>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
+			<useLeatherFrom>Wolf_Timber</useLeatherFrom>
+			<useMeatFrom>Wolf_Timber</useMeatFrom>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>12</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.45</minAge>
+					<soundWounded>Pawn_Dog_Injured</soundWounded>
+					<soundDeath>Pawn_Dog_Death</soundDeath>
+					<soundCall>Pawn_Dog_Call</soundCall>
+					<soundAngry>Pawn_Dog_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_Wolfcat</defName>
+		<label>wolfcat</label>
+		<race>GR_Wolfcat</race>
+		<combatPower>75</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>wolfcat puppy</label>
+				<labelPlural>wolfcat puppies</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfcat/GR_Wolfcat</texPath>
+					<drawSize>1.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfcat/GR_Dessicated_Wolfcat</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfcat/GR_Wolfcat</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfcat/GR_Dessicated_Wolfcat</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfcat/GR_Wolfcat</texPath>
+					<drawSize>3.0</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfcat/GR_Dessicated_Wolfcat</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+				
+			</li>
+
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>

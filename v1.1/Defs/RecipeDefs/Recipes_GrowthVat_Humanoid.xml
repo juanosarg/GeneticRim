@@ -1,0 +1,1141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--=============== Human Hybrid Implants ====================-->
+
+	
+	<RecipeDef Name="GR_HumanoidHybridProsthesisBase" Abstract="True">
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>GR_TissueGrowingVat</li>
+		</recipeUsers>
+		<researchPrerequisite>GR_HumanoidGeneticEngineering</researchPrerequisite>
+
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftBearClaws</defName>
+		<label>Human Implant: bear claws</label>
+		<description>Craft bear claws, a hybrid implant containing humanoid and bear DNA that adds a powerful melee attack.</description>
+		<jobString>Crafting Bear Claws</jobString>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BearGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_BearGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_BearClaws>1</GR_BearClaws>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftDiggingBearClaws</defName>
+		<label>Human Implant: digging bear claws</label>
+		<description>Craft digging bear claws, grotesque but powerful hand blades that have been modified to be used in mining operations, increasing both speed and yield.</description>
+		<jobString>Crafting digging bear claws</jobString>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BearGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_BearGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_DiggingBearClaws>1</GR_DiggingBearClaws>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftBearMuscleTissue</defName>
+		<label>Human Implant: bear muscle tissue</label>
+		<description>Craft bear muscle tissue, a hybrid implant containing humanoid and bear DNA that adds strength and stamina.</description>
+		<jobString>Crafting Bear Muscle Tissue</jobString>
+		
+		<ingredients>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BearGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_BearGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<products>
+			<GR_BearMuscleTissue>1</GR_BearMuscleTissue>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftHibernationModule</defName>
+		<label>Human Implant: hibernation module</label>
+		<description>Craft hibernation module, a biochip that modifies the brain to reduce the need for sleep.</description>
+		<jobString>Crafting hibernation module</jobString>
+		
+		<ingredients>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BearGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_BearGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<products>
+			<GR_HibernationModule>1</GR_HibernationModule>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftOvipositor</defName>
+		<label>Human Implant: ovipositor</label>
+		<description>Craft an ovipositor, a hybrid implant containing humanoid and chicken DNA that... are you sure this is a good idea? Really? Free range human eggs? Ugh...</description>
+		<jobString>Crafting Ovipositor</jobString>
+		
+		<ingredients>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ChickenGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_ChickenGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<products>
+			<GR_Ovipositor>1</GR_Ovipositor>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftMuffaloMuscles</defName>
+		<label>Human Implant: muffalo muscles</label>
+		<description>Craft muffalo muscles, a hybrid implant containing humanoid and muffalo DNA that strengthens the subject's muscular system.</description>
+		<jobString>Crafting muffalo muscles</jobString>
+		
+		<ingredients>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MuffaloGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_MuffaloGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<products>
+			<GR_MuffaloMuscles>1</GR_MuffaloMuscles>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftMuffaloMammaries</defName>
+		<label>Human Implant: muffalo mammaries</label>
+		<description>By implanting muffalo mammaries into a colonist... Wait, what??? Who came up with this idea????? Anyway... this implant allows your colonist to be milked... Ugh, I give up.</description>
+		<jobString>Crafting muffalo mammaries</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MuffaloGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_MuffaloGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MuffaloMammaries>1</GR_MuffaloMammaries>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftMuffaloSkin</defName>
+		<label>Human Implant: muffalo skin</label>
+		<description>Craft muffalo skin, a synthetic skin substitute that is much thicker and a much better insulator than human skin. This provides a measure of defense but, more importantly, makes the subject more resistant to low temperatures.</description>
+		<jobString>Crafting muffalo skin</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MuffaloGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_MuffaloGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MuffaloSkin>1</GR_MuffaloSkin>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftBoomalopeNodules</defName>
+		<label>Human Implant: boomalope nodules</label>
+		<description>Craft boomalope nodules, a hybrid implant containing humanoid and boomalope DNA that causes a huge explosion if the subject dies violently.</description>
+		<jobString>Crafting boomalope nodules</jobString>
+		
+		<ingredients>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BoomalopeGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_BoomalopeGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<products>
+			<GR_BoomalopeNodules>1</GR_BoomalopeNodules>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftChemfuelStomach</defName>
+		<label>Human Implant: chemfuel stomach</label>
+		<description>Craft chemfuel stomach, a reinforced bionic stomach that uses a combination of gastric acid and chemfuel to efficiently digest food.</description>
+		<jobString>Crafting chemfuel stomach</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BoomalopeGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_BoomalopeGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_ChemfuelStomach>1</GR_ChemfuelStomach>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftChemfuelHeart</defName>
+		<label>Human Implant: chemfuel heart</label>
+		<description>Craft chemfuel heart, a reinforced bionic heart that acts like a miniature 4-stroke internal combustion engine powered by chemfuel to pump blood through the body.</description>
+		<jobString>Crafting chemfuel heart</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BoomalopeGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_BoomalopeGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_ChemfuelHeart>1</GR_ChemfuelHeart>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftWolfMuscularFibers</defName>
+		<label>Human Implant: wolf muscular fibers</label>
+		<description>Craft wolf muscular fibers, which can modify the subject's legs by weaving hybrid human/wolf muscle fibers within the base tissue, giving her a significant strength and speed boost.</description>
+		<jobString>Crafting wolf muscular fibers</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_WolfGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_WolfGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_WolfMuscularFibers>1</GR_WolfMuscularFibers>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftDevouringJaws</defName>
+		<label>Human Implant: devouring jaws</label>
+		<description>Craft devouring jaws, a set of improved teeth designed to rapidly chew and ingest any kind of food. Leaves kind of a mess, though...</description>
+		<jobString>Crafting devouring jaws</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_WolfGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_WolfGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_DevouringJaws>1</GR_DevouringJaws>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftNeuronReinforcement</defName>
+		<label>Human Implant: neuron reinforcement</label>
+		<description>Craft neuron reinforcement. A biochip using animal stem cells to reinforce the natural abilities of human neurons, increasing learning and research speed.</description>
+		<jobString>Crafting neuron reinforcement</jobString>
+		
+		<ingredients>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_RodentGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_WolfGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_RodentGenetic</li>
+				<li>GR_WolfGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<products>
+			<GR_NeuronReinforcement>1</GR_NeuronReinforcement>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftMousePheromones</defName>
+		<label>Human Implant: mouse pheromones</label>
+		<description>Craft mouse pheromones, a bionic vomeronasal organ that allows the subject pheromonal communication with other animals, increasing the chance of taming and training them successfully.</description>
+		<jobString>Crafting mouse pheromones</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_RodentGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_RodentGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MousePheromones>1</GR_MousePheromones>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftMoleratNerveDampener</defName>
+		<label>Human Implant: mole-rat nerve dampener</label>
+		<description>Craft mole-rat nerve dampener, a biochip that reduces pain sensitivity, allowing the subject to survive pain shock.</description>
+		<jobString>Crafting mole-rat nerve dampener</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_RodentGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_RodentGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MoleratNerveDampener>1</GR_MoleratNerveDampener>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftBunnyEars</defName>
+		<label>Human Implant: bunny ear</label>
+		<description>Craft bunny ear. This huge leporid ear gives amazing enhanced hearing. Also, super kawaii!</description>
+		<jobString>Crafting bunny ear</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_RodentGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_RodentGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_BunnyEars>1</GR_BunnyEars>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftCompoundEye</defName>
+		<label>Human Implant: compound eye</label>
+		<description>Craft compound eye. This hybrid humanoid / insectoid eye provides improved vision in a wide range of different wavelengths, including those usually outside the human range, completely modifying the way the subject perceives his surroundings.</description>
+		<jobString>Crafting compound eye</jobString>
+		
+		<ingredients>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_InsectoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_InsectoidGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>GR_InsectoidGenome</researchPrerequisite>
+		<products>
+			<GR_CompoundEye>1</GR_CompoundEye>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftInsectoidAntennae</defName>
+		<label>Human Implant: insectoid antennae</label>
+		<description>Craft hybrid humanoid / insectoid feeling appendages that can be implanted in a subject's head, completely modifying the way the subject "sees" and feels the surrounding world. The experience may be slightly overwhelming due to sensorial overload.</description>
+		<jobString>Crafting insectoid antennae</jobString>
+		
+		<ingredients>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_InsectoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_InsectoidGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>GR_InsectoidGenome</researchPrerequisite>
+		<products>
+			<GR_InsectoidAntennae>1</GR_InsectoidAntennae>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftPsychicDampeners</defName>
+		<label>Human Implant: psychic dampeners</label>
+		<description>Craft psychic dampeners, artificial hearing aids that block psychic emanations, providing considerable resistance to mechanoids' psychic attacks.</description>
+		<jobString>Crafting psychic dampeners</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_InsectoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_InsectoidGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>GR_InsectoidGenome</researchPrerequisite>
+		<products>
+			<GR_PsychicDampeners>1</GR_PsychicDampeners>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftKidneyToxicFilters</defName>
+		<label>Human Implant: kidney toxic filters</label>
+		<description>Craft kidney toxic filters, bioelectronic kidney prosthesis that greatly improve the efficiency of the subject's kidneys by using insectoid tissue, providing resistence to toxic substances.</description>
+		<jobString>Crafting kidney toxic filters</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_InsectoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_InsectoidGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>GR_InsectoidGenome</researchPrerequisite>
+		<products>
+			<GR_KidneyToxicFilters>1</GR_KidneyToxicFilters>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftHumanThrumboHorn</defName>
+		<label>Human Implant: thrumbo horn</label>
+		<description>A genetically modified thrumbo horn that can be implanted in a subject's forehead. Nasty.</description>
+		<jobString>Crafting thrumbo horn</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ThrumboGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_ThrumboGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
+		<products>
+			<GR_HumanThrumboHorn>1</GR_HumanThrumboHorn>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftThrumboSkin</defName>
+		<label>Human Implant: thrumbo skin</label>
+		<description>Craft thrumbo skin, a synthetic skin substitute that is much thicker and a much better insulator than human skin. This provides a lot of defense and makes the subject more resistant to extremes of temperature.</description>
+		<jobString>Crafting thrumbo horn</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ThrumboGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_ThrumboGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
+		<products>
+			<GR_ThrumboSkin>1</GR_ThrumboSkin>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftVenomousFangs</defName>
+		<label>Human Implant: venomous fangs</label>
+		<description>This hybrid implant substitutes the subject's jaw with a set of venomous fangs. Useful in combat, but not very comfortable.</description>
+		<jobString>Crafting venomous fangs</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ReptilianGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_ReptilianGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>GR_ReptilianGenome</researchPrerequisite>
+		<products>
+			<GR_VenomousFangs>1</GR_VenomousFangs>
+		</products>
+	</RecipeDef> 
+	
+	<RecipeDef ParentName="GR_HumanoidHybridProsthesisBase">
+		<defName>GR_CraftIguanaScales</defName>
+		<label>Human Implant: iguana scales</label>
+		<description>Craft iguana scales, a synthetic skin substitute that is much thicker and a much better insulator than human skin. This provides a measure of defense but, more importantly, makes the subject more resistant to high temperatures.</description>
+		<jobString>Crafting venomous fangs</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ReptilianGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_ReptilianGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>GR_ReptilianGenome</researchPrerequisite>
+		<products>
+			<GR_IguanaScales>1</GR_IguanaScales>
+		</products>
+	</RecipeDef> 
+</Defs>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>GR_WeirdMilk</defName>
+		<label>weird milk</label>
+		<description>This strange milk has a sour, chemical taste.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Milk</texPath>
+			<color>(186,149,0)</color>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>3.1</MarketValue>
+			<Mass>0.045</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+			      <FoodPoisonChanceFixedHuman>0.08</FoodPoisonChanceFixedHuman>
+				     	         <Nutrition>.04</Nutrition>
+
+
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>14</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<foodType>AnimalProduct, Fluid</foodType>
+			
+		</ingestible>
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>GR_MuffalopeMilk</defName>
+		<label>muffalope milk</label>
+		<description>This yellow, thick milk is definitely not edible. It is highly unstable, so it might be used as an improvised explosive if you have the proper knowledge.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Milk</texPath>
+			<color>(255,222,88)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>3.4</MarketValue>
+			<Mass>0.045</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+		</statBases>
+		<comps>
+			
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>14</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>GR_MechaMilk</defName>
+		<label>mechanoid milk</label>
+		<description>This metallic, quicksilver-like substance is not edible. It can be processed in a refinery to obtain neutroamine, chemfuel and a bit of silver.</description>
+		<graphicData>
+			<texPath>Things/Item/GR_QuicksilverMilk</texPath>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.045</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+		</statBases>		
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>GR_BearffaloMilk</defName>
+		<label>bearfallo milk</label>
+		<description>Milk from a bearffalo. Quite high in fat content, and very nutritive.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Milk</texPath>
+			<color>(183,247,253)</color>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>3.1</MarketValue>
+			<Mass>0.045</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+			      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+				     	         <Nutrition>.065</Nutrition>
+
+
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>14</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<foodType>AnimalProduct, Fluid</foodType>
+		</ingestible>
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>GR_ThrumffaloMilk</defName>
+		<label>thrumffalo milk</label>
+		<description>Milk from a thrumffalo. Very nutritive. Also with a sky-high cholesterol content, but in the Rim nobody judges you.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Milk</texPath>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>6</MarketValue>
+			<Mass>0.045</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+			      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+				     	         <Nutrition>.2</Nutrition>
+
+
+		</statBases>
+		<comps>
+		
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>14</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<foodType>AnimalProduct, Fluid</foodType>
+		</ingestible>
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>GR_MuffalochickenMilk</defName>
+		<label>muffalochicken milk</label>
+		<description>This lumpy milk seems to have concentrated protein chunks, tasting like chicken nuggets. Disgusting, but colonists seem to like it.</description>
+		<graphicData>
+			<texPath>Things/Item/LumpyMilk</texPath>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>3.8</MarketValue>
+			<Mass>0.045</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+			   <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+			      	         <Nutrition>.05</Nutrition>
+
+
+		</statBases>
+		<comps>
+			
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>14</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<foodType>AnimalProduct, Fluid</foodType>
+			<joy>0.08</joy>
+			<joyKind>Gluttonous</joyKind>
+		</ingestible>
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>GR_ChickenffaloMilk</defName>
+		<label>chickenffalo milk</label>
+		<description>Milk from a chickenffalo. Looks like watered down milk. Probably not much better than water.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Milk</texPath>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>1.</MarketValue>
+			<Mass>0.045</Mass>
+			<MaxHitPoints>30</MaxHitPoints>
+			      <FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
+				     	         <Nutrition>.025</Nutrition>
+
+
+		</statBases>
+		<comps>
+		
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>14</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<foodType>AnimalProduct, Fluid</foodType>
+		</ingestible>
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+    <defName>GR_MuffalobearMilk</defName>
+    <label>muffalobear milk</label>
+    <description>A delicious milk with roasted overtones. Very pleasurable to eat, but not very nutritious.</description>
+    <graphicData>
+      <texPath>Things/Item/BrownMilk</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<tradeability>Sellable</tradeability>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+		<socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <MarketValue>4</MarketValue>
+      <Mass>0.075</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>8</DeteriorationRate>
+	     	         <Nutrition>.04</Nutrition>
+
+    </statBases>
+    <thingCategories>
+      <li>AnimalProductRaw</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <foodType>Processed</foodType>
+      <joy>0.10</joy>
+      <joyKind>Gluttonous</joyKind>
+      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  
+  	<ThingDef ParentName="ResourceBase">
+    <defName>GR_WolffaloMilk</defName>
+    <label>wolffalo milk</label>
+    <description>This milk seems to be filled with strands of grey wool. Disgusting, and quite hard to drink...</description>
+    <graphicData>
+      <texPath>Things/Item/WoolMilk</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<tradeability>Sellable</tradeability>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+		<socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <MarketValue>1</MarketValue>
+      <Mass>0.075</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>8</DeteriorationRate>
+	     	         <Nutrition>.02</Nutrition>
+
+    </statBases>
+    <thingCategories>
+      <li>AnimalProductRaw</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <foodType>Processed</foodType>
+      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  
+  	<ThingDef ParentName="OrganicProductBase">
+		<defName>GR_RatMilk</defName>
+		<label>ratfallo milk</label>
+		<description>This milk has a rich, thick quality to it. It's origins, however, might be a bit dubious... Unless you trust mafia guys called Tony.</description>
+		<graphicData>
+			<texPath>Things/Item/GR_RatMilk</texPath>
+			
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>3.1</MarketValue>
+			<Mass>0.045</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+			      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+				     	         <Nutrition>.06</Nutrition>
+
+
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>14</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+		 <tasteThought>GR_AteRatMilk</tasteThought>
+			<preferability>RawTasty</preferability>
+			<foodType>AnimalProduct, Fluid</foodType>
+		</ingestible>
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+	</ThingDef>
+
+</Defs>

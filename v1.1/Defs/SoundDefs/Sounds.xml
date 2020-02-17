@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+
+
+  <SoundDef>
+    <defName>GR_LaserSound</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>GR_Laser</clipFolderPath>
+          </li>
+        </grains>
+        <pitchRange>
+			<min>0.9652174</min>
+			<max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  
+  <SoundDef>
+    <defName>GR_DisintegratorSound</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>GR_Disintegrator</clipFolderPath>
+          </li>
+        </grains>
+        <pitchRange>
+			<min>0.9652174</min>
+			<max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>GR_Buzz</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>GR_Buzz</clipFolderPath>
+          </li>
+        </grains>
+		 <pitchRange>
+			<min>0.9652174</min>
+			<max>1.042391</max>
+        </pitchRange>
+        
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+    <SoundDef>
+    <defName>GR_PoisonBlast</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>GR_PoisonBlast</clipFolderPath>
+          </li>
+        </grains>
+		 <pitchRange>
+			<min>0.9652174</min>
+			<max>1.042391</max>
+        </pitchRange>
+        
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+      <SoundDef>
+    <defName>GR_Liquid</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>GR_Liquid</clipFolderPath>
+          </li>
+        </grains>
+		 <pitchRange>
+			<min>0.9652174</min>
+			<max>1.042391</max>
+        </pitchRange>
+        
+      </li>
+    </subSounds>
+  </SoundDef>
+
+
+
+</Defs>

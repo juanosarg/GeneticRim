@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+
+	<!-- Reactor - Platform -->
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>GR_ArchotechPlatform</defName>
+		<label>archotech construction platform</label>
+		<description>This construction platform houses the technology necessary to assemble an Archotech Centipede, a bio-mechanical creature powered by an Archotech AI under the control of your colonists.\n\nWhoever controls an Archotech Centipede controls the planet. Bear in mind however that activation of this project will attract A LOT of unwanted attention.</description>
+		<thingClass>NewMachinery.Building_ArchotechPlatform</thingClass>
+		<graphicData>
+			<texPath>Things/Building/GR_ArchotechPlatform</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(8,8)</drawSize>
+			<shadowData>
+				<volume>(5.94, 1.0, 6.71)</volume>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<researchPrerequisites><li>GR_ArchotechProject</li></researchPrerequisites>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>   
+		<blockWind>true</blockWind>
+		<fillPercent>0.5</fillPercent>
+		<surfaceType>Item</surfaceType>
+
+		<rotatable>false</rotatable>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<WorkToBuild>65000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(7,6)</size>
+		<designationCategory>GR_GeneticsTab</designationCategory>
+		
+		<costList>
+			<Steel>350</Steel>
+			<Plasteel>280</Plasteel>
+			<Uranium>70</Uranium>
+			<ComponentSpacer>8</ComponentSpacer>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="NewMachinery.CompProperties_ArchotechPart"/>
+			<li Class="CompProperties_Hibernatable">
+				<incidentTargetWhileStarting>Map_RaidBeacon</incidentTargetWhileStarting>
+			</li>
+		</comps>
+
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationHotKey>Misc4</designationHotKey>
+
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>GR_SpentArchotechPlatform</defName>
+		<label>archotech construction platform</label>
+		<description>This construction platform has already been used.</description>
+		<graphicData>
+			<texPath>Things/Building/GR_ArchotechPlatformEmpty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(8,8)</drawSize>
+			<shadowData>
+				<volume>(5.94, 1.0, 6.71)</volume>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>   
+		<blockWind>true</blockWind>
+		<fillPercent>0.5</fillPercent>
+		<surfaceType>Item</surfaceType>
+
+		<rotatable>false</rotatable>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(7,6)</size>
+		
+		
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			
+			
+		</comps>
+
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationHotKey>Misc4</designationHotKey>
+
+	</ThingDef>
+	
+	 <!-- Beam - Refrigerated Coils -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>GR_RefrigeratedCoils</defName>
+    <label>refrigerated coils</label>
+    <description>Structural cryofuel coils to connect all the parts of the Archotech Project. At least one needs to be built to keep the sensitive components properly refrigerated.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/GR_RefrigeratedCoils</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(8,2)</drawSize>
+     
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <fillPercent>1</fillPercent>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <WorkToBuild>8000</WorkToBuild>
+      <MaxHitPoints>400</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <size>(6,2)</size>
+    <designationCategory>GR_GeneticsTab</designationCategory>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTransmitter</compClass>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="NewMachinery.CompProperties_ArchotechPart"/>
+    </comps>
+   
+    <costList>
+      <Steel>200</Steel>
+      <Plasteel>40</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <researchPrerequisites>
+      <li>GR_ArchotechProject</li>
+    </researchPrerequisites>
+    <designationHotKey>Misc1</designationHotKey>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <uiIconScale>1.2</uiIconScale>
+  </ThingDef>
+
+	<!-- Engine - Cryos -->
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>GR_TurboChargedCryostabilizedEngine</defName>
+		<label>turbocharged cryo-stabilized engine</label>
+		<description>This engine supplies the archotech platform with stabilized cryofuel to power the whole project.\n\nCryofuel is produced by Boomalope / Muffalo hybrids.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/GR_TurboChargedCryostabilizedEngine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3.5,3.5)</drawSize>
+
+		</graphicData>
+		<researchPrerequisites><li>GR_TurboChargedCryostabilizedEngines</li></researchPrerequisites>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<rotatable>false</rotatable>
+		<blockWind>true</blockWind>
+		<fillPercent>1</fillPercent>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<WorkToBuild>50000</WorkToBuild>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(2,2)</size>
+
+		<designationCategory>GR_GeneticsTab</designationCategory>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="NewMachinery.CompProperties_ArchotechPart"/>
+		</comps>
+
+		
+		<costList>
+			<Steel>260</Steel>
+			<Plasteel>140</Plasteel>
+			<Uranium>95</Uranium>
+			<ComponentSpacer>8</ComponentSpacer>
+			<GR_Cryofuel>100</GR_Cryofuel>
+		</costList>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationHotKey>Misc5</designationHotKey>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+	
+		<!-- Computer core - archotech database -->
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>GR_ArchotechDatabase</defName>
+		<label>master archotech database</label>
+		<description>This database stabilizes and subjugates the archotech AI, keeping it under control of the colonists. This technology is very advanced and has inherent risks, such as the archotech AI going rogue, killing everyone in the planet, and using their corpses as batteries to power a martial arts simulation. Or sending robots to the past.\n\nMechanoid interface chips, can be obtained from crashed mechanoid ships (both psychic and poison) or very expensively built in a Fabrication Table if you research Advanced Fabrication.</description>
+    <thingClass>NewMachinery.Building_ArchotechComputerCore</thingClass>
+		<graphicData>
+			<texPath>Things/Building/GR_ArchotechDatabase</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3.5,3.5)</drawSize>
+
+		</graphicData>
+		<rotatable>false</rotatable>
+		<researchPrerequisites><li>GR_ArchotechComputing</li></researchPrerequisites>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>1</fillPercent>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<WorkToBuild>50000</WorkToBuild>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(2,2)</size>
+
+		<designationCategory>GR_GeneticsTab</designationCategory>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="NewMachinery.CompProperties_ArchotechPart"/>
+		</comps>
+
+		
+		<costList>
+			<Steel>150</Steel>
+			<Gold>90</Gold>
+			<Uranium>100</Uranium>
+			<ComponentSpacer>6</ComponentSpacer>
+			<AIPersonaCore>1</AIPersonaCore>
+			<GR_MechanoidInterfaceChip>2</GR_MechanoidInterfaceChip>
+			
+
+		</costList>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationHotKey>Misc5</designationHotKey>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	<!-- Sensor Cluster - Genetic Repository -->
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>GR_GeneticRepository</defName>
+		<label>centralized genetic repository</label>
+		<description>The centralized genetic repository stores large amounts of genetic material from different species. The archotect construction platform will use these materials to re-sample the DNA and turn it into a custom tailored genetic structure to fill the organic parts of the archotech centipede.\n\nNote: this building will need 1 of each genetic material obtainable, and the project needs 5 repositories in total. Use the Recombinator extensively if, for example, muffalos do not appear in your map.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/GR_GeneticRepository</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3.5,3.5)</drawSize>
+
+		</graphicData>
+		<researchPrerequisites><li>GR_GeneticArchiving</li></researchPrerequisites>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<rotatable>false</rotatable>
+		<blockWind>true</blockWind>
+		<fillPercent>1</fillPercent>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<WorkToBuild>50000</WorkToBuild>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(2,2)</size>
+
+		<designationCategory>GR_GeneticsTab</designationCategory>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="NewMachinery.CompProperties_ArchotechPart"/>
+		</comps>
+
+		
+		<costList>
+			<Steel>210</Steel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentSpacer>8</ComponentSpacer>
+			<Gold>4</Gold>
+			<GR_OrganicPulp>20</GR_OrganicPulp>
+			<GR_BearGenetic>1</GR_BearGenetic>
+			<GR_BoomalopeGenetic>1</GR_BoomalopeGenetic>
+			<GR_ChickenGenetic>1</GR_ChickenGenetic>
+			<GR_FelineGenetic>1</GR_FelineGenetic>
+			<GR_HumanoidGenetic>1</GR_HumanoidGenetic>
+			<GR_InsectoidGenetic>1</GR_InsectoidGenetic>
+			<GR_MechanoidGenetic>1</GR_MechanoidGenetic>
+			<GR_MuffaloGenetic>1</GR_MuffaloGenetic>
+			<GR_NonSpecializedGenetic>1</GR_NonSpecializedGenetic>
+			<GR_ReptilianGenetic>1</GR_ReptilianGenetic>
+			<GR_RodentGenetic>1</GR_RodentGenetic>
+			<GR_ThrumboGenetic>1</GR_ThrumboGenetic>
+			<GR_WolfGenetic>1</GR_WolfGenetic>
+
+		</costList>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationHotKey>Misc5</designationHotKey>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+
+<!-- Sensor Cluster - Genetic Repository -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>GR_MechanoidTinkeringTable</defName>
+    <label>mechanoid tinkering table</label>
+    <description>A workbench equipped with advanced tools to dissasemble mechanoids and use the acquired knowledge to create the Archotech Centipede.\n\nNote: bear in mind that this building is not a real workbench!</description>
+    <thingClass>Building</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>5000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+
+    <size>(5,2)</size>
+    <costList>
+      <Steel>200</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <comps>
+     <li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="NewMachinery.CompProperties_ArchotechPart"/>
+     
+    </comps>
+   
+    <graphicData>
+      <texPath>Things/Building/GR_MechanoidTinkeringTable</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(7,4)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+   
+    <fillPercent>0.5</fillPercent>
+   
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>GR_GeneticsTab</designationCategory>
+    <surfaceType>Item</surfaceType>
+    <designationHotKey>Misc12</designationHotKey>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+   
+    <researchPrerequisites>
+      <li>GR_BioMechanicalManipulation</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+
+
+</Defs>

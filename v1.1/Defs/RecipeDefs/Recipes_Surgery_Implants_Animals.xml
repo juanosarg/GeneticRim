@@ -1,0 +1,1241 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--=============== Animal Hybrid Implants ====================-->
+
+
+	<RecipeDef Name="GR_LegImplants" Abstract="True" ParentName="SurgeryFlesh">
+		<workAmount>2000</workAmount>
+		
+		<appliedOnFixedBodyParts>
+			<li>Leg</li> 
+			<li>InsectLeg</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<RecipeDef Name="GR_TailImplants" Abstract="True" ParentName="SurgeryFlesh">
+		<workAmount>2000</workAmount>
+		
+		<appliedOnFixedBodyParts>
+			<li>Tail</li> 
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<RecipeDef Name="GR_EyeImplants" Abstract="True" ParentName="SurgeryFlesh">
+		<workAmount>2000</workAmount>
+		
+		<appliedOnFixedBodyParts>
+			<li>Eye</li> 
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<RecipeDef Name="GR_EarImplants" Abstract="True" ParentName="SurgeryFlesh">
+		<workAmount>2000</workAmount>
+		
+		<appliedOnFixedBodyParts>
+			<li>Ear</li> 
+			<li>Antenna</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<RecipeDef Name="GR_NoseImplants" Abstract="True" ParentName="SurgeryFlesh">
+		<workAmount>2000</workAmount>
+		
+		<appliedOnFixedBodyParts>
+			<li>Nose</li> 
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<RecipeDef Name="GR_JawImplants" Abstract="True" ParentName="SurgeryFlesh">
+		<workAmount>2000</workAmount>
+		
+		<appliedOnFixedBodyParts>
+			<li>AnimalJaw</li>
+			<li>Beak</li>
+			<li>TurtleBeak</li>
+			<li>InsectMouth</li>		
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<RecipeDef Name="GR_SpineImplants" Abstract="True" ParentName="SurgeryFlesh">
+		<workAmount>2000</workAmount>
+		
+		<appliedOnFixedBodyParts>
+			<li>Spine</li>
+
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<RecipeDef Name="GR_BrainImplants" Abstract="True" ParentName="SurgeryFlesh">
+		<workAmount>2000</workAmount>
+		
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<RecipeDef Name="GR_HeartImplants" Abstract="True" ParentName="SurgeryFlesh">
+		<workAmount>2000</workAmount>
+		
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+			<li>InsectHeart</li>
+
+
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<RecipeDef Name="GR_LungImplants" Abstract="True" ParentName="SurgeryFlesh">
+		<workAmount>2000</workAmount>
+		
+		<appliedOnFixedBodyParts>
+			<li>Lung</li>
+
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<RecipeDef Name="GR_LiverImplants" Abstract="True" ParentName="SurgeryFlesh">
+		<workAmount>2000</workAmount>
+		
+		<appliedOnFixedBodyParts>
+			<li>Liver</li>
+
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	<RecipeDef Name="GR_KidneyImplants" Abstract="True" ParentName="SurgeryFlesh">
+		<workAmount>2000</workAmount>
+		
+		<appliedOnFixedBodyParts>
+			<li>Kidney</li>
+
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<RecipeDef Name="GR_StomachImplants" Abstract="True" ParentName="SurgeryFlesh">
+		<workAmount>2000</workAmount>
+		
+		<appliedOnFixedBodyParts>
+			<li>Stomach</li>
+
+
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<!--=============== Legs ====================-->
+
+
+	<RecipeDef ParentName="GR_LegImplants">
+		<defName>GR_InstallBearLeg</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: bear leg (tier 1)&lt;/color&gt;</label>
+		<description>Installs bear leg.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bear leg.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BearLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_BearLeg</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_BearLeg</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_LegImplants">
+		<defName>GR_InstallLizardLeg</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: lizard leg (tier 2)&lt;/color&gt;</label>
+		<description>Installs lizard leg.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing lizard leg.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_LizardLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_LizardLeg</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_LizardLeg</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_LegImplants">
+		<defName>GR_InstallThrumboLeg</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: thrumbo leg (tier 3)&lt;/color&gt;</label>
+		<description>Installs thrumbo leg.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing thrumbo leg.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ThrumboLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_ThrumboLeg</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_ThrumboLeg</addsHediff>
+	</RecipeDef>	
+	
+		<!--=============== Tails ====================-->
+
+
+	<RecipeDef ParentName="GR_TailImplants">
+		<defName>GR_InstallScytherTail</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: scyther tail (tier 2)&lt;/color&gt;</label>
+		<description>Installs scyther tail.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing scyther tail.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ScytherTail</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_ScytherTail</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_ScytherTail</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_TailImplants">
+		<defName>GR_InstallMechaTail</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: mechanoid tail (tier 3)&lt;/color&gt;</label>
+		<description>Installs mechanoid tail.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing mechanoid tail.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MechaTail</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_MechaTail</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_MechaTail</addsHediff>
+	</RecipeDef>
+
+	<!--=============== Eyes ====================-->
+
+
+	<RecipeDef ParentName="GR_EyeImplants">
+		<defName>GR_InstallCanidEye</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: canid eye (tier 1)&lt;/color&gt;</label>
+		<description>Installs canid eye.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing canid eye.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_CanidEye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_CanidEye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_CanidEye</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_EyeImplants">
+		<defName>GR_InstallInsectileEye</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: insectile eye (tier 2)&lt;/color&gt;</label>
+		<description>Installs insectile eye.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing insectile eye.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_InsectileEye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_InsectileEye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_InsectileEye</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_EyeImplants">
+		<defName>GR_InstallThrumboEye</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: bionic thrumbo eye (tier 3)&lt;/color&gt;</label>
+		<description>Installs thrumbo eye.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing thrumbo eye.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ThrumboEye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_ThrumboEye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_ThrumboEye</addsHediff>
+	</RecipeDef>
+
+	<!--=============== Ears ====================-->
+
+
+	<RecipeDef ParentName="GR_EarImplants">
+		<defName>GR_InstallRodentEar</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: rodent ear (tier 1)&lt;/color&gt;</label>
+		<description>Installs rodent ear.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing rodent ear.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_RodentEar</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_RodentEar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_RodentEar</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_EarImplants">
+		<defName>GR_InstallMothTympanalOrgan</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: moth tympanal organ (tier 2)&lt;/color&gt;</label>
+		<description>Installs moth tympanal organ.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing moth tympanal organ.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MothTympanalOrgan</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_MothTympanalOrgan</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_MothTympanalOrgan</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_EarImplants">
+		<defName>GR_InstallMechaReceptors</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: mechanoid auditory receptors (tier 3)&lt;/color&gt;</label>
+		<description>Installs mechanoid auditory receptors.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing mechanoid auditory receptors.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MechaReceptors</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_MechaReceptors</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_MechaReceptors</addsHediff>
+	</RecipeDef>	
+
+	<!--=============== Noses ====================-->
+
+
+	<RecipeDef ParentName="GR_NoseImplants">
+		<defName>GR_InstallRodentNose</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: rodent nose (tier 1)&lt;/color&gt;</label>
+		<description>Installs rodent nose.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing rodent nose.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_RodentNose</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_RodentNose</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_RodentNose</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_NoseImplants">
+		<defName>GR_InstallInsectoidPheromones</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: insectoid pheromones (tier 2)&lt;/color&gt;</label>
+		<description>Installs insectoid pheromones.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing insectoid pheromones.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_InsectoidPheromones</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_InsectoidPheromones</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_InsectoidPheromones</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_NoseImplants">
+		<defName>GR_InstallMiniatureThrumboHorn</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: miniature thrumbo horn (tier 3)&lt;/color&gt;</label>
+		<description>Installs miniature thrumbo horn.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing miniature thrumbo horn.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MiniatureThrumboHorn</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_MiniatureThrumboHorn</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_MiniatureThrumboHorn</addsHediff>
+	</RecipeDef>
+
+	<!--=============== Jaws ====================-->
+
+
+	<RecipeDef ParentName="GR_JawImplants">
+		<defName>GR_InstallWolfJaws</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: wolf jaws (tier 1)&lt;/color&gt;</label>
+		<description>Installs wolf jaws.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing wolf jaws.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_WolfJaws</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_WolfJaws</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_WolfJaws</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_JawImplants">
+		<defName>GR_InstallInsectMandibles</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: insect mandibles (tier 2)&lt;/color&gt;</label>
+		<description>Installs insect mandibles.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing insect mandibles.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_InsectMandibles</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_InsectMandibles</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_InsectMandibles</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_JawImplants">
+		<defName>GR_InstallThrumboJaws</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: bionic thrumbo jaws (tier 3)&lt;/color&gt;</label>
+		<description>Installs bionic thrumbo jaws.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bionic thrumbo jaws.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ThrumboJaws</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_ThrumboJaws</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_ThrumboJaws</addsHediff>
+	</RecipeDef>
+
+	<!--=============== Spines ====================-->
+
+
+	<RecipeDef ParentName="GR_SpineImplants">
+		<defName>GR_InstallMuffaloSpine</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: muffalo spine (tier 1)&lt;/color&gt;</label>
+		<description>Installs muffalo spine.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing muffalo spine.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MuffaloSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_MuffaloSpine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_MuffaloSpine</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_SpineImplants">
+		<defName>GR_InstallCrocodileSpine</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: crocodile spine (tier 2)&lt;/color&gt;</label>
+		<description>Installs crocodile spine.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing crocodile spine.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_CrocodileSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_CrocodileSpine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_CrocodileSpine</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_SpineImplants">
+		<defName>GR_InstallMechaSpine</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: mechanoid spine (tier 3)&lt;/color&gt;</label>
+		<description>Installs mechanoid spine.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing mechanoid spine.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MechaSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_MechaSpine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_MechaSpine</addsHediff>
+	</RecipeDef>	
+	
+	<!--=============== Brains ====================-->
+
+
+	<RecipeDef ParentName="GR_BrainImplants">
+		<defName>GR_InstallChickenBrains</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: chicken brains (tier 1)&lt;/color&gt;</label>
+		<description>Installs chicken brains.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing chicken brains.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ChickenBrains</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_ChickenBrains</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_ChickenBrains</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_BrainImplants">
+		<defName>GR_InstallMonitorLizardBrain</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: monitor lizard brain (tier 2)&lt;/color&gt;</label>
+		<description>Installs monitor lizard brain.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing monitor lizard brain.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MonitorLizardBrain</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_MonitorLizardBrain</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_MonitorLizardBrain</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_BrainImplants">
+		<defName>GR_InstallThrumboBrain</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: bionic thrumbo brain (tier 3)&lt;/color&gt;</label>
+		<description>Installs bionic thrumbo brain.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bionic thrumbo brain.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ThrumboBrain</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_ThrumboBrain</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_ThrumboBrain</addsHediff>
+	</RecipeDef>
+
+	<!--=============== Hearts ====================-->
+
+
+	<RecipeDef ParentName="GR_HeartImplants">
+		<defName>GR_InstallBoomalopeHeart</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: boomalope heart (tier 1)&lt;/color&gt;</label>
+		<description>Installs boomalope heart.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing boomalope heart.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BoomalopeHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_BoomalopeHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_BoomalopeHeart</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_HeartImplants">
+		<defName>GR_InstallChitinousHeart</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: chitinous heart (tier 2)&lt;/color&gt;</label>
+		<description>Installs chitinous heart.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing chitinous heart.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ChitinousHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_ChitinousHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_ChitinousHeart</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HeartImplants">
+		<defName>GR_InstallMechaHeart</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: mechanoid heart (tier 3)&lt;/color&gt;</label>
+		<description>Installs mechanoid heart.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing mechanoid heart.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MechaHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_MechaHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_MechaHeart</addsHediff>
+	</RecipeDef>
+
+	<!--=============== Lungs ====================-->
+
+
+	<RecipeDef ParentName="GR_LungImplants">
+		<defName>GR_InstallMuffaloLung</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: muffalo lung (tier 1)&lt;/color&gt;</label>
+		<description>Installs muffalo lung.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing muffalo lung.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MuffaloLung</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_MuffaloLung</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_MuffaloLung</addsHediff>
+	</RecipeDef>
+
+	<!--=============== Liver ====================-->
+
+
+	<RecipeDef ParentName="GR_LiverImplants">
+		<defName>GR_InstallBearLiver</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: bear liver (tier 1)&lt;/color&gt;</label>
+		<description>Installs bear liver.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bear liver.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BearLiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_BearLiver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_BearLiver</addsHediff>
+	</RecipeDef>
+
+	<!--=============== Kidney ====================-->
+
+
+	<RecipeDef ParentName="GR_KidneyImplants">
+		<defName>GR_InstallChickenKidney</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: chicken kidney (tier 1)&lt;/color&gt;</label>
+		<description>Installs chicken kidney.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing chicken kidney.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ChickenKidney</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_ChickenKidney</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_ChickenKidney</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_StomachImplants">
+		<defName>GR_InstallBoomalopeStomach</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: boomalope stomach (tier 1)&lt;/color&gt;</label>
+		<description>Installs boomalope stomach.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing boomalope stomach.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BoomalopeStomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_BoomalopeStomach</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_BoomalopeStomach</addsHediff>
+	</RecipeDef>
+	
+
+</Defs>

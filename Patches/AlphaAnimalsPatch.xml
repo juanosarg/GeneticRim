@@ -41,34 +41,16 @@
 				</value>
 			</li>
 			
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMuffalo"]/ingredients/li/filter/thingDefs</xpath>
-				<value>
-					<li>Corpse_AA_ChameleonYak</li>
-					
-				</value>
-			</li>
-
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMuffalo"]/fixedIngredientFilter/thingDefs</xpath>
-				<value>
-					<li>Corpse_AA_ChameleonYak</li>
-				</value>
-			</li>
-			
 			
 			
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesChicken"]/ingredients/li/filter/thingDefs</xpath>
 				<value>
 					<li>Corpse_AA_MeadowAve</li>
-					<li>Corpse_AA_DesertAve</li>
-					<li>Corpse_AA_FrostAve</li>
-					<li>Corpse_AA_NightAve</li>
 					<li>Corpse_AA_RoyalAve</li>
-
-				
-					
+						<li>Corpse_AA_DesertAve</li>
+						<li>Corpse_AA_NightAve</li>
+						<li>Corpse_AA_FrostAve</li>
 
 				</value>
 			</li>
@@ -77,11 +59,10 @@
 				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesChicken"]/fixedIngredientFilter/thingDefs</xpath>
 				<value>
 					<li>Corpse_AA_MeadowAve</li>
-					<li>Corpse_AA_DesertAve</li>
-					<li>Corpse_AA_FrostAve</li>
-					<li>Corpse_AA_NightAve</li>
 					<li>Corpse_AA_RoyalAve</li>
-					
+						<li>Corpse_AA_DesertAve</li>
+						<li>Corpse_AA_NightAve</li>
+						<li>Corpse_AA_FrostAve</li>
 
 				</value>
 			</li>
@@ -107,8 +88,6 @@
 					<li>Corpse_AA_IronhuskBeetle</li>
 					<li>Corpse_AA_MammothWorm</li>
 					<li>Corpse_AA_MegaLouse</li>
-					<li>Corpse_AA_CrepuscularBeetle</li>
-					<li>Corpse_AA_FrostboundBehemoth</li>
 
 				</value>
 			</li>
@@ -134,10 +113,6 @@
 					<li>Corpse_AA_IronhuskBeetle</li>
 					<li>Corpse_AA_MammothWorm</li>
 					<li>Corpse_AA_MegaLouse</li>
-					<li>Corpse_AA_CrepuscularBeetle</li>
-					<li>Corpse_AA_FrostboundBehemoth</li>
-
-
 
 				</value>
 			</li>	
@@ -187,7 +162,6 @@
 					<li>Corpse_AA_FissionMouse</li>
 					<li>Corpse_AA_FissionMouseSecond</li>
 					<li>Corpse_AA_FissionMouseThird</li>
-					<li>Corpse_AA_DuskRat</li>
 					
 
 				</value>
@@ -199,8 +173,6 @@
 					<li>Corpse_AA_FissionMouse</li>
 					<li>Corpse_AA_FissionMouseSecond</li>
 					<li>Corpse_AA_FissionMouseThird</li>
-					<li>Corpse_AA_DuskRat</li>
-
 					
 
 

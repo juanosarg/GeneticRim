@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  
+  <RoomRoleDef>
+    <defName>GR_GenLab</defName>
+    <label>genetic laboratory</label>
+    <workerClass>NewAnimalSubproducts.RoomRoleWorker_GeneLab</workerClass>
+    <relatedStats>
+      <li>Cleanliness</li>
+    </relatedStats>
+  </RoomRoleDef>
+  
+ 
+</Defs>

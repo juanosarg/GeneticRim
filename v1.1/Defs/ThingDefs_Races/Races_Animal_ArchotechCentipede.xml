@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+	<!-- ArchotechCentipede -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_ArchotechCentipede</defName>
+		
+		<label>archotech centipede</label>
+		<description>The Archotech Centipede is the end result of the Archotech Project, aiming to provide a "friendly" machine superintelligence with a capable body. Even though this centipede is forcefully loyal to the colonists, and can be somewhat controlled by them, most other inhabitants of the planet will consider its existance to be an abomination, since dabbling in archotech usually signals the end of comprehensible human life.\n\nUseful abilities: What do you mean useful? You have WON the game. The Archotech Centipede is basically unkillable by normal means, just use it to lay waste to everything in the planet. You don't have enemies now, you have pets. Ooooor... the archotech may kill all your colonists. One of the two.</description>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<statBases>
+			<MoveSpeed>10</MoveSpeed>
+			<ComfyTemperatureMin>-200</ComfyTemperatureMin>
+			<ComfyTemperatureMax>3500</ComfyTemperatureMax>
+			<PsychicSensitivity>0</PsychicSensitivity>
+			<ToxicSensitivity>0</ToxicSensitivity>
+			<Flammability>0</Flammability>
+			<MarketValue>4000000</MarketValue>
+			<ArmorRating_Blunt>2</ArmorRating_Blunt>
+			<ArmorRating_Sharp>2</ArmorRating_Sharp>
+			<LeatherAmount>0</LeatherAmount>
+			<MeatAmount>0</MeatAmount>
+			
+		</statBases>
+		<tools>
+
+
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>200</power>
+				<cooldownTime>0.2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      
+			</li>
+
+		</tools>
+
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GR_Disintegrator</defaultProjectile>
+				<warmupTime>0.2</warmupTime>
+				<burstShotCount>1</burstShotCount>
+				<minRange>4</minRange>
+				<range>200</range>
+				<soundCast>GR_DisintegratorSound</soundCast>
+				<muzzleFlashScale>15</muzzleFlashScale>
+				<!--Commanility determines how frequent this range verb is chosen.-->
+				<commonality>.8</commonality>
+			</li>
+			
+
+
+		</verbs>
+
+		<comps>
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>ComponentIndustrial</resourceDef>
+				<gatheringIntervalDays>4</gatheringIntervalDays>
+				<resourceAmount>10</resourceAmount>
+				<customResourceString>ComponentIndustrialDesc</customResourceString>
+
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+			    <rage>true</rage>
+				<stampede>true</stampede>
+				<mechablast>true</mechablast>
+				<catreflexes>true</catreflexes>
+				<chickenRimPox>true</chickenRimPox>
+				<burrowing>true</burrowing>
+				<adrenalineburst>true</adrenalineburst>
+			</li>
+		</comps>
+		<race>
+			<fleshType>GR_Mechanoid</fleshType>
+
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>MechanicalCentipede</body>
+			<herdAnimal>false</herdAnimal>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<baseBodySize>20</baseBodySize>
+			<baseHealthScale>100</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<baseHungerRate>0.001</baseHungerRate>
+			<trainability>Advanced</trainability>
+			<needsRest>true</needsRest>
+			<hasGenders>false</hasGenders>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+			<wildness>0.45</wildness>
+			<lifeExpectancy>25000</lifeExpectancy>
+			<mateMtbHours>10000</mateMtbHours>
+			<gestationPeriodDays>10000</gestationPeriodDays>
+			<lifeStageAges>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+					<soundCall>Pawn_Mech_Centipede_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+		<butcherProducts>
+			<Steel>1000</Steel>
+			<Plasteel>500</Plasteel>
+			<ComponentIndustrial>20</ComponentIndustrial>
+		</butcherProducts>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_ArchotechCentipede</defName>
+		<label>archotech centipede</label>
+		<race>GR_ArchotechCentipede</race>
+		<combatPower>10000</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Archotech/GR_ArchotechCentipede</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>5</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Archotech/GR_Dessicated_ArchotechCentipede</texPath>
+					<drawSize>5</drawSize>
+				</dessicatedBodyGraphicData>
+				
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+		
+</Defs>

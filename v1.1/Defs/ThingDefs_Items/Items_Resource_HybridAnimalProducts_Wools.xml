@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_BearffaloWool</defName>
+		<label>bearffalo wool</label>
+		<description>Coarse, strong wool. Bearffalo wool provides heat protection, and decent defense.</description>
+		<graphicData>
+			<color>(138,191,196)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+
+		<statBases>
+			<StuffPower_Insulation_Cold>22</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>      
+			<StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+
+			<color>(138,191,196)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_HairballWool</defName>
+		<label>hairball wool</label>
+		<description>This is a strange wool, very light, and covered with what seems to be a lattice of coarse hairs. It provides excellent heat insulation due to its thermostatic properties.</description>
+		<graphicData>
+			<texPath>Things/Item/GR_HairballWool</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(218,218,218)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+
+		<statBases>
+			<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>5</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>30</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+			<color>(218,218,218)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_BoomffaloWool</defName>
+		<label>boomffalo wool</label>
+		<description>Brittle, strange smelling wool. Not the best wool to craft apparel with, though it's better than nothing. Provides nice heat insulation.</description>
+		<graphicData>
+			<color>(235,227,93)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+
+		<statBases>
+			<StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>      
+
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+
+			<color>(235,227,93)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_MuffalopeWool</defName>
+		<label>muffalope wool</label>
+		<description>This wool seems to be constantly dripping unstable chemical compounds. Not the best wool to craft apparel with, though it's better than nothing. Provides nice heat insulation.</description>
+		<graphicData>
+			<color>(173,235,93)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+
+		<statBases>
+			<StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>      
+
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+
+			<color>(173,235,93)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_ChickenffaloWool</defName>
+		<label>chickenffalo wool</label>
+		<description>The strands of this pure white wool are incredibly small and complex. Gives good defense against sharp attacks for a wool.</description>
+		<graphicData>
+			<color>(240,240,240)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+
+		<statBases>
+			<StuffPower_Insulation_Cold>26</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>      
+			<StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+
+			<color>(240,240,240)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_MuffalochickenWool</defName>
+		<label>muffalochicken wool</label>
+		<description>This seems to be an amalgamation of feathers and wool, perfectly interweaved. Gives nice defense against blunt attacks, as well as insulation.</description>
+		<graphicData>
+			<color>(250,250,250)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+
+		<statBases>
+			<StuffPower_Insulation_Cold>27</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>      
+			<StuffPower_Armor_Blunt>0.25</StuffPower_Armor_Blunt>
+
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+
+			<color>(250,250,250)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_MuffalowolfWool</defName>
+		<label>muffalowolf wool</label>
+		<description>This dark grey wool is stylish and very warm.</description>
+		<tradeability>Sellable</tradeability>
+
+		<graphicData>
+			<color>(52,52,52)</color>
+		</graphicData>
+		<statBases>
+			<StuffPower_Insulation_Cold>27</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+
+			<color>(52,52,52)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_WolffaloWool</defName>
+		<label>wolffalo wool</label>
+		<description>This dark grey wool is stylish and very warm.</description>
+		<tradeability>Sellable</tradeability>
+
+		<graphicData>
+			<color>(40,40,40)</color>
+		</graphicData>
+		<statBases>
+			<StuffPower_Insulation_Cold>27</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+
+			<color>(40,40,40)</color>
+		</stuffProps>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_ChickenspiderSilk</defName>
+		<label>chickenspider silk</label>
+		<description>Fabric spun from fibers extracted from chickenspiders. Resists blunt and sharp damage easily, but provides almost no protection against extreme heat.</description>
+		<graphicData>
+			<texPath>Things/Item/SpunSilk</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(218,201,168)</color>
+
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<MarketValue>10</MarketValue>
+			<Mass>0.025</Mass>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>3</DeteriorationRate>
+			<StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.3</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<commonality>0</commonality>
+			<color>(218,201,168)</color>
+
+		</stuffProps>
+
+
+	</ThingDef>
+
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_SpidersnakeSilk</defName>
+		<label>spidersnake silk</label>
+		<description>Fabric spun from fibers extracted from spidersnakes. A balanced fabric to make apparel from.</description>
+		<graphicData>
+			<texPath>Things/Item/SpunSilk</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<MarketValue>8</MarketValue>
+			<Mass>0.025</Mass>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>3</DeteriorationRate>
+			<StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.25</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.22</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<commonality>0</commonality>
+			<color>(210,255,254)</color>
+
+		</stuffProps>
+
+
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_MuffalopedeChitin</defName>
+		<label>muffalopede wool</label>
+		<description>Insectoid chitin can be used as a material to craft apparel. It provides excellent protection against blunt attacks.</description>
+		<tradeability>Sellable</tradeability>
+
+		<graphicData>
+			<texPath>Things/Item/MuffalopedeChitin</texPath>
+
+		</graphicData>
+		<statBases>
+			<StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.4</StuffPower_Armor_Blunt>
+
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+
+			<color>(88,88,88)</color>
+		</stuffProps>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>GR_WolfsnakeSkin</defName>
+		<label>wolfsnake skin</label>
+		<description>Shed skin from a wolfsnake. Light, strong, and insulates well.</description>
+		<graphicData>
+			<texPath>Things/Item/ScalySkin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>5</MarketValue>
+			<Mass>0.01</Mass>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>3</DeteriorationRate>
+
+			<StuffPower_Armor_Heat>0.4</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>22</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<commonality>0</commonality>
+			<color>(0,116,6)</color>
+
+		</stuffProps>
+		<thingCategories>
+			<li>Textiles</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_ThrumbearWool</defName>
+		<label>thrumbear wool</label>
+		<description>Thrumbear wool is thick and warm. Probably the best wool in the animal kingdom.</description>
+		<graphicData>
+
+			<color>(233,233,233)</color>      
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<StuffPower_Insulation_Cold>36</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>28</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+
+			<color>(233,233,233)</color>
+
+
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_ThrumffaloWool</defName>
+		<label>thrumffalo wool</label>
+		<description>Thrumffalo wool is the best protection against extreme climates there is.</description>
+		<graphicData>
+			<color>(233,233,233)</color>      
+		</graphicData>
+		<statBases>
+			<StuffPower_Insulation_Cold>34</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>34</StuffPower_Insulation_Heat>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<stuffProps>
+			<commonality>0</commonality>
+
+			<color>(233,233,233)</color>
+
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_MechaWool</defName>
+		<label>mechanoid wool</label>
+		<description>This wool seems to be strengthened by plasteel micro-fibers, and covered with advanced circuitry.</description>
+		<graphicData>
+			<texPath>Things/Item/GR_MechaWool</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<MarketValue>15</MarketValue>
+			<Mass>0.05</Mass>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>3</DeteriorationRate>
+			<StuffPower_Armor_Sharp>1.5</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>2.5</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>25</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<commonality>0</commonality>
+			<color>(202,202,202)</color>
+
+		</stuffProps>
+
+
+	</ThingDef>
+
+
+</Defs>

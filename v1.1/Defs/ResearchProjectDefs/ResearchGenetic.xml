@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>GR_GeneticEngineering</defName>
+    <label>genetic engineering</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Research the basics of genetic engineering. With this research you can begin experimenting on the most basic creatures (tier 1), and breed hybrids to conquer the world. The Genetic Extraction Table allows you to extract genetic samples from creatures, and build empty incubators. The GenePod is where this samples are combined into filled incubators. Reptiles and Insectoids are tier 2, and need more research. Thrumbos and mechanoids are tier 3, and need even more advanced research.</description>
+    <baseCost>1200</baseCost>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>GR_InsectoidGenome</defName>
+    <label>insectoid genome</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Research ways to extract genetic material from alien insectoid species. This opens up experimenting with insectoid hybrids (tier 2).</description>
+    <baseCost>1500</baseCost>
+    <prerequisites>
+      <li>GR_GeneticEngineering</li>
+    </prerequisites>
+    
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>GR_ReptilianGenome</defName>
+    <label>reptilian genome</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Research ways to extract genetic material from reptiles. This opens up experimenting with reptilian hybrids (tier 2).</description>
+    <baseCost>1500</baseCost>
+    <prerequisites>
+      <li>GR_GeneticEngineering</li>
+    </prerequisites>
+    
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>GR_HumanoidGeneticEngineering</defName>
+    <label>humanoid genetic engineering</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Allows humanoid gene extraction, and allows mixing of human and animal DNA to create hybrid human-animal implants. All these implants are created in a Tissue Growing Vat</description>
+    <baseCost>1250</baseCost>
+    <prerequisites>
+        <li>GR_GeneticEngineering</li>
+    </prerequisites>
+   
+    <researchViewX>0</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  
+    <ResearchProjectDef>
+    <defName>GR_HybridImplantology</defName>
+    <label>hybrid implantology</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Opens up experimenting with animal hybrid implants, used to improve your hybrid creatures with incredibly weird combinations. These hybrid implants are all created in a Tissue Growing Vat, and can be also used in all base, non-hybrid animals (including modded animals).</description>
+    <baseCost>1250</baseCost>
+    <prerequisites>
+        <li>GR_GeneticEngineering</li>
+    </prerequisites>
+   
+    <researchViewX>0</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef>
+    <defName>GR_AdvancedGeneticEngineering</defName>
+    <label>advanced genetic engineering</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Unlocks the Advanced Gene Pod, and allows extraction and mixing of thrumbo genes with other creatures (tier 3).</description>
+    <baseCost>2500</baseCost>
+    <prerequisites>
+        <li>GR_GeneticEngineering</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>0</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>GR_GeneDuplication</defName>
+    <label>gene duplication</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Allows construction of the gene duplicator, a building that can duplicate most genes in exchange for organic pulp, except Thrumbo and Mechanoid genes. It also won't work on Eldritch, Alpha, Megafauna or Dinosaur genes.</description>
+    <baseCost>2500</baseCost>
+    <prerequisites>
+      <li>GR_AdvancedGeneticEngineering</li>
+    </prerequisites>
+    
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>GR_GenetrainerRepurposing</defName>
+    <label>genetrainer repurposing</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Genetrainer repurposing unlocks the jury rigging of mech serum neurotrainers, healers and resurrectors to craft genetrainers, single use artifacts that inject animal genetic material in a human being, acting as a powerful implant that doesn't take the place of any organ in the body.</description>
+    <baseCost>2500</baseCost>
+    <prerequisites>
+      <li>GR_AdvancedGeneticEngineering</li>
+    </prerequisites>
+    
+		<researchViewX>1</researchViewX>
+		<researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>GR_AdvancedMechaniteBioIntegration</defName>
+    <label>advanced mechanite bio-integration</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Allows extraction of active mechanites from hostile mechanoids to mix them with genes with other creatures (tier 3). Mechanoid hybrids (except mecharats) also need a mechanoid interface chip, which can be obtained from crashed mechanoid ships (both psychic and poison) or very expensively built in a Fabrication Table if you research Advanced Fabrication.</description>
+    <baseCost>10000</baseCost>
+    <prerequisites>
+        <li>GR_AdvancedGeneticEngineering</li>
+		
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>0</researchViewX>
+    <researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>GR_AnimalEnrichment</defName>
+    <label>animal enrichment</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Research ways to improve existing animals and create better adapted versions of them, known as Paragons. Unlocks the Paragon Serum Extraction Table, used to extract Paragon Serum from normal animals, as well as the Animal Enrichment Center, used to fill incubators with these serums.</description>
+    <baseCost>1500</baseCost>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    
+		<researchViewX>3</researchViewX>
+		<researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>GR_AgeDrugs</defName>
+    <label>age drugs</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Research ways to accelerate the growth of your animals. Age Pills can be fed to animals to increase their age significantly.</description>
+    <baseCost>500</baseCost>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+    
+		<researchViewX>3</researchViewX>
+		<researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>GR_AnimalControl</defName>
+    <label>animal control</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Mind control technology that allows you to directly interact with your creatures, unlocking player-controllable special abilities for each hybrid family.</description>
+    <baseCost>1000</baseCost>
+    <prerequisites>
+      <li>GR_AnimalEnrichment</li>
+    </prerequisites>
+    
+		<researchViewX>3</researchViewX>
+		<researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+  
+    <ResearchProjectDef>
+    <defName>GR_ArchotechProject</defName>
+    <label>archotech project</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Your colony is a thriving mecca of genetic engineering, pushing the limits of what was previously thought to be possible. But... can you go even further? Your researchers have suggested that it may be possible to integrate one of the mechanoid bio-monstruosities with a subjugated archotech AI. Would it be wise? Probably not. Would it be cool? Hell yeah.</description>
+    <baseCost>4000</baseCost>
+	 <discoveredLetterTitle>About: The Archotech Project</discoveredLetterTitle>
+    <discoveredLetterText>Controlling this planet - who cares about freedom or home? The Archotech Project might allow you to finally call this planet home, with a freedom carved from the charred bones of your enemies.\n\nThe Archotech Project platform will take 15 days to charge up. Once you begin that process, the archotech AI will resist its subjugation, and will emit an energy signature detectable from thousands of kilometers away. Raiders will flock to attack you in waves, with an intensity you've never seen, scared out of their minds for the possibility of an archotech AI gaining control of the planet. Mechanoids are also known to be attracted to such energy signatures for their own mysterious reasons.\n\nIt won't start until you activate your contruction platform, but when it does, it'll be ferocious. You'll need to stockpile resources, weapons, and defenses for the onslaught if you hope to escape alive.</discoveredLetterText>
+    <discoveredLetterMinDifficulty>1</discoveredLetterMinDifficulty>
+    <prerequisites>
+        <li>GR_AdvancedMechaniteBioIntegration</li>
+		
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>0</researchViewX>
+    <researchViewY>5</researchViewY>
+	 <tags>
+      <li>ShipRelated</li>
+    </tags>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>GR_TurboChargedCryostabilizedEngines</defName>
+    <label>turbocharged cryo-stabilized engines</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Spacer</techLevel>
+    <description>The Archotech Project will need a source of coolant to refrigerate its delicate components to near absolute zero. These new engines can be used to circulate this coolant.\n\nCryofuel is produced by Boomalope / Muffalo hybrids.</description>
+    <baseCost>3000</baseCost>
+	<prerequisites>
+        <li>GR_ArchotechProject</li>
+	</prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>0</researchViewX>
+    <researchViewY>6</researchViewY>
+	 <tags>
+      <li>ShipRelated</li>
+    </tags>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>GR_ArchotechComputing</defName>
+    <label>archotech computing</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Archotech computing will be needed to stabilize and subjugate the Archotech AI inside a database, since having it go rogue would probably spell doom for everyone.</description>
+    <baseCost>2800</baseCost>
+	<prerequisites>
+        <li>GR_ArchotechProject</li>
+	</prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>1</researchViewX>
+    <researchViewY>6</researchViewY>
+	 <tags>
+      <li>ShipRelated</li>
+    </tags>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef>
+    <defName>GR_GeneticArchiving</defName>
+    <label>genetic archiving</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Several genetic repositories will need to be built, connected to the construction platform. These repositories will provide the project with a slurry of genetic materials, which will be re-sampled and turned it into a custom tailored genetic structure to fill the organic parts of the archotech centipede.</description>
+    <baseCost>6000</baseCost>
+	<prerequisites>
+        <li>GR_ArchotechProject</li>
+	</prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>2</researchViewX>
+    <researchViewY>6</researchViewY>
+	 <tags>
+      <li>ShipRelated</li>
+    </tags>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef>
+    <defName>GR_BioMechanicalManipulation</defName>
+    <label>bio-mechanical manipulation</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Spacer</techLevel>
+    <description>In order to truly interconnect the archotech AI with a bio-mechanical body, researchers need to understand how precisely mechanoids work internally. A tinkering station will be needed to disassemble and re-use mechanoid carcasses.</description>
+    <baseCost>6000</baseCost>
+	<prerequisites>
+        <li>GR_ArchotechProject</li>
+	</prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>3</researchViewX>
+    <researchViewY>6</researchViewY>
+	 <tags>
+      <li>ShipRelated</li>
+    </tags>
+  </ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=============== Genetic Material ====================-->
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>GR_StabilizingGenes</defName>
+    <label>stabilizing genes</label>
+    <description>This genetic cocktail hasn't differentiated yet.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <texPath>Things/Item/GR_geneticmaterialswhite</texPath>
+    </graphicData>
+	<tradeability>None</tradeability>
+    <statBases>
+      <MaxHitPoints>15</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>6</DeteriorationRate>
+	  <Mass>10</Mass>
+	  <MarketValue>40</MarketValue>
+    </statBases>
+    <tickerType>Normal</tickerType>
+	<thingCategories>
+      <li>GR_GeneticMaterial</li>
+    </thingCategories>
+	<stackLimit>1</stackLimit>
+	<comps>
+			
+			<li Class="CompProperties_TemperatureRuinable">
+				<minSafeTemperature>0</minSafeTemperature>
+				<maxSafeTemperature>50</maxSafeTemperature>
+				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+			</li>
+			<li Class="NewHatcher.CompProperties_Recombinator">
+        
+				
+			</li>
+	</comps>
+   </ThingDef>
+   
+   <ThingDef ParentName="ResourceBase">
+    <defName>GR_StabilizingSerum</defName>
+    <label>stabilizing serum</label>
+    <description>This genetic cocktail hasn't differentiated yet.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <texPath>Things/Item/AlphaSerum</texPath>
+    </graphicData>
+	<tradeability>None</tradeability>
+    <statBases>
+      <MaxHitPoints>15</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>6</DeteriorationRate>
+	  <Mass>10</Mass>
+	  <MarketValue>40</MarketValue>
+    </statBases>
+    <tickerType>Normal</tickerType>
+	<thingCategories>
+      <li>GR_GeneticMaterial</li>
+    </thingCategories>
+	<stackLimit>1</stackLimit>
+	<comps>
+			
+			<li Class="CompProperties_TemperatureRuinable">
+				<minSafeTemperature>0</minSafeTemperature>
+				<maxSafeTemperature>50</maxSafeTemperature>
+				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+			</li>
+			<li Class="NewHatcher.CompProperties_RecombinatorSerum">
+        
+				
+			</li>
+	</comps>
+   </ThingDef>
+   
+   
+  <ThingDef ParentName="ResourceBase">
+    <defName>GR_RuinedGenetic</defName>
+    <label>ruined genetic material</label>
+    <description>This genetic material is ruined. Useless, though some merchant may pay a pittance for the glass shards.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <texPath>Things/Item/GR_RuinedGenetic</texPath>
+    </graphicData>
+	<tradeability>Sellable</tradeability>
+    <statBases>
+      <MaxHitPoints>15</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>6</DeteriorationRate>
+	  <Mass>0.1</Mass>
+	  <MarketValue>1</MarketValue>
+    </statBases>
+	<thingCategories>
+      <li>GR_GeneticMaterial</li>
+    </thingCategories>
+	<stackLimit>1</stackLimit>
+	
+   </ThingDef>
+  
+  
+ 
+
+  
+</Defs>

@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+
+
+  
+    <ThingDef ParentName="FurnitureBase">
+    <defName>GR_HugeBearRug</defName>
+    <label>huge bear rug</label>
+	<description>A bear pelt rug. Taxidermy seems to be in vogue on the Rim!</description>
+
+    <graphicData>
+      <texPath>Things/Building/HugeBearRug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>    
+		<drawSize>(2,2)</drawSize>	  
+    </graphicData>
+	<tradeability>Sellable</tradeability>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+	<pathCost>0</pathCost>
+    <castEdgeShadows>false</castEdgeShadows>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>495</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+	 
+			<Beauty>50</Beauty>
+			
+			<Cleanliness>0.6</Cleanliness>
+    </statBases>
+
+			<minifiedDef>MinifiedThing</minifiedDef>
+		<rotatable>true</rotatable>
+<building>    
+			<isEdifice>false</isEdifice>
+		</building>
+		<size>(2,2)</size>
+		    <costList>
+      <GR_HugeBearPelt>1</GR_HugeBearPelt>	
+    </costList>
+  </ThingDef>
+  
+      <ThingDef ParentName="FurnitureBase">
+    <defName>GR_HugeBearCatRug</defName>
+    <label>huge bearcat rug</label>
+	<description>A bearcat pelt rug. This thing seems to be quite more exotic than other pelt rugs!</description>
+
+    <graphicData>
+      <texPath>Things/Building/GR_HugeBearCatRug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>    
+		<drawSize>(2,2)</drawSize>	  
+    </graphicData>
+	<tradeability>Sellable</tradeability>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+	<pathCost>0</pathCost>
+    <castEdgeShadows>false</castEdgeShadows>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>495</WorkToBuild>
+      <Mass>15</Mass>
+      <Flammability>1.0</Flammability>
+	 
+			<Beauty>60</Beauty>
+			
+			<Cleanliness>0.4</Cleanliness>
+    </statBases>
+
+			<minifiedDef>MinifiedThing</minifiedDef>
+		<rotatable>true</rotatable>
+<building>    
+			<isEdifice>false</isEdifice>
+		</building>
+		<size>(2,2)</size>
+		    <costList>
+      <GR_HugeBearCatPelt>1</GR_HugeBearCatPelt>	
+    </costList>
+  </ThingDef>
+  
+      <ThingDef ParentName="FurnitureBase">
+    <defName>GR_WolfRug</defName>
+    <label>wolf rug</label>
+	<description>A wolf pelt rug. Taxidermy seems to be in vogue on the Rim!</description>
+
+    <graphicData>
+      <texPath>Things/Building/WolfRug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>    
+		<drawSize>(2,2)</drawSize>	  
+    </graphicData>
+	<tradeability>Sellable</tradeability>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+	<pathCost>0</pathCost>
+    <castEdgeShadows>false</castEdgeShadows>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>495</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+	 
+			<Beauty>35</Beauty>
+			
+			<Cleanliness>0.7</Cleanliness>
+    </statBases>
+
+			<minifiedDef>MinifiedThing</minifiedDef>
+		<rotatable>true</rotatable>
+<building>    
+			<isEdifice>false</isEdifice>
+		</building>
+		<size>(2,2)</size>
+		    <costList>
+      <GR_WolfPelt>1</GR_WolfPelt>	
+    </costList>
+  </ThingDef>
+  
+  <ThingDef ParentName="FurnitureBase">
+    <defName>GR_MuffaloRug</defName>
+    <label>muffalo pelt rug</label>
+	<description>A muffalo pelt rug. Taxidermy seems to be in vogue on the Rim!</description>
+
+    <graphicData>
+      <texPath>Things/Building/MuffaloRug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>    
+		<drawSize>(2,2)</drawSize>	  
+    </graphicData>
+	<tradeability>Sellable</tradeability>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+	<pathCost>0</pathCost>
+    <castEdgeShadows>false</castEdgeShadows>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>495</WorkToBuild>
+      <Mass>8</Mass>
+      <Flammability>1.0</Flammability>
+	 
+			<Beauty>40</Beauty>
+			
+			<Cleanliness>0.6</Cleanliness>
+    </statBases>
+
+			<minifiedDef>MinifiedThing</minifiedDef>
+		<rotatable>true</rotatable>
+<building>    
+			<isEdifice>false</isEdifice>
+		</building>
+		<size>(2,2)</size>
+		    <costList>
+      <GR_MuffaloPelt>1</GR_MuffaloPelt>	
+    </costList>
+  </ThingDef>
+  
+  <ThingDef ParentName="FurnitureBase">
+    <defName>GR_BoarTuskStatuette</defName>
+    <label>small boar tusk statuette</label>
+    <description>A boar tusk carved into an artistic form.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/BoarTuskStatue</texPath>
+    </graphicData>
+	<tradeability>Sellable</tradeability>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <fillPercent>0.35</fillPercent>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Mass>2</Mass>
+      <Beauty>25</Beauty>
+      <Flammability>1.0</Flammability>
+	  <SellPriceFactor>1.02</SellPriceFactor>
+    </statBases>
+    
+    <thingClass>Building_Art</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <castEdgeShadows>true</castEdgeShadows>
+    <useHitPoints>true</useHitPoints>
+   
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtSculpture</nameMaker>
+        <descriptionMaker>ArtDescription_Sculpture</descriptionMaker>
+				<canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
+      </li>
+    </comps>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+	<costList>
+      <GR_AlphaBoarTusks>2</GR_AlphaBoarTusks>	
+    </costList>
+   
+  </ThingDef>
+  
+   <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>GR_LabShelf</defName>
+    <label>lab shelf</label>
+    <description>A shelf for storing miscellaneous laboratory items. Items stored in this will not deteriorate, even if outside.</description>
+    <thingClass>Building_Storage</thingClass>
+    <graphicData>
+      <texPath>Things/Building/GR_LabShelf</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,2)</drawSize>
+    </graphicData>
+	
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+   <costList>
+      <Steel>30</Steel>    
+	  <GR_OrganicPulp>2</GR_OrganicPulp>
+    </costList>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>15</Mass>
+      <WorkToBuild>600</WorkToBuild>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>GR_Incubators</li>
+			<li>GR_AlphaSerums</li>
+			<li>GR_GeneticMaterial</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <designationHotKey>Misc12</designationHotKey>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+    <designationCategory>GR_GeneticsTab</designationCategory>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>GR_NutrientVat</defName>
+    <label>nutrient vat</label>
+    <description>A slurry of liquefied organic pulp fills this reinforced glass vat. This solution is used by genetic experiments, and increases work speed when placed near a Genetic Rim machine. One workbench can use to up to two nutrient vats.</description>
+	<thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/GR_NutrientVat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.1,2.1)</drawSize>
+      
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+	<rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.35</staticSunShadowHeight>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <pathCost>60</pathCost>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1800</WorkToBuild>
+      <Mass>40</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <size>(1,2)</size>
+    <costList>
+      <Steel>100</Steel>
+	  <GR_OrganicPulp>10</GR_OrganicPulp>
+
+    </costList>
+    
+    <designationCategory>GR_GeneticsTab</designationCategory>
+	<researchPrerequisites><li>GR_GeneticEngineering</li></researchPrerequisites>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.06</WorkTableWorkSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>2</maxSimultaneous>
+      </li>
+    </comps>
+    <designationHotKey>Misc6</designationHotKey>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+  </ThingDef>
+
+
+
+</Defs>

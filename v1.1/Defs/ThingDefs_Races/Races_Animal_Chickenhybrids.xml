@@ -1,0 +1,1041 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Chicken - Bear -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Chickenbear</defName>
+		<label>chickenbear</label>
+		<description>A chicken / bear hybrid. Lays eggs, and can defend itself in combat slightly better than a chicken. \n\nUseful abilities: Their sharp, small teeth can be harvested when butchering them, and they are slightly valuable and lightweight.</description>
+		<statBases>
+			<MoveSpeed>1.8</MoveSpeed>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<MarketValue>115</MarketValue>
+			<LeatherAmount>0</LeatherAmount>
+		</statBases>
+		<tools>
+			<li>
+				<label>claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>GR_ChickenbearEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>GR_ChickenbearEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>1.9</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<chickenRimPox>true</chickenRimPox>
+				<rage>true</rage>
+
+			</li>
+		</comps>
+		<race>
+			<fleshType>GR_Normal</fleshType>
+
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>GR_BirdWithTeeth</body>
+			<baseHungerRate>0.45</baseHungerRate>
+			<baseBodySize>0.25</baseBodySize>
+			<baseHealthScale>0.5</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<trainability>None</trainability>
+			<wildness>0.36</wildness>
+			<useLeatherFrom>Chicken</useLeatherFrom>
+			<useMeatFrom>Chicken</useMeatFrom>
+			<gestationPeriodDays>8</gestationPeriodDays>
+			<mateMtbHours>9</mateMtbHours>
+			<litterSizeCurve>
+				<points>
+					<li>(0.99, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>8</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Chick_Call</soundWounded>
+					<soundDeath>Pawn_Chick_Call</soundDeath>
+					<soundCall>Pawn_Chick_Call</soundCall>
+					<soundAngry>Pawn_Chick_Call</soundAngry>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.12</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3</minAge>
+					<soundWounded>Pawn_Chicken_Wounded</soundWounded>
+					<soundDeath>Pawn_Chicken_Death</soundDeath>
+					<soundCall>Pawn_Chicken_Call</soundCall>
+					<soundAngry>Pawn_Chicken_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+
+		<defName>GR_Chickenbear</defName>
+		<label>chickenbear</label>
+		<race>GR_Chickenbear</race>
+		<combatPower>28</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<labelMale>chickenbear rooster</labelMale>
+		<labelFemale>chickenbear hen</labelFemale>
+		<lifeStages>
+			<li>
+				<label>chickenbear chick</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenbear/Chickenbear</texPath>
+					<drawSize>0.55</drawSize>
+					<color>(223,219,108)</color>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<drawSize>0.55</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<labelMale>chickenbear cockerel</labelMale>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenbear/Chickenbear</texPath>
+					<drawSize>0.85</drawSize>
+					<color>(200,150,85)</color>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenbear/Chickenbear</texPath>
+					<drawSize>0.83</drawSize>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenbear/Chickenbear</texPath>
+					<drawSize>0.97</drawSize>
+					<color>(200,150,85)</color>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.05)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenbear/Chickenbear</texPath>
+					<drawSize>0.95</drawSize>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<drawSize>0.95</drawSize>
+				</dessicatedBodyGraphicData>
+				<butcherBodyPart>
+					<bodyPartGroup>Teeth</bodyPartGroup>
+					<thing>GR_VerySmallTeeth</thing>
+					<allowFemale>true</allowFemale>
+				</butcherBodyPart>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Chicken - Boomalope -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Chickenlope</defName>
+		<label>chickenlope</label>
+		<description>A chicken / boomalope hybrid. This sickly looking creature is basically useless. Now, if you gather a lot of them, and kill them in a chain reaction... \n\nUseful abilities: Explodes on death. Produces minute amounts of chemfuel every day.</description>
+		<statBases>
+			<MoveSpeed>2.15</MoveSpeed>
+			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
+			<MarketValue>95</MarketValue>
+			<LeatherAmount>0</LeatherAmount>
+		</statBases>
+		<tools>
+			<li>
+				<label>claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>GR_ChickenlopeEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>GR_ChickenlopeEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>2</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+			</li>
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>Chemfuel</resourceDef>
+				<gatheringIntervalDays>1</gatheringIntervalDays>
+				<resourceAmount>5</resourceAmount>
+				<customResourceString>ChemfuelProd</customResourceString>
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<chickenRimPox>true</chickenRimPox>
+				<explodable>true</explodable>
+
+			</li>
+		</comps>
+		<race>
+			<fleshType>GR_Normal</fleshType>
+
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>Bird</body>
+			<deathActionWorkerClass>DeathActionWorker_SmallExplosion</deathActionWorkerClass>
+			<executionRange>4</executionRange>
+			<baseHungerRate>0.35</baseHungerRate>
+			<baseBodySize>0.18</baseBodySize>
+			<baseHealthScale>0.25</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<useLeatherFrom>Chicken</useLeatherFrom>
+			<useMeatFrom>Chicken</useMeatFrom>
+			<trainability>None</trainability>
+			<wildness>0.36</wildness>
+			<gestationPeriodDays>9</gestationPeriodDays>
+			<mateMtbHours>8</mateMtbHours>
+			<litterSizeCurve>
+				<points>
+					<li>(0.99, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>6</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Chick_Call</soundWounded>
+					<soundDeath>Pawn_Chick_Call</soundDeath>
+					<soundCall>Pawn_Chick_Call</soundCall>
+					<soundAngry>Pawn_Chick_Call</soundAngry>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.12</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3</minAge>
+					<soundWounded>Pawn_Chicken_Wounded</soundWounded>
+					<soundDeath>Pawn_Chicken_Death</soundDeath>
+					<soundCall>Pawn_Chicken_Call</soundCall>
+					<soundAngry>Pawn_Chicken_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_Chickenlope</defName>
+		<label>chickenlope</label>
+		<race>GR_Chickenlope</race>
+		<combatPower>24</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<labelMale>chickenlope rooster</labelMale>
+		<labelFemale>chickenlope hen</labelFemale>
+		<lifeStages>
+			<li>
+				<label>chickenlope chick</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenlope/Chickenlope</texPath>
+					<drawSize>0.45</drawSize>
+					<color>(223,219,108)</color>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<drawSize>0.45</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<labelMale>chickenlope cockerel</labelMale>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenlope/Chickenlope</texPath>
+					<drawSize>0.75</drawSize>
+					<color>(200,150,85)</color>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenlope/Chickenlope</texPath>
+					<drawSize>0.73</drawSize>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<drawSize>0.7</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenlope/Chickenlope</texPath>
+					<drawSize>0.87</drawSize>
+					<color>(200,150,85)</color>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.05)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenlope/Chickenlope</texPath>
+					<drawSize>0.85</drawSize>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<drawSize>0.85</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Chicken - Muffalo -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Chickenffalo</defName>
+		<label>chickenffalo</label>
+		<description>A chicken / muffalo hybrid. Lays eggs, produces milk, wool and can be used as a pack beast. Of course, it doesn't excel at ANY of those things, but it's the price you pay for convenience. They are so cute, though, wearing their tiny bags...</description>
+		<statBases>
+			<MoveSpeed>3.1</MoveSpeed>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+			<MarketValue>175</MarketValue>
+			<LeatherAmount>0</LeatherAmount>
+		</statBases>
+		<tools>
+			<li>
+				<label>claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+			</li>
+
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+
+		<comps>
+			<li Class="CompProperties_Milkable">
+				<milkDef>GR_ChickenffaloMilk</milkDef>
+				<milkIntervalDays>1</milkIntervalDays>
+				<milkAmount>10</milkAmount>
+			</li>
+			<li Class="CompProperties_Shearable">
+
+				<woolDef>GR_ChickenffaloWool</woolDef>
+				<shearIntervalDays>1</shearIntervalDays>
+				<woolAmount>4</woolAmount>
+			</li>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>GR_ChickenffaloEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>GR_ChickenffaloEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>1.8</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<chickenRimPox>true</chickenRimPox>
+				<carrymore>true</carrymore>
+
+			</li>
+
+		</comps>
+		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<herdAnimal>true</herdAnimal>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<fleshType>GR_Normal</fleshType>
+
+			<packAnimal>true</packAnimal>
+			<body>GR_BirdWithTeeth</body>
+			<baseHungerRate>0.55</baseHungerRate>
+			<baseBodySize>0.2</baseBodySize>
+			<baseHealthScale>0.45</baseHealthScale>
+			<useLeatherFrom>Chicken</useLeatherFrom>
+			<useMeatFrom>Chicken</useMeatFrom>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<trainability>None</trainability>
+			<wildness>0.36</wildness>
+			<gestationPeriodDays>20</gestationPeriodDays>
+			<mateMtbHours>8</mateMtbHours>
+			<litterSizeCurve>
+				<points>
+					<li>(0.99, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>6</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Chick_Call</soundWounded>
+					<soundDeath>Pawn_Chick_Call</soundDeath>
+					<soundCall>Pawn_Chick_Call</soundCall>
+					<soundAngry>Pawn_Chick_Call</soundAngry>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.12</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3</minAge>
+					<soundWounded>Pawn_Chicken_Wounded</soundWounded>
+					<soundDeath>Pawn_Chicken_Death</soundDeath>
+					<soundCall>Pawn_Chicken_Call</soundCall>
+					<soundAngry>Pawn_Chicken_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_Chickenffalo</defName>
+		<label>chickenffalo</label>
+		<race>GR_Chickenffalo</race>
+		<combatPower>24</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<labelMale>chickenffalo rooster</labelMale>
+		<labelFemale>chickenffalo hen</labelFemale>
+		<lifeStages>
+			<li>
+				<label>chickenffalo chick</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenffalo/Chickenffalo</texPath>
+					<drawSize>0.45</drawSize>
+					<color>(223,219,108)</color>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<drawSize>0.45</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<labelMale>chickenffalo cockerel</labelMale>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenffalo/Chickenffalo</texPath>
+					<drawSize>0.75</drawSize>
+					<color>(200,150,85)</color>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenffalo/Chickenffalo</texPath>
+					<drawSize>0.73</drawSize>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<drawSize>0.7</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenffalo/Chickenffalo</texPath>
+					<drawSize>0.87</drawSize>
+					<color>(200,150,85)</color>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.05)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenffalo/Chickenffalo</texPath>
+					<drawSize>0.85</drawSize>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<drawSize>0.85</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Chicken - Wolf -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Chickenwolf</defName>
+		<label>chickenwolf</label>
+		<description>A chicken / wolf hybrid. Fast moving, and with a nasty bite! \n\nUseful abilities: Their sharp, small teeth can be harvested when butchering them, and they are slightly valuable and lightweight.</description>
+		<statBases>
+			<MoveSpeed>5.25</MoveSpeed>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+			<MarketValue>150</MarketValue>
+			<LeatherAmount>0</LeatherAmount>
+		</statBases>
+		<tools>
+			<li>
+				<label>claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>0.4</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>GR_ChickenwolfEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>GR_ChickenwolfEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>3</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<chickenRimPox>true</chickenRimPox>
+				<adrenalineburst>true</adrenalineburst>
+
+			</li>
+		</comps>
+		<race>
+			<fleshType>GR_Normal</fleshType>
+
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>GR_BirdWithTeeth</body>
+			<baseHungerRate>0.8</baseHungerRate>
+			<baseBodySize>0.2</baseBodySize>
+			<baseHealthScale>0.45</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<useLeatherFrom>Chicken</useLeatherFrom>
+			<useMeatFrom>Chicken</useMeatFrom>
+			<trainability>None</trainability>
+			<wildness>0.36</wildness>
+			<gestationPeriodDays>15</gestationPeriodDays>
+			<mateMtbHours>8</mateMtbHours>
+			<litterSizeCurve>
+				<points>
+					<li>(0.99, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>7</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Chick_Call</soundWounded>
+					<soundDeath>Pawn_Chick_Call</soundDeath>
+					<soundCall>Pawn_Chick_Call</soundCall>
+					<soundAngry>Pawn_Chick_Call</soundAngry>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.12</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3</minAge>
+					<soundWounded>Pawn_Chicken_Wounded</soundWounded>
+					<soundDeath>Pawn_Chicken_Death</soundDeath>
+					<soundCall>Pawn_Chicken_Call</soundCall>
+					<soundAngry>Pawn_Chicken_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_Chickenwolf</defName>
+		<label>chickenwolf</label>
+		<race>GR_Chickenwolf</race>
+		<combatPower>30</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<labelMale>chickenwolf rooster</labelMale>
+		<labelFemale>chickenwolf hen</labelFemale>
+		<lifeStages>
+			<li>
+				<label>chickenwolf chick</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenwolf/Chickenwolf</texPath>
+					<drawSize>0.45</drawSize>
+					<color>(223,219,108)</color>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<drawSize>0.45</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<labelMale>chickenwolf cockerel</labelMale>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenwolf/Chickenwolf</texPath>
+					<drawSize>0.75</drawSize>
+					<color>(200,150,85)</color>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenwolf/Chickenwolf</texPath>
+					<drawSize>0.73</drawSize>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<drawSize>0.7</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenwolf/Chickenwolf</texPath>
+					<drawSize>0.87</drawSize>
+					<color>(200,150,85)</color>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.05)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenwolf/Chickenwolf</texPath>
+					<drawSize>0.85</drawSize>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<drawSize>0.85</drawSize>
+				</dessicatedBodyGraphicData>
+				<butcherBodyPart>
+					<bodyPartGroup>Teeth</bodyPartGroup>
+					<thing>GR_VerySmallTeeth</thing>
+					<allowFemale>true</allowFemale>
+				</butcherBodyPart>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+	<!-- Chicken - Rabbit -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Chickenrabbit</defName>
+		<label>chickenrabbit</label>
+		<description>A Chicken / Rabbit hybrid. What happens when you artificially crossbreed two fast breeding creatures? The chickenrabbit is an ecological disaster waiting to happen.\n\nUseful abilities: Egg layer. EXTREMELY fast breeding.</description>
+		<statBases>
+			<MoveSpeed>2.1</MoveSpeed>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<MarketValue>45</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>GR_ChickenrabbitEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>GR_ChickenrabbitEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>1</eggLayIntervalDays>
+				<eggCountRange>
+					<min>1</min>
+					<max>2</max>
+				</eggCountRange>
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<chickenRimPox>true</chickenRimPox>
+				<burrowing>true</burrowing>
+			</li>
+		</comps>
+		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>GR_BirdWithTeeth</body>
+
+			<predator>false</predator>
+			<fleshType>GR_Normal</fleshType>
+
+			<baseBodySize>0.18</baseBodySize>
+			<baseHungerRate>0.3</baseHungerRate>
+			<baseHealthScale>0.35</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<mateMtbHours>1</mateMtbHours>
+			<gestationPeriodDays>5</gestationPeriodDays>
+			<trainability>None</trainability>
+			<wildness>0.47</wildness>
+
+			<useLeatherFrom>Chicken</useLeatherFrom>
+			<useMeatFrom>Chicken</useMeatFrom>
+			<litterSizeCurve>
+				<points>
+					<li>(0.99, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>6</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Chick_Call</soundWounded>
+					<soundDeath>Pawn_Chick_Call</soundDeath>
+					<soundCall>Pawn_Chick_Call</soundCall>
+					<soundAngry>Pawn_Chick_Call</soundAngry>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.12</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3</minAge>
+					<soundWounded>Pawn_Chicken_Wounded</soundWounded>
+					<soundDeath>Pawn_Chicken_Death</soundDeath>
+					<soundCall>Pawn_Chicken_Call</soundCall>
+					<soundAngry>Pawn_Chicken_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_Chickenrabbit</defName>
+		<label>chickenrabbit</label>
+		<race>GR_Chickenrabbit</race>
+		<combatPower>30</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<labelMale>chickenrabbit rooster</labelMale>
+		<labelFemale>chickenrabbit hen</labelFemale>
+		<lifeStages>
+			<li>
+				<label>chickenrabbit chick</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenrabbit/Chickenrabbit</texPath>
+					<drawSize>0.6</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<drawSize>.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenrabbit/Chickenrabbit</texPath>
+					<drawSize>1.1</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<drawSize>1.1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenrabbit/Chickenrabbit</texPath>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+		<!-- Chicken - Wolf -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Chickencat</defName>
+		<label>chickencat</label>
+		<description>A chicken / cat hybrid. Fast moving, specially intelligent. It is one of the few chicken hybrids that can be somewhat trained.\n\nUseful abilities: Like all cat hybrids, they have an improved melee dodge ability, making them perfect for the front lines, and a short nuzzle period. The chickencat obviously produces eggs.</description>
+		<statBases>
+			<MoveSpeed>4.5</MoveSpeed>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+			<MarketValue>150</MarketValue>
+			<LeatherAmount>20</LeatherAmount>
+		</statBases>
+		<tools>
+			<li>
+				<label>claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.2</cooldownTime>
+				<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>0.4</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>GR_ChickencatEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>GR_ChickencatEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>3</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<chickenRimPox>true</chickenRimPox>
+				<catreflexes>true</catreflexes>
+
+			</li>
+			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+				<hediffname>GR_MeleeDodge</hediffname>
+				<hediffseverity>1</hediffseverity>
+			</li>
+		</comps>
+		<race>
+			<fleshType>GR_Normal</fleshType>
+
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>GR_BirdWithTeeth</body>
+			<baseHungerRate>0.75</baseHungerRate>
+			<baseBodySize>0.2</baseBodySize>
+			<baseHealthScale>0.35</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<useLeatherFrom>Chicken</useLeatherFrom>
+			<useMeatFrom>Chicken</useMeatFrom>
+			<trainability>Intermediate</trainability>
+						<nuzzleMtbHours>24</nuzzleMtbHours>
+
+			<wildness>0.36</wildness>
+			<gestationPeriodDays>15</gestationPeriodDays>
+			<mateMtbHours>8</mateMtbHours>
+			<litterSizeCurve>
+				<points>
+					<li>(0.99, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>7</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Chick_Call</soundWounded>
+					<soundDeath>Pawn_Chick_Call</soundDeath>
+					<soundCall>Pawn_Chick_Call</soundCall>
+					<soundAngry>Pawn_Chick_Call</soundAngry>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.12</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3</minAge>
+					<soundWounded>Pawn_Chicken_Wounded</soundWounded>
+					<soundDeath>Pawn_Chicken_Death</soundDeath>
+					<soundCall>Pawn_Chicken_Call</soundCall>
+					<soundAngry>Pawn_Chicken_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_Chickencat</defName>
+		<label>chickencat</label>
+		<race>GR_Chickencat</race>
+		<combatPower>30</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<labelMale>chickencat rooster</labelMale>
+		<labelFemale>chickencat hen</labelFemale>
+		<lifeStages>
+			<li>
+				<label>chickencat chick</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickencat/GR_Chickencat</texPath>
+					<drawSize>0.45</drawSize>
+					<color>(223,219,108)</color>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<drawSize>0.45</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<labelMale>chickencat cockerel</labelMale>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickencat/GR_Chickencat</texPath>
+					<drawSize>0.75</drawSize>
+					<color>(200,150,85)</color>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickencat/GR_Chickencat</texPath>
+					<drawSize>0.73</drawSize>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<drawSize>0.7</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickencat/GR_Chickencat</texPath>
+					<drawSize>0.87</drawSize>
+					<color>(200,150,85)</color>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.05)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickencat/GR_Chickencat</texPath>
+					<drawSize>0.85</drawSize>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<drawSize>0.85</drawSize>
+				</dessicatedBodyGraphicData>
+				
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>

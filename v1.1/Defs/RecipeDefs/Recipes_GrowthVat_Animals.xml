@@ -1,0 +1,1507 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--=============== Hybrid Implants Bases ====================-->
+
+	<RecipeDef>
+		<defName>GR_CraftImplantSteelWireMesh</defName>
+		<label>craft hybrid implant steel wire mesh (tier 1)</label>
+		<description>Craft hybrid implant steel wire mesh.</description>
+		<jobString>Building Implant Mesh</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>GR_TissueGrowingVat</li>	  
+		</recipeUsers>	
+		<ingredients>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<products>
+			<GR_ImplantSteelWireMesh>1</GR_ImplantSteelWireMesh>
+		</products>
+	</RecipeDef>
+
+
+	<RecipeDef>
+		<defName>GR_CraftImplantPlasteelWireMesh</defName>
+		<label>craft hybrid implant plasteel wire mesh (tier 2)</label>
+		<description>Craft hybrid implant plasteel wire mesh.</description>
+		<jobString>Building Implant Mesh</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>GR_TissueGrowingVat</li>	  
+		</recipeUsers>	
+		<ingredients>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<products>
+			<GR_ImplantPlasteelWireMesh>1</GR_ImplantPlasteelWireMesh>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_CraftImplantUraniumWireMesh</defName>
+		<label>craft hybrid implant uranium wire mesh (tier 3)</label>
+		<description>Craft hybrid implant uranium wire mesh.</description>
+		<jobString>Building Implant Mesh</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>GR_TissueGrowingVat</li>	  
+		</recipeUsers>	
+		<ingredients>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>Uranium</li>
+				<li>ComponentIndustrial</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<products>
+			<GR_ImplantUraniumWireMesh>1</GR_ImplantUraniumWireMesh>
+		</products>
+	</RecipeDef>
+
+	<!--=============== Animal Hybrid Implants ====================-->
+
+	<RecipeDef Name="GR_HybridProsthesisBase" Abstract="True">
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>GR_TissueGrowingVat</li>
+		</recipeUsers>
+		<researchPrerequisite>GR_HybridImplantology</researchPrerequisite>
+
+	</RecipeDef>
+
+	<!--=============== Legs ====================-->
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_BearLeg</defName>
+		<label>animal Implant: bear leg (tier 1)</label>
+		<description>Craft a prosthetic animal leg strengthened with bear muscles, and ending in a powerful bear claw that adds a powerful melee attack.</description>
+		<jobString>Making bear leg implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantSteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BearGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantSteelWireMesh</li>
+				<li>WoodLog</li>
+				<li>GR_BearGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_BearLeg>1</GR_BearLeg>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_LizardLeg</defName>
+		<label>animal Implant: bionic lizard leg (tier 2)</label>
+		<description>Craft a bionic animal leg reinforced with tough lizard skin.</description>
+		<jobString>Making lizard leg implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ReptilianGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>Steel</li>
+				<li>GR_ReptilianGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_LizardLeg>1</GR_LizardLeg>
+		</products>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_ThrumboLeg</defName>
+		<label>animal Implant: bionic thrumbo leg (tier 3)</label>
+		<description>Craft a bionic animal leg reinforced with muscle tissue from a powerful thrumbo.</description>
+		<jobString>Making thrumbo leg implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantUraniumWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ThrumboGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantUraniumWireMesh</li>
+				<li>Plasteel</li>
+				<li>GR_ThrumboGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_ThrumboLeg>1</GR_ThrumboLeg>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
+	
+		<!--=============== Tail ====================-->
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_ScytherTail</defName>
+		<label>animal Implant: scyther tail (tier 2)</label>
+		<description>Craft a scyther tail by attaching a scyther blade to an animal's tail. Uhmmm... where did you put all those old scyther blades? You asked around and no caravans seem to be trading them nowadays... Well, you will have to manufacture one using a cocktail of different genes. Note that only creatures with a natural tail can use this.</description>
+		<jobString>Making scyther tail implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_InsectoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ReptilianGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_InsectoidGenetic</li>
+				<li>GR_ReptilianGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_ScytherTail>1</GR_ScytherTail>
+		</products>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_MechaTail</defName>
+		<label>animal Implant: mechanoid tail (tier 3)</label>
+		<description>Craft an advanced mechanoid tail, even more powerful than the old scyther tail. Note that only creatures with a natural tail can use this.</description>
+		<jobString>Making mechanoid tail implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantUraniumWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MechanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantUraniumWireMesh</li>
+				<li>GR_MechanoidGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MechaTail>1</GR_MechaTail>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<!--=============== Eyes ====================-->	
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_CanidEye</defName>
+		<label>animal Implant: canid eye (tier 1)</label>
+		<description>Craft an eye implant that uses genetic splicing with canid genes to give an old (or damaged) eye decent vision. This implant is not meant to replace healthy eyes.</description>
+		<jobString>Making canid eye implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantSteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_WolfGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantSteelWireMesh</li>
+				<li>Silver</li>
+				<li>GR_WolfGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_CanidEye>1</GR_CanidEye>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_InsectileEye</defName>
+		<label>animal Implant: insectile eye (tier 2)</label>
+		<description>Craft a bionic implant which gives the creature compound insectile eyes. Compared with simple eyes, compound eyes possess a very large view angle, and can detect fast movement.</description>
+		<jobString>Making insectile eye implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_InsectoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>Silver</li>
+				<li>GR_InsectoidGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_InsectileEye>1</GR_InsectileEye>
+		</products>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_ThrumboEye</defName>
+		<label>animal Implant: bionic thrumbo eye (tier 3)</label>
+		<description>Craft a bionic eye reinforced with specialized photoreceptors from a powerful thrumbo.</description>
+		<jobString>Making thrumbo eye implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantUraniumWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ThrumboGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantUraniumWireMesh</li>
+				<li>Silver</li>
+				<li>GR_ThrumboGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_ThrumboEye>1</GR_ThrumboEye>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>		
+
+	<!--=============== Ears ====================-->	
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_RodentEar</defName>
+		<label>animal Implant: rodent ear (tier 1)</label>
+		<description>Craft an ear implant that uses genetic splicing with rodent genes to give an old (or damaged) ear decent hearing. This implant is not meant to replace healthy ears.</description>
+		<jobString>Making rodent ear implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantSteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_RodentGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantSteelWireMesh</li>
+				<li>GR_RodentGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_RodentEar>1</GR_RodentEar>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_MothTympanalOrgan</defName>
+		<label>animal Implant: moth tympanal organ (tier 2)</label>
+		<description>Craft a bionic implant adding a moth tympanal organ to the creature's ear. Moths can hear sounds of a higher frequency than any bat can produce.</description>
+		<jobString>Making moth tympanal organ implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_InsectoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_InsectoidGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MothTympanalOrgan>1</GR_MothTympanalOrgan>
+		</products>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
+	
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_MechaReceptors</defName>
+		<label>animal Implant: mechanoid auditory receptors (tier 3)</label>
+		<description>Craft mechanoid auditory receptors that can scan a really wide band of frequencies.</description>
+		<jobString>Making mechanoid auditory receptors implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantUraniumWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MechanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantUraniumWireMesh</li>
+				<li>GR_MechanoidGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MechaReceptors>1</GR_MechaReceptors>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
+
+	<!--=============== Noses ====================-->	
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_RodentNose</defName>
+		<label>animal Implant: rodent nose (tier 1)</label>
+		<description>Craft an implant that uses genetic splicing with rodent genes to give an old (or damaged) nose decent smelling. This implant is not meant to replace healthy noses. Can't be installed on birds and insects.</description>
+		<jobString>Making rodent nose implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantSteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_RodentGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantSteelWireMesh</li>
+				<li>GR_RodentGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_RodentNose>1</GR_RodentNose>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_InsectoidPheromones</defName>
+		<label>animal Implant: insectoid pheromones (tier 2)</label>
+		<description>Craft an implant that uses genetic splicing with alien insectoid genes to give the ability to detect pheromones, thus improving the olfactory system. Can't be installed on birds and (ironically) insects.</description>
+		<jobString>Making insectoid pheromones implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_InsectoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_InsectoidGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_InsectoidPheromones>1</GR_InsectoidPheromones>
+		</products>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_MiniatureThrumboHorn</defName>
+		<label>animal Implant: miniature thrumbo horn (tier 3)</label>
+		<description>Craft a bionic implant adding a small thrumbo horn where the creature's nose used to be. This implant acts as a nose, allowing the creature to breathe and smell, and can be used by the creature in melee. Birds, insects, and creatures that already have a thrumbo horn don't have enough space on their skull to install this implant.</description>
+		<jobString>Making miniature thrumbo horn implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantUraniumWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ThrumboGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantUraniumWireMesh</li>
+				<li>GR_ThrumboGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MiniatureThrumboHorn>1</GR_MiniatureThrumboHorn>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
+
+	<!--=============== Jaws ====================-->	
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_WolfJaws</defName>
+		<label>animal Implant: wolf jaws (tier 1)</label>
+		<description>Craft an implant that uses genetic splicing with wolf genes to give an old (or damaged) jaw decent functioning. This implant is not meant to replace healthy jaws.</description>
+		<jobString>Making wolf jaws implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantSteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_WolfGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantSteelWireMesh</li>
+				<li>WoodLog</li>
+				<li>GR_WolfGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_WolfJaws>1</GR_WolfJaws>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_InsectMandibles</defName>
+		<label>animal Implant: insect mandibles (tier 2)</label>
+		<description>Craft a bionic implant adding insect mandibles to the creature's face. Insect mandibles improve manipulation and eating, while also working as an offesive weapon</description>
+		<jobString>Making insect mandibles implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_InsectoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_InsectoidGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_InsectMandibles>1</GR_InsectMandibles>
+		</products>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_ThrumboJaws</defName>
+		<label>animal Implant: bionic thrumbo jaws (tier 3)</label>
+		<description>Craft a bionic implant adding thrumbo jaws to the creature's mouth. These creatures devour trees, so you can imagine their jaws are up to the task.</description>
+		<jobString>Making bionic thrumbo jaws implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantUraniumWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ThrumboGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantUraniumWireMesh</li>
+				<li>GR_ThrumboGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_ThrumboJaws>1</GR_ThrumboJaws>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
+
+	<!--=============== Spines ====================-->	
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_MuffaloSpine</defName>
+		<label>animal Implant: muffalo spine (tier 1)</label>
+		<description>Craft a spine implant that uses genetic splicing with muffalo genes to give an old (or damaged) spine decent functioning. This implant is not meant to replace healthy spines.</description>
+		<jobString>Making muffalo spine implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantSteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MuffaloGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantSteelWireMesh</li>
+				<li>GR_MuffaloGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MuffaloSpine>1</GR_MuffaloSpine>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_CrocodileSpine</defName>
+		<label>animal Implant: crocodile spine (tier 2)</label>
+		<description>Craft a bionic implant adding a sturdy crocodile spine to the creature's skeletal system.</description>
+		<jobString>Making crocodile spine implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ReptilianGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_ReptilianGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_CrocodileSpine>1</GR_CrocodileSpine>
+		</products>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
+	
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_MechaSpine</defName>
+		<label>animal Implant: mechanoid spine (tier 3)</label>
+		<description>Craft a bionic implant adding a plasteel structure with active mechanites to the creature's skeletal system.</description>
+		<jobString>Making mechanoid spine implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantUraniumWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MechanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantUraniumWireMesh</li>
+				<li>GR_MechanoidGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MechaSpine>1</GR_MechaSpine>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
+
+	<!--=============== Brain ====================-->	
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_ChickenBrains</defName>
+		<label>animal Implant: chicken brains (tier 1)</label>
+		<description>Craft an implant that uses chicken brain tissue to patch damaged neurological pathways. This implant is intended for brain-dead creatures.</description>
+		<jobString>Making wolf jaws implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantSteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ChickenGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantSteelWireMesh</li>
+				<li>Silver</li>
+				<li>GR_ChickenGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_ChickenBrains>1</GR_ChickenBrains>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_MonitorLizardBrain</defName>
+		<label>animal Implant: monitor lizard brain (tier 2)</label>
+		<description>Craft a bionic implant using monitor lizard brain tissue. This highly intelligent reptile has very quick reflexes.</description>
+		<jobString>Making monitor lizard brain implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>175</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ReptilianGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>Silver</li>
+				<li>GR_ReptilianGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MonitorLizardBrain>1</GR_MonitorLizardBrain>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_ThrumboBrain</defName>
+		<label>animal Implant: bionic thrumbo brain (tier 3)</label>
+		<description>Craft a bionic brain implant using thrumbo neural tissue. Superb intelligence and reflexes.</description>
+		<jobString>Making bionic thrumbo brain implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantUraniumWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>300</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ThrumboGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantUraniumWireMesh</li>
+				<li>Silver</li>
+				<li>GR_ThrumboGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_ThrumboBrain>1</GR_ThrumboBrain>
+		</products>
+		<skillRequirements>
+			<Crafting>14</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
+	
+		<!--=============== Hearts ====================-->	
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_BoomalopeHeart</defName>
+		<label>animal Implant: boomalope heart (tier 1)</label>
+		<description>Craft an implant that uses chemfuel to pump blood through the animal's body. This implant is intended for creatures whose heart is failing catastrophically, since it is less efficient than a natural heart.</description>
+		<jobString>Making boomalope heart implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantSteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BoomalopeGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantSteelWireMesh</li>
+				<li>Silver</li>
+				<li>GR_BoomalopeGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_BoomalopeHeart>1</GR_BoomalopeHeart>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_ChitinousHeart</defName>
+		<label>animal Implant: chitinous heart (tier 2)</label>
+		<description>Craft a bionic heart implant using a reinforced shell of insectoid chitin for protection. This is a heart designed to take a beating. Pun intended, but it's the last one, I promise .</description>
+		<jobString>Making chitinous heart implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_InsectoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>Silver</li>
+				<li>GR_InsectoidGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_ChitinousHeart>1</GR_ChitinousHeart>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
+	
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_MechaHeart</defName>
+		<label>animal Implant: mechanoid heart (tier 3)</label>
+		<description>Craft a bionic heart strengthened by the action of active mechanites.</description>
+		<jobString>Making mechanoid heart implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantUraniumWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MechanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantUraniumWireMesh</li>
+				<li>Silver</li>
+				<li>GR_MechanoidGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MechaHeart>1</GR_MechaHeart>
+		</products>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
+
+<!--=============== Lungs ====================-->	
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_MuffaloLung</defName>
+		<label>animal Implant: muffalo lung (tier 1)</label>
+		<description>Craft an implant that uses muffalo genes to increase breathing capacity.</description>
+		<jobString>Making muffalo lung implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantSteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MuffaloGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantSteelWireMesh</li>
+				<li>GR_MuffaloGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MuffaloLung>1</GR_MuffaloLung>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+	
+	<!--=============== Liver ====================-->	
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_BearLiver</defName>
+		<label>animal Implant: bear liver (tier 1)</label>
+		<description>Craft an implant that uses bear genes to improve function of the liver. Specially useful for those alcoholic chickens.</description>
+		<jobString>Making bear liver implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantSteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BearGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantSteelWireMesh</li>
+				<li>GR_BearGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_BearLiver>1</GR_BearLiver>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+	
+		<!--=============== Kidney ====================-->	
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_ChickenKidney</defName>
+		<label>animal Implant: chicken kidney (tier 1)</label>
+		<description>Craft an implant that uses chicken genes to improve function of the kidney. Birds have large kidneys. Yep, you learned that today.</description>
+		<jobString>Making chicken kidney implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantSteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ChickenGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantSteelWireMesh</li>
+				<li>GR_ChickenGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_ChickenKidney>1</GR_ChickenKidney>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+	
+			<!--=============== Stomach ====================-->	
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_BoomalopeStomach</defName>
+		<label>animal Implant: boomalope stomach (tier 1)</label>
+		<description>Craft an implant that uses boomalope genes to improve function of the stomach.</description>
+		<jobString>Making boomalope stomach implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantSteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BoomalopeGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantSteelWireMesh</li>
+				<li>GR_BoomalopeGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_BoomalopeStomach>1</GR_BoomalopeStomach>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+
+</Defs>

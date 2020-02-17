@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>GR_MechanoidInterfaceChip</defName>
+    <label>mechanoid interface chip</label>
+    <description>This stellated octahedron-shaped chip is a marvel of advanced technology. Used by mechanoids to interface technology with organics for unknown purposes, it could probably be repurposed for bioengineering. (This chip is used to create mechanoid hybrids in Genetic Rim, if you have the appropiate research)</description>
+    <graphicData>
+      <texPath>Things/Item/GR_MechanoidInterfaceChip</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>1</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <MaxHitPoints>20</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <tradeability>Sellable</tradeability>
+    <techLevel>Ultra</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+  
+    <ThingDef ParentName="UnfinishedBase">
+    <defName>GR_UnfinishedMechanoidInterfaceChip</defName>
+    <label>unfinished mechanoid interface chip</label>
+    <statBases>
+      <Flammability>0.6</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedComponent</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories Inherit="false" />
+  </ThingDef>
+  
+  
+
+
+
+
+</Defs>

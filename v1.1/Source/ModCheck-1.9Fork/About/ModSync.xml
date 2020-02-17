@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModSyncNinjaData>
+  <ID>7d2c6dd5-a2de-432a-80ff-01a413479595</ID>
+  <ModName>ModCheck[B18]</ModName>
+  <Version>1.8.1</Version>
+  <SaveBreaking>False</SaveBreaking>
+  <Host name="Github">
+    <Owner>Nightinggale</Owner>
+    <Project>ModCheck</Project>
+    <DownloadFrom>ModSyncReleases</DownloadFrom>
+    <Branch>master</Branch>
+  </Host>
+</ModSyncNinjaData>

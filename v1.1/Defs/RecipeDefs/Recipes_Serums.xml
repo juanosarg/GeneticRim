@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	
+
+	
+	<RecipeDef>
+		<defName>GR_ExtractSerumBear</defName>
+		<label>extract paragon serum from a bear</label>
+		<description>Extract paragon serum from a bear corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+				<li>GR_AlphaSerumExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+				
+					<thingDefs>
+						<li>Corpse_Bear_Grizzly</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+				<li>Corpse_Bear_Grizzly</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_BearSerum>1</GR_BearSerum>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_ExtractSerumBoar</defName>
+		<label>extract paragon serum from a wild boar</label>
+		<description>Extract paragon serum from a boar corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+				<li>GR_AlphaSerumExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+				
+					<thingDefs>
+						<li>Corpse_WildBoar</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+				<li>Corpse_WildBoar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_BoarSerum>1</GR_BoarSerum>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+  
+	<RecipeDef>
+		<defName>GR_ExtractSerumBoomalope</defName>
+		<label>extract paragon serum from a boomalope</label>
+		<description>Extract paragon serum from a boomalope corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+				<li>GR_AlphaSerumExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+				
+					<thingDefs>
+						<li>Corpse_Boomalope</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+				<li>Corpse_Boomalope</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_BoomalopeSerum>1</GR_BoomalopeSerum>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_ExtractSerumChicken</defName>
+		<label>extract paragon serum from a chicken</label>
+		<description>Extract paragon serum from a chicken corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+				<li>GR_AlphaSerumExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+				
+					<thingDefs>
+						<li>Corpse_Chicken</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+				<li>Corpse_Chicken</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_ChickenSerum>1</GR_ChickenSerum>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_ExtractSerumEmu</defName>
+		<label>extract paragon serum from an emu</label>
+		<description>Extract paragon serum from an emu corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+				<li>GR_AlphaSerumExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+				
+					<thingDefs>
+						<li>Corpse_Emu</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+				<li>Corpse_Emu</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_EmuSerum>1</GR_EmuSerum>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+ 
+	<RecipeDef>
+		<defName>GR_ExtractSerumMuffalo</defName>
+		<label>extract paragon serum from a muffalo</label>
+		<description>Extract paragon serum from a muffalo corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+				<li>GR_AlphaSerumExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+				
+					<thingDefs>
+						<li>Corpse_Muffalo</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+				<li>Corpse_Muffalo</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MuffaloSerum>1</GR_MuffaloSerum>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef> 
+	
+	<RecipeDef>
+		<defName>GR_ExtractSerumOstrich</defName>
+		<label>extract paragon serum from an ostrich</label>
+		<description>Extract paragon serum from an ostrich corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+				<li>GR_AlphaSerumExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+				
+					<thingDefs>
+						<li>Corpse_Ostrich</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+				<li>Corpse_Ostrich</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_OstrichSerum>1</GR_OstrichSerum>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef> 	
+	
+	<RecipeDef>
+		<defName>GR_ExtractSerumRhino</defName>
+		<label>extract paragon serum from a rhino</label>
+		<description>Extract paragon serum from a rhino corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+				<li>GR_AlphaSerumExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+				
+					<thingDefs>
+						<li>Corpse_Rhinoceros</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+				<li>Corpse_Rhinoceros</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_RhinoSerum>1</GR_RhinoSerum>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef> 	
+
+	<RecipeDef>
+		<defName>GR_ExtractSerumWolf</defName>
+		<label>extract paragon serum from a wolf</label>
+		<description>Extract paragon serum from a wolf corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+				<li>GR_AlphaSerumExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+				
+					<thingDefs>
+						<li>Corpse_Wolf_Timber</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+				<li>Corpse_Wolf_Timber</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_WolfSerum>1</GR_WolfSerum>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef> 
+	
+	<RecipeDef>
+		<defName>GR_ExtractSerumHare</defName>
+		<label>extract paragon serum from a hare</label>
+		<description>Extract paragon serum from a hare corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+				<li>GR_AlphaSerumExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+				
+					<thingDefs>
+						<li>Corpse_Hare</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+				<li>Corpse_Hare</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_HareSerum>1</GR_HareSerum>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef> 
+	
+	<RecipeDef>
+		<defName>GR_ExtractSerumIguana</defName>
+		<label>extract paragon serum from an iguana</label>
+		<description>Extract paragon serum from an iguana corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+				<li>GR_AlphaSerumExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+				
+					<thingDefs>
+						<li>Corpse_Iguana</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+				<li>Corpse_Iguana</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_IguanaSerum>1</GR_IguanaSerum>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_ExtractSerumPig</defName>
+		<label>extract paragon serum from a pig</label>
+		<description>Extract paragon serum from a pig corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+				<li>GR_AlphaSerumExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+				
+					<thingDefs>
+						<li>Corpse_Pig</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+				<li>Corpse_Pig</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_PigSerum>1</GR_PigSerum>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>	
+	
+	<RecipeDef>
+		<defName>GR_ExtractSerumRat</defName>
+		<label>extract paragon serum from a rat</label>
+		<description>Extract paragon serum from a rat corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+				<li>GR_AlphaSerumExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+				
+					<thingDefs>
+						<li>Corpse_Rat</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+				<li>Corpse_Rat</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_RatSerum>1</GR_RatSerum>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_ExtractSerumTortoise</defName>
+		<label>extract paragon serum from a tortoise</label>
+		<description>Extract paragon serum from a tortoise corpse.</description>
+		<jobString>Extracting paragon serum</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+				<li>GR_AlphaSerumExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+				
+					<thingDefs>
+						<li>Corpse_Tortoise</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+				<li>Corpse_Tortoise</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_TortoiseSerum>1</GR_TortoiseSerum>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>	
+	
+</Defs>

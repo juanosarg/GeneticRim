@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<DamageDef ParentName="Bite">
+		<defName>GR_VeryToxicBite</defName>
+		<label>virulent toxic bite</label>
+		<additionalHediffs>
+			<li>
+				<hediff>ToxicBuildup</hediff>
+				<severityPerDamageDealt>0.005</severityPerDamageDealt>
+				        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+	<DamageDef ParentName="Bite">
+		<defName>GR_LightToxicBite</defName>
+		<label>light toxic bite</label>
+		<additionalHediffs>
+			<li>
+				<hediff>ToxicBuildup</hediff>
+				<severityPerDamageDealt>0.0005</severityPerDamageDealt>
+				        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+	<DamageDef ParentName="Bite">
+		<defName>GR_HairballProjectileDamage</defName>
+		<label>hairball</label>
+		<additionalHediffs>
+			<li>
+				<hediff>GR_HairballDamage</hediff>
+				<severityPerDamageDealt>0.075</severityPerDamageDealt>
+				        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+	<DamageDef ParentName="Bite">
+		<defName>GR_GreatHairballProjectileDamage</defName>
+		<label>greater hairball</label>
+		<additionalHediffs>
+			<li>
+				<hediff>GR_HairballDamage</hediff>
+				<severityPerDamageDealt>0.075</severityPerDamageDealt>
+				        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+	<DamageDef>
+		<defName>GR_ToxicExplosion</defName>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+
+		<label>toxic explosion</label>
+		<hediff>Shredded</hediff>
+		<hasForcefulImpact>false</hasForcefulImpact>
+		<makesBlood>false</makesBlood>
+		<canInterruptJobs>false</canInterruptJobs>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been poisoned to death.</deathMessage>
+
+		<additionalHediffs>
+			<li>
+				<hediff>GR_ToxicDamage</hediff>
+				<severityPerDamageDealt>0.035</severityPerDamageDealt>
+				        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+
+
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+	<DamageDef>
+		<defName>GR_HairballExplosion</defName>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+
+		<label>hairball explosion</label>
+		<hediff>Shredded</hediff>
+		<hasForcefulImpact>false</hasForcefulImpact>
+		<makesBlood>false</makesBlood>
+		<canInterruptJobs>false</canInterruptJobs>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been suffocated by cat hair to death.</deathMessage>
+
+		<additionalHediffs>
+			<li>
+				<hediff>GR_HairballDamage</hediff>
+				<severityPerDamageDealt>0.0001</severityPerDamageDealt>
+				        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+
+
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+	<DamageDef ParentName="Bite">
+		<defName>GR_PlagueBite</defName>
+		<label>plagued bite</label>
+		<additionalHediffs>
+			<li>
+				<hediff>Plague</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+				        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+	<DamageDef ParentName="Bomb">
+		<defName>GR_MiniGrain</defName>
+		<defaultDamage>95</defaultDamage>
+		<defaultStoppingPower>2.0</defaultStoppingPower>
+		<defaultArmorPenetration>1.30</defaultArmorPenetration>
+	</DamageDef>
+
+
+
+
+
+</Defs>

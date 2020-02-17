@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+    <defName>GR_AnimalResource</defName>
+    <driverClass>NewAnimalSubproducts.JobDriver_AnimalResource</driverClass>
+    <reportString>gathering animal resource from TargetA.</reportString>
+  </JobDef>
+  
+  <JobDef>
+    <defName>GR_AttackMeleeOnceAndChickenRimPox</defName>
+    <driverClass>DraftingPatcher.JobDriver_AttackMeleeOnceAndChickenRimPox</driverClass>
+    <reportString>inflicting chicken rimpox on TargetA.</reportString>
+  </JobDef>
+  
+  <JobDef>
+    <defName>GR_InsertGenesIntoGenePodJob</defName>
+    <driverClass>NewMachinery.JobDriver_InsertGenesIntoGenePod</driverClass>
+    <reportString>inserting genetic material on gene pod.</reportString>
+  </JobDef>
+  
+  <JobDef>
+    <defName>GR_InsertGenesIntoGenePodJob2</defName>
+    <driverClass>NewMachinery.JobDriver_InsertGenesIntoGenePod2</driverClass>
+    <reportString>inserting genetic material on gene pod.</reportString>
+  </JobDef>
+  
+  <JobDef>
+    <defName>GR_UseHybridInjector</defName>
+    <driverClass>JobDriver_UseItem</driverClass>
+    <reportString>using hybrid genes injector.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+  
+</Defs>

@@ -1,0 +1,1346 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Reptile - Bear -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Bearodile</defName>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		<label>bearodile</label>
+		<description>A reptile / bear hybrid. The reptilian genes used to generate this hybrid have given it some ancient reptilian characteristics, with an appearance similar to reptiles in the Permian Period on Earth. It has also developed a venomous bite.\n\nUseful abilities: Highly intelligent and venomous. Excellent base defender if properly trained.</description>
+		<statBases>
+			<MoveSpeed>4.8</MoveSpeed>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<MarketValue>400</MarketValue>
+		</statBases>
+		<comps>		
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<rage>true</rage>
+				<poisonouscloud>true</poisonouscloud>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>GR_VeryToxicBite</li>
+				</capacities>
+				<power>17</power>
+				<cooldownTime>2.0</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>21</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>GR_VeryToxicBite</li>
+				</capacities>
+				<power>17</power>
+				<cooldownTime>2.0</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>21</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<capacities>
+					<li>GR_VeryToxicBite</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>21</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<chanceFactor>0.3</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+
+
+		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<fleshType>GR_Normal</fleshType>
+
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<baseBodySize>2.5</baseBodySize>
+			<baseHungerRate>0.4</baseHungerRate>
+			<baseHealthScale>2.75</baseHealthScale>
+			<lifeExpectancy>25</lifeExpectancy>
+			<gestationPeriodDays>25</gestationPeriodDays>
+			<manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
+			<useLeatherFrom>Bear_Grizzly</useLeatherFrom>
+			<useMeatFrom>Bear_Grizzly</useMeatFrom>
+			<wildness>0.80</wildness>  
+
+			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+			<intelligence>Animal</intelligence>
+
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+
+			<trainability>Advanced</trainability>
+			<lifeStageAges>
+
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.4</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.8</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+
+		<defName>GR_Bearodile</defName>
+		<label>bearodile</label>
+		<race>GR_Bearodile</race>
+		<combatPower>250</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bears/Bearodile/Bearodile</texPath>
+					<drawSize>2.4</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+					<drawSize>2.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bears/Bearodile/Bearodile</texPath>
+					<drawSize>3.0</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bears/Bearodile/Bearodile</texPath>
+					<drawSize>3.7</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+					<drawSize>3.7</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Reptile - Boomalope -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Boomsnake</defName>
+		<label>boomsnake</label>
+		<description>A reptile / boomalope hybrid. The boomsnake is not a very strong or agile combatant. However, when it dies it explodes in a noxious cloud of venomous vapors, which can be strong enough to dissolve flesh.\n\nUseful abilities: Its toxic explosion can easily decimate an enemy raid if properly timed. Doesn't produce chemfuel.</description>
+		<statBases>
+			<MoveSpeed>3</MoveSpeed>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<MarketValue>400</MarketValue>
+		</statBases>
+		<comps>		
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<poisonouscloud>true</poisonouscloud>
+				<explodable>true</explodable>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<capacities>
+					<li>GR_VeryToxicBite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+
+
+		<race>
+			<fleshType>GR_Normal</fleshType>
+
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>Snake</body>
+			<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_ToxicExplosion</deathActionWorkerClass>
+			<executionRange>6</executionRange>
+			<baseBodySize>1.5</baseBodySize>
+			<baseHungerRate>1</baseHungerRate>
+			<baseHealthScale>0.75</baseHealthScale>
+			<lifeExpectancy>25</lifeExpectancy>
+			<gestationPeriodDays>30</gestationPeriodDays>
+			<manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<useLeatherFrom>Boomalope</useLeatherFrom>
+			<useMeatFrom>Boomalope</useMeatFrom>
+			<wildness>0.6</wildness>
+
+			<intelligence>Animal</intelligence>
+
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+
+			<lifeStageAges>
+
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.5</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+
+		<defName>GR_Boomsnake</defName>
+		<label>boomsnake</label>
+		<race>GR_Boomsnake</race>
+		<combatPower>150</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Boomalope/Boomsnake/Boomsnake</texPath>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Boomalope/Boomsnake/Dessicated_Boomsnake</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Boomalope/Boomsnake/Boomsnake</texPath>
+					<drawSize>1.9</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Boomalope/Boomsnake/Dessicated_Boomsnake</texPath>
+					<drawSize>1.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Boomalope/Boomsnake/Boomsnake</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Boomalope/Boomsnake/Dessicated_Boomsnake</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Reptile - Chicken -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Chickenlizard</defName>
+		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		<label>chickenlizard</label>
+		<description>A reptile / chicken hybrid. This reptilian chicken has a slightly venomous bite. Not very powerful, but considering how fast chickens breed, a horde of chickenlizards might be enough to overpower a much bigger creature with their venom.\n\nUseful abilities: Small, fast breeding, venomous chickens.</description>
+		<statBases>
+			<MoveSpeed>3</MoveSpeed>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<MarketValue>150</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>GR_LightToxicBite</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>GR_LightToxicBite</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>GR_ChickenlizardEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>GR_ChickenlizardEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>1.2</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<poisonouscloud>true</poisonouscloud>
+				<chickenRimPox>true</chickenRimPox>
+			</li>
+		</comps>
+		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>Bird</body>
+			<fleshType>GR_Normal</fleshType>
+
+			<baseBodySize>0.3</baseBodySize>
+			<baseHungerRate>.35</baseHungerRate>
+			<baseHealthScale>0.75</baseHealthScale>
+			<lifeExpectancy>10</lifeExpectancy>
+			<gestationPeriodDays>7</gestationPeriodDays>
+			<manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<useLeatherFrom>Chicken</useLeatherFrom>
+			<useMeatFrom>Chicken</useMeatFrom>
+			<wildness>0.36</wildness>
+			<mateMtbHours>8</mateMtbHours>
+			<intelligence>Animal</intelligence>
+
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+
+			<lifeStageAges>
+
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.12</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+
+		<defName>GR_Chickenlizard</defName>
+		<label>chickenlizard</label>
+		<race>GR_Chickenlizard</race>
+		<combatPower>40</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenlizard/Chickenlizard</texPath>
+					<drawSize>1.2</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenlizard/Dessicated_Chickenlizard</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenlizard/Chickenlizard</texPath>
+					<drawSize>1.8</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenlizard/Dessicated_Chickenlizard</texPath>
+					<drawSize>1.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenlizard/Chickenlizard</texPath>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Chicken/Chickenlizard/Dessicated_Chickenlizard</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Reptile - Muffalo -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Muffalokomodo</defName>
+		<label>muffalokomodo</label>
+		<description>A reptile / muffalo hybrid. This resilient beast can carry more weight than a regular muffalo, and has a powerful venomous bite.\n\nUseful abilities: Regularly produces enough venomous saliva to fill an ampoule with a powerful poison, which acts as a potent muscle paralysing agent.</description>
+		<statBases>
+			<MoveSpeed>3.5</MoveSpeed>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<MarketValue>650</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<capacities>
+					<li>GR_VeryToxicBite</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			</li>
+
+		</tools>
+
+		<comps>
+
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>GR_PoisonAmpoule</resourceDef>
+				<gatheringIntervalDays>5</gatheringIntervalDays>
+				<resourceAmount>1</resourceAmount>
+				<customResourceString>PoisonGrowth</customResourceString>
+
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<poisonouscloud>true</poisonouscloud>
+				<carrymore>true</carrymore>
+			</li>
+		</comps>
+
+		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithHooves</body>
+			<herdAnimal>true</herdAnimal>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<fleshType>GR_Normal</fleshType>
+
+			<baseBodySize>3.5</baseBodySize>
+			<baseHungerRate>.85</baseHungerRate>
+			<baseHealthScale>2</baseHealthScale>
+			<lifeExpectancy>20</lifeExpectancy>
+			<gestationPeriodDays>25</gestationPeriodDays>
+			<manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<useLeatherFrom>Muffalo</useLeatherFrom>
+			<useMeatFrom>Muffalo</useMeatFrom>
+			<wildness>0.5</wildness>
+			<packAnimal>true</packAnimal>
+			<intelligence>Animal</intelligence>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<nuzzleMtbHours>120</nuzzleMtbHours>
+
+			<lifeStageAges>
+
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.25</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.5</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+
+		<defName>GR_Muffalokomodo</defName>
+		<label>muffalokomodo</label>
+		<race>GR_Muffalokomodo</race>
+		<combatPower>100</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Muffalo/Muffalokomodo/Muffalokomodo</texPath>
+					<drawSize>1.75</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Muffalo/Muffalokomodo/Dessicated_Muffalokomodo</texPath>
+					<drawSize>1.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Muffalo/Muffalokomodo/Muffalokomodo</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Muffalo/Muffalokomodo/Dessicated_Muffalokomodo</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Muffalo/Muffalokomodo/Muffalokomodo</texPath>
+					<drawSize>3.5</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Muffalo/Muffalokomodo/Dessicated_Muffalokomodo</texPath>
+					<drawSize>3.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Reptile - Insectoid -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Spidersnake</defName>
+		<label>spidersnake</label>
+		<description>A reptile / insectoid hybrid. This venomous, armoured snake, can be very dangerous in high enough numbers. Strangely, they don't seem particularly attracted to hugging any faces.\n\nUseful abilities: Regularly produces Spidersnake shed skin, which can be processed in a drug lab into small amounts of neutroamine.</description>
+		<statBases>
+			<MoveSpeed>4.8</MoveSpeed>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<MarketValue>650</MarketValue>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+			<LeatherAmount>0</LeatherAmount>
+
+		</statBases>
+		<tools>
+			<li>
+				<capacities>
+					<li>GR_VeryToxicBite</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>1.9</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>GR_VeryToxicBite</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>GR_SpidersnakeEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>GR_SpidersnakeEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>14.0</eggLayIntervalDays>
+				<eggCountRange>
+					<min>1</min>
+					<max>3</max>
+				</eggCountRange>
+			</li>
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>GR_SpidersnakeSkin</resourceDef>
+				<gatheringIntervalDays>5</gatheringIntervalDays>
+				<resourceAmount>1</resourceAmount>
+				<customResourceString>SkinShed</customResourceString>
+
+			</li>
+			<!--<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<resourceDef>GR_SpidersnakeSilk</resourceDef>
+			<gatheringIntervalDays>1</gatheringIntervalDays>
+			<resourceAmount>40</resourceAmount>
+			<customResourceString>SilkGrowth</customResourceString>
+      </li>-->
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<poisonouscloud>true</poisonouscloud>
+				<insectclouds>true</insectclouds>
+			</li>
+		</comps>
+
+
+		<race>
+			<fleshType>GR_Normal</fleshType>
+
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>Snake</body>
+			<predator>true</predator>
+			<maxPreyBodySize>0.35</maxPreyBodySize>
+			<baseBodySize>0.25</baseBodySize>
+			<baseHungerRate>0.07</baseHungerRate>
+			<baseHealthScale>0.5</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<useLeatherFrom>Cobra</useLeatherFrom>
+			<useMeatFrom>Cobra</useMeatFrom>
+			<wildness>0.75</wildness>
+			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<gestationPeriodDays>17.5</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(3, 1)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>20</lifeExpectancy>	
+
+
+
+
+			<lifeStageAges>
+
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+
+		<defName>GR_Spidersnake</defName>
+		<label>spidersnake</label>
+		<race>GR_Spidersnake</race>
+		<combatPower>75</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Reptile/Spidersnake/Spidersnake</texPath>
+					<drawSize>1</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Reptile/Spidersnake/Spidersnake</texPath>
+					<drawSize>1.25</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>1.25</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Reptile/Spidersnake/Spidersnake</texPath>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>1.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Reptile - Thrumbo -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Thrumbolizard</defName>
+		<label>thrumbolizard</label>
+		<description>A reptile / thrumbo hybrid. A massive, crocodilian creature with incredibly powerful jaws and a rabid venom. \n\nUseful abilities: Regularly produces enough venom to fill small ampoules. Thrumbolizard poison is 100% lethal, and there is no antidote that could act fast enough.</description>
+		<statBases>
+			<MoveSpeed>5.25</MoveSpeed>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<MarketValue>4500</MarketValue>
+
+		</statBases>
+		<tools>
+			<li>
+				<label>horn</label>
+				<capacities>
+					<li>GR_VeryToxicBite</li>
+					<li>Stab</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>1.85</cooldownTime>
+				<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>GR_VeryToxicBite</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2.0</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>left foot</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right foot</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+
+		<comps>
+
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>GR_VirulentPoison</resourceDef>
+				<gatheringIntervalDays>10</gatheringIntervalDays>
+				<resourceAmount>1</resourceAmount>
+				<customResourceString>PoisonGrowth</customResourceString>
+
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<poisonouscloud>true</poisonouscloud>
+				<stampede>true</stampede>
+			</li>
+		</comps>
+		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithHoovesAndHorn</body>
+			<fleshType>GR_Normal</fleshType>
+
+			<herdAnimal>true</herdAnimal>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+
+			<baseBodySize>3.5</baseBodySize>
+			<baseHungerRate>4.5</baseHungerRate>
+			<baseHealthScale>13.0</baseHealthScale>
+			<foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
+			<useLeatherFrom>Thrumbo</useLeatherFrom>
+			<useMeatFrom>Thrumbo</useMeatFrom>
+			<trainability>Advanced</trainability>
+			<gestationPeriodDays>80</gestationPeriodDays>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+			<wildness>0.8</wildness>
+			<lifeExpectancy>400</lifeExpectancy>
+
+			<lifeStageAges>
+
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.5</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>1</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+
+		<defName>GR_Thrumbolizard</defName>
+		<label>thrumbolizard</label>
+		<race>GR_Thrumbolizard</race>
+		<combatPower>650</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>thrumbolizard calf</label>
+				<labelPlural>thrumbolizard calves</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Thrumbos/Thrumbolizard/Thrumbolizard</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Thrumbos/Thrumbolizard/Dessicated_Thrumbolizard</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Thrumbos/Thrumbolizard/Thrumbolizard</texPath>
+					<drawSize>4.0</drawSize>
+					<shadowData>
+						<volume>(0.7, 0.6, 0.4)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Thrumbos/Thrumbolizard/Dessicated_Thrumbolizard</texPath>
+					<drawSize>4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Thrumbos/Thrumbolizard/Thrumbolizard</texPath>
+					<drawSize>4.8</drawSize>
+					<shadowData>
+						<volume>(1, 0.8, 0.5)</volume>
+						<offset>(0,0,-0.5)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Thrumbos/Thrumbolizard/Dessicated_Thrumbolizard</texPath>
+					<drawSize>4.8</drawSize>
+				</dessicatedBodyGraphicData>
+				<butcherBodyPart>
+					<bodyPartGroup>HornAttackTool</bodyPartGroup>
+					<thing>ThrumboHorn</thing>
+				</butcherBodyPart>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Reptile - Wolf -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Wolfsnake</defName>
+		<label>wolfsnake</label>
+		<description>A reptile / wolf hybrid. These serpentine predators are fast as lightning, and armed with a powerful, venomous bite. \n\nSpeed and poison make for a very effective base defender. Sheds wolfsnake skin from time to time.</description>
+		<statBases>
+			<MoveSpeed>6.5</MoveSpeed>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<MarketValue>450</MarketValue>
+
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>GR_VeryToxicBite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>GR_VeryToxicBite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>GR_VeryToxicBite</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2.0</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+
+		<comps>
+
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>GR_WolfsnakeSkin</resourceDef>
+				<gatheringIntervalDays>25</gatheringIntervalDays>
+				<resourceAmount>90</resourceAmount>
+				<customResourceString>SkinShed</customResourceString>
+
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<poisonouscloud>true</poisonouscloud>
+				<adrenalineburst>true</adrenalineburst>
+			</li>
+		</comps>
+		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<fleshType>GR_Normal</fleshType>
+
+			<predator>true</predator>
+			<baseBodySize>1.0</baseBodySize>
+			<baseHungerRate>0.25</baseHungerRate>
+			<baseHealthScale>1.35</baseHealthScale>
+			<foodType>CarnivoreAnimalStrict</foodType>
+			<useLeatherFrom>Wolf_Timber</useLeatherFrom>
+			<useMeatFrom>Wolf_Timber</useMeatFrom>
+			<gestationPeriodDays>22.5</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<trainability>Advanced</trainability>
+			<wildness>0.80</wildness>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
+			<nuzzleMtbHours>120</nuzzleMtbHours>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>25</lifeExpectancy>
+
+
+
+			<lifeStageAges>
+
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.45</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+
+		<defName>GR_Wolfsnake</defName>
+		<label>wolfsnake</label>
+		<race>GR_Wolfsnake</race>
+		<combatPower>100</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>wolfsnake puppy</label>
+				<labelPlural>wolfsnake puppies</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfsnake/Wolfsnake</texPath>
+					<drawSize>1.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfsnake/Dessicated_Wolfsnake</texPath>
+					<drawSize>1.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfsnake/Wolfsnake</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfsnake/Dessicated_Wolfsnake</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfsnake/Wolfsnake</texPath>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wolf/Wolfsnake/Dessicated_Wolfsnake</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Reptile - Cat -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Snakecat</defName>
+		<label>snakecat</label>
+		<description>A reptile / cat hybrid. The snakecat is like a furry snake with tiny legs. It has a venomous bite, and can be trained much further than other reptile hybrids.\n\nUseful abilities: Like all cat hybrids, they have an improved melee dodge ability, making them perfect for the front lines, and a short nuzzle period.</description>
+		<statBases>
+			<MoveSpeed>4.5</MoveSpeed>
+			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+			<MarketValue>400</MarketValue>
+		</statBases>
+		<comps>		
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<poisonouscloud>true</poisonouscloud>
+				<catreflexes>true</catreflexes>
+			</li>
+			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+				<hediffname>GR_MeleeDodge</hediffname>
+				<hediffseverity>1</hediffseverity>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<capacities>
+					<li>GR_VeryToxicBite</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      </li>
+		</tools>
+
+
+		<race>
+			<fleshType>GR_Normal</fleshType>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithClawsTailAndJowl</body>
+			<predator>true</predator>
+			<maxPreyBodySize>0.35</maxPreyBodySize>    
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<baseBodySize>1.5</baseBodySize>
+			<baseHungerRate>0.3</baseHungerRate>
+			<baseHealthScale>0.75</baseHealthScale>
+			<lifeExpectancy>25</lifeExpectancy>
+			<gestationPeriodDays>25</gestationPeriodDays>
+			<manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<useLeatherFrom>Cobra</useLeatherFrom>
+			<useMeatFrom>Cobra</useMeatFrom>
+			<wildness>0.6</wildness>
+			<trainability>Advanced</trainability>
+
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+
+			<lifeStageAges>
+
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.5</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+
+		<defName>GR_Snakecat</defName>
+		<label>snakecat</label>
+		<race>GR_Snakecat</race>
+		<combatPower>150</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Reptile/Snakecat/GR_Snakecat</texPath>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Reptile/Snakecat/GR_Dessicated_Snakecat</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Reptile/Snakecat/GR_Snakecat</texPath>
+					<drawSize>1.9</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Reptile/Snakecat/GR_Dessicated_Snakecat</texPath>
+					<drawSize>1.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Reptile/Snakecat/GR_Snakecat</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Reptile/Snakecat/GR_Dessicated_Snakecat</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>
