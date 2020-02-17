@@ -88,6 +88,8 @@
 					<li>Corpse_AA_IronhuskBeetle</li>
 					<li>Corpse_AA_MammothWorm</li>
 					<li>Corpse_AA_MegaLouse</li>
+					<li>Corpse_AA_CrepuscularBeetle</li>
+					<li>Corpse_AA_FrostboundBehemoth</li>
 
 				</value>
 			</li>
@@ -113,6 +115,8 @@
 					<li>Corpse_AA_IronhuskBeetle</li>
 					<li>Corpse_AA_MammothWorm</li>
 					<li>Corpse_AA_MegaLouse</li>
+					<li>Corpse_AA_CrepuscularBeetle</li>
+					<li>Corpse_AA_FrostboundBehemoth</li>
 
 				</value>
 			</li>	
@@ -162,6 +166,7 @@
 					<li>Corpse_AA_FissionMouse</li>
 					<li>Corpse_AA_FissionMouseSecond</li>
 					<li>Corpse_AA_FissionMouseThird</li>
+					<li>Corpse_AA_DuskRat</li>
 					
 
 				</value>
@@ -173,11 +178,27 @@
 					<li>Corpse_AA_FissionMouse</li>
 					<li>Corpse_AA_FissionMouseSecond</li>
 					<li>Corpse_AA_FissionMouseThird</li>
+					<li>Corpse_AA_DuskRat</li>
 					
 
 
 				</value>
 			</li>	
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMuffalo"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AA_ChameleonYak</li>
+					
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMuffalo"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AA_ChameleonYak</li>
+				</value>
+			</li>
 		
 		</operations>
 	</Operation>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			
+			
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Vanilla Animals Expanded — Tundra</li>
+				</mods>
+
+				<match Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesRodent"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_Porcupine</li>
+					
+
+				</value></match>
+			</li>
+
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Vanilla Animals Expanded — Tundra</li>
+				</mods>
+
+				<match Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesRodent"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_Porcupine</li>
+					
+
+
+				</value></match>
+			</li>	
+			
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Vanilla Animals Expanded — Tundra</li>
+				</mods>
+
+				<match Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMuffalo"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_Muskox</li>
+					
+				</value></match>
+			</li>
+
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Vanilla Animals Expanded — Tundra</li>
+				</mods>
+
+				<match Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMuffalo"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_Muskox</li>
+					
+
+				</value></match>
+			</li>
+			
+	
+			
+			
+			
+			
+		</operations>
+	</Operation>
+	
+	
+</Patch>

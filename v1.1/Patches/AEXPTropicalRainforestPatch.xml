@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			
+			
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Vanilla Animals Expanded — Tropical Rainforest</li>
+				</mods>
+
+				<match Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesFeline"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_Jaguar</li>
+					<li>Corpse_AEXP_Tiger</li>
+					
+
+				</value></match>
+			</li>
+
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Vanilla Animals Expanded — Tropical Rainforest</li>
+				</mods>
+
+				<match Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesFeline"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_Jaguar</li>
+					<li>Corpse_AEXP_Tiger</li>
+					
+
+
+				</value></match>
+			</li>	
+			
+		
+			
+	
+			
+			
+			
+			
+		</operations>
+	</Operation>
+	
+	
+</Patch>

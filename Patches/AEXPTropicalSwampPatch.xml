@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Vanilla Animals Expanded — Tropical Swamp</modName>
+				<yourMod>Genetic Rim</yourMod>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesReptilian"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_Alligator</li>
+					<li>Corpse_AEXP_Anaconda</li>
+					
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesReptilian"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_Alligator</li>
+					<li>Corpse_AEXP_Anaconda</li>
+					
+
+
+				</value>
+			</li>	
+			
+		
+			
+	
+			
+			
+			
+			
+		</operations>
+	</Operation>
+	
+	
+</Patch>
