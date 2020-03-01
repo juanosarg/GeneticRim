@@ -14,3 +14,8 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim\v1.1\Sour
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim\v1.1\Source\AnimalRangedVerbsUnlocker\obj\Debug\AnimalRangeUnlocker.csproj.CoreCompileInputs.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim\v1.1\Source\AnimalRangedVerbsUnlocker\obj\Debug\AnimalRangeUnlocker.csproj.CopyComplete
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim\v1.1\Source\AnimalRangedVerbsUnlocker\obj\Debug\AnimalRangeUnlocker.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\v1.1\Source\AnimalRangedVerbsUnlocker\obj\Debug\AnimalRangeUnlocker.csprojAssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\v1.1\Source\AnimalRangedVerbsUnlocker\obj\Debug\AnimalRangeUnlocker.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\v1.1\Source\AnimalRangedVerbsUnlocker\obj\Debug\AnimalRangeUnlocker.csproj.CopyComplete
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\v1.1\Assemblies\AnimalRangeUnlocker.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\v1.1\Source\AnimalRangedVerbsUnlocker\obj\Debug\AnimalRangeUnlocker.dll

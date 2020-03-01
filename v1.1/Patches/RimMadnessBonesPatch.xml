@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rim of Madness - Bones</li>
+		</mods>
 
-			<li Class="PatchOperationFindMod">
-				<mods>
-					<li>Rim of Madness - Bones</li>
-				</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
 
-				<match Class="PatchOperationAdd">
+				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
 						<RecipeDef>
@@ -49,13 +48,13 @@
 						</RecipeDef>
 
 					</value>
-				</match>
-			</li>
+				</li>
 
 
 
 
-		</operations>
+			</operations>
+		</match>
 	</Operation>
 
 

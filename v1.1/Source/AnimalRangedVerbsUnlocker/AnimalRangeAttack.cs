@@ -2,7 +2,7 @@
 using Verse;
 using Verse.AI;
 
-namespace AnimalRangeAttack
+namespace GeneticAnimalRangeUnlocker
 {
 	class JobDriver_AnimalRangeAttack : JobDriver
 	{

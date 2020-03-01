@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationSequence">
-	<success>Always</success>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Spidercamp's Dog Pack (1.0)</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
 		<operations>
 			
-			<li Class="PatchOperationFindMod">
-				<mods>
-					<li>Spidercamp's Dog Pack (1.0)</li>
-				</mods>
-
-				<match Class="PatchOperationAdd">
+			<li Class="PatchOperationAdd">
 				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesWolf"]/ingredients/li/filter/thingDefs</xpath>
 				<value>
 					<li>Corpse_SCMiniatureDachshund</li>
@@ -33,15 +32,9 @@
 					<li>Corpse_SCNewfoundland</li>
 
 				</value>
-				</match>
 			</li>
 
-			<li Class="PatchOperationFindMod">
-				<mods>
-					<li>Spidercamp's Dog Pack (1.0)</li>
-				</mods>
-
-				<match Class="PatchOperationAdd">
+			<li Class="PatchOperationAdd">
 				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesWolf"]/fixedIngredientFilter/thingDefs</xpath>
 				<value>
 					<li>Corpse_SCMiniatureDachshund</li>
@@ -65,10 +58,10 @@
 					<li>Corpse_SCNewfoundland</li>
 
 				</value>
-				</match>
 			</li>
 			
 		</operations>
+		</match>
 	</Operation>
 	
 	

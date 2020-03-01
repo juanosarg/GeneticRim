@@ -4,7 +4,7 @@ using Verse;
 using Verse.Sound;
 using RimWorld;
 
-namespace AnimalRangeAttack
+namespace GeneticAnimalRangeUnlocker
 {
     public class AnimalProjectile : Projectile
     {

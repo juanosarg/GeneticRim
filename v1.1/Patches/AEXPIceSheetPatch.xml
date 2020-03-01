@@ -1,37 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationSequence">
-	<success>Always</success>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Animals Expanded — Ice Sheet</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
 		<operations>
 			
 			
-			<li Class="PatchOperationFindMod">
-				<mods>
-					<li>Vanilla Animals Expanded — Ice Sheet</li>
-				</mods>
-
-				<match Class="PatchOperationAdd">
+			<li Class="PatchOperationAdd">
 				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesChicken"]/ingredients/li/filter/thingDefs</xpath>
 				<value>
 					<li>Corpse_AEXP_Penguin</li>
 					
 
-				</value></match>
+				</value>
 			</li>
 
-			<li Class="PatchOperationFindMod">
-				<mods>
-					<li>Vanilla Animals Expanded — Ice Sheet</li>
-				</mods>
-
-				<match Class="PatchOperationAdd">
+			<li Class="PatchOperationAdd">
 				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesChicken"]/fixedIngredientFilter/thingDefs</xpath>
 				<value>
 					<li>Corpse_AEXP_Penguin</li>
 					
 
 
-				</value></match>
+				</value>
 			</li>	
 			
 		
@@ -42,6 +36,7 @@
 			
 			
 		</operations>
+		</match>
 	</Operation>
 	
 	

@@ -97,7 +97,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>GR_SniperFlechette</defName>
 		<label>sniper flechette</label>
-		<thingClass>AnimalRangeAttack.AnimalProjectile</thingClass>
+		<thingClass>GeneticAnimalRangeUnlocker.AnimalProjectile</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Big</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -115,7 +115,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>GR_RazorProjectile</defName>
 		<label>razor scythe</label>
-		<thingClass>AnimalRangeAttack.AnimalProjectile</thingClass>
+		<thingClass>GeneticAnimalRangeUnlocker.AnimalProjectile</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/GR_Razor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -134,7 +134,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>GR_Laser</defName>
 		<label>laser beam</label>
-		<thingClass>AnimalRangeAttack.AnimalProjectile</thingClass>
+		<thingClass>GeneticAnimalRangeUnlocker.AnimalProjectile</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/GR_LaserBeam</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -153,7 +153,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>GR_Disintegrator</defName>
 		<label>disintegrator beam</label>
-		<thingClass>AnimalRangeAttack.AnimalProjectile</thingClass>
+		<thingClass>GeneticAnimalRangeUnlocker.AnimalProjectile</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/GR_DisintegratorBeam</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -173,7 +173,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>GR_StunBolt</defName>
 		<label>stun bolt</label>
-		<thingClass>AnimalRangeAttack.AnimalProjectile</thingClass>
+		<thingClass>GeneticAnimalRangeUnlocker.AnimalProjectile</thingClass>
 		<graphicData>
 			<texPath>Things/Mote/BlastEMP</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -191,7 +191,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>GR_PoisonBlast</defName>
 		<label>poison blast</label>
-		<thingClass>AnimalRangeAttack.AnimalProjectile</thingClass>
+		<thingClass>GeneticAnimalRangeUnlocker.AnimalProjectile</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/GR_PoisonShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -209,7 +209,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>GR_HairballProjectile</defName>
 		<label>hairball</label>
-		<thingClass>AnimalRangeAttack.AnimalProjectile</thingClass>
+		<thingClass>GeneticAnimalRangeUnlocker.AnimalProjectile</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/GR_HairballProjectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -227,7 +227,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>GR_GreatHairballProjectile</defName>
 		<label>greater hairball</label>
-		<thingClass>AnimalRangeAttack.AnimalProjectile</thingClass>
+		<thingClass>GeneticAnimalRangeUnlocker.AnimalProjectile</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/GR_HairballProjectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -245,7 +245,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>GR_CryoBlast</defName>
 		<label>cryo blast</label>
-		<thingClass>AnimalRangeAttack.AnimalProjectile</thingClass>
+		<thingClass>GeneticAnimalRangeUnlocker.AnimalProjectile</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/WaterSplash</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

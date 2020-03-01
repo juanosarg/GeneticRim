@@ -6,7 +6,7 @@ using Verse.AI;
 using HarmonyLib;
 using System.Reflection;
 
-namespace AnimalRangeAttack
+namespace GeneticAnimalRangeUnlocker
 {
 
 	[StaticConstructorOnStartup]
