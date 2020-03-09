@@ -572,7 +572,7 @@
 
 				<li Class="PatchOperationAdd">
 					<!-- "Inserting animal defNames into InstallSpineAnimalBionic surgery <recipeUsers>" -->
-					<xpath>/Defs/RecipeDef[defName = "InstallSpineAnimalBionic" or "InstallSpineAnimalSimple"]/recipeUsers</xpath>
+					<xpath>/Defs/RecipeDef[defName = "InstallSpineAnimalBionic" or defName = "InstallSpineAnimalSimple"]/recipeUsers</xpath>
 					<value>
 						<li>GR_AlphaBear</li>
 						<li>GR_AlphaWildBoar</li>
@@ -659,7 +659,7 @@
 
 				<li Class="PatchOperationAdd">
 					<!-- "Inserting animal defNames into InstallJawAnimalBionic surgery <recipeUsers> -->
-					<xpath>/Defs/RecipeDef[defName = "InstallJawAnimalBionic" or "InstallJawAnimalSimple"]/recipeUsers</xpath>
+					<xpath>/Defs/RecipeDef[defName = "InstallJawAnimalBionic" or defName ="InstallJawAnimalSimple"]/recipeUsers</xpath>
 					<value>
 						<li>GR_AberrantFleshbeast</li>
 						<li>GR_AlphaBear</li>
@@ -923,7 +923,7 @@
 
 				<li Class="PatchOperationAdd">
 					<!-- "Inserting animal defNames into InstallEarAnimalSimple surgery <recipeUsers>" -->
-					<xpath>/Defs/RecipeDef[defName = "InstallEarAnimalSimple" or "InstallEarAnimalBionic"]/recipeUsers</xpath>
+					<xpath>/Defs/RecipeDef[defName = "InstallEarAnimalSimple" or defName ="InstallEarAnimalBionic"]/recipeUsers</xpath>
 					<value>
 						<li>GR_AberrantFleshbeast</li>
 						<li>GR_AlphaBear</li>
@@ -1021,7 +1021,7 @@
 				<!-- Leg installing recipes == should be most animals -->
 				<li Class="PatchOperationAdd">
 					<!-- "Inserting animal defNames into InstallPegLegAnimal surgery <recipeUsers>" -->
-					<xpath>/Defs/RecipeDef[defName = "InstallPegLegAnimal" or "InstallSimpleProstheticLegAnimal" or "InstallBionicLegAnimal"]/recipeUsers</xpath>
+					<xpath>/Defs/RecipeDef[defName = "InstallPegLegAnimal" or defName ="InstallSimpleProstheticLegAnimal" or defName ="InstallBionicLegAnimal"]/recipeUsers</xpath>
 					<value>
 						<li>GR_AlphaBear</li>
 						<li>GR_AlphaWildBoar</li>
