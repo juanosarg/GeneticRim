@@ -932,7 +932,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Skull</li> 
+			<li>Nose</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>GR_HumanThrumboHorn</addsHediff>
 	</RecipeDef>
