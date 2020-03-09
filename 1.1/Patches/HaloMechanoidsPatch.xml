@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>HALO: Rimworld Heretic Mechanoids</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+		<operations>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMechanoid"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_HRHM_Mech_Zealot</li>
+					<li>Corpse_HRHM_Mech_Ranger</li>
+					<li>Corpse_HRHM_Mech_Marshal</li>
+					<li>Corpse_HRHM_Mech_Hunter</li>
+				
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMechanoid"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_HRHM_Mech_Zealot</li>
+					<li>Corpse_HRHM_Mech_Ranger</li>
+					<li>Corpse_HRHM_Mech_Marshal</li>
+					<li>Corpse_HRHM_Mech_Hunter</li>
+				</value>
+			</li>
+
+
+		</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
