@@ -31,6 +31,11 @@
 				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMechanoid"]/ingredients/li/filter/thingDefs</xpath>
 				<value>
 					<li>Corpse_AA_Slurrypede</li>
+					<li>Corpse_AA_Aura</li>
+					<li>Corpse_AA_Daggersnout</li>
+					<li>Corpse_AA_Fireworm</li>
+					<li>Corpse_AA_Goliath</li>
+					<li>Corpse_AA_Siegebreaker</li>
 					
 				</value>
 			</li>
@@ -39,6 +44,11 @@
 				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMechanoid"]/fixedIngredientFilter/thingDefs</xpath>
 				<value>
 					<li>Corpse_AA_Slurrypede</li>
+					<li>Corpse_AA_Aura</li>
+					<li>Corpse_AA_Daggersnout</li>
+					<li>Corpse_AA_Fireworm</li>
+					<li>Corpse_AA_Goliath</li>
+					<li>Corpse_AA_Siegebreaker</li>
 				</value>
 			</li>
 			
@@ -91,6 +101,7 @@
 					<li>Corpse_AA_MegaLouse</li>
 					<li>Corpse_AA_CrepuscularBeetle</li>
 					<li>Corpse_AA_FrostboundBehemoth</li>
+					<li>Corpse_AA_Cinderlisk</li>
 
 				</value>
 			</li>
@@ -118,6 +129,7 @@
 					<li>Corpse_AA_MegaLouse</li>
 					<li>Corpse_AA_CrepuscularBeetle</li>
 					<li>Corpse_AA_FrostboundBehemoth</li>
+					<li>Corpse_AA_Cinderlisk</li>
 
 				</value>
 			</li>	
@@ -127,6 +139,7 @@
 				<value>
 					<li>Corpse_AA_Lockjaw</li>
 					<li>Corpse_AA_DecayDrake</li>
+					<li>Corpse_AA_RoughPlatedMonitor</li>
 				
 
 				</value>
@@ -137,6 +150,7 @@
 				<value>
 					<li>Corpse_AA_Lockjaw</li>
 					<li>Corpse_AA_DecayDrake</li>
+					<li>Corpse_AA_RoughPlatedMonitor</li>
 
 					
 				</value>
@@ -146,6 +160,7 @@
 				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesWolf"]/ingredients/li/filter/thingDefs</xpath>
 				<value>
 					<li>Corpse_AA_AnimusVox</li>
+					<li>Corpse_AA_RipperHound</li>
 					
 
 				</value>
@@ -155,6 +170,7 @@
 				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesWolf"]/fixedIngredientFilter/thingDefs</xpath>
 				<value>
 					<li>Corpse_AA_AnimusVox</li>
+					<li>Corpse_AA_RipperHound</li>
 					
 
 
@@ -168,6 +184,7 @@
 					<li>Corpse_AA_FissionMouseSecond</li>
 					<li>Corpse_AA_FissionMouseThird</li>
 					<li>Corpse_AA_DuskRat</li>
+					<li>Corpse_AA_Razorjack</li>
 					
 
 				</value>
@@ -180,6 +197,7 @@
 					<li>Corpse_AA_FissionMouseSecond</li>
 					<li>Corpse_AA_FissionMouseThird</li>
 					<li>Corpse_AA_DuskRat</li>
+					<li>Corpse_AA_Razorjack</li>
 					
 
 
