@@ -8,4 +8,10 @@
 		<driverClass>GeneticAnimalRangeUnlocker.JobDriver_AnimalRangeAttack</driverClass>
 		<reportString>Attacking.</reportString>
 	</JobDef>
+	
+	<JobDef>
+		<defName>AnimalRangeAttack</defName>
+		<driverClass>GeneticAnimalRangeUnlocker.JobDriver_AnimalRangeAttack</driverClass>
+		<reportString>Attacking.</reportString>
+	</JobDef>
 </Defs>
