@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Item Production -->
+
+  <IncubatorProgress>Progreso de Incubacion</IncubatorProgress>
+  <ResourceGrowth>Crecimiento de Recursos</ResourceGrowth>
+  <FeatherGrowth>Crecimiento de Plumas</FeatherGrowth>
+  <JellyGrowth>Crecimiento de Jalea Real</JellyGrowth>
+  <VanillaJellyGrowth>Crecimiento de Jalea</VanillaJellyGrowth>
+  <SacGrowth>Crecimiento de Sacos Explosivos</SacGrowth>
+  <SilkGrowth>Crecimiento de Seda</SilkGrowth>
+  <PoisonGrowth>Crecimiento de Veneno</PoisonGrowth>
+  <SkinShed>Tiempo de Cambio de Piel</SkinShed>
+  <TentacleGrowth>Crecimiento de Tentaculos Recortables</TentacleGrowth>
+  <JellyGrowth2>Crecimiento de Jalea Eldritch</JellyGrowth2>
+  <ChocolateEgg>Crecimiento de Huevos de Chocolate</ChocolateEgg>
+  <Cryofuel>Produccion de Cryo-combustible</Cryofuel>
+  <ChemfuelProd>Produccion de Biocombustible</ChemfuelProd>
+  <NeutroglycerinProd>Produccion de Neutroglicerina</NeutroglycerinProd>
+  <ComponentIndustrialDesc>Produccion de Componente Industrial</ComponentIndustrialDesc>
+  <CastoreumProd>Castoreum production</CastoreumProd>
+
+
+
+  
+  <!-- Gene Pods Control -->
+
+  <GR_ExtractGenes>Vaciar Tanque 1</GR_ExtractGenes>
+  <GR_ExtractGenesDesc>Extrae el Material Genetico del Tanque #1</GR_ExtractGenesDesc>
+  
+  <GR_ExtractGenes2>Vaciar Tanque 2</GR_ExtractGenes2>
+  <GR_ExtractGenes2Desc>Extrae el Material Genetico del Tanque #2</GR_ExtractGenes2Desc>
+  
+  <GR_InsertGenes>Insertar en Tanque 1</GR_InsertGenes>
+  <GR_InsertGenesDesc>Inserta el Material Genetico en el Tanque #1</GR_InsertGenesDesc>
+  
+  <GR_InsertGenes2>Insertar en Tanque 2</GR_InsertGenes2>
+  <GR_InsertGenes2Desc>Inserta el Material Genetico en el Tanque #2</GR_InsertGenes2Desc>
+  
+  <GR_NoGenes>No hay Material Genetico Disponible!</GR_NoGenes>
+  
+  <GR_AllGenesNotPresent>Llena los dos Tanques de Material Genetico para empezar el proceso</GR_AllGenesNotPresent>
+  <GR_MixingGenes>Mezclando Material Genetico. Progreso:</GR_MixingGenes>
+
+
+
+
+
+  <!-- Creature Control Commands -->
+  
+  <GR_CreatureMindControl>Control Mental a la criatura</GR_CreatureMindControl>
+  <GR_CreatureMindControlDesc>Usa el Control Mental para dar ordenes a esta criatura</GR_CreatureMindControlDesc>
+  <GR_CreatureRageAttack>Ataque de ira</GR_CreatureRageAttack>
+  <GR_CreatureRageAttackDesc>Envia a la criatura en una furia sangrienta contra el objetivo</GR_CreatureRageAttackDesc>
+  <GR_DetonateChemfuel>Detonar Biocombustible</GR_DetonateChemfuel>
+  <GR_DetonateChemfuelDesc>Detona remotamente las reservas de Biocombustible de la criatura. Esto matara a tu pobre criatura, obviamente</GR_DetonateChemfuelDesc>
+  <GR_InflictChickenRimPox>Aplicar Rim-Ruela</GR_InflictChickenRimPox>
+  <GR_InflictChickenRimPoxDesc>Ataca al objetivo y lo contagia con Rim-Ruela, una enfermedad debilitadora</GR_InflictChickenRimPoxDesc>
+  <GR_CarryMore>Llevando mas Peso</GR_CarryMore>
+  <GR_CarryMoreDesc>Este hibrido esta cargando mas peso de lo normal debido a la influencia del centro de control de animales</GR_CarryMoreDesc>
+  <GR_StartAdrenalineBurst>Subidon de Adrenalina</GR_StartAdrenalineBurst>
+  <GR_StartAdrenalineBurstDesc>Causa un aumento de Velocidad de Movimiento por un momento, pero dejara agotada a la criatura casi medio dia.</GR_StartAdrenalineBurstDesc>
+  <GR_ReleaseInsectClouds>Liberar Nube de Insectos</GR_ReleaseInsectClouds>
+  <GR_ReleaseInsectCloudsDesc>La criatura libera una Nube de Insectos a su alrededor, dañando a cualquiera que no sea un Hibrido de Insecto</GR_ReleaseInsectCloudsDesc>
+  <GR_StartStampede>Comenzar Estampida</GR_StartStampede>
+  <GR_StartStampedeDesc>Estampida! Se movera rapido y creara Nubes de Polvo que bloquearan la vision de cualquier arma a distancia. Despues de un breve momento, la criatura quedara agotada.</GR_StartStampedeDesc>
+  <GR_CreatePoisonousCloud>Liberar Nube de Veneno</GR_CreatePoisonousCloud>
+  <GR_CreatePoisonousCloudDesc>Crea una Nube de Veneno en la hubicacion del objetivo</GR_CreatePoisonousCloudDesc>
+  <GR_StartBurrowing>Enterrarse</GR_StartBurrowing>
+  <GR_StartBurrowingDesc>Ordena Enterrarse a tu criatura, haciendola muy resistente al daño por un momento.</GR_StartBurrowingDesc>
+  <GR_StartStamina>Aumentar el Aguante</GR_StartStamina>
+  <GR_StartStaminaDesc>Hace a tu criatura mucho mas Resistente al daño por un momento</GR_StartStaminaDesc>
+  <GR_StartInvokingInsanity>Invocar Locura</GR_StartInvokingInsanity>
+  <GR_StartInvokingInsanityDesc>Invoca la Locura de Lo que el Hombre No Debe Saber.</GR_StartInvokingInsanityDesc>
+  <GR_StartMechaBlast>Mecha Explosion</GR_StartMechaBlast>
+  <GR_StartMechaBlastDesc>Libera el calor interno del Hibrido Mecanoide, Quemando todo a su alrededor</GR_StartMechaBlastDesc> 
+  <GR_StartKeenSenses>Sentidos Agudos</GR_StartKeenSenses>
+  <GR_StartKeenSensesDesc>Hace a la criatura mas Consciente de su entorno, incrementando sus capacidades Cuerpo a Cuerpo (afecta a vision y conciencia)</GR_StartKeenSensesDesc>
+  <GR_StartCatReflexes>Reflejos Felinos</GR_StartCatReflexes>
+  <GR_StartCatReflexesDesc>Hace a la criatura mucho mas agil, mejorando aun mas la posibilidad de esquivar ataques Cuerpo a Cuerpo</GR_StartCatReflexesDesc>
+  <GR_Orbital>Haz de Energia Orbital</GR_Orbital>
+  <GR_OrbitalDesc>Bonita... Existencia. Seria una pena que alguien le pusiera FIN.</GR_OrbitalDesc>
+  
+  <GR_AbilityRecharging>Habilidad recargandose. Verifica la pestaña de Salud</GR_AbilityRecharging>
+  <GR_PoisonCloudRange>La Nube de Veneno tiene un alcance Maximo de 10. Acercate mas al Objetivo!</GR_PoisonCloudRange>
+  <GR_InvokingInsanityRange>Invocar Locura tiene un alcance Maximo de 10. Acercate mas al Objetivo!</GR_InvokingInsanityRange>
+
+  
+  
+  <!-- Misc -->
+  
+  <GR_ANewCreatureWasBorn>Una Incubadora a Eclosionado!</GR_ANewCreatureWasBorn> 
+  <GR_ANewCreatureWasBornMutant>Una Incubadora a Eclosi... Espera, que rayos es ESA COSA ???</GR_ANewCreatureWasBornMutant> 
+  <GR_CantUseMoreGenetrainers>Un Genetrainer se a desperdiciado. Ese colono ya tenia un Genetrainer.</GR_CantUseMoreGenetrainers> 
+  <GR_CommandArchotechReport>Mostrar Reporte del Proyecto</GR_CommandArchotechReport>
+  <GR_CommandArchotechReportDesc>Mostrar un informe de preparacion sobre el Proyecto Centipedo Archotect.</GR_CommandArchotechReportDesc>
+  <GR_CommandArchotechStartup>Comenzar Proyecto Centipedo Archotect</GR_CommandArchotechStartup>
+  <GR_CommandArchotechStartupDesc>Activar Plataforma de Construccion Archotech para comenzar el Proyecto Centipedo Archotect.</GR_CommandArchotechStartupDesc>
+  <GR_ArchotechProjectText>Estas listo para comenzar con el Proyecto Centipedo Archotect.\n\nEl proceso llevara unos 15 dias, y la Señal Energetica podra ser detectada desde grandes distancias. Este tipo de Señal Energetica indica que alguien esta entrometiendose en tecnologia que esta mucho mas alla del entendimiento humano, atraeras Asaltantes desesperados por la tecnologia y Enjambres de Mecanoides mortales.\n\nSeras asaltado con una intensidad que nunca has visto antes. Primero asegurate de que tus defensas estan listas.\n\nTen en cuenta que necesitaras tener todos los edificios del Proyecto conectados a la plataforma para activar el Centipedo Archotech.</GR_ArchotechProjectText>
+  <GR_ArchotechProjectLaunch>Activar Centipedo Archotect</GR_ArchotechProjectLaunch>
+  <GR_ArchotechProjectLaunchDesc>Activar el Centipedo Archotect para destruir a tus enemigos. O mata a todo el mundo incluidos los colonos. Es fifty-fifty.</GR_ArchotechProjectLaunchDesc>
+  
+  <GR_ArchotechReportCannotLaunch>No se puede Activar el Centipedo Archotech.</GR_ArchotechReportCannotLaunch>
+  <GR_ArchotechReportCanLaunch>Centipedo Archotech Listo para Activacion.</GR_ArchotechReportCanLaunch>
+  
+   <GR_GameOverArchotech>Has Activado el Proyecto Archotech! Estos Colonos estubieron presentes en el despetar de Archotech:\n\n{0}\n\nEl Centipedo Archotech esta ahora bajo su control, y eres libre de diezmar a tus enemigos y controlar el planeta sin oposicion.\n\nFelicidades, has vencido en Genetic Rim mod!</GR_GameOverArchotech>
+
+  
+  
+  <!-- Settings -->
+  
+  <GR_useLeglessGraphics>Desactiva esta opcion para usar graficos alternativos SIN patas para TODOS los Hibridos Geneticos (la actualizacion tarda unos segundos)</GR_useLeglessGraphics>
+  <GR_IncubatorFailureRate>Posibilidad de fallo de la Incubadora (Predefinido al 10%)</GR_IncubatorFailureRate>
+
+  
+  <!-- This isn't used for now -->
+
+  <AccAgeProg>Accelerated aging progress</AccAgeProg>
+  <CannotCarryToAccelerationPod>Cannot carry to age acceleration pod</CannotCarryToAccelerationPod>
+  <NoAccelerationPod>No valid age acceleration pod found</NoAccelerationPod>
+ 
+
+</LanguageData>
