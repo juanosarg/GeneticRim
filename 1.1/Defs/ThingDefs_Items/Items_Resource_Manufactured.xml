@@ -7,7 +7,7 @@
     
     
     <graphicData>
-      <texPath>Things/Item/geneticmaterials</texPath>
+      
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Standard_Drop</soundInteract>
@@ -36,6 +36,9 @@
 
    <ThingDef ParentName="GR_GeneticsBase">
     <defName>GR_BearGenetic</defName>
+	<graphicData>
+		<texPath>Things/Item/GR_GeneticMaterials_Bear</texPath>
+	</graphicData>
     <label>bear genetic material</label>
     <description>A vial of genetic material extracted from a bear's corpse.</description>
     
@@ -44,50 +47,45 @@
     <defName>GR_ChickenGenetic</defName>
     <label>chicken genetic material</label>
     <description>A vial of genetic material extracted from a chicken's corpse.</description>
-    
     <graphicData>
-      <color>(100,219,108)</color>
-    </graphicData>
+		<texPath>Things/Item/GR_GeneticMaterials_Chicken</texPath>
+	</graphicData>
     
   </ThingDef>
   <ThingDef ParentName="GR_GeneticsBase">
     <defName>GR_BoomalopeGenetic</defName>
     <label>boomalope genetic material</label>
     <description>A vial of genetic material extracted from a boomalope's corpse.</description>
-    
     <graphicData>
-      <color>(220,100,108)</color>
-    </graphicData>
+		<texPath>Things/Item/GR_GeneticMaterials_Boomalope</texPath>
+	</graphicData>
     
   </ThingDef>
   <ThingDef ParentName="GR_GeneticsBase">
     <defName>GR_MuffaloGenetic</defName>
     <label>muffalo genetic material</label>
     <description>A vial of genetic material extracted from a muffalo's corpse.</description>
-    
     <graphicData>
-      <color>(250,219,108)</color>
-    </graphicData>
+		<texPath>Things/Item/GR_GeneticMaterials_Muffalo</texPath>
+	</graphicData>
     
   </ThingDef>
   <ThingDef ParentName="GR_GeneticsBase">
     <defName>GR_WolfGenetic</defName>
     <label>wolf genetic material</label>
     <description>A vial of genetic material extracted from a wolf's corpse.</description>
-    
     <graphicData>
-      <color>(100,219,250)</color>
-    </graphicData>
+		<texPath>Things/Item/GR_GeneticMaterials_Wolf</texPath>
+	</graphicData>
     
   </ThingDef>
   <ThingDef ParentName="GR_GeneticsBase">
     <defName>GR_RodentGenetic</defName>
     <label>rodent/leporid genetic material</label>
     <description>A vial of genetic material extracted from a rodent or leporid corpse.</description>
-    
     <graphicData>
-      <color>(200,130,200)</color>
-    </graphicData>
+		<texPath>Things/Item/GR_GeneticMaterials_Rodent</texPath>
+	</graphicData>
     
   </ThingDef>
   <ThingDef ParentName="GR_GeneticsBase">
@@ -96,7 +94,7 @@
     <description>A vial of genetic material extracted from a feline corpse.</description>
     
     <graphicData>
-      <texPath>Things/Item/GR_RedGreenGeneticMaterial</texPath>
+      <texPath>Things/Item/GR_GeneticMaterials_Feline</texPath>
     </graphicData>
     
   </ThingDef>
@@ -108,7 +106,7 @@
        <MarketValue>45</MarketValue>
     </statBases>
     <graphicData>
-      <color>(56,124,189)</color>
+      <texPath>Things/Item/GR_GeneticMaterials_Insectoid</texPath>
     </graphicData>
     
   </ThingDef>
@@ -120,18 +118,16 @@
        <MarketValue>45</MarketValue>
     </statBases>
     <graphicData>
-      <color>(47,52,36)</color>
+      <texPath>Things/Item/GR_GeneticMaterials_Reptilian</texPath>
     </graphicData>
     
   </ThingDef>
   <ThingDef ParentName="GR_GeneticsBase">
     <defName>GR_HumanoidGenetic</defName>
     <label>humanoid genetic material</label>
-    <description>A vial of genetic material extracted from a humanoid corpse.</description>
-    
+    <description>A vial of genetic material extracted from a humanoid corpse.</description>    
     <graphicData>
-            <texPath>Things/Item/geneticmaterialsred</texPath>
-
+		<texPath>Things/Item/GR_GeneticMaterials_Humanoid</texPath>
     </graphicData>
 	<statBases>
        <MarketValue>45</MarketValue>
@@ -146,7 +142,7 @@
        <MarketValue>100</MarketValue>
     </statBases>
     <graphicData>
-      <color>(228,204,0)</color>
+		<texPath>Things/Item/GR_GeneticMaterials_Thrumbo</texPath>
     </graphicData>
     
   </ThingDef>
@@ -158,7 +154,7 @@
        <MarketValue>100</MarketValue>
     </statBases>
     <graphicData>
-       <texPath>Things/Item/GR_mechanites</texPath>
+       <texPath>Things/Item/GR_GeneticMaterials_Mechanoid</texPath>
     </graphicData>
     
   </ThingDef>

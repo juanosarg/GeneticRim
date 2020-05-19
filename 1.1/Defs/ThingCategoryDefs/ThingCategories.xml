@@ -6,7 +6,7 @@
       <defName>GR_GeneticMaterial</defName>
       <label>genetic materials</label>
       <parent>Manufactured</parent>
-	  <iconPath>Things/Item/geneticmaterials</iconPath>
+	  <iconPath>Things/Item/GR_GeneticMaterials_Bear</iconPath>
       
     </ThingCategoryDef>
 	<ThingCategoryDef>
