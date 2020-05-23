@@ -310,6 +310,7 @@
     <Compile Include="LocalJobDefOf.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RoomRoleWorker_GeneLab.cs" />
+    <Compile Include="UpdateNotice.cs" />
     <Compile Include="WorkGiver_AnimalResource.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

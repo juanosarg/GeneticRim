@@ -119,6 +119,11 @@
   <AccAgeProg>Accelerated aging progress</AccAgeProg>
   <CannotCarryToAccelerationPod>Cannot carry to age acceleration pod</CannotCarryToAccelerationPod>
   <NoAccelerationPod>No valid age acceleration pod found</NoAccelerationPod>
+    
+  <!-- Update letter -->
+  
+  <GR_UpdateLetterLabel>Textures Update</GR_UpdateLetterLabel>
+	<GR_UpdateLetterText>We have released the Vanilla Textures Expanded - Genetic Rim retexture mod, which changes the textures of Genetic Rim to be more vanilla friendly. This is a separate mod from Genetic Rim, so those who prefer the old textures can keep using them.\n\nIt is HIGHLY recommended that you use this retexture, since it brings Genetic Rim in line with what it should have been from the beginning, if I had the proper graphics knowledge three years ago ;)</GR_UpdateLetterText>
  
 
 </LanguageData>

@@ -38,6 +38,42 @@
 			<GR_OrganicPulp>1</GR_OrganicPulp>
 		</products>
 	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_PulpWoodBulk</defName>
+		<label>bulk extract organic pulp from wood</label>
+		<description>Bulk extract organic pulp from wood.</description>
+		<jobString>Bulk extracting Pulp</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>5500</workAmount>
+		<recipeUsers>
+			<li>GR_Pulper</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<GR_OrganicPulp>10</GR_OrganicPulp>
+		</products>
+	</RecipeDef>
 
 	<RecipeDef>
 		<defName>GR_PulpWoodExpensive</defName>
