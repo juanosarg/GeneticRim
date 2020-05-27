@@ -1,0 +1,50 @@
+<Patch>
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Android tiers</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="GR_ExtractGenesHuman"]/fixedIngredientFilter</xpath>
+        <value>
+              <disallowedThingDefs>
+			  <li>Corpse_Android1Tier</li>
+			  <li>Corpse_Android2Tier</li>
+			  <li>Corpse_Android3Tier</li>
+			  <li>Corpse_Android4Tier</li>
+			  <li>Corpse_Android5Tier</li>
+			  <li>M7Mech</li>
+			  <li>MicroScyther</li>
+			  </disallowedThingDefs>
+        </value>
+    </match>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Android tiers</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+        <xpath>/Defs/RecipeDef[defName="GR_ExtractGenesHuman"]/ingredients</xpath>
+        <value>
+		<ingredients>
+			<li>
+				<filter>
+				              <disallowedThingDefs>
+			  <li>Corpse_Android1Tier</li>
+			  <li>Corpse_Android2Tier</li>
+			  <li>Corpse_Android3Tier</li>
+			  <li>Corpse_Android4Tier</li>
+			  <li>Corpse_Android5Tier</li>
+			  <li>M7Mech</li>
+			  <li>MicroScyther</li>
+			  </disallowedThingDefs>
+					<categories>
+						<li>CorpsesHumanlike</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+        </value>
+    </match>
+</Operation>
+</Patch>
