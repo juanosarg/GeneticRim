@@ -12,32 +12,25 @@ namespace NewAnimalSubproducts
     public class UpdateNotice : MapComponent
     {
 
-        public bool sentUpdateLetter = false;
+       
        
         public UpdateNotice(Map map) : base(map)
         {
 
         }
 
-        public override void ExposeData()
-        {
-            base.ExposeData();
-
-            Scribe_Values.Look<bool>(ref this.sentUpdateLetter, "sentUpdateLetter", false, true);
-
-
-        }
+        
 
         public override void MapComponentTick()
         {
             base.MapComponentTick();
-            if (!sentUpdateLetter)
+            if (!Current.Game.GetComponent<UpdateNoticeGlobal>().sentUpdateLetterGlobal)
             {
                 if (!ModLister.HasActiveModWithName("Vanilla Textures Expanded - Genetic Rim"))
                 {
                     Find.LetterStack.ReceiveLetter("GR_UpdateLetterLabel".Translate(), "GR_UpdateLetterText".Translate(), DefDatabase<LetterDef>.GetNamed("GR_UpdateLetter"));
                 }
-                sentUpdateLetter = true;
+                Current.Game.GetComponent<UpdateNoticeGlobal>().sentUpdateLetterGlobal = true;
             }
 
            
