@@ -11,6 +11,7 @@ namespace NewAnimalSubproducts
 
 
         public bool useLeglessGraphics = true;
+        public bool removeUpdateNotice = false;
         public static float failureRate = 10;
      
 
@@ -19,6 +20,8 @@ namespace NewAnimalSubproducts
         {
             base.ExposeData();
             Scribe_Values.Look(ref this.useLeglessGraphics, "useLeglessGraphics", true);
+            Scribe_Values.Look(ref this.removeUpdateNotice, "removeUpdateNotice", false);
+
             Scribe_Values.Look(ref failureRate, "failureRate", 10);
 
 
@@ -43,6 +46,9 @@ namespace NewAnimalSubproducts
             ls.Begin(inRect);
             ls.Gap(12f);
             ls.CheckboxLabeled("GR_useLeglessGraphics".Translate(), ref settings.useLeglessGraphics, null);
+            ls.Gap(12f);
+            ls.Gap(12f);
+            ls.CheckboxLabeled("GR_RemoveUpdateNotice".Translate(), ref settings.removeUpdateNotice, null);
             ls.Gap(12f);
             ls.Gap(12f);
             var label = "GR_IncubatorFailureRate".Translate();

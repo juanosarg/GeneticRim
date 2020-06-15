@@ -28,7 +28,10 @@ namespace NewAnimalSubproducts
             {
                 if (!ModLister.HasActiveModWithName("Vanilla Textures Expanded - Genetic Rim"))
                 {
-                    Find.LetterStack.ReceiveLetter("GR_UpdateLetterLabel".Translate(), "GR_UpdateLetterText".Translate(), DefDatabase<LetterDef>.GetNamed("GR_UpdateLetter"));
+                    if (!LoadedModManager.GetMod<GeneticRim_Mod>().GetSettings<GeneticRim_Settings>().removeUpdateNotice) {
+                        Find.LetterStack.ReceiveLetter("GR_UpdateLetterLabel".Translate(), "GR_UpdateLetterText".Translate(), DefDatabase<LetterDef>.GetNamed("GR_UpdateLetter"));
+
+                    }
                 }
                 Current.Game.GetComponent<UpdateNoticeGlobal>().sentUpdateLetterGlobal = true;
             }

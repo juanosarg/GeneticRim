@@ -112,6 +112,7 @@
   
   <GR_useLeglessGraphics>Uncheck this to use alternate legless graphics for ALL Genetic hybrids (takes a few seconds to update)</GR_useLeglessGraphics>
   <GR_IncubatorFailureRate>Incubator failure rate (default is 10%)</GR_IncubatorFailureRate>
+  <GR_RemoveUpdateNotice>Remove VGE - Genetic Rim update notice</GR_RemoveUpdateNotice>
 
   
   <!-- This isn't used for now -->
