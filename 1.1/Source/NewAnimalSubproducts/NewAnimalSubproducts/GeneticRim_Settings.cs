@@ -45,14 +45,16 @@ namespace NewAnimalSubproducts
             Listing_Standard ls = new Listing_Standard();
             ls.Begin(inRect);
             ls.Gap(12f);
+            
+            var label = "GR_IncubatorFailureRate".Translate();
+            GeneticRim_Settings.failureRate= Widgets.HorizontalSlider(inRect.TopHalf().TopHalf().TopHalf(), GeneticRim_Settings.failureRate, 0f, 100f, false, label, "0%", "100%", -1);
+            ls.Gap(90f);
+           
             ls.CheckboxLabeled("GR_useLeglessGraphics".Translate(), ref settings.useLeglessGraphics, null);
             ls.Gap(12f);
             ls.Gap(12f);
             ls.CheckboxLabeled("GR_RemoveUpdateNotice".Translate(), ref settings.removeUpdateNotice, null);
             ls.Gap(12f);
-            ls.Gap(12f);
-            var label = "GR_IncubatorFailureRate".Translate();
-            GeneticRim_Settings.failureRate= Widgets.HorizontalSlider(inRect.TopHalf().TopHalf().TopHalf(), GeneticRim_Settings.failureRate, 0f, 100f, false, label, "0%", "100%", -1);
             ls.Gap(12f);
 
             settings.Write();
