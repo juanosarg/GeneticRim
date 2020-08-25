@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+
+	<WorkGiverDef>
+		<defName>GR_DoBillsGenetics</defName>
+		<label>works at genetics table</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>GR_GeneticExtractionTable</li>
+		</fixedBillGiverDefs>
+		<verb>extract genetic materials</verb>
+		<gerund>extracting genetic material at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>GR_DoBillsGenePod</defName>
+		<label>works at genepod</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>GR_GenePod</li>
+		</fixedBillGiverDefs>
+		<verb>combining genetic materials</verb>
+		<gerund>combining genetic material at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>GR_DoBillsAdvancedGenePod</defName>
+		<label>works at advanced genepod</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>GR_AdvancedGenePod</li>
+		</fixedBillGiverDefs>
+		<verb>combining genetic materials</verb>
+		<gerund>combining genetic material at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>GR_DoBillsPulper</defName>
+		<label>works at wood pulper</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>GR_Pulper</li>
+		</fixedBillGiverDefs>
+		<verb>pulping wood</verb>
+		<gerund>pulping wood at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>GR_DoBillsRecycler</defName>
+		<label>works at recycler</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>GR_PulpRecycler</li>
+		</fixedBillGiverDefs>
+		<verb>pulping corpse</verb>
+		<gerund>pulping corpse at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+		
+	<WorkGiverDef>
+		<defName>GR_DoBillsGeneRecombinator</defName>
+		<label>works at gene recombinator</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>GR_GeneRecombinator</li>
+		</fixedBillGiverDefs>
+		<verb>recombining genes</verb>
+		<gerund>recombining genes at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>GR_DoBillsGeneDuplicator</defName>
+		<label>works at gene duplicator</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>GR_GeneDuplicator</li>
+		</fixedBillGiverDefs>
+		<verb>duplicating genes</verb>
+		<gerund>duplicating genes at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>GR_DoBillsVat</defName>
+		<label>works at tissue growing vat</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>GR_TissueGrowingVat</li>
+		</fixedBillGiverDefs>
+		<verb>growing tissues</verb>
+		<gerund>growing tissues at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>GR_DoBillsSerumTable</defName>
+		<label>works at paragon serum extraction table</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>GR_AlphaSerumExtractionTable</li>
+		</fixedBillGiverDefs>
+		<verb>extracting serum</verb>
+		<gerund>extracting serum at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+		<WorkGiverDef>
+		<defName>GR_DoBillsGenetrainerBench</defName>
+		<label>works at genetrainer bench</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>GR_GenetrainerBench</li>
+		</fixedBillGiverDefs>
+		<verb>crafting genetrainer</verb>
+		<gerund>crafting genetrainer at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>GR_DoBillsAnimalEnrichment</defName>
+		<label>works at animal enrichment center</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>GR_AnimalEnrichmentCenter</li>
+		</fixedBillGiverDefs>
+		<verb>mixing alpha serum</verb>
+		<gerund>mixing alpha serum at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>GR_AnimalResource</defName>
+		<label>gather animal resource</label>
+		<giverClass>NewAnimalSubproducts.WorkGiver_AnimalResource</giverClass>
+		<workType>Handling</workType>
+		<verb>gather animal resource from</verb>
+		<gerund>gathering animal resource from</gerund>
+		<priorityInType>85</priorityInType>
+		<requiredCapacities>
+		  <li>Manipulation</li>
+		</requiredCapacities>
+    </WorkGiverDef>
+	
+	<WorkGiverDef>
+    <defName>GR_InsertGenesIntoGenePod</defName>
+    <label>inserting genetic material on gene pod</label>
+    <giverClass>NewMachinery.WorkGiver_InsertGenesIntoGenePod</giverClass>
+    <workType>Hauling</workType>
+    <verb>insert genetic material on gene pod</verb>
+    <gerund>inserting genetic material on gene pod</gerund>
+    <priorityInType>20</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  
+  	<WorkGiverDef>
+    <defName>GR_InsertGenesIntoGenePod2</defName>
+    <label>inserting genetic material on gene pod</label>
+    <giverClass>NewMachinery.WorkGiver_InsertGenesIntoGenePod2</giverClass>
+    <workType>Hauling</workType>
+    <verb>insert genetic material on gene pod</verb>
+    <gerund>inserting genetic material on gene pod</gerund>
+    <priorityInType>20</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+
+
+</Defs>

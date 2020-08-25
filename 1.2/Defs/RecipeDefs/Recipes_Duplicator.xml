@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<RecipeDef>
+		<defName>GR_DuplicateBear</defName>
+		<label>duplicate bear genes</label>
+		<description>Duplicate bear genetic material in exchange for a lot of organic pulp.</description>
+		<jobString>Duplicating Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>		
+		<recipeUsers>
+				<li>GR_GeneDuplicator</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_BearGenetic</li>
+						
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_OrganicPulp</li>
+						
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>		
+			<thingDefs>
+								
+						<li>GR_BearGenetic</li>						
+						<li>GR_OrganicPulp</li>
+					</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_BearGenetic>2</GR_BearGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_DuplicateBoomalope</defName>
+		<label>duplicate boomalope genes</label>
+		<description>Duplicate boomalope genetic material in exchange for a lot of organic pulp.</description>
+		<jobString>Duplicating Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>		
+		<recipeUsers>
+				<li>GR_GeneDuplicator</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_BoomalopeGenetic</li>
+						
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_OrganicPulp</li>
+						
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>		
+			<thingDefs>
+								
+						<li>GR_BoomalopeGenetic</li>						
+						<li>GR_OrganicPulp</li>
+					</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_BoomalopeGenetic>2</GR_BoomalopeGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_DuplicateFeline</defName>
+		<label>duplicate cat genes</label>
+		<description>Duplicate cat genetic material in exchange for a lot of organic pulp.</description>
+		<jobString>Duplicating Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>		
+		<recipeUsers>
+				<li>GR_GeneDuplicator</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_FelineGenetic</li>
+						
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_OrganicPulp</li>
+						
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>		
+			<thingDefs>
+								
+						<li>GR_FelineGenetic</li>						
+						<li>GR_OrganicPulp</li>
+					</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_FelineGenetic>2</GR_FelineGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_DuplicateChicken</defName>
+		<label>duplicate chicken genes</label>
+		<description>Duplicate chicken genetic material in exchange for a lot of organic pulp.</description>
+		<jobString>Duplicating Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>		
+		<recipeUsers>
+				<li>GR_GeneDuplicator</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_ChickenGenetic</li>
+						
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_OrganicPulp</li>
+						
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>		
+			<thingDefs>
+								
+						<li>GR_ChickenGenetic</li>						
+						<li>GR_OrganicPulp</li>
+					</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_ChickenGenetic>2</GR_ChickenGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>	
+	
+	<RecipeDef>
+		<defName>GR_DuplicateRodent</defName>
+		<label>duplicate rodent genes</label>
+		<description>Duplicate rodent genetic material in exchange for a lot of organic pulp.</description>
+		<jobString>Duplicating Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>		
+		<recipeUsers>
+				<li>GR_GeneDuplicator</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_RodentGenetic</li>
+						
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_OrganicPulp</li>
+						
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>		
+			<thingDefs>
+								
+						<li>GR_RodentGenetic</li>						
+						<li>GR_OrganicPulp</li>
+					</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_RodentGenetic>2</GR_RodentGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_DuplicateMuffalo</defName>
+		<label>duplicate muffalo genes</label>
+		<description>Duplicate muffalo genetic material in exchange for a lot of organic pulp.</description>
+		<jobString>Duplicating Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>		
+		<recipeUsers>
+				<li>GR_GeneDuplicator</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_MuffaloGenetic</li>
+						
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_OrganicPulp</li>
+						
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>		
+			<thingDefs>
+								
+						<li>GR_MuffaloGenetic</li>						
+						<li>GR_OrganicPulp</li>
+					</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MuffaloGenetic>2</GR_MuffaloGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+
+<RecipeDef>
+		<defName>GR_DuplicateWolf</defName>
+		<label>duplicate wolf genes</label>
+		<description>Duplicate wolf genetic material in exchange for a lot of organic pulp.</description>
+		<jobString>Duplicating Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>		
+		<recipeUsers>
+				<li>GR_GeneDuplicator</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_WolfGenetic</li>
+						
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_OrganicPulp</li>
+						
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>		
+			<thingDefs>
+								
+						<li>GR_WolfGenetic</li>						
+						<li>GR_OrganicPulp</li>
+					</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_WolfGenetic>2</GR_WolfGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>		
+<RecipeDef>
+		<defName>GR_DuplicateInsectoid</defName>
+		<label>duplicate insectoid genes</label>
+		<description>Duplicate insectoid genetic material in exchange for a lot of organic pulp.</description>
+		<jobString>Duplicating Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>		
+		<recipeUsers>
+				<li>GR_GeneDuplicator</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_InsectoidGenetic</li>
+						
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_OrganicPulp</li>
+						
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>		
+			<thingDefs>
+								
+						<li>GR_InsectoidGenetic</li>						
+						<li>GR_OrganicPulp</li>
+					</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_InsectoidGenetic>2</GR_InsectoidGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>7</Intellectual>
+		</skillRequirements>
+	</RecipeDef>	
+
+<RecipeDef>
+		<defName>GR_DuplicateReptilian</defName>
+		<label>duplicate reptilian genes</label>
+		<description>Duplicate reptilian genetic material in exchange for a lot of organic pulp.</description>
+		<jobString>Duplicating Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>		
+		<recipeUsers>
+				<li>GR_GeneDuplicator</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_ReptilianGenetic</li>
+						
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_OrganicPulp</li>
+						
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>		
+			<thingDefs>
+								
+						<li>GR_ReptilianGenetic</li>						
+						<li>GR_OrganicPulp</li>
+					</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_ReptilianGenetic>2</GR_ReptilianGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>7</Intellectual>
+		</skillRequirements>
+	</RecipeDef>	
+
+<RecipeDef>
+		<defName>GR_DuplicateHumanoid</defName>
+		<label>duplicate humanoid genes</label>
+		<description>Duplicate humanoid genetic material in exchange for a lot of organic pulp.</description>
+		<jobString>Duplicating Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>		
+		<recipeUsers>
+				<li>GR_GeneDuplicator</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_HumanoidGenetic</li>
+						
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>GR_OrganicPulp</li>
+						
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>		
+			<thingDefs>
+								
+						<li>GR_HumanoidGenetic</li>						
+						<li>GR_OrganicPulp</li>
+					</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_HumanoidGenetic>2</GR_HumanoidGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>7</Intellectual>
+		</skillRequirements>
+	</RecipeDef>		
+
+
+  
+</Defs>

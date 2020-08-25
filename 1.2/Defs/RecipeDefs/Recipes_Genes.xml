@@ -1,0 +1,641 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<RecipeDef>
+		<defName>GR_BaseIncubator</defName>
+		<label>manufacture empty incubator</label>
+		<description>Manufacture an empty incubator using Steel and an organic growth compound.</description>
+		<jobString>Manufacturing empty incubator</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>800</workAmount>
+		<recipeUsers>
+			<li>GR_GeneticExtractionTable</li>	 
+			<li>GR_AlphaSerumExtractionTable</li>	  
+
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+
+					<thingDefs>
+						<li>Steel</li>
+
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+
+					<thingDefs>
+						<li>GR_OrganicPulp</li>
+
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+
+			<thingDefs>
+				<li>Steel</li>
+				<li>GR_OrganicPulp</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_EmptyIncubator>1</GR_EmptyIncubator>
+		</products>
+
+	</RecipeDef>
+
+
+
+	
+	<RecipeDef>
+		<defName>GR_ExtractGenesBear</defName>
+		<label>extract genes from a bear</label>
+		<description>Extract genetic material from a bear corpse.</description>
+		<jobString>Extracting Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>GR_GeneticExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+
+					<thingDefs>
+						<li>Corpse_Bear_Grizzly</li>
+						<li>Corpse_Bear_Polar</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+
+			<thingDefs>
+				<li>Corpse_Bear_Grizzly</li>
+				<li>Corpse_Bear_Polar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_BearGenetic>1</GR_BearGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_ExtractGenesChicken</defName>
+		<label>extract genes from a bird</label>
+		<description>Extract genetic material from any bird corpse.</description>
+		<jobString>Extracting Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>GR_GeneticExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+
+					<thingDefs>
+						<li>Corpse_Chicken</li>
+						<li>Corpse_Turkey</li>
+						<li>Corpse_Ostrich</li>
+						<li>Corpse_Emu</li>
+						<li>Corpse_Cassowary</li>
+						<li>Corpse_Duck</li>
+						<li>Corpse_Goose</li>
+
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+
+			<thingDefs>
+				<li>Corpse_Chicken</li>
+				<li>Corpse_Turkey</li>
+				<li>Corpse_Ostrich</li>
+				<li>Corpse_Emu</li>
+				<li>Corpse_Cassowary</li>
+				<li>Corpse_Duck</li>
+				<li>Corpse_Goose</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_ChickenGenetic>1</GR_ChickenGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_ExtractGenesBoomalope</defName>
+		<label>extract genes from a boomalope</label>
+		<description>Extract genetic material from a boomalope corpse.</description>
+		<jobString>Extracting Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>GR_GeneticExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+
+					<thingDefs>
+						<li>Corpse_Boomalope</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+
+			<thingDefs>
+				<li>Corpse_Boomalope</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_BoomalopeGenetic>1</GR_BoomalopeGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_ExtractGenesMuffalo</defName>
+		<label>extract genes from a muffalo</label>
+		<description>Extract genetic material from a muffalo corpse.</description>
+		<jobString>Extracting Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>GR_GeneticExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+
+					<thingDefs>
+						<li>Corpse_Muffalo</li>
+						<li>Corpse_Bison</li>
+						<li>Corpse_Yak</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+
+			<thingDefs>
+				<li>Corpse_Muffalo</li>
+				<li>Corpse_Bison</li>
+				<li>Corpse_Yak</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MuffaloGenetic>1</GR_MuffaloGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_ExtractGenesWolf</defName>
+		<label>extract genes from a canid</label>
+		<description>Extract genetic material from a wolf, warg or dog corpse.</description>
+		<jobString>Extracting Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>GR_GeneticExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+
+					<thingDefs>
+						<li>Corpse_Wolf_Timber</li>
+						<li>Corpse_Wolf_Arctic</li>
+						<li>Corpse_Warg</li>
+						<li>Corpse_YorkshireTerrier</li>
+						<li>Corpse_Husky</li>
+						<li>Corpse_LabradorRetriever</li>
+						<li>Corpse_Fox_Fennec</li>
+						<li>Corpse_Fox_Red</li>
+						<li>Corpse_Fox_Arctic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+
+			<thingDefs>
+				<li>Corpse_Wolf_Timber</li>
+				<li>Corpse_Wolf_Arctic</li>
+				<li>Corpse_Warg</li>
+				<li>Corpse_YorkshireTerrier</li>
+				<li>Corpse_Husky</li>
+				<li>Corpse_LabradorRetriever</li>
+				<li>Corpse_Fox_Fennec</li>
+				<li>Corpse_Fox_Red</li>
+				<li>Corpse_Fox_Arctic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_WolfGenetic>1</GR_WolfGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_ExtractGenesRodent</defName>
+		<label>extract genes from a rodent or leporid</label>
+		<description>Extract genetic material from a rodent or leporid corpse.</description>
+		<jobString>Extracting Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>GR_GeneticExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+
+					<thingDefs>
+						<li>Corpse_Hare</li>
+						<li>Corpse_Snowhare</li>
+						<li>Corpse_Squirrel</li>
+						<li>Corpse_Alphabeaver</li>
+						<li>Corpse_Capybara</li>
+						<li>Corpse_Chinchilla</li>
+						<li>Corpse_Raccoon</li>
+						<li>Corpse_Rat</li>
+						<li>Corpse_GuineaPig</li>
+						
+
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+
+			<thingDefs>
+				<li>Corpse_Hare</li>
+				<li>Corpse_Snowhare</li>
+				<li>Corpse_Squirrel</li>
+				<li>Corpse_Alphabeaver</li>
+				<li>Corpse_Capybara</li>
+				<li>Corpse_Chinchilla</li>
+				<li>Corpse_Raccoon</li>
+				<li>Corpse_Rat</li>
+				<li>Corpse_GuineaPig</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_RodentGenetic>1</GR_RodentGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_ExtractGenesFeline</defName>
+		<label>extract genes from a feline</label>
+		<description>Extract genetic material from a feline corpse.</description>
+		<jobString>Extracting Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>GR_GeneticExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+
+					<thingDefs>
+						<li>Corpse_Cougar</li>
+						<li>Corpse_Panther</li>
+						<li>Corpse_Lynx</li>
+						<li>Corpse_Cat</li>
+						
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+
+			<thingDefs>
+				<li>Corpse_Cougar</li>
+				<li>Corpse_Panther</li>
+				<li>Corpse_Lynx</li>
+				<li>Corpse_Cat</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_FelineGenetic>1</GR_FelineGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_ExtractGenesInsectoid</defName>
+		<label>extract genes from an insectoid</label>
+		<description>Extract genetic material from an alien insectoid.</description>
+		<jobString>Extracting Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>GR_GeneticExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+
+					<thingDefs>
+						<li>Corpse_Megascarab</li>
+						<li>Corpse_Megaspider</li>
+						<li>Corpse_Spelopede</li>
+
+
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+
+			<thingDefs>
+				<li>Corpse_Megascarab</li>
+				<li>Corpse_Megaspider</li>
+				<li>Corpse_Spelopede</li>
+
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_InsectoidGenetic>1</GR_InsectoidGenetic>
+		</products>
+		<researchPrerequisite>GR_InsectoidGenome</researchPrerequisite>
+		<skillRequirements>
+			<Intellectual>7</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_ExtractGenesReptilian</defName>
+		<label>extract genes from a reptile</label>
+		<description>Extract genetic material from a reptile.</description>
+		<jobString>Extracting Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>GR_GeneticExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+
+					<thingDefs>
+						<li>Corpse_Cobra</li>
+						<li>Corpse_Iguana</li>
+						<li>Corpse_Tortoise</li>
+
+
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+
+			<thingDefs>
+				<li>Corpse_Cobra</li>
+				<li>Corpse_Iguana</li>
+				<li>Corpse_Tortoise</li>
+
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_ReptilianGenetic>1</GR_ReptilianGenetic>
+		</products>
+		<researchPrerequisite>GR_ReptilianGenome</researchPrerequisite>
+		<skillRequirements>
+			<Intellectual>7</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_ExtractGenesHuman</defName>
+		<label>extract genes from a humanoid</label>
+		<description>Extract genetic material from a humanoid.</description>
+		<jobString>Extracting Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>GR_GeneticExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>CorpsesHumanlike</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>CorpsesHumanlike</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<GR_HumanoidGenetic>1</GR_HumanoidGenetic>
+		</products>
+		<researchPrerequisite>GR_HumanoidGeneticEngineering</researchPrerequisite>
+		<skillRequirements>
+			<Intellectual>7</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_ExtractGenesThrumbo</defName>
+		<label>extract genes from a thrumbo</label>
+		<description>Extract genetic material from a thrumbo corpse.</description>
+		<jobString>Extracting Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>GR_GeneticExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+
+					<thingDefs>
+						<li>Corpse_Thrumbo</li>
+
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+
+			<thingDefs>
+				<li>Corpse_Thrumbo</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_ThrumboGenetic>1</GR_ThrumboGenetic>
+		</products>
+		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
+		<skillRequirements>
+			<Intellectual>10</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_ExtractGenesMechanoid</defName>
+		<label>extract genes from a mechanoid</label>
+		<description>Extract genetic material from a mechanoid corpse.</description>
+		<jobString>Extracting Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>GR_GeneticExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+
+					<thingDefs>
+						<li>Corpse_Mech_Centipede</li>
+						<li>Corpse_Mech_Lancer</li>
+						<li>Corpse_Mech_Scyther</li>
+						<li>Corpse_Mech_Pikeman</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+
+			<thingDefs>
+				<li>Corpse_Mech_Centipede</li>
+				<li>Corpse_Mech_Lancer</li>
+				<li>Corpse_Mech_Scyther</li>
+				<li>Corpse_Mech_Pikeman</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MechanoidGenetic>1</GR_MechanoidGenetic>
+		</products>
+		<researchPrerequisite>GR_AdvancedMechaniteBioIntegration</researchPrerequisite>
+		<skillRequirements>
+			<Intellectual>10</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_ExtractNonSpecializedGenes</defName>
+		<label>extract non-specialized genes from any animal</label>
+		<description>Extract non-specialized cells from any animal. These genes can't be used to create animal hybrids. They can probably be used in a gene recombinator to turn them into more useful genetic materials, though.</description>
+		<jobString>Extracting Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>GR_GeneticExtractionTable</li>	  
+		</recipeUsers>	
+		 <ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Corpses</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		
+		<fixedIngredientFilter>
+			<categories>
+				<li>Corpses</li>
+			</categories>
+			<disallowedCategories>
+				<li>CorpsesMechanoid</li>
+			</disallowedCategories>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>CorpsesAnimal</li>
+			</categories>
+		</defaultIngredientFilter>
+		<products>
+			<GR_NonSpecializedGenetic>1</GR_NonSpecializedGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+
+
+
+
+
+</Defs>

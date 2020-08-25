@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Animals Expanded — Cats and Dogs</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+		<operations>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesWolf"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_Beagle</li>
+					<li>Corpse_AEXP_Chihuahua</li>
+					<li>Corpse_AEXP_Corgi</li>
+					<li>Corpse_AEXP_FrenchBulldog</li>
+					<li>Corpse_AEXP_GermanShepherd</li>
+					<li>Corpse_AEXP_GreatDane</li>
+					<li>Corpse_AEXP_Poodle</li>
+					<li>Corpse_AEXP_Pug</li>
+					<li>Corpse_AEXP_Rottweiler</li>
+					<li>Corpse_AEXP_Shih-Tzu</li>
+					<li>Corpse_AEXP_WelshTerrier</li>
+					
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesWolf"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_Beagle</li>
+					<li>Corpse_AEXP_Chihuahua</li>
+					<li>Corpse_AEXP_Corgi</li>
+					<li>Corpse_AEXP_FrenchBulldog</li>
+					<li>Corpse_AEXP_GermanShepherd</li>
+					<li>Corpse_AEXP_GreatDane</li>
+					<li>Corpse_AEXP_Poodle</li>
+					<li>Corpse_AEXP_Pug</li>
+					<li>Corpse_AEXP_Rottweiler</li>
+					<li>Corpse_AEXP_Shih-Tzu</li>
+					<li>Corpse_AEXP_WelshTerrier</li>
+
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesFeline"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_CatAbyssinian</li>
+					<li>Corpse_AEXP_CatBengal</li>
+					<li>Corpse_AEXP_CatBritishShorthair</li>
+					<li>Corpse_AEXP_CatMaineCoon</li>
+					<li>Corpse_AEXP_CatMunchkin</li>
+					<li>Corpse_AEXP_CatNorwegianForest</li>
+					<li>Corpse_AEXP_CatPersian</li>
+					<li>Corpse_AEXP_CatSiamese</li>
+					<li>Corpse_AEXP_CatSomali</li>
+					<li>Corpse_AEXP_CatSphynx</li>
+					
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesFeline"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>Corpse_AEXP_CatAbyssinian</li>
+					<li>Corpse_AEXP_CatBengal</li>
+					<li>Corpse_AEXP_CatBritishShorthair</li>
+					<li>Corpse_AEXP_CatMaineCoon</li>
+					<li>Corpse_AEXP_CatMunchkin</li>
+					<li>Corpse_AEXP_CatNorwegianForest</li>
+					<li>Corpse_AEXP_CatPersian</li>
+					<li>Corpse_AEXP_CatSiamese</li>
+					<li>Corpse_AEXP_CatSomali</li>
+					<li>Corpse_AEXP_CatSphynx</li>
+
+				</value>
+			</li>
+			
+		</operations>
+		</match>
+	</Operation>
+	
+	
+</Patch>

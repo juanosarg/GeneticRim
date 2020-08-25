@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+    <ThingCategoryDef>
+      <defName>GR_GeneticMaterial</defName>
+      <label>genetic materials</label>
+      <parent>Manufactured</parent>
+	  <iconPath>Things/Item/GR_GeneticMaterials_Bear</iconPath>
+      
+    </ThingCategoryDef>
+	<ThingCategoryDef>
+      <defName>GR_Incubators</defName>
+      <label>incubators</label>
+      <parent>GR_GeneticMaterial</parent>
+	  <iconPath>Things/Item/IncubatorCanister</iconPath>
+      
+    </ThingCategoryDef>
+	<ThingCategoryDef>
+      <defName>GR_AlphaSerums</defName>
+      <label>paragon serums</label>
+      <parent>GR_GeneticMaterial</parent>
+	  <iconPath>Things/Item/AlphaSerum</iconPath>
+      
+    </ThingCategoryDef>
+	
+	    <ThingCategoryDef>
+    <defName>GR_Corpses</defName>
+    <label>hybrid and paragon corpses</label>
+      <parent>Corpses</parent>
+    </ThingCategoryDef>
+	
+	<ThingCategoryDef>
+        <defName>GR_ImplantCategory</defName>
+        <label>hybrid implants</label>
+        <parent>BodyParts</parent>
+      </ThingCategoryDef>
+	  
+	  <ThingCategoryDef>
+        <defName>GR_GenetrainersCategory</defName>
+        <label>genetrainers</label>
+        <parent>Items</parent>
+      </ThingCategoryDef>
+
+
+</Defs>

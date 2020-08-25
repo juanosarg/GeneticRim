@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>GR_NitroMilkTrap</defName>
+    <label>IED nitromilk trap</label>
+    <thingClass>Building_TrapExplosive</thingClass>
+    <graphicData>
+      <texPath>Things/Building/NitroMilkTrap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0.1,0,0.8,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <WorkToBuild>2000</WorkToBuild>
+      <Beauty>-4</Beauty>
+      <TrapSpringChance>0.8</TrapSpringChance>
+    </statBases>
+    <description>A bucket of Muffalope milk connected to a homemade battery and electrodes. When the trigger is disturbed, an electrical current excites the unstable milk, and the device explodes. The improvised trigger has a random delay that might allow a nimble enemy to escape.</description>
+    <costList>
+			<GR_MuffalopeMilk>1</GR_MuffalopeMilk>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <designationCategory>Security</designationCategory>
+    <designationHotKey>Misc7</designationHotKey>
+    <building>
+      <isTrap>true</isTrap>
+    </building>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>1.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+        <wickTicks>
+          <min>15</min>
+          <max>70</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <researchPrerequisites><li>IEDs</li></researchPrerequisites>
+  </ThingDef>
+  
+</Defs>

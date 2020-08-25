@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <TaleDef>
+    <defName>GR_Transcended</defName>
+    <label>participated in archotech awakening</label>
+    <taleClass>Tale_SinglePawn</taleClass>
+    <type>Volatile</type>
+    <baseInterest>50</baseInterest>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun->[PAWN_nameDef] participating in the archotech awakening</li>
+        <li>image->[PAWN_nameFull] toggling on the archotech AI [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] trembling in fear of the archotech AI [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] looking with unease at the archotech AI [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] checking the integrity of the archotech project [circumstance_group]</li>
+        <li>circumstance_phrase->in front of a [TerrainFeature]</li>
+        <li>circumstance_phrase->with incredible intelligence</li>
+        <li>circumstance_phrase->in a lab coat</li>
+        <li>circumstance_phrase->with electricity coiling dramatically</li>
+        <li>circumstance_phrase->cackling madly</li>
+        <li>desc_sentence->[PAWN_pronoun] is concentrating intently on the controls.</li>
+        <li>desc_sentence->[PAWN_pronoun] has [PAWN_possessive] eyes slanted and looks confident.</li>
+        <li>desc_sentence->[PAWN_pronoun] is fidgeting, [PAWN_possessive] eyes open wide.</li>
+        <li>desc_sentence->[PAWN_pronoun] is smiling with grim joy.</li>
+        <li>desc_sentence->[PAWN_pronoun] seems to be fully in control of the situation (but reaaaally isn't).</li>
+        <li>desc_sentence->There is a trace of ozone in the air.</li>
+        <li>desc_sentence->A nearby [Animal] is looking up, startled.</li>
+        <li>desc_sentence->A [Animal] is fleeing the lab in fear.</li>
+        <li>desc_sentence->There is a [TerrainFeature] in the background.</li>
+        <li>desc_sentence->A [PersonJob] watches silently from afar, fearing for his future.</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+
+  
+
+</Defs>

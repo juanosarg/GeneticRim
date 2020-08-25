@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+  <RecipeDef>
+		<defName>GR_ExtractMilkFromMilks</defName>
+		<label>extract milk from hybrid milks</label>
+		<description>Extracts regular milk from hybrid milks, maintaining nutrition value but potentially losing special qualities.</description>
+		<jobString>Extracting milk.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workAmount>200</workAmount>
+
+		<recipeUsers>
+				<li>ElectricStove</li>	
+				<li>FueledStove</li>	 				
+		</recipeUsers>	
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>GR_WeirdMilk</li>
+					<li>GR_ThrumffaloMilk</li>
+					<li>GR_BearffaloMilk</li>
+					<li>GR_MuffalochickenMilk</li>
+					<li>GR_ChickenffaloMilk</li>
+					<li>GR_MuffalobearMilk</li>
+					<li>GR_WolffaloMilk</li>
+				  </thingDefs>
+				</filter>
+				<count>1.25</count>
+			</li>
+			
+	</ingredients>
+	<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_WeirdMilk</li>
+				<li>GR_ThrumffaloMilk</li>
+				<li>GR_BearffaloMilk</li>
+				<li>GR_MuffalochickenMilk</li>
+				<li>GR_ChickenffaloMilk</li>
+				<li>GR_MuffalobearMilk</li>
+				<li>GR_WolffaloMilk</li>
+			</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+      <Milk>25</Milk>
+    </products>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+  </RecipeDef>
+
+
+</Defs>

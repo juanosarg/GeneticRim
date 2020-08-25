@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--========= General ============-->
+
+  <JobDef>
+		<defName>GR_AnimalRangeAttack</defName>
+		<driverClass>GeneticAnimalRangeUnlocker.JobDriver_AnimalRangeAttack</driverClass>
+		<reportString>Attacking.</reportString>
+	</JobDef>
+	
+	<JobDef>
+		<defName>AnimalRangeAttack</defName>
+		<driverClass>GeneticAnimalRangeUnlocker.JobDriver_AnimalRangeAttack</driverClass>
+		<reportString>Attacking.</reportString>
+	</JobDef>
+</Defs>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/LifeStageDef[defName = "EusocialInsectAdult"]</xpath>
+		<value>
+			<shearable>true</shearable>
+		</value>
+	</Operation>
+	
+		<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/LifeStageDef[defName = "MechanoidFullyFormed"]</xpath>
+		<value>
+			<shearable>true</shearable>
+			<milkable>true</milkable>
+
+		</value>
+	</Operation>
+
+
+
+	
+
+</Patch>

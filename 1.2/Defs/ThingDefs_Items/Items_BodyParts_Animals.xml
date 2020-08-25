@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--=============== Animal Hybrid Implants ====================-->
+
+	<ThingDef Name="GR_AnimalImplantBase" Abstract="True" ParentName="BodyPartBase">
+		<tradeability>Sellable</tradeability>
+		 <thingCategories>
+      <li>GR_ImplantCategory</li>
+    </thingCategories>
+		<graphicData>
+			<texPath>Things/Item/GR_AnimalGeneticHybridOrgan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+	</ThingDef>
+	
+	
+	<!--=============== Legs ====================-->
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_BearLeg</defName>
+		<label>animal Implant: bear leg (tier 1)</label>
+		<description>A prosthetic animal leg strengthened with bear muscles, and ending in a powerful bear claw that adds a powerful melee attack.</description>		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_LizardLeg</defName>
+		<label>animal Implant: lizard leg (tier 2)</label>
+		<description>A bionic animal leg reinforced with tough lizard skin.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_ThrumboLeg</defName>
+		<label>animal Implant: thrumbo leg (tier 3)</label>
+		<description>A bionic animal leg reinforced with muscle tissue from a powerful thrumbo.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+		<!--=============== Tails ====================-->
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_ScytherTail</defName>
+		<label>animal Implant: scyther tail (tier 2)</label>
+		<description>A scyther tail created by attaching a scyther blade to an animal's tail. Note that only creatures with a natural tail can use this.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_MechaTail</defName>
+		<label>animal Implant: mechanoid tail (tier 3)</label>
+		<description>An advanced mechanoid tail, even more powerful than the old scyther tail. Note that only creatures with a natural tail can use this.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!--=============== Eyes ====================-->
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_CanidEye</defName>
+		<label>animal Implant: canid eye (tier 1)</label>
+		<description>An eye implant that uses genetic splicing with canid genes to give an old (or damaged) eye decent vision. This implant is not meant to replace healthy eyes.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.25</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_InsectileEye</defName>
+		<label>animal Implant: insectile eye (tier 2)</label>
+		<description>A bionic implant which gives the creature compound insectile eyes. Compared with simple eyes, compound eyes possess a very large view angle, and can detect fast movement.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.25</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_ThrumboEye</defName>
+		<label>animal Implant: bionic thrumbo eye (tier 3)</label>
+		<description>A bionic eye reinforced with specialized photoreceptors from a powerful thrumbo.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.25</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!--=============== Ears ====================-->
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_RodentEar</defName>
+		<label>animal Implant: rodent ear (tier 1)</label>
+		<description>An ear implant that uses genetic splicing with rodent genes to give an old (or damaged) ear decent hearing. This implant is not meant to replace healthy ears.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.25</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_MothTympanalOrgan</defName>
+		<label>animal Implant: moth tympanal organ (tier 2)</label>
+		<description>A bionic implant adding a moth tympanal organ to the creature's ear. Moths can hear sounds of a higher frequency than any bat can produce.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.25</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_MechaReceptors</defName>
+		<label>animal Implant: mechanoid auditory receptors (tier 3)</label>
+		<description>These mechanoid auditory receptors can scan a really wide band of frequencies.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.25</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!--=============== Noses ====================-->
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_RodentNose</defName>
+		<label>animal Implant: rodent nose (tier 1)</label>
+		<description>An implant that uses genetic splicing with rodent genes to give an old (or damaged) nose decent smelling. This implant is not meant to replace healthy noses. Can't be installed on birds and insects.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.25</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_InsectoidPheromones</defName>
+		<label>animal Implant: pheromone receivers (tier 2)</label>
+		<description>An implant that uses genetic splicing with alien insectoid genes to give the ability to detect pheromones, thus improving the olfactory system. Can't be installed on birds and (ironically) insects.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.25</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_MiniatureThrumboHorn</defName>
+		<label>animal Implant: miniature thrumbo horn (tier 3)</label>
+		<description>A bionic implant adding a small thrumbo horn where the creature's nose used to be. This implant acts as a nose, allowing the creature to breathe and smell, and can be used by the creature in melee. Birds, insects, and creatures that already have a thrumbo horn don't have enough space on their skull to install this implant.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.25</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!--=============== Jaws ====================-->
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_WolfJaws</defName>
+		<label>animal Implant: wolf jaws (tier 1)</label>
+		<description>An implant that uses genetic splicing with wolf genes to give an old (or damaged) jaw decent functioning. This implant is not meant to replace healthy jaws.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.25</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_InsectMandibles</defName>
+		<label>animal Implant: insect mandibles (tier 2)</label>
+		<description>A bionic implant adding insect mandibles to the creature's face. Insect mandibles improve manipulation and eating, while also working as an offesive weapon</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.25</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_ThrumboJaws</defName>
+		<label>animal Implant: bionic thrumbo jaws (tier 3)</label>
+		<description>A bionic implant adding thrumbo jaws to the creature's mouth. These creatures devour trees, so you can imagine their jaws are up to the task.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.25</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!--=============== Spines ====================-->
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_MuffaloSpine</defName>
+		<label>animal Implant: muffalo spine (tier 1)</label>
+		<description>A spine implant that uses genetic splicing with muffalo genes to give an old (or damaged) spine decent functioning. This implant is not meant to replace healthy spines.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>2.5</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_CrocodileSpine</defName>
+		<label>animal Implant: crocodile spine (tier 2)</label>
+		<description>A bionic implant adding a sturdy crocodile spine to the creature's skeletal system.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>2.5</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_MechaSpine</defName>
+		<label>animal Implant: mechanoid spine (tier 3)</label>
+		<description>A bionic implant adding a plasteel structure with active mechanites to the creature's skeletal system.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>2.5</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!--=============== Brains ====================-->
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_ChickenBrains</defName>
+		<label>animal Implant: chicken brains (tier 1)</label>
+		<description>An implant that uses chicken brain tissue to patch damaged neurological pathways. This implant is intended for brain-dead creatures.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.25</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_MonitorLizardBrain</defName>
+		<label>animal Implant: monitor lizard brain (tier 2)</label>
+		<description>A bionic implant using monitor lizard brain tissue. This highly intelligent reptile has very quick reflexes.</description>
+		
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.25</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_ThrumboBrain</defName>
+		<label>animal Implant: bionic thrumbo brain (tier 3)</label>
+		<description>A bionic brain implant using thrumbo neural tissue. Superb intelligence and reflexes.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.25</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!--=============== Hearts ====================-->
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_BoomalopeHeart</defName>
+		<label>animal Implant: boomalope heart (tier 1)</label>
+		<description>An implant that uses chemfuel to pump blood through the animal's body. This implant is intended for creatures whose heart is failing catastrophically, since it is less efficient than a natural heart.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_ChitinousHeart</defName>
+		<label>animal Implant: chitinous heart (tier 2)</label>
+		<description>A bionic heart implant using a reinforced shell of insectoid chitin for protection. This is a heart designed to take a beating. Pun intended, but it's the last one, I promise .</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_MechaHeart</defName>
+		<label>animal Implant: mechanoid heart (tier 3)</label>
+		<description>A bionic heart strengthened by the action of active mechanites.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!--=============== Lungs ====================-->
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_MuffaloLung</defName>
+		<label>animal Implant: muffalo lung (tier 1)</label>
+		<description>An implant that uses muffalo genes to increase breathing capacity.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!--=============== Liver ====================-->
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_BearLiver</defName>
+		<label>animal Implant: bear liver (tier 1)</label>
+		<description>An implant that uses bear genes to improve function of the liver. Specially useful for those alcoholic chickens.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!--=============== Kidney ====================-->
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_ChickenKidney</defName>
+		<label>animal Implant: chicken kidney (tier 1)</label>
+		<description>An implant that uses chicken genes to improve function of the kidney. Birds have large kidneys. Yep, you learned that today.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!--=============== Stomach ====================-->
+
+	<ThingDef ParentName="GR_AnimalImplantBase">
+		<defName>GR_BoomalopeStomach</defName>
+		<label>animal Implant: boomalope stomach (tier 1)</label>
+		<description>An implant that uses boomalope genes to improve function of the stomach.</description>
+		
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+
+
+
+</Defs>

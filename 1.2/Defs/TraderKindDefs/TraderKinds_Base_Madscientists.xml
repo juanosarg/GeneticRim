@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TraderKindDef>
+    <defName>GR_Mad_Science_Caravan</defName>
+	    <label>Mad Scientist Trader</label>
+		<orbital>true</orbital>
+
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>800</min>
+          <max>3000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentIndustrial</thingDef>
+        <countRange>
+          <min>5</min>
+          <max>30</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Steel</thingDef>
+        <countRange>
+          <min>50</min>
+          <max>200</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>WoodLog</thingDef>
+        <countRange>
+          <min>10</min>
+          <max>100</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Plasteel</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>50</max>
+        </countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Gold</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>200</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+				<thingDef>Neutroamine</thingDef>
+				<countRange>
+					<min>50</min>
+					<max>200</max>
+				</countRange>
+	  </li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Chemfuel</thingDef>
+				<countRange>
+					<min>300</min>
+					<max>500</max>
+				</countRange>
+			</li>
+			    <li Class="StockGenerator_Animals">
+        <checkTemperature>true</checkTemperature>
+        <tradeTagsSell>
+          <li>AnimalFighter</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>AnimalGenetic</li>
+        </tradeTagsBuy>
+        <kindCountRange>
+          <min>1</min>
+          <max>1</max>
+        </kindCountRange>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_EmuFatOintment</thingDef>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_MechaMilk</thingDef>
+      </li>	  
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_EmptyIncubator</thingDef>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_Owlbearfeathers</thingDef>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_BearwolfFangs</thingDef>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_WolfchickenFeathers</thingDef>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_WolfbearPaws</thingDef>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_VerySmallTeeth</thingDef>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_AlphaBoarTusks</thingDef>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_HugeRhinoHorn</thingDef>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_SpidersnakeSkin</thingDef>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_HugeBearPelt</thingDef>
+      </li>  
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_HugeBearCatPelt</thingDef>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_WolfPelt</thingDef>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_MuffaloPelt</thingDef>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_ChocolateEgg</thingDef>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_BaconStrips</thingDef>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_JamonSerrano</thingDef>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_TortoiseShell</thingDef>
+      </li>
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_OrganicPulp</thingDef>
+      </li>	 
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_ImplantPlasteelWireMesh</thingDef>
+      </li>	  
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_ImplantSteelWireMesh</thingDef>
+      </li>	  
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_ImplantUraniumWireMesh</thingDef>
+      </li>	  
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_Cryofuel</thingDef>
+      </li>	  
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_RuinedGenetic</thingDef>
+      </li>	  
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_SquirralopeHorn</thingDef>
+      </li>	  
+	  <li Class="StockGenerator_BuySingleDef">
+        <thingDef>GR_RabbitcatFangs</thingDef>
+      </li>	  
+	  
+	  <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+	  <li Class="StockGenerator_BuyExpensiveSimple" />
+     
+    </stockGenerators>
+  </TraderKindDef>
+
+</Defs>

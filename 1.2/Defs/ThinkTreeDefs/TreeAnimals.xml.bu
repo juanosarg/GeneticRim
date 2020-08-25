@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThinkTreeDef>
+		<defName>GR_TreeAnimals</defName>
+		<thinkRoot Class="ThinkNode_Priority">
+      <subNodes>
+        
+        
+      
+        
+      
+
+        <!-- Lay eggs you need to -->
+        <li Class="JobGiver_LayEgg" />
+
+       
+      </subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+	
+	<ThinkTreeDef>
+		<defName>GR_TreeAnimalsConstant</defName>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+        
+      </subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+</Defs>

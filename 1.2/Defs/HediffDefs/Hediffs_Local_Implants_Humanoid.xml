@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--=============== Human Hybrid Implants ====================-->
+	
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_BearClaws</defName>
+				<description>An improvement over the bionic Power Claw, these claws have been vat-grown with a mixture of human and bear DNA, and replace the subject's hand with versatile, non-retractable claws.</description>
+
+		<label>humanoid implant: bear claws</label>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>bear claws</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>25</power>
+						<cooldownTime>1</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>GR_BearClaws</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<partEfficiency>1.1</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_DiggingBearClaws</defName>
+				<description>Grotesque but powerful hand blades that have been modified to be used in mining operations, increasing both speed and yield.</description>
+
+		<label>humanoid implant: digging bear claws</label>
+		<spawnThingOnRemoved>GR_DiggingBearClaws</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>bear claws</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>10</power>
+						<cooldownTime>1</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MiningSpeed>0.25</MiningSpeed>
+					<MiningYield>0.15</MiningYield>					
+				</statOffsets>				
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_BearMuscleTissue</defName>
+				<description>Grafts of bear muscle tissue on the subject's torso increase overall strength and stamina. These grafts however tend to stimulate the production of an abundance of body hair.</description>
+
+		<label>humanoid implant: bear muscle tissue</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					
+					<CarryingCapacity>10</CarryingCapacity>					
+				</statOffsets>				
+			</li>
+		</stages>
+		<spawnThingOnRemoved>GR_BearMuscleTissue</spawnThingOnRemoved>		
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_HibernationModule</defName>
+				<description>A biochip that modifies the brain to reduce the need for sleep.</description>
+
+		<label>humanoid implant: hibernation module</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<RestRateMultiplier>0.5</RestRateMultiplier>				
+				</statOffsets>				
+			</li>
+		</stages>
+		<spawnThingOnRemoved>GR_HibernationModule</spawnThingOnRemoved>		
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_Ovipositor</defName>
+		<description>You know you have gone too far in your scientific experiments when you are implanting a human being with an ovipositor. This will enable the colonist to lay chicken eggs twice a day. It hurts as hell, though. Also, yuck.</description>
+		<label>humanoid implant: ovipositor</label>
+				<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<painOffset>0.1</painOffset>
+				<painFactor>1.1</painFactor>
+			</li>
+		</stages>
+		<comps>
+			<li Class="NewHatcher.HediffCompProperties_Hatcher">
+				<hatcherDaystoHatch>.5</hatcherDaystoHatch>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>GR_Ovipositor</spawnThingOnRemoved>
+	</HediffDef>
+	
+		<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MuffaloMammaries</defName>
+				<description>By implanting muffalo mammaries into a colonist... Wait, what??? Who came up with this idea????? Anyway... this implant allows your colonist to be milked... Ugh, I give up.</description>
+
+		<label>humanoid implant: muffalo mammaries</label>
+				<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<painOffset>0.1</painOffset>
+				<painFactor>1.1</painFactor>
+			</li>
+		</stages>
+		<comps>
+			<li Class="NewHatcher.HediffCompProperties_Milker">
+				<hatcherDaystoHatch>.5</hatcherDaystoHatch>
+				<hatcherYield>1</hatcherYield>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>GR_MuffaloMammaries</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MuffaloMuscles</defName>
+				<description>By weaving muffalo muscle strands with the subjects muscular system, strength, resilience and carrying capacity are greatly increased.</description>
+
+		<label>humanoid implant: muffalo strengthened muscles</label>
+				<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>	 
+		</stages>
+		<spawnThingOnRemoved>GR_MuffaloMuscles</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MuffaloSkin</defName>
+		<description>A synthetic skin substitute that is much thicker and a much better insulator than human skin. This provides a measure of defense but, more importantly, makes the subject more resistant to low temperatures.</description>
+		<label>humanoid implant: muffalo skin</label>
+				<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMin>-15</ComfyTemperatureMin>	
+					<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.05</ArmorRating_Heat>					
+				</statOffsets>
+			</li>	 
+		</stages>
+		<spawnThingOnRemoved>GR_MuffaloSkin</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_BoomalopeNodules</defName>
+				<description>These skin nodules can be integrated in a human's torso, causing a huge explosion if the subjects dies violently.</description>
+
+		<label>humanoid implant: boomalope nodules</label>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<comps>
+			<li Class="NewHatcher.HediffCompProperties_Exploder">
+				<explosionForce>6</explosionForce>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>GR_BoomalopeNodules</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_ChemfuelStomach</defName>
+				<description>A reinforced bionic stomach that uses a combination of gastric acid and chemfuel to efficiently digest food.</description>
+
+		<label>humanoid implant: chemfuel stomach</label>
+		<hediffClass>Hediff_Implant</hediffClass>
+		
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<HungerRateMultiplier>-0.25</HungerRateMultiplier>					
+				</statOffsets>
+			</li>	 
+		</stages>
+		<spawnThingOnRemoved>GR_ChemfuelStomach</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_ChemfuelHeart</defName>
+				<description>A reinforced bionic heart that acts like a miniature 4-stroke internal combustion engine powered by chemfuel to pump blood through the body.</description>
+
+		<label>humanoid implant: chemfuel heart</label>
+		<hediffClass>Hediff_Implant</hediffClass>
+		
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<WorkSpeedGlobal>0.1</WorkSpeedGlobal>					
+				</statOffsets>
+			</li>	 
+		</stages>
+		
+		<spawnThingOnRemoved>GR_ChemfuelHeart</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_WolfMuscularFibers</defName>
+				<description>The subjects legs can be modified by weaving hybrid human/wolf muscle fibers within the base tissue, giving her a significant strength and speed boost.</description>
+
+		<hediffClass>Hediff_Implant</hediffClass>
+		<label>humanoid implant: wolf muscular fibers</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+			</li>	 
+		</stages>
+		<spawnThingOnRemoved>GR_WolfMuscularFibers</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_DevouringJaws</defName>
+		<hediffClass>Hediff_Implant</hediffClass>
+				<description>A set of improved teeth designed to rapidly chew and ingest any kind of food. Leaves kind of a mess, though...</description>
+
+		<label>humanoid implant: devouring jaws</label>
+		
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<EatingSpeed>0.5</EatingSpeed>					
+				</statOffsets>
+			</li>	 
+		</stages>
+		<spawnThingOnRemoved>GR_DevouringJaws</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_NeuronReinforcement</defName>
+				<description>A biochip using animal stem cells to reinforce the natural abilities of human neurons, increasing learning and research speed.</description>
+
+		<hediffClass>Hediff_Implant</hediffClass>
+		
+		<label>humanoid implant: neuron reinforcement</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<GlobalLearningFactor>0.1</GlobalLearningFactor>
+					<ResearchSpeed>0.15</ResearchSpeed>					
+				</statOffsets>				
+			</li>	 
+		</stages>
+		<spawnThingOnRemoved>GR_NeuronReinforcement</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MousePheromones</defName>
+		<hediffClass>Hediff_Implant</hediffClass>
+				<description>A bionic vomeronasal organ that allows the subject pheromonal communication with other animals, increasing the chance of taming and training them successfully.</description>
+
+		<addedPartProps>
+			<partEfficiency>1.1</partEfficiency>
+		</addedPartProps>
+		<label>humanoid implant: mouse pheromones</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<TameAnimalChance>0.1</TameAnimalChance>
+					<TrainAnimalChance>0.1</TrainAnimalChance>					
+				</statOffsets>				
+			</li>	 
+		</stages>
+		<spawnThingOnRemoved>GR_MousePheromones</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MoleratNerveDampener</defName>
+		<hediffClass>Hediff_Implant</hediffClass>
+				<description>A biochip that reduces pain sensitivity, allowing the subject to survive pain shock.</description>
+
+		<addedPartProps>
+			<partEfficiency>1.1</partEfficiency>
+		</addedPartProps>
+		<label>humanoid implant: mole-rat nerve dampener</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<PainShockThreshold>0.1</PainShockThreshold>									
+				</statOffsets>				
+			</li>	 
+		</stages>
+		<spawnThingOnRemoved>GR_MoleratNerveDampener</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_BunnyEars</defName>
+				<description>This huge leporid ear gives amazing enhanced hearing. Also, super kawaii!</description>
+
+		<label>humanoid implant: bunny ear</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>0.45</offset>
+					</li>
+				</capMods>
+			</li>	 
+		</stages>
+		<spawnThingOnRemoved>GR_BunnyEars</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_InsectoidAntennae</defName>
+				<description>These hybrid humanoid / insectoid feeling appendages can be implanted in a subject's head, completely modifying the way the subject "sees" and feels the surrounding world. The experience may be slightly overwhelming due to sensorial overload.</description>
+
+		<label>humanoid implant: insectoid antennae</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>GR_InsectoidAntennae</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_CompoundEye</defName>
+				<description>This hybrid humanoid / insectoid eye provides improved vision in a wide range of different wavelengths, including those usually outside the human range, completely modifying the way the subject perceives his surroundings.</description>
+
+		<label>humanoid implant: compound insectoid eye</label>
+		<addedPartProps>
+		  <solid>true</solid>
+		  <partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+		<spawnThingOnRemoved>GR_CompoundEye</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_PsychicDampeners</defName>
+				<description>Artificial hearing aids that block psychic emanations, providing considerable resistance to mechanoids' psychic attacks.</description>
+
+		<label>humanoid implant: psychic dampeners</label>
+		<addedPartProps>
+			<partEfficiency>1.2</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<PsychicSensitivity>-0.25</PsychicSensitivity>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>GR_PsychicDampeners</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_KidneyToxicFilters</defName>
+				<description>This is a bioelectronic kidney prosthesis that greatly improves the efficiency of the subject's kidney by using insectoid tissue, providing resistence to toxic substances.</description>
+
+		<label>humanoid implant: kidney toxic filters</label>
+		<addedPartProps>
+			<partEfficiency>1.2</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ToxicSensitivity>-0.25</ToxicSensitivity>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>GR_KidneyToxicFilters</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_HumanThrumboHorn</defName>
+				<description>A genetically modified thrumbo horn that can be implanted in a subject's forehead. Nasty.</description>
+
+		<hediffClass>Hediff_Implant</hediffClass>
+		<label>humanoid implant: thrumbo horn</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>thrumbo horn</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>25</power>
+						<cooldownTime>.9</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>GR_HumanThrumboHorn</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_ThrumboSkin</defName>
+				<description>A synthetic skin substitute that is much thicker and a much better insulator than human skin. This provides a lot of defense and makes the subject more resistant to extremes of temperature.</description>
+
+		<hediffClass>Hediff_Implant</hediffClass>
+		<label>humanoid implant: thrumbo skin</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMax>15</ComfyTemperatureMax>	
+					<ComfyTemperatureMin>-15</ComfyTemperatureMin>	
+					<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.2</ArmorRating_Heat>					
+				</statOffsets>
+			</li>
+		</stages>
+		
+		<spawnThingOnRemoved>GR_ThrumboSkin</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_VenomousFangs</defName>
+				<description>This hybrid implant substitutes the subject's jaw with a set of venomous fangs. Useful in combat, but not very comfortable.</description>
+
+		<label>humanoid implant: venomous fangs</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>venomous fangs</label>
+						<capacities>
+							<li>GR_VeryToxicBite</li>
+						</capacities>
+						<power>25</power>
+						<cooldownTime>1</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>GR_VenomousFangs</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+		</addedPartProps>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_IguanaScales</defName>
+				<description>A synthetic skin substitute that is much thicker and a much better insulator than human skin. This provides a measure of defense but, more importantly, makes the subject more resistant to high temperatures.</description>
+
+		<label>humanoid implant: iguana scales</label>
+				<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMax>15</ComfyTemperatureMax>	
+					<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.05</ArmorRating_Heat>					
+				</statOffsets>
+			</li>	 
+		</stages>
+		<spawnThingOnRemoved>GR_IguanaScales</spawnThingOnRemoved>
+	</HediffDef>
+
+</Defs>

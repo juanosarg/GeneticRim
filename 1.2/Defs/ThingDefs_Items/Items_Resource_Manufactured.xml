@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=============== Genetic Material ====================-->
+
+  <ThingDef Name="GR_GeneticsBase" ParentName="ResourceBase" Abstract="True">
+    
+    
+    <graphicData>
+      
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+	
+    <statBases>
+      <MaxHitPoints>15</MaxHitPoints>
+      <MarketValue>10</MarketValue>
+      <Mass>0.10</Mass>
+      <Flammability>1.0</Flammability>
+      
+      <DeteriorationRate>6</DeteriorationRate>
+    </statBases>
+	<tradeability>None</tradeability>
+    <thingCategories>
+      <li>GR_GeneticMaterial</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>2</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+    </comps>
+  </ThingDef>
+
+   <ThingDef ParentName="GR_GeneticsBase">
+    <defName>GR_BearGenetic</defName>
+	<graphicData>
+		<texPath>Things/Item/GR_GeneticMaterials_Bear</texPath>
+	</graphicData>
+    <label>bear genetic material</label>
+    <description>A vial of genetic material extracted from a bear's corpse.</description>
+    
+  </ThingDef>
+  <ThingDef ParentName="GR_GeneticsBase">
+    <defName>GR_ChickenGenetic</defName>
+    <label>chicken genetic material</label>
+    <description>A vial of genetic material extracted from a chicken's corpse.</description>
+    <graphicData>
+		<texPath>Things/Item/GR_GeneticMaterials_Chicken</texPath>
+	</graphicData>
+    
+  </ThingDef>
+  <ThingDef ParentName="GR_GeneticsBase">
+    <defName>GR_BoomalopeGenetic</defName>
+    <label>boomalope genetic material</label>
+    <description>A vial of genetic material extracted from a boomalope's corpse.</description>
+    <graphicData>
+		<texPath>Things/Item/GR_GeneticMaterials_Boomalope</texPath>
+	</graphicData>
+    
+  </ThingDef>
+  <ThingDef ParentName="GR_GeneticsBase">
+    <defName>GR_MuffaloGenetic</defName>
+    <label>muffalo genetic material</label>
+    <description>A vial of genetic material extracted from a muffalo's corpse.</description>
+    <graphicData>
+		<texPath>Things/Item/GR_GeneticMaterials_Muffalo</texPath>
+	</graphicData>
+    
+  </ThingDef>
+  <ThingDef ParentName="GR_GeneticsBase">
+    <defName>GR_WolfGenetic</defName>
+    <label>wolf genetic material</label>
+    <description>A vial of genetic material extracted from a wolf's corpse.</description>
+    <graphicData>
+		<texPath>Things/Item/GR_GeneticMaterials_Wolf</texPath>
+	</graphicData>
+    
+  </ThingDef>
+  <ThingDef ParentName="GR_GeneticsBase">
+    <defName>GR_RodentGenetic</defName>
+    <label>rodent/leporid genetic material</label>
+    <description>A vial of genetic material extracted from a rodent or leporid corpse.</description>
+    <graphicData>
+		<texPath>Things/Item/GR_GeneticMaterials_Rodent</texPath>
+	</graphicData>
+    
+  </ThingDef>
+  <ThingDef ParentName="GR_GeneticsBase">
+    <defName>GR_FelineGenetic</defName>
+    <label>feline genetic material</label>
+    <description>A vial of genetic material extracted from a feline corpse.</description>
+    
+    <graphicData>
+      <texPath>Things/Item/GR_GeneticMaterials_Feline</texPath>
+    </graphicData>
+    
+  </ThingDef>
+  <ThingDef ParentName="GR_GeneticsBase">
+    <defName>GR_InsectoidGenetic</defName>
+    <label>insectoid genetic material</label>
+    <description>A vial of genetic material extracted from an insectoid's corpse.</description>
+    <statBases>
+       <MarketValue>45</MarketValue>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/GR_GeneticMaterials_Insectoid</texPath>
+    </graphicData>
+    
+  </ThingDef>
+  <ThingDef ParentName="GR_GeneticsBase">
+    <defName>GR_ReptilianGenetic</defName>
+    <label>reptilian genetic material</label>
+    <description>A vial of genetic material extracted from a reptilian corpse.</description>
+    <statBases>
+       <MarketValue>45</MarketValue>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/GR_GeneticMaterials_Reptilian</texPath>
+    </graphicData>
+    
+  </ThingDef>
+  <ThingDef ParentName="GR_GeneticsBase">
+    <defName>GR_HumanoidGenetic</defName>
+    <label>humanoid genetic material</label>
+    <description>A vial of genetic material extracted from a humanoid corpse.</description>    
+    <graphicData>
+		<texPath>Things/Item/GR_GeneticMaterials_Humanoid</texPath>
+    </graphicData>
+	<statBases>
+       <MarketValue>45</MarketValue>
+    </statBases>
+    
+  </ThingDef>
+  <ThingDef ParentName="GR_GeneticsBase">
+    <defName>GR_ThrumboGenetic</defName>
+    <label>thrumbo genetic material</label>
+    <description>A vial of genetic material extracted from a thrumbo's corpse.</description>
+    <statBases>
+       <MarketValue>100</MarketValue>
+    </statBases>
+    <graphicData>
+		<texPath>Things/Item/GR_GeneticMaterials_Thrumbo</texPath>
+    </graphicData>
+    
+  </ThingDef>
+  <ThingDef ParentName="GR_GeneticsBase">
+    <defName>GR_MechanoidGenetic</defName>
+    <label>mechanoid active components</label>
+    <description>A vial of active mechanites from a mechanoid's corpse.</description>
+    <statBases>
+       <MarketValue>100</MarketValue>
+    </statBases>
+    <graphicData>
+       <texPath>Things/Item/GR_GeneticMaterials_Mechanoid</texPath>
+    </graphicData>
+    
+  </ThingDef>
+  
+    <ThingDef ParentName="GR_GeneticsBase">
+    <defName>GR_NonSpecializedGenetic</defName>
+    <label>non-specialized genetic material</label>
+    <description>This vial of genetic material contains non-specialized cells that can't be used to create animal hybrids. They can probably be used in a gene recombinator to turn them into more useful genetic materials, though.</description>
+    <statBases>
+       <MarketValue>45</MarketValue>
+    </statBases>
+    <graphicData>
+       <texPath>Things/Item/GR_NonSpecializedGeneticMaterial</texPath>
+    </graphicData>
+    
+  </ThingDef>
+   <!--=============== Paragon Serums ====================-->
+
+  <ThingDef Name="GR_SerumsBase" ParentName="ResourceBase" Abstract="True">
+    
+    
+    <graphicData>
+      <texPath>Things/Item/AlphaSerum</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <statBases>
+      <MaxHitPoints>15</MaxHitPoints>
+      <MarketValue>10</MarketValue>
+      <Mass>0.10</Mass>
+      <Flammability>1.0</Flammability>
+      
+      <DeteriorationRate>6</DeteriorationRate>
+    </statBases>
+		<tradeability>None</tradeability>
+
+    <thingCategories>
+      <li>GR_AlphaSerums</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>2</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="GR_SerumsBase">
+    <defName>GR_BearSerum</defName>
+    <label>bear paragon serum</label>
+    <description>A vial of paragon genes extracted from a bear's corpse.</description>
+	<graphicData>
+      <color>(158,100,0)</color>
+    </graphicData>   
+  </ThingDef>
+  
+  <ThingDef ParentName="GR_SerumsBase">
+    <defName>GR_BoarSerum</defName>
+    <label>boar paragon serum</label>
+	<description>A vial of paragon genes extracted from a wild boar's corpse.</description>    
+	<graphicData>
+      <color>(112,103,90)</color>
+    </graphicData>   
+  </ThingDef>
+  
+  <ThingDef ParentName="GR_SerumsBase">
+    <defName>GR_BoomalopeSerum</defName>
+    <label>boomalope paragon serum</label>
+	<description>A vial of paragon genes extracted from a wild boomalope's corpse.</description>    
+	<graphicData>
+      <color>(165,139,112)</color>
+    </graphicData>   
+  </ThingDef>
+  
+  <ThingDef ParentName="GR_SerumsBase">
+    <defName>GR_ChickenSerum</defName>
+    <label>chicken paragon serum</label>
+	<description>A vial of paragon genes extracted from a chicken's corpse.</description>    
+	<graphicData>
+      <color>(247,247,247)</color>
+    </graphicData>   
+  </ThingDef>  
+  
+  <ThingDef ParentName="GR_SerumsBase">
+    <defName>GR_EmuSerum</defName>
+    <label>emu paragon serum</label>
+	<description>A vial of paragon genes extracted from an emu's corpse.</description>    
+	<graphicData>
+      <color>(123,109,99)</color>
+    </graphicData>   
+  </ThingDef>   
+
+  <ThingDef ParentName="GR_SerumsBase">
+    <defName>GR_MuffaloSerum</defName>
+    <label>muffalo paragon serum</label>
+	<description>A vial of paragon genes extracted from a muffalo's corpse.</description>    
+	<graphicData>
+      <color>(175,195,200)</color>
+    </graphicData>   
+  </ThingDef>   
+
+  <ThingDef ParentName="GR_SerumsBase">
+    <defName>GR_OstrichSerum</defName>
+    <label>ostrich paragon serum</label>
+	<description>A vial of paragon genes extracted from an ostrich's corpse.</description>    
+	<graphicData>
+      <color>(234,174,164)</color>
+    </graphicData>   
+  </ThingDef>   
+
+  <ThingDef ParentName="GR_SerumsBase">
+    <defName>GR_RhinoSerum</defName>
+    <label>rhino paragon serum</label>
+	<description>A vial of paragon genes extracted from a rhino's corpse.</description>    
+	<graphicData>
+      <color>(148,148,148)</color>
+    </graphicData>   
+  </ThingDef>   
+
+  <ThingDef ParentName="GR_SerumsBase">
+    <defName>GR_WolfSerum</defName>
+    <label>wolf paragon serum</label>
+	<description>A vial of paragon genes extracted from a wolf's corpse.</description>    
+	<graphicData>
+      <color>(106,106,106)</color>
+    </graphicData>   
+  </ThingDef>     
+
+  <ThingDef ParentName="GR_SerumsBase">
+    <defName>GR_HareSerum</defName>
+    <label>hare paragon serum</label>
+	<description>A vial of paragon genes extracted from a hare's corpse.</description>    
+	<graphicData>
+      <color>(115,115,115)</color>
+    </graphicData>   
+  </ThingDef> 
+  
+  <ThingDef ParentName="GR_SerumsBase">
+    <defName>GR_IguanaSerum</defName>
+    <label>iguana paragon serum</label>
+	<description>A vial of paragon genes extracted from an iguana's corpse.</description>    
+	<graphicData>
+      <color>(109,124,63)</color>
+    </graphicData>   
+  </ThingDef>   
+  
+  <ThingDef ParentName="GR_SerumsBase">
+    <defName>GR_PigSerum</defName>
+    <label>pig paragon serum</label>
+	<description>A vial of paragon genes extracted from a pig's corpse.</description>    
+	<graphicData>
+      <color>(250,202,202)</color>
+    </graphicData>   
+  </ThingDef>   
+  
+  <ThingDef ParentName="GR_SerumsBase">
+    <defName>GR_RatSerum</defName>
+    <label>rat paragon serum</label>
+	<description>A vial of paragon genes extracted from a rat's corpse.</description>    
+	<graphicData>
+      <color>(114,95,80)</color>
+    </graphicData>   
+  </ThingDef>   
+  
+  <ThingDef ParentName="GR_SerumsBase">
+    <defName>GR_TortoiseSerum</defName>
+    <label>tortoise paragon serum</label>
+	<description>A vial of paragon genes extracted from a tortoise's corpse.</description>    
+	<graphicData>
+      <color>(109,90,54)</color>
+    </graphicData>   
+  </ThingDef>     
+  
+   <!--=============== Organic Pulp ====================-->
+   
+<ThingDef ParentName="ResourceBase">
+    <defName>GR_OrganicPulp</defName>
+    <label>organic pulp</label>
+    <description>This organic pulp can be used as an organic growth compound to accelerate some of the genetic processes. Needed to upgrade the Gene Pod and to build many of Genetic Rim's buildings.</description>
+    <graphicData>
+      <texPath>Things/Item/OrganicPulp</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+			<tradeability>Sellable</tradeability>
+
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>2</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>1.0</Flammability>
+	  <DeteriorationRate>10.0</DeteriorationRate>
+	</statBases>
+    
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+</ThingDef>
+
+   <!--=============== Hybrid Implants Base ====================-->
+
+<ThingDef ParentName="ResourceBase">
+    <defName>GR_ImplantSteelWireMesh</defName>
+    <label>hybrid implant steel wire mesh (tier 1)</label>
+    <description>This steel wire mesh acts as a sterile scaffold for tissue growth. It is used as the base for basic vat grown hybrid implants. More advanced implants require a plasteel based wire mesh.</description>
+    <graphicData>
+      <texPath>Things/Item/GR_ImplantSteelWireMesh</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+			<tradeability>Sellable</tradeability>
+
+    <statBases>
+      <MarketValue>45</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+	<thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    
+  </ThingDef>   
+   
+<ThingDef ParentName="ResourceBase">
+    <defName>GR_ImplantPlasteelWireMesh</defName>
+    <label>hybrid implant plasteel wire mesh (tier 2)</label>
+    <description>This plasteel wire mesh acts as a sterile scaffold for tissue growth. It is used as the base for advanced vat grown hybrid implants. Elite implants require an uranium based wire mesh.</description>
+    <graphicData>
+      <texPath>Things/Item/GR_ImplantPlasteelWireMesh</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+			<tradeability>Sellable</tradeability>
+
+    <statBases>
+      <MarketValue>50</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+	<thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>GR_ImplantUraniumWireMesh</defName>
+    <label>hybrid implant uranium wire mesh (tier 3)</label>
+    <description>This uranium wire mesh acts as a sterile scaffold for tissue growth. It is used as the base for the most elite vat grown hybrid implants.</description>
+    <graphicData>
+      <texPath>Things/Item/GR_ImplantUraniumWireMesh</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+			<tradeability>Sellable</tradeability>
+
+    <statBases>
+      <MarketValue>80</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+	<thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    
+  </ThingDef>
+  
+     <!--=============== Boomfuels ====================-->
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>GR_Cryofuel</defName>
+    <label>cryofuel</label>
+    <description>Volatile liquid chemical compound stored in cryogenic containers. Can be used to power a cryo-stabilized generator. It can also be converted to regular Chemfuel in a refinery.</description>
+		<tickerType>Normal</tickerType>
+    <graphicData>
+
+      <texPath>Things/Item/Cryofuel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+				<tradeability>Sellable</tradeability>
+
+    <stackLimit>400</stackLimit>
+		
+		<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>3</MarketValue>
+      <Mass>0.05</Mass>
+      <Flammability>1.0</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+		</statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.1</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
+				<startWickOnDamageTaken>
+					<li>Flame</li>
+				</startWickOnDamageTaken>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>
+					<min>70</min>
+					<max>150</max>
+				</wickTicks>
+			</li>
+		</comps>
+  </ThingDef>
+
+  
+</Defs>

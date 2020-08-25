@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs</xpath>
+					<value>
+						<ThingDef ParentName="MechBuildingBase">
+							<defName>GR_MechanoidChipCell</defName>
+							<label>mechanoid interface cell</label>
+							<description>A mechanoid interface cell. These cells amplify the psychic abilities of mechanoid machines, allowing them to affect the minds of both people and animals.\n\nThey can be scavenged to obtain valuable mechanoid interface chips, which can then be used to interface technology with organics and to create terrifying mechanoid-organic hybrids.</description>
+							<size>(2,2)</size>
+							<passability>PassThroughOnly</passability>
+							<stealable>true</stealable>
+							<fillPercent>0.35</fillPercent>
+							<pathCost>42</pathCost>
+							<rotatable>false</rotatable>
+							<statBases>
+								<MaxHitPoints>200</MaxHitPoints>
+								<Flammability>0</Flammability>
+								<Mass>15</Mass>
+								<MarketValue>400</MarketValue>
+								<WorkToBuild>300</WorkToBuild>
+							</statBases>
+							<graphicData>
+								<texPath>Things/Building/GR_MechanoidChipCell</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+								<drawSize>(2,2)</drawSize>
+								<shadowData>
+									<volume>(0.6, 0.4, 0.6)</volume>
+								</shadowData>
+								<damageData>
+									<rect>(0.2, 0.2, 0.6, 0.6)</rect>
+								</damageData>
+							</graphicData>
+							<drawerType>MapMeshAndRealTime</drawerType>
+							<building>
+								<buildingTags>
+									<li>MechClusterMemberGood</li>
+								</buildingTags>
+							</building>
+							<thingCategories>
+								<li>BuildingsSpecial</li>
+							</thingCategories>
+							
+							<minifiedDef>MinifiedThing</minifiedDef>
+							<comps>
+								
+								<li Class="CompProperties_Glower">
+									<glowRadius>4</glowRadius>
+									<glowColor>(115,200,23,0)</glowColor>
+								</li>
+								
+							</comps>
+							<resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
+							<costList>
+								<GR_MechanoidInterfaceChip>1</GR_MechanoidInterfaceChip>
+								<Steel>10</Steel>
+							</costList>
+						</ThingDef>
+					</value>
+				</li>
+
+
+
+
+
+
+
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

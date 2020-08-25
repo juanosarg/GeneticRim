@@ -1,0 +1,917 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Implants -->
+
+
+
+
+
+
+	<HediffDef Name="GR_HybridPartsBase" Abstract="True" ParentName="AddedBodyPartBase">
+		<hediffClass>Hediff_AddedPart</hediffClass>
+		<defaultLabelColor>(232, 157, 27)</defaultLabelColor>
+		<isBad>false</isBad>
+		<addedPartProps>
+			<solid>true</solid>
+
+		</addedPartProps>
+	</HediffDef>
+
+
+	<!--=============== Animal Hybrid Implants ====================-->
+
+	<!--=============== Legs ====================-->
+
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_BearLeg</defName>
+				<description>A prosthetic animal leg strengthened with bear muscles, and ending in a powerful bear claw that adds a powerful melee attack.</description>		
+
+		<label>animal Implant: bear leg (tier 1)</label>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>animal Implant: bear leg (tier 1)</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>8</power>
+						<cooldownTime>1.8</cooldownTime>
+						<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>GR_BearLeg</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.8</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.02</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef> 
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_LizardLeg</defName>
+		<label>animal Implant: lizard leg (tier 2)</label>
+				<description>A bionic animal leg reinforced with tough lizard skin.</description>
+
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>animal Implant: lizard leg (tier 2)</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>16</power>
+						<cooldownTime>1.7</cooldownTime>
+						<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>GR_LizardLeg</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.05</ArmorRating_Heat>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_ThrumboLeg</defName>
+		<label>animal Implant: thrumbo leg (tier 3)</label>
+				<description>A bionic animal leg reinforced with muscle tissue from a powerful thrumbo.</description>
+
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>animal Implant: thrumbo leg (tier 3)</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>20</power>
+						<cooldownTime>1.6</cooldownTime>
+						<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>GR_ThrumboLeg</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.2</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.05</ArmorRating_Heat>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef> 	
+	
+		<!--=============== Tails ====================-->
+
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_ScytherTail</defName>
+		<label>animal Implant: scyther tail (tier 2)</label>
+				<description>A scyther tail created by attaching a scyther blade to an animal's tail. Note that only creatures with a natural tail can use this.</description>
+
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+		<label>animal Implant: scyther tail (tier 2)</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>20</power>
+						<cooldownTime>1.8</cooldownTime>
+						<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>GR_ScytherTail</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.02</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef> 
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MechaTail</defName>
+		<label>animal Implant: mechanoid tail (tier 3)</label>
+				<description>An advanced mechanoid tail, even more powerful than the old scyther tail. Note that only creatures with a natural tail can use this.</description>
+
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+		<label>animal Implant: mechanoid tail (tier 3)</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>35</power>
+						<cooldownTime>1.8</cooldownTime>
+						<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>GR_MechaTail</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.05</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef> 
+
+	<!--=============== Eyes ====================-->
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_CanidEye</defName>
+		<label>animal Implant: canid eye (tier 1)</label>		
+				<description>An eye implant that uses genetic splicing with canid genes to give an old (or damaged) eye decent vision. This implant is not meant to replace healthy eyes.</description>
+
+		<spawnThingOnRemoved>GR_CanidEye</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.7</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>		
+	</HediffDef> 
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_InsectileEye</defName>
+		<label>animal Implant: insectile eye (tier 2)</label>
+				<description>A bionic implant which gives the creature compound insectile eyes. Compared with simple eyes, compound eyes possess a very large view angle, and can detect fast movement.</description>
+
+		<spawnThingOnRemoved>GR_InsectileEye</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.01</ArmorRating_Heat>
+				</statOffsets>
+			</li>			
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_ThrumboEye</defName>
+		<label>animal Implant: bionic thrumbo eye (tier 3)</label>
+				<description>A bionic eye reinforced with specialized photoreceptors from a powerful thrumbo.</description>
+
+		<spawnThingOnRemoved>GR_ThrumboEye</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.25</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.03</ArmorRating_Heat>
+				</statOffsets>
+			</li>			
+		</stages>
+	</HediffDef>
+
+	<!--=============== Ears ====================-->
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_RodentEar</defName>
+		<label>animal Implant: rodent ear (tier 1)</label>
+				<description>An ear implant that uses genetic splicing with rodent genes to give an old (or damaged) ear decent hearing. This implant is not meant to replace healthy ears.</description>
+
+		<spawnThingOnRemoved>GR_RodentEar</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.7</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>		
+	</HediffDef> 
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MothTympanalOrgan</defName>
+		<label>animal Implant: moth tympanal organ (tier 2)</label>
+				<description>A bionic implant adding a moth tympanal organ to the creature's ear. Moths can hear sounds of a higher frequency than any bat can produce.</description>
+
+		<spawnThingOnRemoved>GR_MothTympanalOrgan</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.25</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.03</ArmorRating_Heat>
+				</statOffsets>
+			</li>			
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MechaReceptors</defName>
+		<label>animal Implant: mechanoid auditory receptors (tier 3)</label>
+				<description>These mechanoid auditory receptors can scan a really wide band of frequencies.</description>
+
+		<spawnThingOnRemoved>GR_MechaReceptors</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.5</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.04</ArmorRating_Heat>
+				</statOffsets>
+			</li>			
+		</stages>
+	</HediffDef>
+
+	<!--=============== Noses ====================-->
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_RodentNose</defName>
+		<label>animal Implant: rodent nose (tier 1)</label>
+		<description>An implant that uses genetic splicing with rodent genes to give an old (or damaged) nose decent smelling. This implant is not meant to replace healthy noses. Can't be installed on birds and insects.</description>
+		<spawnThingOnRemoved>GR_RodentNose</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.7</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>		
+	</HediffDef> 
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_InsectoidPheromones</defName>
+		<description>An implant that uses genetic splicing with alien insectoid genes to give the ability to detect pheromones, thus improving the olfactory system. Can't be installed on birds and (ironically) insects.</description>
+		<label>animal Implant: insectoid pheromones (tier 2)</label>
+		<spawnThingOnRemoved>GR_InsectoidPheromones</spawnThingOnRemoved>
+		
+		<addedPartProps>
+			<partEfficiency>1.25</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.02</ArmorRating_Heat>
+				</statOffsets>
+			</li>			
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MiniatureThrumboHorn</defName>
+		<description>A bionic implant adding a small thrumbo horn where the creature's nose used to be. This implant acts as a nose, allowing the creature to breathe and smell, and can be used by the creature in melee. Birds, insects, and creatures that already have a thrumbo horn don't have enough space on their skull to install this implant.</description>
+		
+		<label>animal Implant: miniature thrumbo horn (tier 3)</label>
+		<spawnThingOnRemoved>GR_MiniatureThrumboHorn</spawnThingOnRemoved>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>animal Implant: miniature thrumbo horn (tier 3)</label>
+						<capacities>
+							<li>Scratch</li>
+							<li>Stab</li>
+						</capacities>
+						<power>20</power>
+						<cooldownTime>1.6</cooldownTime>
+						<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<addedPartProps>
+			<partEfficiency>1</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.03</ArmorRating_Heat>
+				</statOffsets>
+			</li>			
+		</stages>
+	</HediffDef>
+
+	<!--=============== Jaws ====================-->
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_WolfJaws</defName>
+		<label>animal Implant: wolf jaws (tier 1)</label>
+				<description>An implant that uses genetic splicing with wolf genes to give an old (or damaged) jaw decent functioning. This implant is not meant to replace healthy jaws.</description>
+
+		<spawnThingOnRemoved>GR_WolfJaws</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.7</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>		
+		<stages>
+			<li>
+				<statOffsets>
+					<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.02</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef> 
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_InsectMandibles</defName>
+		<label>animal Implant: insect mandibles (tier 2)</label>
+				<description>A bionic implant adding insect mandibles to the creature's face. Insect mandibles improve manipulation and eating, while also working as an offesive weapon</description>
+
+		<spawnThingOnRemoved>GR_InsectMandibles</spawnThingOnRemoved>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>animal Implant: insect mandibles (tier 2)</label>
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<power>13</power>
+						<cooldownTime>1.6</cooldownTime>
+						<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<addedPartProps>
+			<partEfficiency>1</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.03</ArmorRating_Heat>
+				</statOffsets>
+			</li>			
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_ThrumboJaws</defName>
+		<label>animal Implant: bionic thrumbo jaws (tier 3)</label>
+				<description>A bionic implant adding thrumbo jaws to the creature's mouth. These creatures devour trees, so you can imagine their jaws are up to the task.</description>
+
+		<spawnThingOnRemoved>GR_ThrumboJaws</spawnThingOnRemoved>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>animal Implant: bionic thrumbo jaws (tier 3)</label>
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<power>28</power>
+						<cooldownTime>2</cooldownTime>
+						<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<addedPartProps>
+			<partEfficiency>1.2</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.05</ArmorRating_Heat>
+				</statOffsets>
+			</li>			
+		</stages>
+	</HediffDef>
+
+	<!--=============== Spines ====================-->
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MuffaloSpine</defName>
+		<label>animal Implant: muffalo spine (tier 1)</label>
+				<description>A spine implant that uses genetic splicing with muffalo genes to give an old (or damaged) spine decent functioning. This implant is not meant to replace healthy spines.</description>
+
+		<spawnThingOnRemoved>GR_MuffaloSpine</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.7</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>		
+		<stages>
+
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.03</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef> 
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_CrocodileSpine</defName>
+				<description>A bionic implant adding a sturdy crocodile spine to the creature's skeletal system.</description>
+
+		<label>animal Implant: crocodile spine (tier 2)</label>
+		<spawnThingOnRemoved>GR_CrocodileSpine</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>		
+		<stages>
+
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.2</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.05</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef> 
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MechaSpine</defName>
+				<description>A bionic implant adding a plasteel structure with active mechanites to the creature's skeletal system.</description>
+
+		<label>animal Implant: mechanoid spine (tier 3)</label>
+		<spawnThingOnRemoved>GR_MechaSpine</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>		
+		<stages>
+
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.4</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.5</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.05</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef> 
+
+	<!--=============== Brains ====================-->
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_ChickenBrains</defName>
+				<description>An implant that uses chicken brain tissue to patch damaged neurological pathways. This implant is intended for brain-dead creatures.</description>
+
+		<label>animal Implant: chicken brains (tier 1)</label>
+		<spawnThingOnRemoved>GR_ChickenBrains</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.7</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>		
+
+	</HediffDef> 
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MonitorLizardBrain</defName>
+				<description>A bionic implant using monitor lizard brain tissue. This highly intelligent reptile has very quick reflexes.</description>
+
+		<label>animal Implant: monitor lizard brain (tier 2)</label>
+		<spawnThingOnRemoved>GR_MonitorLizardBrain</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.2</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>		
+		<stages>
+
+			<li>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.1</offset>
+					</li>
+
+				</capMods>
+
+			</li>
+		</stages>
+	</HediffDef> 
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_ThrumboBrain</defName>
+				<description>A bionic brain implant using thrumbo neural tissue. Superb intelligence and reflexes.</description>
+
+		<label>animal Implant: bionic thrumbo brain (tier 3)</label>
+		<spawnThingOnRemoved>GR_ThrumboBrain</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.5</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>		
+		<stages>
+
+			<li>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.25</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.08</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.08</offset>
+					</li>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>0.08</offset>
+					</li>
+
+				</capMods>
+
+			</li>
+		</stages>
+	</HediffDef> 
+
+	<!--=============== Hearts ====================-->
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_BoomalopeHeart</defName>
+			<description>An implant that uses chemfuel to pump blood through the animal's body. This implant is intended for creatures whose heart is failing catastrophically, since it is less efficient than a natural heart.</description>
+		<label>animal Implant: boomalope heart (tier 1)</label>
+		<spawnThingOnRemoved>GR_BoomalopeHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.7</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>		
+
+	</HediffDef> 
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_ChitinousHeart</defName>
+				<description>A bionic heart implant using a reinforced shell of insectoid chitin for protection. This is a heart designed to take a beating. Pun intended, but it's the last one, I promise .</description>
+
+		<label>animal Implant: chitinous heart (tier 2)</label>
+		<spawnThingOnRemoved>GR_ChitinousHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.2</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>		
+		<stages>		
+			<li>
+				<capMods>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.025</offset>
+					</li>					
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.03</ArmorRating_Heat>
+				</statOffsets>
+
+			</li>
+		</stages>
+	</HediffDef> 
+	
+		<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MechaHeart</defName>
+		<label>animal Implant: mechanoid heart (tier 3)</label>
+				<description>A bionic heart strengthened by the action of active mechanites.</description>
+
+		<spawnThingOnRemoved>GR_MechaHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.3</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>		
+		<stages>		
+			<li>
+				<capMods>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.35</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.05</offset>
+					</li>					
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.05</ArmorRating_Heat>
+				</statOffsets>
+
+			</li>
+		</stages>
+	</HediffDef> 
+
+	<!--=============== Lung ====================-->
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_MuffaloLung</defName>
+				<description>An implant that uses muffalo genes to increase breathing capacity.</description>
+
+		<label>animal Implant: muffalo lung (tier 1)</label>
+		<spawnThingOnRemoved>GR_MuffaloLung</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.1</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>		
+		<stages>		
+			<li>
+				<capMods>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.1</offset>
+					</li>			
+				</capMods>				
+			</li>
+		</stages>
+	</HediffDef> 
+
+	<!--=============== Liver ====================-->
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_BearLiver</defName>
+		<label>animal Implant: bear liver (tier 1)</label>
+				<description>An implant that uses bear genes to improve function of the liver. Specially useful for those alcoholic chickens.</description>
+
+		<spawnThingOnRemoved>GR_BearLiver</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.1</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>		
+		<stages>		
+			<li>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.1</offset>
+					</li>	
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.1</offset>
+					</li>						
+				</capMods>				
+			</li>
+		</stages>
+	</HediffDef> 
+
+	<!--=============== Kidney ====================-->
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_ChickenKidney</defName>
+		<label>animal Implant: chicken kidney (tier 1)</label>
+				<description>An implant that uses chicken genes to improve function of the kidney. Birds have large kidneys. Yep, you learned that today.</description>
+
+		<spawnThingOnRemoved>GR_ChickenKidney</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.1</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>		
+		<stages>		
+			<li>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.1</offset>
+					</li>	
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.1</offset>
+					</li>						
+				</capMods>				
+			</li>
+		</stages>
+	</HediffDef> 
+
+	<!--=============== Stomach ====================-->
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_BoomalopeStomach</defName>
+		<label>animal Implant: boomalope stomach (tier 1)</label>
+				<description>An implant that uses boomalope genes to improve function of the stomach.</description>
+
+		<spawnThingOnRemoved>GR_BoomalopeStomach</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.1</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>		
+		<stages>		
+			<li>
+				<capMods>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>0.1</offset>
+					</li>	
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.1</offset>
+					</li>						
+				</capMods>				
+			</li>
+		</stages>
+	</HediffDef> 
+
+	<!--=============== Human Hybrid Implants ====================-->
+
+
+	
+
+</Defs>

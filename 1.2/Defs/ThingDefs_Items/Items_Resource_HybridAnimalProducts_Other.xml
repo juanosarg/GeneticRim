@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>GR_Owlbearfeathers</defName>
+		<label>owlbear feathers</label>
+		<description>Bearchicken feathers can be gathered and processed into a fine powder, which produces a mild euphoric sensation when burned and inhaled.</description>
+		<graphicData>
+			<texPath>Things/Item/OwlbearFeathers</texPath>
+		</graphicData>  
+		<statBases>
+			<MarketValue>3</MarketValue>
+			<Mass>0.002</Mass>
+			<MaxHitPoints>10</MaxHitPoints>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>GR_BearwolfFangs</defName>
+		<label>bearwolf fangs</label>
+		<description>The sharpened teeth of a bearwolf. These teeth are essentially useless, but some primitive tribes in the Rimworlds tend to use animal teeth as currency, since they are durable. Someone might pay for these.</description>
+		<graphicData>
+			<texPath>Things/Item/BearwolfFangs</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>750</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>1.8</Mass>
+
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<drawGUIOverlay>false</drawGUIOverlay>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>GR_RabbitcatFangs</defName>
+		<label>rabbitcat fangs</label>
+		<description>The sharpened teeth of a rabbitcat. These teeth are essentially useless, but some primitive tribes in the Rimworlds tend to use animal teeth as currency, since they are durable. Someone might pay for these.</description>
+		<graphicData>
+			<texPath>Things/Item/GR_RabbitcatFangs</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>750</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>1.8</Mass>
+
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<drawGUIOverlay>false</drawGUIOverlay>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>GR_WolfchickenFeathers</defName>
+		<label>wolfchicken feathers</label>
+		<description>Wolfchicken feathers are colourful and pretty. Quite useless, but someone might pay for them as a decorative object.</description>
+		<graphicData>
+			<texPath>Things/Item/WolfchickenFeathers</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>75</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>50</MarketValue>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Mass>0.1</Mass>
+
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>GR_WolfbearPaws</defName>
+		<label>wolfbear paws</label>
+		<description>The huge, severed paws of a wolfbear. Such trophies are usually considered by primitive peoples to be a token of good luck. Someone might pay for these.</description>
+		<graphicData>
+			<texPath>Things/Item/AnimalPaws</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>450</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>1</Mass>
+
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<drawGUIOverlay>false</drawGUIOverlay>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>GR_VerySmallTeeth</defName>
+		<label>very small teeth</label>
+		<description>These minuscule teeth are very durable. Some tribes in the Rimworlds tend to use animal teeth as currency, so they might be slightly valuable.</description>
+		<graphicData>
+			<texPath>Things/Item/VerySmallTeeth</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>50</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>41</MarketValue>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Mass>0.01</Mass>
+
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>GR_AlphaBoarTusks</defName>
+		<label>paragon boar tusks</label>
+		<description>These boar tusks are hard and could probably be carved into a sculpture by someone artistically inclined in a stonecutter's table.</description>
+		<graphicData>
+			<texPath>Things/Item/AlphaBoarTusks</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>50</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>50</MarketValue>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Mass>0.2</Mass>
+
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+	
+		<ThingDef ParentName="ResourceBase">
+		<defName>GR_SquirralopeHorn</defName>
+		<label>squirralope horn</label>
+		<description>This horn could probably be used as an improvised melee weapon. It could probably be sold for a tiny profit too.</description>
+		<graphicData>
+			<texPath>Things/Item/GR_SquirralopeHorn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		    <equippedAngleOffset>-20</equippedAngleOffset>
+
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>50</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>150</MarketValue>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Mass>1</Mass>
+			
+      <Flammability>0.4</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+
+		</statBases>
+		 <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+		<tradeability>Sellable</tradeability>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>GR_HugeRhinoHorn</defName>
+		<label>huge rhino horn</label>
+		<description>This immense rhino horn has no intrinsic value or usefulness, but it is often used in non-effectual alternative medicine treatments. Oh well, this is the Rim, it's better than selling slaves (or not, those who could judge didn't survive winter).</description>
+		<graphicData>
+			<texPath>Things/Item/HugeRhinoHorn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Mass>0.5</Mass>
+
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>GR_SpidersnakeSkin</defName>
+		<label>spidersnake shed skin</label>
+		<description>This shed skin can be ground and processed at a drug lab to extract minute amounts of neutroamine.</description>
+		<graphicData>
+		  <texPath>Things/Item/SpidersnakeSkin</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>75</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+		  <MaxHitPoints>30</MaxHitPoints>
+		  <MarketValue>41</MarketValue>
+		  <Mass>0.01</Mass>
+		  <Flammability>1.0</Flammability>
+				<DeteriorationRate>1.0</DeteriorationRate>
+			</statBases>
+		<thingCategories>
+		  <li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>GR_HugeBearPelt</defName>
+		<label>huge bear pelt</label>
+		<description>This enormous bear pelt is probably valuable as a trade good. Or it can also be repurposed as a huge rug.</description>
+		<graphicData>
+		  <texPath>Things/Item/HugeBearPelt</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<stackLimit>1</stackLimit>
+		<statBases>
+		  <MaxHitPoints>30</MaxHitPoints>
+		  <MarketValue>150</MarketValue>
+		  <Mass>8</Mass>
+		  <Flammability>1.0</Flammability>
+				<DeteriorationRate>1.0</DeteriorationRate>
+			</statBases>
+		<thingCategories>
+		  <li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>GR_HugeBearCatPelt</defName>
+		<label>bearcat pelt</label>
+		<description>This enormous bear pelt is probably valuable as a trade good. Or it can also be repurposed as a huge rug.</description>
+		<graphicData>
+		  <texPath>Things/Item/GR_HugeBearCatPelt</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<stackLimit>1</stackLimit>
+		<statBases>
+		  <MaxHitPoints>30</MaxHitPoints>
+		  <MarketValue>150</MarketValue>
+		  <Mass>8</Mass>
+		  <Flammability>1.0</Flammability>
+		  <DeteriorationRate>1.0</DeteriorationRate>
+			</statBases>
+		<thingCategories>
+		  <li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>GR_WolfPelt</defName>
+		<label>wolf pelt</label>
+		<description>This wolf pelt can be used as a trade good. It can also be crafted into a decorative wolf rug.</description>
+		<graphicData>
+		  <texPath>Things/Item/WolfPelt</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<stackLimit>1</stackLimit>
+		<statBases>
+		  <MaxHitPoints>30</MaxHitPoints>
+		  <MarketValue>95</MarketValue>
+		  <Mass>4</Mass>
+		  <Flammability>1.0</Flammability>
+				<DeteriorationRate>1.0</DeteriorationRate>
+			</statBases>
+		<thingCategories>
+		  <li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>GR_MuffaloPelt</defName>
+		<label>muffalo pelt</label>
+		<description>Cool! You can now make your own Game of Thrones / Rimworld cosplay! Or it can also be repurposed as a comfy rug.</description>
+		<graphicData>
+		  <texPath>Things/Item/MuffaloPelt</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<stackLimit>1</stackLimit>
+		<statBases>
+		  <MaxHitPoints>30</MaxHitPoints>
+		  <MarketValue>110</MarketValue>
+		  <Mass>6</Mass>
+		  <Flammability>1.0</Flammability>
+		  <DeteriorationRate>1.0</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+		  <li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+    <defName>GR_EmuFatOintment</defName>
+    <label>emu fat ointment</label>
+    <description>This clump of emu fat can be used as a medicinal ointment.</description>
+    <thingClass>Medicine</thingClass>
+    <graphicData>
+      <texPath>Things/Item/EmuFat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<tradeability>Sellable</tradeability>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+				<techLevel>Neolithic</techLevel>
+
+    <statBases>
+
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>41</MarketValue>
+      <Mass>0.35</Mass>
+      <Flammability>1.0</Flammability>
+      <MedicalPotency>0.60</MedicalPotency>
+      <DeteriorationRate>6</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Medicine</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>150</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>GR_ChocolateEgg</defName>
+    <label>chocolate egg</label>
+    <description>An egg made of good quality chocolate. Delicious!</description>
+    <graphicData>
+      <texPath>Things/Item/EggHuge</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <color>(116,62,4)</color>
+
+    </graphicData>
+	<tradeability>Sellable</tradeability>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+		<socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>30</MaxHitPoints>
+      <MarketValue>6</MarketValue>
+      <Mass>0.2</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>8</DeteriorationRate>
+	        <Nutrition>0.15</Nutrition>
+
+    </statBases>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <foodType>Processed</foodType>
+      <joy>0.15</joy>
+      <joyKind>Gluttonous</joyKind>
+      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>GR_BaconStrips</defName>
+    <label>bacon jerky</label>
+    <thingClass>ThingWithComps</thingClass>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+	<tradeability>Sellable</tradeability>
+    <description>Preserved, salted strips of dried bacon. Can be stored for months without refrigeration.</description>
+    <graphicData>
+      <texPath>Things/Item/BaconStrips</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+      <Mass>0.018</Mass>
+	  <DeteriorationRate>2</DeteriorationRate>
+	        <Nutrition>0.1</Nutrition>
+
+    </statBases>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>80</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_FoodPoisonable" />
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>GR_JamonSerrano</defName>
+    <label>jamon serrano</label>
+    <thingClass>ThingWithComps</thingClass>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+	<tradeability>Sellable</tradeability>
+    <description>This dry-cured ham is considered a delicacy. It is generally served in thin slices, occasionally diced. It can be stored for a long time without refrigeration.</description>
+    <graphicData>
+      <texPath>Things/Item/JamonSerrano</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>55</MarketValue>
+      <Mass>2</Mass>
+	  <DeteriorationRate>2</DeteriorationRate>
+	        <Nutrition>0.4</Nutrition>
+
+    </statBases>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_FoodPoisonable" />
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>GR_TortoiseShell</defName>
+    <label>hardened tortoise shell</label>
+    <description>A very rare, hard material produced from the shells of slaughtered giant tortoises. Not practical for mass use, unless you can get a TON of tortoises.</description>
+    <graphicData>
+      <texPath>Things/Item/TortoiseShell</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+		<useHitPoints>false</useHitPoints>
+		<tradeability>Sellable</tradeability>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>25</MarketValue>
+      <Mass>0.5</Mass>
+      <SharpDamageMultiplier>0.8</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.75</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stuffProps>
+      <categories>
+        <li>Stony</li>
+      </categories>
+      <commonality>0.05</commonality>
+      <color>(109,90,54)</color>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>7</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.5</MaxHitPoints>
+        <WorkToMake>1.4</WorkToMake>
+				<WorkToBuild>5.0</WorkToBuild>
+				<Beauty>3</Beauty>
+        <Flammability>0.2</Flammability>
+      </statFactors>
+     
+    </stuffProps>
+  </ThingDef>
+  
+    <ThingDef ParentName="PlantFoodRawBase">
+    <defName>GR_Castoreum</defName>
+    <label>beaverwolf castoreum</label>
+    <description>Castoreum is a yellowish exudate from the castor sacs of beavers. It is historically used as a food additive and natural flavour, often as a substitute vanilla flavour.</description>
+    <graphicData>
+      <texPath>Things/Item/GR_Castoreum</texPath>
+    </graphicData>
+    <statBases>
+		<Nutrition>0.05</Nutrition>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+   
+  </ThingDef>
+  
+  
+  
+</Defs>
