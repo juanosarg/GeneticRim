@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Achievements Expanded</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs</xpath>
+					<value>
+
+						<AchievementsExpanded.AchievementTabDef>
+							<defName>GR_Achievements</defName>
+							<label>Genetic Rim</label>
+						</AchievementsExpanded.AchievementTabDef>
+						
+						<AchievementsExpanded.AchievementDef Name="GR_AchievementParent" Abstract="true">					
+							<bgtexPath>Achievements/GR_AchievementBackground</bgtexPath>
+							<tab>GR_Achievements</tab>
+						</AchievementsExpanded.AchievementDef>
+						
+
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementMyFirstLab</defName>
+							<label>Baby's First Genetics Lab</label>
+							<description>Build your first Genepod</description>							
+							<tracker Class="AchievementsExpanded.BuildingTracker">
+								<def>GR_GenePod</def>
+								<count>1</count>
+							</tracker>
+							<texPath>Achievements/GR_AchievementMyFirstLab</texPath>
+							<points>5</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementItLives</defName>
+							<label>It Lives!</label>
+							<description>Successfully hatch your first hybrid from an incubator</description>
+							<tracker Class="AchievementsExpanded.HediffTracker">
+								<def>GR_RecentlyHatched</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/GR_AchievementItLives</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementBearlyPossible</defName>
+							<label>Bearly Possible</label>
+							<description>Get all six Tier 1 Bear Hybrids</description>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<kindDefDict>
+									<li>
+										<key>GR_Bearalope</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_BearchickenKind</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Bearffalo</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Bearwolf</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Bearmole</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Bearcat</key>
+										<value>1</value>
+									</li>
+								</kindDefDict>
+								<requireAll>true</requireAll>
+							</tracker>
+							<texPath>Achievements/GR_AchievementBearlyPossible</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementOKBoomer</defName>
+							<label>OK, Boomer</label>
+							<description>Get all six Tier 1 Boomalope Hybrids</description>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<kindDefDict>
+									<li>
+										<key>GR_Boomabear</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Boomachicken</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Boomffalo</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Boomwolf</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Boomsquirrel</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Boomacat</key>
+										<value>1</value>
+									</li>
+								</kindDefDict>
+								<requireAll>true</requireAll>
+							</tracker>
+							<texPath>Achievements/GR_AchievementOKBoomer</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementPshPsh</defName>
+							<label>Psh Psh</label>
+							<description>Get all six Tier 1 Cat Hybrids</description>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<kindDefDict>
+									<li>
+										<key>GR_Catbear</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Catalope</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Catchicken</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Catfallo</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Catrabbit</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Catwolf</key>
+										<value>1</value>
+									</li>
+								</kindDefDict>
+								<requireAll>true</requireAll>
+							</tracker>
+							<texPath>Achievements/GR_AchievementPshPsh</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementHastaLaPollo</defName>
+							<label>Hasta la Pollo</label>
+							<description>Get all six Tier 1 Chicken Hybrids</description>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<kindDefDict>
+									<li>
+										<key>GR_Chickenbear</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Chickenlope</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Chickenffalo</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Chickenwolf</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Chickenrabbit</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Chickencat</key>
+										<value>1</value>
+									</li>
+								</kindDefDict>
+								<requireAll>true</requireAll>
+							</tracker>
+							<texPath>Achievements/GR_AchievementHastaLaPollo</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementMooSquad</defName>
+							<label>Moo Squad</label>
+							<description>Get all six Tier 1 Muffalo Hybrids</description>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<kindDefDict>
+									<li>
+										<key>GR_Muffalobear</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Muffalope</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Muffalochicken</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Muffalowolf</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Muffalorat</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Muffalocat</key>
+										<value>1</value>
+									</li>
+								</kindDefDict>
+								<requireAll>true</requireAll>
+							</tracker>
+							<texPath>Achievements/GR_AchievementMooSquad</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementPestProblems</defName>
+							<label>Pest Problems</label>
+							<description>Get all six Tier 1 Rodent / Leporid Hybrids</description>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<kindDefDict>
+									<li>
+										<key>GR_Molebear</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Squirralope</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Rabbitchicken</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Ratfallo</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Beaverwolf</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Rabbitcat</key>
+										<value>1</value>
+									</li>
+								</kindDefDict>
+								<requireAll>true</requireAll>
+							</tracker>
+							<texPath>Achievements/GR_AchievementPestProblems</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementK9Units</defName>
+							<label>K9 Units</label>
+							<description>Get all six Tier 1 Wolf Hybrids</description>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<kindDefDict>
+									<li>
+										<key>GR_Wolfbear</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Wolfalope</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Wolfchicken</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Wolffalo</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Wolfbeaver</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Wolfcat</key>
+										<value>1</value>
+									</li>
+								</kindDefDict>
+								<requireAll>true</requireAll>
+							</tracker>
+							<texPath>Achievements/GR_AchievementK9Units</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementTaskFailedSuccessfully</defName>
+							<label>Task Failed Successfully</label>
+							<description>Hatch an Aberrant Fleshbeast in an experiment gone wrong</description>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<kindDefDict>
+									<li>
+										<key>GR_AberrantFleshbeast</key>
+										<value>1</value>
+									</li>
+								</kindDefDict>
+							</tracker>
+
+							<texPath>Achievements/GR_AchievementTaskFailedSuccessfully</texPath>
+							<points>5</points>
+						</AchievementsExpanded.AchievementDef>	
+
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementSuperiorTech</defName>
+							<label>Superior Technology</label>
+							<description>Acquire a Mechanoid interface chip from a cluster or ship part</description>
+							<tracker Class="AchievementsExpanded.ItemTracker">
+								<def>GR_MechanoidInterfaceChip</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/GR_AchievementSuperiorTech</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementOnePedeToRuleThemAll</defName>
+							<label>One 'Pede To Rule Them All</label>
+							<description>Create an Archotech Centipede and win the game</description>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<kindDefDict>
+									<li>
+										<key>GR_ArchotechCentipede</key>
+										<value>1</value>
+									</li>
+								</kindDefDict>
+							</tracker>
+
+							<texPath>Achievements/GR_AchievementOnePedeToRuleThemAll</texPath>
+							<points>250</points>
+						</AchievementsExpanded.AchievementDef>	
+
+
+					</value>
+				</li>
+
+
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

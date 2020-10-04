@@ -1,7 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
+	<HediffDef>
+		<defName>GR_RecentlyHatched</defName>
+		<description>This creature has recently hatched from an incubator.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>recently hatched</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>-12</severityPerDayNotImmune>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				
+			</li>
+		</stages>
+	</HediffDef>
 	<HediffDef>
 		<defName>GR_ToxicDamage</defName>
 		<hediffClass>HediffWithComps</hediffClass>

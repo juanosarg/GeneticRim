@@ -60,11 +60,11 @@ namespace NewHatcher
 
         public override void CompTick()
         {
-            
+
             if (!this.TemperatureDamaged)
             {
-               float num = 1f / (this.Props.hatcherDaystoHatch * 60000f);
-               this.gestateProgress += num;
+                float num = 1f / (this.Props.hatcherDaystoHatch * 60000f);
+                this.gestateProgress += num;
                 if (this.gestateProgress > 1f)
                 {
                     this.Hatch();
@@ -75,64 +75,71 @@ namespace NewHatcher
         public void Hatch()
         {
 
-        if (this.parent.Map.IsPlayerHome) { 
-
-        FilthMaker.TryMakeFilth(this.parent.Position, this.parent.Map, ThingDefOf.Filth_AmnioticFluid, 1);
-           
-
-            for (int i = 0; i < this.parent.stackCount; i++)
+            if (this.parent.Map.IsPlayerHome)
             {
-                //Log.Message("Failure rate set to "+ GeneticRim_Settings.failureRate);
-                if (rand.NextDouble() < (1-(GeneticRim_Settings.failureRate / 100)))
+
+                FilthMaker.TryMakeFilth(this.parent.Position, this.parent.Map, ThingDefOf.Filth_AmnioticFluid, 1);
+
+
+                for (int i = 0; i < this.parent.stackCount; i++)
                 {
-                    request = new PawnGenerationRequest(this.Props.hatcherPawn, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, true, false, false, true, false, 1f, false, true, true, false, false);
-                }
-                else
-                {
-                    request = new PawnGenerationRequest(PawnKindDef.Named("GR_AberrantFleshbeast"), null, PawnGenerationContext.NonPlayer, -1, false, true, false, false, true, false, 1f, false, true, true, false, false);
-                    WasMutant = true;
-                }
-                Pawn pawn = PawnGenerator.GeneratePawn(request);
-                if (PawnUtility.TrySpawnHatchedOrBornPawn(pawn, this.parent))
-                {
-                    if (pawn != null)
+                    //Log.Message("Failure rate set to "+ GeneticRim_Settings.failureRate);
+                    if (rand.NextDouble() < (1 - (GeneticRim_Settings.failureRate / 100)))
                     {
-                        if (this.hatcheeParent != null)
+                        request = new PawnGenerationRequest(this.Props.hatcherPawn, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, true, false, false, true, false, 1f, false, true, true, false, false);
+                    }
+                    else
+                    {
+                        request = new PawnGenerationRequest(PawnKindDef.Named("GR_AberrantFleshbeast"), null, PawnGenerationContext.NonPlayer, -1, false, true, false, false, true, false, 1f, false, true, true, false, false);
+                        WasMutant = true;
+                    }
+                    Pawn pawn = PawnGenerator.GeneratePawn(request);
+                    if (PawnUtility.TrySpawnHatchedOrBornPawn(pawn, this.parent))
+                    {
+                        if (pawn != null)
                         {
-                            if (pawn.playerSettings != null && this.hatcheeParent.playerSettings != null && this.hatcheeParent.Faction == this.hatcheeFaction)
+                            if (pawn.Faction == Faction.OfPlayer)
                             {
-                                pawn.playerSettings.AreaRestriction = this.hatcheeParent.playerSettings.AreaRestriction;
+                                pawn.health.AddHediff(HediffDef.Named("GR_RecentlyHatched"));
                             }
-                            if (pawn.RaceProps.IsFlesh)
+
+                            if (this.hatcheeParent != null)
                             {
-                                pawn.relations.AddDirectRelation(PawnRelationDefOf.Parent, this.hatcheeParent);
+                                if (pawn.playerSettings != null && this.hatcheeParent.playerSettings != null && this.hatcheeParent.Faction == this.hatcheeFaction)
+                                {
+                                    pawn.playerSettings.AreaRestriction = this.hatcheeParent.playerSettings.AreaRestriction;
+                                }
+                                if (pawn.RaceProps.IsFlesh)
+                                {
+                                    pawn.relations.AddDirectRelation(PawnRelationDefOf.Parent, this.hatcheeParent);
+                                }
                             }
-                        }
-                        if (this.otherParent != null && (this.hatcheeParent == null || this.hatcheeParent.gender != this.otherParent.gender) && pawn.RaceProps.IsFlesh)
-                        {
-                            pawn.relations.AddDirectRelation(PawnRelationDefOf.Parent, this.otherParent);
-                        }
+                            if (this.otherParent != null && (this.hatcheeParent == null || this.hatcheeParent.gender != this.otherParent.gender) && pawn.RaceProps.IsFlesh)
+                            {
+                                pawn.relations.AddDirectRelation(PawnRelationDefOf.Parent, this.otherParent);
+                            }
                             if (WasMutant)
                             {
                                 Messages.Message("GR_ANewCreatureWasBornMutant".Translate(), pawn, MessageTypeDefOf.NegativeEvent);
-                            } else
+                            }
+                            else
                             {
                                 Messages.Message("GR_ANewCreatureWasBorn".Translate(), pawn, MessageTypeDefOf.PositiveEvent);
 
                             }
                         }
                         if (this.parent.Spawned)
+                        {
+                            FilthMaker.TryMakeFilth(this.parent.Position, this.parent.Map, ThingDefOf.Filth_AmnioticFluid, 1);
+                        }
+                    }
+                    else
                     {
-                        FilthMaker.TryMakeFilth(this.parent.Position, this.parent.Map, ThingDefOf.Filth_AmnioticFluid, 1);
+                        Find.WorldPawns.PassToWorld(pawn, PawnDiscardDecideMode.Discard);
                     }
                 }
-                else
-                {
-                    Find.WorldPawns.PassToWorld(pawn, PawnDiscardDecideMode.Discard);
-                }
+                this.parent.Destroy(DestroyMode.Vanish);
             }
-            this.parent.Destroy(DestroyMode.Vanish);
-        }
         }
 
 
