@@ -78,7 +78,7 @@
 			</li>
 		</tools>
 		<comps>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<rage>true</rage>
 			</li>
 		</comps>
@@ -199,7 +199,7 @@
 			<MarketValue>350</MarketValue>
 		</statBases>
 		<comps>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<rage>true</rage>
 			</li>
 		</comps>
@@ -364,20 +364,20 @@
 		</tools>
 
 		<comps>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>Chemfuel</resourceDef>
 				<gatheringIntervalDays>1</gatheringIntervalDays>
 				<resourceAmount>25</resourceAmount>
 				<customResourceString>ChemfuelProd</customResourceString>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<explodable>true</explodable>
 			</li>
 		</comps>
 		<race>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithHoovesAndHump</body>
-			<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_BiggerExplosion</deathActionWorkerClass>
+			<deathActionWorkerClass>GeneticRim.DeathActionWorker_BiggerExplosion</deathActionWorkerClass>
 			<executionRange>6</executionRange>
 			<herdAnimal>true</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
@@ -526,7 +526,7 @@
 				<eggLayIntervalDays>1.5</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<chickenRimPox>true</chickenRimPox>
 			</li>
 		</comps>
@@ -691,7 +691,7 @@
 				<eggLayIntervalDays>15</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<chickenRimPox>true</chickenRimPox>
 			</li>
 		</comps>
@@ -827,7 +827,7 @@
 				<shearIntervalDays>25</shearIntervalDays>
 				<woolAmount>120</woolAmount>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<carrymore>true</carrymore>
 			</li>
 		</comps>
@@ -990,7 +990,7 @@
 				<eggLayIntervalDays>20</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<chickenRimPox>true</chickenRimPox>
 			</li>
 		</comps>
@@ -1150,7 +1150,7 @@
 			<chanceFactor>0.2</chanceFactor>      </li>
 	</tools>
 	<comps>
-		<li Class="DraftingPatcher.CompProperties_Draftable">
+		<li Class="GeneticRim.CompProperties_Draftable">
 			<stampede>true</stampede>
 		</li>
 	</comps>
@@ -1329,7 +1329,7 @@
 			<chanceFactor>0.2</chanceFactor>      </li>
 	</tools>
 	<comps>
-		<li Class="DraftingPatcher.CompProperties_Draftable">
+		<li Class="GeneticRim.CompProperties_Draftable">
 			<adrenalineburst>true</adrenalineburst>
 		</li>
 	</comps>
@@ -1480,13 +1480,13 @@
 
 	<comps>
 
-		<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+		<li Class="GeneticRim.CompProperties_AnimalProduct">
 			<resourceDef>GR_ChocolateEgg</resourceDef>
 			<gatheringIntervalDays>1</gatheringIntervalDays>
 			<resourceAmount>1</resourceAmount>
 			<customResourceString>ChocolateEgg</customResourceString>
 		</li>
-		<li Class="DraftingPatcher.CompProperties_Draftable">
+		<li Class="GeneticRim.CompProperties_Draftable">
 			<burrowing>true</burrowing>
 		</li>
 	</comps>
@@ -1646,7 +1646,7 @@
 				<max>2</max>
 			</eggCountRange>
 		</li>
-		<li Class="DraftingPatcher.CompProperties_Draftable">
+		<li Class="GeneticRim.CompProperties_Draftable">
 			<poisonouscloud>true</poisonouscloud>
 		</li>
 	</comps>
@@ -1775,7 +1775,7 @@
 			<chanceFactor>0.2</chanceFactor>      </li>
 	</tools>
 	<comps>
-		<li Class="DraftingPatcher.CompProperties_Draftable">
+		<li Class="GeneticRim.CompProperties_Draftable">
 			<rage>true</rage>
 		</li>
 	</comps>
@@ -1960,7 +1960,7 @@
 			<chanceFactor>0.2</chanceFactor>      </li>
 	</tools>
 	<comps>
-		<li Class="DraftingPatcher.CompProperties_Draftable">
+		<li Class="GeneticRim.CompProperties_Draftable">
 			<burrowing>true</burrowing>
 		</li>
 	</comps>
@@ -2062,7 +2062,7 @@
 <ThingDef ParentName="AnimalThingBase">
 	<defName>GR_AlphaTortoise</defName>
 	<label>paragon tortoise</label>
-	<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+	<thingClass>GeneticRim.AlternateHybridSkins</thingClass>
 	<description>This heavily armored land-dwelling reptile is known for its slow moving speed and surprisingly vicious bite.\n\nUseful abilities: Paragon tortoises can be butchered to obtain their shells, and with a big enough tortoise farm it could probably be used as a building material.</description>
 	<statBases>
 		<MoveSpeed>0.5</MoveSpeed>
@@ -2105,7 +2105,7 @@
 
 
 		</li>
-		<li Class="DraftingPatcher.CompProperties_Draftable">
+		<li Class="GeneticRim.CompProperties_Draftable">
 			<poisonouscloud>true</poisonouscloud>
 		</li>
 	</comps>

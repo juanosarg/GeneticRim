@@ -75,11 +75,11 @@
 			</li>
 		</tools>
 		<comps>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<rage>true</rage>
 				<catreflexes>true</catreflexes>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+			<li Class="GeneticRim.CompProperties_InitialHediff">
 				<hediffname>GR_MeleeDodge</hediffname>
 				<hediffseverity>1</hediffseverity>
 			</li>
@@ -230,23 +230,23 @@
 				</li>
 			</tools>
 			<comps>
-				<li Class="DraftingPatcher.CompProperties_Draftable">
+				<li Class="GeneticRim.CompProperties_Draftable">
 					<catreflexes>true</catreflexes>
 					<explodable>true</explodable>
 				</li>
-				<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<li Class="GeneticRim.CompProperties_AnimalProduct">
 					<resourceDef>Chemfuel</resourceDef>
 					<gatheringIntervalDays>1</gatheringIntervalDays>
 					<resourceAmount>5</resourceAmount>
 					<customResourceString>ChemfuelProd</customResourceString>
 				</li>
-				<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+				<li Class="GeneticRim.CompProperties_InitialHediff">
 					<hediffname>GR_MeleeDodge</hediffname>
 					<hediffseverity>1</hediffseverity>
 				</li> 
 			</comps>
 			<race>
-				<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_SmallHairballExplosion</deathActionWorkerClass>
+				<deathActionWorkerClass>GeneticRim.DeathActionWorker_SmallHairballExplosion</deathActionWorkerClass>
 				<executionRange>2</executionRange>
 				<fleshType>GR_Normal</fleshType>
 				<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
@@ -399,11 +399,11 @@
 				<eggLayIntervalDays>1</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<chickenRimPox>true</chickenRimPox>
 				<catreflexes>true</catreflexes>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+			<li Class="GeneticRim.CompProperties_InitialHediff">
 				<hediffname>GR_MeleeDodge</hediffname>
 				<hediffseverity>1</hediffseverity>
 			</li>
@@ -564,11 +564,11 @@
       </li>
     </tools>
 		<comps>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<carrymore>true</carrymore>
 				<catreflexes>true</catreflexes>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+			<li Class="GeneticRim.CompProperties_InitialHediff">
 				<hediffname>GR_MeleeDodge</hediffname>
 				<hediffseverity>1</hediffseverity>
 			</li>
@@ -762,11 +762,11 @@
       </li>
     </tools>
 		<comps>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<burrowing>true</burrowing>
 				<catreflexes>true</catreflexes>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+			<li Class="GeneticRim.CompProperties_InitialHediff">
 				<hediffname>GR_MeleeDodge</hediffname>
 				<hediffseverity>1</hediffseverity>
 			</li>
@@ -951,11 +951,11 @@
 			</li>
 		</tools>
 		<comps>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<adrenalineburst>true</adrenalineburst>
 				<catreflexes>true</catreflexes>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+			<li Class="GeneticRim.CompProperties_InitialHediff">
 				<hediffname>GR_MeleeDodge</hediffname>
 				<hediffseverity>1</hediffseverity>
 			</li>

@@ -6,7 +6,7 @@
   <RoomRoleDef>
     <defName>GR_GenLab</defName>
     <label>genetic laboratory</label>
-    <workerClass>NewAnimalSubproducts.RoomRoleWorker_GeneLab</workerClass>
+    <workerClass>GeneticRim.RoomRoleWorker_GeneLab</workerClass>
     <relatedStats>
       <li>Cleanliness</li>
     </relatedStats>

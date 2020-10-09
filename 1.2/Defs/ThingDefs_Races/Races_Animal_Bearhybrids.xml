@@ -82,13 +82,13 @@
 		</tools>
 		<comps>
 
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>Chemfuel</resourceDef>
 				<gatheringIntervalDays>2</gatheringIntervalDays>
 				<resourceAmount>22</resourceAmount>
 				<customResourceString>ChemfuelProd</customResourceString>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<rage>true</rage>
 				<explodable>true</explodable>
 			</li>
@@ -103,7 +103,7 @@
 			<baseHungerRate>0.35</baseHungerRate>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<intelligence>Animal</intelligence>
-			<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_BiggerExplosion</deathActionWorkerClass>
+			<deathActionWorkerClass>GeneticRim.DeathActionWorker_BiggerExplosion</deathActionWorkerClass>
 			<executionRange>6</executionRange>
 			<wildness>0.80</wildness>
 			<baseBodySize>1.5</baseBodySize>
@@ -199,7 +199,7 @@
 	<!-- Bear - Chicken --> 
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Bearchicken</defName>
-		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		<thingClass>GeneticRim.AlternateHybridSkins</thingClass>
 		<label>bearchicken</label>
 		<description>A bear / chicken hybrid. Nicknamed "owlbear" by the colonists. Much weaker in melee than a bear, but it lays eggs, and can obviously defend itself in combat much better than a chicken.\n\nUseful abilities: Lays eggs and regularly produces feathers, which can be converted into Featherdust joints.</description>
 		<statBases>
@@ -283,14 +283,14 @@
 					<max>2</max>
 				</eggCountRange>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>GR_Owlbearfeathers</resourceDef>
 				<gatheringIntervalDays>1</gatheringIntervalDays>
 				<resourceAmount>17</resourceAmount>
 				<customResourceString>FeatherGrowth</customResourceString>
 
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<rage>true</rage>
 				<chickenRimPox>true</chickenRimPox>
 			</li>
@@ -488,7 +488,7 @@
 				<shearIntervalDays>15</shearIntervalDays>
 				<woolAmount>100</woolAmount>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<rage>true</rage>
 				<carrymore>true</carrymore>
 			</li>
@@ -609,7 +609,7 @@
 		</statBases>
 		<comps>
 
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<adrenalineburst>true</adrenalineburst>
 				<rage>true</rage>
 			</li>
@@ -787,7 +787,7 @@
 	<!-- Bear - Rodent -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Bearmole</defName>
-		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		<thingClass>GeneticRim.AlternateHybridSkins</thingClass>
 		<label>bearmole</label>
 		<description>A Bear / Mole hybrid. This blind animal has a very acute sense of vibrations, alllowing it to detect its prey even better than a sighted animal.\n\nUseful abilities: Good guard animal. Very fast breeding.</description>
 		<statBases>
@@ -859,7 +859,7 @@
 				<chanceFactor>0.2</chanceFactor>      </li>
 		</tools>
 		<comps>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<rage>true</rage>
 				<burrowing>true</burrowing>
 			</li>
@@ -1050,11 +1050,11 @@
     </tools>
 
 		<comps>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<rage>true</rage>
 				<catreflexes>true</catreflexes>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+			<li Class="GeneticRim.CompProperties_InitialHediff">
 				<hediffname>GR_MeleeDodge</hediffname>
 				<hediffseverity>1</hediffseverity>
 			</li>

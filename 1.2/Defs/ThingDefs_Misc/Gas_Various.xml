@@ -44,7 +44,7 @@
     <ThingDef ParentName="BaseGas">
     <defName>GR_Hairballs</defName>
     <label>hairballs</label>
-		<thingClass>DraftingPatcher.Gas_Hairballs</thingClass>
+		<thingClass>GeneticRim.Gas_Hairballs</thingClass>
 
     <graphicData>
       <texPath>Things/Gas/GR_Hairballs</texPath>
@@ -65,7 +65,7 @@
    <ThingDef ParentName="BaseGas">
     <defName>GR_Poison_Cloud</defName>
     <label>poison cloud</label>
-	<thingClass>DraftingPatcher.Gas_PoisonCloud</thingClass>
+	<thingClass>GeneticRim.Gas_PoisonCloud</thingClass>
 
     <graphicData>
       <texPath>Things/Gas/Puff</texPath>
@@ -86,7 +86,7 @@
   <ThingDef ParentName="BaseGas">
     <defName>GR_InsectCloudMotes</defName>
     <label>insect clouds</label>
-	<thingClass>DraftingPatcher.Gas_InsectClouds</thingClass>
+	<thingClass>GeneticRim.Gas_InsectClouds</thingClass>
     <graphicData>
       <texPath>Things/Gas/GR_InsectcloudMotes</texPath>
       <drawSize>2.2</drawSize>

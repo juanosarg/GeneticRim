@@ -11,7 +11,7 @@
 		<defName>GR_ArchotechPlatform</defName>
 		<label>archotech construction platform</label>
 		<description>This construction platform houses the technology necessary to assemble an Archotech Centipede, a bio-mechanical creature powered by an Archotech AI under the control of your colonists.\n\nWhoever controls an Archotech Centipede controls the planet. Bear in mind however that activation of this project will attract A LOT of unwanted attention.</description>
-		<thingClass>NewMachinery.Building_ArchotechPlatform</thingClass>
+		<thingClass>GeneticRim.Building_ArchotechPlatform</thingClass>
 		<graphicData>
 			<texPath>Things/Building/GR_ArchotechPlatform</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -57,7 +57,7 @@
 				<compClass>CompPowerTransmitter</compClass>
 				<transmitsPower>true</transmitsPower>
 			</li>
-			<li Class="NewMachinery.CompProperties_ArchotechPart"/>
+			<li Class="GeneticRim.CompProperties_ArchotechPart"/>
 			<li Class="CompProperties_Hibernatable">
 				<incidentTargetWhileStarting>Map_RaidBeacon</incidentTargetWhileStarting>
 				<sustainerActive>ShipReactor_Ambience</sustainerActive>
@@ -160,7 +160,7 @@
         <compClass>CompPowerTransmitter</compClass>
         <transmitsPower>true</transmitsPower>
       </li>
-      <li Class="NewMachinery.CompProperties_ArchotechPart"/>
+      <li Class="GeneticRim.CompProperties_ArchotechPart"/>
     </comps>
    
     <costList>
@@ -214,7 +214,7 @@
 				<compClass>CompPowerTransmitter</compClass>
 				<transmitsPower>true</transmitsPower>
 			</li>
-			<li Class="NewMachinery.CompProperties_ArchotechPart"/>
+			<li Class="GeneticRim.CompProperties_ArchotechPart"/>
 		</comps>
 
 		
@@ -236,7 +236,7 @@
 		<defName>GR_ArchotechDatabase</defName>
 		<label>master archotech database</label>
 		<description>This database stabilizes and subjugates the archotech AI, keeping it under control of the colonists. This technology is very advanced and has inherent risks, such as the archotech AI going rogue, killing everyone in the planet, and using their corpses as batteries to power a martial arts simulation. Or sending robots to the past.\n\nMechanoid interface chips, can be obtained from crashed mechanoid ships (both psychic and poison) or very expensively built in a Fabrication Table if you research Advanced Fabrication.</description>
-    <thingClass>NewMachinery.Building_ArchotechComputerCore</thingClass>
+    <thingClass>GeneticRim.Building_ArchotechComputerCore</thingClass>
 		<graphicData>
 			<texPath>Things/Building/GR_ArchotechDatabase</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -266,7 +266,7 @@
 				<compClass>CompPowerTransmitter</compClass>
 				<transmitsPower>true</transmitsPower>
 			</li>
-			<li Class="NewMachinery.CompProperties_ArchotechPart"/>
+			<li Class="GeneticRim.CompProperties_ArchotechPart"/>
 		</comps>
 
 		
@@ -321,7 +321,7 @@
 				<compClass>CompPowerTransmitter</compClass>
 				<transmitsPower>true</transmitsPower>
 			</li>
-			<li Class="NewMachinery.CompProperties_ArchotechPart"/>
+			<li Class="GeneticRim.CompProperties_ArchotechPart"/>
 		</comps>
 
 		
@@ -378,7 +378,7 @@
 				<compClass>CompPowerTransmitter</compClass>
 				<transmitsPower>true</transmitsPower>
 			</li>
-			<li Class="NewMachinery.CompProperties_ArchotechPart"/>
+			<li Class="GeneticRim.CompProperties_ArchotechPart"/>
      
     </comps>
    

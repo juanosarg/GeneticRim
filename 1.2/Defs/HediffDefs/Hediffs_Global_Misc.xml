@@ -442,7 +442,7 @@
 		<tendable>false</tendable>
 		<isBad>false</isBad>
 		<defaultLabelColor>(100,100,100)</defaultLabelColor>
-		<hediffClass>DraftingPatcher.Hediff_InsectClouds</hediffClass>
+		<hediffClass>GeneticRim.Hediff_InsectClouds</hediffClass>
 		<initialSeverity>0.001</initialSeverity>
 		<comps>
 
@@ -488,7 +488,7 @@
 		<tendable>false</tendable>
 		<isBad>false</isBad>
 		<defaultLabelColor>(150,150,50)</defaultLabelColor>
-		<hediffClass>DraftingPatcher.Hediff_Burrowing</hediffClass>
+		<hediffClass>GeneticRim.Hediff_Burrowing</hediffClass>
 		<initialSeverity>0.001</initialSeverity>
 		<comps>
 
@@ -539,7 +539,7 @@
 		<tendable>false</tendable>
 		<isBad>false</isBad>
 		<defaultLabelColor>(48,82,255)</defaultLabelColor>
-		<hediffClass>DraftingPatcher.Hediff_StampedeClouds</hediffClass>
+		<hediffClass>GeneticRim.Hediff_StampedeClouds</hediffClass>
 		<initialSeverity>0.001</initialSeverity>
 		<comps>
 

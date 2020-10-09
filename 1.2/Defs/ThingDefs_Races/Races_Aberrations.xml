@@ -28,7 +28,7 @@
 
 		<tickerType>Normal</tickerType>
 		<comps>
-			<li Class="NewHatcher.CompProperties_AberrantMucus">
+			<li Class="GeneticRim.CompProperties_AberrantMucus">
 
 			</li>
 		</comps>

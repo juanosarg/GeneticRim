@@ -76,11 +76,11 @@
 				<chanceFactor>0.2</chanceFactor>      </li>
 		</tools>
 		<comps>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<rage>true</rage>
 				<burrowing>true</burrowing>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+			<li Class="GeneticRim.CompProperties_InitialHediff">
 				<hediffname>GR_NoPain</hediffname>
 				<hediffseverity>1</hediffseverity>
 			</li>
@@ -199,7 +199,7 @@
 	<!-- Rodent - Boomalope -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Boomsquirrel</defName>
-		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		<thingClass>GeneticRim.AlternateHybridSkins</thingClass>
 		<label>boomsquirrel</label>
 		<description>A Squirrel / Boomalope hybrid. This small and fast rodent has several nodules of chemical mixture in its back.\n\nUseful abilities: Explodes on death. Produces small amounts of chemfuel quite fast. Very fast breeding.</description>
 		<statBases>
@@ -246,14 +246,14 @@
 				<chanceFactor>0.2</chanceFactor>      </li>
 		</tools>
 		<comps>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>Chemfuel</resourceDef>
 				<gatheringIntervalDays>1</gatheringIntervalDays>
 				<resourceAmount>5</resourceAmount>
 				<customResourceString>ChemfuelProd</customResourceString>
 
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<explodable>true</explodable>
 				<burrowing>true</burrowing>
 			</li>
@@ -394,7 +394,7 @@
 
 		<comps>
 
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<chickenRimPox>true</chickenRimPox>
 				<burrowing>true</burrowing>
 			</li>
@@ -547,7 +547,7 @@
 				<shearIntervalDays>1</shearIntervalDays>
 				<woolAmount>5</woolAmount>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<carrymore>true</carrymore>
 				<burrowing>true</burrowing>
 			</li>
@@ -653,7 +653,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Thrumborat</defName>
 		<label>thrumborat</label>
-		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		<thingClass>GeneticRim.AlternateHybridSkins</thingClass>
 		<description>A Rat / Thrumbo hybrid. What could be scarier than a fast-breeding thrumbo?\n\nUseful abilities: Fast breeding and fast maturing for a creature of this size. Not very long-lived, though.</description>
 		<statBases>
 			<MoveSpeed>5.25</MoveSpeed>
@@ -711,7 +711,7 @@
 				<chanceFactor>0.2</chanceFactor>      </li>
 		</tools>
 		<comps>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<stampede>true</stampede>
 				<burrowing>true</burrowing>
 			</li>
@@ -834,11 +834,11 @@
 			<MarketValue>275</MarketValue>
 		</statBases>
 		<comps>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<adrenalineburst>true</adrenalineburst>
 				<burrowing>true</burrowing>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>GR_Castoreum</resourceDef>
 				<gatheringIntervalDays>1</gatheringIntervalDays>
 				<resourceAmount>10</resourceAmount>
@@ -1026,11 +1026,11 @@
 			<MarketValue>575</MarketValue>
 		</statBases>
 		<comps>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<catreflexes>true</catreflexes>
 				<burrowing>true</burrowing>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+			<li Class="GeneticRim.CompProperties_InitialHediff">
 				<hediffname>GR_MeleeDodge</hediffname>
 				<hediffseverity>1</hediffseverity>
 			</li>

@@ -40,13 +40,13 @@
 		</tools>
 		<comps>
 
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>Chemfuel</resourceDef>
 				<gatheringIntervalDays>2</gatheringIntervalDays>
 				<resourceAmount>22</resourceAmount>
 				<customResourceString>ChemfuelProd</customResourceString>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<rage>true</rage>
 				<explodable>true</explodable>
 			</li>	  
@@ -55,7 +55,7 @@
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<intelligence>Animal</intelligence>
 			<body>QuadrupedAnimalWithHoovesAndHump</body>
-			<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_SmallBomb</deathActionWorkerClass>
+			<deathActionWorkerClass>GeneticRim.DeathActionWorker_SmallBomb</deathActionWorkerClass>
 			<executionRange>6</executionRange>
 			<herdAnimal>true</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
@@ -198,13 +198,13 @@
 				<eggLayIntervalDays>8</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>Chemfuel</resourceDef>
 				<gatheringIntervalDays>2</gatheringIntervalDays>
 				<resourceAmount>12</resourceAmount>
 				<customResourceString>ChemfuelProd</customResourceString>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<chickenRimPox>true</chickenRimPox>
 				<explodable>true</explodable>
 			</li>
@@ -212,7 +212,7 @@
 		<race>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>GR_QuadrupedAnimalWithBeakandHump</body>
-			<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_Eggxplosion</deathActionWorkerClass>
+			<deathActionWorkerClass>GeneticRim.DeathActionWorker_Eggxplosion</deathActionWorkerClass>
 			<executionRange>6</executionRange>
 			<herdAnimal>true</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
@@ -340,7 +340,7 @@
 				<milkIntervalDays>2</milkIntervalDays>
 				<milkAmount>12</milkAmount>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>GR_Cryofuel</resourceDef>
 				<gatheringIntervalDays>2</gatheringIntervalDays>
 				<resourceAmount>20</resourceAmount>
@@ -351,14 +351,14 @@
 				<shearIntervalDays>25</shearIntervalDays>
 				<woolAmount>90</woolAmount>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<explodable>true</explodable>
 			</li>
 		</comps>
 		<race>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithHoovesAndHump</body>
-			<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_FrostExplosion</deathActionWorkerClass>
+			<deathActionWorkerClass>GeneticRim.DeathActionWorker_FrostExplosion</deathActionWorkerClass>
 			<executionRange>6</executionRange>
 			<herdAnimal>true</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
@@ -497,13 +497,13 @@
 				<chanceFactor>0.2</chanceFactor>      </li>
 		</tools>
 		<comps>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>Chemfuel</resourceDef>
 				<gatheringIntervalDays>1</gatheringIntervalDays>
 				<resourceAmount>9</resourceAmount>
 				<customResourceString>ChemfuelProd</customResourceString>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<adrenalineburst>true</adrenalineburst>
 				<explodable>true</explodable>
 			</li>
@@ -512,7 +512,7 @@
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithHoovesAndHump</body>
 			<predator>true</predator>
-			<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_StunningExplosion</deathActionWorkerClass>
+			<deathActionWorkerClass>GeneticRim.DeathActionWorker_StunningExplosion</deathActionWorkerClass>
 			<executionRange>6</executionRange>
 			<herdAnimal>true</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
@@ -663,14 +663,14 @@
 				<chanceFactor>0.2</chanceFactor>      </li>
 		</tools>
 		<comps>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>Chemfuel</resourceDef>
 				<gatheringIntervalDays>2</gatheringIntervalDays>
 				<resourceAmount>15</resourceAmount>
 				<customResourceString>ChemfuelProd</customResourceString>
 
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<explodable>true</explodable>
 				<burrowing>true</burrowing>
 			</li>
@@ -820,17 +820,17 @@
 				<chanceFactor>0.2</chanceFactor>      </li>
 		</tools>
 		<comps>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>Chemfuel</resourceDef>
 				<gatheringIntervalDays>1</gatheringIntervalDays>
 				<resourceAmount>10</resourceAmount>
 				<customResourceString>ChemfuelProd</customResourceString>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<catreflexes>true</catreflexes>
 				<explodable>true</explodable>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+			<li Class="GeneticRim.CompProperties_InitialHediff">
 				<hediffname>GR_MeleeDodge</hediffname>
 				<hediffseverity>1</hediffseverity>
 			</li>
@@ -838,7 +838,7 @@
 		<race>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
-			<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_HairballExplosion</deathActionWorkerClass>
+			<deathActionWorkerClass>GeneticRim.DeathActionWorker_HairballExplosion</deathActionWorkerClass>
 			<executionRange>6</executionRange>
 			<herdAnimal>false</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>

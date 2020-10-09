@@ -49,7 +49,7 @@
 				<eggLayIntervalDays>1.9</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<chickenRimPox>true</chickenRimPox>
 				<rage>true</rage>
 
@@ -223,13 +223,13 @@
 				<eggLayIntervalDays>2</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>Chemfuel</resourceDef>
 				<gatheringIntervalDays>1</gatheringIntervalDays>
 				<resourceAmount>5</resourceAmount>
 				<customResourceString>ChemfuelProd</customResourceString>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<chickenRimPox>true</chickenRimPox>
 				<explodable>true</explodable>
 
@@ -403,7 +403,7 @@
 				<eggLayIntervalDays>1.8</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<chickenRimPox>true</chickenRimPox>
 				<carrymore>true</carrymore>
 
@@ -575,7 +575,7 @@
 				<eggLayIntervalDays>3</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<chickenRimPox>true</chickenRimPox>
 				<adrenalineburst>true</adrenalineburst>
 
@@ -750,7 +750,7 @@
 					<max>2</max>
 				</eggCountRange>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<chickenRimPox>true</chickenRimPox>
 				<burrowing>true</burrowing>
 			</li>
@@ -912,12 +912,12 @@
 				<eggLayIntervalDays>3</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<chickenRimPox>true</chickenRimPox>
 				<catreflexes>true</catreflexes>
 
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+			<li Class="GeneticRim.CompProperties_InitialHediff">
 				<hediffname>GR_MeleeDodge</hediffname>
 				<hediffseverity>1</hediffseverity>
 			</li>

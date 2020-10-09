@@ -10,6 +10,105 @@
 			<operations>
 			
 
+			
+		
+				<li Class="PatchOperationAdd">
+					
+					<xpath>/Defs/RecipeDef[@Name = "OldWoundsAnimal"]/recipeUsers</xpath>
+					<value>
+						<li>GR_AberrantFleshbeast</li>
+						<li>GR_AlphaBear</li>
+						<li>GR_AlphaWildBoar</li>
+						<li>GR_AlphaBoomalope</li>
+						<li>GR_AlphaChicken</li>
+						<li>GR_AlphaEmu</li>
+						<li>GR_AlphaMuffalo</li>
+						<li>GR_AlphaOstrich</li>
+						<li>GR_AlphaRhinoceros</li>
+						<li>GR_AlphaWolfTimber</li>
+						<li>GR_AlphaHare</li>
+						<li>GR_AlphaIguana</li>
+						<li>GR_AlphaPig</li>
+						<li>GR_AlphaRat</li>
+						<li>GR_AlphaTortoise</li>
+						<li>GR_Bearalope</li>
+						<li>GR_Bearchicken</li>
+						<li>GR_Bearffalo</li>
+						<li>GR_Bearwolf</li>
+						<li>GR_Boomabear</li>
+						<li>GR_Boomachicken</li>
+						<li>GR_Boomffalo</li>
+						<li>GR_Boomwolf</li>
+						<li>GR_Chickenbear</li>
+						<li>GR_Chickenlope</li>
+						<li>GR_Chickenffalo</li>
+						<li>GR_Chickenwolf</li>
+						<li>GR_Bearscarab</li>
+						<li>GR_Boombeetle</li>
+						<li>GR_Chickenspider</li>
+						<li>GR_Muffalopede</li>
+						<li>GR_Thrumbospider</li>
+						<li>GR_Wolfscarab</li>
+						<li>GR_Muffalobear</li>
+						<li>GR_Muffalope</li>
+						<li>GR_Muffalochicken</li>
+						<li>GR_Muffalowolf</li>
+						<li>GR_Bearodile</li>
+						<li>GR_Boomsnake</li>
+						<li>GR_Chickenlizard</li>
+						<li>GR_Muffalokomodo</li>
+						<li>GR_Spidersnake</li>
+						<li>GR_Thrumbolizard</li>
+						<li>GR_Wolfsnake</li>
+						<li>GR_Bearmole</li>
+						<li>GR_Boomsquirrel</li>
+						<li>GR_Chickenrabbit</li>
+						<li>GR_Muffalorat</li>
+						<li>GR_Thrumborat</li>
+						<li>GR_Wolfbeaver</li>
+						<li>GR_Thrumbear</li>
+						<li>GR_Thrumbalope</li>
+						<li>GR_Thrumbochicken</li>
+						<li>GR_Thrumffalo</li>
+						<li>GR_Thrumwolf</li>
+						<li>GR_Wolfbear</li>
+						<li>GR_Wolfalope</li>
+						<li>GR_Wolfchicken</li>
+						<li>GR_Wolffalo</li>
+						<li>GR_Mechabear</li>
+						<li>GR_Mechalope</li>
+						<li>GR_Mechachicken</li>
+						<li>GR_Mechaspider</li>
+						<li>GR_Mechamuffalo</li>
+						<li>GR_Mecharat</li>
+						<li>GR_Mechaturtle</li>
+						<li>GR_Mechawolf</li>
+						<li>GR_Mechathrumbo</li>
+						<li>GR_Molebear</li>
+						<li>GR_Squirralope</li>
+						<li>GR_Rabbitchicken</li>
+						<li>GR_Ratfallo</li>
+						<li>GR_Wolfbeaver</li>
+						<li>GR_Bearcat</li>
+						<li>GR_Boomacat</li>
+						<li>GR_Chickencat</li>
+						<li>GR_Muffalocat</li>
+						<li>GR_Rabbitcat</li>
+						<li>GR_Wolfcat</li>
+						<li>GR_Snakecat</li>
+						<li>GR_Spidercat</li>
+						<li>GR_Thrumbocat</li>
+						<li>GR_Mechacat</li>
+						<li>GR_Catbear</li>
+						<li>GR_Catalope</li>
+						<li>GR_Catchicken</li>
+						<li>GR_Catrabbit</li>
+						<li>GR_Catfallo</li>
+						<li>GR_Catwolf</li>
+
+					</value>
+				</li>
+			
 
 				<!-- Organ installing recipes == should be most animals -->
 				<li Class="PatchOperationAdd">

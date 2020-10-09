@@ -42,8 +42,8 @@
 		<useDuration>600</useDuration>
 
       </li>
-      <li Class="NewAnimalSubproducts.CompProperties_HybridGenesUseEffect">
-        <compClass>NewAnimalSubproducts.CompUseEffect_ApplyHediff</compClass>
+      <li Class="GeneticRim.CompProperties_HybridGenesUseEffect">
+        <compClass>GeneticRim.CompUseEffect_ApplyHediff</compClass>
 		<genes>GR_BearHybridGenes</genes>
 		
       </li>
@@ -75,8 +75,8 @@
 		<useDuration>600</useDuration>
 
       </li>
-      <li Class="NewAnimalSubproducts.CompProperties_HybridGenesUseEffect">
-        <compClass>NewAnimalSubproducts.CompUseEffect_ApplyHediff</compClass>
+      <li Class="GeneticRim.CompProperties_HybridGenesUseEffect">
+        <compClass>GeneticRim.CompUseEffect_ApplyHediff</compClass>
 		<genes>GR_BoomalopeHybridGenes</genes>
 		
       </li>
@@ -108,8 +108,8 @@
 		<useDuration>600</useDuration>
 
       </li>
-      <li Class="NewAnimalSubproducts.CompProperties_HybridGenesUseEffect">
-        <compClass>NewAnimalSubproducts.CompUseEffect_ApplyHediff</compClass>
+      <li Class="GeneticRim.CompProperties_HybridGenesUseEffect">
+        <compClass>GeneticRim.CompUseEffect_ApplyHediff</compClass>
 		<genes>GR_CatHybridGenes</genes>
 		
       </li>
@@ -141,8 +141,8 @@
 		<useDuration>600</useDuration>
 
       </li>
-      <li Class="NewAnimalSubproducts.CompProperties_HybridGenesUseEffect">
-        <compClass>NewAnimalSubproducts.CompUseEffect_ApplyHediff</compClass>
+      <li Class="GeneticRim.CompProperties_HybridGenesUseEffect">
+        <compClass>GeneticRim.CompUseEffect_ApplyHediff</compClass>
 		<genes>GR_ChickenHybridGenes</genes>
 		
       </li>
@@ -174,8 +174,8 @@
 		<useDuration>600</useDuration>
 
       </li>
-      <li Class="NewAnimalSubproducts.CompProperties_HybridGenesUseEffect">
-        <compClass>NewAnimalSubproducts.CompUseEffect_ApplyHediff</compClass>
+      <li Class="GeneticRim.CompProperties_HybridGenesUseEffect">
+        <compClass>GeneticRim.CompUseEffect_ApplyHediff</compClass>
 		<genes>GR_MuffaloHybridGenes</genes>
 		
       </li>
@@ -207,8 +207,8 @@
 		<useDuration>600</useDuration>
 
       </li>
-      <li Class="NewAnimalSubproducts.CompProperties_HybridGenesUseEffect">
-        <compClass>NewAnimalSubproducts.CompUseEffect_ApplyHediff</compClass>
+      <li Class="GeneticRim.CompProperties_HybridGenesUseEffect">
+        <compClass>GeneticRim.CompUseEffect_ApplyHediff</compClass>
 		<genes>GR_RodentHybridGenes</genes>
 		
       </li>
@@ -240,8 +240,8 @@
 		<useDuration>600</useDuration>
 
       </li>
-      <li Class="NewAnimalSubproducts.CompProperties_HybridGenesUseEffect">
-        <compClass>NewAnimalSubproducts.CompUseEffect_ApplyHediff</compClass>
+      <li Class="GeneticRim.CompProperties_HybridGenesUseEffect">
+        <compClass>GeneticRim.CompUseEffect_ApplyHediff</compClass>
 		<genes>GR_WolfHybridGenes</genes>
 		
       </li>
@@ -273,8 +273,8 @@
 		<useDuration>600</useDuration>
 
       </li>
-      <li Class="NewAnimalSubproducts.CompProperties_HybridGenesUseEffect">
-        <compClass>NewAnimalSubproducts.CompUseEffect_ApplyHediff</compClass>
+      <li Class="GeneticRim.CompProperties_HybridGenesUseEffect">
+        <compClass>GeneticRim.CompUseEffect_ApplyHediff</compClass>
 		<genes>GR_ReptileHybridGenes</genes>
 		
       </li>
@@ -306,8 +306,8 @@
 		<useDuration>600</useDuration>
 
       </li>
-      <li Class="NewAnimalSubproducts.CompProperties_HybridGenesUseEffect">
-        <compClass>NewAnimalSubproducts.CompUseEffect_ApplyHediff</compClass>
+      <li Class="GeneticRim.CompProperties_HybridGenesUseEffect">
+        <compClass>GeneticRim.CompUseEffect_ApplyHediff</compClass>
 		<genes>GR_InsectoidHybridGenes</genes>
 		
       </li>
@@ -339,8 +339,8 @@
 		<useDuration>600</useDuration>
 
       </li>
-      <li Class="NewAnimalSubproducts.CompProperties_HybridGenesUseEffect">
-        <compClass>NewAnimalSubproducts.CompUseEffect_ApplyHediff</compClass>
+      <li Class="GeneticRim.CompProperties_HybridGenesUseEffect">
+        <compClass>GeneticRim.CompUseEffect_ApplyHediff</compClass>
 		<genes>GR_ThrumboHybridGenes</genes>
 		
       </li>
@@ -372,8 +372,8 @@
 		<useDuration>600</useDuration>
 
       </li>
-      <li Class="NewAnimalSubproducts.CompProperties_HybridGenesUseEffect">
-        <compClass>NewAnimalSubproducts.CompUseEffect_ApplyHediff</compClass>
+      <li Class="GeneticRim.CompProperties_HybridGenesUseEffect">
+        <compClass>GeneticRim.CompUseEffect_ApplyHediff</compClass>
 		<genes>GR_MechanoidHybridGenes</genes>
 		
       </li>

@@ -4,7 +4,7 @@
 	<!-- Bear - Thrumbo -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Thrumbear</defName>
-		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		<thingClass>GeneticRim.AlternateHybridSkins</thingClass>
 		<label>thrumbear</label>
 		<description>This gargantuan beast is the result of splicing bear genes in a standard thrumbo. As strong and resilient as it is easy to anger, a thrumbear attack is something to be VERY scared of.\n\nUseful abilities: Produces very high quality wool.</description>
 		<statBases>
@@ -68,7 +68,7 @@
 				<shearIntervalDays>25</shearIntervalDays>
 				<woolAmount>150</woolAmount>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<rage>true</rage>
 				<stampede>true</stampede>
 			</li>
@@ -238,14 +238,14 @@
 				<chanceFactor>0.2</chanceFactor>      </li>
 		</tools>
 		<comps>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>Chemfuel</resourceDef>
 				<gatheringIntervalDays>2</gatheringIntervalDays>
 				<resourceAmount>80</resourceAmount>
 				<customResourceString>ChemfuelProd</customResourceString>
 
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<explodable>true</explodable>
 				<stampede>true</stampede>
 			</li>
@@ -253,7 +253,7 @@
 		<race>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithHoovesAndHorn</body>
-			<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_GargantuanExplosion</deathActionWorkerClass>
+			<deathActionWorkerClass>GeneticRim.DeathActionWorker_GargantuanExplosion</deathActionWorkerClass>
 			<executionRange>16</executionRange>
 			<herdAnimal>true</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
@@ -359,7 +359,7 @@
 	<!-- Chicken - Thrumbo -->  
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Thrumbochicken</defName>
-		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		<thingClass>GeneticRim.AlternateHybridSkins</thingClass>
 		<label>thrumbochicken</label>
 		<description>The thrumbochicken is a thrumbo that has been spliced with avian genes. Although not very ravenous, these are lightning fast predators that could hunt any other creature with ease. These animals lay enormous eggs!\n\nUseful abilities: Biggest eggs of any animal.</description>
 		<statBases>
@@ -409,7 +409,7 @@
 				<eggLayIntervalDays>5</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<chickenRimPox>true</chickenRimPox>
 				<stampede>true</stampede>
 			</li>
@@ -592,7 +592,7 @@
 				<shearIntervalDays>25</shearIntervalDays>
 				<woolAmount>150</woolAmount>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<carrymore>true</carrymore>
 				<stampede>true</stampede>
 			</li>
@@ -763,7 +763,7 @@
 				<chanceFactor>0.2</chanceFactor>      </li>
 		</tools>
 		<comps>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<adrenalineburst>true</adrenalineburst>
 				<stampede>true</stampede>
 			</li>
@@ -937,11 +937,11 @@
 				<chanceFactor>0.2</chanceFactor>      </li>
 		</tools>
 		<comps>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<catreflexes>true</catreflexes>
 				<stampede>true</stampede>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+			<li Class="GeneticRim.CompProperties_InitialHediff">
 				<hediffname>GR_MeleeDodge</hediffname>
 				<hediffseverity>1</hediffseverity>
 			</li>

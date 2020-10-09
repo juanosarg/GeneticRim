@@ -1,0 +1,7 @@
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\1.2\Assemblies\GeneticRim.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\1.2\Source\NewHatcher\NewHatcher\obj\Debug\GeneticRim.csprojAssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\1.2\Source\NewHatcher\NewHatcher\obj\Debug\GeneticRim.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\1.2\Source\NewHatcher\NewHatcher\obj\Debug\GeneticRim.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\1.2\Source\GeneticRim\GeneticRim\obj\Debug\GeneticRim.csprojAssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\1.2\Source\GeneticRim\GeneticRim\obj\Debug\GeneticRim.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\GeneticRim\1.2\Source\GeneticRim\GeneticRim\obj\Debug\GeneticRim.dll

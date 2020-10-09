@@ -4,7 +4,7 @@
 	<!-- Reptile - Bear -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Bearodile</defName>
-		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		<thingClass>GeneticRim.AlternateHybridSkins</thingClass>
 		<label>bearodile</label>
 		<description>A reptile / bear hybrid. The reptilian genes used to generate this hybrid have given it some ancient reptilian characteristics, with an appearance similar to reptiles in the Permian Period on Earth. It has also developed a venomous bite.\n\nUseful abilities: Highly intelligent and venomous. Excellent base defender if properly trained.</description>
 		<statBases>
@@ -13,7 +13,7 @@
 			<MarketValue>400</MarketValue>
 		</statBases>
 		<comps>		
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<rage>true</rage>
 				<poisonouscloud>true</poisonouscloud>
 			</li>
@@ -198,7 +198,7 @@
 			<MarketValue>400</MarketValue>
 		</statBases>
 		<comps>		
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<poisonouscloud>true</poisonouscloud>
 				<explodable>true</explodable>
 			</li>
@@ -238,7 +238,7 @@
 
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>Snake</body>
-			<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_ToxicExplosion</deathActionWorkerClass>
+			<deathActionWorkerClass>GeneticRim.DeathActionWorker_ToxicExplosion</deathActionWorkerClass>
 			<executionRange>6</executionRange>
 			<baseBodySize>1.5</baseBodySize>
 			<baseHungerRate>1</baseHungerRate>
@@ -339,7 +339,7 @@
 	<!-- Reptile - Chicken -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Chickenlizard</defName>
-		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		<thingClass>GeneticRim.AlternateHybridSkins</thingClass>
 		<label>chickenlizard</label>
 		<description>A reptile / chicken hybrid. This reptilian chicken has a slightly venomous bite. Not very powerful, but considering how fast chickens breed, a horde of chickenlizards might be enough to overpower a much bigger creature with their venom.\n\nUseful abilities: Small, fast breeding, venomous chickens.</description>
 		<statBases>
@@ -385,7 +385,7 @@
 				<eggLayIntervalDays>1.2</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<poisonouscloud>true</poisonouscloud>
 				<chickenRimPox>true</chickenRimPox>
 			</li>
@@ -515,14 +515,14 @@
 
 		<comps>
 
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>GR_PoisonAmpoule</resourceDef>
 				<gatheringIntervalDays>5</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
 				<customResourceString>PoisonGrowth</customResourceString>
 
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<poisonouscloud>true</poisonouscloud>
 				<carrymore>true</carrymore>
 			</li>
@@ -678,20 +678,20 @@
 					<max>3</max>
 				</eggCountRange>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>GR_SpidersnakeSkin</resourceDef>
 				<gatheringIntervalDays>5</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
 				<customResourceString>SkinShed</customResourceString>
 
 			</li>
-			<!--<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<!--<li Class="GeneticRim.CompProperties_AnimalProduct">
 			<resourceDef>GR_SpidersnakeSilk</resourceDef>
 			<gatheringIntervalDays>1</gatheringIntervalDays>
 			<resourceAmount>40</resourceAmount>
 			<customResourceString>SilkGrowth</customResourceString>
       </li>-->
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<poisonouscloud>true</poisonouscloud>
 				<insectclouds>true</insectclouds>
 			</li>
@@ -872,14 +872,14 @@
 
 		<comps>
 
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>GR_VirulentPoison</resourceDef>
 				<gatheringIntervalDays>10</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
 				<customResourceString>PoisonGrowth</customResourceString>
 
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<poisonouscloud>true</poisonouscloud>
 				<stampede>true</stampede>
 			</li>
@@ -1068,14 +1068,14 @@
 
 		<comps>
 
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>GR_WolfsnakeSkin</resourceDef>
 				<gatheringIntervalDays>25</gatheringIntervalDays>
 				<resourceAmount>90</resourceAmount>
 				<customResourceString>SkinShed</customResourceString>
 
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<poisonouscloud>true</poisonouscloud>
 				<adrenalineburst>true</adrenalineburst>
 			</li>
@@ -1202,11 +1202,11 @@
 			<MarketValue>400</MarketValue>
 		</statBases>
 		<comps>		
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<poisonouscloud>true</poisonouscloud>
 				<catreflexes>true</catreflexes>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+			<li Class="GeneticRim.CompProperties_InitialHediff">
 				<hediffname>GR_MeleeDodge</hediffname>
 				<hediffseverity>1</hediffseverity>
 			</li>

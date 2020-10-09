@@ -47,7 +47,7 @@
 			</li>
 		</stages>
 		<comps>
-			<li Class="NewHatcher.HediffCompProperties_GenericHatcher">
+			<li Class="GeneticRim.HediffCompProperties_GenericHatcher">
 				<hatcherDaystoHatch>.4</hatcherDaystoHatch>
 				<thingToHatch>Chemfuel</thingToHatch>
 				<amount>2</amount>

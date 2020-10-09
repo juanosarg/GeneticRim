@@ -118,7 +118,7 @@
 			</li>
 		</stages>
 		<comps>
-			<li Class="NewHatcher.HediffCompProperties_Hatcher">
+			<li Class="GeneticRim.HediffCompProperties_Hatcher">
 				<hatcherDaystoHatch>.5</hatcherDaystoHatch>
 			</li>
 		</comps>
@@ -138,7 +138,7 @@
 			</li>
 		</stages>
 		<comps>
-			<li Class="NewHatcher.HediffCompProperties_Milker">
+			<li Class="GeneticRim.HediffCompProperties_Milker">
 				<hatcherDaystoHatch>.5</hatcherDaystoHatch>
 				<hatcherYield>1</hatcherYield>
 			</li>
@@ -190,7 +190,7 @@
 		<label>humanoid implant: boomalope nodules</label>
 		<hediffClass>Hediff_Implant</hediffClass>
 		<comps>
-			<li Class="NewHatcher.HediffCompProperties_Exploder">
+			<li Class="GeneticRim.HediffCompProperties_Exploder">
 				<explosionForce>6</explosionForce>
 			</li>
 		</comps>

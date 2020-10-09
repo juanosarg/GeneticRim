@@ -24,7 +24,7 @@
     </thingCategories>
     <tickerType>Normal</tickerType>
     <comps>
-      <li Class="ExplosionTypes.CompProperties_Exploder">
+      <li Class="GeneticRim.CompProperties_Exploder">
         <wickTimeSeconds>10</wickTimeSeconds>
 		<wickTimeVariance>10</wickTimeVariance>
 		<explosionForce>5</explosionForce>

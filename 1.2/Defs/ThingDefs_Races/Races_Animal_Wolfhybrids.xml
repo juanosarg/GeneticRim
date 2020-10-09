@@ -74,7 +74,7 @@
 				<chanceFactor>0.2</chanceFactor>      </li>
 		</tools>
 		<comps>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<adrenalineburst>true</adrenalineburst>
 				<rage>true</rage>
 			</li>
@@ -265,7 +265,7 @@
 				<chanceFactor>0.2</chanceFactor>      </li>
 		</tools>
 		<comps>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>Chemfuel</resourceDef>
 				<gatheringIntervalDays>2</gatheringIntervalDays>
 				<resourceAmount>17</resourceAmount>
@@ -273,7 +273,7 @@
 
 			</li>
 
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<adrenalineburst>true</adrenalineburst>
 				<explodable>true</explodable>
 			</li>
@@ -281,7 +281,7 @@
 		<race>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
-			<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_EMPExplosion</deathActionWorkerClass>
+			<deathActionWorkerClass>GeneticRim.DeathActionWorker_EMPExplosion</deathActionWorkerClass>
 			<executionRange>6</executionRange>
 			<predator>true</predator>
 			<fleshType>GR_Normal</fleshType>
@@ -467,14 +467,14 @@
 				<eggLayIntervalDays>5</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>GR_WolfchickenFeathers</resourceDef>
 				<gatheringIntervalDays>4</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
 				<customResourceString>FeatherGrowth</customResourceString>
 
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<adrenalineburst>true</adrenalineburst>
 				<chickenRimPox>true</chickenRimPox>
 			</li>
@@ -654,7 +654,7 @@
 				<shearIntervalDays>3</shearIntervalDays>
 				<woolAmount>20</woolAmount>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<adrenalineburst>true</adrenalineburst>
 				<carrymore>true</carrymore>
 			</li>
@@ -774,7 +774,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Wolfbeaver</defName>
 		<label>wolfbeaver</label>
-		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		<thingClass>GeneticRim.AlternateHybridSkins</thingClass>
 		<description>A Wolf / Beaver hybrid. This fast breeding predator can be a drain on your tree reserves, unless you provide it with some fresh meat.\n\nUseful abilities: Fast breeding.</description>
 		<statBases>
 			<MoveSpeed>7.5</MoveSpeed>
@@ -782,7 +782,7 @@
 			<MarketValue>275</MarketValue>
 		</statBases>
 		<comps>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<adrenalineburst>true</adrenalineburst>
 				<burrowing>true</burrowing>
 			</li>
@@ -1027,11 +1027,11 @@
 				<chanceFactor>0.2</chanceFactor>      </li>
 		</tools>
 		<comps>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<adrenalineburst>true</adrenalineburst>
 				<catreflexes>true</catreflexes>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+			<li Class="GeneticRim.CompProperties_InitialHediff">
 				<hediffname>GR_MeleeDodge</hediffname>
 				<hediffseverity>1</hediffseverity>
 			</li>

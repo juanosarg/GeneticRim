@@ -82,7 +82,7 @@
     <label>boomalope / bear incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_BearalopeIncubator</hatcherItem>
 		<hatcherItemTwo>GR_BoomabearIncubator</hatcherItemTwo>
@@ -95,7 +95,7 @@
     <label>boomalope / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Boomalope / Bear or Bear / Boomalope hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Bearalope</hatcherPawn>
       </li>
@@ -107,7 +107,7 @@
     <label>boomalope / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Boomalope / Bear or Bear / Boomalope hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Boomabear</hatcherPawn>
       </li>
@@ -120,7 +120,7 @@
     <label>chicken / bear incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_ChickenBearIncubator</hatcherItem>
 		<hatcherItemTwo>GR_BearChickenIncubator</hatcherItemTwo>
@@ -133,7 +133,7 @@
     <label>chicken / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Chicken / Bear or Bear / Chicken hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Chickenbear</hatcherPawn>
       </li>
@@ -145,7 +145,7 @@
     <label>chicken / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Chicken / Bear or Bear / Chicken hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_BearchickenKind</hatcherPawn>
       </li>
@@ -158,7 +158,7 @@
     <label>muffalo / bear incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_BearMuffaloIncubator</hatcherItem>
 		<hatcherItemTwo>GR_MuffaloBearIncubator</hatcherItemTwo>
@@ -171,7 +171,7 @@
     <label>muffalo / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Muffalo / Bear or Bear / Muffalo hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Bearffalo</hatcherPawn>
       </li>
@@ -183,7 +183,7 @@
     <label>muffalo / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Muffalo / Bear or Bear / Muffalo hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Muffalobear</hatcherPawn>
       </li>
@@ -196,7 +196,7 @@
     <label>wolf / bear incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_BearWolfIncubator</hatcherItem>
 		<hatcherItemTwo>GR_WolfBearIncubator</hatcherItemTwo>
@@ -209,7 +209,7 @@
     <label>wolf / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Wolf / Bear or Bear / Wolf hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Bearwolf</hatcherPawn>
       </li>
@@ -221,7 +221,7 @@
     <label>wolf / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Wolf / Bear or Bear / Wolf hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Wolfbear</hatcherPawn>
       </li>
@@ -234,7 +234,7 @@
     <label>cat / bear incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_CatBearIncubator</hatcherItem>
 		<hatcherItemTwo>GR_BearCatIncubator</hatcherItemTwo>
@@ -247,7 +247,7 @@
     <label>cat / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Cat / Bear or Bear / Cat hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Catbear</hatcherPawn>
       </li>
@@ -259,7 +259,7 @@
     <label>cat / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Cat / Bear or Bear / Cat hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Bearcat</hatcherPawn>
       </li>
@@ -272,7 +272,7 @@
     <label>boomalope / chicken incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_BoomalopeChickenIncubator</hatcherItem>
 		<hatcherItemTwo>GR_ChickenBoomalopeIncubator</hatcherItemTwo>
@@ -285,7 +285,7 @@
     <label>boomalope / chicken incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Chicken / Boomalope or Boomalope / Chicken hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Boomachicken</hatcherPawn>
       </li>
@@ -297,7 +297,7 @@
     <label>boomalope / chicken incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Chicken / Boomalope or Boomalope / Chicken hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Chickenlope</hatcherPawn>
       </li>
@@ -310,7 +310,7 @@
     <label>boomalope / muffalo incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_BoomalopeMuffaloIncubator</hatcherItem>
 		<hatcherItemTwo>GR_MuffaloBoomalopeIncubator</hatcherItemTwo>
@@ -323,7 +323,7 @@
     <label>boomalope / muffalo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Muffalo / Boomalope or Boomalope / Muffalo hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Boomffalo</hatcherPawn>
       </li>
@@ -335,7 +335,7 @@
     <label>boomalope / muffalo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Muffalo / Boomalope or Boomalope / Muffalo hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Muffalope</hatcherPawn>
       </li>
@@ -348,7 +348,7 @@
     <label>boomalope / wolf incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_BoomalopeWolfIncubator</hatcherItem>
 		<hatcherItemTwo>GR_WolfBoomalopeIncubator</hatcherItemTwo>
@@ -361,7 +361,7 @@
     <label>boomalope / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Wolf / Boomalope or Boomalope / Wolf hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Boomwolf</hatcherPawn>
       </li>
@@ -373,7 +373,7 @@
     <label>boomalope / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Wolf / Boomalope or Boomalope / Wolf hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Wolfalope</hatcherPawn>
       </li>
@@ -386,7 +386,7 @@
     <label>boomalope / cat incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_BoomalopeCatIncubator</hatcherItem>
 		<hatcherItemTwo>GR_CatBoomalopeIncubator</hatcherItemTwo>
@@ -399,7 +399,7 @@
     <label>boomalope / cat incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Cat / Boomalope or Boomalope / Cat hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Boomacat</hatcherPawn>
       </li>
@@ -411,7 +411,7 @@
     <label>boomalope / cat incubator</label>
      <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Cat / Boomalope or Boomalope / Cat hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Catalope</hatcherPawn>
       </li>
@@ -424,7 +424,7 @@
     <label>chicken / muffalo incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_ChickenMuffaloIncubator</hatcherItem>
 		<hatcherItemTwo>GR_MuffaloChickenIncubator</hatcherItemTwo>
@@ -437,7 +437,7 @@
     <label>chicken / muffalo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Chicken / Muffalo or Muffalo / Chicken hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Chickenffalo</hatcherPawn>
       </li>
@@ -449,7 +449,7 @@
     <label>chicken / muffalo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Chicken / Muffalo or Muffalo / Chicken hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Muffalochicken</hatcherPawn>
       </li>
@@ -462,7 +462,7 @@
     <label>chicken / wolf incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_ChickenWolfIncubator</hatcherItem>
 		<hatcherItemTwo>GR_WolfChickenIncubator</hatcherItemTwo>
@@ -475,7 +475,7 @@
     <label>chicken / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Chicken / Wolf or Wolf / Chicken hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Chickenwolf</hatcherPawn>
       </li>
@@ -487,7 +487,7 @@
     <label>chicken / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Chicken / Wolf or Wolf / Chicken hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Wolfchicken</hatcherPawn>
       </li>
@@ -500,7 +500,7 @@
     <label>chicken / cat incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_ChickenCatIncubator</hatcherItem>
 		<hatcherItemTwo>GR_CatChickenIncubator</hatcherItemTwo>
@@ -513,7 +513,7 @@
     <label>chicken / cat incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Chicken / Cat or Cat / Chicken hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Chickencat</hatcherPawn>
       </li>
@@ -525,7 +525,7 @@
     <label>chicken / cat incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Chicken / Cat or Cat / Chicken hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Catchicken</hatcherPawn>
       </li>
@@ -538,7 +538,7 @@
     <label>muffalo / wolf incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_MuffaloWolfIncubator</hatcherItem>
 		<hatcherItemTwo>GR_WolfMuffaloIncubator</hatcherItemTwo>
@@ -551,7 +551,7 @@
     <label>muffalo / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Muffalo / Wolf or Wolf / Muffalo hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Muffalowolf</hatcherPawn>
       </li>
@@ -563,7 +563,7 @@
     <label>muffalo / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Muffalo / Wolf or Wolf / Muffalo hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Wolffalo</hatcherPawn>
       </li>
@@ -576,7 +576,7 @@
     <label>muffalo / cat incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_MuffaloCatIncubator</hatcherItem>
 		<hatcherItemTwo>GR_CatMuffaloIncubator</hatcherItemTwo>
@@ -589,7 +589,7 @@
     <label>muffalo / cat incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Muffalo / Cat or Cat / Muffalo hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Muffalocat</hatcherPawn>
       </li>
@@ -601,7 +601,7 @@
     <label>muffalo / cat incubator</label>
      <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Muffalo / Cat or Cat / Muffalo hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Catfallo</hatcherPawn>
       </li>
@@ -615,7 +615,7 @@
     <label>bear / rodent incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_BearmoleIncubator</hatcherItem>
 		<hatcherItemTwo>GR_MolebearIncubator</hatcherItemTwo>
@@ -628,7 +628,7 @@
     <label>bear / rodent incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Bear / Rodent or Rodent / Bear hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Bearmole</hatcherPawn>
       </li>
@@ -640,7 +640,7 @@
     <label>bear / rodent incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Bear / Rodent or Rodent / Bear hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Molebear</hatcherPawn>
       </li>
@@ -654,7 +654,7 @@
     <label>cat / rodent incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_CatRodentIncubator</hatcherItem>
 		<hatcherItemTwo>GR_RodentCatIncubator</hatcherItemTwo>
@@ -667,7 +667,7 @@
     <label>cat / rodent incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Cat / Rodent or Rodent / Cat hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Catrabbit</hatcherPawn>
       </li>
@@ -679,7 +679,7 @@
     <label>cat / rodent incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Cat / Rodent or Rodent / Cat hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Rabbitcat</hatcherPawn>
       </li>
@@ -693,7 +693,7 @@
     <label>boomalope / rodent incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_BoomsquirrelIncubator</hatcherItem>
 		<hatcherItemTwo>GR_SquirralopeIncubator</hatcherItemTwo>
@@ -706,7 +706,7 @@
     <label>boomalope / rodent incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Boomalope / Rodent or Rodent / Boomalope hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Boomsquirrel</hatcherPawn>
       </li>
@@ -718,7 +718,7 @@
     <label>boomalope / rodent incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Boomalope / Rodent or Rodent / Boomalope hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Squirralope</hatcherPawn>
       </li>
@@ -732,7 +732,7 @@
     <label>chicken / leporid incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_ChickenrabbitIncubator</hatcherItem>
 		<hatcherItemTwo>GR_RabbitchickenIncubator</hatcherItemTwo>
@@ -745,7 +745,7 @@
     <label>chicken / leporid incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Chicken / Leporid or Leporid / Chicken hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Chickenrabbit</hatcherPawn>
       </li>
@@ -757,7 +757,7 @@
     <label>chicken / leporid incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Chicken / Leporid or Leporid / Chicken hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Rabbitchicken</hatcherPawn>
       </li>
@@ -771,7 +771,7 @@
     <label>muffalo / rodent incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_MuffaloratIncubator</hatcherItem>
 		<hatcherItemTwo>GR_RatfalloIncubator</hatcherItemTwo>
@@ -784,7 +784,7 @@
     <label>muffalo / rodent incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Muffalo / Rodent or Rodent / Muffalo hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Muffalorat</hatcherPawn>
       </li>
@@ -796,7 +796,7 @@
     <label>muffalo / rodent incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Muffalo / Rodent or Rodent / Muffalo hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Ratfallo</hatcherPawn>
       </li>
@@ -810,7 +810,7 @@
     <label>wolf / rodent incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_WolfbeaverIncubator</hatcherItem>
 		<hatcherItemTwo>GR_BeaverwolfIncubator</hatcherItemTwo>
@@ -823,7 +823,7 @@
     <label>wolf / rodent incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Wolf / Rodent or Rodent / Wolf hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Wolfbeaver</hatcherPawn>
       </li>
@@ -835,7 +835,7 @@
     <label>wolf / rodent incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Wolf / Rodent or Rodent / Wolf hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Beaverwolf</hatcherPawn>
       </li>
@@ -849,7 +849,7 @@
     <label>wolf / cat incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_HatcherRandomizer">
+      <li Class="GeneticRim.CompProperties_HatcherRandomizer">
         
         <hatcherItem>GR_WolfcatIncubator</hatcherItem>
 		<hatcherItemTwo>GR_CatwolfIncubator</hatcherItemTwo>
@@ -862,7 +862,7 @@
     <label>wolf / cat incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Wolf / Cat or Cat / Wolf hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Wolfcat</hatcherPawn>
       </li>
@@ -874,7 +874,7 @@
     <label>wolf / cat incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Wolf / Cat or Cat / Wolf hybrid</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Catwolf</hatcherPawn>
       </li>
@@ -889,7 +889,7 @@
     <label>thrumbo / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Thrumbear</hatcherPawn>
       </li>
@@ -901,7 +901,7 @@
     <label>thrumbo / muffalo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Thrumffalo</hatcherPawn>
       </li>
@@ -913,7 +913,7 @@
     <label>thrumbo / boomalope incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Thrumbalope</hatcherPawn>
       </li>
@@ -925,7 +925,7 @@
     <label>thrumbo / chicken incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Thrumbochicken</hatcherPawn>
       </li>
@@ -937,7 +937,7 @@
     <label>thrumbo / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Thrumwolf</hatcherPawn>
       </li>
@@ -949,7 +949,7 @@
     <label>thrumbo / rodent incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Thrumborat</hatcherPawn>
       </li>
@@ -961,7 +961,7 @@
     <label>thrumbo / cat incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Thrumbocat</hatcherPawn>
       </li>
@@ -976,7 +976,7 @@
     <label>insectoid / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Bearscarab</hatcherPawn>
       </li>
@@ -988,7 +988,7 @@
     <label>insectoid / muffalo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Muffalopede</hatcherPawn>
       </li>
@@ -1000,7 +1000,7 @@
     <label>insectoid / boomalope incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Boombeetle</hatcherPawn>
       </li>
@@ -1012,7 +1012,7 @@
     <label>insectoid / chicken incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Chickenspider</hatcherPawn>
       </li>
@@ -1024,7 +1024,7 @@
     <label>insectoid / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Wolfscarab</hatcherPawn>
       </li>
@@ -1036,7 +1036,7 @@
     <label>insectoid / cat incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Spidercat</hatcherPawn>
       </li>
@@ -1048,7 +1048,7 @@
     <label>insectoid / thrumbo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Thrumbospider</hatcherPawn>
       </li>
@@ -1063,7 +1063,7 @@
     <label>reptile / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Bearodile</hatcherPawn>
       </li>
@@ -1074,7 +1074,7 @@
     <label>reptile / boomalope incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Boomsnake</hatcherPawn>
       </li>
@@ -1085,7 +1085,7 @@
     <label>reptile / chicken incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Chickenlizard</hatcherPawn>
       </li>
@@ -1096,7 +1096,7 @@
     <label>reptile / muffalo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Muffalokomodo</hatcherPawn>
       </li>
@@ -1107,7 +1107,7 @@
     <label>reptile / insectoid incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Spidersnake</hatcherPawn>
       </li>
@@ -1118,7 +1118,7 @@
     <label>reptile / thrumbo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Thrumbolizard</hatcherPawn>
       </li>
@@ -1129,7 +1129,7 @@
     <label>reptile / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Wolfsnake</hatcherPawn>
       </li>
@@ -1140,7 +1140,7 @@
     <label>reptile / cat incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Snakecat</hatcherPawn>
       </li>
@@ -1155,7 +1155,7 @@
     <label>mechanoid / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Mechabear</hatcherPawn>
       </li>
@@ -1167,7 +1167,7 @@
     <label>mechanoid / muffalo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Mechamuffalo</hatcherPawn>
       </li>
@@ -1179,7 +1179,7 @@
     <label>mechanoid / boomalope incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Mechalope</hatcherPawn>
       </li>
@@ -1191,7 +1191,7 @@
     <label>mechanoid / chicken incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Mechachicken</hatcherPawn>
       </li>
@@ -1203,7 +1203,7 @@
     <label>mechanoid / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Mechawolf</hatcherPawn>
       </li>
@@ -1215,7 +1215,7 @@
     <label>mechanoid / rodent incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Mecharat</hatcherPawn>
       </li>
@@ -1227,7 +1227,7 @@
     <label>mechanoid / insectoid incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Mechaspider</hatcherPawn>
       </li>
@@ -1239,7 +1239,7 @@
     <label>mechanoid / reptilian incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Mechaturtle</hatcherPawn>
       </li>
@@ -1251,7 +1251,7 @@
     <label>mechanoid / cat incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Mechacat</hatcherPawn>
       </li>
@@ -1263,7 +1263,7 @@
     <label>mechanoid / thrumbo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
-      <li Class="NewHatcher.CompProperties_Incubator">
+      <li Class="GeneticRim.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Mechathrumbo</hatcherPawn>
       </li>

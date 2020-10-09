@@ -59,14 +59,14 @@
 		</verbs>
 
 		<comps>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>ComponentIndustrial</resourceDef>
 				<gatheringIntervalDays>5</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
 				<customResourceString>ComponentIndustrialDesc</customResourceString>
 
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<rage>true</rage>
 				<mechablast>true</mechablast>
 			</li>
@@ -195,7 +195,7 @@
 		</verbs>
 
 		<comps>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>ComponentIndustrial</resourceDef>
 				<gatheringIntervalDays>5</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
@@ -208,7 +208,7 @@
 				<milkAmount>20</milkAmount>
 				<milkFemaleOnly>false</milkFemaleOnly>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<explodable>true</explodable>
 				<mechablast>true</mechablast>
 			</li>
@@ -216,7 +216,7 @@
 		<race>
 			<fleshType>GR_Mechanoid</fleshType>
 
-			<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_BiggerExplosion</deathActionWorkerClass>
+			<deathActionWorkerClass>GeneticRim.DeathActionWorker_BiggerExplosion</deathActionWorkerClass>
 			<executionRange>6</executionRange>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithHoovesAndHump</body>
@@ -341,7 +341,7 @@
 		</verbs>
 
 		<comps>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>ComponentIndustrial</resourceDef>
 				<gatheringIntervalDays>10</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
@@ -356,7 +356,7 @@
 				<eggCountRange>1</eggCountRange>
 				<eggLayFemaleOnly>false</eggLayFemaleOnly>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<chickenRimPox>true</chickenRimPox>
 				<mechablast>true</mechablast>
 			</li>
@@ -431,7 +431,7 @@
 	<!-- Mechanoid - Insectoid -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Mechaspider</defName>
-		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		<thingClass>GeneticRim.AlternateHybridSkins</thingClass>
 		<label>mechaspider</label>
 		<description>This cybernetic organism has traits from both its insectoid and mechanoid origins. The mechaspider is armed with a powerful twin-coiled laser machine gun, perfect to obliterate enemies in a rain of laser fire. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components.\n\nUseful abilities: As long as a tamer is near to direct it, the mechaspider can rain death upon enemies. Like all mechanoid hybrids it produces industrial components every couple days.</description>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -486,14 +486,14 @@
 		</verbs>
 
 		<comps>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>ComponentIndustrial</resourceDef>
 				<gatheringIntervalDays>5</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
 				<customResourceString>ComponentIndustrialDesc</customResourceString>
 
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<insectclouds>true</insectclouds>
 				<mechablast>true</mechablast>
 			</li>
@@ -568,7 +568,7 @@
 	<!-- Mechanoid - Muffalo -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Mechamuffalo</defName>
-		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		<thingClass>GeneticRim.AlternateHybridSkins</thingClass>
 		<label>mecha-muffalo</label>
 		<description>This hulking cybernetic organism has been reinforced with an adaptive plasteel mesh, enabling it to carry an incredible amount of stuff. The mecha-muffalo is the perfect pack animal, but it is quite useless in an offensive role. Defensively, however, it is armed with a smoke cannon that it can use to cover the battlefield in a dense cloud of dust. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components. (due to game limitations, the Mechamuffalo consumes around 0.01 nutrition, enough to avoid messing up caravan calculations)\n\nUseful abilities: As long as a tamer is near to direct it, the mecha-muffalo can use its smoke cannon to scramble enemy sight. Like all mechanoid hybrids it produces industrial components every couple days. It also produces a weird metallic wool, and metallic tasting milk.</description>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -624,7 +624,7 @@
 		</verbs>
 
 		<comps>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>ComponentIndustrial</resourceDef>
 				<gatheringIntervalDays>5</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
@@ -643,7 +643,7 @@
 				<shearIntervalDays>25</shearIntervalDays>
 				<woolAmount>50</woolAmount>
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<carrymore>true</carrymore>
 				<mechablast>true</mechablast>
 			</li>
@@ -774,14 +774,14 @@
 		</verbs>
 
 		<comps>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>ComponentIndustrial</resourceDef>
 				<gatheringIntervalDays>10</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
 				<customResourceString>ComponentIndustrialDesc</customResourceString>
 
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<burrowing>true</burrowing>
 				<mechablast>true</mechablast>
 			</li>
@@ -856,7 +856,7 @@
 	<!-- Mechanoid - Reptile -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Mechaturtle</defName>
-		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		<thingClass>GeneticRim.AlternateHybridSkins</thingClass>
 		<label>mechaturtle</label>
 		<description>This cybernetic beast is heavily armoured with a plasteel-encased biomechanical shell. It is armed with a poison spitting cannon. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components.\n\nUseful abilities: As long as a tamer is near to direct it, the mechaturtle can hurl poison projectiles to the enemy. Like all mechanoid hybrids it produces industrial components every couple days. It is, of course, quite slow.</description>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -911,14 +911,14 @@
 		</verbs>
 
 		<comps>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>ComponentIndustrial</resourceDef>
 				<gatheringIntervalDays>5</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
 				<customResourceString>ComponentIndustrialDesc</customResourceString>
 
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<poisonouscloud>true</poisonouscloud>
 				<mechablast>true</mechablast>
 			</li>
@@ -993,7 +993,7 @@
 	<!-- Mechanoid - Wolf -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Mechawolf</defName>
-		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		<thingClass>GeneticRim.AlternateHybridSkins</thingClass>
 		<label>mechawolf</label>
 		<description>This cybernetic beast has been augmented with a powerful synthetic structure capable of generating waves of cryogenic liquid. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components.\n\nUseful abilities: As long as a tamer is near to direct it, the mechawolf can launch cryo projectiles that freeze the ground (and enemies!) in contact. Like all mechanoid hybrids it produces industrial components every couple days.</description>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -1048,14 +1048,14 @@
 		</verbs>
 
 		<comps>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>ComponentIndustrial</resourceDef>
 				<gatheringIntervalDays>5</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
 				<customResourceString>ComponentIndustrialDesc</customResourceString>
 
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<adrenalineburst>true</adrenalineburst>
 				<mechablast>true</mechablast>
 			</li>
@@ -1131,7 +1131,7 @@
 	<!-- Mechanoid - Thrumbo -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Mechathrumbo</defName>
-		<thingClass>NewAnimalSubproducts.AlternateHybridSkins</thingClass>
+		<thingClass>GeneticRim.AlternateHybridSkins</thingClass>
 		<label>mechathrumbo</label>
 		<description>This hulking cybernetic behemoth is why you don't need tanks in the Rim. Its huge plasteel carapace hides a miniaturized synchrotron that constantly generates small amounts of antimatter, which is instantly used to fill a miniature antigrain warhead. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components.\n\nUseful abilities: As long as a tamer is near to direct it, the mechathrumbo is like a mortar turret, armed with self-replenishing miniature antigrain warheads. This is SO end game... Like all mechanoid hybrids it produces industrial components every couple days.</description>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -1187,14 +1187,14 @@
 		</verbs>
 
 		<comps>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>ComponentIndustrial</resourceDef>
 				<gatheringIntervalDays>4</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
 				<customResourceString>ComponentIndustrialDesc</customResourceString>
 
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<stampede>true</stampede>
 				<mechablast>true</mechablast>
 			</li>
@@ -1327,18 +1327,18 @@
 		</verbs>
 
 		<comps>
-			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
 				<resourceDef>ComponentIndustrial</resourceDef>
 				<gatheringIntervalDays>6</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
 				<customResourceString>ComponentIndustrialDesc</customResourceString>
 
 			</li>
-			<li Class="DraftingPatcher.CompProperties_Draftable">
+			<li Class="GeneticRim.CompProperties_Draftable">
 				<catreflexes>true</catreflexes>
 				<mechablast>true</mechablast>
 			</li>
-			<li Class="NewAnimalSubproducts.CompProperties_InitialHediff">
+			<li Class="GeneticRim.CompProperties_InitialHediff">
 				<hediffname>GR_MeleeDodge</hediffname>
 				<hediffseverity>1</hediffseverity>
 			</li>

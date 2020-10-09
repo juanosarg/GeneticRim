@@ -65,7 +65,7 @@
 			<severityPerDay>-1.0</severityPerDay>
 			</li>
 			
-			<li Class="NewHatcher.HediffCompProperties_Ager">
+			<li Class="GeneticRim.HediffCompProperties_Ager">
 				<daysToAdvance>1</daysToAdvance>
 			</li>
 		</comps>
