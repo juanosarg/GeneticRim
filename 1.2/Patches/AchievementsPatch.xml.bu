@@ -19,12 +19,12 @@
 							<defName>GR_Achievements</defName>
 							<label>Genetic Rim</label>
 						</AchievementsExpanded.AchievementTabDef>
-						
+
 						<AchievementsExpanded.AchievementDef Name="GR_AchievementParent" Abstract="true">					
 							<bgtexPath>Achievements/GR_AchievementBackground</bgtexPath>
 							<tab>GR_Achievements</tab>
 						</AchievementsExpanded.AchievementDef>
-						
+
 
 						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
 							<defName>GR_AchievementMyFirstLab</defName>
@@ -37,7 +37,7 @@
 							<texPath>Achievements/GR_AchievementMyFirstLab</texPath>
 							<points>5</points>
 						</AchievementsExpanded.AchievementDef>
-						
+
 						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
 							<defName>GR_AchievementItLives</defName>
 							<label>It Lives!</label>
@@ -50,7 +50,7 @@
 							<texPath>Achievements/GR_AchievementItLives</texPath>
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
-						
+
 						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
 							<defName>GR_AchievementBearlyPossible</defName>
 							<label>Bearly Possible</label>
@@ -87,7 +87,7 @@
 							<texPath>Achievements/GR_AchievementBearlyPossible</texPath>
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
-						
+
 						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
 							<defName>GR_AchievementOKBoomer</defName>
 							<label>OK, Boomer</label>
@@ -124,7 +124,7 @@
 							<texPath>Achievements/GR_AchievementOKBoomer</texPath>
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
-						
+
 						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
 							<defName>GR_AchievementPshPsh</defName>
 							<label>Psh Psh</label>
@@ -161,7 +161,7 @@
 							<texPath>Achievements/GR_AchievementPshPsh</texPath>
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
-						
+
 						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
 							<defName>GR_AchievementHastaLaPollo</defName>
 							<label>Hasta la Pollo</label>
@@ -198,7 +198,7 @@
 							<texPath>Achievements/GR_AchievementHastaLaPollo</texPath>
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
-						
+
 						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
 							<defName>GR_AchievementMooSquad</defName>
 							<label>Moo Squad</label>
@@ -235,7 +235,7 @@
 							<texPath>Achievements/GR_AchievementMooSquad</texPath>
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
-						
+
 						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
 							<defName>GR_AchievementPestProblems</defName>
 							<label>Pest Problems</label>
@@ -272,7 +272,7 @@
 							<texPath>Achievements/GR_AchievementPestProblems</texPath>
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
-						
+
 						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
 							<defName>GR_AchievementK9Units</defName>
 							<label>K9 Units</label>
@@ -309,7 +309,203 @@
 							<texPath>Achievements/GR_AchievementK9Units</texPath>
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
-						
+
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementTopOfTheClass</defName>
+							<label>Top of the Class</label>
+							<description>Hatch a Paragon creature</description>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<kindDefDict>
+									<li>
+										<key>GR_AlphaBear</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_AlphaWildBoar</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_AlphaBoomalope</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_AlphaChicken</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_AlphaEmu</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_AlphaMuffalo</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_AlphaOstrich</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_AlphaRhinoceros</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_AlphaWolfTimber</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_AlphaHare</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_AlphaIguana</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_AlphaPig</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_AlphaRat</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_AlphaTortoise</key>
+										<value>1</value>
+									</li>
+								</kindDefDict>
+								<requireAll>false</requireAll>
+							</tracker>
+							<texPath>Achievements/GR_AchievementTopOfTheClass</texPath>
+							<points>15</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementImDoingMyPart</defName>
+							<label>I'm doing my part</label>
+							<description>Hatch a Tier 2 Insectoid Hybrid</description>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<kindDefDict>
+									<li>
+										<key>GR_Bearscarab</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Boombeetle</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Chickenspider</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Muffalopede</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Wolfscarab</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Spidercat</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Spidersnake</key>
+										<value>1</value>
+									</li>
+								</kindDefDict>
+								<requireAll>false</requireAll>
+							</tracker>
+							<texPath>Achievements/GR_AchievementImDoingMyPart</texPath>
+							<points>15</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementLizardPeople</defName>
+							<label>Lizard People</label>
+							<description>Hatch a Tier 2 Reptilian Hybrid</description>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<kindDefDict>
+									<li>
+										<key>GR_Bearodile</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Boomsnake</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Chickenlizard</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Muffalokomodo</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Spidersnake</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Wolfsnake</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Snakecat</key>
+										<value>1</value>
+									</li>
+								</kindDefDict>
+								<requireAll>false</requireAll>
+							</tracker>
+							<texPath>Achievements/GR_AchievementLizardPeople</texPath>
+							<points>15</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementSmarterThanYou</defName>
+							<label>Smarter Than You</label>
+							<description>Hatch a Tier 3 Thrumbo Hybrid</description>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<kindDefDict>
+									<li>
+										<key>GR_Thrumbospider</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Thrumbolizard</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Thrumbear</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Thrumbalope</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Thrumbochicken</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Thrumffalo</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Thrumwolf</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Thrumbocat</key>
+										<value>1</value>
+									</li>
+								</kindDefDict>
+								<requireAll>false</requireAll>
+							</tracker>
+							<texPath>Achievements/GR_AchievementSmarterThanYou</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+
 						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
 							<defName>GR_AchievementTaskFailedSuccessfully</defName>
 							<label>Task Failed Successfully</label>
@@ -328,6 +524,74 @@
 						</AchievementsExpanded.AchievementDef>	
 
 						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementPorkFiesta</defName>
+							<label>Pork Gourmet</label>
+							<description>Hoard 20 pieces of Jamón Serrano</description>
+
+							<tracker Class="AchievementsExpanded.ItemCraftTracker">
+								<def>GR_JamonSerrano</def>
+
+								<count>20</count>
+							</tracker>
+
+							<texPath>Achievements/GR_AchievementPorkFiesta</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementFinestCraftsmanship</defName>
+							<label>Finest Craftsmanship</label>
+							<description>Carve a small boar tusk statuette</description>							
+							<tracker Class="AchievementsExpanded.BuildingTracker">
+								<def>GR_BoarTuskStatuette</def>
+								<count>1</count>
+							</tracker>
+							<texPath>Achievements/GR_AchievementFinestCraftsmanship</texPath>
+							<points>5</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementThusWithAKissIDie</defName>
+							<label>Thus with a kiss I die</label>
+							<description>Kill a pawn by feeding him Virulent Poison</description>
+							
+							<tracker Class="AchievementsExpanded.HediffDeathTracker">
+								<def>GR_VirulentPoisonDrank</def>
+							</tracker>
+
+							<texPath>Achievements/GR_AchievementThusWithAKissIDie</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementTheyGrowUpSoFast</defName>
+							<label>They Grow Up So Fast</label>
+							<description>Age a creature or pawn by administering Age Pills</description>
+							<tracker Class="AchievementsExpanded.HediffTracker">
+								<def>GR_AgePillsTaken</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/GR_AchievementTheyGrowUpSoFast</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementWarmAndFuzzy</defName>
+							<label>Warm and Fuzzy</label>
+							<description>Craft any item out of Thrumffalo Wool.</description>
+							
+							<tracker Class="AchievementsExpanded.ItemCraftTracker">
+
+								<madeFrom>GR_ThrumffaloWool</madeFrom>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/GR_AchievementWarmAndFuzzy</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
 							<defName>GR_AchievementSuperiorTech</defName>
 							<label>Superior Technology</label>
 							<description>Acquire a Mechanoid interface chip from a cluster or ship part</description>
@@ -339,7 +603,7 @@
 							<texPath>Achievements/GR_AchievementSuperiorTech</texPath>
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
-						
+
 						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
 							<defName>GR_AchievementOnePedeToRuleThemAll</defName>
 							<label>One 'Pede To Rule Them All</label>
