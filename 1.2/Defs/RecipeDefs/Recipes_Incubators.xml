@@ -223,8 +223,8 @@
 	
 	<RecipeDef>
 		<defName>GR_CreateBearCatIncubator</defName>
-		<label>bear / cat incubator</label>
-		<description>Fill an incubator with genes from a bear and a cat</description>
+		<label>bear / feline incubator</label>
+		<description>Fill an incubator with genes from a bear and a feline</description>
 		<jobString>Filling Incubator</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
@@ -495,8 +495,8 @@
 	
 	<RecipeDef>
 		<defName>GR_CreateBoomalopeCatIncubator</defName>
-		<label>boomalope / cat incubator</label>
-		<description>Fill an incubator with genes from a boomalope and a cat</description>
+		<label>boomalope / feline incubator</label>
+		<description>Fill an incubator with genes from a boomalope and a feline</description>
 		<jobString>Filling Incubator</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
@@ -713,8 +713,8 @@
 	
 	<RecipeDef>
 		<defName>GR_CreateChickenCatIncubator</defName>
-		<label>chicken / cat incubator</label>
-		<description>Fill an incubator with genes from a chicken and a cat</description>
+		<label>chicken / feline incubator</label>
+		<description>Fill an incubator with genes from a chicken and a feline</description>
 		<jobString>Filling Incubator</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
@@ -877,8 +877,8 @@
 	
 	<RecipeDef>
 		<defName>GR_CreateMuffaloCatIncubator</defName>
-		<label>muffalo / cat incubator</label>
-		<description>Fill an incubator with genes from a muffalo and a cat</description>
+		<label>muffalo / feline incubator</label>
+		<description>Fill an incubator with genes from a muffalo and a feline</description>
 		<jobString>Filling Incubator</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
@@ -987,8 +987,8 @@
 
 	<RecipeDef>
 		<defName>GR_CreateWolfCatIncubator</defName>
-		<label>wolf / cat incubator</label>
-		<description>Fill an incubator with genes from a wolf and a cat</description>
+		<label>wolf / feline incubator</label>
+		<description>Fill an incubator with genes from a wolf and a feline</description>
 		<jobString>Filling Incubator</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
@@ -1097,8 +1097,8 @@
 
 	<RecipeDef>
 		<defName>GR_CreateRodentCatIncubator</defName>
-		<label>cat / rodent incubator</label>
-		<description>Fill an incubator with genes from a cat and a rodent</description>
+		<label>feline / rodent incubator</label>
+		<description>Fill an incubator with genes from a feline and a rodent</description>
 		<jobString>Filling Incubator</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
@@ -1428,8 +1428,8 @@
 	
 	<RecipeDef>
 		<defName>GR_CreateCatSpiderIncubator</defName>
-		<label>insectoid / cat incubator</label>
-		<description>Fill an incubator with genes from an insectoid and a cat</description>
+		<label>insectoid / feline incubator</label>
+		<description>Fill an incubator with genes from an insectoid and a feline</description>
 		<jobString>Filling Incubator</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
@@ -1812,8 +1812,8 @@
 	</RecipeDef>
 		<RecipeDef>
 		<defName>GR_CreateSnakecatIncubator</defName>
-		<label>reptile / cat incubator</label>
-		<description>Fill an incubator with genes from a reptile and a cat</description>
+		<label>reptile / feline incubator</label>
+		<description>Fill an incubator with genes from a reptile and a feline</description>
 		<jobString>Filling Incubator</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
@@ -2302,8 +2302,8 @@
 	</RecipeDef>	
 		<RecipeDef>
 		<defName>GR_CreateThrumboCatIncubator</defName>
-		<label>thrumbo / cat incubator</label>
-		<description>Fill an incubator with genes from a thrumbo and a cat</description>
+		<label>thrumbo / feline incubator</label>
+		<description>Fill an incubator with genes from a thrumbo and a feline</description>
 		<jobString>Filling Incubator</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
@@ -2679,8 +2679,8 @@
 	
 	<RecipeDef>
 		<defName>GR_CreateMechacatIncubator</defName>
-		<label>mechanoid / cat incubator</label>
-		<description>Fill an incubator with genes from a cat and active mechanites</description>
+		<label>mechanoid / feline incubator</label>
+		<description>Fill an incubator with genes from a feline and active mechanites</description>
 		<jobString>Filling Incubator</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
