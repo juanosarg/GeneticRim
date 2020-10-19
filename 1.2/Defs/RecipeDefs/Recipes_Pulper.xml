@@ -38,7 +38,7 @@
 			<GR_OrganicPulp>1</GR_OrganicPulp>
 		</products>
 	</RecipeDef>
-	
+
 	<RecipeDef>
 		<defName>GR_PulpWoodBulk</defName>
 		<label>bulk extract organic pulp from wood</label>
@@ -113,8 +113,8 @@
 
 	<RecipeDef>
 		<defName>GR_PulpCorpse</defName>
-		<label>extract organic pulp from corpse</label>
-		<description>Extract organic pulp from corpse.</description>
+		<label>extract organic pulp from fresh corpse</label>
+		<description>Extract organic pulp from corpse. Corpses can't be rotten or desiccated to extract organic pulp from them.</description>
 		<jobString>Extracting Pulp</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
@@ -139,9 +139,7 @@
 			<disallowedCategories>
 				<li>CorpsesMechanoid</li>
 			</disallowedCategories>
-			<specialFiltersToDisallow>
-				<li>AllowRotten</li>
-			</specialFiltersToDisallow>
+		
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<categories>
@@ -150,6 +148,45 @@
 		</defaultIngredientFilter>
 		<products>
 			<GR_OrganicPulp>2</GR_OrganicPulp>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>GR_PulpProduce</defName>
+		<label>extract organic pulp from produce</label>
+		<description>Extract organic pulp from produce.</description>
+		<jobString>Extracting Pulp</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>GR_PulpRecycler</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>PlantFoodRaw</li>
+			</categories>
+			
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>PlantFoodRaw</li>
+			</categories>
+			
+		</defaultIngredientFilter>
+		<products>
+			<GR_OrganicPulp>1</GR_OrganicPulp>
 		</products>
 	</RecipeDef>
 

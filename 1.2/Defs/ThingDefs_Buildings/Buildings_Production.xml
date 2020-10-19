@@ -197,7 +197,7 @@
     <defName>GR_Pulper</defName>
     <label>pulper</label>
     <thingClass>Building_WorkTable</thingClass>
-    <description>Turns wood and organic resources into a pulp, useful as a base organic compound.</description>
+    <description>Turns wood into a pulp, useful as a base organic compound.</description>
     <graphicData>
       <texPath>Things/Building/GR_Pulper</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -253,7 +253,7 @@
     <defName>GR_PulpRecycler</defName>
     <label>recycler</label>
     <thingClass>Building_WorkTable</thingClass>
-    <description>Turns corpses into a pulp, useful as a base organic compound.</description>
+    <description>Turns corpses, produce and unwanted incubators into a pulp, useful as a base organic compound.</description>
     <graphicData>
       <texPath>Things/Building/GR_PulpRecycler</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
