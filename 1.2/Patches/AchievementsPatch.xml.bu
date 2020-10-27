@@ -507,6 +507,59 @@
 						</AchievementsExpanded.AchievementDef>
 
 						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementWeHaveTheTechnology</defName>
+							<label>We Have the Technology</label>
+							<description>Hatch a Tier 4 Mechanoid Hybrid</description>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<kindDefDict>
+									<li>
+										<key>GR_Mechabear</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Mechalope</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Mechachicken</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Mechaspider</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Mechamuffalo</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Mecharat</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Mechaturtle</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Mechawolf</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Mechathrumbo</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Mechacat</key>
+										<value>1</value>
+									</li>
+								</kindDefDict>
+								<requireAll>false</requireAll>
+							</tracker>
+							<texPath>Achievements/GR_AchievementWeHaveTheTechnology</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
 							<defName>GR_AchievementTaskFailedSuccessfully</defName>
 							<label>Task Failed Successfully</label>
 							<description>Hatch an Aberrant Fleshbeast in an experiment gone wrong</description>
@@ -522,6 +575,21 @@
 							<texPath>Achievements/GR_AchievementTaskFailedSuccessfully</texPath>
 							<points>5</points>
 						</AchievementsExpanded.AchievementDef>	
+
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementTeethEconomy</defName>
+							<label>Teeth Economy</label>
+							<description>Trade a total of 100 Very small teeth</description>
+
+							<tracker Class="AchievementsExpanded.TraderTracker">
+								<def>GR_VerySmallTeeth</def>
+								<count>100</count>
+								<singleTransaction>false</singleTransaction>
+							</tracker>
+
+							<texPath>Achievements/GR_AchievementTeethEconomy</texPath>
+							<points>15</points>
+						</AchievementsExpanded.AchievementDef>
 
 						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
 							<defName>GR_AchievementPorkFiesta</defName>
@@ -551,10 +619,23 @@
 						</AchievementsExpanded.AchievementDef>
 
 						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementTortoiseKing</defName>
+							<label>Tortoise King</label>
+							<description>Craft a Royal bed out of Hardened tortoise shell</description>							
+							<tracker Class="AchievementsExpanded.BuildingTracker">
+								<def>RoyalBed</def>
+								<madeFrom>GR_TortoiseShell</madeFrom>
+								<count>1</count>
+							</tracker>
+							<texPath>Achievements/GR_AchievementTortoiseKing</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
 							<defName>GR_AchievementThusWithAKissIDie</defName>
 							<label>Thus with a kiss I die</label>
 							<description>Kill a pawn by feeding him Virulent Poison</description>
-							
+
 							<tracker Class="AchievementsExpanded.HediffDeathTracker">
 								<def>GR_VirulentPoisonDrank</def>
 							</tracker>
@@ -562,7 +643,22 @@
 							<texPath>Achievements/GR_AchievementThusWithAKissIDie</texPath>
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
-						
+
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementEasterEggHunt</defName>
+							<label>Easter Egg Hunt</label>
+							<description>Have a pawn eat a Chocolate egg</description>
+
+							<tracker Class="AchievementsExpanded.HediffDeathTracker">
+								<def>GR_AteChocolateEgg</def>
+							</tracker>
+
+							<texPath>Achievements/GR_AchievementEasterEggHunt</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+
+
+
 						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
 							<defName>GR_AchievementTheyGrowUpSoFast</defName>
 							<label>They Grow Up So Fast</label>
@@ -575,12 +671,88 @@
 							<texPath>Achievements/GR_AchievementTheyGrowUpSoFast</texPath>
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementHomemadeThrumboians</defName>
+							<label>Homemade Thrumboians</label>
+							<description>Install a Thrumbo horn humanoid implant</description>
+							<tracker Class="AchievementsExpanded.HediffTracker">
+								<def>GR_HumanThrumboHorn</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/GR_AchievementHomemadeThrumboians</texPath>
+							<points>15</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementPremiumWarcrimes</defName>
+							<label>Premium Warcrimes</label>
+							<description>Have a single pawn with muffalo mammaries and an ovipositor</description>
+
+							<tracker Class="AchievementsExpanded.MultiHediffTracker">
+								<defs>
+									<li>
+										<key>GR_MuffaloMammaries</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>GR_Ovipositor</key>
+										<value>1</value>
+									</li>
+									
+								</defs>
+							</tracker>
+
+							<texPath>Achievements/GR_AchievementPremiumWarcrimes</texPath>
+							<points>30</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementKawaii</defName>
+							<label>Yippee-ki-kawaii, motherfucker!</label>
+							<description>Install two bunny ear implants in a single pawn</description>
+
+							<tracker Class="AchievementsExpanded.MultiHediffTracker">
+								<defs>
+									<li>
+										<key>GR_BunnyEars</key>
+										<value>2</value>
+									</li>
+									
+									
+								</defs>
+							</tracker>
+
+							<texPath>Achievements/GR_AchievementKawaii</texPath>
+							<points>15</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementPolePosition</defName>
+							<label>Pole Position</label>
+							<description>Install a total of 6 Thrumbo legs on a single animal</description>
+
+							<tracker Class="AchievementsExpanded.MultiHediffTracker">
+								<defs>
+									<li>
+										<key>GR_ThrumboLeg</key>
+										<value>6</value>
+									</li>
+								
+									
+								</defs>
+							</tracker>
+
+							<texPath>Achievements/GR_AchievementPolePosition</texPath>
+							<points>30</points>
+						</AchievementsExpanded.AchievementDef>
 						
 						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
 							<defName>GR_AchievementWarmAndFuzzy</defName>
 							<label>Warm and Fuzzy</label>
-							<description>Craft any item out of Thrumffalo Wool.</description>
-							
+							<description>Craft any item out of Thrumffalo Wool</description>
+
 							<tracker Class="AchievementsExpanded.ItemCraftTracker">
 
 								<madeFrom>GR_ThrumffaloWool</madeFrom>
@@ -589,6 +761,50 @@
 
 							<texPath>Achievements/GR_AchievementWarmAndFuzzy</texPath>
 							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementMlizard</defName>
+							<label>M'lizard</label>
+							<description>Craft a cowboy hat out of wolfsnake skin</description>
+
+							<tracker Class="AchievementsExpanded.ItemCraftTracker">
+								<def>Apparel_CowboyHat</def>
+								<madeFrom>GR_WolfsnakeSkin</madeFrom>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/GR_AchievementMlizard</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementCryoHoarder</defName>
+							<label>Cryo Hoarder</label>
+							<description>Hoard 300 canisters of Cryofuel (you'll need it!)</description>
+
+							<tracker Class="AchievementsExpanded.ItemCraftTracker">
+								<def>GR_Cryofuel</def>
+
+								<count>300</count>
+							</tracker>
+
+							<texPath>Achievements/GR_AchievementCryoHoarder</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">
+							<defName>GR_AchievementMixingItUp</defName>
+							<label>Mixing It Up</label>
+							<description>Use a Recombinator to (hopefully) get new genes</description>
+
+							<tracker Class="AchievementsExpanded.ItemCraftTracker">
+								<def>GR_StabilizingGenes</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/GR_AchievementMixingItUp</texPath>
+							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
 
 						<AchievementsExpanded.AchievementDef ParentName="GR_AchievementParent">

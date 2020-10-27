@@ -16,7 +16,27 @@
 		</comps>
 		<stages>
 			<li>
-				
+
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>GR_AteChocolateEgg</defName>
+		<description>This creature has recently eaten a chocolate egg.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>recently ate chocolate egg</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>-12</severityPerDayNotImmune>
+			</li>
+		</comps>
+		<stages>
+			<li>
+
 			</li>
 		</stages>
 	</HediffDef>
