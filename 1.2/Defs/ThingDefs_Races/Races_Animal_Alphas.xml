@@ -84,7 +84,7 @@
 		</comps>
 
 		<race>
-					<fleshType>GR_Normal</fleshType>
+			<fleshType>GR_Normal</fleshType>
 
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<useLeatherFrom>Bear_Grizzly</useLeatherFrom>
@@ -125,9 +125,9 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
-<tradeTags>
-      <li>AnimalGenetic</li>
-    </tradeTags>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>GR_AlphaBear</defName>
@@ -148,7 +148,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -162,7 +162,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
 					<drawSize>2.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -176,7 +176,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
 					<drawSize>4</drawSize>
 				</dessicatedBodyGraphicData>
 				<butcherBodyPart>
@@ -231,12 +231,13 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<race>
-							<fleshType>GR_Normal</fleshType>
-
+			<fleshType>GR_Normal</fleshType>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithHoovesAndTusks</body>
 			<baseBodySize>1.5</baseBodySize>
@@ -280,9 +281,9 @@
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
-<tradeTags>
-      <li>AnimalGenetic</li>
-    </tradeTags>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
 	</ThingDef>  
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>GR_AlphaWildBoar</defName>
@@ -301,7 +302,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/WildBoar/Dessicated_WildBoar</texPath>
+					<texPath>Things/Pawn/Animal/WildBoar/Dessicated_WildBoar</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -314,7 +315,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/WildBoar/Dessicated_WildBoar</texPath>
+					<texPath>Things/Pawn/Animal/WildBoar/Dessicated_WildBoar</texPath>
 					<drawSize>2.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -328,7 +329,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/WildBoar/Dessicated_WildBoar</texPath>
+					<texPath>Things/Pawn/Animal/WildBoar/Dessicated_WildBoar</texPath>
 					<drawSize>2.75</drawSize>
 				</dessicatedBodyGraphicData>
 				<butcherBodyPart>
@@ -360,7 +361,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
@@ -381,7 +383,7 @@
 			<executionRange>6</executionRange>
 			<herdAnimal>true</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
-					<fleshType>GR_Normal</fleshType>
+			<fleshType>GR_Normal</fleshType>
 
 			<baseBodySize>1.9</baseBodySize>
 			<baseHungerRate>1.1</baseHungerRate>
@@ -415,9 +417,9 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
-<tradeTags>
-      <li>AnimalGenetic</li>
-    </tradeTags>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
 	</ThingDef> 
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>GR_AlphaBoomalope</defName>
@@ -515,7 +517,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
@@ -531,8 +534,8 @@
 			</li>
 		</comps>
 		<race>
-							<fleshType>GR_Normal</fleshType>
-
+			<fleshType>GR_Normal</fleshType>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>Bird</body>
 			<baseHungerRate>0.55</baseHungerRate>
@@ -577,9 +580,9 @@
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
-<tradeTags>
-      <li>AnimalGenetic</li>
-    </tradeTags>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>GR_AlphaChicken</defName>
@@ -598,7 +601,7 @@
 					<drawSize>0.75</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
 					<drawSize>0.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -610,7 +613,7 @@
 				</bodyGraphicData>
 
 				<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
 					<drawSize>1.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -625,7 +628,7 @@
 				</bodyGraphicData>
 
 				<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -644,7 +647,7 @@
 			<MarketValue>600</MarketValue>
 		</statBases>
 		<race>
-							<fleshType>GR_Normal</fleshType>
+			<fleshType>GR_Normal</fleshType>
 
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>Bird</body>
@@ -659,6 +662,7 @@
 			<gestationPeriodDays>20</gestationPeriodDays>
 			<useMeatFrom>Cassowary</useMeatFrom>
 			<manhunterOnTameFailChance>0.022</manhunterOnTameFailChance>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBabyTiny</def>
@@ -678,8 +682,8 @@
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-      <li>AnimalGenetic</li>
-    </tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
 		<butcherProducts>
 			<GR_EmuFatOintment>5</GR_EmuFatOintment>
 		</butcherProducts>
@@ -738,7 +742,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 	</ThingDef>
@@ -756,7 +761,7 @@
 					<drawSize>2.0</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Emu/Dessicated_Emu</texPath>
+					<texPath>Things/Pawn/Animal/Emu/Dessicated_Emu</texPath>
 					<drawSize>2.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -770,7 +775,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Emu/Dessicated_Emu</texPath>
+					<texPath>Things/Pawn/Animal/Emu/Dessicated_Emu</texPath>
 					<drawSize>2.3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -784,7 +789,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Emu/Dessicated_Emu</texPath>
+					<texPath>Things/Pawn/Animal/Emu/Dessicated_Emu</texPath>
 					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 
@@ -813,7 +818,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
@@ -835,7 +841,7 @@
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<herdAnimal>true</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
-					<fleshType>GR_Normal</fleshType>
+			<fleshType>GR_Normal</fleshType>
 
 			<body>QuadrupedAnimalWithHooves</body>
 			<baseBodySize>2.5</baseBodySize>
@@ -871,9 +877,9 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
-<tradeTags>
-      <li>AnimalGenetic</li>
-    </tradeTags>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>GR_AlphaMuffalo</defName>
@@ -946,10 +952,11 @@
 			<MarketValue>720</MarketValue>
 		</statBases>
 		<race>
-							<fleshType>GR_Normal</fleshType>
+			<fleshType>GR_Normal</fleshType>
 
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<herdAnimal>false</herdAnimal>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<baseBodySize>1.5</baseBodySize>
 			<baseHealthScale>1.5</baseHealthScale>
 			<baseHungerRate>0.75</baseHungerRate>
@@ -980,8 +987,8 @@
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-      <li>AnimalGenetic</li>
-    </tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggUnfertilizedDef>GR_AlphaOstrichEggUnfertilized</eggUnfertilizedDef>
@@ -1037,7 +1044,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 	</ThingDef>
@@ -1056,7 +1064,7 @@
 					<drawSize>1.7</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Ostrich/Dessicated_Ostrich</texPath>
+					<texPath>Things/Pawn/Animal/Ostrich/Dessicated_Ostrich</texPath>
 					<drawSize>1.7</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -1070,7 +1078,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Ostrich/Dessicated_Ostrich</texPath>
+					<texPath>Things/Pawn/Animal/Ostrich/Dessicated_Ostrich</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -1092,7 +1100,7 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Ostrich/Dessicated_Ostrich</texPath>
+					<texPath>Things/Pawn/Animal/Ostrich/Dessicated_Ostrich</texPath>
 					<drawSize>1.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -1118,1092 +1126,1101 @@
 				</capacities>
 				<power>20</power>
 				<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
-		</li>
-		<li>
-			<label>horn</label>
-			<capacities>
-				<li>Blunt</li>
-			</capacities>
-			<power>22</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
-		</li>
-
-		<li>
-			<capacities>
-				<li>Bite</li>
-			</capacities>
-			<power>15</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-		</li>
-		<li>
-			<label>head</label>
-			<capacities>
-				<li>Blunt</li>
-			</capacities>
-			<power>10</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-			<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-			<chanceFactor>0.2</chanceFactor>      </li>
-	</tools>
-	<comps>
-		<li Class="GeneticRim.CompProperties_Draftable">
-			<stampede>true</stampede>
-		</li>
-	</comps>
-	<race>
-						<fleshType>GR_Normal</fleshType>
-
-		<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
-		<body>QuadrupedAnimalWithHoovesAndHorn</body>
-		<baseHungerRate>1.75</baseHungerRate>
-		<baseBodySize>3.5</baseBodySize>
-		<baseHealthScale>4.5</baseHealthScale>
-		<foodType>VegetarianRoughAnimal</foodType>
-		<useLeatherFrom>Rhinoceros</useLeatherFrom>
-		<useMeatFrom>Rhinoceros</useMeatFrom>
-		<wildness>0.90</wildness>
-		<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
-		<manhunterOnDamageChance>1</manhunterOnDamageChance>
-		<gestationPeriodDays>45</gestationPeriodDays>
-		<nameOnTameChance>1</nameOnTameChance>
-		<lifeExpectancy>65</lifeExpectancy>
-		<lifeStageAges>
-			<li>
-				<def>AnimalBaby</def>
-				<minAge>0</minAge>
+				<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
 			</li>
 			<li>
-				<def>AnimalJuvenile</def>
-				<minAge>0.3</minAge>
+				<label>horn</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>22</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+			</li>
+
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 			</li>
 			<li>
-				<def>AnimalAdult</def>
-				<minAge>1.0</minAge>
-				<soundWounded>Pawn_Rhinoceros_Wounded</soundWounded>
-				<soundDeath>Pawn_Rhinoceros_Death</soundDeath>
-				<soundCall>Pawn_Rhinoceros_Call</soundCall>
-				<soundAngry>Pawn_Rhinoceros_Angry</soundAngry>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
 			</li>
-		</lifeStageAges>
-		<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
-		<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
-		<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-	</race>
-<tradeTags>
-      <li>AnimalGenetic</li>
-    </tradeTags>
-</ThingDef>
-<PawnKindDef ParentName="AnimalKindBase">
-	<defName>GR_AlphaRhinoceros</defName>
-	<label>paragon rhinoceros</label>
-	<labelPlural>paragon rhinoceroses</labelPlural>
-	<race>GR_AlphaRhinoceros</race>
-	<combatPower>310</combatPower>
-	<canArriveManhunter>false</canArriveManhunter>
-	<ecoSystemWeight>1</ecoSystemWeight>
-	<lifeStages>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Rhino/Alpharhino</texPath>
-				<drawSize>2</drawSize>
-				<shadowData>
-					<volume>(0.475, 0.2, 0.3)</volume>
-					<offset>(0,0,-0.2)</offset>
-				</shadowData>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Rhino/Dessicated_Alpharhino</texPath>
-				<drawSize>2</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Rhino/Alpharhino</texPath>
-				<drawSize>3.2</drawSize>
-				<shadowData>
-					<volume>(0.72, 0.3, 0.45)</volume>
-					<offset>(0,0,-0.25)</offset>
-				</shadowData>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Rhino/Dessicated_Alpharhino</texPath>
-				<drawSize>3.2</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Rhino/Alpharhino</texPath>
-				<drawSize>4.75</drawSize>
-				<shadowData>
-					<volume>(0.95, 0.4, 0.6)</volume>
-					<offset>(0,0,-0.3)</offset>
-				</shadowData>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Rhino/Dessicated_Alpharhino</texPath>
-				<drawSize>4.75</drawSize>
-			</dessicatedBodyGraphicData>
-			<butcherBodyPart>
-				<bodyPartGroup>HornAttackTool</bodyPartGroup>
-				<thing>GR_HugeRhinoHorn</thing>
-			</butcherBodyPart>
-		</li>
-	</lifeStages>
-</PawnKindDef>
+		</tools>
+		<comps>
+			<li Class="GeneticRim.CompProperties_Draftable">
+				<stampede>true</stampede>
+			</li>
+		</comps>
+		<race>
+			<fleshType>GR_Normal</fleshType>
 
-<!-- Wolf -->	 
-
-<ThingDef ParentName="AnimalThingBase">
-	<defName>GR_AlphaWolfTimber</defName>
-	<label>paragon timber wolf</label>
-	<description>This huge wolf can be turned into a fierce, loyal companion if properly trained. Wolf pelts have long been used as trade goods.\n\nUseful abilities: The paragon wolf's pelt can be traded for a profit, or used to craft a wolf pelt rug, which isn't tacky at all. Nope.</description>
-	<statBases>
-		<MoveSpeed>5.6</MoveSpeed>
-		<ComfyTemperatureMin>-50</ComfyTemperatureMin>
-		<MarketValue>740</MarketValue>
-	</statBases>
-	<tools>
-		<li>
-			<label>left claw</label>
-			<capacities>
-				<li>Scratch</li>
-			</capacities>
-			<power>11</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-			<surpriseAttack>
-				<extraMeleeDamages>
-					<li>
-						<def>Stun</def>
-						<amount>20</amount>
-					</li>
-				</extraMeleeDamages>
-			</surpriseAttack>
-		</li>
-		<li>
-			<label>right claw</label>
-			<capacities>
-				<li>Scratch</li>
-			</capacities>
-			<power>11</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-			<surpriseAttack>
-				<extraMeleeDamages>
-					<li>
-						<def>Stun</def>
-						<amount>20</amount>
-					</li>
-				</extraMeleeDamages>
-			</surpriseAttack>
-		</li>
-		<li>
-			<capacities>
-				<li>Bite</li>
-			</capacities>
-			<power>13</power>
-			<cooldownTime>2.1</cooldownTime>
-			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-			<surpriseAttack>
-				<extraMeleeDamages>
-					<li>
-						<def>Stun</def>
-						<amount>20</amount>
-					</li>
-				</extraMeleeDamages>
-			</surpriseAttack>
-		</li>
-		<li>
-			<label>head</label>
-			<capacities>
-				<li>Blunt</li>
-			</capacities>
-			<power>6</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-			<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-			<chanceFactor>0.2</chanceFactor>      </li>
-	</tools>
-	<comps>
-		<li Class="GeneticRim.CompProperties_Draftable">
-			<adrenalineburst>true</adrenalineburst>
-		</li>
-	</comps>
-	<race>
-						<fleshType>GR_Normal</fleshType>
-
-		<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
-		<body>QuadrupedAnimalWithPawsAndTail</body>
-		<predator>true</predator>
-		<baseBodySize>1</baseBodySize>
-		<baseHungerRate>0.3</baseHungerRate>
-		<baseHealthScale>1.3</baseHealthScale>
-		<foodType>CarnivoreAnimal</foodType>
-		<useLeatherFrom>Wolf_Timber</useLeatherFrom>
-		<useMeatFrom>Wolf_Timber</useMeatFrom>
-		<gestationPeriodDays>22.5</gestationPeriodDays>
-		<nameOnTameChance>1</nameOnTameChance>
-		<trainability>Advanced</trainability>
-		<wildness>0.75</wildness>
-		<nuzzleMtbHours>100</nuzzleMtbHours>
-		<manhunterOnDamageChance>1</manhunterOnDamageChance>
-		<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
-		<litterSizeCurve>
-			<points>
-				<li>(0.5, 0)</li>
-				<li>(1, 1)</li>
-				<li>(2, 1.7)</li>
-				<li>(3, 0.7)</li>
-				<li>(3.5, 0)</li>
-			</points>
-		</litterSizeCurve>
-		<lifeExpectancy>19</lifeExpectancy>
-		<lifeStageAges>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithHoovesAndHorn</body>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<baseHungerRate>1.75</baseHungerRate>
+			<baseBodySize>3.5</baseBodySize>
+			<baseHealthScale>4.5</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<useLeatherFrom>Rhinoceros</useLeatherFrom>
+			<useMeatFrom>Rhinoceros</useMeatFrom>
+			<wildness>0.90</wildness>
+			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<gestationPeriodDays>45</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<lifeExpectancy>65</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.3</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>1.0</minAge>
+					<soundWounded>Pawn_Rhinoceros_Wounded</soundWounded>
+					<soundDeath>Pawn_Rhinoceros_Death</soundDeath>
+					<soundCall>Pawn_Rhinoceros_Call</soundCall>
+					<soundAngry>Pawn_Rhinoceros_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_AlphaRhinoceros</defName>
+		<label>paragon rhinoceros</label>
+		<labelPlural>paragon rhinoceroses</labelPlural>
+		<race>GR_AlphaRhinoceros</race>
+		<combatPower>310</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
 			<li>
-				<def>AnimalBaby</def>
-				<minAge>0</minAge>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Rhino/Alpharhino</texPath>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.475, 0.2, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Rhino/Dessicated_Alpharhino</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
-				<def>AnimalJuvenile</def>
-				<minAge>0.2</minAge>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Rhino/Alpharhino</texPath>
+					<drawSize>3.2</drawSize>
+					<shadowData>
+						<volume>(0.72, 0.3, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Rhino/Dessicated_Alpharhino</texPath>
+					<drawSize>3.2</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
-				<def>AnimalAdult</def>
-				<minAge>0.45</minAge>
-				<soundWounded>Pawn_Dog_Injured</soundWounded>
-				<soundDeath>Pawn_Dog_Death</soundDeath>
-				<soundCall>Pawn_Dog_Call</soundCall>
-				<soundAngry>Pawn_Dog_Angry</soundAngry>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Rhino/Alpharhino</texPath>
+					<drawSize>4.75</drawSize>
+					<shadowData>
+						<volume>(0.95, 0.4, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Rhino/Dessicated_Alpharhino</texPath>
+					<drawSize>4.75</drawSize>
+				</dessicatedBodyGraphicData>
+				<butcherBodyPart>
+					<bodyPartGroup>HornAttackTool</bodyPartGroup>
+					<thing>GR_HugeRhinoHorn</thing>
+				</butcherBodyPart>
 			</li>
-		</lifeStageAges>
-		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-	</race>
-	<tradeTags>
-      <li>AnimalGenetic</li>
-    </tradeTags>
-</ThingDef>
+		</lifeStages>
+	</PawnKindDef>
 
-<PawnKindDef ParentName="AnimalKindBase">
-	<defName>GR_AlphaWolfTimber</defName>
-	<label>paragon timber wolf</label>
-	<labelPlural>paragon timber wolves</labelPlural>
-	<race>GR_AlphaWolfTimber</race>
-	<combatPower>95</combatPower>
-	<canArriveManhunter>false</canArriveManhunter>
-	<ecoSystemWeight>1</ecoSystemWeight>
-	<lifeStages>
-		<li>
-			<label>paragon timber wolf puppy</label>
-			<labelPlural>paragon timber wolf puppies</labelPlural>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Wolf/Alphawolf</texPath>
-				<drawSize>1.5</drawSize>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Wolf/Dessicated_Alphawolf</texPath>
-				<drawSize>1.5</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Wolf/Alphawolf</texPath>
-				<drawSize>2</drawSize>
-				<shadowData>
-					<volume>(0.25, 0.3, 0.25)</volume>
-					<offset>(0,0,-0.15)</offset>
-				</shadowData>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Wolf/Dessicated_Alphawolf</texPath>
-				<drawSize>2</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Wolf/Alphawolf</texPath>
-				<drawSize>3</drawSize>
-				<shadowData>
-					<volume>(0.3, 0.4, 0.3)</volume>
-					<offset>(0,0,-0.15)</offset>
-				</shadowData>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Wolf/Dessicated_Alphawolf</texPath>
-				<drawSize>3</drawSize>
-			</dessicatedBodyGraphicData>
-			<butcherBodyPart>
-				<bodyPartGroup>HeadAttackTool</bodyPartGroup>
-				<thing>GR_WolfPelt</thing>
-			</butcherBodyPart>
-		</li>
-	</lifeStages>
-</PawnKindDef>
+	<!-- Wolf -->	 
 
-<!-- Hare -->	 
-
-<ThingDef ParentName="AnimalThingBase">
-	<defName>GR_AlphaHare</defName>
-	<label>paragon hare</label>
-	<description>This small creature has a fierce gaze and quite a poor disposition. Be careful with these critters, since they breed like... well... rabbits.\n\nUseful abilities: Due to a terrible sense of humour in your scientists, this creatures lays edible chocolate eggs...</description>
-
-	<statBases>
-		<MoveSpeed>5.8</MoveSpeed>
-		<ComfyTemperatureMin>-35</ComfyTemperatureMin>
-		<MarketValue>120</MarketValue>
-	</statBases>
-	<tools>
-		<li>
-			<capacities>
-				<li>Bite</li>
-			</capacities>
-			<power>5</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-		</li>
-		<li>
-			<label>head</label>
-			<capacities>
-				<li>Blunt</li>
-			</capacities>
-			<power>2</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-			<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-			<chanceFactor>0.2</chanceFactor>      </li>
-	</tools>
-
-	<comps>
-
-		<li Class="GeneticRim.CompProperties_AnimalProduct">
-			<resourceDef>GR_ChocolateEgg</resourceDef>
-			<gatheringIntervalDays>1</gatheringIntervalDays>
-			<resourceAmount>1</resourceAmount>
-			<customResourceString>ChocolateEgg</customResourceString>
-		</li>
-		<li Class="GeneticRim.CompProperties_Draftable">
-			<burrowing>true</burrowing>
-		</li>
-	</comps>
-	<race>
-						<fleshType>GR_Normal</fleshType>
-
-		<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
-		<useLeatherFrom>Hare</useLeatherFrom>
-		<useMeatFrom>Hare</useMeatFrom>
-		<body>QuadrupedAnimalWithPawsAndTail</body>
-		<baseBodySize>0.5</baseBodySize>
-		<baseHungerRate>0.45</baseHungerRate>
-		<baseHealthScale>1</baseHealthScale>
-		<foodType>VegetarianRoughAnimal</foodType>
-		<wildness>0.75</wildness>
-		<mateMtbHours>7</mateMtbHours>
-		<nuzzleMtbHours>100</nuzzleMtbHours>
-		<gestationPeriodDays>5.5</gestationPeriodDays>
-		<litterSizeCurve>
-			<points>
-				<li>(2.5, 0)</li>
-				<li>(3, 1)</li>
-				<li>(4, 1)</li>
-				<li>(4.5, 0)</li>
-			</points>
-		</litterSizeCurve>
-		<lifeExpectancy>15</lifeExpectancy>
-		<lifeStageAges>
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_AlphaWolfTimber</defName>
+		<label>paragon timber wolf</label>
+		<description>This huge wolf can be turned into a fierce, loyal companion if properly trained. Wolf pelts have long been used as trade goods.\n\nUseful abilities: The paragon wolf's pelt can be traded for a profit, or used to craft a wolf pelt rug, which isn't tacky at all. Nope.</description>
+		<statBases>
+			<MoveSpeed>5.6</MoveSpeed>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+			<MarketValue>740</MarketValue>
+		</statBases>
+		<tools>
 			<li>
-				<def>AnimalBaby</def>
-				<minAge>0</minAge>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
 			</li>
 			<li>
-				<def>AnimalJuvenile</def>
-				<minAge>0.1</minAge>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
 			</li>
 			<li>
-				<def>AnimalAdult</def>
-				<minAge>0.3</minAge>
-				<soundWounded>Pawn_Hare_Wounded</soundWounded>
-				<soundDeath>Pawn_Hare_Death</soundDeath>
-				<soundCall>Pawn_Hare_Call</soundCall>
-				<soundAngry>Pawn_Hare_Angry</soundAngry>
-			</li>
-		</lifeStageAges>
-		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-	</race>
-<tradeTags>
-      <li>AnimalGenetic</li>
-    </tradeTags>
-</ThingDef>
-<PawnKindDef ParentName="AnimalKindBase">
-	<combatPower>35</combatPower>
-	<canArriveManhunter>false</canArriveManhunter>
-	<ecoSystemWeight>1</ecoSystemWeight>
-	<defName>GR_AlphaHare</defName>
-	<label>paragon hare</label>
-	<race>GR_AlphaHare</race>
-	<lifeStages>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Hare/Alphahare</texPath>
-				<drawSize>1</drawSize>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
-				<drawSize>1</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Hare/Alphahare</texPath>
-				<drawSize>1.25</drawSize>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
-				<drawSize>1.25</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Hare/Alphahare</texPath>
-				<drawSize>1.5</drawSize>
-				<shadowData>
-					<volume>(0.32, 0.35, 0.32)</volume>
-					<offset>(0,0,0)</offset>
-				</shadowData>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
-				<drawSize>1.5</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-	</lifeStages>
-</PawnKindDef>
-
-<!-- Iguana -->	 
-
-<ThingDef ParentName="AnimalThingBase">
-	<defName>GR_AlphaIguana</defName>
-	<label>paragon iguana</label>
-	<description>This large lizard has a beautiful iridiscent sheen on its scales. Contrary to the regular iguanas, this paragon specimen has a nasty venomous bite.\n\nUseful abilities: Lays eggs and has a venomous bite.</description>
-	<statBases>
-		<MoveSpeed>3.75</MoveSpeed>
-		<ComfyTemperatureMin>-10</ComfyTemperatureMin>
-		<MarketValue>200</MarketValue>
-	</statBases>
-	<tools>
-		<li>
-			<label>left claw</label>
-			<capacities>
-				<li>GR_LightToxicBite</li>
-			</capacities>
-			<power>10</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
-		</li>
-		<li>
-			<label>right claw</label>
-			<capacities>
-				<li>GR_LightToxicBite</li>
-			</capacities>
-			<power>10</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
-		</li>
-		<li>
-			<capacities>
-				<li>GR_LightToxicBite</li>
-			</capacities>
-			<power>8</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-		</li>
-		<li>
-			<label>head</label>
-			<capacities>
-				<li>Blunt</li>
-			</capacities>
-			<power>3</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-			<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-			<chanceFactor>0.2</chanceFactor>      </li>
-	</tools>
-
-	<comps>
-		<li Class="CompProperties_EggLayer">
-			<eggUnfertilizedDef>GR_AlphaIguanaEggUnfertilized</eggUnfertilizedDef>
-			<eggFertilizedDef>GR_AlphaIguanaEggFertilized</eggFertilizedDef>
-			<eggFertilizationCountMax>1</eggFertilizationCountMax>
-			<eggLayIntervalDays>10</eggLayIntervalDays>
-			<eggCountRange>
-				<min>1</min>
-				<max>2</max>
-			</eggCountRange>
-		</li>
-		<li Class="GeneticRim.CompProperties_Draftable">
-			<poisonouscloud>true</poisonouscloud>
-		</li>
-	</comps>
-	<race>
-						<fleshType>GR_Normal</fleshType>
-
-		<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
-		<body>QuadrupedAnimalWithClawsTailAndJowl</body>
-		<baseBodySize>0.40</baseBodySize>
-		<baseHealthScale>1</baseHealthScale>
-		<baseHungerRate>0.35</baseHungerRate>
-		<foodType>OmnivoreRoughAnimal</foodType>
-		<useLeatherFrom>Iguana</useLeatherFrom>
-		<useMeatFrom>Iguana</useMeatFrom>
-		<wildness>0.5</wildness>
-		<gestationPeriodDays>12</gestationPeriodDays>
-		<litterSizeCurve>
-			<points>
-				<li>(0.5, 0)</li>
-				<li>(1, 1)</li>
-				<li>(3, 1)</li>
-				<li>(3.5, 0)</li>
-			</points>
-		</litterSizeCurve>
-		<lifeExpectancy>18</lifeExpectancy>
-		<lifeStageAges>
-			<li>
-				<def>AnimalBaby</def>
-				<minAge>0</minAge>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>2.1</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
 			</li>
 			<li>
-				<def>AnimalJuvenile</def>
-				<minAge>0.09</minAge>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+			<li Class="GeneticRim.CompProperties_Draftable">
+				<adrenalineburst>true</adrenalineburst>
+			</li>
+		</comps>
+		<race>
+			<fleshType>GR_Normal</fleshType>
+
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<predator>true</predator>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<baseBodySize>1</baseBodySize>
+			<baseHungerRate>0.3</baseHungerRate>
+			<baseHealthScale>1.3</baseHealthScale>
+			<foodType>CarnivoreAnimal</foodType>
+			<useLeatherFrom>Wolf_Timber</useLeatherFrom>
+			<useMeatFrom>Wolf_Timber</useMeatFrom>
+			<gestationPeriodDays>22.5</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<trainability>Advanced</trainability>
+			<wildness>0.75</wildness>
+			<nuzzleMtbHours>100</nuzzleMtbHours>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>19</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.45</minAge>
+					<soundWounded>Pawn_Dog_Injured</soundWounded>
+					<soundDeath>Pawn_Dog_Death</soundDeath>
+					<soundCall>Pawn_Dog_Call</soundCall>
+					<soundAngry>Pawn_Dog_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_AlphaWolfTimber</defName>
+		<label>paragon timber wolf</label>
+		<labelPlural>paragon timber wolves</labelPlural>
+		<race>GR_AlphaWolfTimber</race>
+		<combatPower>95</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>paragon timber wolf puppy</label>
+				<labelPlural>paragon timber wolf puppies</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Wolf/Alphawolf</texPath>
+					<drawSize>1.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Wolf/Dessicated_Alphawolf</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
-				<def>AnimalAdult</def>
-				<minAge>0.25</minAge>
-				<soundWounded>Pawn_Iguana_Wounded</soundWounded>
-				<soundDeath>Pawn_Iguana_Death</soundDeath>
-				<soundCall>Pawn_Iguana_Call</soundCall>
-				<soundAngry>Pawn_Iguana_Angry</soundAngry>
-			</li>
-		</lifeStageAges>
-		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-	</race>
-<tradeTags>
-      <li>AnimalGenetic</li>
-    </tradeTags>
-</ThingDef>
-<PawnKindDef ParentName="AnimalKindBase">
-	<defName>GR_AlphaIguana</defName>
-	<label>paragon iguana</label>
-	<race>GR_AlphaIguana</race>
-	<combatPower>50</combatPower>
-	<canArriveManhunter>false</canArriveManhunter>
-	<ecoSystemWeight>1</ecoSystemWeight>
-	<lifeStages>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Iguana/Alphaiguana</texPath>
-				<drawSize>1.5</drawSize>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
-				<drawSize>1.5</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Iguana/Alphaiguana</texPath>
-				<drawSize>1.75</drawSize>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
-				<drawSize>1.75</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Iguana/Alphaiguana</texPath>
-				<drawSize>2.2</drawSize>
-				<shadowData>
-					<volume>(0.25, 0.3, 0.25)</volume>
-					<offset>(0,0,0)</offset>
-				</shadowData>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
-				<drawSize>2.5</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-	</lifeStages>
-</PawnKindDef>
-
-<!-- Pig -->	 
-
-<ThingDef ParentName="AnimalThingBase">
-	<defName>GR_AlphaPig</defName>
-	<label>paragon pig</label>
-	<description>This huge pig has a voracious appetite, but the quality of its meat is legendary.\n\nUseful abilities: The butchering process will produce bacon jerky and jamón serrano, two delicacies that can be stored for months without refrigeration.</description>
-	<statBases>
-		<MoveSpeed>3.9</MoveSpeed>
-		<ComfyTemperatureMin>-8</ComfyTemperatureMin>
-		<MarketValue>560</MarketValue>
-	</statBases>
-	<tools>
-		<li>
-			<capacities>
-				<li>Bite</li>
-			</capacities>
-			<power>10</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-		</li>
-		<li>
-			<label>head</label>
-			<capacities>
-				<li>Blunt</li>
-			</capacities>
-			<power>6</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-			<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-			<chanceFactor>0.2</chanceFactor>      </li>
-	</tools>
-	<comps>
-		<li Class="GeneticRim.CompProperties_Draftable">
-			<rage>true</rage>
-		</li>
-	</comps>
-	<race>
-						<fleshType>GR_Normal</fleshType>
-
-		<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
-		<body>QuadrupedAnimalWithHooves</body>
-		<baseBodySize>1.2</baseBodySize>
-		<baseHealthScale>1</baseHealthScale>
-		<baseHungerRate>1.2</baseHungerRate>
-		<foodType>OmnivoreRoughAnimal</foodType>
-		<useLeatherFrom>Pig</useLeatherFrom>
-		<useMeatFrom>Pig</useMeatFrom>
-
-		<wildness>0.4</wildness>
-		<trainability>Advanced</trainability>
-
-		<gestationPeriodDays>10</gestationPeriodDays>
-		<litterSizeCurve>
-			<points>
-				<li>(0.5, 0)</li>
-				<li>(1, 1)</li>
-				<li>(3, 1)</li>
-				<li>(3.5, 0)</li>
-			</points>
-		</litterSizeCurve>
-		<lifeExpectancy>18</lifeExpectancy>
-		<lifeStageAges>
-			<li>
-				<def>AnimalBaby</def>
-				<minAge>0</minAge>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Wolf/Alphawolf</texPath>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Wolf/Dessicated_Alphawolf</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
-				<def>AnimalJuvenile</def>
-				<minAge>0.1</minAge>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Wolf/Alphawolf</texPath>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Wolf/Dessicated_Alphawolf</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+				<butcherBodyPart>
+					<bodyPartGroup>HeadAttackTool</bodyPartGroup>
+					<thing>GR_WolfPelt</thing>
+				</butcherBodyPart>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Hare -->	 
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_AlphaHare</defName>
+		<label>paragon hare</label>
+		<description>This small creature has a fierce gaze and quite a poor disposition. Be careful with these critters, since they breed like... well... rabbits.\n\nUseful abilities: Due to a terrible sense of humour in your scientists, this creatures lays edible chocolate eggs...</description>
+
+		<statBases>
+			<MoveSpeed>5.8</MoveSpeed>
+			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
+			<MarketValue>120</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 			</li>
 			<li>
-				<def>AnimalAdult</def>
-				<minAge>0.35</minAge>
-				<soundWounded>Pawn_Wildboar_Wounded</soundWounded>
-				<soundDeath>Pawn_Wildboar_Death</soundDeath>
-				<soundCall>Pawn_Wildboar_Call</soundCall>
-				<soundAngry>Pawn_Wildboar_Angry</soundAngry>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
 			</li>
-		</lifeStageAges>
-		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-	</race>
-	<tradeTags>
-      <li>AnimalGenetic</li>
-    </tradeTags>
-	<butcherProducts>
-		<GR_BaconStrips>4</GR_BaconStrips>
-		<GR_JamonSerrano>1</GR_JamonSerrano>
-	</butcherProducts>
+		</tools>
 
+		<comps>
 
-</ThingDef>
-<PawnKindDef ParentName="AnimalKindBase">
-	<defName>GR_AlphaPig</defName>
-	<label>paragon pig</label>
-	<race>GR_AlphaPig</race>
-	<combatPower>65</combatPower>
-	<canArriveManhunter>false</canArriveManhunter>
-	<ecoSystemWeight>1</ecoSystemWeight>
-	<labelFemale>paragon sow</labelFemale>
-	<lifeStages>
-		<li>
-			<label>paragon piglet</label>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Pig/Alphapig</texPath>
-				<drawSize>1.2</drawSize>
-
-				<shadowData>
-					<volume>(0.25, 0.25, 0.25)</volume>
-					<offset>(0,0,-0.2)</offset>
-				</shadowData>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Pig/Dessicated_Pig</texPath>
-				<drawSize>1.5</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Pig/Alphapig</texPath>
-				<drawSize>2</drawSize>
-
-				<shadowData>
-					<volume>(0.375, 0.375, 0.375)</volume>
-					<offset>(0,0,0)</offset>
-				</shadowData>
-			</bodyGraphicData>
-			<femaleGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Pig/Alphapig</texPath>
-				<drawSize>1.8</drawSize>
-
-				<shadowData>
-					<volume>(0.375, 0.375, 0.375)</volume>
-					<offset>(0,0,0)</offset>
-				</shadowData>
-			</femaleGraphicData>
-			<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Pig/Dessicated_Pig</texPath>
-				<drawSize>2</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Pig/Alphapig</texPath>
-				<drawSize>2.5</drawSize>
-				<shadowData>
-					<volume>(0.5, 0.5, 0.5)</volume>
-					<offset>(0,0,-0.3)</offset>
-				</shadowData>
-			</bodyGraphicData>
-			<femaleGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Pig/Alphapig</texPath>
-				<drawSize>2.2</drawSize>
-				<shadowData>
-					<volume>(0.5, 0.5, 0.4)</volume>
-					<offset>(0,0,-0.05)</offset>
-				</shadowData>
-			</femaleGraphicData>
-			<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Pig/Dessicated_Pig</texPath>
-				<drawSize>2.5</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-	</lifeStages>
-</PawnKindDef>
-
-<!-- Rat -->	 
-
-<ThingDef ParentName="AnimalThingBase">
-	<defName>GR_AlphaRat</defName>
-	<label>paragon rat</label>
-	<description>This rat is obviously disease ridden.\n\nUseful abilities: Paragon rats spread the bubonic plague when they bite. Careful!</description>
-	<statBases>
-		<MoveSpeed>4</MoveSpeed>
-		<ComfyTemperatureMin>-30</ComfyTemperatureMin>
-		<MarketValue>120</MarketValue>
-	</statBases>
-	<tools>
-		<li>
-			<label>left claw</label>
-			<capacities>
-				<li>GR_PlagueBite</li>
-			</capacities>
-			<power>4</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-		</li>
-		<li>
-			<label>right claw</label>
-			<capacities>
-				<li>GR_PlagueBite</li>
-			</capacities>
-			<power>4</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-		</li>
-		<li>
-			<capacities>
-				<li>GR_PlagueBite</li>
-			</capacities>
-			<power>5</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-		</li>
-		<li>
-			<label>head</label>
-			<capacities>
-				<li>Blunt</li>
-			</capacities>
-			<power>1</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-			<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-			<chanceFactor>0.2</chanceFactor>      </li>
-	</tools>
-	<comps>
-		<li Class="GeneticRim.CompProperties_Draftable">
-			<burrowing>true</burrowing>
-		</li>
-	</comps>
-	<race>
-						<fleshType>GR_Normal</fleshType>
-
-		<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
-		<body>QuadrupedAnimalWithPaws</body>
-		<baseBodySize>0.3</baseBodySize>
-		<baseHungerRate>0.50</baseHungerRate>
-		<baseHealthScale>0.55</baseHealthScale>
-		<foodType>OmnivoreRoughAnimal</foodType>
-		<useLeatherFrom>Rat</useLeatherFrom>
-		<useMeatFrom>Rat</useMeatFrom>
-		<wildness>0.50</wildness>
-		<mateMtbHours>6</mateMtbHours>
-		<gestationPeriodDays>10</gestationPeriodDays>
-		<litterSizeCurve>
-			<points>
-				<li>(0.5, 0)</li>
-				<li>(1, 1)</li>
-				<li>(5, 1)</li>
-				<li>(5.5, 0)</li>
-			</points>
-		</litterSizeCurve>
-		<lifeExpectancy>12</lifeExpectancy>
-		<lifeStageAges>
+			<li Class="GeneticRim.CompProperties_AnimalProduct">
+				<resourceDef>GR_ChocolateEgg</resourceDef>
+				<gatheringIntervalDays>1</gatheringIntervalDays>
+				<resourceAmount>1</resourceAmount>
+				<customResourceString>ChocolateEgg</customResourceString>
+			</li>
+			<li Class="GeneticRim.CompProperties_Draftable">
+				<burrowing>true</burrowing>
+			</li>
+		</comps>
+		<race>
+			<fleshType>GR_Normal</fleshType>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<useLeatherFrom>Hare</useLeatherFrom>
+			<useMeatFrom>Hare</useMeatFrom>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<baseBodySize>0.5</baseBodySize>
+			<baseHungerRate>0.45</baseHungerRate>
+			<baseHealthScale>1</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<wildness>0.75</wildness>
+			<mateMtbHours>7</mateMtbHours>
+			<nuzzleMtbHours>100</nuzzleMtbHours>
+			<gestationPeriodDays>5.5</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(2.5, 0)</li>
+					<li>(3, 1)</li>
+					<li>(4, 1)</li>
+					<li>(4.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>15</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.1</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3</minAge>
+					<soundWounded>Pawn_Hare_Wounded</soundWounded>
+					<soundDeath>Pawn_Hare_Death</soundDeath>
+					<soundCall>Pawn_Hare_Call</soundCall>
+					<soundAngry>Pawn_Hare_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<combatPower>35</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<defName>GR_AlphaHare</defName>
+		<label>paragon hare</label>
+		<race>GR_AlphaHare</race>
+		<lifeStages>
 			<li>
-				<def>AnimalBaby</def>
-				<minAge>0</minAge>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Hare/Alphahare</texPath>
+					<drawSize>1</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
-				<def>AnimalJuvenile</def>
-				<minAge>0.07</minAge>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Hare/Alphahare</texPath>
+					<drawSize>1.25</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
+					<drawSize>1.25</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
 			<li>
-				<def>AnimalAdult</def>
-				<minAge>0.3</minAge>
-				<soundWounded>Pawn_Boomrat_Wounded</soundWounded>
-				<soundDeath>Pawn_Boomrat_Death</soundDeath>
-				<soundCall>Pawn_Boomrat_Call</soundCall>
-				<soundAngry>Pawn_Boomrat_Angry</soundAngry>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Hare/Alphahare</texPath>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.32, 0.35, 0.32)</volume>
+						<offset>(0,0,0)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
 			</li>
-		</lifeStageAges>
-		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-	</race>
-	<tradeTags>
-      <li>AnimalGenetic</li>
-    </tradeTags>
-</ThingDef>
-<PawnKindDef ParentName="AnimalKindBase">
-	<defName>GR_AlphaRat</defName>
-	<label>paragon rat</label>
-	<race>GR_AlphaRat</race>
-	<combatPower>35</combatPower>
-	<canArriveManhunter>false</canArriveManhunter>
-	<ecoSystemWeight>1</ecoSystemWeight>
-	<lifeStages>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Rat/Alpharat</texPath>
-				<drawSize>1.5</drawSize>
-				<shaderType>CutoutComplex</shaderType>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Rat/Dessicated_Rat</texPath>
-				<drawSize>1.5</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Rat/Alpharat</texPath>
-				<drawSize>2</drawSize>
-				<shaderType>CutoutComplex</shaderType>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Rat/Dessicated_Rat</texPath>
-				<drawSize>2</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Rat/Alpharat</texPath>
-				<drawSize>2.5</drawSize>
-				<shaderType>CutoutComplex</shaderType>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Rat/Dessicated_Rat</texPath>
-				<drawSize>2.5</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-	</lifeStages>
-</PawnKindDef>
+		</lifeStages>
+	</PawnKindDef>
 
-<!-- Tortoise -->	  
+	<!-- Iguana -->	 
 
-<ThingDef ParentName="AnimalThingBase">
-	<defName>GR_AlphaTortoise</defName>
-	<label>paragon tortoise</label>
-	<thingClass>GeneticRim.AlternateHybridSkins</thingClass>
-	<description>This heavily armored land-dwelling reptile is known for its slow moving speed and surprisingly vicious bite.\n\nUseful abilities: Paragon tortoises can be butchered to obtain their shells, and with a big enough tortoise farm it could probably be used as a building material.</description>
-	<statBases>
-		<MoveSpeed>0.5</MoveSpeed>
-		<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
-		<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
-		<ComfyTemperatureMin>0</ComfyTemperatureMin>
-		<MarketValue>400</MarketValue>
-	</statBases>
-	<tools>
-		<li>
-			<capacities>
-				<li>Bite</li>
-			</capacities>
-			<power>15</power>
-			<cooldownTime>3.1</cooldownTime>
-			<linkedBodyPartsGroup>TurtleBeakAttackTool</linkedBodyPartsGroup>
-		</li>
-		<li>
-			<label>head</label>
-			<capacities>
-				<li>Blunt</li>
-			</capacities>
-			<power>4</power>
-			<cooldownTime>1.65</cooldownTime>
-			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-			<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-			<chanceFactor>0.2</chanceFactor>      </li>
-	</tools>
-
-	<comps>
-		<li Class="CompProperties_EggLayer">
-			<eggUnfertilizedDef>GR_AlphaTortoiseEggUnfertilized</eggUnfertilizedDef>
-			<eggFertilizedDef>GR_AlphaTortoiseEggFertilized</eggFertilizedDef>
-			<eggFertilizationCountMax>1</eggFertilizationCountMax>
-			<eggLayIntervalDays>18</eggLayIntervalDays>
-			<eggCountRange>
-				<min>2</min>
-				<max>3</max>
-			</eggCountRange>
-
-
-		</li>
-		<li Class="GeneticRim.CompProperties_Draftable">
-			<poisonouscloud>true</poisonouscloud>
-		</li>
-	</comps>
-	<race>
-						<fleshType>GR_Normal</fleshType>
-
-		<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
-		<body>TurtleLike</body>
-		<baseBodySize>0.75</baseBodySize>
-		<baseHungerRate>0.75</baseHungerRate>
-		<baseHealthScale>1.5</baseHealthScale>
-		<foodType>OmnivoreRoughAnimal</foodType>
-		<useLeatherFrom>Tortoise</useLeatherFrom>
-		<useMeatFrom>Tortoise</useMeatFrom>	  
-		<wildness>0.75</wildness>
-		<gestationPeriodDays>18</gestationPeriodDays>
-		<litterSizeCurve>
-			<points>
-				<li>(0.5, 0)</li>
-				<li>(1, 1)</li>
-				<li>(3, 1)</li>
-				<li>(3.5, 0)</li>
-			</points>
-		</litterSizeCurve>
-		<lifeExpectancy>250</lifeExpectancy>
-		<lifeStageAges>
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_AlphaIguana</defName>
+		<label>paragon iguana</label>
+		<description>This large lizard has a beautiful iridiscent sheen on its scales. Contrary to the regular iguanas, this paragon specimen has a nasty venomous bite.\n\nUseful abilities: Lays eggs and has a venomous bite.</description>
+		<statBases>
+			<MoveSpeed>3.75</MoveSpeed>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<MarketValue>200</MarketValue>
+		</statBases>
+		<tools>
 			<li>
-				<def>AnimalBaby</def>
-				<minAge>0</minAge>
+				<label>left claw</label>
+				<capacities>
+					<li>GR_LightToxicBite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
 			</li>
 			<li>
-				<def>AnimalJuvenile</def>
-				<minAge>0.15</minAge>
+				<label>right claw</label>
+				<capacities>
+					<li>GR_LightToxicBite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
 			</li>
 			<li>
-				<def>AnimalAdult</def>
-				<minAge>0.3</minAge>
-				<soundWounded>Pawn_Tortoise_Wounded</soundWounded>
-				<soundDeath>Pawn_Tortoise_Death</soundDeath>
-				<soundCall>Pawn_Tortoise_Call</soundCall>
-				<soundAngry>Pawn_Tortoise_Angry</soundAngry>
+				<capacities>
+					<li>GR_LightToxicBite</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 			</li>
-		</lifeStageAges>
-		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-	</race>
-	<tradeTags>
-      <li>AnimalGenetic</li>
-    </tradeTags>
-	<butcherProducts>
-		<GR_TortoiseShell>50</GR_TortoiseShell>
-	</butcherProducts>
-</ThingDef>
-<PawnKindDef ParentName="AnimalKindBase">
-	<defName>GR_AlphaTortoise</defName>
-	<label>paragon tortoise</label>
-	<race>GR_AlphaTortoise</race>
-	<combatPower>55</combatPower>
-	<canArriveManhunter>false</canArriveManhunter>
-	<ecoSystemWeight>1</ecoSystemWeight>
-	<lifeStages>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Tortoise/Alphatortoise</texPath>
-				<drawSize>2</drawSize>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Tortoise/Dessicated_Alphatortoise</texPath>
-				<drawSize>2</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Tortoise/Alphatortoise</texPath>
-				<drawSize>2.5</drawSize>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Tortoise/Dessicated_Alphatortoise</texPath>
-				<drawSize>2.5</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-		<li>
-			<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Tortoise/Alphatortoise</texPath>
-				<drawSize>3</drawSize>
-				<shadowData>
-					<volume>(0.45, 0.45, 0.45)</volume>
-					<offset>(0,0,0)</offset>
-				</shadowData>
-			</bodyGraphicData>
-			<dessicatedBodyGraphicData>
-				<texPath>Things/Pawn/Animal/Alpha/Tortoise/Dessicated_Alphatortoise</texPath>
-				<drawSize>3</drawSize>
-			</dessicatedBodyGraphicData>
-		</li>
-	</lifeStages>
-</PawnKindDef>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>GR_AlphaIguanaEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>GR_AlphaIguanaEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>10</eggLayIntervalDays>
+				<eggCountRange>
+					<min>1</min>
+					<max>2</max>
+				</eggCountRange>
+			</li>
+			<li Class="GeneticRim.CompProperties_Draftable">
+				<poisonouscloud>true</poisonouscloud>
+			</li>
+		</comps>
+		<race>
+			<fleshType>GR_Normal</fleshType>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithClawsTailAndJowl</body>
+			<baseBodySize>0.40</baseBodySize>
+			<baseHealthScale>1</baseHealthScale>
+			<baseHungerRate>0.35</baseHungerRate>
+			<foodType>OmnivoreRoughAnimal</foodType>
+			<useLeatherFrom>Iguana</useLeatherFrom>
+			<useMeatFrom>Iguana</useMeatFrom>
+			<wildness>0.5</wildness>
+			<gestationPeriodDays>12</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(3, 1)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>18</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.09</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.25</minAge>
+					<soundWounded>Pawn_Iguana_Wounded</soundWounded>
+					<soundDeath>Pawn_Iguana_Death</soundDeath>
+					<soundCall>Pawn_Iguana_Call</soundCall>
+					<soundAngry>Pawn_Iguana_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_AlphaIguana</defName>
+		<label>paragon iguana</label>
+		<race>GR_AlphaIguana</race>
+		<combatPower>50</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Iguana/Alphaiguana</texPath>
+					<drawSize>1.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Iguana/Alphaiguana</texPath>
+					<drawSize>1.75</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
+					<drawSize>1.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Iguana/Alphaiguana</texPath>
+					<drawSize>2.2</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,0)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Pig -->	 
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_AlphaPig</defName>
+		<label>paragon pig</label>
+		<description>This huge pig has a voracious appetite, but the quality of its meat is legendary.\n\nUseful abilities: The butchering process will produce bacon jerky and jamón serrano, two delicacies that can be stored for months without refrigeration.</description>
+		<statBases>
+			<MoveSpeed>3.9</MoveSpeed>
+			<ComfyTemperatureMin>-8</ComfyTemperatureMin>
+			<MarketValue>560</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+			<li Class="GeneticRim.CompProperties_Draftable">
+				<rage>true</rage>
+			</li>
+		</comps>
+		<race>
+			<fleshType>GR_Normal</fleshType>
+
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithHooves</body>
+			<baseBodySize>1.2</baseBodySize>
+			<baseHealthScale>1</baseHealthScale>
+			<baseHungerRate>1.2</baseHungerRate>
+			<foodType>OmnivoreRoughAnimal</foodType>
+			<useLeatherFrom>Pig</useLeatherFrom>
+			<useMeatFrom>Pig</useMeatFrom>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<wildness>0.4</wildness>
+			<trainability>Advanced</trainability>
+
+			<gestationPeriodDays>10</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(3, 1)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>18</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.1</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.35</minAge>
+					<soundWounded>Pawn_Wildboar_Wounded</soundWounded>
+					<soundDeath>Pawn_Wildboar_Death</soundDeath>
+					<soundCall>Pawn_Wildboar_Call</soundCall>
+					<soundAngry>Pawn_Wildboar_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+		<butcherProducts>
+			<GR_BaconStrips>4</GR_BaconStrips>
+			<GR_JamonSerrano>1</GR_JamonSerrano>
+		</butcherProducts>
+
+
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_AlphaPig</defName>
+		<label>paragon pig</label>
+		<race>GR_AlphaPig</race>
+		<combatPower>65</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<labelFemale>paragon sow</labelFemale>
+		<lifeStages>
+			<li>
+				<label>paragon piglet</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Pig/Alphapig</texPath>
+					<drawSize>1.2</drawSize>
+
+					<shadowData>
+						<volume>(0.25, 0.25, 0.25)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Pig/Dessicated_Pig</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Pig/Alphapig</texPath>
+					<drawSize>2</drawSize>
+
+					<shadowData>
+						<volume>(0.375, 0.375, 0.375)</volume>
+						<offset>(0,0,0)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Pig/Alphapig</texPath>
+					<drawSize>1.8</drawSize>
+
+					<shadowData>
+						<volume>(0.375, 0.375, 0.375)</volume>
+						<offset>(0,0,0)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Pig/Dessicated_Pig</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Pig/Alphapig</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.5, 0.5)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Pig/Alphapig</texPath>
+					<drawSize>2.2</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.5, 0.4)</volume>
+						<offset>(0,0,-0.05)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Pig/Dessicated_Pig</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Rat -->	 
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_AlphaRat</defName>
+		<label>paragon rat</label>
+		<description>This rat is obviously disease ridden.\n\nUseful abilities: Paragon rats spread the bubonic plague when they bite. Careful!</description>
+		<statBases>
+			<MoveSpeed>4</MoveSpeed>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+			<MarketValue>120</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>GR_PlagueBite</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>GR_PlagueBite</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>GR_PlagueBite</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+			<li Class="GeneticRim.CompProperties_Draftable">
+				<burrowing>true</burrowing>
+			</li>
+		</comps>
+		<race>
+			<fleshType>GR_Normal</fleshType>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithPaws</body>
+			<baseBodySize>0.3</baseBodySize>
+			<baseHungerRate>0.50</baseHungerRate>
+			<baseHealthScale>0.55</baseHealthScale>
+			<foodType>OmnivoreRoughAnimal</foodType>
+			<useLeatherFrom>Rat</useLeatherFrom>
+			<useMeatFrom>Rat</useMeatFrom>
+			<wildness>0.50</wildness>
+			<mateMtbHours>6</mateMtbHours>
+			<gestationPeriodDays>10</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(5, 1)</li>
+					<li>(5.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>12</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.07</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3</minAge>
+					<soundWounded>Pawn_Boomrat_Wounded</soundWounded>
+					<soundDeath>Pawn_Boomrat_Death</soundDeath>
+					<soundCall>Pawn_Boomrat_Call</soundCall>
+					<soundAngry>Pawn_Boomrat_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_AlphaRat</defName>
+		<label>paragon rat</label>
+		<race>GR_AlphaRat</race>
+		<combatPower>35</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Rat/Alpharat</texPath>
+					<drawSize>1.5</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Rat/Dessicated_Rat</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Rat/Alpharat</texPath>
+					<drawSize>2</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Rat/Dessicated_Rat</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Rat/Alpharat</texPath>
+					<drawSize>2.5</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Rat/Dessicated_Rat</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Tortoise -->	  
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_AlphaTortoise</defName>
+		<label>paragon tortoise</label>
+		<thingClass>GeneticRim.AlternateHybridSkins</thingClass>
+		<description>This heavily armored land-dwelling reptile is known for its slow moving speed and surprisingly vicious bite.\n\nUseful abilities: Paragon tortoises can be butchered to obtain their shells, and with a big enough tortoise farm it could probably be used as a building material.</description>
+		<statBases>
+			<MoveSpeed>0.5</MoveSpeed>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<MarketValue>400</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>3.1</cooldownTime>
+				<linkedBodyPartsGroup>TurtleBeakAttackTool</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>GR_AlphaTortoiseEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>GR_AlphaTortoiseEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>18</eggLayIntervalDays>
+				<eggCountRange>
+					<min>2</min>
+					<max>3</max>
+				</eggCountRange>
+
+
+			</li>
+			<li Class="GeneticRim.CompProperties_Draftable">
+				<poisonouscloud>true</poisonouscloud>
+			</li>
+		</comps>
+		<race>
+			<fleshType>GR_Normal</fleshType>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>TurtleLike</body>
+			<baseBodySize>0.75</baseBodySize>
+			<baseHungerRate>0.75</baseHungerRate>
+			<baseHealthScale>1.5</baseHealthScale>
+			<foodType>OmnivoreRoughAnimal</foodType>
+			<useLeatherFrom>Tortoise</useLeatherFrom>
+			<useMeatFrom>Tortoise</useMeatFrom>	  
+			<wildness>0.75</wildness>
+			<gestationPeriodDays>18</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(3, 1)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>250</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3</minAge>
+					<soundWounded>Pawn_Tortoise_Wounded</soundWounded>
+					<soundDeath>Pawn_Tortoise_Death</soundDeath>
+					<soundCall>Pawn_Tortoise_Call</soundCall>
+					<soundAngry>Pawn_Tortoise_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalGenetic</li>
+		</tradeTags>
+		<butcherProducts>
+			<GR_TortoiseShell>50</GR_TortoiseShell>
+		</butcherProducts>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_AlphaTortoise</defName>
+		<label>paragon tortoise</label>
+		<race>GR_AlphaTortoise</race>
+		<combatPower>55</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Tortoise/Alphatortoise</texPath>
+					<drawSize>2</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Tortoise/Dessicated_Alphatortoise</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Tortoise/Alphatortoise</texPath>
+					<drawSize>2.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Tortoise/Dessicated_Alphatortoise</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Tortoise/Alphatortoise</texPath>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.45, 0.45, 0.45)</volume>
+						<offset>(0,0,0)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Alpha/Tortoise/Dessicated_Alphatortoise</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
 
 
 </Defs>

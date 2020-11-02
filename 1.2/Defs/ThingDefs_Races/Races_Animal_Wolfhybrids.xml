@@ -71,7 +71,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 		<comps>
 			<li Class="GeneticRim.CompProperties_Draftable">
@@ -85,7 +86,7 @@
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<baseBodySize>1</baseBodySize>
 			<baseHungerRate>0.18</baseHungerRate>
 			<baseHealthScale>1.5</baseHealthScale>
@@ -262,7 +263,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 		<comps>
 			<li Class="GeneticRim.CompProperties_AnimalProduct">
@@ -285,7 +287,7 @@
 			<executionRange>6</executionRange>
 			<predator>true</predator>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<baseBodySize>0.85</baseBodySize>
 			<baseHungerRate>0.18</baseHungerRate>
 			<baseHealthScale>0.99</baseHealthScale>
@@ -456,7 +458,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
@@ -485,7 +488,7 @@
 
 			<predator>false</predator>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<baseBodySize>0.65</baseBodySize>
 			<baseHungerRate>0.18</baseHungerRate>
 			<baseHealthScale>0.79</baseHealthScale>
@@ -665,7 +668,7 @@
 
 			<predator>false</predator>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<baseBodySize>1.5</baseBodySize>
 			<baseHungerRate>0.18</baseHungerRate>
 			<baseHealthScale>0.89</baseHealthScale>
@@ -767,7 +770,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	
+
 	<!-- Wolf - Rodent  -->
 
 
@@ -847,11 +850,12 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 		<race>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
@@ -908,7 +912,7 @@
 		<label>wolfbeaver</label>
 		<race>GR_Wolfbeaver</race>
 		<combatPower>75</combatPower>
-
+		<canArriveManhunter>false</canArriveManhunter>
 		<lifeStages>
 			<li>
 				<label>wolfbeaver puppy</label>
@@ -952,8 +956,8 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	
-		<!-- Wolf - Cat -->
+
+	<!-- Wolf - Cat -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Wolfcat</defName>
 		<label>wolfcat</label>
@@ -1024,7 +1028,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 		<comps>
 			<li Class="GeneticRim.CompProperties_Draftable">
@@ -1042,8 +1047,8 @@
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
 			<fleshType>GR_Normal</fleshType>
-			      <maxPreyBodySize>2.3</maxPreyBodySize>
-
+			<maxPreyBodySize>2.3</maxPreyBodySize>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<nuzzleMtbHours>24</nuzzleMtbHours>
 			<baseBodySize>1</baseBodySize>
 			<baseHungerRate>0.18</baseHungerRate>
@@ -1140,7 +1145,7 @@
 					<texPath>Things/Pawn/Animal/Wolf/Wolfcat/GR_Dessicated_Wolfcat</texPath>
 					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
-				
+
 			</li>
 
 		</lifeStages>

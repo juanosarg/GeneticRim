@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Insectoids</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesInsectoid"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Corpse_VFEI_Insectoid_Queen</li>
+						<li>Corpse_VFEI_Insectoid_RoyalMegaspider</li>
+						<li>Corpse_VFEI_Insectoid_Gigalocust</li>
+						<li>Corpse_VFEI_Insectoid_Megapede</li>
+						<li>Corpse_VFEI_Insectoid_Larvae</li>
+						<li>Corpse_VFEI_VatgrownBoomtick</li>
+						<li>Corpse_VFEI_VatGrownCuterpillar</li>
+						<li>Corpse_VFEI_VatGrownGigascorpion</li>
+						<li>Corpse_VFEI_VatGrownGigawig</li>
+						<li>Corpse_VFEI_VatGrownMegacricket</li>
+						<li>Corpse_VFEI_VatGrownMilkbeetle</li>
+						<li>Corpse_VFEI_VatGrownMonstrosity</li>
+						<li>Corpse_VFEI_VatGrownPrincess</li>
+						<li>Corpse_VFEI_VatgrownRoyalLarva</li>
+						<li>Corpse_VFEI_VatGrownRoyalMaggot</li>
+						<li>Corpse_VFEI_VatGrownSpiderweaver</li>
+						<li>Corpse_VFEI_VatGrownTitanbeetle</li>
+						<li>Corpse_VFEI_VatGrownGigalocust</li>
+						<li>Corpse_VFEI_VatGrownMegapede</li>
+						<li>Corpse_VFEI_VatGrownMegascarab</li>
+						<li>Corpse_VFEI_VatgrownMegaspider</li>
+						<li>Corpse_VFEI_VatGrownSpelopede</li>
+						<li>Corpse_VFEI_VatGrownWargling</li>
+						<li>Corpse_VFEI_VatGrownWorkerAnt</li>
+
+
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesInsectoid"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Corpse_VFEI_Insectoid_Queen</li>
+						<li>Corpse_VFEI_Insectoid_RoyalMegaspider</li>
+						<li>Corpse_VFEI_Insectoid_Gigalocust</li>
+						<li>Corpse_VFEI_Insectoid_Megapede</li>
+						<li>Corpse_VFEI_Insectoid_Larvae</li>
+						<li>Corpse_VFEI_VatgrownBoomtick</li>
+						<li>Corpse_VFEI_VatGrownCuterpillar</li>
+						<li>Corpse_VFEI_VatGrownGigascorpion</li>
+						<li>Corpse_VFEI_VatGrownGigawig</li>
+						<li>Corpse_VFEI_VatGrownMegacricket</li>
+						<li>Corpse_VFEI_VatGrownMilkbeetle</li>
+						<li>Corpse_VFEI_VatGrownMonstrosity</li>
+						<li>Corpse_VFEI_VatGrownPrincess</li>
+						<li>Corpse_VFEI_VatgrownRoyalLarva</li>
+						<li>Corpse_VFEI_VatGrownRoyalMaggot</li>
+						<li>Corpse_VFEI_VatGrownSpiderweaver</li>
+						<li>Corpse_VFEI_VatGrownTitanbeetle</li>
+						<li>Corpse_VFEI_VatGrownGigalocust</li>
+						<li>Corpse_VFEI_VatGrownMegapede</li>
+						<li>Corpse_VFEI_VatGrownMegascarab</li>
+						<li>Corpse_VFEI_VatgrownMegaspider</li>
+						<li>Corpse_VFEI_VatGrownSpelopede</li>
+						<li>Corpse_VFEI_VatGrownWargling</li>
+						<li>Corpse_VFEI_VatGrownWorkerAnt</li>
+
+
+
+
+					</value>
+				</li>	
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+
+						<RecipeDef>
+							<defName>GR_RecombineDroneGenome</defName>
+							<label>recombine drone genome</label>
+							<description>Recombine normal insectoid genetic material to get specialized Drone Genomes.</description>
+							<jobString>Recombining Drone Genome</jobString>
+							<effectWorking>Cremate</effectWorking>
+							<soundWorking>Recipe_Cremate</soundWorking>
+							<workAmount>500</workAmount>
+							<workSkill>Intellectual</workSkill>
+							<allowMixingIngredients>true</allowMixingIngredients>
+
+							<recipeUsers>
+								<li>GR_GeneRecombinator</li>	  
+							</recipeUsers>	
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											
+											<li>GR_InsectoidGenetic</li>
+											
+										</thingDefs>
+									</filter>
+									<count>5</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+
+								<thingDefs>
+									
+									<li>GR_InsectoidGenetic</li>
+									
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<VFEI_DroneGenome>1</VFEI_DroneGenome>
+							</products>
+							<skillRequirements>
+								<Intellectual>5</Intellectual>
+							</skillRequirements>
+						</RecipeDef>
+						
+						<RecipeDef>
+							<defName>GR_RecombineWarriorGenome</defName>
+							<label>recombine warrior genome</label>
+							<description>Recombine normal insectoid genetic material to get specialized Warrior Genomes.</description>
+							<jobString>Recombining Drone Genome</jobString>
+							<effectWorking>Cremate</effectWorking>
+							<soundWorking>Recipe_Cremate</soundWorking>
+							<workAmount>500</workAmount>
+							<workSkill>Intellectual</workSkill>
+							<allowMixingIngredients>true</allowMixingIngredients>
+
+							<recipeUsers>
+								<li>GR_GeneRecombinator</li>	  
+							</recipeUsers>	
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											
+											<li>GR_InsectoidGenetic</li>
+											
+										</thingDefs>
+									</filter>
+									<count>5</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+
+								<thingDefs>
+									
+									<li>GR_InsectoidGenetic</li>
+									
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<VFEI_WarriorGenome>1</VFEI_WarriorGenome>
+							</products>
+							<skillRequirements>
+								<Intellectual>5</Intellectual>
+							</skillRequirements>
+						</RecipeDef>
+						
+						<RecipeDef>
+							<defName>GR_RecombineRoyalGenome</defName>
+							<label>recombine royal genome</label>
+							<description>Recombine normal insectoid genetic material to get specialized Royal Genomes.</description>
+							<jobString>Recombining Drone Genome</jobString>
+							<effectWorking>Cremate</effectWorking>
+							<soundWorking>Recipe_Cremate</soundWorking>
+							<workAmount>500</workAmount>
+							<workSkill>Intellectual</workSkill>
+							<allowMixingIngredients>true</allowMixingIngredients>
+
+							<recipeUsers>
+								<li>GR_GeneRecombinator</li>	  
+							</recipeUsers>	
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											
+											<li>GR_InsectoidGenetic</li>
+											
+										</thingDefs>
+									</filter>
+									<count>5</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+
+								<thingDefs>
+									
+									<li>GR_InsectoidGenetic</li>
+									
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<VFEI_RoyalGenome>1</VFEI_RoyalGenome>
+							</products>
+							<skillRequirements>
+								<Intellectual>5</Intellectual>
+							</skillRequirements>
+						</RecipeDef>
+
+
+
+					</value>
+				</li>	
+
+
+
+
+
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>

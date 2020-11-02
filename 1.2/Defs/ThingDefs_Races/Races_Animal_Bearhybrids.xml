@@ -78,7 +78,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 		<comps>
 
@@ -98,6 +99,7 @@
 
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<herdAnimal>false</herdAnimal>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<predator>true</predator>
 			<body>QuadrupedAnimalWithPaws</body>
 			<baseHungerRate>0.35</baseHungerRate>
@@ -268,7 +270,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 
@@ -301,6 +304,7 @@
 
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<herdAnimal>false</herdAnimal>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<predator>false</predator>
 			<body>GR_QuadrupedAnimalWithBeak</body>
 			<baseHungerRate>0.35</baseHungerRate>
@@ -474,7 +478,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
@@ -674,7 +679,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 
@@ -691,7 +697,7 @@
 			<useMeatFrom>Bear_Grizzly</useMeatFrom>
 			<wildness>0.80</wildness>  
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<intelligence>Animal</intelligence>
 
@@ -783,7 +789,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	
+
 	<!-- Bear - Rodent -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Bearmole</defName>
@@ -856,7 +862,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 		<comps>
 			<li Class="GeneticRim.CompProperties_Draftable">
@@ -870,7 +877,7 @@
 			<body>QuadrupedAnimalWithPaws</body>
 			<predator>true</predator>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<baseBodySize>2.5</baseBodySize>
 			<baseHungerRate>0.18</baseHungerRate>
 			<baseHealthScale>3</baseHealthScale>
@@ -973,7 +980,7 @@
 
 		</lifeStages>
 	</PawnKindDef>
-	
+
 	<!-- Bear - Cat -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Bearcat</defName>
@@ -984,70 +991,70 @@
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
 			<MarketValue>400</MarketValue>
 		</statBases>
-		  <tools>
-      <li>
-        <label>left claw</label>
-        <capacities>
-          <li>Scratch</li>
-        </capacities>
-        <power>15</power>
-        <cooldownTime>1.5</cooldownTime>
-        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-        <surpriseAttack>
-          <extraMeleeDamages>
-            <li>
-              <def>Stun</def>
-              <amount>20</amount>
-            </li>
-          </extraMeleeDamages>
-        </surpriseAttack>
-      </li>
-      <li>
-        <label>right claw</label>
-        <capacities>
-          <li>Scratch</li>
-        </capacities>
-        <power>15</power>
-        <cooldownTime>1.5</cooldownTime>
-        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-        <surpriseAttack>
-          <extraMeleeDamages>
-            <li>
-              <def>Stun</def>
-              <amount>20</amount>
-            </li>
-          </extraMeleeDamages>
-        </surpriseAttack>
-      </li>
-      <li>
-        <capacities>
-          <li>Bite</li>
-        </capacities>
-        <power>16</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        <chanceFactor>0.7</chanceFactor>
-        <surpriseAttack>
-          <extraMeleeDamages>
-            <li>
-              <def>Stun</def>
-              <amount>18</amount>
-            </li>
-          </extraMeleeDamages>
-        </surpriseAttack>
-      </li>
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>
-      </li>
-    </tools>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>18</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
 
 		<comps>
 			<li Class="GeneticRim.CompProperties_Draftable">
@@ -1070,7 +1077,7 @@
 			<baseHealthScale>2</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>			
 			<gestationPeriodDays>26</gestationPeriodDays>
-			
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<trainability>Advanced</trainability>
 			<wildness>0.8</wildness>
 			<nuzzleMtbHours>24</nuzzleMtbHours>
@@ -1078,7 +1085,7 @@
 			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
 			<useLeatherFrom>Cougar</useLeatherFrom>
 			<useMeatFrom>Bear_Grizzly</useMeatFrom>
-			
+
 			<lifeExpectancy>13</lifeExpectancy>
 			<lifeStageAges>
 				<li>

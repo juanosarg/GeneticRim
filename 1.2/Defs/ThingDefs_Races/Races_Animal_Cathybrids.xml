@@ -89,6 +89,7 @@
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<maxPreyBodySize>0.5</maxPreyBodySize>
 			<baseBodySize>0.255</baseBodySize>
 			<baseHungerRate>0.1</baseHungerRate>
@@ -252,6 +253,7 @@
 				<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 				<body>QuadrupedAnimalWithPawsAndTail</body>
 				<predator>true</predator>
+				<herdMigrationAllowed>false</herdMigrationAllowed>
 				<maxPreyBodySize>0.25</maxPreyBodySize>
 				<baseBodySize>0.255</baseBodySize>
 				<baseHungerRate>0.05</baseHungerRate>
@@ -420,6 +422,7 @@
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<useLeatherFrom>Cat</useLeatherFrom>
 			<useMeatFrom>Chicken</useMeatFrom>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<wildness>0.36</wildness>
 			<trainability>None</trainability>
 			<nuzzleMtbHours>20</nuzzleMtbHours>
@@ -596,6 +599,7 @@
 			<useMeatFrom>Cat</useMeatFrom>
 			<packAnimal>true</packAnimal>
 			<wildness>0.36</wildness>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<trainability>Intermediate</trainability>
 			<nuzzleMtbHours>20</nuzzleMtbHours>
 			<gestationPeriodDays>24</gestationPeriodDays>
@@ -784,6 +788,7 @@
 			<useLeatherFrom>Cat</useLeatherFrom>
 			<useMeatFrom>Cat</useMeatFrom>
 			<wildness>0.36</wildness>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<trainability>Intermediate</trainability>
 			<nuzzleMtbHours>20</nuzzleMtbHours>
 			<mateMtbHours>1</mateMtbHours>
@@ -972,6 +977,7 @@
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<useLeatherFrom>Cat</useLeatherFrom>
 			<useMeatFrom>Cat</useMeatFrom>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<wildness>0.36</wildness>
 			<trainability>Advanced</trainability>
 			<nuzzleMtbHours>20</nuzzleMtbHours>

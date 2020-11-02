@@ -73,7 +73,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 		<comps>
 			<li Class="GeneticRim.CompProperties_Draftable">
@@ -105,6 +106,7 @@
 			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
 			<useLeatherFrom>Rat</useLeatherFrom>
 			<useMeatFrom>Rat</useMeatFrom>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>
@@ -243,7 +245,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 		<comps>
 			<li Class="GeneticRim.CompProperties_AnimalProduct">
@@ -260,7 +263,7 @@
 		</comps>  
 		<race>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<deathActionWorkerClass>DeathActionWorker_SmallExplosion</deathActionWorkerClass>
@@ -405,7 +408,7 @@
 
 			<predator>false</predator>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<baseBodySize>0.2</baseBodySize>
 			<baseHungerRate>0.23</baseHungerRate>
 			<baseHealthScale>0.4</baseHealthScale>
@@ -558,7 +561,7 @@
 
 			<predator>false</predator>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<baseBodySize>1.75</baseBodySize>
 			<baseHungerRate>0.85</baseHungerRate>
 			<baseHealthScale>1.5</baseHealthScale>
@@ -708,7 +711,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 		<comps>
 			<li Class="GeneticRim.CompProperties_Draftable">
@@ -906,11 +910,12 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 		<race>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
@@ -967,7 +972,7 @@
 		<label>beaverwolf</label>
 		<race>GR_Beaverwolf</race>
 		<combatPower>75</combatPower>
-
+		<canArriveManhunter>false</canArriveManhunter>
 		<lifeStages>
 			<li>
 				<label>beaverwolf puppy</label>
@@ -1040,20 +1045,26 @@
 				<label>left claw</label>
 				<cooldownTime>1.35</cooldownTime>
 				<power>16</power>
-				<capacities><li>Scratch</li></capacities>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
 				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 			</li>
 			<li>
 				<label>right claw</label>
 				<cooldownTime>1.35</cooldownTime>
 				<power>16</power>
-				<capacities><li>Scratch</li></capacities>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
 				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 			</li>
 			<li>
 				<cooldownTime>1.6</cooldownTime>
 				<power>21</power>
-				<capacities><li>Bite</li></capacities>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
@@ -1070,6 +1081,7 @@
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>GR_QuadrupedAnimalWithPawsAndFangs</body>
 			<predator>true</predator>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<baseBodySize>2.5</baseBodySize>
 			<baseHungerRate>0.8</baseHungerRate>
 			<baseHealthScale>4</baseHealthScale>
@@ -1120,7 +1132,7 @@
 		<label>rabbitcat</label>
 		<race>GR_Rabbitcat</race>
 		<combatPower>375</combatPower>
-
+		<canArriveManhunter>false</canArriveManhunter>
 		<lifeStages>
 			<li>
 				<label>rabbitcat kitten</label>

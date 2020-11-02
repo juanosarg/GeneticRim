@@ -299,7 +299,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 			<li>
 				<label>beak</label>
 				<capacities>
@@ -566,7 +567,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	
+
 	<!-- Muffalo - Rat -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Muffalorat</defName>
@@ -611,7 +612,7 @@
 
 			<predator>false</predator>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<baseBodySize>2.15</baseBodySize>
 			<baseHungerRate>0.85</baseHungerRate>
 			<baseHealthScale>1.5</baseHealthScale>
@@ -700,7 +701,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	
+
 	<!-- Muffalo - Cat -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Muffalocat</defName>
@@ -711,47 +712,47 @@
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
 			<MarketValue>400</MarketValue>
 		</statBases>
-		 <tools>
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>10</power>
-        <cooldownTime>2.6</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-      </li>
-      <li>
-        <label>left hoof</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>8</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <label>right hoof</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>8</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <capacities>
-          <li>Bite</li>
-        </capacities>
-        <power>10</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        <chanceFactor>0.5</chanceFactor>
-      </li>
-    </tools>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			</li>
+			<li>
+				<label>left hoof</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right hoof</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+			</li>
+		</tools>
 
 		<comps>
 			<li Class="CompProperties_Milkable">

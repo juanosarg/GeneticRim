@@ -677,7 +677,7 @@
 		</comps>  
 		<race>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<deathActionWorkerClass>DeathActionWorker_BigExplosion</deathActionWorkerClass>

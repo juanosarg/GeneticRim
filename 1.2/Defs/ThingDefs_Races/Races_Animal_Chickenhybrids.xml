@@ -38,7 +38,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
@@ -57,7 +58,7 @@
 		</comps>
 		<race>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>GR_BirdWithTeeth</body>
 			<baseHungerRate>0.45</baseHungerRate>
@@ -212,7 +213,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
@@ -237,7 +239,7 @@
 		</comps>
 		<race>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>Bird</body>
 			<deathActionWorkerClass>DeathActionWorker_SmallExplosion</deathActionWorkerClass>
@@ -381,7 +383,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
@@ -415,7 +418,6 @@
 			<herdAnimal>true</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<fleshType>GR_Normal</fleshType>
-
 			<packAnimal>true</packAnimal>
 			<body>GR_BirdWithTeeth</body>
 			<baseHungerRate>0.55</baseHungerRate>
@@ -564,7 +566,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
@@ -583,7 +586,7 @@
 		</comps>
 		<race>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>GR_BirdWithTeeth</body>
 			<baseHungerRate>0.8</baseHungerRate>
@@ -698,7 +701,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	
+
 	<!-- Chicken - Rabbit -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Chickenrabbit</defName>
@@ -736,7 +739,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
@@ -761,7 +765,7 @@
 
 			<predator>false</predator>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<baseBodySize>0.18</baseBodySize>
 			<baseHungerRate>0.3</baseHungerRate>
 			<baseHealthScale>0.35</baseHealthScale>
@@ -862,8 +866,8 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	
-		<!-- Chicken - Wolf -->
+
+	<!-- Chicken - Wolf -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Chickencat</defName>
 		<label>chickencat</label>
@@ -901,7 +905,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
@@ -934,8 +939,8 @@
 			<useLeatherFrom>Chicken</useLeatherFrom>
 			<useMeatFrom>Chicken</useMeatFrom>
 			<trainability>Intermediate</trainability>
-						<nuzzleMtbHours>24</nuzzleMtbHours>
-
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<wildness>0.36</wildness>
 			<gestationPeriodDays>15</gestationPeriodDays>
 			<mateMtbHours>8</mateMtbHours>
@@ -1033,7 +1038,7 @@
 					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
 					<drawSize>0.85</drawSize>
 				</dessicatedBodyGraphicData>
-				
+
 			</li>
 		</lifeStages>
 	</PawnKindDef>

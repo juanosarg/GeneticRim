@@ -81,14 +81,15 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 
 		<race>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<baseBodySize>2.5</baseBodySize>
 			<baseHungerRate>0.4</baseHungerRate>
@@ -229,7 +230,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 
@@ -250,7 +252,7 @@
 			<useLeatherFrom>Boomalope</useLeatherFrom>
 			<useMeatFrom>Boomalope</useMeatFrom>
 			<wildness>0.6</wildness>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<intelligence>Animal</intelligence>
 
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
@@ -374,7 +376,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
@@ -394,7 +397,7 @@
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>Bird</body>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<baseBodySize>0.3</baseBodySize>
 			<baseHungerRate>.35</baseHungerRate>
 			<baseHealthScale>0.75</baseHealthScale>
@@ -664,7 +667,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
@@ -700,7 +704,7 @@
 
 		<race>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>Snake</body>
 			<predator>true</predator>
@@ -867,7 +871,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
@@ -1063,7 +1068,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
@@ -1084,7 +1090,7 @@
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<fleshType>GR_Normal</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<predator>true</predator>
 			<baseBodySize>1.0</baseBodySize>
 			<baseHungerRate>0.25</baseHungerRate>
@@ -1237,7 +1243,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 
@@ -1259,7 +1266,7 @@
 			<useMeatFrom>Cobra</useMeatFrom>
 			<wildness>0.6</wildness>
 			<trainability>Advanced</trainability>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 
 			<lifeStageAges>

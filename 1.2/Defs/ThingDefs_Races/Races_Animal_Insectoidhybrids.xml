@@ -34,7 +34,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
@@ -58,7 +59,7 @@
 			<nameOnTameChance>1</nameOnTameChance>
 			<nuzzleMtbHours>20</nuzzleMtbHours>
 			<fleshType>GR_Insectoid</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<baseHungerRate>0.25</baseHungerRate>
 			<baseBodySize>1.5</baseBodySize>
 			<baseHealthScale>1.9</baseHealthScale>
@@ -170,9 +171,10 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
-		
+
 
 		<verbs>
 			<li>
@@ -212,7 +214,7 @@
 		</comps>
 		<race>
 			<fleshType>GR_Insectoid</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<deathActionWorkerClass>DeathActionWorker_BigExplosion</deathActionWorkerClass>
 			<executionRange>6</executionRange>
@@ -331,7 +333,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
@@ -356,7 +359,7 @@
 		</comps>
 		<race>
 			<fleshType>GR_Insectoid</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>BeetleLikeWithClaw</body>
 			<baseHungerRate>0.35</baseHungerRate>
@@ -470,7 +473,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 
 		<comps>
@@ -619,7 +623,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 		<comps>
 			<li Class="GeneticRim.CompProperties_Draftable">
@@ -641,7 +646,7 @@
 			<lifeExpectancy>120</lifeExpectancy>
 			<trainability>Advanced</trainability>
 			<fleshType>GR_Insectoid</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<lifeStageAges>
 				<li>
 					<def>EusocialInsectLarva</def>
@@ -750,7 +755,8 @@
 				<cooldownTime>1.95</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 		<comps>
 			<li Class="GeneticRim.CompProperties_Draftable">
@@ -772,7 +778,7 @@
 			<lifeExpectancy>12</lifeExpectancy>
 			<trainability>Advanced</trainability>
 			<fleshType>GR_Insectoid</fleshType>
-
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<lifeStageAges>
 				<li>
 					<def>EusocialInsectLarva</def>
@@ -849,8 +855,8 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	
-		<!-- Insectoid - Cat -->
+
+	<!-- Insectoid - Cat -->
 
 	<ThingDef ParentName="BaseInsect">
 		<defName>GR_Spidercat</defName>
@@ -866,15 +872,15 @@
 			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
 		</statBases>
 		<tools>
-			 <li>
-        <label>mandibles</label>
-        <capacities>
-          <li>Bite</li>
-        </capacities>
-        <power>12</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
-      </li>
+			<li>
+				<label>mandibles</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+			</li>
 			<li>
 				<label>head</label>
 				<capacities>
@@ -884,7 +890,8 @@
 				<cooldownTime>1.95</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>      </li>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 		<verbs>
 			<li>
@@ -923,8 +930,8 @@
 		<race>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>BeetleLike</body>
-			      <maxPreyBodySize>0.85</maxPreyBodySize>
-
+			<maxPreyBodySize>0.85</maxPreyBodySize>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<baseHungerRate>0.25</baseHungerRate>
 			<baseBodySize>0.85</baseBodySize>
 			<baseHealthScale>1</baseHealthScale>
