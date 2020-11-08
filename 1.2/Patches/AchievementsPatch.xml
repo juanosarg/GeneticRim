@@ -56,7 +56,7 @@
 							<label>Bearly Possible</label>
 							<description>Get all six Tier 1 Bear Hybrids</description>
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>GR_Bearalope</key>
 										<value>1</value>
@@ -81,7 +81,7 @@
 										<key>GR_Bearcat</key>
 										<value>1</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 								<requireAll>true</requireAll>
 							</tracker>
 							<texPath>Achievements/GR_AchievementBearlyPossible</texPath>
@@ -93,7 +93,7 @@
 							<label>OK, Boomer</label>
 							<description>Get all six Tier 1 Boomalope Hybrids</description>
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>GR_Boomabear</key>
 										<value>1</value>
@@ -118,7 +118,7 @@
 										<key>GR_Boomacat</key>
 										<value>1</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 								<requireAll>true</requireAll>
 							</tracker>
 							<texPath>Achievements/GR_AchievementOKBoomer</texPath>
@@ -130,7 +130,7 @@
 							<label>Psh Psh</label>
 							<description>Get all six Tier 1 Cat Hybrids</description>
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>GR_Catbear</key>
 										<value>1</value>
@@ -155,7 +155,7 @@
 										<key>GR_Catwolf</key>
 										<value>1</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 								<requireAll>true</requireAll>
 							</tracker>
 							<texPath>Achievements/GR_AchievementPshPsh</texPath>
@@ -167,7 +167,7 @@
 							<label>Hasta la Pollo</label>
 							<description>Get all six Tier 1 Chicken Hybrids</description>
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>GR_Chickenbear</key>
 										<value>1</value>
@@ -192,7 +192,7 @@
 										<key>GR_Chickencat</key>
 										<value>1</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 								<requireAll>true</requireAll>
 							</tracker>
 							<texPath>Achievements/GR_AchievementHastaLaPollo</texPath>
@@ -204,7 +204,7 @@
 							<label>Moo Squad</label>
 							<description>Get all six Tier 1 Muffalo Hybrids</description>
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>GR_Muffalobear</key>
 										<value>1</value>
@@ -229,7 +229,7 @@
 										<key>GR_Muffalocat</key>
 										<value>1</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 								<requireAll>true</requireAll>
 							</tracker>
 							<texPath>Achievements/GR_AchievementMooSquad</texPath>
@@ -241,7 +241,7 @@
 							<label>Pest Problems</label>
 							<description>Get all six Tier 1 Rodent / Leporid Hybrids</description>
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>GR_Molebear</key>
 										<value>1</value>
@@ -266,7 +266,7 @@
 										<key>GR_Rabbitcat</key>
 										<value>1</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 								<requireAll>true</requireAll>
 							</tracker>
 							<texPath>Achievements/GR_AchievementPestProblems</texPath>
@@ -278,7 +278,7 @@
 							<label>K9 Units</label>
 							<description>Get all six Tier 1 Wolf Hybrids</description>
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>GR_Wolfbear</key>
 										<value>1</value>
@@ -303,7 +303,7 @@
 										<key>GR_Wolfcat</key>
 										<value>1</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 								<requireAll>true</requireAll>
 							</tracker>
 							<texPath>Achievements/GR_AchievementK9Units</texPath>
@@ -315,7 +315,7 @@
 							<label>Top of the Class</label>
 							<description>Hatch a Paragon creature</description>
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>GR_AlphaBear</key>
 										<value>1</value>
@@ -372,7 +372,7 @@
 										<key>GR_AlphaTortoise</key>
 										<value>1</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 								<requireAll>false</requireAll>
 							</tracker>
 							<texPath>Achievements/GR_AchievementTopOfTheClass</texPath>
@@ -384,7 +384,7 @@
 							<label>I'm doing my part</label>
 							<description>Hatch a Tier 2 Insectoid Hybrid</description>
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>GR_Bearscarab</key>
 										<value>1</value>
@@ -413,7 +413,7 @@
 										<key>GR_Spidersnake</key>
 										<value>1</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 								<requireAll>false</requireAll>
 							</tracker>
 							<texPath>Achievements/GR_AchievementImDoingMyPart</texPath>
@@ -425,7 +425,7 @@
 							<label>Lizard People</label>
 							<description>Hatch a Tier 2 Reptilian Hybrid</description>
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>GR_Bearodile</key>
 										<value>1</value>
@@ -454,7 +454,7 @@
 										<key>GR_Snakecat</key>
 										<value>1</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 								<requireAll>false</requireAll>
 							</tracker>
 							<texPath>Achievements/GR_AchievementLizardPeople</texPath>
@@ -466,7 +466,7 @@
 							<label>Smarter Than You</label>
 							<description>Hatch a Tier 3 Thrumbo Hybrid</description>
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>GR_Thrumbospider</key>
 										<value>1</value>
@@ -499,7 +499,7 @@
 										<key>GR_Thrumbocat</key>
 										<value>1</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 								<requireAll>false</requireAll>
 							</tracker>
 							<texPath>Achievements/GR_AchievementSmarterThanYou</texPath>
@@ -511,7 +511,7 @@
 							<label>We Have the Technology</label>
 							<description>Hatch a Tier 4 Mechanoid Hybrid</description>
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>GR_Mechabear</key>
 										<value>1</value>
@@ -552,7 +552,7 @@
 										<key>GR_Mechacat</key>
 										<value>1</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 								<requireAll>false</requireAll>
 							</tracker>
 							<texPath>Achievements/GR_AchievementWeHaveTheTechnology</texPath>
@@ -564,12 +564,12 @@
 							<label>Task Failed Successfully</label>
 							<description>Hatch an Aberrant Fleshbeast in an experiment gone wrong</description>
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>GR_AberrantFleshbeast</key>
 										<value>1</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 							</tracker>
 
 							<texPath>Achievements/GR_AchievementTaskFailedSuccessfully</texPath>
@@ -596,7 +596,7 @@
 							<label>Pork Gourmet</label>
 							<description>Hoard 20 pieces of Jamón Serrano</description>
 
-							<tracker Class="AchievementsExpanded.ItemCraftTracker">
+							<tracker Class="AchievementsExpanded.ItemTracker">
 								<def>GR_JamonSerrano</def>
 
 								<count>20</count>
@@ -638,6 +638,7 @@
 
 							<tracker Class="AchievementsExpanded.HediffDeathTracker">
 								<def>GR_VirulentPoisonDrank</def>
+								<count>1</count>
 							</tracker>
 
 							<texPath>Achievements/GR_AchievementThusWithAKissIDie</texPath>
@@ -649,8 +650,9 @@
 							<label>Easter Egg Hunt</label>
 							<description>Have a pawn eat a Chocolate egg</description>
 
-							<tracker Class="AchievementsExpanded.HediffDeathTracker">
+							<tracker Class="AchievementsExpanded.HediffTracker">
 								<def>GR_AteChocolateEgg</def>
+								<count>1</count>
 							</tracker>
 
 							<texPath>Achievements/GR_AchievementEasterEggHunt</texPath>
@@ -825,12 +827,12 @@
 							<label>One 'Pede To Rule Them All</label>
 							<description>Create an Archotech Centipede and win the game</description>
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>GR_ArchotechCentipede</key>
 										<value>1</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 							</tracker>
 
 							<texPath>Achievements/GR_AchievementOnePedeToRuleThemAll</texPath>
