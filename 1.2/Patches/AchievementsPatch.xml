@@ -55,7 +55,7 @@
 							<defName>GR_AchievementBearlyPossible</defName>
 							<label>Bearly Possible</label>
 							<description>Get all six Tier 1 Bear Hybrids</description>
-							<tracker Class="AchievementsExpanded.RaceDefTracker">
+							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<kindDefs>
 									<li>
 										<key>GR_Bearalope</key>
@@ -92,7 +92,7 @@
 							<defName>GR_AchievementOKBoomer</defName>
 							<label>OK, Boomer</label>
 							<description>Get all six Tier 1 Boomalope Hybrids</description>
-							<tracker Class="AchievementsExpanded.RaceDefTracker">
+							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<kindDefs>
 									<li>
 										<key>GR_Boomabear</key>
@@ -129,7 +129,7 @@
 							<defName>GR_AchievementPshPsh</defName>
 							<label>Psh Psh</label>
 							<description>Get all six Tier 1 Cat Hybrids</description>
-							<tracker Class="AchievementsExpanded.RaceDefTracker">
+							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<kindDefs>
 									<li>
 										<key>GR_Catbear</key>
@@ -166,7 +166,7 @@
 							<defName>GR_AchievementHastaLaPollo</defName>
 							<label>Hasta la Pollo</label>
 							<description>Get all six Tier 1 Chicken Hybrids</description>
-							<tracker Class="AchievementsExpanded.RaceDefTracker">
+							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<kindDefs>
 									<li>
 										<key>GR_Chickenbear</key>
@@ -203,7 +203,7 @@
 							<defName>GR_AchievementMooSquad</defName>
 							<label>Moo Squad</label>
 							<description>Get all six Tier 1 Muffalo Hybrids</description>
-							<tracker Class="AchievementsExpanded.RaceDefTracker">
+							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<kindDefs>
 									<li>
 										<key>GR_Muffalobear</key>
@@ -240,7 +240,7 @@
 							<defName>GR_AchievementPestProblems</defName>
 							<label>Pest Problems</label>
 							<description>Get all six Tier 1 Rodent / Leporid Hybrids</description>
-							<tracker Class="AchievementsExpanded.RaceDefTracker">
+							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<kindDefs>
 									<li>
 										<key>GR_Molebear</key>
@@ -277,7 +277,7 @@
 							<defName>GR_AchievementK9Units</defName>
 							<label>K9 Units</label>
 							<description>Get all six Tier 1 Wolf Hybrids</description>
-							<tracker Class="AchievementsExpanded.RaceDefTracker">
+							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<kindDefs>
 									<li>
 										<key>GR_Wolfbear</key>
@@ -314,7 +314,7 @@
 							<defName>GR_AchievementTopOfTheClass</defName>
 							<label>Top of the Class</label>
 							<description>Hatch a Paragon creature</description>
-							<tracker Class="AchievementsExpanded.RaceDefTracker">
+							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<kindDefs>
 									<li>
 										<key>GR_AlphaBear</key>
@@ -383,7 +383,7 @@
 							<defName>GR_AchievementImDoingMyPart</defName>
 							<label>I'm doing my part</label>
 							<description>Hatch a Tier 2 Insectoid Hybrid</description>
-							<tracker Class="AchievementsExpanded.RaceDefTracker">
+							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<kindDefs>
 									<li>
 										<key>GR_Bearscarab</key>
@@ -424,7 +424,7 @@
 							<defName>GR_AchievementLizardPeople</defName>
 							<label>Lizard People</label>
 							<description>Hatch a Tier 2 Reptilian Hybrid</description>
-							<tracker Class="AchievementsExpanded.RaceDefTracker">
+							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<kindDefs>
 									<li>
 										<key>GR_Bearodile</key>
@@ -465,7 +465,7 @@
 							<defName>GR_AchievementSmarterThanYou</defName>
 							<label>Smarter Than You</label>
 							<description>Hatch a Tier 3 Thrumbo Hybrid</description>
-							<tracker Class="AchievementsExpanded.RaceDefTracker">
+							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<kindDefs>
 									<li>
 										<key>GR_Thrumbospider</key>
@@ -510,7 +510,7 @@
 							<defName>GR_AchievementWeHaveTheTechnology</defName>
 							<label>We Have the Technology</label>
 							<description>Hatch a Tier 4 Mechanoid Hybrid</description>
-							<tracker Class="AchievementsExpanded.RaceDefTracker">
+							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<kindDefs>
 									<li>
 										<key>GR_Mechabear</key>
@@ -563,7 +563,7 @@
 							<defName>GR_AchievementTaskFailedSuccessfully</defName>
 							<label>Task Failed Successfully</label>
 							<description>Hatch an Aberrant Fleshbeast in an experiment gone wrong</description>
-							<tracker Class="AchievementsExpanded.RaceDefTracker">
+							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<kindDefs>
 									<li>
 										<key>GR_AberrantFleshbeast</key>
@@ -785,7 +785,7 @@
 							<label>Cryo Hoarder</label>
 							<description>Hoard 300 canisters of Cryofuel (you'll need it!)</description>
 
-							<tracker Class="AchievementsExpanded.ItemCraftTracker">
+							<tracker Class="AchievementsExpanded.ItemTracker">
 								<def>GR_Cryofuel</def>
 
 								<count>300</count>
@@ -826,7 +826,7 @@
 							<defName>GR_AchievementOnePedeToRuleThemAll</defName>
 							<label>One 'Pede To Rule Them All</label>
 							<description>Create an Archotech Centipede and win the game</description>
-							<tracker Class="AchievementsExpanded.RaceDefTracker">
+							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<kindDefs>
 									<li>
 										<key>GR_ArchotechCentipede</key>
