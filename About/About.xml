@@ -15,6 +15,10 @@
 		</li>
 	</modDependencies>
 	<packageId>sarg.geneticrim</packageId>
+	<loadAfter>
+	   <li>vanillaexpanded.achievements</li>
+     
+    </loadAfter>
 	<description>Extract DNA from animals and hybridize them to create new, exotic species!
 
 &lt;size=24&gt;Features&lt;/size&gt;
