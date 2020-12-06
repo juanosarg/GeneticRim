@@ -34,16 +34,16 @@
 		</comps>
 		<race>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
-			<fleshType>GR_Insectoid</fleshType>
-			<needsRest>false</needsRest>
+			<fleshType>GR_Insectoid</fleshType>			
 			<hasGenders>false</hasGenders>
 			<body>Snake</body>	  
-			<wildness>1</wildness>
+			<canBePredatorPrey>false</canBePredatorPrey>
+			<wildness>0.9</wildness>
 			<baseBodySize>5</baseBodySize>
 			<baseHealthScale>13</baseHealthScale>
 			<lifeExpectancy>0.5</lifeExpectancy>
 			<gestationPeriodDays>100</gestationPeriodDays>
-			<manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
+			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<trainability>Intermediate</trainability>
@@ -85,7 +85,7 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/AberrantFleshbeast/Fleshbeast</texPath>
-					<drawSize>3.0</drawSize>
+					<drawSize>2</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
 						<offset>(0,0,-0.3)</offset>
@@ -93,13 +93,13 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AberrantFleshbeast/Dessicated_Fleshbeast</texPath>
-					<drawSize>3.0</drawSize>
+					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/AberrantFleshbeast/Fleshbeast</texPath>
-					<drawSize>3.0</drawSize>
+					<drawSize>2.5</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
 						<offset>(0,0,-0.3)</offset>
@@ -107,7 +107,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AberrantFleshbeast/Dessicated_Fleshbeast</texPath>
-					<drawSize>3.0</drawSize>
+					<drawSize>2.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
