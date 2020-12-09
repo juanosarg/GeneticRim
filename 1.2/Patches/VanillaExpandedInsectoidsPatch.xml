@@ -97,9 +97,9 @@
 								<li>
 									<filter>
 										<thingDefs>
-											
+
 											<li>GR_InsectoidGenetic</li>
-											
+
 										</thingDefs>
 									</filter>
 									<count>5</count>
@@ -108,9 +108,9 @@
 							<fixedIngredientFilter>
 
 								<thingDefs>
-									
+
 									<li>GR_InsectoidGenetic</li>
-									
+
 								</thingDefs>
 							</fixedIngredientFilter>
 							<products>
@@ -119,8 +119,9 @@
 							<skillRequirements>
 								<Intellectual>5</Intellectual>
 							</skillRequirements>
+							<researchPrerequisite>GR_InsectoidGenomeAdvanced</researchPrerequisite>
 						</RecipeDef>
-						
+
 						<RecipeDef>
 							<defName>GR_RecombineWarriorGenome</defName>
 							<label>recombine warrior genome</label>
@@ -139,9 +140,9 @@
 								<li>
 									<filter>
 										<thingDefs>
-											
+
 											<li>GR_InsectoidGenetic</li>
-											
+
 										</thingDefs>
 									</filter>
 									<count>5</count>
@@ -150,9 +151,9 @@
 							<fixedIngredientFilter>
 
 								<thingDefs>
-									
+
 									<li>GR_InsectoidGenetic</li>
-									
+
 								</thingDefs>
 							</fixedIngredientFilter>
 							<products>
@@ -161,8 +162,9 @@
 							<skillRequirements>
 								<Intellectual>5</Intellectual>
 							</skillRequirements>
+							<researchPrerequisite>GR_InsectoidGenomeAdvanced</researchPrerequisite>
 						</RecipeDef>
-						
+
 						<RecipeDef>
 							<defName>GR_RecombineRoyalGenome</defName>
 							<label>recombine royal genome</label>
@@ -181,9 +183,9 @@
 								<li>
 									<filter>
 										<thingDefs>
-											
+
 											<li>GR_InsectoidGenetic</li>
-											
+
 										</thingDefs>
 									</filter>
 									<count>5</count>
@@ -192,9 +194,9 @@
 							<fixedIngredientFilter>
 
 								<thingDefs>
-									
+
 									<li>GR_InsectoidGenetic</li>
-									
+
 								</thingDefs>
 							</fixedIngredientFilter>
 							<products>
@@ -203,12 +205,50 @@
 							<skillRequirements>
 								<Intellectual>5</Intellectual>
 							</skillRequirements>
+							<researchPrerequisite>GR_InsectoidGenomeAdvanced</researchPrerequisite>
 						</RecipeDef>
+
+						<ResearchProjectDef>
+							<defName>GR_InsectoidGenomeAdvanced</defName>
+							<label>advanced insectoid genome</label>
+							<tab>GR_GeneticReseach</tab>
+							<techLevel>Spacer</techLevel>
+							<description>Research ways to improve existing insectoid genetic material and develop it into specialized insectoids. This opens up experimenting with the bio-engineering lab and Vanilla Factions Expanded - Insectoids.</description>
+							<baseCost>2000</baseCost>
+							<prerequisites>
+								<li>GR_InsectoidGenome</li>
+								<li>GR_AdvancedGeneticEngineering</li>
+							</prerequisites>
+
+							<researchViewX>1</researchViewX>
+							<researchViewY>2</researchViewY>
+						</ResearchProjectDef>
 
 
 
 					</value>
 				</li>	
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VFEI_BioengineeringIncubator"]</xpath>
+					<value>
+						<designationCategory>GR_GeneticsTab</designationCategory>
+					</value>
+				</li>	
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VFEI_BioengineeringIncubator"]/costList</xpath>
+					<value>
+						<GR_OrganicPulp>20</GR_OrganicPulp>
+					</value>
+				</li>				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VFEI_BioengineeringIncubator"]</xpath>
+					<value>
+						<researchPrerequisites><li>GR_InsectoidGenomeAdvanced</li></researchPrerequisites>
+					</value>
+				</li>	
+				
+
 
 
 
