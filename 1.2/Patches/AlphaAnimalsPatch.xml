@@ -13,7 +13,8 @@
 					<value>
 						<li>Corpse_AA_ArcticLion</li>
 						<li>Corpse_AA_SandLion</li>
-
+						<li>Corpse_AA_SandProwler</li>
+						<li>Corpse_AA_PhoenixOwlcat</li>
 
 					</value>
 				</li>
@@ -23,7 +24,8 @@
 					<value>
 						<li>Corpse_AA_ArcticLion</li>
 						<li>Corpse_AA_SandLion</li>
-
+						<li>Corpse_AA_SandProwler</li>
+						<li>Corpse_AA_PhoenixOwlcat</li>
 					</value>
 				</li>
 
@@ -67,7 +69,8 @@
 						<li>Corpse_AA_DesertAve</li>
 						<li>Corpse_AA_NightAve</li>
 						<li>Corpse_AA_FrostAve</li>
-
+						<li>Corpse_AA_PhoenixOwlcat</li>
+						<li>Corpse_AA_FlamingoPhoenix</li>
 					</value>
 				</li>
 
@@ -79,6 +82,8 @@
 						<li>Corpse_AA_DesertAve</li>
 						<li>Corpse_AA_NightAve</li>
 						<li>Corpse_AA_FrostAve</li>
+						<li>Corpse_AA_PhoenixOwlcat</li>
+						<li>Corpse_AA_FlamingoPhoenix</li>
 
 					</value>
 				</li>
@@ -111,6 +116,10 @@
 						<li>Corpse_AA_FireWasp</li>
 						<li>Corpse_AA_AngelMoth</li>
 						<li>Corpse_AA_ChemfuelMyrmidon</li>
+						<li>Corpse_AA_Animalisk</li>
+						<li>Corpse_AA_DrainerLarva</li>
+						<li>Corpse_AA_Drainer</li>
+						<li>Corpse_AA_LuciferBug</li>
 					</value>
 				</li>
 
@@ -142,6 +151,10 @@
 						<li>Corpse_AA_FireWasp</li>
 						<li>Corpse_AA_AngelMoth</li>
 						<li>Corpse_AA_ChemfuelMyrmidon</li>
+						<li>Corpse_AA_Animalisk</li>
+						<li>Corpse_AA_DrainerLarva</li>
+						<li>Corpse_AA_Drainer</li>
+						<li>Corpse_AA_LuciferBug</li>
 					</value>
 				</li>	
 

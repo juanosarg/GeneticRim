@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Anima Animals</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesThrumbo"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Corpse_AnimaThrumbo</li>
+						
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesThrumbo"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						
+						<li>Corpse_AnimaThrumbo</li>
+
+
+					</value>
+				</li>	
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesWolf"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Corpse_AnimaWarg</li>
+						
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesWolf"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						
+						<li>Corpse_AnimaWarg</li>
+
+
+					</value>
+				</li>	
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBear"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Corpse_AnimaBear</li>
+						
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBear"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						
+						<li>Corpse_AnimaBear</li>
+
+
+					</value>
+				</li>	
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMuffalo"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Corpse_AnimaYak</li>
+						
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMuffalo"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						
+						<li>Corpse_AnimaYak</li>
+
+
+					</value>
+				</li>	
+
+				
+
+
+
+
+
+
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
