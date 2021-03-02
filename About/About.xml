@@ -17,7 +17,7 @@
 	<packageId>sarg.geneticrim</packageId>
 	<loadAfter>
 	   <li>vanillaexpanded.achievements</li>
-     
+	   <li>erdelf.HumanoidAlienRaces</li>    
     </loadAfter>
 	<description>Extract DNA from animals and hybridize them to create new, exotic species!
 

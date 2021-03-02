@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Humanoid Alien Races 2.0</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
+					<value>
+
+						<li>
+							<path>ui/Empty/Empty</path>
+							<bodyPart>left ear</bodyPart>
+							<inFrontOfBody>true</inFrontOfBody>
+							<layerOffset>-0.27</layerOffset>							
+							<shaderType>CutoutSkin</shaderType>
+							<colorChannel>base</colorChannel>
+							<hediffGraphics>
+								<GR_BunnyEars>Things/Pawn/Human/BodyParts/GR_BunnyEar_Left_south</GR_BunnyEars>								
+							</hediffGraphics>
+							<offsets>
+								<south>
+									<bodyTypes>
+										<Male>(-0.42,0.65)</Male>
+										<Female>(-0.42,0.65)</Female>
+										<Thin>(-0.42,0.65)</Thin>
+										<Hulk>(-0.42,0.65)</Hulk>
+										<Fat>(-0.42,0.65)</Fat>
+									</bodyTypes>
+									<crownTypes>
+										<Average_Wide>(-0.01,0.005)</Average_Wide>
+										<Average_Pointy>(0,0.005)</Average_Pointy>
+									</crownTypes>
+								</south>
+								<north>
+									<bodyTypes>
+										<Male>(-0.42,-0.65)</Male>
+										<Female>(-0.42,-0.65)</Female>
+										<Thin>(-0.42,-0.65)</Thin>
+										<Hulk>(-0.42,-0.65)</Hulk>
+										<Fat>(-0.42,-0.65)</Fat>
+									</bodyTypes>
+									<crownTypes>
+										<Average_Wide>(-0.01,0.005)</Average_Wide>
+										<Average_Pointy>(0,0.005)</Average_Pointy>
+									</crownTypes>
+								</north>
+								<east>
+									<bodyTypes>
+										<Male>(-0.46,0.65)</Male>
+										<Female>(-0.52,0.65)</Female>
+										<Thin>(-0.51,0.65)</Thin>
+										<Hulk>(-0.52,0.65)</Hulk>
+										<Fat>(-0.51,0.65)</Fat>
+									</bodyTypes>
+									<crownTypes>
+										<Average_Wide>(-0.01,0)</Average_Wide>
+										<Average_Pointy>(0.01,0)</Average_Pointy>
+										<Narrow_Normal>(0.07,-0.05)</Narrow_Normal>
+										<Narrow_Wide>(0.07,-0.05)</Narrow_Wide>
+										<Narrow_Pointy>(0.07,-0.06)</Narrow_Pointy>
+									</crownTypes>
+								</east>
+							</offsets>
+						</li>
+						<li>
+							<path>ui/Empty/Empty</path>
+							<bodyPart>right ear</bodyPart>
+							<inFrontOfBody>true</inFrontOfBody>
+							<layerOffset>-0.27</layerOffset>	
+<colorChannel>base</colorChannel>							
+							<shaderType>CutoutSkin</shaderType>
+							<hediffGraphics>
+								<GR_BunnyEars>Things/Pawn/Human/BodyParts/GR_BunnyEar_Right_south</GR_BunnyEars>								
+							</hediffGraphics>
+							<offsets>
+								<south>
+									<bodyTypes>
+										<Male>(-0.42,-0.65)</Male>
+										<Female>(-0.42,-0.65)</Female>
+										<Thin>(-0.42,-0.65)</Thin>
+										<Hulk>(-0.42,-0.65)</Hulk>
+										<Fat>(-0.42,-0.65)</Fat>
+									</bodyTypes>
+									<crownTypes>
+										<Average_Wide>(-0.01,0.005)</Average_Wide>
+										<Average_Pointy>(0,0.005)</Average_Pointy>
+									</crownTypes>
+								</south>
+								<north>
+								<bodyTypes>
+										<Male>(-0.42,-0.65)</Male>
+										<Female>(-0.42,-0.65)</Female>
+										<Thin>(-0.42,-0.65)</Thin>
+										<Hulk>(-0.42,-0.65)</Hulk>
+										<Fat>(-0.42,-0.65)</Fat>
+									</bodyTypes>
+									<crownTypes>
+										<Average_Wide>(-0.01,0.005)</Average_Wide>
+										<Average_Pointy>(0,0.005)</Average_Pointy>
+									</crownTypes>
+								</north>
+								<east>
+									<bodyTypes>
+										<Male>(-0.46,-0.65)</Male>
+										<Female>(-0.52,-0.65)</Female>
+										<Thin>(-0.51,-0.65)</Thin>
+										<Hulk>(-0.52,-0.65)</Hulk>
+										<Fat>(-0.51,-0.65)</Fat>
+									</bodyTypes>
+									<crownTypes>
+										<Average_Wide>(-0.01,0)</Average_Wide>
+										<Average_Pointy>(0.01,0)</Average_Pointy>
+										<Narrow_Normal>(0.07,-0.05)</Narrow_Normal>
+										<Narrow_Wide>(0.07,-0.05)</Narrow_Wide>
+										<Narrow_Pointy>(0.07,-0.06)</Narrow_Pointy>
+									</crownTypes>
+								</east>
+							</offsets>
+						</li>
+
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
